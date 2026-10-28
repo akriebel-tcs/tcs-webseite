@@ -4,6 +4,7 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig(() => ({
+  define: { "import.meta.env.VITE_BUILD_TIME": JSON.stringify(String(Date.now())) },
   server: {
     host: "::",
     port: 8080,
