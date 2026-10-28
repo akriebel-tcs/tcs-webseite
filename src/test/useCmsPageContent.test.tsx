@@ -7,6 +7,9 @@
  * dieselben Objekte benutzt wie die Tests.
  */
 import { describe, it, expect, beforeEach, vi } from "vitest";
+
+// Diese Tests pruefen den CMS-Light-Lesepfad (Supabase); Standardquelle ist sonst Storyblok.
+vi.stubEnv("VITE_CONTENT_SOURCE", "supabase");
 import { renderHook, act, waitFor } from "@testing-library/react";
 import { useCmsPageContent, buildSectionTree } from "@/features/cms/hooks/useCmsPageContent";
 import { resetLocaleRegistryCache } from "@/i18n/localeRegistry";

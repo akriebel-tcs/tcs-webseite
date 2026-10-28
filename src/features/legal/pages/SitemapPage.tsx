@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import PageLayout from "@/components/PageLayout";
 import { useCmsI18n } from "@/features/cms/hooks/useCmsI18n";
 import { getCmsSupabaseClient } from "@/lib/cmsSupabase/client";
+import { isStoryblokSource } from "@/lib/content/source";
 import {
   readNavigationNodes,
   type NavArea,
@@ -176,6 +177,25 @@ const SitemapPage = () => {
   useEffect(() => {
     let alive = true;
     (async () => {
+      if (isStoryblokSource()) {
+        try {
+          const { readPageIndex } = await import("@/lib/storyblok/siteIndex");
+          const index = await readPageIndex();
+          if (!alive) return;
+          setPages(
+            index.map((p) => ({
+              page_key: p.page_key,
+              route_path: p.route_path,
+              title_de: p.titles.de ?? p.name,
+              title_en: p.titles.en ?? null,
+              title_pl: p.titles.pl ?? null,
+            })),
+          );
+        } catch {
+          /* fail-soft */
+        }
+        return;
+      }
       try {
         const sb = getCmsSupabaseClient();
         const { data } = await sb
@@ -207,6 +227,40 @@ const SitemapPage = () => {
   useEffect(() => {
     let alive = true;
     (async () => {
+      if (isStoryblokSource()) {
+        try {
+          const { readNavigationNodes: readFromStoryblok } = await import("@/lib/storyblok/siteIndex");
+          const nodes = await readFromStoryblok();
+          if (!alive) return;
+          setAllNodes(
+            nodes.map((n) => ({
+              id: n.id,
+              node_no: null,
+              nav_area: n.nav_area as NavArea,
+              node_key: n.node_key,
+              parent_id: null,
+              parent_node_key: n.parent_node_key,
+              page_key: n.page_key,
+              label: n.labels.de ?? null,
+              label_de: n.labels.de ?? null,
+              label_en: n.labels.en ?? null,
+              label_pl: n.labels.pl ?? null,
+              description_de: n.descriptions.de ?? null,
+              description_en: n.descriptions.en ?? null,
+              node_type: n.node_type,
+              external_url: n.external_url,
+              route_path: n.route_path,
+              sort_order: n.sort_order,
+              is_active: n.is_active,
+              show_in_public_nav: n.show_in_public_nav,
+              labels: n.labels,
+            }) as unknown as NavigationNodeRow),
+          );
+        } catch {
+          /* fail-soft */
+        }
+        return;
+      }
       const bundle = await readNavigationNodes();
       if (!alive) return;
       setAllNodes(bundle.nodes);

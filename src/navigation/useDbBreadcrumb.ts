@@ -22,6 +22,7 @@ import {
   isCmsSupabaseConfigured,
 } from "@/lib/cmsSupabase/client";
 import { pickNavText } from "@/navigation/localizedNav";
+import { isStoryblokSource } from "@/lib/content/source";
 
 export interface DbBreadcrumbCrumb {
   node_key: string;
@@ -52,7 +53,35 @@ export function useDbBreadcrumb(pathname: string): State {
   useEffect(() => {
     let cancelled = false;
     (async () => {
-      if (!isCmsSupabaseConfigured() || !pathname || pathname === "/") {
+      if (!pathname || pathname === "/") {
+        setState({ crumbs: EMPTY, ready: true, error: null });
+        return;
+      }
+      if (isStoryblokSource()) {
+        try {
+          const { resolveBreadcrumb } = await import("@/lib/storyblok/siteIndex");
+          const chain = await resolveBreadcrumb(pathname);
+          if (cancelled) return;
+          setState({
+            crumbs: chain.map((n) => ({
+              node_key: n.node_key,
+              page_key: n.page_key,
+              label_de: n.labels.de ?? null,
+              label_en: n.labels.en ?? null,
+              label_pl: n.labels.pl ?? null,
+              labels: n.labels,
+              route_path: n.route_path,
+            })),
+            ready: true,
+            error: null,
+          });
+        } catch (e) {
+          if (cancelled) return;
+          setState({ crumbs: EMPTY, ready: true, error: e instanceof Error ? e.message : "unknown" });
+        }
+        return;
+      }
+      if (!isCmsSupabaseConfigured()) {
         setState({ crumbs: EMPTY, ready: true, error: null });
         return;
       }

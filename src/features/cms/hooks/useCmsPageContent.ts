@@ -18,6 +18,10 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { appLocaleChain, normalizeAppLocale, type AppLocale } from "@/i18n/locale";
 import { cachedLocaleRegistry, localeChainFromRegistry, readLocaleRegistry } from "@/i18n/localeRegistry";
+import { isStoryblokSource } from "@/lib/content/source";
+import type { AssetRow, FieldRow, PageRows, RawSectionRow, Viewport } from "@/lib/content/rows";
+
+export type { Viewport };
 
 /**
  * Rückfallkette: bevorzugt die in `cms_locales` gepflegte Kette, solange das
@@ -30,28 +34,6 @@ const localeChain = (locale: AppLocale): readonly AppLocale[] => {
 
 type Locale = AppLocale;
 
-interface FieldRow {
-  section_key: string;
-  field_key: string;
-  locale: Locale;
-  value: string | null;
-  /** 'geprueft' | 'maschinell' | 'maschinell_veraltet' — veraltete Maschinenwerte werden nicht ausgespielt. */
-  review_status?: string | null;
-}
-
-export type Viewport = "mobile" | "tablet" | "desktop";
-
-interface AssetRow {
-  section_key: string;
-  field_key: string | null;
-  public_url: string | null;
-  alt_de: string | null;
-  alt_en: string | null;
-  alt_pl: string | null;
-  viewport: Viewport | null;
-  /** Vertikale Übersetzungen (führend). */
-  cms_asset_translations?: Array<{ locale: string | null; alt_text: string | null }> | null;
-}
 
 /** Bildschirmgrößen-Set eines Bild-Slots. Leer = kein DB-Bild. */
 export interface AssetSet {
@@ -74,6 +56,8 @@ interface SectionRow {
   /** Nur gesetzt für Kind-Sections (z. B. card_v1 unter product-scroller). */
   parent_section_key?: string | null;
   section_type?: string | null;
+  /** Storyblok Visual Editor: `_editable`-Kommentar (nur Vorschau). */
+  editable?: string | null;
 }
 
 export interface CmsPageContent {
@@ -163,14 +147,6 @@ async function readAllCmsRows<T>(
   }
 }
 
-interface RawSectionRow {
-  id: string;
-  section_key: string;
-  section_type: string | null;
-  sort_order: number;
-  parent_section_id: string | null;
-}
-
 /**
  * Nur echte Wurzeln (`parent_section_id IS NULL`) und deren Nachkommen mit
  * durchgehend vorhandener, sichtbarer Elternkette. Iterativ und endlich:
@@ -215,9 +191,74 @@ export function buildSectionTree(rows: RawSectionRow[]): SectionRow[] {
       parent_section_key: r.parent_section_id
         ? byId.get(r.parent_section_id)?.section_key ?? null
         : null,
+      editable: r.editable ?? null,
     }));
 }
 
+
+/** CMS-Light (Supabase): drei Tabellen je page_key, vollstaendig geblaettert. */
+async function loadPageRowsFromSupabase(pageKey: string): Promise<PageRows> {
+  const mod = await import("@/lib/cmsSupabase/client");
+  if (!mod.isCmsSupabaseConfigured()) throw new Error("unconfigured");
+  const sb = mod.getCmsSupabaseClient();
+
+  // Jede geblätterte Abfrage braucht eine eindeutige Sortierung
+  // (fachliche Reihenfolge + `id`), damit keine Zeile doppelt oder gar
+  // nicht gelesen wird.
+  const [fields, assets, sections] = await Promise.all([
+    readAllCmsRows<FieldRow>("cms_section_fields", async (from, to) =>
+      await sb
+        .from("cms_section_fields")
+        .select("section_key, field_key, locale, value, review_status")
+        .eq("page_key", pageKey)
+        .order("section_key", { ascending: true })
+        .order("field_key", { ascending: true })
+        .order("locale", { ascending: true })
+        .order("id", { ascending: true })
+        .range(from, to),
+    ),
+    readAllCmsRows<AssetRow>("cms_assets", async (from, to) =>
+      await sb
+        .from("cms_assets")
+        .select(
+          "section_key, field_key, public_url, alt_de, alt_en, alt_pl, viewport, cms_asset_translations(locale, alt_text)",
+        )
+        .eq("page_key", pageKey)
+        .eq("is_active", true)
+        .order("section_key", { ascending: true })
+        .order("sort_order", { ascending: true })
+        .order("id", { ascending: true })
+        .range(from, to),
+    ),
+    readAllCmsRows<RawSectionRow>("cms_sections", async (from, to) =>
+      await sb
+        .from("cms_sections")
+        .select("id, section_key, section_type, sort_order, parent_section_id")
+        .eq("page_key", pageKey)
+        .eq("is_active", true)
+        .order("sort_order", { ascending: true })
+        .order("id", { ascending: true })
+        .range(from, to),
+    ),
+  ]);
+  return { fields, assets, sections };
+}
+
+/** Storyblok: eine Story (Content-Type `page`) je page_key, zu Zeilen abgeflacht. */
+async function loadPageRowsFromStoryblok(pageKey: string): Promise<PageRows> {
+  const client = await import("@/lib/storyblok/client");
+  if (!client.isStoryblokConfigured()) throw new Error("unconfigured");
+  const { flattenPageContent } = await import("@/lib/storyblok/flatten");
+  const stories = await client.fetchPagesByPageKeys(["" + pageKey]);
+  const story = stories.find((s) => s.content?.page_key === pageKey) ?? stories[0];
+  if (!story) return { fields: [], assets: [], sections: [] };
+  return flattenPageContent(story.content);
+}
+
+/** Zeilen einer Seite aus der konfigurierten Inhalte-Quelle. */
+export async function loadPageRows(pageKey: string): Promise<PageRows> {
+  return isStoryblokSource() ? loadPageRowsFromStoryblok(pageKey) : loadPageRowsFromSupabase(pageKey);
+}
 
 interface LoadState {
   /** Seite, zu der die Daten gehören. Nie mit einer anderen Seite mischen. */
@@ -282,74 +323,61 @@ export function useCmsPageContent(pageKey: string | null | undefined): CmsPageCo
 
     (async () => {
       try {
-        // Lazy geladen, damit ein Konfigurationsfehler nicht beim Modul-Import
-        // der Seite auftritt. Der Modulcache der Laufzeit greift von selbst.
-        const mod = await import("@/lib/cmsSupabase/client");
+        const rows = await loadPageRows(pageKey);
         if (!isCurrent()) return;
-        if (!mod.isCmsSupabaseConfigured()) {
-          setState({ ...INITIAL_STATE, pageKey, loading: false, error: "unconfigured" });
-          return;
-        }
-        const sb = mod.getCmsSupabaseClient();
-
-        // Jede geblätterte Abfrage braucht eine eindeutige Sortierung
-        // (fachliche Reihenfolge + `id`), damit keine Zeile doppelt oder gar
-        // nicht gelesen wird.
-        const [fieldRows, assetRows, sectionRows] = await Promise.all([
-          readAllCmsRows<FieldRow>("cms_section_fields", async (from, to) =>
-            await sb
-              .from("cms_section_fields")
-              .select("section_key, field_key, locale, value, review_status")
-              .eq("page_key", pageKey)
-              .order("section_key", { ascending: true })
-              .order("field_key", { ascending: true })
-              .order("locale", { ascending: true })
-              .order("id", { ascending: true })
-              .range(from, to),
-          ),
-          readAllCmsRows<AssetRow>("cms_assets", async (from, to) =>
-            await sb
-              .from("cms_assets")
-              .select(
-                "section_key, field_key, public_url, alt_de, alt_en, alt_pl, viewport, cms_asset_translations(locale, alt_text)",
-              )
-              .eq("page_key", pageKey)
-              .eq("is_active", true)
-              .order("section_key", { ascending: true })
-              .order("sort_order", { ascending: true })
-              .order("id", { ascending: true })
-              .range(from, to),
-          ),
-          readAllCmsRows<RawSectionRow>("cms_sections", async (from, to) =>
-            await sb
-              .from("cms_sections")
-              .select("id, section_key, section_type, sort_order, parent_section_id")
-              .eq("page_key", pageKey)
-              .eq("is_active", true)
-              .order("sort_order", { ascending: true })
-              .order("id", { ascending: true })
-              .range(from, to),
-          ),
-        ]);
-
-        if (!isCurrent()) return;
-        // Erst wenn alle drei Ressourcen vollständig gelesen sind, wird die
+        // Erst wenn alle Ressourcen vollständig gelesen sind, wird die
         // Seite als Ganzes übernommen — kein Teilergebnis.
         setState({
           pageKey,
-          fields: fieldRows,
-          assets: assetRows,
-          sections: buildSectionTree(sectionRows),
+          fields: rows.fields,
+          assets: rows.assets,
+          sections: buildSectionTree(rows.sections),
           loading: false,
           error: null,
         });
       } catch (err) {
-        console.warn("[useCmsPageContent] read failed, falling back to code/i18n:", err);
         if (!isCurrent()) return;
+        if (err instanceof Error && err.message === "unconfigured") {
+          setState({ ...INITIAL_STATE, pageKey, loading: false, error: "unconfigured" });
+          return;
+        }
+        console.warn("[useCmsPageContent] read failed, falling back to code/i18n:", err);
         setState({ ...INITIAL_STATE, pageKey, loading: false, error: "read_failed" });
       }
     })();
 
+  }, [pageKey]);
+
+  // Storyblok Visual Editor: Eingaben im Editor sofort uebernehmen (nur Vorschau).
+  useEffect(() => {
+    if (!pageKey || !isStoryblokSource()) return;
+    let unsubscribe: (() => void) | null = null;
+    let cancelled = false;
+    (async () => {
+      const client = await import("@/lib/storyblok/client");
+      if (cancelled || !client.isPreviewMode()) return;
+      const [{ onStoryInput }, { flattenPageContent }] = await Promise.all([
+        import("@/lib/storyblok/bridge"),
+        import("@/lib/storyblok/flatten"),
+      ]);
+      if (cancelled) return;
+      unsubscribe = onStoryInput((story) => {
+        if (!mountedRef.current || story.content?.page_key !== pageKey) return;
+        const rows = flattenPageContent(story.content);
+        setState({
+          pageKey,
+          fields: rows.fields,
+          assets: rows.assets,
+          sections: buildSectionTree(rows.sections),
+          loading: false,
+          error: null,
+        });
+      });
+    })();
+    return () => {
+      cancelled = true;
+      unsubscribe?.();
+    };
   }, [pageKey]);
 
   return useMemo<CmsPageContent>(() => {

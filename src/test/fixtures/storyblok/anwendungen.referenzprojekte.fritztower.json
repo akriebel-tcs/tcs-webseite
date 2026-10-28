@@ -1,0 +1,297 @@
+{
+ "name": "Fritztower, Berlin",
+ "slug": "fritztower",
+ "is_startpage": false,
+ "parent_folder_path": "anwendungen/referenzprojekte",
+ "publish": true,
+ "legacy": {
+  "page_key": "anwendungen.referenzprojekte.fritztower",
+  "route_path": "/anwendungen/referenzprojekte/fritztower",
+  "status": "published",
+  "is_active": true,
+  "page_no": 243,
+  "updated_at": "2026-09-11T21:46:29.286635+00:00"
+ },
+ "content": {
+  "component": "page",
+  "page_key": "anwendungen.referenzprojekte.fritztower",
+  "page_type": "T05",
+  "title": "Fritztower, Berlin",
+  "page_no": "243",
+  "title__i18n__en": "Fritztower, Berlin",
+  "title__i18n__pl": "Fritztower, Berlin",
+  "title__i18n__cs": "Fritztower, Berlín",
+  "title__i18n__nl": "Fritztower, Berlijn",
+  "body": [
+   {
+    "_uid": "5c8d4b4c-a3fb-4cab-b494-943866868218",
+    "component": "hero_v1",
+    "section_key": "hero",
+    "section_uid": "1126",
+    "eyebrow": "Wohnhochhaus",
+    "eyebrow__i18n__cs": "Výškový bytový dům",
+    "eyebrow__i18n__nl": "Woontoren",
+    "eyebrow__i18n__en": "Residential High-Rise",
+    "eyebrow__i18n__pl": "Wieżowiec mieszkalny",
+    "headline": "Fritztower, Berlin",
+    "headline__i18n__cs": "Fritztower, Berlín",
+    "headline__i18n__nl": "Fritztower, Berlijn",
+    "headline__i18n__en": "Fritztower, Berlin",
+    "headline__i18n__pl": "Fritztower, Berlin",
+    "subline": "Hochhaus-Projekt mit 35 Etagen – TCS-Systeme für Türkommunikation und Gebäudemanagement auf allen Ebenen.",
+    "subline__i18n__nl": "Hoogbouwproject met 35 verdiepingen – TCS-systemen voor deurcommunicatie en gebouwbeheer op alle niveaus.",
+    "subline__i18n__pl": "Projekt wieżowca z 35 piętrami – systemy TCS do komunikacji drzwiowej i zarządzania budynkiem na wszystkich poziomach.",
+    "subline__i18n__en": "High-rise project with 35 floors – TCS systems for door communication and building management on every level.",
+    "subline__i18n__cs": "Projekt výškové budovy o 35 podlažích – systémy TCS pro dveřní komunikaci a správu budov na všech úrovních.",
+    "legacy_fields": "{\"label\": {\"pl\": \"Projekty referencyjne\", \"nl\": \"Referentieprojecten\", \"cs\": \"Referenční projekty\", \"de\": \"Referenzprojekte\", \"en\": \"Reference projects\"}, \"meta_year\": {\"en\": \"2023\", \"de\": \"2023\"}, \"back_label\": {\"nl\": \"Alle referentieprojecten\", \"en\": \"All reference projects\", \"cs\": \"Všechny referenční projekty\", \"pl\": \"Wszystkie projekty referencyjne\", \"de\": \"Alle Referenzprojekte\"}, \"meta_label_location\": {\"de\": \"Standort\", \"en\": \"Location\"}, \"description\": {\"pl\": \"Projekt wieżowca z 35 piętrami – systemy TCS do komunikacji drzwiowej i zarządzania budynkiem na wszystkich poziomach.\", \"nl\": \"Hoogbouwproject met 35 verdiepingen – TCS-systemen voor deurcommunicatie en gebouwbeheer op alle niveaus.\", \"en\": \"High-rise project with 35 floors – TCS systems for door communication and building management on every level.\", \"de\": \"Hochhaus-Projekt mit 35 Etagen – TCS-Systeme für Türkommunikation und Gebäudemanagement auf allen Ebenen.\", \"cs\": \"Projekt výškové budovy o 35 podlažích – systémy TCS pro dveřní komunikaci a správu budov na všech úrovních.\"}, \"meta_label_units\": {\"de\": \"Umfang\", \"en\": \"Scope\"}, \"subheadline\": {\"en\": \"Text\", \"de\": \"Text\"}, \"meta_location\": {\"de\": \"Berlin-Tiergarten\", \"en\": \"Berlin-Tiergarten\"}, \"meta_units\": {\"de\": \"20 Etagen, 266 Apartments\", \"en\": \"20 floors, 266 apartments\"}, \"meta_label_type\": {\"en\": \"Building type\", \"de\": \"Gebäudetyp\"}, \"meta_label_year\": {\"en\": \"Completion\", \"de\": \"Fertigstellung\"}, \"meta_title\": {\"en\": \"Project data\", \"de\": \"Projektdaten\"}}",
+    "image": {
+     "fieldtype": "asset",
+     "filename": "https://uvkubrrljyzfvbvejepl.supabase.co/storage/v1/object/public/cms-assets/anwendungen.referenzprojekte.fritztower/hero/image/desktop/1788248179986-Web_Hero_Bildformat_3840_x_1360px_Referenz_Fritztower.jpg",
+     "alt": "",
+     "title": "Web_Hero_Bildformat_3840 x 1360px_Referenz_Fritztower.jpg",
+     "focus": "",
+     "meta_data": {
+      "legacy_asset_id": "d89d9efc-78d7-4e11-9c78-bfe2c889a623",
+      "storage_path": "anwendungen.referenzprojekte.fritztower/hero/image/desktop/1788248179986-Web_Hero_Bildformat_3840_x_1360px_Referenz_Fritztower.jpg"
+     }
+    }
+   },
+   {
+    "_uid": "30ad3422-4b14-4d28-9559-8305d4978832",
+    "component": "content_v1",
+    "section_key": "beschreibung",
+    "section_uid": "1127",
+    "text": "Der Fritztower ist mit 266 Apartments und mehr als 20 Etagen eines der höchsten Wohngebäude Berlins. Das markante Hochhaus am Tiergarten setzt Maßstäbe für modernes urbanes Wohnen.\n\nDie besondere Herausforderung bestand darin, ein einheitliches Kommunikations- und Zutrittssystem über alle Etagen und  Apartments zu implementieren. TCS hat hierfür eine skalierbare IP-Lösung konzipiert.\n\nAlle Apartments werden über die IP-Außenstation, die flächenbündig in die Fassadenelemente verbaut wurde, per App gerufen. Die Front der ENTRY Außenstation ist aus gebürstetem Edelstahl gefertigt und mit Kamera, Pförtnerfunktion und Transponderleser ausgestattet. ",
+    "text__i18n__nl": "De Fritztower is met 266 appartementen en meer dan 20 verdiepingen een van de hoogste woongebouwen van Berlijn. De markante woontoren aan de Tiergarten zet de standaard voor modern stedelijk wonen.\n\nDe bijzondere uitdaging was om een uniform communicatie- en toegangssysteem te implementeren voor alle verdiepingen en appartementen. TCS heeft hiervoor een schaalbare IP-oplossing ontworpen.\n\nAlle appartementen worden via het IP-buitenstation, dat vlak in de gevelelementen is ingebouwd, via een app opgeroepen. Het front van het ENTRY-buitenstation is vervaardigd uit geborsteld roestvrij staal en uitgerust met camera, portiersfunctie en transponderlezer.",
+    "text__i18n__cs": "Fritztower je s 266 apartmány a více než 20 patry jednou z nejvyšších obytných budov v Berlíně. Tato výrazná výšková budova u parku Tiergarten stanovuje nová měřítka pro moderní městské bydlení.\n\nZvláštní výzvou byla implementace jednotného komunikačního a přístupového systému napříč všemi patry a apartmány. Společnost TCS pro tento účel navrhla škálovatelné IP řešení.\n\nVšechny apartmány jsou volány přes aplikaci prostřednictvím venkovní IP stanice, která byla lícově zabudována do fasádních prvků. Čelní panel venkovní stanice ENTRY je vyroben z kartáčované nerezové oceli a vybaven kamerou, funkcí vrátného a čtečkou transpondérů.",
+    "text__i18n__en": "With 266 apartments and more than 20 floors, the Fritztower is one of Berlin's tallest residential buildings. This striking high-rise at the Tiergarten sets standards for modern urban living.\n\nThe particular challenge was to implement a unified communication and access control system across all floors and apartments. TCS designed a scalable IP solution for this purpose.\n\nAll apartments are called via the IP outdoor station, which was flush-mounted into the facade elements, using an app. The front of the ENTRY outdoor station is made of brushed stainless steel and equipped with a camera, concierge function, and transponder reader.",
+    "text__i18n__pl": "Fritztower z 266 apartamentami i ponad 20 piętrami jest jednym z najwyższych budynków mieszkalnych w Berlinie. Ten charakterystyczny wieżowiec przy Tiergarten wyznacza standardy nowoczesnego mieszkalnictwa miejskiego.\n\nSzczególnym wyzwaniem było wdrożenie jednolitego systemu komunikacji i kontroli dostępu na wszystkich piętrach i we wszystkich apartamentach. Firma TCS zaprojektowała w tym celu skalowalne rozwiązanie IP.\n\nDo wszystkich apartamentów realizowane są wywołania na aplikację z zewnętrznej stacji IP, zlicowanej z elementami elewacji. Front zewnętrznej stacji ENTRY wykonany jest ze szczotkowanej stali nierdzewnej i wyposażony w kamerę, funkcję portiera oraz czytnik transponderów.",
+    "title": "Projektbeschreibung",
+    "title__i18n__pl": "Opis projektu",
+    "title__i18n__nl": "Projectbeschrijving",
+    "title__i18n__cs": "Popis projektu",
+    "title__i18n__en": "Project description",
+    "legacy_fields": "{\"body\": {\"en\": \"With 35 floors, the Fritztower is one of the tallest residential buildings in Berlin. The striking high-rise at Tiergarten sets standards for modern urban living.\\n\\nThe particular challenge was to implement a uniform communication and access system across all 35 floors and 375 apartments. To this end, TCS designed a scalable BUS solution.\\n\\nThe TCS building management system networks all access points centrally and enables efficient administration. The concierge function in the entrance area complements the technical infrastructure.\", \"de\": \"Der Fritztower ist mit 35 Etagen eines der höchsten Wohngebäude Berlins. Das markante Hochhaus am Tiergarten setzt Maßstäbe für modernes urbanes Wohnen.\\n\\nDie besondere Herausforderung bestand darin, ein einheitliches Kommunikations- und Zutrittssystem über alle 35 Etagen und 375 Apartments zu implementieren. TCS hat hierfür eine skalierbare BUS-Lösung konzipiert.\\n\\nDas Gebäudemanagement-System von TCS vernetzt alle Zugangspunkte zentral und ermöglicht eine effiziente Verwaltung. Die Concierge-Funktion im Eingangsbereich ergänzt die technische Infrastruktur.\"}, \"intro\": {\"cs\": \"Projekt výškové budovy o 35 podlažích – systémy TCS pro dveřní komunikaci a správu budov na všech úrovních.\", \"en\": \"High-rise project with 35 floors – TCS systems for door communication and building management on every level.\", \"de\": \"Hochhaus-Projekt mit 35 Etagen – TCS-Systeme für Türkommunikation und Gebäudemanagement auf allen Ebenen.\", \"nl\": \"Hoogbouwproject met 35 verdiepingen – TCS-systemen voor deurcommunicatie en gebouwbeheer op alle niveaus.\", \"pl\": \"Projekt wieżowca z 35 piętrami – systemy TCS do komunikacji drzwiowej i zarządzania budynkiem na wszystkich poziomach.\"}}"
+   },
+   {
+    "_uid": "f70aac0c-28bb-4c33-81e3-c755883d5735",
+    "component": "list_v1",
+    "section_key": "highlights",
+    "section_uid": "1128",
+    "title": "Highlights",
+    "title__i18n__en": "Highlights",
+    "title__i18n__cs": "To nejlepší",
+    "title__i18n__pl": "Najważniejsze zalety",
+    "title__i18n__nl": "Highlights",
+    "items": "35-Etagen-Hochhaus-Lösung\n375 vernetzte Apartments\nConcierge-Integration\nZentrales Gebäudemanagement",
+    "items__i18n__en": "35-floor high-rise solution\n375 networked apartments\nConcierge integration\nCentral building management"
+   },
+   {
+    "_uid": "a932f8cf-fedd-4bcb-a22e-c0c6c10927e0",
+    "component": "list_v1",
+    "section_key": "systems",
+    "section_uid": "1129",
+    "title": "Eingesetzte Systeme",
+    "title__i18n__cs": "Použité systémy",
+    "title__i18n__nl": "Toegepaste systemen",
+    "title__i18n__pl": "Zastosowane systemy",
+    "title__i18n__en": "Systems used",
+    "items": "TCS:BUS-System\nVideo-Sprechanlagen\nConcierge-System\nGebäudemanagement-Software",
+    "items__i18n__en": "TCS:BUS system\nVideo intercom systems\nConcierge system\nBuilding management software"
+   },
+   {
+    "_uid": "8aa379d5-a085-41c1-bd16-b623bf5c26e3",
+    "component": "content_v1",
+    "section_key": "gallery",
+    "section_uid": "1439",
+    "gallery": [
+     {
+      "fieldtype": "asset",
+      "filename": "https://uvkubrrljyzfvbvejepl.supabase.co/storage/v1/object/public/cms-assets/anwendungen.referenzprojekte.fritztower/gallery/img_0/desktop/1788250202619-_Web_Teaser_Bildformat_1812_x_1360px_Referenz_Fritz-1.jpg",
+      "alt": "",
+      "title": "*Web_Teaser_Bildformat_1812 x 1360px_Referenz_Fritz-1.jpg",
+      "focus": "",
+      "meta_data": {
+       "legacy_asset_id": "c0bee66c-31fb-4815-8361-aee3e807a185",
+       "storage_path": "anwendungen.referenzprojekte.fritztower/gallery/img_0/desktop/1788250202619-_Web_Teaser_Bildformat_1812_x_1360px_Referenz_Fritz-1.jpg"
+      }
+     },
+     {
+      "fieldtype": "asset",
+      "filename": "https://uvkubrrljyzfvbvejepl.supabase.co/storage/v1/object/public/cms-assets/anwendungen.referenzprojekte.fritztower/gallery/img_1/desktop/1788250212292-_Web_Teaser_Bildformat_1812_x_1360px_Referenz_Fritz-2.jpg",
+      "alt": "",
+      "title": "*Web_Teaser_Bildformat_1812 x 1360px_Referenz_Fritz-2.jpg",
+      "focus": "",
+      "meta_data": {
+       "legacy_asset_id": "3bd01954-8536-4d73-a730-5decc56d7d9b",
+       "storage_path": "anwendungen.referenzprojekte.fritztower/gallery/img_1/desktop/1788250212292-_Web_Teaser_Bildformat_1812_x_1360px_Referenz_Fritz-2.jpg"
+      }
+     },
+     {
+      "fieldtype": "asset",
+      "filename": "https://uvkubrrljyzfvbvejepl.supabase.co/storage/v1/object/public/cms-assets/anwendungen.referenzprojekte.fritztower/gallery/img_2/desktop/1788250218707-_Web_Teaser_Bildformat_1812_x_1360px_Referenz_Fritz-3.jpg",
+      "alt": "",
+      "title": "*Web_Teaser_Bildformat_1812 x 1360px_Referenz_Fritz-3.jpg",
+      "focus": "",
+      "meta_data": {
+       "legacy_asset_id": "d26d5bbe-eab0-46d2-9911-0e63a1c46766",
+       "storage_path": "anwendungen.referenzprojekte.fritztower/gallery/img_2/desktop/1788250218707-_Web_Teaser_Bildformat_1812_x_1360px_Referenz_Fritz-3.jpg"
+      }
+     }
+    ]
+   },
+   {
+    "_uid": "f530aa2b-30ad-4cd5-b68e-4496d4315d53",
+    "component": "faq_v1",
+    "section_key": "faq",
+    "section_uid": "2274",
+    "items": [
+     {
+      "_uid": "a685429e-3e65-4f5c-8273-a74ed850b70a",
+      "component": "faq_item",
+      "item_key": "q4",
+      "question": "Wer übernimmt Installation und Wartung?",
+      "question__i18n__pl": "Kto zajmuje się instalacją i konserwacją?",
+      "question__i18n__cs": "Kdo zajišťuje instalaci a údržbu?",
+      "question__i18n__en": "Who handles installation and maintenance?",
+      "question__i18n__nl": "Wie verzorgt de installatie en het onderhoud?",
+      "answer": "Installation und Inbetriebnahme erfolgen über unser zertifiziertes Fachhandwerk. Für die Wartung bieten wir verschiedene Servicepakete an – vom punktuellen Einsatz bis zum Rundum-Vertrag.",
+      "answer__i18n__en": "Installation and commissioning are carried out by our certified specialist installers. For maintenance we offer different service packages – from one-off support to a full-service contract.",
+      "answer__i18n__cs": "Instalaci a uvedení do provozu provádějí naši certifikovaní odborníci. Pro údržbu nabízíme různé servisní balíčky – od jednorázových zásahů až po kompletní servisní smlouvu.",
+      "answer__i18n__nl": "Installatie en inbedrijfstelling worden uitgevoerd door onze gecertificeerde vakinstallateurs. Voor het onderhoud bieden wij verschillende servicepakketten aan – van incidentele inzet tot een all-in contract.",
+      "answer__i18n__pl": "Instalacja i uruchomienie odbywają się za pośrednictwem naszych certyfikowanych specjalistów. W zakresie konserwacji oferujemy różne pakiety serwisowe – od usług punktowych po umowę „full service”.",
+      "enabled": true
+     },
+     {
+      "_uid": "d7dd58f9-c9c4-4141-96ca-a0d7530c3e43",
+      "component": "faq_item",
+      "item_key": "q3",
+      "question": "Lässt sich die Lösung später erweitern?",
+      "question__i18n__pl": "Czy rozwiązanie można później rozbudować?",
+      "question__i18n__cs": "Lze řešení později rozšířit?",
+      "question__i18n__en": "Can the solution be extended later?",
+      "question__i18n__nl": "Kan de oplossing later worden uitgebreid?",
+      "answer": "Ja. Unsere Systeme sind modular aufgebaut und lassen sich Schritt für Schritt erweitern – ob zusätzliche Türstationen, neue Bewohner oder weitere Funktionen.",
+      "answer__i18n__en": "Yes. Our systems are modular and can be extended step by step – be it additional door stations, new residents or further features.",
+      "answer__i18n__nl": "Ja. Onze systemen zijn modulair opgebouwd en kunnen stap voor stap worden uitgebreid – of het nu gaat om extra buitenstations, nieuwe bewoners of aanvullende functies.",
+      "answer__i18n__pl": "Tak. Nasze systemy mają budowę modułową i można je krok po kroku rozszerzać – czy to o dodatkowe stacje bramowe, nowych mieszkańców, czy też dalsze funkcje.",
+      "answer__i18n__cs": "Ano. Naše systémy jsou modulární a lze je krok za krokem rozšiřovat – ať už o další dveřní stanice, nové obyvatele nebo další funkce.",
+      "enabled": true
+     },
+     {
+      "_uid": "7d040ada-8ef8-4cad-950f-4cce98059286",
+      "component": "faq_item",
+      "item_key": "q2",
+      "question": "Welche Unterlagen brauchen Sie von mir?",
+      "question__i18n__en": "Which documents do you need from me?",
+      "question__i18n__cs": "Jaké podklady ode mě potřebujete?",
+      "question__i18n__nl": "Welke documenten heeft u van mij nodig?",
+      "question__i18n__pl": "Jakie dokumenty potrzebują Państwo ode mnie?",
+      "answer": "Grundrisse, Lagepläne und – falls vorhanden – eine Bestandsdokumentation der vorhandenen Anlage. Je vollständiger die Unterlagen, desto schneller können wir ein passendes Angebot kalkulieren.",
+      "answer__i18n__nl": "Plattegronden, situatieplannen en – indien aanwezig – documentatie van de bestaande installatie. Hoe vollediger de documenten, hoe sneller we een passende offerte kunnen berekenen.",
+      "answer__i18n__en": "Floor plans, site plans and – if available – documentation of the existing installation. The more complete the documents, the faster we can prepare a fitting quote.",
+      "answer__i18n__pl": "Rzuty kondygnacyjne, plany sytuacyjne oraz – jeśli dostępna – dokumentacja inwentaryzacyjna istniejącej instalacji. Im bardziej kompletne dokumenty, tym szybciej będziemy mogli przygotować odpowiednią ofertę.",
+      "answer__i18n__cs": "Půdorysy, situační plány a – pokud je k dispozici – dokumentace stávajícího zařízení. Čím úplnější jsou podklady, tím rychleji můžeme připravit vhodnou nabídku.",
+      "enabled": true
+     },
+     {
+      "_uid": "551b0fb0-765f-4496-8e84-7395fb8f26d5",
+      "component": "faq_item",
+      "item_key": "q5",
+      "question": "Wie sieht es mit Datenschutz und IT-Sicherheit aus?",
+      "question__i18n__cs": "Jak je to s ochranou dat a IT bezpečností?",
+      "question__i18n__pl": "Jak wygląda kwestia ochrony danych i bezpieczeństwa IT?",
+      "question__i18n__en": "What about data protection and IT security?",
+      "question__i18n__nl": "Hoe zit het met gegevensbescherming en IT-beveiliging?",
+      "answer": "Alle Komponenten werden DSGVO-konform betrieben. Updates, Verschlüsselung und Zugriffskontrolle sind Bestandteil unserer Sicherheitsarchitektur und werden regelmäßig durch externe Tests bestätigt.",
+      "answer__i18n__en": "All components run in line with GDPR. Updates, encryption and access control are part of our security architecture and are regularly verified by external testing.",
+      "answer__i18n__nl": "Alle componenten worden conform de AVG beheerd. Updates, versleuteling en toegangscontrole maken deel uit van onze beveiligingsarchitectuur en worden regelmatig door externe tests bevestigd.",
+      "answer__i18n__pl": "Wszystkie komponenty obsługiwane są zgodnie z RODO. Aktualizacje, szyfrowanie i kontrola dostępu stanowią integralną część naszej architektury bezpieczeństwa i są regularnie potwierdzane w testach zewnętrznych.",
+      "answer__i18n__cs": "Všechny komponenty jsou provozovány v souladu s GDPR. Aktualizace, šifrování a řízení přístupu jsou součástí naší bezpečnostní architektury a jsou pravidelně ověřovány externími testy.",
+      "enabled": true
+     },
+     {
+      "_uid": "3185328e-e4ba-4562-8060-39104650978e",
+      "component": "faq_item",
+      "item_key": "q1",
+      "question": "Wie lange dauert die Planung eines Projekts?",
+      "question__i18n__nl": "Hoe lang duurt de planning van een project?",
+      "question__i18n__en": "How long does project planning take?",
+      "question__i18n__pl": "Ile trwa planowanie projektu?",
+      "question__i18n__cs": "Jak dlouho trvá plánování projektu?",
+      "answer": "Vom ersten Briefing bis zum verbindlichen Angebot rechnen wir mit zwei bis vier Wochen, abhängig vom Umfang und den nötigen Abstimmungen mit Architekt, Bauträger und Elektrofachkraft.",
+      "answer__i18n__pl": "Od pierwszego briefingu do wiążącej oferty liczymy się z dwoma do czterech tygodni, w zależności od zakresu i niezbędnych uzgodnień z architektem, deweloperem i elektrykiem.",
+      "answer__i18n__en": "From the first briefing to a binding offer we plan with two to four weeks, depending on scope and the coordination needed with architects, developers and electricians.",
+      "answer__i18n__cs": "Od prvního briefingu po závaznou nabídku počítáme se dvěma až čtyřmi týdny, v závislosti na rozsahu a potřebné koordinaci s architektem, developerem a elektroinstalatérem.",
+      "answer__i18n__nl": "Van de eerste briefing tot de bindende offerte rekenen we op twee tot vier weken, afhankelijk van de omvang en de nodige afstemming met architect, projectontwikkelaar en installateur.",
+      "enabled": true
+     }
+    ],
+    "headline": "Antworten, die weiterhelfen",
+    "headline__i18n__pl": "Odpowiedzi, które pomogą",
+    "headline__i18n__cs": "Odpovědi, které pomáhají",
+    "headline__i18n__nl": "Antwoorden die verder helpen",
+    "headline__i18n__en": "Answers that help you forward",
+    "eyebrow": "Häufige Fragen",
+    "eyebrow__i18n__pl": "Częste pytania",
+    "eyebrow__i18n__en": "Frequently asked questions",
+    "eyebrow__i18n__nl": "Veelgestelde vragen",
+    "eyebrow__i18n__cs": "Často kladené otázky"
+   },
+   {
+    "_uid": "f1483935-082d-4562-beb3-5a205391f1fc",
+    "component": "cta_v1",
+    "section_key": "standard_cta",
+    "section_uid": "2405",
+    "cta_label": "Projektberatung vereinbaren",
+    "cta_label__i18n__pl": "Umów konsultację projektową",
+    "cta_label__i18n__en": "Schedule a project consultation",
+    "cta_label__i18n__nl": "Projectadvies inplannen",
+    "cta_label__i18n__cs": "Sjednat projektovou konzultaci",
+    "cta_primary_color": "auto",
+    "phone_href": {
+     "linktype": "url",
+     "url": "tel:+4941949881175",
+     "cached_url": "tel:+4941949881175",
+     "fieldtype": "multilink"
+    },
+    "email_href": {
+     "linktype": "url",
+     "url": "mailto:info@tcsag.de",
+     "cached_url": "mailto:info@tcsag.de",
+     "fieldtype": "multilink"
+    },
+    "title": "Lassen Sie uns Ihr Projekt gemeinsam planen",
+    "title__i18n__pl": "Zaplanujmy wspólnie Twój projekt",
+    "title__i18n__nl": "Laten we samen uw project plannen",
+    "title__i18n__cs": "Naplánujme společně váš projekt",
+    "title__i18n__en": "Let's plan your project together",
+    "background_variant": "light",
+    "email_label": "info@tcsag.de",
+    "email_label__i18n__en": "info@tcsag.de",
+    "text": "Kontaktieren Sie unsere Experten für eine individuelle Projektberatung.",
+    "text__i18n__pl": "Skontaktuj się z naszymi ekspertami w celu indywidualnego doradztwa projektowego.",
+    "text__i18n__cs": "Kontaktujte naše experty pro individuální projektové poradenství.",
+    "text__i18n__en": "Contact our experts for a tailored project consultation.",
+    "text__i18n__nl": "Neem contact op met onze experts voor individueel projectadvies.",
+    "phone_label": "+49 4194 9881-175",
+    "phone_label__i18n__en": "+49 4194 9881-175",
+    "cta_href": {
+     "linktype": "url",
+     "url": "/kontakt",
+     "cached_url": "/kontakt",
+     "fieldtype": "multilink"
+    },
+    "cta_href__i18n__en": {
+     "linktype": "url",
+     "url": "/contact",
+     "cached_url": "/contact",
+     "fieldtype": "multilink"
+    },
+    "cta_kind": "intern",
+    "cta_secondary_kind": "intern",
+    "cta_secondary_color": "auto"
+   }
+  ]
+ }
+}

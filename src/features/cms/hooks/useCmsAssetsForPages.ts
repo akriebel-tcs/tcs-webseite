@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 
 import { localeMapFromRows } from "@/navigation/localizedNav";
+import { isStoryblokSource } from "@/lib/content/source";
 
 /**
  * Read-only Sammel-Hook für aktive Bild-Assets über mehrere Page-Keys.
@@ -41,6 +42,31 @@ export function useCmsAssetsForPages(
 
     (async () => {
       try {
+        if (isStoryblokSource()) {
+          const client = await import("@/lib/storyblok/client");
+          const { flattenPageContent } = await import("@/lib/storyblok/flatten");
+          const stories = await client.fetchPagesByPageKeys(pageKeys);
+          if (cancelled) return;
+          const byPage = new Map<string, CmsAssetForPage>();
+          const rank: Record<string, number> = { desktop: 0, tablet: 1, mobile: 2 };
+          for (const story of stories) {
+            const pk = String(story.content?.page_key ?? "");
+            const rows = flattenPageContent(story.content).assets.filter(
+              (a) => a.section_key === sectionKey && a.field_key === fieldKey && a.public_url,
+            );
+            rows.sort((a, b) => (rank[a.viewport ?? "desktop"] ?? 99) - (rank[b.viewport ?? "desktop"] ?? 99));
+            const best = rows[0];
+            if (!best) continue;
+            byPage.set(pk, {
+              url: best.public_url as string,
+              alt_de: best.alt_de,
+              alt_en: best.alt_en,
+              alts: localeMapFromRows(best.cms_asset_translations ?? [], "alt_text"),
+            });
+          }
+          setAssets(byPage);
+          return;
+        }
         const mod = await import("@/lib/cmsSupabase/client");
         if (!mod.isCmsSupabaseConfigured()) return;
         const sb = mod.getCmsSupabaseClient();

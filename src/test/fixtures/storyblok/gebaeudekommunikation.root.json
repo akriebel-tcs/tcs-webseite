@@ -1,0 +1,1459 @@
+{
+ "name": "Gebäudekommunikation",
+ "slug": "gebaeudekommunikation",
+ "is_startpage": true,
+ "parent_folder_path": "gebaeudekommunikation",
+ "publish": true,
+ "legacy": {
+  "page_key": "gebaeudekommunikation.root",
+  "route_path": "/gebaeudekommunikation",
+  "status": "published",
+  "is_active": true,
+  "page_no": 27,
+  "updated_at": "2026-09-11T23:52:32.350099+00:00"
+ },
+ "content": {
+  "component": "page",
+  "page_key": "gebaeudekommunikation.root",
+  "page_type": "T03",
+  "title": "Gebäudekommunikation",
+  "page_no": "27",
+  "title__i18n__en": "Building communication",
+  "title__i18n__pl": "Komunikacja budynkowa",
+  "title__i18n__cs": "Komunikace v budovách",
+  "title__i18n__nl": "Gebouwcommunicatie",
+  "body": [
+   {
+    "_uid": "d78edb0f-1e27-428c-ae4c-3bbd7655d623",
+    "component": "hero_v1",
+    "section_key": "hero",
+    "section_uid": "149",
+    "subline": "Von Einfamilienhäusern bis zu großen Wohnquartieren bietet TCS maßgeschneiderte Audio- und Video-Türsprechanlagen, integrierte Briefkasten- und Wayfinding-Systeme sowie ganzheitliche Systemlösungen. Mit dem zukunftssicheren IP-System snipdoo® vereinen wir die Einfachheit klassischer BUS-Systeme mit grenzenloser Netzwerk-Flexibilität.",
+    "subline__i18n__en": "From single-family homes to large residential quarters, TCS offers tailor-made audio and video door intercom systems, integrated mailbox and wayfinding systems as well as holistic system solutions. With the future-proof IP system snipdoo®, we combine the simplicity of classic BUS systems with limitless network flexibility.",
+    "subline__i18n__pl": "Od domów jednorodzinnych po duże osiedla mieszkaniowe TCS oferuje szyte na miarę domofony i wideodomofony, zintegrowane systemy skrzynek na listy i nawigacji oraz kompleksowe rozwiązania systemowe. Dzięki przyszłościowemu systemowi IP snipdoo® łączymy prostotę klasycznych systemów BUS z nieograniczoną elastycznością sieciową.",
+    "subline__i18n__nl": "Van eengezinswoningen tot grote woonwijken biedt TCS op maat gemaakte audio- en video-deurintercomsystemen, geïntegreerde brievenbus- en wayfindingsystemen en integrale systeemoplossingen. Met het toekomstbestendige IP-systeem snipdoo® combineren we de eenvoud van klassieke BUS-systemen met grenzeloze netwerkflexibiliteit.",
+    "subline__i18n__cs": "Od rodinných domů až po rozsáhlé obytné čtvrti nabízí TCS na míru přizpůsobená audio a video dveřní řešení, integrované systémy poštovních schránek a navigace i ucelená systémová řešení. S IP systémem snipdoo® připraveným na budoucnost spojujeme jednoduchost klasických BUS systémů s neomezenou síťovou flexibilitou.",
+    "eyebrow": "Gebäudekommunikation",
+    "eyebrow__i18n__pl": "Komunikacja budynkowa",
+    "eyebrow__i18n__en": "Building communication",
+    "eyebrow__i18n__cs": "Komunikace v budovách",
+    "eyebrow__i18n__nl": "Gebouwcommunicatie",
+    "headline": "Smarte Kommunikation für jedes Gebäude",
+    "headline__i18n__pl": "Inteligentna komunikacja dla każdego budynku",
+    "headline__i18n__en": "Smart communication for every building",
+    "headline__i18n__cs": "Chytrá komunikace pro každou budovu",
+    "headline__i18n__nl": "Slimme communicatie voor elk gebouw",
+    "legacy_fields": "{\"imageAlt\": {\"en\": \"Building communication\", \"de\": \"Gebäudekommunikation\"}}",
+    "image_mobile": {
+     "fieldtype": "asset",
+     "filename": "https://uvkubrrljyzfvbvejepl.supabase.co/storage/v1/object/public/cms-assets/gebaeudekommunikation.root/hero/image/mobile/1782910376426-Web_Teaser_Bildformat_1812_x_1360px_Gebaeudekommunikation.jpg",
+     "alt": "",
+     "title": "Web_Teaser_Bildformat_1812 x 1360px_Gebaeudekommunikation.jpg",
+     "focus": "",
+     "meta_data": {
+      "legacy_asset_id": "1a8da50c-567d-4b05-a24f-a4f81b739203",
+      "storage_path": "gebaeudekommunikation.root/hero/image/mobile/1782910376426-Web_Teaser_Bildformat_1812_x_1360px_Gebaeudekommunikation.jpg"
+     }
+    },
+    "image": {
+     "fieldtype": "asset",
+     "filename": "https://uvkubrrljyzfvbvejepl.supabase.co/storage/v1/object/public/cms-assets/gebaeudekommunikation.root/hero/image/desktop/1787321606128-Web_Hero_1-1_Bildformat_3840_x_1360px_Gebaeudekommunikation_sie_AI.jpg",
+     "alt": "",
+     "title": "Web_Hero_1-1_Bildformat_3840 x 1360px_Gebaeudekommunikation_sie_AI.jpg",
+     "focus": "",
+     "meta_data": {
+      "legacy_asset_id": "3eae35cc-d5c9-4ac9-b357-4c56f0b61015",
+      "storage_path": "gebaeudekommunikation.root/hero/image/desktop/1787321606128-Web_Hero_1-1_Bildformat_3840_x_1360px_Gebaeudekommunikation_sie_AI.jpg"
+     }
+    },
+    "image_tablet": {
+     "fieldtype": "asset",
+     "filename": "https://uvkubrrljyzfvbvejepl.supabase.co/storage/v1/object/public/cms-assets/gebaeudekommunikation.root/hero/image/tablet/1787321610255-Web_Hero_1-1_Bildformat_3840_x_1360px_Gebaeudekommunikation_sie_AI.jpg",
+     "alt": "",
+     "title": "Web_Hero_1-1_Bildformat_3840 x 1360px_Gebaeudekommunikation_sie_AI.jpg",
+     "focus": "",
+     "meta_data": {
+      "legacy_asset_id": "8d4a3aa7-1cf6-4ff4-b39a-5606d716eb32",
+      "storage_path": "gebaeudekommunikation.root/hero/image/tablet/1787321610255-Web_Hero_1-1_Bildformat_3840_x_1360px_Gebaeudekommunikation_sie_AI.jpg"
+     }
+    }
+   },
+   {
+    "_uid": "87bc2e7d-b1c1-4309-9f9e-289eeee84f6c",
+    "component": "content_v1",
+    "section_key": "bereiche_intro",
+    "section_uid": "1609",
+    "title": "Alles für die Gebäudekommunikation",
+    "title__i18n__en": "Everything for building communication",
+    "title__i18n__nl": "Alles voor gebouwcommunicatie",
+    "title__i18n__pl": "Wszystko do komunikacji budynkowej",
+    "title__i18n__cs": "Vše pro komunikaci v budovách",
+    "text": "Entdecken Sie unser komplettes Portfolio – von der einzelnen Türsprechanlage bis hin zu vernetzten Systemlösungen für ganze Wohnquartiere. Jeder Bereich bietet spezialisierte Lösungen, die sich nahtlos zu einer ganzheitlichen Gebäudekommunikation kombinieren lassen.",
+    "text__i18n__nl": "Ontdek ons complete portfolio – van een enkele deurintercom tot netwerksysteemoplossingen voor complete woonwijken. Elk segment biedt gespecialiseerde oplossingen die naadloos kunnen worden gecombineerd tot een geïntegreerde gebouwcommunicatie.",
+    "text__i18n__en": "Discover our complete portfolio – from a single door intercom to networked system solutions for entire residential quarters. Each area offers specialised solutions that combine seamlessly into holistic building communication.",
+    "text__i18n__pl": "Odkryj nasze pełne portfolio – od pojedynczego domofonu po usieciowione rozwiązania systemowe dla całych osiedli mieszkaniowych. Każdy obszar oferuje specjalistyczne rozwiązania, które można płynnie łączyć w kompleksowy system komunikacji budynkowej.",
+    "text__i18n__cs": "Objevte naše kompletní portfolio – od jednotlivých dveřních interkomů až po propojená systémová řešení pro celé rezidenční čtvrti. Každá oblast nabízí specializovaná řešení, která lze plynule kombinovat do ucelené komunikace budov.",
+    "label": "Unsere Bereiche",
+    "label__i18n__pl": "Nasze obszary",
+    "label__i18n__cs": "Naše oblasti",
+    "label__i18n__nl": "Onze domeinen",
+    "label__i18n__en": "Our areas"
+   },
+   {
+    "_uid": "95f14c0a-e162-4043-8f89-1dfdf7f8254d",
+    "component": "teaser_2col_v1",
+    "section_key": "bereich_tuersprechanlagen",
+    "section_uid": "1610",
+    "label": "Rufen, Sehen, Sprechen, Türöffnen",
+    "label__i18n__en": "Call, See, Speak, Open door",
+    "label__i18n__cs": "Volat, vidět, mluvit, otevřít dveře",
+    "label__i18n__nl": "Bellen, Zien, Spreken, Deur openen",
+    "label__i18n__pl": "Dzwonić, Widzieć, Rozmawiać, Otwierać drzwi",
+    "title": "Türsprechanlagen",
+    "title__i18n__cs": "Domovní telefony",
+    "title__i18n__pl": "Domofony",
+    "title__i18n__en": "Door intercom systems",
+    "title__i18n__nl": "Deurintercomsystemen",
+    "background_variant": "muted",
+    "text": "Updatefähige und individuell erweiterbare Audio- und Video-Türsprechanlagen wahlweise mit digitaler Namensanzeige und mobiler Türkommunikation am DECT- oder IP-Telefon oder per Smartphone-App – dafür stehen die modernen Anlagen von TCS. ",
+    "text__i18n__cs": "Aktualizovatelné a individuálně rozšiřitelné audio a video dveřní telefony volitelně s digitálním zobrazením jmen a mobilní dveřní komunikací na DECT nebo IP telefonu či přes aplikaci v chytrém telefonu – to představují moderní systémy TCS.",
+    "text__i18n__en": "Updatable, modular audio and video intercom systems such as Senso Pro and TASTA PRO – with digital name display, call forwarding to smartphone, DECT or IP phone and mobile video door communication via the snipdoo® HOME app.",
+    "text__i18n__nl": "Updatebare en individueel uitbreidbare audio- en video-deurintercomsystemen, naar keuze met digitale naamweergave en mobiele deurcommunicatie via DECT- of IP-telefoon of via een smartphone-app – daar staan de moderne systemen van TCS voor.",
+    "text__i18n__pl": "Aktualizowalne i indywidualnie rozbudowywalne domofony oraz wideodomofony, do wyboru z cyfrowym wyświetlaczem nazwisk i mobilną komunikacją drzwiową przez telefon DECT lub IP bądź aplikację na smartfona – to oferują nowoczesne systemy TCS.",
+    "image_position": "left",
+    "cta_label": "Mehr erfahren",
+    "cta_label__i18n__pl": "Dowiedz się więcej",
+    "cta_label__i18n__cs": "Zjistit více",
+    "cta_label__i18n__nl": "Meer weten",
+    "cta_label__i18n__en": "Learn more",
+    "cta_link": {
+     "linktype": "url",
+     "url": "/gebaeudekommunikation/tuersprechanlagen",
+     "cached_url": "/gebaeudekommunikation/tuersprechanlagen",
+     "fieldtype": "multilink"
+    },
+    "image": {
+     "fieldtype": "asset",
+     "filename": "https://uvkubrrljyzfvbvejepl.supabase.co/storage/v1/object/public/cms-assets/gebaeudekommunikation.root/bereich_tuersprechanlagen/image/desktop/1787306767278-__Web_Hero_Wechselteaser_1600_x_900px_Tu_rsprechanlagen_AI.jpg",
+     "alt": "",
+     "title": "**Web_Hero_Wechselteaser_1600 x 900px_Türsprechanlagen_AI.jpg",
+     "focus": "",
+     "meta_data": {
+      "legacy_asset_id": "ea5fda13-3548-4281-906b-29f0505208ce",
+      "storage_path": "gebaeudekommunikation.root/bereich_tuersprechanlagen/image/desktop/1787306767278-__Web_Hero_Wechselteaser_1600_x_900px_Tu_rsprechanlagen_AI.jpg"
+     }
+    },
+    "image_tablet": {
+     "fieldtype": "asset",
+     "filename": "https://uvkubrrljyzfvbvejepl.supabase.co/storage/v1/object/public/cms-assets/gebaeudekommunikation.root/bereich_tuersprechanlagen/image/tablet/1787306815675-__Web_Hero_Wechselteaser_1600_x_900px_Tu_rsprechanlagen_AI.jpg",
+     "alt": "",
+     "title": "**Web_Hero_Wechselteaser_1600 x 900px_Türsprechanlagen_AI.jpg",
+     "focus": "",
+     "meta_data": {
+      "legacy_asset_id": "3382dff2-7699-4d4f-8f4d-9dfd266636ec",
+      "storage_path": "gebaeudekommunikation.root/bereich_tuersprechanlagen/image/tablet/1787306815675-__Web_Hero_Wechselteaser_1600_x_900px_Tu_rsprechanlagen_AI.jpg"
+     }
+    },
+    "image_mobile": {
+     "fieldtype": "asset",
+     "filename": "https://uvkubrrljyzfvbvejepl.supabase.co/storage/v1/object/public/cms-assets/gebaeudekommunikation.root/bereich_tuersprechanlagen/image/mobile/1787306821767-__Web_Hero_Wechselteaser_1600_x_900px_Tu_rsprechanlagen_AI.jpg",
+     "alt": "",
+     "title": "**Web_Hero_Wechselteaser_1600 x 900px_Türsprechanlagen_AI.jpg",
+     "focus": "",
+     "meta_data": {
+      "legacy_asset_id": "b00bd074-b24d-4404-a78f-ccb9bc72af0b",
+      "storage_path": "gebaeudekommunikation.root/bereich_tuersprechanlagen/image/mobile/1787306821767-__Web_Hero_Wechselteaser_1600_x_900px_Tu_rsprechanlagen_AI.jpg"
+     }
+    }
+   },
+   {
+    "_uid": "5184cd57-7e19-4617-a571-f0dfdf196f8b",
+    "component": "teaser_2col_v1",
+    "section_key": "bereich_briefkastenanlagen",
+    "section_uid": "1611",
+    "title": "Briefkastenanlagen",
+    "title__i18n__en": "Mailbox systems",
+    "title__i18n__cs": "Poštovní schránkové systémy",
+    "title__i18n__pl": "Systemy skrzynek na listy",
+    "title__i18n__nl": "Brievenbusinstallaties",
+    "text": "Briefkastenanlagen für Ein- und Mehrfamilienhäuser bis zu größeren Objekten, in zwei Programmen: frei gestaltet mit dem Design- und Montagesystem ENTRY oder in festgelegten Größen aus dem Standardprogramm. Auf Wunsch sitzt die Türsprechanlage in einem eigenen Fach der Anlage.",
+    "text__i18n__en": "Mailbox systems for single-family and multi-family homes through to larger buildings, in two ranges: designed freely with ENTRY, the design and mounting system, or in fixed sizes from the standard range. If required, door communication is built into a compartment of its own.",
+    "text__i18n__pl": "Systemy skrzynek pocztowych dla domów jedno- i wielorodzinnych oraz większych obiektów, dostępne w dwóch liniach: indywidualnie projektowane z wykorzystaniem systemu wzorniczego i montażowego ENTRY lub w określonych rozmiarach z programu standardowego. Na życzenie domofon znajduje się w osobnej przegrodzie zestawu.",
+    "text__i18n__nl": "Brievenbusinstallaties voor een- en meergezinswoningen tot grotere projecten, in twee productlijnen: vrij te ontwerpen met het design- en montagesysteem ENTRY of in vaste maten uit het standaardprogramma. Desgewenst bevindt de deurintercom zich in een eigen vak van de installatie.",
+    "text__i18n__cs": "Poštovní schránkové sestavy pro rodinné a bytové domy až po větší objekty, ve dvou řadách: s volitelným designem díky designovému a montážnímu systému ENTRY nebo v pevných velikostech ze standardního programu. Na přání je dveřní telefon umístěn v samostatné přihrádce sestavy.",
+    "label": "Post verwahren, Besucher empfangen",
+    "label__i18n__nl": "Post bewaren, bezoekers ontvangen",
+    "label__i18n__pl": "Przechowywanie poczty, przyjmowanie gości",
+    "label__i18n__cs": "Uschovat poštu, přijímat návštěvy",
+    "label__i18n__en": "Taking in mail, letting in visitors",
+    "cta_label": "Mehr erfahren",
+    "cta_label__i18n__en": "Learn more",
+    "cta_label__i18n__nl": "Meer weten",
+    "cta_label__i18n__pl": "Dowiedz się więcej",
+    "cta_label__i18n__cs": "Zjistit více",
+    "cta_link": {
+     "linktype": "url",
+     "url": "/gebaeudekommunikation/briefkastenanlagen",
+     "cached_url": "/gebaeudekommunikation/briefkastenanlagen",
+     "fieldtype": "multilink"
+    },
+    "image_position": "right",
+    "background_variant": "default",
+    "image": {
+     "fieldtype": "asset",
+     "filename": "https://uvkubrrljyzfvbvejepl.supabase.co/storage/v1/object/public/cms-assets/gebaeudekommunikation.root/bereich_briefkastenanlagen/image/desktop/1787306833697-__Web_Hero_Wechselteaser_1600_x_900px_Geba_udekommunikation_BKA_AI.jpg",
+     "alt": "",
+     "title": "**Web_Hero_Wechselteaser_1600 x 900px_Gebäudekommunikation_BKA_AI.jpg",
+     "focus": "",
+     "meta_data": {
+      "legacy_asset_id": "b625beaf-656b-467b-84aa-1757c197f2df",
+      "storage_path": "gebaeudekommunikation.root/bereich_briefkastenanlagen/image/desktop/1787306833697-__Web_Hero_Wechselteaser_1600_x_900px_Geba_udekommunikation_BKA_AI.jpg"
+     }
+    },
+    "image_tablet": {
+     "fieldtype": "asset",
+     "filename": "https://uvkubrrljyzfvbvejepl.supabase.co/storage/v1/object/public/cms-assets/gebaeudekommunikation.root/bereich_briefkastenanlagen/image/tablet/1787306839485-__Web_Hero_Wechselteaser_1600_x_900px_Geba_udekommunikation_BKA_AI.jpg",
+     "alt": "",
+     "title": "**Web_Hero_Wechselteaser_1600 x 900px_Gebäudekommunikation_BKA_AI.jpg",
+     "focus": "",
+     "meta_data": {
+      "legacy_asset_id": "fddc5c1a-8982-417d-9c72-4441d88cf43c",
+      "storage_path": "gebaeudekommunikation.root/bereich_briefkastenanlagen/image/tablet/1787306839485-__Web_Hero_Wechselteaser_1600_x_900px_Geba_udekommunikation_BKA_AI.jpg"
+     }
+    },
+    "image_mobile": {
+     "fieldtype": "asset",
+     "filename": "https://uvkubrrljyzfvbvejepl.supabase.co/storage/v1/object/public/cms-assets/gebaeudekommunikation.root/bereich_briefkastenanlagen/image/mobile/1787306844172-__Web_Hero_Wechselteaser_1600_x_900px_Geba_udekommunikation_BKA_AI.jpg",
+     "alt": "",
+     "title": "**Web_Hero_Wechselteaser_1600 x 900px_Gebäudekommunikation_BKA_AI.jpg",
+     "focus": "",
+     "meta_data": {
+      "legacy_asset_id": "6b60d45d-15b8-4677-aa46-a3d6a334a81a",
+      "storage_path": "gebaeudekommunikation.root/bereich_briefkastenanlagen/image/mobile/1787306844172-__Web_Hero_Wechselteaser_1600_x_900px_Geba_udekommunikation_BKA_AI.jpg"
+     }
+    }
+   },
+   {
+    "_uid": "f36fe4d1-c56a-4a24-aed3-ae7dbdd9186d",
+    "component": "teaser_2col_v1",
+    "section_key": "bereich_beschilderung",
+    "section_uid": "1612",
+    "text": "Durchdachte Beschilderung mit TCS-Signage: von beleuchteten Design-Hausnummern über Piktogramm-Schilder bis zu den Türschildern und Infoschildern für den Fluchtwegeplan – aus langlebigen Materialien und in hochwertigem Design für ein stimmiges Gesamtbild im gesamten Gebäude.",
+    "text__i18n__nl": "Doordachte signalering met TCS-Signage: van verlichte designhuisnummers en pictogramborden tot deurborden en informatieborden voor het vluchtrouteplan – van duurzame materialen en in een hoogwaardig design voor een harmonieus totaalbeeld in het hele gebouw.",
+    "text__i18n__en": "Well-conceived wayfinding with TCS-Signage: from illuminated designer house numbers and pictogram signs to door plates and information signs for escape route plans – made from durable materials and in a high-quality design for a harmonious overall appearance throughout the building.",
+    "text__i18n__cs": "Promyšlené značení s TCS-Signage: od osvětlených designových domovních čísel přes štítky s piktogramy až po dveřní štítky a informační tabulky pro evakuační plány – z odolných materiálů a v prvotřídním designu pro ucelený vzhled celé budovy.",
+    "text__i18n__pl": "Przemyślane oznakowanie z TCS-Signage: od podświetlanych, designerskich numerów domów, przez tabliczki z piktogramami, po tabliczki na drzwi i tablice informacyjne z planem dróg ewakuacyjnych – z trwałych materiałów i o wysokiej jakości wzornictwie, tworzące spójną całość w całym budynku.",
+    "title": "Beschilderung und Wayfinding-Lösungen",
+    "title__i18n__cs": "Značení a navigační řešení",
+    "title__i18n__nl": "Signage- en wayfinding-oplossingen",
+    "title__i18n__pl": "Oznakowanie i rozwiązania nawigacyjne",
+    "title__i18n__en": "Signage and Wayfinding Solutions",
+    "background_variant": "muted",
+    "cta_label": "Mehr erfahren",
+    "cta_label__i18n__en": "Learn more",
+    "cta_label__i18n__pl": "Dowiedz się więcej",
+    "cta_label__i18n__cs": "Zjistit více",
+    "cta_label__i18n__nl": "Meer weten",
+    "image_position": "left",
+    "label": "Anzeigen, Leiten und Orientieren",
+    "label__i18n__cs": "Zobrazení, navádění a orientace",
+    "label__i18n__en": "Display, Guide, and Orient",
+    "label__i18n__pl": "Informowanie, prowadzenie i orientacja",
+    "label__i18n__nl": "Tonen, geleiden en oriënteren",
+    "cta_link": {
+     "linktype": "url",
+     "url": "/gebaeudekommunikation/beschilderung",
+     "cached_url": "/gebaeudekommunikation/beschilderung",
+     "fieldtype": "multilink"
+    },
+    "image": {
+     "fieldtype": "asset",
+     "filename": "https://uvkubrrljyzfvbvejepl.supabase.co/storage/v1/object/public/cms-assets/gebaeudekommunikation.root/bereich_beschilderung/image/desktop/1782890041957-_Web_Hero_Wechselteaser_1600_x_900px_Signage.jpg",
+     "alt": "",
+     "title": "*Web_Hero_Wechselteaser_1600 x 900px_Signage.jpg",
+     "focus": "",
+     "meta_data": {
+      "legacy_asset_id": "346662c7-15d9-4358-9c95-6e6239382c26",
+      "storage_path": "gebaeudekommunikation.root/bereich_beschilderung/image/desktop/1782890041957-_Web_Hero_Wechselteaser_1600_x_900px_Signage.jpg"
+     }
+    }
+   },
+   {
+    "_uid": "3605a902-3033-4b75-92d0-ffd1003be6d1",
+    "component": "teaser_2col_v1",
+    "section_key": "bereich_grossanlagen",
+    "section_uid": "1613",
+    "cta_link": {
+     "linktype": "url",
+     "url": "/gebaeudekommunikation/grossanlagen",
+     "cached_url": "/gebaeudekommunikation/grossanlagen",
+     "fieldtype": "multilink"
+    },
+    "background_variant": "default",
+    "text": "Hochkomplexe, vernetzte Systeme für Projektentwickler und Wohnungsbaugesellschaften: Concierge- und Schrankenanlagen, Zufahrtskontrolle für Fahrzeuge, funkvernetzte Offline-Leser und digitale Namensverwaltung für eine große Anzahl von Bewohnern.",
+    "text__i18n__cs": "Vysoce komplexní, síťově propojené systémy pro developery a bytové společnosti: recepční a závorové systémy, kontrola vjezdu vozidel, bezdrátově propojené offline čtečky a digitální správa jmen pro velký počet rezidentů.",
+    "text__i18n__nl": "Hoogcomplexe, genetwerkte systemen voor projectontwikkelaars en woningcorporaties: concierge- en slagboominstallaties, toegangscontrole voor voertuigen, draadloos gekoppelde offline lezers en digitaal naambeheer voor een groot aantal bewoners.",
+    "text__i18n__en": "Highly complex, networked systems for project developers and housing companies: concierge and barrier systems, vehicle access control, wirelessly networked offline readers and digital name management for a large number of residents.",
+    "text__i18n__pl": "Wysoce złożone, połączone w sieć systemy dla deweloperów i spółek mieszkaniowych: systemy concierge i szlabanowe, kontrola wjazdu dla pojazdów, czytniki offline połączone radiowo oraz cyfrowe zarządzanie nazwiskami dla dużej liczby mieszkańców.",
+    "cta_label": "Mehr erfahren",
+    "cta_label__i18n__nl": "Meer weten",
+    "cta_label__i18n__en": "Learn more",
+    "cta_label__i18n__cs": "Zjistit více",
+    "cta_label__i18n__pl": "Dowiedz się więcej",
+    "label": "Wohnquartiere und Großanlagen",
+    "label__i18n__en": "Residential Complexes and Large-Scale Systems",
+    "label__i18n__cs": "Rezidenční čtvrti a rozsáhlé objekty",
+    "label__i18n__nl": "Wooncomplexen en grote installaties",
+    "label__i18n__pl": "Osiedla mieszkaniowe i duże obiekty",
+    "image_position": "right",
+    "title": "Kommunikation und Zutrittskontrolle in Großanlagen",
+    "title__i18n__pl": "Komunikacja i kontrola dostępu w dużych obiektach",
+    "title__i18n__cs": "Komunikace a řízení přístupu v rozsáhlých objektech",
+    "title__i18n__en": "Large-scale communication and access control systems",
+    "title__i18n__nl": "Communicatie en toegangscontrole in grote installaties",
+    "image": {
+     "fieldtype": "asset",
+     "filename": "https://uvkubrrljyzfvbvejepl.supabase.co/storage/v1/object/public/cms-assets/gebaeudekommunikation.root/bereich_grossanlagen/image/desktop/1788859893438-Web_Hero_Wechselteaser_Bildformat_1600_x_900px_Gebaeudekommunikation_Grossanlagen.png",
+     "alt": "",
+     "title": "Web_Hero_Wechselteaser_Bildformat_1600 x 900px_Gebaeudekommunikation_Grossanlagen.png",
+     "focus": "",
+     "meta_data": {
+      "legacy_asset_id": "35607cd5-8fa1-4e21-9ad7-6e36e185ca77",
+      "storage_path": "gebaeudekommunikation.root/bereich_grossanlagen/image/desktop/1788859893438-Web_Hero_Wechselteaser_Bildformat_1600_x_900px_Gebaeudekommunikation_Grossanlagen.png"
+     }
+    }
+   },
+   {
+    "_uid": "d25ccedd-7288-4597-8bb5-574d03aa1aab",
+    "component": "teaser_2col_v1",
+    "section_key": "bereich_systemloesungen",
+    "section_uid": "1614",
+    "cta_link": {
+     "linktype": "url",
+     "url": "/gebaeudekommunikation/systemloesungen",
+     "cached_url": "/gebaeudekommunikation/systemloesungen",
+     "fieldtype": "multilink"
+    },
+    "text": "Maßgeschneiderte Systemlösungen für Bauträger, Planungsbüros und Betreiber: Concierge-Lösungen, MHHR-konforme Feuerwehr-Durchsage, Türöffnerautomatik & Intercom sowie barrierefreie bidirektionale Videosprechanlagen (TCS:BIDI).",
+    "text__i18n__cs": "Systémová řešení na míru pro developery, projektové kanceláře a provozovatele: řešení concierge, hlášení pro hasiče v souladu s MHHR, automatické otevírání dveří & interkom a bezbariérové obousměrné videotelefony (TCS:BIDI).",
+    "text__i18n__en": "Tailor-made system solutions for developers, planning offices and operators: concierge solutions, MHHR-compliant fire brigade announcement, automatic door opener & intercom as well as accessible bidirectional video intercom systems (TCS:BIDI).",
+    "text__i18n__pl": "Rozwiązania systemowe szyte na miarę dla deweloperów, biur projektowych i operatorów: rozwiązania concierge, komunikaty głosowe dla straży pożarnej zgodne z MHHR, automatyka otwierania drzwi i interkom oraz bezbarierowe dwukierunkowe wideodomofony (TCS:BIDI).",
+    "text__i18n__nl": "Systeemoplossingen op maat voor projectontwikkelaars, adviesbureaus en beheerders: conciërge-oplossingen, MHHR-conforme brandweeromroep, automatische deurontgrendeling & intercom evenals barrièrevrije bidirectionele video-intercomsystemen (TCS:BIDI).",
+    "title": "Türsprechanlagen mit Zusatzfunktion",
+    "title__i18n__pl": "Domofony z dodatkową funkcją",
+    "title__i18n__cs": "Dveřní telefony s doplňkovou funkcí",
+    "title__i18n__en": "Door Intercoms with Additional Functions",
+    "title__i18n__nl": "Deurintercoms met extra functies",
+    "label": "Anlagen mit gebäudespezifischen Zusatzfunktionen",
+    "label__i18n__en": "Systems with building-specific additional functions",
+    "label__i18n__nl": "Installaties met gebouwspecifieke extra functies",
+    "label__i18n__pl": "Systemy z dodatkowymi funkcjami specyficznymi dla budynku",
+    "label__i18n__cs": "Systémy s doplňkovými funkcemi specifickými pro budovu",
+    "cta_label": "Mehr erfahren",
+    "cta_label__i18n__pl": "Dowiedz się więcej",
+    "cta_label__i18n__cs": "Zjistit více",
+    "cta_label__i18n__nl": "Meer weten",
+    "cta_label__i18n__en": "Learn more",
+    "image_position": "left",
+    "background_variant": "muted",
+    "image": {
+     "fieldtype": "asset",
+     "filename": "https://uvkubrrljyzfvbvejepl.supabase.co/storage/v1/object/public/cms-assets/gebaeudekommunikation.root/bereich_systemloesungen/image/desktop/1788859913368-Web_Hero_Wechselteaser_Bildformat_1600_x_900px_Gebaeudekommunikation_Tuersprechanlagen_Zusatzfunktionen.png",
+     "alt": "",
+     "title": "Web_Hero_Wechselteaser_Bildformat_1600 x 900px_Gebaeudekommunikation_Tuersprechanlagen_Zusatzfunktionen.png",
+     "focus": "",
+     "meta_data": {
+      "legacy_asset_id": "5fdb24ca-a420-460e-a0be-971c09d8a7b6",
+      "storage_path": "gebaeudekommunikation.root/bereich_systemloesungen/image/desktop/1788859913368-Web_Hero_Wechselteaser_Bildformat_1600_x_900px_Gebaeudekommunikation_Tuersprechanlagen_Zusatzfunktionen.png"
+     }
+    }
+   },
+   {
+    "_uid": "a484ddff-5285-4634-a146-cd8ed6fb994d",
+    "component": "cards_v1",
+    "section_key": "anwendungsumfelder",
+    "section_uid": "151",
+    "legacy_items": [
+     {
+      "_uid": "155daa50-f010-49e9-9538-1dee08a0713e",
+      "component": "item",
+      "item_key": "bildung",
+      "title": "Bildungs- und Betreuungseinrichtungen",
+      "title__i18n__nl": "Onderwijs- en zorginstellingen",
+      "title__i18n__pl": "Placówki oświatowe i opiekuńcze",
+      "title__i18n__en": "Educational and care facilities",
+      "title__i18n__cs": "Vzdělávací a pečovatelská zařízení",
+      "text": "Für Schulen bietet TCS Notfallrufsysteme, für Kindertagesstätten mobile Kommunikationslösungen für Mitarbeiter.",
+      "text__i18n__pl": "Dla szkół TCS oferuje systemy powiadamiania ratunkowego, a dla przedszkoli mobilne rozwiązania komunikacyjne dla pracowników.",
+      "text__i18n__en": "TCS offers emergency call systems for schools and mobile communication solutions for staff in day-care centres.",
+      "text__i18n__nl": "Voor scholen biedt TCS noodoproepsystemen, voor kinderdagverblijven mobiele communicatieoplossingen voor medewerkers.",
+      "text__i18n__cs": "Pro školy nabízí TCS tísňové volací systémy, pro mateřské školy mobilní komunikační řešení pro zaměstnance."
+     },
+     {
+      "_uid": "e4c0ed93-aa75-4657-90ca-3a43a7f13a04",
+      "component": "item",
+      "item_key": "behoerden",
+      "text": "In öffentlichen Amtsgebäuden und Feuerwehren werden die Anlagen auch für spezielle Feuerwehrdurchsagen genutzt.",
+      "text__i18n__cs": "Ve veřejných úředních budovách a na hasičských stanicích se tato zařízení využívají i pro speciální hlášení hasičů.",
+      "text__i18n__pl": "W publicznych budynkach urzędowych i jednostkach straży pożarnej systemy te są wykorzystywane również do specjalnych komunikatów strażackich.",
+      "text__i18n__en": "In public administrative buildings and fire brigades, the systems are also used for special fire brigade announcements.",
+      "text__i18n__nl": "In openbare overheidsgebouwen en brandweerkazernes worden de installaties ook gebruikt voor speciale brandweeromroepen.",
+      "title": "Behörden, Ämter und Feuerwehren",
+      "title__i18n__cs": "Úřady, instituce a hasiči",
+      "title__i18n__pl": "Urzędy, instytucje i straż pożarna",
+      "title__i18n__en": "Authorities, public offices and fire brigades",
+      "title__i18n__nl": "Overheden, instanties en brandweer"
+     },
+     {
+      "_uid": "8b7bab91-5ec8-405c-91f8-2b406b4dc69f",
+      "component": "item",
+      "item_key": "pflege",
+      "title": "Pflege und Betreutes Wohnen",
+      "title__i18n__pl": "Opieka i mieszkalnictwo wspomagane",
+      "title__i18n__nl": "Zorg en begeleid wonen",
+      "title__i18n__en": "Care and assisted living",
+      "title__i18n__cs": "Péče a asistované bydlení",
+      "text": "Spezielle Komfortrufsysteme sowie Lösungen für Ambient Assisted Living (AAL). Auch Praxen, Ärztehäuser und Kliniken werden bedient.",
+      "text__i18n__en": "Special comfort call systems and solutions for Ambient Assisted Living (AAL). Practices, medical centres and clinics are also served.",
+      "text__i18n__cs": "Speciální komfortní přivolávací systémy a řešení pro Ambient Assisted Living (AAL). Obsluhujeme také ordinace, lékařské domy a kliniky.",
+      "text__i18n__nl": "Speciale comfortoproepsystemen en oplossingen voor Ambient Assisted Living (AAL). Ook praktijken, medische centra en klinieken worden bediend.",
+      "text__i18n__pl": "Specjalne komfortowe systemy przywoławcze oraz rozwiązania z zakresu Ambient Assisted Living (AAL). Obsługujemy również gabinety lekarskie, centra medyczne i kliniki."
+     },
+     {
+      "_uid": "539524ad-d320-470d-b238-a766d1b2c024",
+      "component": "item",
+      "item_key": "gross",
+      "text": "Für große Gebäudekomplexe, Wohnheime oder Schwimm- und Freibäder gibt es erweiterte Systemlösungen mit Concierge, Schranken, Buchungssystemen und Infoboards.",
+      "text__i18n__nl": "Voor grote gebouwencomplexen, residenties of binnen- en buitenzwembaden zijn er uitgebreide systeemoplossingen met concierge, slagbomen, reserveringssystemen en infoborden.",
+      "text__i18n__en": "For large building complexes, dormitories or swimming pools and lidos, there are extended system solutions with concierge, barriers, booking systems and info boards.",
+      "text__i18n__cs": "Pro velké komplexy budov, ubytovny nebo bazény a koupaliště jsou k dispozici rozšířená systémová řešení s concierge, závorami, rezervačními systémy a informačními tabulemi.",
+      "text__i18n__pl": "Dla dużych kompleksów budynków, akademików oraz basenów krytych i odkrytych dostępne są rozbudowane rozwiązania systemowe z obsługą concierge, szlabanami, systemami rezerwacji i tablicami informacyjnymi.",
+      "title": "Großanlagen und gewerbliche Nutzung",
+      "title__i18n__cs": "Rozsáhlé systémy a komerční využití",
+      "title__i18n__en": "Large-scale and commercial use",
+      "title__i18n__nl": "Grootschalige installaties en zakelijk gebruik",
+      "title__i18n__pl": "Duże instalacje i zastosowanie komercyjne"
+     }
+    ],
+    "title": "Kommunikationsanlagen für spezifische Einrichtungen",
+    "title__i18n__en": "Communication systems for specific facilities",
+    "title__i18n__cs": "Komunikační systémy pro specifická zařízení",
+    "title__i18n__nl": "Communicatiesystemen voor specifieke instellingen",
+    "title__i18n__pl": "Systemy komunikacji dla specyficznych obiektów",
+    "label": "TCS in Bauten",
+    "label__i18n__en": "TCS in Buildings",
+    "label__i18n__pl": "TCS w obiektach",
+    "label__i18n__cs": "TCS v budovách",
+    "label__i18n__nl": "TCS in gebouwen",
+    "legacy_fields": "{\"outro\": {\"de\": \"Darüber hinaus können Architekten für repräsentative Eingangsbereiche individuell gestaltete Außenstationen in speziellen Größen, Funktionen und Materialien konfigurieren.\", \"en\": \"In addition, architects can configure individually designed outdoor stations in special sizes, functions and materials for representative entrance areas.\"}}",
+    "children": [
+     {
+      "_uid": "e625cf24-2ac6-4a16-8b44-5eabc0d39589",
+      "component": "card_v1",
+      "section_key": "tcsinbauten_pflege",
+      "section_uid": "1905",
+      "bullets": [
+       {
+        "_uid": "ffcf1f5c-8110-4d5a-8cb3-61303286b592",
+        "component": "list_item",
+        "text": "test",
+        "text__i18n__pl": "test",
+        "text__i18n__cs": "test",
+        "text__i18n__en": "Point 1",
+        "text__i18n__nl": "test",
+        "enabled": false
+       },
+       {
+        "_uid": "80498a97-950a-45ce-9c5c-f60fcb375ba8",
+        "component": "list_item",
+        "text": "Punkt 2",
+        "text__i18n__nl": "Punt 2",
+        "text__i18n__pl": "Punkt 2",
+        "text__i18n__en": "Point 2",
+        "text__i18n__cs": "Bod 2",
+        "enabled": false
+       },
+       {
+        "_uid": "af794523-5963-4f6d-b740-8c016aef4dfd",
+        "component": "list_item",
+        "text": "Punkt 3",
+        "text__i18n__nl": "Punt 3",
+        "text__i18n__cs": "Bod 3",
+        "text__i18n__en": "Point 3",
+        "text__i18n__pl": "Punkt 3",
+        "enabled": false
+       },
+       {
+        "_uid": "a721a5a3-ff13-4992-8fc8-db9713f80254",
+        "component": "list_item",
+        "text": "Punkt 4",
+        "text__i18n__nl": "Punt 4",
+        "text__i18n__pl": "Punkt 4",
+        "text__i18n__cs": "Bod 4",
+        "text__i18n__en": "Point 4",
+        "enabled": false
+       },
+       {
+        "_uid": "88ac62fc-62ea-4307-a070-953bc72eb9e9",
+        "component": "list_item",
+        "text": "Punkt 5",
+        "text__i18n__pl": "Punkt 5",
+        "text__i18n__cs": "Bod 5",
+        "text__i18n__en": "Point 5",
+        "text__i18n__nl": "Punt 5",
+        "enabled": false
+       }
+      ],
+      "chips": [
+       {
+        "_uid": "bff57318-826c-4c12-b779-c75cbbb79979",
+        "component": "list_item",
+        "text": "Komfortruf für Ältere",
+        "text__i18n__nl": "Comfortoproep voor senioren",
+        "text__i18n__cs": "Komfortní volání pro seniory",
+        "text__i18n__en": "Comfort Call for Seniors",
+        "text__i18n__pl": "Wezwanie komfortowe dla seniorów",
+        "enabled": true
+       },
+       {
+        "_uid": "67da998a-430d-4fa4-b0db-2e67a6a81a77",
+        "component": "list_item",
+        "text": "Internkommunikation für Praxen",
+        "text__i18n__cs": "Interní komunikace pro ordinace",
+        "text__i18n__nl": "Interne communicatie voor praktijken",
+        "text__i18n__en": "Internal Communication for Practices",
+        "text__i18n__pl": "Komunikacja wewnętrzna dla gabinetów",
+        "enabled": true
+       },
+       {
+        "_uid": "ec68d933-5488-444b-b705-dc34f91de867",
+        "component": "list_item",
+        "text": "Türöffnerautomatik in den Sprechzeiten",
+        "text__i18n__en": "Automatic door opener during office hours",
+        "text__i18n__nl": "Automatische deuropener tijdens spreektijden",
+        "text__i18n__pl": "Automatyczne otwieranie drzwi w godzinach przyjęć",
+        "text__i18n__cs": "Automatické otevírání dveří v úředních hodinách",
+        "enabled": true
+       },
+       {
+        "_uid": "15c5f7dc-5803-41e4-bc27-4aa1f6ec570b",
+        "component": "list_item",
+        "text": "Merkmal 4",
+        "text__i18n__cs": "Vlastnost 4",
+        "text__i18n__pl": "Cecha 4",
+        "text__i18n__en": "Feature 4",
+        "text__i18n__nl": "Kenmerk 4",
+        "enabled": false
+       },
+       {
+        "_uid": "19724426-8676-4568-92c4-d11f1faa112f",
+        "component": "list_item",
+        "text": "Merkmal 5",
+        "text__i18n__en": "Feature 5",
+        "text__i18n__cs": "Vlastnost 5",
+        "text__i18n__nl": "Kenmerk 5",
+        "text__i18n__pl": "Cecha 5",
+        "enabled": false
+       }
+      ],
+      "link_2_label": "Zum Planer",
+      "link_2_label__i18n__en": "To planner",
+      "link_2_label__i18n__nl": "Naar de planner",
+      "link_2_label__i18n__pl": "Do planera",
+      "link_2_label__i18n__cs": "K plánovači",
+      "icon": "anchor",
+      "icon__i18n__en": "anchor",
+      "link_3_label": "Zum Konfigurator",
+      "link_3_label__i18n__nl": "Naar de configurator",
+      "link_3_label__i18n__en": "To configurator",
+      "link_3_label__i18n__pl": "Przejdź do konfiguratora",
+      "link_3_label__i18n__cs": "Do konfigurátoru",
+      "image_enabled": true,
+      "link_1_label": "Mehr erfahren",
+      "link_1_label__i18n__en": "Learn more",
+      "link_1_label__i18n__cs": "Zjistit více",
+      "link_1_label__i18n__pl": "Dowiedz się więcej",
+      "link_1_label__i18n__nl": "Meer weten",
+      "title": "TCS in Gesundheits- und Pflegeeinrichtungen",
+      "title__i18n__cs": "TCS ve zdravotnických a pečovatelských zařízeních",
+      "title__i18n__en": "TCS in Healthcare and Care Facilities",
+      "title__i18n__pl": "TCS w placówkach medycznych i opiekuńczych",
+      "title__i18n__nl": "TCS in gezondheids- en zorginstellingen",
+      "description": "Spezielle Komfortrufsysteme sowie Lösungen für Ambient Assisted Living (AAL) finden ihre Anwendung in Seniorenresidenzen, Pflegeeinrichtungen und im Betreuten Wohnen. Auch in Arztpraxen, Ärztehäusern und Kliniken können TCS-Anlagen beispielsweise um Warteflächenaufruf, Türöffnerautomatik während der Sprechzeiten oder die Internkommunikation zu Behandlungsräumen erweitert werden.",
+      "description__i18n__pl": "Specjalne komfortowe systemy przywoławcze oraz rozwiązania z zakresu Ambient Assisted Living (AAL) znajdują zastosowanie w rezydencjach dla seniorów, placówkach opiekuńczych i w mieszkalnictwie wspomaganym. Również w gabinetach lekarskich, przychodniach i klinikach systemy TCS można rozbudować na przykład o przywoływanie z poczekalni, automatyczne otwieranie drzwi w godzinach przyjęć czy komunikację wewnętrzną z gabinetami zabiegowymi.",
+      "description__i18n__cs": "Speciální komfortní přivolávací systémy a řešení pro Ambient Assisted Living (AAL) nacházejí uplatnění v domovech pro seniory, pečovatelských zařízeních a v asistovaném bydlení. I v lékařských ordinacích, poliklinikách a klinikách lze systémy TCS rozšířit například o vyvolávací systém pro čekárny, automatické otevírání dveří během ordinačních hodin nebo interní komunikaci s ošetřovnami.",
+      "description__i18n__en": "Special comfort call systems and Ambient Assisted Living (AAL) solutions are used in senior residences, care facilities, and assisted living. In doctor's practices, medical centers, and clinics, TCS systems can also be expanded, for example, with waiting area call systems, automatic door opening during consultation hours, or internal communication to treatment rooms.",
+      "description__i18n__nl": "Speciale comfortoproepsystemen en oplossingen voor Ambient Assisted Living (AAL) vinden hun toepassing in seniorenresidenties, zorginstellingen en begeleid wonen. Ook in artsenpraktijken, medische centra en klinieken kunnen TCS-systemen bijvoorbeeld worden uitgebreid met een oproepsysteem voor wachtruimtes, automatische deuropening tijdens spreektijden of interne communicatie met behandelkamers.",
+      "link_1_href": {
+       "linktype": "url",
+       "url": "/anwendungen/gesundheitseinrichtungen",
+       "cached_url": "/anwendungen/gesundheitseinrichtungen",
+       "fieldtype": "multilink"
+      },
+      "link_1_enabled": true,
+      "icon_enabled": true,
+      "link_3_href": {
+       "linktype": "url",
+       "url": "/kontakt",
+       "cached_url": "/kontakt",
+       "fieldtype": "multilink"
+      },
+      "link_2_href": {
+       "linktype": "url",
+       "url": "/kontakt",
+       "cached_url": "/kontakt",
+       "fieldtype": "multilink"
+      },
+      "link_2_enabled": false,
+      "link_3_enabled": false,
+      "icon_image": {
+       "fieldtype": "asset",
+       "filename": "https://uvkubrrljyzfvbvejepl.supabase.co/storage/v1/object/public/cms-assets/gebaeudekommunikation.root/tcsinbauten_pflege/icon_image/desktop/1787580465975-_Web_Standardkarten_1024x768px_Gesundheitseinrichtungen.jpg",
+       "alt": "",
+       "title": "*Web_Standardkarten_1024x768px_Gesundheitseinrichtungen.jpg",
+       "focus": "",
+       "meta_data": {
+        "legacy_asset_id": "250e0f7b-b53f-4cec-9a3b-6e6d556e2129",
+        "storage_path": "gebaeudekommunikation.root/tcsinbauten_pflege/icon_image/desktop/1787580465975-_Web_Standardkarten_1024x768px_Gesundheitseinrichtungen.jpg"
+       }
+      },
+      "icon_image_tablet": {
+       "fieldtype": "asset",
+       "filename": "https://uvkubrrljyzfvbvejepl.supabase.co/storage/v1/object/public/cms-assets/gebaeudekommunikation.root/tcsinbauten_pflege/icon_image/tablet/1787580471204-_Web_Standardkarten_1024x768px_Gesundheitseinrichtungen.jpg",
+       "alt": "",
+       "title": "*Web_Standardkarten_1024x768px_Gesundheitseinrichtungen.jpg",
+       "focus": "",
+       "meta_data": {
+        "legacy_asset_id": "0c623c3c-ca30-4f75-a4c1-85f9b33406da",
+        "storage_path": "gebaeudekommunikation.root/tcsinbauten_pflege/icon_image/tablet/1787580471204-_Web_Standardkarten_1024x768px_Gesundheitseinrichtungen.jpg"
+       }
+      },
+      "icon_image_mobile": {
+       "fieldtype": "asset",
+       "filename": "https://uvkubrrljyzfvbvejepl.supabase.co/storage/v1/object/public/cms-assets/gebaeudekommunikation.root/tcsinbauten_pflege/icon_image/mobile/1787580475839-_Web_Standardkarten_1024x768px_Gesundheitseinrichtungen.jpg",
+       "alt": "",
+       "title": "*Web_Standardkarten_1024x768px_Gesundheitseinrichtungen.jpg",
+       "focus": "",
+       "meta_data": {
+        "legacy_asset_id": "6d1c83fa-8db9-42e1-bd88-86ca1eb4f11b",
+        "storage_path": "gebaeudekommunikation.root/tcsinbauten_pflege/icon_image/mobile/1787580475839-_Web_Standardkarten_1024x768px_Gesundheitseinrichtungen.jpg"
+       }
+      },
+      "image": {
+       "fieldtype": "asset",
+       "filename": "https://uvkubrrljyzfvbvejepl.supabase.co/storage/v1/object/public/cms-assets/gebaeudekommunikation.root/tcsinbauten_pflege/image/desktop/1787580483907-_Web_Standardkarten_1024x768px_Gesundheitseinrichtungen.jpg",
+       "alt": "",
+       "title": "*Web_Standardkarten_1024x768px_Gesundheitseinrichtungen.jpg",
+       "focus": "",
+       "meta_data": {
+        "legacy_asset_id": "0860b46e-dad8-4026-bfc0-36bb5946e80e",
+        "storage_path": "gebaeudekommunikation.root/tcsinbauten_pflege/image/desktop/1787580483907-_Web_Standardkarten_1024x768px_Gesundheitseinrichtungen.jpg"
+       }
+      },
+      "thumbnail": {
+       "fieldtype": "asset",
+       "filename": "https://uvkubrrljyzfvbvejepl.supabase.co/storage/v1/object/public/cms-assets/gebaeudekommunikation.root/tcsinbauten_pflege/thumbnail/desktop/1787580490118-_Web_Standardkarten_1024x768px_Gesundheitseinrichtungen.jpg",
+       "alt": "",
+       "title": "*Web_Standardkarten_1024x768px_Gesundheitseinrichtungen.jpg",
+       "focus": "",
+       "meta_data": {
+        "legacy_asset_id": "bb9159ae-864b-4b0c-b888-948a0eeae73f",
+        "storage_path": "gebaeudekommunikation.root/tcsinbauten_pflege/thumbnail/desktop/1787580490118-_Web_Standardkarten_1024x768px_Gesundheitseinrichtungen.jpg"
+       }
+      }
+     },
+     {
+      "_uid": "73b56557-1c25-42e1-8221-15745046e719",
+      "component": "card_v1",
+      "section_key": "tcsinbauten_bildung",
+      "section_uid": "1906",
+      "bullets": [
+       {
+        "_uid": "358433d8-2293-45e8-889c-8e828c10df44",
+        "component": "list_item",
+        "text": "Punkt 1",
+        "text__i18n__cs": "Bod 1",
+        "text__i18n__nl": "Punt 1",
+        "text__i18n__en": "Point 1",
+        "text__i18n__pl": "Punkt 1",
+        "enabled": false
+       },
+       {
+        "_uid": "6d1207d1-b680-4765-b115-a12421d16464",
+        "component": "list_item",
+        "text": "Punkt 2",
+        "text__i18n__en": "Point 2",
+        "text__i18n__pl": "Punkt 2",
+        "text__i18n__cs": "Bod 2",
+        "text__i18n__nl": "Punt 2",
+        "enabled": false
+       },
+       {
+        "_uid": "18271bad-108b-491b-814d-8c393d589c2f",
+        "component": "list_item",
+        "text": "Punkt 3",
+        "text__i18n__nl": "Punt 3",
+        "text__i18n__cs": "Bod 3",
+        "text__i18n__pl": "Punkt 3",
+        "text__i18n__en": "Point 3",
+        "enabled": false
+       },
+       {
+        "_uid": "67748901-ff31-4d03-98d8-cd7b405d91b3",
+        "component": "list_item",
+        "text": "Punkt 4",
+        "text__i18n__cs": "Bod 4",
+        "text__i18n__pl": "Punkt 4",
+        "text__i18n__en": "Point 4",
+        "text__i18n__nl": "Punt 4",
+        "enabled": false
+       },
+       {
+        "_uid": "9283cf7e-911e-4445-a1f2-59cb5d6e6489",
+        "component": "list_item",
+        "text": "Punkt 5",
+        "text__i18n__pl": "Punkt 5",
+        "text__i18n__en": "Point 5",
+        "text__i18n__cs": "Bod 5",
+        "text__i18n__nl": "Punt 5",
+        "enabled": false
+       }
+      ],
+      "chips": [
+       {
+        "_uid": "27dc81da-f747-490d-b1e2-cca826a3ef04",
+        "component": "list_item",
+        "text": "Notrufsystem für Schulen",
+        "text__i18n__en": "Emergency Call System for Schools",
+        "text__i18n__pl": "System wzywania pomocy dla szkół",
+        "text__i18n__cs": "Tísňový systém pro školy",
+        "text__i18n__nl": "Noodoproepsysteem voor scholen",
+        "enabled": true
+       },
+       {
+        "_uid": "acf817a0-5e73-49f7-ab19-caf3c570e2c8",
+        "component": "list_item",
+        "text": "Kita-spezifische Internkommunikation für Mitarbeiter",
+        "text__i18n__en": "Daycare-specific internal communication for employees",
+        "text__i18n__pl": "Komunikacja wewnętrzna dla personelu przedszkoli",
+        "text__i18n__nl": "Kinderopvangspecifieke interne communicatie voor medewerkers",
+        "text__i18n__cs": "Specifická interní komunikace pro zaměstnance mateřských škol",
+        "enabled": true
+       },
+       {
+        "_uid": "34a4e596-370e-49d4-82ea-774c13ecdf28",
+        "component": "list_item",
+        "text": "Digitale Namensverwaltung und Zutrittskontrolle für Wohnheime",
+        "text__i18n__cs": "Digitální správa jmenovek a řízení přístupu pro ubytovací zařízení",
+        "text__i18n__en": "Digital name management and access control for dormitories",
+        "text__i18n__nl": "Digitaal naambeheer en toegangscontrole voor wooncomplexen",
+        "text__i18n__pl": "Cyfrowe zarządzanie nazwiskami i kontrola dostępu dla domów studenckich",
+        "enabled": true
+       },
+       {
+        "_uid": "e2fb5bc4-82e2-4d05-949b-5c5504c67c21",
+        "component": "list_item",
+        "text": "Merkmal 4",
+        "text__i18n__en": "Feature 4",
+        "text__i18n__cs": "Vlastnost 4",
+        "text__i18n__nl": "Kenmerk 4",
+        "text__i18n__pl": "Cecha 4",
+        "enabled": false
+       },
+       {
+        "_uid": "e0d30690-88ce-4a14-926d-222004b1625f",
+        "component": "list_item",
+        "text": "Merkmal 5",
+        "text__i18n__en": "Feature 5",
+        "text__i18n__nl": "Kenmerk 5",
+        "text__i18n__pl": "Cecha 5",
+        "text__i18n__cs": "Vlastnost 5",
+        "enabled": false
+       }
+      ],
+      "link_1_label": "Mehr erfahren",
+      "link_1_label__i18n__cs": "Zjistit více",
+      "link_1_label__i18n__en": "Learn more",
+      "link_1_label__i18n__nl": "Meer weten",
+      "link_1_label__i18n__pl": "Dowiedz się więcej",
+      "link_3_label": "Zum Konfigurator",
+      "link_3_label__i18n__pl": "Przejdź do konfiguratora",
+      "link_3_label__i18n__nl": "Naar de configurator",
+      "link_3_label__i18n__cs": "Do konfigurátoru",
+      "link_3_label__i18n__en": "To configurator",
+      "title": "Bildungs- und Betreuungseinrichtungen",
+      "title__i18n__cs": "Vzdělávací a pečovatelská zařízení",
+      "title__i18n__en": "Educational and care facilities",
+      "title__i18n__pl": "Placówki oświatowe i opiekuńcze",
+      "title__i18n__nl": "Onderwijs- en zorginstellingen",
+      "link_1_href": {
+       "linktype": "url",
+       "url": "/anwendungen/bildungseinrichtungen",
+       "cached_url": "/anwendungen/bildungseinrichtungen",
+       "fieldtype": "multilink"
+      },
+      "description": "In Schulen finden Notfallrufsysteme von TCS ihre Anwendung, in Kindertagesstätten sichern wir den Eingang mit Zutrittskontrolle und ermöglichen mobile Kommunikationslösungen für Mitarbeiter. In Studentenwohnheimen vereinfachen TCS-Anlagen  mit digitaler Namensverwaltung die Administration zu jedem Semesterbeginn.",
+      "description__i18n__en": "In schools, TCS emergency call systems are used; in daycare centers, we secure the entrance with access control and enable mobile communication solutions for staff. In student dormitories, TCS systems with digital name management simplify administration at the start of each semester.",
+      "description__i18n__nl": "In scholen worden noodoproepsystemen van TCS toegepast, in kinderdagverblijven beveiligen we de ingang met toegangscontrole en maken we mobiele communicatieoplossingen voor medewerkers mogelijk. In studentenhuisvesting vereenvoudigen TCS-systemen met digitaal naambeheer de administratie bij de start van elk semester.",
+      "description__i18n__pl": "W szkołach znajdują zastosowanie systemy przywoławcze TCS, w przedszkolach zabezpieczamy wejście za pomocą kontroli dostępu oraz umożliwiamy korzystanie z mobilnych rozwiązań komunikacyjnych dla pracowników. W akademikach systemy TCS z cyfrowym zarządzaniem nazwiskami ułatwiają administrację na początku każdego semestru.",
+      "description__i18n__cs": "Ve školách se používají tísňové volací systémy TCS, v mateřských školách zabezpečujeme vstup pomocí kontroly přístupu a umožňujeme mobilní komunikační řešení pro zaměstnance. Na vysokoškolských kolejích zjednodušují systémy TCS s digitální správou jmen administrativu na začátku každého semestru.",
+      "link_3_enabled": false,
+      "link_1_enabled": true,
+      "link_2_label": "Zum Planer",
+      "link_2_label__i18n__en": "To planner",
+      "link_2_label__i18n__nl": "Naar de planner",
+      "link_2_label__i18n__pl": "Do planera",
+      "link_2_label__i18n__cs": "K plánovači",
+      "link_3_href": {
+       "linktype": "url",
+       "url": "/kontakt",
+       "cached_url": "/kontakt",
+       "fieldtype": "multilink"
+      },
+      "link_2_enabled": false,
+      "link_2_href": {
+       "linktype": "url",
+       "url": "/kontakt",
+       "cached_url": "/kontakt",
+       "fieldtype": "multilink"
+      },
+      "icon_image": {
+       "fieldtype": "asset",
+       "filename": "https://uvkubrrljyzfvbvejepl.supabase.co/storage/v1/object/public/cms-assets/gebaeudekommunikation.root/tcsinbauten_bildung/icon_image/desktop/1787580500682-_Web_Standardkarten_1024x768px_Bildungseinrichtungen.jpg",
+       "alt": "",
+       "title": "*Web_Standardkarten_1024x768px_Bildungseinrichtungen.jpg",
+       "focus": "",
+       "meta_data": {
+        "legacy_asset_id": "1d82ee2f-6e2a-4603-b329-bf5aa1337dae",
+        "storage_path": "gebaeudekommunikation.root/tcsinbauten_bildung/icon_image/desktop/1787580500682-_Web_Standardkarten_1024x768px_Bildungseinrichtungen.jpg"
+       }
+      },
+      "icon_image_tablet": {
+       "fieldtype": "asset",
+       "filename": "https://uvkubrrljyzfvbvejepl.supabase.co/storage/v1/object/public/cms-assets/gebaeudekommunikation.root/tcsinbauten_bildung/icon_image/tablet/1787580505575-_Web_Standardkarten_1024x768px_Bildungseinrichtungen.jpg",
+       "alt": "",
+       "title": "*Web_Standardkarten_1024x768px_Bildungseinrichtungen.jpg",
+       "focus": "",
+       "meta_data": {
+        "legacy_asset_id": "70ca7b20-8bf2-4ccb-9c41-4452b4619003",
+        "storage_path": "gebaeudekommunikation.root/tcsinbauten_bildung/icon_image/tablet/1787580505575-_Web_Standardkarten_1024x768px_Bildungseinrichtungen.jpg"
+       }
+      },
+      "icon_image_mobile": {
+       "fieldtype": "asset",
+       "filename": "https://uvkubrrljyzfvbvejepl.supabase.co/storage/v1/object/public/cms-assets/gebaeudekommunikation.root/tcsinbauten_bildung/icon_image/mobile/1787580510163-_Web_Standardkarten_1024x768px_Bildungseinrichtungen.jpg",
+       "alt": "",
+       "title": "*Web_Standardkarten_1024x768px_Bildungseinrichtungen.jpg",
+       "focus": "",
+       "meta_data": {
+        "legacy_asset_id": "ccc34952-b8da-4c4d-bddc-ecc4cf0437da",
+        "storage_path": "gebaeudekommunikation.root/tcsinbauten_bildung/icon_image/mobile/1787580510163-_Web_Standardkarten_1024x768px_Bildungseinrichtungen.jpg"
+       }
+      },
+      "image": {
+       "fieldtype": "asset",
+       "filename": "https://uvkubrrljyzfvbvejepl.supabase.co/storage/v1/object/public/cms-assets/gebaeudekommunikation.root/tcsinbauten_bildung/image/desktop/1787580515703-_Web_Standardkarten_1024x768px_Bildungseinrichtungen.jpg",
+       "alt": "",
+       "title": "*Web_Standardkarten_1024x768px_Bildungseinrichtungen.jpg",
+       "focus": "",
+       "meta_data": {
+        "legacy_asset_id": "daa7517e-7015-4b2e-9979-b52fc378fbf0",
+        "storage_path": "gebaeudekommunikation.root/tcsinbauten_bildung/image/desktop/1787580515703-_Web_Standardkarten_1024x768px_Bildungseinrichtungen.jpg"
+       }
+      },
+      "thumbnail": {
+       "fieldtype": "asset",
+       "filename": "https://uvkubrrljyzfvbvejepl.supabase.co/storage/v1/object/public/cms-assets/gebaeudekommunikation.root/tcsinbauten_bildung/thumbnail/desktop/1787580520762-_Web_Standardkarten_1024x768px_Bildungseinrichtungen.jpg",
+       "alt": "",
+       "title": "*Web_Standardkarten_1024x768px_Bildungseinrichtungen.jpg",
+       "focus": "",
+       "meta_data": {
+        "legacy_asset_id": "a6c5e695-3c88-4656-a213-e660171380de",
+        "storage_path": "gebaeudekommunikation.root/tcsinbauten_bildung/thumbnail/desktop/1787580520762-_Web_Standardkarten_1024x768px_Bildungseinrichtungen.jpg"
+       }
+      }
+     },
+     {
+      "_uid": "cc328443-abbe-445a-9cbe-ee7a1554769e",
+      "component": "card_v1",
+      "section_key": "tcsinbauten_behoerden",
+      "section_uid": "1907",
+      "bullets": [
+       {
+        "_uid": "8e6e3c4d-790e-4d19-a37d-9bab6fad10ff",
+        "component": "list_item",
+        "text": "Punkt 1",
+        "text__i18n__cs": "Bod 1",
+        "text__i18n__en": "Point 1",
+        "text__i18n__pl": "Punkt 1",
+        "text__i18n__nl": "Punt 1",
+        "enabled": false
+       },
+       {
+        "_uid": "4e6f2e61-3cc0-411e-8c08-e482ac4cb2b5",
+        "component": "list_item",
+        "text": "Punkt 2",
+        "text__i18n__cs": "Bod 2",
+        "text__i18n__pl": "Punkt 2",
+        "text__i18n__nl": "Punt 2",
+        "text__i18n__en": "Point 2",
+        "enabled": false
+       },
+       {
+        "_uid": "407db829-afc1-4e51-958d-eccd31daf448",
+        "component": "list_item",
+        "text": "Punkt 3",
+        "text__i18n__en": "Point 3",
+        "text__i18n__nl": "Punt 3",
+        "text__i18n__pl": "Punkt 3",
+        "text__i18n__cs": "Bod 3",
+        "enabled": false
+       },
+       {
+        "_uid": "315ca49a-37b3-4700-a11c-fe8b3d4b96fd",
+        "component": "list_item",
+        "text": "Punkt 4",
+        "text__i18n__pl": "Punkt 4",
+        "text__i18n__en": "Point 4",
+        "text__i18n__nl": "Punt 4",
+        "text__i18n__cs": "Bod 4",
+        "enabled": false
+       },
+       {
+        "_uid": "fb714fee-1ebd-4928-addc-cb28c8cac7e7",
+        "component": "list_item",
+        "text": "Punkt 5",
+        "text__i18n__en": "Point 5",
+        "text__i18n__cs": "Bod 5",
+        "text__i18n__nl": "Punt 5",
+        "text__i18n__pl": "Punkt 5",
+        "enabled": false
+       }
+      ],
+      "chips": [
+       {
+        "_uid": "470ae943-46ea-413f-81a6-0248f2478521",
+        "component": "list_item",
+        "text": "Video-Türkommunikation für öffentliche Bauten",
+        "text__i18n__nl": "Videodeurcommunicatie voor openbare gebouwen",
+        "text__i18n__cs": "Dveřní videokomunikace pro veřejné budovy",
+        "text__i18n__en": "Video door communication for public buildings",
+        "text__i18n__pl": "Wideodomofonia dla budynków użyteczności publicznej",
+        "enabled": true
+       },
+       {
+        "_uid": "d9bf5f0a-c9db-4b31-8950-26fcd4661b01",
+        "component": "list_item",
+        "text": "Digitale Zutrittskontrolle an und in öffentlichen Bauten",
+        "text__i18n__en": "Digital Access Control for and in Public Buildings",
+        "text__i18n__pl": "Cyfrowa kontrola dostępu w i przy obiektach użyteczności publicznej",
+        "text__i18n__nl": "Digitale toegangscontrole aan en in openbare gebouwen",
+        "text__i18n__cs": "Digitální kontrola vstupu na a ve veřejných budovách",
+        "enabled": true
+       },
+       {
+        "_uid": "b4caaa94-78c6-43d1-9f76-6b0b5c1331c6",
+        "component": "list_item",
+        "text": "Leit- und Orientierungssystem für Besucherverkehr",
+        "text__i18n__cs": "Navigační a orientační systém pro návštěvníky",
+        "text__i18n__pl": "System orientacji i nawigacji dla ruchu gości",
+        "text__i18n__en": "Guidance and Orientation System for Visitor Traffic",
+        "text__i18n__nl": "Geleidings- en oriëntatiesysteem voor bezoekersverkeer",
+        "enabled": true
+       },
+       {
+        "_uid": "2d5c13de-35d4-4a8b-9474-4ed59afbf39b",
+        "component": "list_item",
+        "text": "Merkmal 4",
+        "text__i18n__pl": "Cecha 4",
+        "text__i18n__nl": "Kenmerk 4",
+        "text__i18n__cs": "Vlastnost 4",
+        "text__i18n__en": "Feature 4",
+        "enabled": false
+       },
+       {
+        "_uid": "71a2079f-980a-44ee-b3ec-7a1768093071",
+        "component": "list_item",
+        "text": "Merkmal 5",
+        "text__i18n__pl": "Cecha 5",
+        "text__i18n__cs": "Vlastnost 5",
+        "text__i18n__nl": "Kenmerk 5",
+        "text__i18n__en": "Feature 5",
+        "enabled": false
+       }
+      ],
+      "link_2_href": {
+       "linktype": "url",
+       "url": "/kontakt",
+       "cached_url": "/kontakt",
+       "fieldtype": "multilink"
+      },
+      "link_3_enabled": false,
+      "link_1_label": "Mehr erfahren",
+      "link_1_label__i18n__en": "Learn more",
+      "link_1_label__i18n__pl": "Dowiedz się więcej",
+      "link_1_label__i18n__nl": "Meer weten",
+      "link_1_label__i18n__cs": "Zjistit více",
+      "link_2_label": "Zum Planer",
+      "link_2_label__i18n__en": "To planner",
+      "link_2_label__i18n__nl": "Naar de planner",
+      "link_2_label__i18n__cs": "K plánovači",
+      "link_2_label__i18n__pl": "Do planera",
+      "link_3_label": "Zum Konfigurator",
+      "link_3_label__i18n__cs": "Do konfigurátoru",
+      "link_3_label__i18n__pl": "Przejdź do konfiguratora",
+      "link_3_label__i18n__nl": "Naar de configurator",
+      "link_3_label__i18n__en": "To configurator",
+      "title": "Behörden, Ämter und Feuerwehren",
+      "title__i18n__cs": "Úřady, instituce a hasiči",
+      "title__i18n__pl": "Urzędy, instytucje i straż pożarna",
+      "title__i18n__nl": "Overheden, instanties en brandweer",
+      "title__i18n__en": "Authorities, public offices and fire brigades",
+      "description": "In Gebäuden der öffentlichen Hand geht es um eine Türkommunikation mit zusätzlichen Internkommunikation und um sichere Gebäudezugänge durch Zutrittkontrolle.\nInsbesondere bei Gebäuden mit Besucherverkehr ist ein Leit- und Orientierungssystem eine hilfreiche Installation.",
+      "description__i18n__en": "In public buildings, the focus is on door communication with additional internal communication and secure building access through access control.\nEspecially in buildings with visitor traffic, a guiding and orientation system is a helpful installation.",
+      "description__i18n__cs": "V budovách veřejné správy jde o dveřní komunikaci s doplňkovou interní komunikací a o bezpečné vstupy do budov pomocí kontroly přístupu. Zejména v budovách s návštěvnickým provozem je navigační a orientační systém užitečnou instalací.",
+      "description__i18n__pl": "W budynkach sektora publicznego chodzi o komunikację drzwiową z dodatkową komunikacją wewnętrzną oraz bezpieczny dostęp do budynku dzięki kontroli dostępu. \nZwłaszcza w budynkach z ruchem interesantów pomocnym rozwiązaniem jest system kierowania i orientacji.",
+      "description__i18n__nl": "In overheidsgebouwen draait het om deurcommunicatie met aanvullende interne communicatie en veilige gebouwtoegang via toegangscontrole. Vooral bij gebouwen met bezoekersverkeer is een geleide- en oriëntatiesysteem een nuttige installatie.",
+      "link_1_href": {
+       "linktype": "url",
+       "url": "/anwendungen/oeffentliche-hand",
+       "cached_url": "/anwendungen/oeffentliche-hand",
+       "fieldtype": "multilink"
+      },
+      "link_1_enabled": true,
+      "link_2_enabled": false,
+      "link_3_href": {
+       "linktype": "url",
+       "url": "/kontakt",
+       "cached_url": "/kontakt",
+       "fieldtype": "multilink"
+      },
+      "icon_image": {
+       "fieldtype": "asset",
+       "filename": "https://uvkubrrljyzfvbvejepl.supabase.co/storage/v1/object/public/cms-assets/gebaeudekommunikation.root/tcsinbauten_behoerden/icon_image/desktop/1787580529639-_Web_Standardkarten_1024x768px_Behoerden.jpg",
+       "alt": "",
+       "title": "*Web_Standardkarten_1024x768px_Behoerden.jpg",
+       "focus": "",
+       "meta_data": {
+        "legacy_asset_id": "68291903-2d7a-4178-8d4c-e0ab450ae3f8",
+        "storage_path": "gebaeudekommunikation.root/tcsinbauten_behoerden/icon_image/desktop/1787580529639-_Web_Standardkarten_1024x768px_Behoerden.jpg"
+       }
+      },
+      "icon_image_tablet": {
+       "fieldtype": "asset",
+       "filename": "https://uvkubrrljyzfvbvejepl.supabase.co/storage/v1/object/public/cms-assets/gebaeudekommunikation.root/tcsinbauten_behoerden/icon_image/tablet/1787580533747-_Web_Standardkarten_1024x768px_Behoerden.jpg",
+       "alt": "",
+       "title": "*Web_Standardkarten_1024x768px_Behoerden.jpg",
+       "focus": "",
+       "meta_data": {
+        "legacy_asset_id": "1ae685d8-b4ab-4cc9-b63d-61013813f128",
+        "storage_path": "gebaeudekommunikation.root/tcsinbauten_behoerden/icon_image/tablet/1787580533747-_Web_Standardkarten_1024x768px_Behoerden.jpg"
+       }
+      },
+      "icon_image_mobile": {
+       "fieldtype": "asset",
+       "filename": "https://uvkubrrljyzfvbvejepl.supabase.co/storage/v1/object/public/cms-assets/gebaeudekommunikation.root/tcsinbauten_behoerden/icon_image/mobile/1787580537982-_Web_Standardkarten_1024x768px_Behoerden.jpg",
+       "alt": "",
+       "title": "*Web_Standardkarten_1024x768px_Behoerden.jpg",
+       "focus": "",
+       "meta_data": {
+        "legacy_asset_id": "658a9fdd-8394-4c40-a65f-6256afbeb9cf",
+        "storage_path": "gebaeudekommunikation.root/tcsinbauten_behoerden/icon_image/mobile/1787580537982-_Web_Standardkarten_1024x768px_Behoerden.jpg"
+       }
+      },
+      "image": {
+       "fieldtype": "asset",
+       "filename": "https://uvkubrrljyzfvbvejepl.supabase.co/storage/v1/object/public/cms-assets/gebaeudekommunikation.root/tcsinbauten_behoerden/image/desktop/1787580542296-_Web_Standardkarten_1024x768px_Behoerden.jpg",
+       "alt": "",
+       "title": "*Web_Standardkarten_1024x768px_Behoerden.jpg",
+       "focus": "",
+       "meta_data": {
+        "legacy_asset_id": "71207bed-65f3-4c3d-a561-59f17ea6b33c",
+        "storage_path": "gebaeudekommunikation.root/tcsinbauten_behoerden/image/desktop/1787580542296-_Web_Standardkarten_1024x768px_Behoerden.jpg"
+       }
+      },
+      "thumbnail": {
+       "fieldtype": "asset",
+       "filename": "https://uvkubrrljyzfvbvejepl.supabase.co/storage/v1/object/public/cms-assets/gebaeudekommunikation.root/tcsinbauten_behoerden/thumbnail/desktop/1787580546407-_Web_Standardkarten_1024x768px_Behoerden.jpg",
+       "alt": "",
+       "title": "*Web_Standardkarten_1024x768px_Behoerden.jpg",
+       "focus": "",
+       "meta_data": {
+        "legacy_asset_id": "7cdab17e-159d-4b5a-ac76-fdc5f3ea6c62",
+        "storage_path": "gebaeudekommunikation.root/tcsinbauten_behoerden/thumbnail/desktop/1787580546407-_Web_Standardkarten_1024x768px_Behoerden.jpg"
+       }
+      }
+     },
+     {
+      "_uid": "97b913ff-9fdb-4f29-ab45-2e646fd24e3f",
+      "component": "card_v1",
+      "section_key": "tcsinbauten_gross",
+      "section_uid": "1908",
+      "bullets": [
+       {
+        "_uid": "ad9ab08a-72c1-404b-902a-53538208824f",
+        "component": "list_item",
+        "text": "Punkt 1",
+        "text__i18n__cs": "Bod 1",
+        "text__i18n__pl": "Punkt 1",
+        "text__i18n__en": "Point 1",
+        "text__i18n__nl": "Punt 1",
+        "enabled": false
+       },
+       {
+        "_uid": "c0d8227a-b729-4b41-b8ec-245e8b2d1202",
+        "component": "list_item",
+        "text": "Punkt 2",
+        "text__i18n__cs": "Bod 2",
+        "text__i18n__en": "Point 2",
+        "text__i18n__nl": "Punt 2",
+        "text__i18n__pl": "Punkt 2",
+        "enabled": false
+       },
+       {
+        "_uid": "c06f8baa-7e15-49ab-9169-1b9db819dccc",
+        "component": "list_item",
+        "text": "Punkt 3",
+        "text__i18n__cs": "Bod 3",
+        "text__i18n__nl": "Punt 3",
+        "text__i18n__pl": "Punkt 3",
+        "text__i18n__en": "Point 3",
+        "enabled": false
+       },
+       {
+        "_uid": "bb3e84ab-84c1-431a-a703-b8f3bc6bb476",
+        "component": "list_item",
+        "text": "Punkt 4",
+        "text__i18n__cs": "Bod 4",
+        "text__i18n__en": "Point 4",
+        "text__i18n__nl": "Punt 4",
+        "text__i18n__pl": "Punkt 4",
+        "enabled": false
+       },
+       {
+        "_uid": "f4171817-3bd7-4b49-9d73-0e74ac5c471c",
+        "component": "list_item",
+        "text": "Punkt 5",
+        "text__i18n__cs": "Bod 5",
+        "text__i18n__en": "Point 5",
+        "text__i18n__nl": "Punt 5",
+        "text__i18n__pl": "Punkt 5",
+        "enabled": false
+       }
+      ],
+      "chips": [
+       {
+        "_uid": "7e1c9c7b-7665-4146-8cbb-aa336a68ee9b",
+        "component": "list_item",
+        "text": "Haupt-Außenstationen für bis zu 1.000 Rufziele",
+        "text__i18n__nl": "Hoofdbuitenstations voor maximaal 1.000 oproepdoelen",
+        "text__i18n__cs": "Hlavní venkovní stanice pro až 1 000 cílů volání",
+        "text__i18n__pl": "Główne stacje zewnętrzne do 1000 celów wywołania",
+        "text__i18n__en": "Main outdoor stations for up to 1,000 call targets",
+        "enabled": true
+       },
+       {
+        "_uid": "40ef4106-1c1f-451d-8681-9a94dacff9d9",
+        "component": "list_item",
+        "text": "Digitale Namensverwaltung",
+        "text__i18n__en": "Digital Name Management",
+        "text__i18n__nl": "Digitaal namenbeheer",
+        "text__i18n__cs": "Digitální správa jmen",
+        "text__i18n__pl": "Cyfrowe zarządzanie nazwiskami",
+        "enabled": true
+       },
+       {
+        "_uid": "75ae1422-fcb0-432b-8cb3-f61c3e6c6799",
+        "component": "list_item",
+        "text": "Cloudbetrieb mehrerer Anlagen für zentrale Verwaltung",
+        "text__i18n__nl": "Cloudgebaseerde exploitatie van meerdere installaties voor centraal beheer",
+        "text__i18n__pl": "Obsługa w chmurze wielu instalacji do centralnego zarządzania",
+        "text__i18n__en": "Cloud operation of multiple systems for central administration",
+        "text__i18n__cs": "Cloudový provoz více systémů pro centrální správu",
+        "enabled": true
+       },
+       {
+        "_uid": "f2dfaa3f-88c7-4dca-ab13-cc550920d62c",
+        "component": "list_item",
+        "text": "Merkmal 4",
+        "text__i18n__nl": "Kenmerk 4",
+        "text__i18n__cs": "Vlastnost 4",
+        "text__i18n__pl": "Cecha 4",
+        "text__i18n__en": "Feature 4",
+        "enabled": false
+       },
+       {
+        "_uid": "9ab0620a-27a7-486e-91f2-cf0715cde7bb",
+        "component": "list_item",
+        "text": "Merkmal 5",
+        "text__i18n__nl": "Kenmerk 5",
+        "text__i18n__en": "Feature 5",
+        "text__i18n__pl": "Cecha 5",
+        "text__i18n__cs": "Vlastnost 5",
+        "enabled": false
+       }
+      ],
+      "link_1_label": "Mehr erfahren",
+      "link_1_label__i18n__nl": "Meer weten",
+      "link_1_label__i18n__cs": "Zjistit více",
+      "link_1_label__i18n__en": "Learn more",
+      "link_1_label__i18n__pl": "Dowiedz się więcej",
+      "link_3_href": {
+       "linktype": "url",
+       "url": "/kontakt",
+       "cached_url": "/kontakt",
+       "fieldtype": "multilink"
+      },
+      "link_3_label": "Zum Konfigurator",
+      "link_3_label__i18n__en": "To configurator",
+      "link_3_label__i18n__nl": "Naar de configurator",
+      "link_3_label__i18n__cs": "Do konfigurátoru",
+      "link_3_label__i18n__pl": "Przejdź do konfiguratora",
+      "description": "Für große Gebäudekomplexe, Hochhäuser und Wohnquartiere lassen sich Türsprechanlagen für viele Rufziele auslegen und um zusätzliche Funktionen für die Gebäudesicherheit, eine Concierge-Funktion und Infoboards zur digitalen Bewohnerinformation erweitern.",
+      "description__i18n__pl": "W dużych kompleksach budynków, wieżowcach i osiedlach mieszkaniowych systemy domofonowe można skonfigurować dla wielu celów wywołania oraz rozbudować o dodatkowe funkcje bezpieczeństwa budynku, funkcję concierge i cyfrowe tablice informacyjne dla mieszkańców.",
+      "description__i18n__nl": "Voor grote gebouwencomplexen, hoogbouw en woonwijken kunnen deurintercomsystemen voor talrijke oproepbestemmingen worden geconfigureerd en worden uitgebreid met extra functies voor gebouwbeveiliging, een conciërgefunctie en infoborden voor digitale bewonersinformatie.",
+      "description__i18n__en": "For large building complexes, high-rises, and residential areas, door intercom systems can be designed for many call destinations and expanded with additional functions for building security, a concierge function, and info boards for digital resident information.",
+      "description__i18n__cs": "Pro velké komplexy budov, výškové budovy a rezidenční čtvrti lze dveřní komunikační systémy dimenzovat pro velký počet účastníků a rozšířit je o dodatečné funkce pro bezpečnost budov, funkci concierge a informační tabule pro digitální informování obyvatel.",
+      "title": "Großanlagen in Wohnbauten und Quartieren",
+      "title__i18n__pl": "Duże instalacje w budynkach mieszkalnych i na osiedlach",
+      "title__i18n__en": "Large-scale systems in residential buildings and districts",
+      "title__i18n__nl": "Grootschalige installaties in woongebouwen en woonwijken",
+      "title__i18n__cs": "Rozsáhlé systémy v obytných budovách a čtvrtích",
+      "link_2_href": {
+       "linktype": "url",
+       "url": "/kontakt",
+       "cached_url": "/kontakt",
+       "fieldtype": "multilink"
+      },
+      "link_2_label": "Zum Planer",
+      "link_2_label__i18n__nl": "Naar de planner",
+      "link_2_label__i18n__cs": "K plánovači",
+      "link_2_label__i18n__en": "To planner",
+      "link_2_label__i18n__pl": "Do planera",
+      "link_1_href": {
+       "linktype": "url",
+       "url": "/gebaeudekommunikation/grossanlagen",
+       "cached_url": "/gebaeudekommunikation/grossanlagen",
+       "fieldtype": "multilink"
+      },
+      "link_3_enabled": false,
+      "link_2_enabled": false,
+      "link_1_enabled": true,
+      "icon_image": {
+       "fieldtype": "asset",
+       "filename": "https://uvkubrrljyzfvbvejepl.supabase.co/storage/v1/object/public/cms-assets/gebaeudekommunikation.root/tcsinbauten_gross/icon_image/desktop/1788437643862-Web_Standardkarten-2_1024x768px_Gebaeudekommunikation_Grossanlagen.png",
+       "alt": "",
+       "title": "Web_Standardkarten-2_1024x768px_Gebaeudekommunikation_Grossanlagen.png",
+       "focus": "",
+       "meta_data": {
+        "legacy_asset_id": "8ea28345-9423-489f-b302-2d142add8678",
+        "storage_path": "gebaeudekommunikation.root/tcsinbauten_gross/icon_image/desktop/1788437643862-Web_Standardkarten-2_1024x768px_Gebaeudekommunikation_Grossanlagen.png"
+       }
+      },
+      "icon_image_tablet": {
+       "fieldtype": "asset",
+       "filename": "https://uvkubrrljyzfvbvejepl.supabase.co/storage/v1/object/public/cms-assets/gebaeudekommunikation.root/tcsinbauten_gross/icon_image/tablet/1788437650636-Web_Standardkarten-2_1024x768px_Gebaeudekommunikation_Grossanlagen.png",
+       "alt": "",
+       "title": "Web_Standardkarten-2_1024x768px_Gebaeudekommunikation_Grossanlagen.png",
+       "focus": "",
+       "meta_data": {
+        "legacy_asset_id": "ac7205fb-c95e-4168-9bb4-83e98c3910c2",
+        "storage_path": "gebaeudekommunikation.root/tcsinbauten_gross/icon_image/tablet/1788437650636-Web_Standardkarten-2_1024x768px_Gebaeudekommunikation_Grossanlagen.png"
+       }
+      },
+      "icon_image_mobile": {
+       "fieldtype": "asset",
+       "filename": "https://uvkubrrljyzfvbvejepl.supabase.co/storage/v1/object/public/cms-assets/gebaeudekommunikation.root/tcsinbauten_gross/icon_image/mobile/1788437656065-Web_Standardkarten-2_1024x768px_Gebaeudekommunikation_Grossanlagen.png",
+       "alt": "",
+       "title": "Web_Standardkarten-2_1024x768px_Gebaeudekommunikation_Grossanlagen.png",
+       "focus": "",
+       "meta_data": {
+        "legacy_asset_id": "c138561d-ec87-4e37-8ab3-a8fed1c115b3",
+        "storage_path": "gebaeudekommunikation.root/tcsinbauten_gross/icon_image/mobile/1788437656065-Web_Standardkarten-2_1024x768px_Gebaeudekommunikation_Grossanlagen.png"
+       }
+      },
+      "image": {
+       "fieldtype": "asset",
+       "filename": "https://uvkubrrljyzfvbvejepl.supabase.co/storage/v1/object/public/cms-assets/gebaeudekommunikation.root/tcsinbauten_gross/image/desktop/1788437663800-Web_Standardkarten-2_1024x768px_Gebaeudekommunikation_Grossanlagen.png",
+       "alt": "",
+       "title": "Web_Standardkarten-2_1024x768px_Gebaeudekommunikation_Grossanlagen.png",
+       "focus": "",
+       "meta_data": {
+        "legacy_asset_id": "344641e9-fd0a-47a2-8cde-3912aaa5175d",
+        "storage_path": "gebaeudekommunikation.root/tcsinbauten_gross/image/desktop/1788437663800-Web_Standardkarten-2_1024x768px_Gebaeudekommunikation_Grossanlagen.png"
+       }
+      },
+      "thumbnail": {
+       "fieldtype": "asset",
+       "filename": "https://uvkubrrljyzfvbvejepl.supabase.co/storage/v1/object/public/cms-assets/gebaeudekommunikation.root/tcsinbauten_gross/thumbnail/desktop/1788437671753-Web_Standardkarten-2_1024x768px_Gebaeudekommunikation_Grossanlagen.png",
+       "alt": "",
+       "title": "Web_Standardkarten-2_1024x768px_Gebaeudekommunikation_Grossanlagen.png",
+       "focus": "",
+       "meta_data": {
+        "legacy_asset_id": "13bdbda9-51ec-4226-afb7-b60108398834",
+        "storage_path": "gebaeudekommunikation.root/tcsinbauten_gross/thumbnail/desktop/1788437671753-Web_Standardkarten-2_1024x768px_Gebaeudekommunikation_Grossanlagen.png"
+       }
+      }
+     }
+    ]
+   },
+   {
+    "_uid": "607bf9e2-27c7-4633-80f6-92ea865d01bc",
+    "component": "content_v1",
+    "section_key": "snipdoo",
+    "section_uid": "152",
+    "legacy_items": [
+     {
+      "_uid": "0bfc0b6a-bca0-46b0-99ce-35e8cc358c8a",
+      "component": "group_item",
+      "group_key": "card",
+      "text": "Skalierbar bis 150 Endgeräte pro Server, offene Standards (API, SIP, ONVIF), Plug & Play Konfiguration ohne Netzwerk-Kenntnisse und smartes Facility Management über die snipdoo® CLOUD.",
+      "text__i18n__en": "Scalable up to 150 end devices per server, open standards (API, SIP, ONVIF), plug & play configuration without network expertise and smart facility management via the snipdoo® CLOUD.",
+      "text__i18n__cs": "Škálovatelné až pro 150 koncových zařízení na server, otevřené standardy (API, SIP, ONVIF), konfigurace Plug & Play bez síťových znalostí a chytrý facility management přes snipdoo® CLOUD.",
+      "text__i18n__pl": "Skalowalność do 150 urządzeń końcowych na serwer, otwarte standardy (API, SIP, ONVIF), konfiguracja Plug & Play bez wiedzy sieciowej oraz inteligentne Facility Management poprzez snipdoo® CLOUD.",
+      "text__i18n__nl": "Schaalbaar tot 150 eindapparaten per server, open standaarden (API, SIP, ONVIF), Plug & Play-configuratie zonder netwerkkennis en slim facility management via de snipdoo® CLOUD."
+     }
+    ],
+    "label": "snipdoo® System",
+    "label__i18n__nl": "snipdoo® Systeem",
+    "label__i18n__en": "snipdoo® system",
+    "label__i18n__cs": "snipdoo® systém",
+    "label__i18n__pl": "System snipdoo®",
+    "title": "Türkommunikation in IP-Netzwerken – einfach und zukunftssicher",
+    "title__i18n__en": "Door communication in IP networks – simple and future-proof",
+    "title__i18n__pl": "Komunikacja drzwiowa w sieciach IP – prosta i przyszłościowa",
+    "title__i18n__cs": "Dveřní komunikace v IP sítích – jednoduchá a připravená na budoucnost",
+    "title__i18n__nl": "Deurcommunicatie in IP-netwerken – eenvoudig en toekomstbestendig",
+    "legacy_fields": "{\"zielgruppen.fachplaner.title\": {\"de\": \"Für Elektrofachplaner\", \"en\": \"For electrical planners\", \"pl\": \"Dla projektantów instalacji elektrycznych\", \"cs\": \"Pro elektroprojektanty\", \"nl\": \"Voor elektrotechnische planners\"}, \"zielgruppen.bautraeger.title\": {\"de\": \"Für Bauträger und Verwaltungen\", \"en\": \"For developers and administrators\", \"cs\": \"Pro developery a správce nemovitostí\", \"nl\": \"Voor projectontwikkelaars en vastgoedbeheerders\", \"pl\": \"Dla deweloperów i zarządców nieruchomości\"}, \"zielgruppen.installateur.title\": {\"pl\": \"Dla elektroinstalatorów\", \"en\": \"For electrical installers\", \"nl\": \"Voor elektro-installateurs\", \"de\": \"Für Elektroinstallateure\", \"cs\": \"Pro elektroinstalatéry\"}, \"zielgruppen.installateur.text\": {\"cs\": \"Konfigurace Plug & Play bez znalostí sítí. Zařízení jsou automaticky rozpoznána a pomocí drag-and-drop přiřazena k místům montáže – s PC aplikací snipdoo® SYSTEM.\", \"nl\": \"Plug & Play-configuratie zonder netwerkkennis. Apparaten worden automatisch herkend en via drag-and-drop aan de montagelocaties toegewezen – met de pc-toepassing snipdoo® SYSTEM.\", \"pl\": \"Konfiguracja Plug & Play bez wiedzy z zakresu sieci. Urządzenia są automatycznie rozpoznawane i przypisywane do miejsc montażu metodą Drag-and-Drop – za pomocą aplikacji PC snipdoo® SYSTEM.\", \"en\": \"Plug & play configuration without network expertise. Devices are detected automatically and assigned to installation locations via drag-and-drop – using the PC application snipdoo® SYSTEM.\", \"de\": \"Plug & Play Konfiguration ohne Netzwerk-Kenntnisse. Geräte werden automatisch erkannt und per Drag-and-Drop den Montageorten zugewiesen – mit der PC-Anwendung snipdoo® SYSTEM.\"}, \"zielgruppen.fachplaner.text\": {\"en\": \"Tailor-made planning and open system architecture. System layout aligned exactly with the architecture, virtual representation of the building structure and seamless integration of third-party devices.\", \"cs\": \"Plánování na míru a otevřená systémová architektura. Struktura systému přesně odpovídající architektuře, virtuální zobrazení struktury budovy a bezproblémová integrace zařízení třetích stran.\", \"pl\": \"Planowanie na miarę i otwarta architektura systemu. Budowa instalacji precyzyjnie dostosowana do architektury, wirtualne odwzorowanie struktury budynku oraz płynna integracja urządzeń innych producentów.\", \"nl\": \"Planning op maat en open systeemarchitectuur. Systeemopbouw exact afgestemd op de architectuur, virtuele weergave van de gebouwstructuur en naadloze integratie van apparatuur van derden.\", \"de\": \"Maßgeschneiderte Planung und offene Systemarchitektur. Anlagenaufbau exakt an der Architektur orientiert, virtuelle Abbildung der Gebäudestruktur und nahtlose Integration von Drittanbieter-Geräten.\"}, \"zielgruppen.bautraeger.text\": {\"en\": \"Lasting cost benefits and smart facility management. Location-independent management of several properties via the snipdoo® CLOUD, tenant changes by remote access, free HOME app for residents.\", \"pl\": \"Trwałe korzyści kosztowe i inteligentne zarządzanie obiektami. Zarządzanie wieloma obiektami niezależnie od lokalizacji za pośrednictwem snipdoo® CLOUD, zdalna zmiana najemców, bezpłatna aplikacja HOME dla mieszkańców.\", \"cs\": \"Trvalé nákladové výhody a chytrý facility management. Správa více objektů nezávisle na lokalitě prostřednictvím snipdoo® CLOUD, změna nájemců přes vzdálený přístup, bezplatná HOME App pro obyvatele.\", \"nl\": \"Blijvende kostenvoordelen en slim facility management. Locatie-onafhankelijk beheer van meerdere objecten via de snipdoo® CLOUD, huurderswissel op afstand, gratis HOME App voor bewoners.\", \"de\": \"Dauerhafte Kostenvorteile und smartes Facility Management. Standortunabhängige Verwaltung mehrerer Objekte über die snipdoo® CLOUD, Mieterwechsel per Fernzugriff, kostenfreie HOME App für Bewohner.\"}}"
+   },
+   {
+    "_uid": "2c1fb0fd-139a-4044-86eb-94e0eade4905",
+    "component": "faq_v1",
+    "section_key": "faq",
+    "section_uid": "2293",
+    "items": [
+     {
+      "_uid": "2e7769f1-99b9-40fe-a75a-fde9b7cef1c9",
+      "component": "faq_item",
+      "item_key": "q1",
+      "question": "Für welche Gebäudetypen eignen sich die TCS-Installationen?",
+      "question__i18n__en": "For which building types are TCS installations suitable?",
+      "answer": "TCS-Systeme sind für Ein- und Mehrfamilienhäuser, Gewerbe- und Zweckbauten sowie Einrichtungen der öffentlichen Hand konzipiert – individuell skalierbar je nach Gebäudegröße und Anforderung.",
+      "answer__i18n__en": "TCS systems are designed for single and multi-family homes, commercial and public buildings, as well as public institutions – individually scalable depending on building size and requirements.",
+      "enabled": true
+     },
+     {
+      "_uid": "ad4a400d-55d2-4eb2-a906-e509a491e04b",
+      "component": "faq_item",
+      "item_key": "q5",
+      "question": "Platzhalter: Welche Frage hilft bei der Entscheidung?",
+      "question__i18n__en": "Placeholder: Which question helps the decision?",
+      "answer": "Platzhalter-Antwort 5. Fasse den Mehrwert oder den nächsten Schritt zusammen.",
+      "answer__i18n__en": "Placeholder answer 5. Summarise the value or the next step.",
+      "enabled": false
+     },
+     {
+      "_uid": "cd6ec01e-1e7d-4a2e-95a8-3c93255d3ea7",
+      "component": "faq_item",
+      "item_key": "q3",
+      "question": "Erfüllen die Anlagen die aktuellen Normen?",
+      "question__i18n__en": "Do the systems meet current standards?",
+      "answer": "Ja. Die Türsprechanlagen sind barrierefrei nach DIN 18040-1 ausgeführt, die Briefkästen nach der Postnorm DIN EN 13724 gefertigt.",
+      "answer__i18n__en": "Yes. The door entry systems are designed for accessibility to DIN 18040-1, and the mailboxes are made to the postal standard DIN EN 13724.",
+      "enabled": true
+     },
+     {
+      "_uid": "9fc305ed-3a2f-487b-8a15-9eb2c54da4cc",
+      "component": "faq_item",
+      "item_key": "q4",
+      "question": "Wie lassen sich Türkommunikation, Zutritt und Gebäudemanagement zentral steuern?",
+      "question__i18n__en": "How to centrally control door communication, access and building management?",
+      "answer": "Die zentrale Steuerung erfolgt über die Anbindung an den TCS Cloud Service. Für Zutrittskontrolle und Gebäudemanagement steht zusätzlich der Cloudservice für das System BCM zur Verfügung.",
+      "answer__i18n__en": "Central control is achieved by connecting to the TCS Cloud Service. The cloud service for the BCM system is also available for access control and building management.",
+      "enabled": true
+     },
+     {
+      "_uid": "5d0910bc-19fc-4824-8f05-ab331f5974df",
+      "component": "faq_item",
+      "item_key": "q2",
+      "question": "Welche Systeme gehören zur Gebäudekommunikation von TCS?",
+      "question__i18n__en": "Which systems are part of TCS building communication?",
+      "answer": "Das Portfolio umfasst Türsprech- und Briefkastenanlagen, Beschilderung und Wayfinding-Lösungen sowie Anlagen mit Sonderfunktionen wie Durchsagen, Concierge-Diensten oder bidirektionaler Videokommunikation.",
+      "answer__i18n__en": "The portfolio comprises door communication and letterbox systems, signage and wayfinding solutions, as well as systems with special functions such as announcements, concierge services, or bidirectional video communication.",
+      "enabled": true
+     }
+    ],
+    "intro": "Im Bereich Gebäudekommunikation fassen wir bei TCS mehrere Anlagenformen und Funktionen zusammen. Hierfür die dafür wichtigsten Antworten:",
+    "intro__i18n__cs": "V oblasti komunikace v budovách spojujeme v TCS několik typů systémů a funkcí. Zde jsou k tomu nejdůležitější odpovědi:",
+    "intro__i18n__en": "In the area of building communication, we at TCS combine several system types and functions. Here are the most important answers:",
+    "intro__i18n__nl": "Op het gebied van gebouwcommunicatie brengen we bij TCS verschillende systeemvormen en functies samen. Hier de belangrijkste antwoorden daarover:",
+    "intro__i18n__pl": "W zakresie komunikacji budynkowej w TCS łączymy różne rodzaje systemów i funkcji. Oto najważniejsze odpowiedzi na ten temat:",
+    "eyebrow": "FAQ",
+    "eyebrow__i18n__cs": "Často kladené dotazy",
+    "eyebrow__i18n__en": "FAQ",
+    "eyebrow__i18n__pl": "FAQ",
+    "eyebrow__i18n__nl": "FAQ",
+    "headline": "Häufige Fragen",
+    "headline__i18n__pl": "Częste pytania",
+    "headline__i18n__en": "Frequently asked questions",
+    "headline__i18n__nl": "Veelgestelde vragen",
+    "headline__i18n__cs": "Často kladené otázky"
+   },
+   {
+    "_uid": "cf3d81a7-2dad-4e89-8ba7-75b16dc73431",
+    "component": "cta_v1",
+    "section_key": "standard_cta",
+    "section_uid": "2349",
+    "title": "Lassen Sie uns Ihr Projekt gemeinsam planen",
+    "title__i18n__en": "Let's plan your project together",
+    "title__i18n__nl": "Laten we samen uw project plannen",
+    "title__i18n__pl": "Zaplanujmy wspólnie Twój projekt",
+    "title__i18n__cs": "Naplánujme společně váš projekt",
+    "email_label": "info@tcsag.de",
+    "email_label__i18n__en": "info@tcsag.de",
+    "phone_href": {
+     "linktype": "url",
+     "url": "tel:+4941949881175",
+     "cached_url": "tel:+4941949881175",
+     "fieldtype": "multilink"
+    },
+    "cta_label": "Projektberatung vereinbaren",
+    "cta_label__i18n__nl": "Projectadvies inplannen",
+    "cta_label__i18n__pl": "Umów konsultację projektową",
+    "cta_label__i18n__en": "Schedule a project consultation",
+    "cta_label__i18n__cs": "Sjednat projektovou konzultaci",
+    "text": "Kontaktieren Sie unsere Experten für eine individuelle Projektberatung.",
+    "text__i18n__pl": "Skontaktuj się z naszymi ekspertami w celu indywidualnego doradztwa projektowego.",
+    "text__i18n__cs": "Kontaktujte naše experty pro individuální projektové poradenství.",
+    "text__i18n__nl": "Neem contact op met onze experts voor individueel projectadvies.",
+    "text__i18n__en": "Contact our experts for a tailored project consultation.",
+    "cta_secondary_kind": "intern",
+    "email_href": {
+     "linktype": "url",
+     "url": "mailto:info@tcsag.de",
+     "cached_url": "mailto:info@tcsag.de",
+     "fieldtype": "multilink"
+    },
+    "phone_label": "+49 4194 9881-175",
+    "phone_label__i18n__en": "+49 4194 9881-175",
+    "cta_href": {
+     "linktype": "url",
+     "url": "/kontakt",
+     "cached_url": "/kontakt",
+     "fieldtype": "multilink"
+    },
+    "cta_href__i18n__en": {
+     "linktype": "url",
+     "url": "/contact",
+     "cached_url": "/contact",
+     "fieldtype": "multilink"
+    },
+    "cta_primary_color": "auto",
+    "background_variant": "light",
+    "cta_kind": "intern",
+    "show_secondary": true,
+    "cta_secondary_color": "auto"
+   }
+  ]
+ }
+}

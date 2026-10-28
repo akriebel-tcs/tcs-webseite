@@ -16,6 +16,7 @@ import {
   getCmsSupabaseClient,
   isCmsSupabaseConfigured,
 } from "@/lib/cmsSupabase/client";
+import { isStoryblokSource } from "@/lib/content/source";
 
 export type NavigationOverlayEntry = {
   node_key: string;
@@ -50,6 +51,32 @@ export function useNavigationOverlay(navArea: string): State {
   useEffect(() => {
     let cancelled = false;
     (async () => {
+      if (isStoryblokSource()) {
+        try {
+          const { readNavigationNodes } = await import("@/lib/storyblok/siteIndex");
+          const nodes = (await readNavigationNodes()).filter((n) => n.nav_area === navArea);
+          if (cancelled) return;
+          const map: NavigationOverlay = new Map();
+          for (const n of nodes) {
+            map.set(n.node_key, {
+              node_key: n.node_key,
+              parent_node_key: n.parent_node_key,
+              is_active: n.is_active,
+              sort_order: n.sort_order,
+              label_de: n.labels.de ?? null,
+              label_en: n.labels.en ?? null,
+              label_pl: n.labels.pl ?? null,
+              labels: n.labels,
+              show_in_public_nav: n.show_in_public_nav,
+            });
+          }
+          setState({ overlay: map, ready: true, error: null });
+        } catch (e) {
+          if (cancelled) return;
+          setState({ overlay: EMPTY, ready: true, error: e instanceof Error ? e.message : "unknown" });
+        }
+        return;
+      }
       if (!isCmsSupabaseConfigured()) {
         setState({ overlay: EMPTY, ready: true, error: "cms_not_configured" });
         return;

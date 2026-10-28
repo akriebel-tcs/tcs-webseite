@@ -29,6 +29,43 @@ import {
   getCmsSupabaseClient,
   isCmsSupabaseConfigured,
 } from "@/lib/cmsSupabase/client";
+import { isStoryblokSource } from "@/lib/content/source";
+
+/** Storyblok: Geschwister aus dem Navigationsbaum (bevorzugt Bereich `main`) + Seitenindex. */
+async function loadSiblingsFromStoryblok(pageKey: string): Promise<SiblingLink[]> {
+  const { readNavigationNodes, readPageIndex } = await import("@/lib/storyblok/siteIndex");
+  const [nodes, pages] = await Promise.all([readNavigationNodes(), readPageIndex()]);
+  const candidates = nodes.filter((n) => n.is_active && n.page_key === pageKey && n.parent_node_key);
+  const current = candidates.find((c) => c.nav_area === "main") ?? candidates[0];
+  if (!current) return [];
+  const pageByKey = new Map(pages.map((p) => [p.page_key, p]));
+  const siblings = nodes
+    .filter(
+      (n) =>
+        n.is_active &&
+        n.nav_area === current.nav_area &&
+        n.parent_node_key === current.parent_node_key &&
+        n.page_key,
+    )
+    .sort((a, b) => a.sort_order - b.sort_order || a.node_key.localeCompare(b.node_key));
+  const sequence: SiblingLink[] = [];
+  for (const s of siblings) {
+    const page = pageByKey.get(s.page_key as string);
+    if (!page) continue;
+    const route = (s.route_path?.trim() || page.route_path || "").trim();
+    if (!route || route === "#") continue;
+    const de = s.labels.de?.trim() || page.titles.de?.trim() || s.node_key;
+    const en = s.labels.en?.trim() || page.titles.en?.trim() || de;
+    sequence.push({
+      page_key: s.page_key as string,
+      route_path: route,
+      label_de: de,
+      label_en: en,
+      labels: { ...page.titles, ...s.labels },
+    });
+  }
+  return sequence;
+}
 
 export interface SiblingLink {
   page_key: string;
@@ -63,12 +100,27 @@ export function useSiblingNavigation(pageKey: string | null | undefined): State 
   const [state, setState] = useState<State>(EMPTY);
 
   useEffect(() => {
-    if (!pageKey || !isCmsSupabaseConfigured()) {
+    if (!pageKey || (!isStoryblokSource() && !isCmsSupabaseConfigured())) {
       setState({ prev: null, next: null, ready: true });
       return;
     }
     let cancelled = false;
     (async () => {
+      if (isStoryblokSource()) {
+        const sequence = await loadSiblingsFromStoryblok(pageKey);
+        const idx = sequence.findIndex((s) => s.page_key === pageKey);
+        if (cancelled) return;
+        if (idx === -1) {
+          setState({ prev: null, next: null, ready: true });
+          return;
+        }
+        setState({
+          prev: idx > 0 ? sequence[idx - 1] : null,
+          next: idx < sequence.length - 1 ? sequence[idx + 1] : null,
+          ready: true,
+        });
+        return;
+      }
       const supabase = getCmsSupabaseClient();
 
       // 1) Aktuellen Knoten finden. Bei Mehrfach-Verlinkung (z. B. Seite

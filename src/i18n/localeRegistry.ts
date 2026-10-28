@@ -9,6 +9,7 @@
  */
 
 import { DEFAULT_APP_LOCALE, normalizeAppLocale, type AppLocale } from "@/i18n/locale";
+import { isStoryblokSource } from "@/lib/content/source";
 
 export interface LocaleRegistryRow {
   locale: AppLocale;
@@ -33,6 +34,12 @@ export async function readLocaleRegistry(): Promise<LocaleRegistryRow[]> {
   if (cache) return cache;
   if (inflight) return inflight;
   inflight = (async () => {
+    if (isStoryblokSource()) {
+      // Storyblok: feste Space-Sprachen (siehe src/lib/storyblok/locales.ts)
+      const { STORYBLOK_LOCALES } = await import("@/lib/storyblok/locales");
+      cache = STORYBLOK_LOCALES;
+      return cache;
+    }
     const { getCmsSupabaseClient } = await import("@/lib/cmsSupabase/client");
     const supabase = getCmsSupabaseClient();
     const { data, error } = await supabase

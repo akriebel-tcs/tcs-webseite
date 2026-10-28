@@ -1,0 +1,3004 @@
+{
+ "name": "Navigation",
+ "slug": "navigation",
+ "parent_folder_path": "_globals",
+ "publish": true,
+ "content": {
+  "component": "navigation",
+  "areas": [
+   {
+    "_uid": "84b316aa-b5aa-43a2-a5b6-b89ce97acc85",
+    "component": "nav_area",
+    "area": "footer",
+    "items": [
+     {
+      "_uid": "2315710c-3aeb-489f-916e-4e78bcdda418",
+      "component": "nav_item",
+      "node_key": "col.produkte",
+      "node_type": "page",
+      "show_in_public_nav": true,
+      "page_key": "",
+      "label": "Produkte",
+      "label__i18n__en": "Products",
+      "label__i18n__pl": "Produkty",
+      "label__i18n__nl": "Producten",
+      "label__i18n__cs": "Produkty",
+      "children": [
+       {
+        "_uid": "a57ec8f8-337c-4579-b934-71436ea69b8f",
+        "component": "nav_item",
+        "node_key": "f.produkte.tuerkomm",
+        "node_type": "page",
+        "show_in_public_nav": true,
+        "page_key": "gebaeudekommunikation.root",
+        "label": "Türkommunikation",
+        "label__i18n__en": "Door communication",
+        "label__i18n__pl": "Komunikacja drzwiowa",
+        "label__i18n__cs": "Dveřní komunikace",
+        "label__i18n__nl": "Deurcommunicatie",
+        "link": {
+         "linktype": "url",
+         "url": "/gebaeudekommunikation",
+         "cached_url": "/gebaeudekommunikation",
+         "fieldtype": "multilink"
+        }
+       },
+       {
+        "_uid": "1b18d6fa-cf22-4d14-a2a5-855261d90811",
+        "component": "nav_item",
+        "node_key": "f.produkte.zk",
+        "node_type": "page",
+        "show_in_public_nav": true,
+        "page_key": "zutrittskontrolle.root",
+        "label": "Zutrittskontrolle",
+        "label__i18n__en": "Access control",
+        "label__i18n__pl": "Kontrola dostępu",
+        "label__i18n__cs": "Kontrola přístupu",
+        "label__i18n__nl": "Toegangscontrole",
+        "link": {
+         "linktype": "url",
+         "url": "/zutrittskontrolle",
+         "cached_url": "/zutrittskontrolle",
+         "fieldtype": "multilink"
+        }
+       },
+       {
+        "_uid": "c5210872-06d5-4e30-9c9e-70f06f5997fe",
+        "component": "nav_item",
+        "node_key": "f.produkte.es",
+        "node_type": "page",
+        "show_in_public_nav": true,
+        "page_key": "eingangssysteme.root",
+        "label": "Eingangssysteme",
+        "label__i18n__en": "Entrance systems",
+        "label__i18n__pl": "Systemy wejściowe",
+        "label__i18n__nl": "Ingangssystemen",
+        "label__i18n__cs": "Vstupní systémy",
+        "link": {
+         "linktype": "url",
+         "url": "/entry-system",
+         "cached_url": "/entry-system",
+         "fieldtype": "multilink"
+        }
+       },
+       {
+        "_uid": "4ad86320-dbce-4acd-bf9c-cbd7dadee6bb",
+        "component": "nav_item",
+        "node_key": "f.produkte.tcsPacks",
+        "node_type": "page",
+        "show_in_public_nav": true,
+        "page_key": "gebaeudekommunikation.root",
+        "label": "TCS:PACKS",
+        "label__i18n__en": "TCS:PACKS",
+        "label__i18n__pl": "TCS:PACKS",
+        "label__i18n__cs": "TCS:PACKS",
+        "label__i18n__nl": "TCS:PACKS",
+        "link": {
+         "linktype": "url",
+         "url": "/gebaeudekommunikation",
+         "cached_url": "/gebaeudekommunikation",
+         "fieldtype": "multilink"
+        }
+       },
+       {
+        "_uid": "9f722a7a-1dc8-4df0-a9ac-02664e054321",
+        "component": "nav_item",
+        "node_key": "f.produkte.snipdoo",
+        "node_type": "page",
+        "show_in_public_nav": true,
+        "page_key": "gebaeudekommunikation.snipdoo-ip",
+        "label": "snipdoo® IP",
+        "label__i18n__en": "snipdoo® IP",
+        "label__i18n__pl": "snipdoo® IP",
+        "label__i18n__nl": "snipdoo® IP",
+        "label__i18n__cs": "snipdoo® IP",
+        "link": {
+         "linktype": "url",
+         "url": "/gebaeudekommunikation/snipdoo-ip",
+         "cached_url": "/gebaeudekommunikation/snipdoo-ip",
+         "fieldtype": "multilink"
+        }
+       },
+       {
+        "_uid": "793208f0-cac4-4eff-9dfb-2b5dbd3861ff",
+        "component": "nav_item",
+        "node_key": "f.produkte.beschilderung",
+        "node_type": "page",
+        "show_in_public_nav": false,
+        "page_key": "gebaeudekommunikation.beschilderung",
+        "label": "Beschilderung",
+        "label__i18n__en": "Signage",
+        "label__i18n__pl": "Oznakowanie",
+        "label__i18n__nl": "Signalisatie",
+        "label__i18n__cs": "Označení",
+        "link": {
+         "linktype": "url",
+         "url": "/gebaeudekommunikation/beschilderung",
+         "cached_url": "/gebaeudekommunikation/beschilderung",
+         "fieldtype": "multilink"
+        },
+        "hidden": true
+       }
+      ]
+     },
+     {
+      "_uid": "ddb0d18f-fb85-444c-a3f9-392064233c25",
+      "component": "nav_item",
+      "node_key": "col.anwendungen",
+      "node_type": "page",
+      "show_in_public_nav": true,
+      "page_key": "",
+      "label": "TCS in Bauten",
+      "label__i18n__en": "TCS in Buildings",
+      "label__i18n__pl": "TCS w obiektach",
+      "label__i18n__cs": "TCS v budovách",
+      "label__i18n__nl": "TCS in gebouwen",
+      "children": [
+       {
+        "_uid": "a2e24dd7-9f1e-4cb7-a09a-bbb9b7b8afce",
+        "component": "nav_item",
+        "node_key": "f.anw.efh",
+        "node_type": "page",
+        "show_in_public_nav": true,
+        "page_key": "anwendungen.einfamilienhaus",
+        "label": "Einfamilienhaus",
+        "label__i18n__en": "Single-family home",
+        "label__i18n__pl": "Dom jednorodzinny",
+        "label__i18n__cs": "Rodinný dům",
+        "label__i18n__nl": "Eengezinswoning",
+        "link": {
+         "linktype": "url",
+         "url": "/anwendungen/einfamilienhaus",
+         "cached_url": "/anwendungen/einfamilienhaus",
+         "fieldtype": "multilink"
+        }
+       },
+       {
+        "_uid": "a122f9fa-9d8a-4937-970c-0e7a6b47f9b1",
+        "component": "nav_item",
+        "node_key": "f.anw.mfh",
+        "node_type": "page",
+        "show_in_public_nav": true,
+        "page_key": "anwendungen.mehrfamilienhaus",
+        "label": "Mehrfamilienhaus",
+        "label__i18n__en": "Apartment building",
+        "label__i18n__pl": "Budynek wielorodzinny",
+        "label__i18n__cs": "Bytový dům",
+        "label__i18n__nl": "Meergezinswoning",
+        "link": {
+         "linktype": "url",
+         "url": "/anwendungen/mehrfamilienhaus",
+         "cached_url": "/anwendungen/mehrfamilienhaus",
+         "fieldtype": "multilink"
+        }
+       },
+       {
+        "_uid": "d1220af1-59b9-46ac-83a1-3988fed5dd8c",
+        "component": "nav_item",
+        "node_key": "f.anw.gross",
+        "node_type": "action",
+        "show_in_public_nav": true,
+        "page_key": "",
+        "label": "Großanlagen",
+        "label__i18n__en": "Large-scale systems",
+        "label__i18n__pl": "Duże instalacje",
+        "label__i18n__cs": "Velké systémy",
+        "label__i18n__nl": "Grote installaties",
+        "link": {
+         "linktype": "url",
+         "url": "/gebaeudekommunikation/grossanlagen",
+         "cached_url": "/gebaeudekommunikation/grossanlagen",
+         "fieldtype": "multilink"
+        }
+       },
+       {
+        "_uid": "1588092a-88de-4b1a-98be-15aec519f8f4",
+        "component": "nav_item",
+        "node_key": "f.anw.gewerbe",
+        "node_type": "page",
+        "show_in_public_nav": true,
+        "page_key": "anwendungen.objektloesungen",
+        "label": "Gewerbe",
+        "label__i18n__en": "Commercial",
+        "label__i18n__pl": "Obiekty komercyjne",
+        "label__i18n__nl": "Commercieel",
+        "label__i18n__cs": "Komerční sféra",
+        "link": {
+         "linktype": "url",
+         "url": "/anwendungen/objektloesungen",
+         "cached_url": "/anwendungen/objektloesungen",
+         "fieldtype": "multilink"
+        }
+       },
+       {
+        "_uid": "cc502bfe-96b7-4c9f-9e9b-3aae079f03e4",
+        "component": "nav_item",
+        "node_key": "f.anw.referenzen",
+        "node_type": "page",
+        "show_in_public_nav": true,
+        "page_key": "anwendungen.referenzprojekte",
+        "label": "Referenzen",
+        "label__i18n__en": "References",
+        "label__i18n__pl": "Referencje",
+        "label__i18n__nl": "Referenties",
+        "label__i18n__cs": "Reference",
+        "link": {
+         "linktype": "url",
+         "url": "/anwendungen/referenzprojekte",
+         "cached_url": "/anwendungen/referenzprojekte",
+         "fieldtype": "multilink"
+        }
+       }
+      ]
+     },
+     {
+      "_uid": "29abcac0-4fc4-4913-9c96-a18e60fd451f",
+      "component": "nav_item",
+      "node_key": "col.services",
+      "node_type": "page",
+      "show_in_public_nav": true,
+      "page_key": "",
+      "label": "Services",
+      "label__i18n__en": "Services",
+      "label__i18n__pl": "Usługi",
+      "label__i18n__nl": "Diensten",
+      "label__i18n__cs": "Služby",
+      "children": [
+       {
+        "_uid": "b3ca13cb-0f1a-4d40-a966-101ac081ae40",
+        "component": "nav_item",
+        "node_key": "f.sv.konfigurator",
+        "node_type": "page",
+        "show_in_public_nav": true,
+        "page_key": "service.planen-konfigurieren",
+        "label": "Konfigurator",
+        "label__i18n__en": "Configurator",
+        "label__i18n__pl": "Konfigurator",
+        "label__i18n__nl": "Configurator",
+        "label__i18n__cs": "Konfigurátor",
+        "link": {
+         "linktype": "url",
+         "url": "/planen-konfigurieren",
+         "cached_url": "/planen-konfigurieren",
+         "fieldtype": "multilink"
+        }
+       },
+       {
+        "_uid": "9e358685-cc58-4dbc-a0a6-960a77254ea3",
+        "component": "nav_item",
+        "node_key": "f.sv.downloads",
+        "node_type": "page",
+        "show_in_public_nav": true,
+        "page_key": "service.downloads",
+        "label": "Downloads",
+        "label__i18n__en": "Downloads",
+        "label__i18n__pl": "Do pobrania",
+        "label__i18n__nl": "Downloads",
+        "label__i18n__cs": "Ke stažení",
+        "link": {
+         "linktype": "url",
+         "url": "/downloads",
+         "cached_url": "/downloads",
+         "fieldtype": "multilink"
+        }
+       },
+       {
+        "_uid": "132f153a-667b-4d59-ba11-2f26372b50fa",
+        "component": "nav_item",
+        "node_key": "f.sv.akademie",
+        "node_type": "external_link",
+        "show_in_public_nav": true,
+        "page_key": "",
+        "label": "TCS Akademie",
+        "label__i18n__en": "TCS Academy",
+        "label__i18n__pl": "TCS Akademia",
+        "label__i18n__cs": "TCS Akademie",
+        "label__i18n__nl": "TCS Academie",
+        "link": {
+         "linktype": "url",
+         "url": "/akademie",
+         "cached_url": "/akademie",
+         "fieldtype": "multilink"
+        }
+       },
+       {
+        "_uid": "1f872e88-7648-41ba-93ec-997dc384c0ea",
+        "component": "nav_item",
+        "node_key": "f.sv.ersatzteile",
+        "node_type": "page",
+        "show_in_public_nav": true,
+        "page_key": "service.ersatzteile",
+        "label": "Ersatzteile",
+        "label__i18n__en": "Spare parts",
+        "label__i18n__pl": "Części zamienne",
+        "label__i18n__cs": "Náhradní díly",
+        "label__i18n__nl": "Reserveonderdelen",
+        "link": {
+         "linktype": "url",
+         "url": "/ersatzteile",
+         "cached_url": "/ersatzteile",
+         "fieldtype": "multilink"
+        }
+       },
+       {
+        "_uid": "a42958ff-7f9d-4163-ba95-e7985eafa7ee",
+        "component": "nav_item",
+        "node_key": "f.sv.support",
+        "node_type": "page",
+        "show_in_public_nav": true,
+        "page_key": "service.technischer-support",
+        "label": "Technischer Support",
+        "label__i18n__en": "Technical Support",
+        "label__i18n__pl": "Wsparcie techniczne",
+        "label__i18n__cs": "Technická podpora",
+        "label__i18n__nl": "Technische ondersteuning",
+        "link": {
+         "linktype": "url",
+         "url": "/technischer-support",
+         "cached_url": "/technischer-support",
+         "fieldtype": "multilink"
+        }
+       }
+      ]
+     },
+     {
+      "_uid": "8bb1e02c-ca29-449d-891b-d05a6e338c87",
+      "component": "nav_item",
+      "node_key": "col.unternehmen",
+      "node_type": "page",
+      "show_in_public_nav": true,
+      "page_key": "",
+      "label": "Unternehmen",
+      "label__i18n__en": "Company",
+      "label__i18n__pl": "Firma",
+      "label__i18n__cs": "Společnost",
+      "label__i18n__nl": "Bedrijf",
+      "children": [
+       {
+        "_uid": "215a0b1d-926f-4869-8b9f-57f66e0ac3a0",
+        "component": "nav_item",
+        "node_key": "f.un.ueberTcs",
+        "node_type": "page",
+        "show_in_public_nav": true,
+        "page_key": "home.ueber-tcs",
+        "label": "Über TCS",
+        "label__i18n__en": "About TCS",
+        "label__i18n__pl": "O TCS",
+        "label__i18n__cs": "O TCS",
+        "label__i18n__nl": "Over TCS",
+        "link": {
+         "linktype": "url",
+         "url": "/ueber-tcs",
+         "cached_url": "/ueber-tcs",
+         "fieldtype": "multilink"
+        }
+       },
+       {
+        "_uid": "76c28e85-4144-4b47-8fe7-37d56e89ea80",
+        "component": "nav_item",
+        "node_key": "f.un.karriere",
+        "node_type": "page",
+        "show_in_public_nav": true,
+        "page_key": "karriere.root",
+        "label": "Karriere",
+        "label__i18n__en": "Careers",
+        "label__i18n__pl": "Kariera",
+        "label__i18n__cs": "Kariéra",
+        "label__i18n__nl": "Carrière",
+        "link": {
+         "linktype": "url",
+         "url": "/karriere",
+         "cached_url": "/karriere",
+         "fieldtype": "multilink"
+        }
+       },
+       {
+        "_uid": "dbf6cdff-dda6-40f1-a69a-4fe0b99ac4d9",
+        "component": "nav_item",
+        "node_key": "f.un.presse",
+        "node_type": "page",
+        "show_in_public_nav": false,
+        "page_key": "presse.root",
+        "label": "News",
+        "label__i18n__en": "News",
+        "label__i18n__pl": "Aktualności",
+        "label__i18n__nl": "Nieuws",
+        "label__i18n__cs": "Novinky",
+        "link": {
+         "linktype": "url",
+         "url": "/presse",
+         "cached_url": "/presse",
+         "fieldtype": "multilink"
+        },
+        "hidden": true
+       },
+       {
+        "_uid": "a3da54b3-0f81-495a-bc91-e66734bb0abc",
+        "component": "nav_item",
+        "node_key": "f.un.kontakt",
+        "node_type": "page",
+        "show_in_public_nav": true,
+        "page_key": "kontakt.root",
+        "label": "Kontakt",
+        "label__i18n__en": "Contact",
+        "label__i18n__pl": "Kontakt",
+        "label__i18n__cs": "Kontakt",
+        "label__i18n__nl": "Contact",
+        "link": {
+         "linktype": "url",
+         "url": "/kontakt",
+         "cached_url": "/kontakt",
+         "fieldtype": "multilink"
+        }
+       },
+       {
+        "_uid": "e5111b13-2941-458d-a2d0-fdedf02ecb45",
+        "component": "nav_item",
+        "node_key": "f.un.datenschutz",
+        "node_type": "page",
+        "show_in_public_nav": false,
+        "page_key": "legal.datenschutz",
+        "label": "Datenschutz",
+        "label__i18n__en": "Data protection",
+        "label__i18n__pl": "Ochrona danych",
+        "label__i18n__cs": "Ochrana osobních údajů",
+        "label__i18n__nl": "Privacybeleid",
+        "link": {
+         "linktype": "url",
+         "url": "/datenschutz",
+         "cached_url": "/datenschutz",
+         "fieldtype": "multilink"
+        },
+        "hidden": true
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "_uid": "578caf4a-d923-4058-a18b-dffb6524b9af",
+    "component": "nav_area",
+    "area": "footer_bottom",
+    "items": [
+     {
+      "_uid": "63d82848-dac5-4ca4-8064-195eb4b487dc",
+      "component": "nav_item",
+      "node_key": "legal.impressum",
+      "node_type": "page",
+      "show_in_public_nav": true,
+      "page_key": "legal.impressum",
+      "label": "Impressum",
+      "label__i18n__en": "Imprint",
+      "label__i18n__pl": "Nota prawna",
+      "label__i18n__cs": "Tiráž",
+      "label__i18n__nl": "Colofon",
+      "link": {
+       "linktype": "url",
+       "url": "/impressum",
+       "cached_url": "/impressum",
+       "fieldtype": "multilink"
+      }
+     },
+     {
+      "_uid": "71b613be-ac3a-4b4a-9311-21829a424f5a",
+      "component": "nav_item",
+      "node_key": "legal.datenschutz",
+      "node_type": "page",
+      "show_in_public_nav": true,
+      "page_key": "legal.datenschutz",
+      "label": "Datenschutz",
+      "label__i18n__en": "Privacy Policy",
+      "label__i18n__pl": "Ochrona danych",
+      "label__i18n__cs": "Ochrana osobních údajů",
+      "label__i18n__nl": "Privacybeleid",
+      "link": {
+       "linktype": "url",
+       "url": "/datenschutz",
+       "cached_url": "/datenschutz",
+       "fieldtype": "multilink"
+      }
+     },
+     {
+      "_uid": "ad6fe949-c330-485a-b836-aaa0aedf3c18",
+      "component": "nav_item",
+      "node_key": "legal.datenschutzSnipdoo",
+      "node_type": "page",
+      "show_in_public_nav": true,
+      "page_key": "legal.datenschutzSnipdoo",
+      "label": "Datenschutzhinweise snipdoo® IP",
+      "label__i18n__en": "Privacy notice snipdoo® IP",
+      "label__i18n__pl": "Informacje o ochronie danych snipdoo® IP",
+      "label__i18n__cs": "Informace o ochraně osobních údajů snipdoo® IP",
+      "label__i18n__nl": "Informatie over gegevensbescherming snipdoo® IP",
+      "link": {
+       "linktype": "url",
+       "url": "/datenschutzhinweise-snipdoo-ip",
+       "cached_url": "/datenschutzhinweise-snipdoo-ip",
+       "fieldtype": "multilink"
+      }
+     },
+     {
+      "_uid": "f479b1e4-99a5-4fba-8130-fddb60e78973",
+      "component": "nav_item",
+      "node_key": "legal.garantiebedingungen",
+      "node_type": "page",
+      "show_in_public_nav": true,
+      "page_key": "legal.garantiebedingungen",
+      "label": "Garantiebedingungen",
+      "label__i18n__en": "Warranty terms",
+      "label__i18n__pl": "Warunki gwarancji",
+      "label__i18n__cs": "Záruční podmínky",
+      "label__i18n__nl": "Garantievoorwaarden",
+      "link": {
+       "linktype": "url",
+       "url": "/garantiebedingungen",
+       "cached_url": "/garantiebedingungen",
+       "fieldtype": "multilink"
+      }
+     },
+     {
+      "_uid": "8f042caa-627c-42d0-b250-cb7d0a9a91a6",
+      "component": "nav_item",
+      "node_key": "legal.einwilligung",
+      "node_type": "page",
+      "show_in_public_nav": true,
+      "page_key": "legal.einwilligung",
+      "label": "Einwilligung",
+      "label__i18n__en": "Consent",
+      "label__i18n__pl": "Zgoda",
+      "label__i18n__cs": "Souhlas",
+      "label__i18n__nl": "Toestemming",
+      "link": {
+       "linktype": "url",
+       "url": "/einwilligung",
+       "cached_url": "/einwilligung",
+       "fieldtype": "multilink"
+      }
+     },
+     {
+      "_uid": "818aa887-27b7-4e47-8bdb-340fb9323647",
+      "component": "nav_item",
+      "node_key": "legal.agbEinkauf",
+      "node_type": "page",
+      "show_in_public_nav": true,
+      "page_key": "legal.agbEinkauf",
+      "label": "AGB Einkauf",
+      "label__i18n__en": "Terms of purchase",
+      "label__i18n__pl": "Ogólne warunki zakupu",
+      "label__i18n__nl": "Algemene inkoopvoorwaarden",
+      "label__i18n__cs": "Všeobecné nákupní podmínky",
+      "link": {
+       "linktype": "url",
+       "url": "/agb-einkauf",
+       "cached_url": "/agb-einkauf",
+       "fieldtype": "multilink"
+      }
+     },
+     {
+      "_uid": "ad75eda0-1062-4a3a-9b3d-d4e1904cf935",
+      "component": "nav_item",
+      "node_key": "legal.agb",
+      "node_type": "page",
+      "show_in_public_nav": true,
+      "page_key": "legal.agb",
+      "label": "AGB",
+      "label__i18n__en": "General Terms and Conditions",
+      "label__i18n__pl": "Ogólne Warunki Handlowe",
+      "label__i18n__cs": "Všeobecné obchodní podmínky",
+      "label__i18n__nl": "Algemene voorwaarden",
+      "link": {
+       "linktype": "url",
+       "url": "/agb",
+       "cached_url": "/agb",
+       "fieldtype": "multilink"
+      }
+     },
+     {
+      "_uid": "9f2c7f56-f8c7-42e4-9f7b-22fee9c15faa",
+      "component": "nav_item",
+      "node_key": "legal.sitemap",
+      "node_type": "page",
+      "show_in_public_nav": true,
+      "page_key": "legal.sitemap",
+      "label": "Sitemap",
+      "label__i18n__en": "Sitemap",
+      "label__i18n__pl": "Mapa strony",
+      "label__i18n__nl": "Sitemap",
+      "label__i18n__cs": "Mapa stránek",
+      "link": {
+       "linktype": "url",
+       "url": "/sitemap",
+       "cached_url": "/sitemap",
+       "fieldtype": "multilink"
+      }
+     }
+    ]
+   },
+   {
+    "_uid": "f2fdd8b2-1609-435f-aa19-9e3ced65dfbc",
+    "component": "nav_area",
+    "area": "home",
+    "items": [
+     {
+      "_uid": "bb33194a-7534-4e89-bfc6-977d5a4ae2fe",
+      "component": "nav_item",
+      "node_key": "home",
+      "node_type": "page",
+      "show_in_public_nav": true,
+      "page_key": "home.start",
+      "label": "Startseite",
+      "label__i18n__en": "Home",
+      "label__i18n__pl": "Strona główna",
+      "label__i18n__cs": "Úvodní stránka",
+      "label__i18n__nl": "Home",
+      "link": {
+       "linktype": "url",
+       "url": "/",
+       "cached_url": "/",
+       "fieldtype": "multilink"
+      }
+     }
+    ]
+   },
+   {
+    "_uid": "31bac4a2-9a00-458c-a841-6fc06c9de340",
+    "component": "nav_area",
+    "area": "main",
+    "items": [
+     {
+      "_uid": "2523c7c5-1871-4386-9aec-0314abcfdcda",
+      "component": "nav_item",
+      "node_key": "pr.root",
+      "node_type": "page",
+      "show_in_public_nav": true,
+      "page_key": "produkte.hub",
+      "label": "Produkte",
+      "label__i18n__en": "Products",
+      "label__i18n__pl": "Produkty",
+      "label__i18n__nl": "Producten",
+      "label__i18n__cs": "Produkty",
+      "description": "Einstieg in den Produktkatalog (gepflegt in der externen Produktdatenbank).",
+      "description__i18n__en": "Entry point to the product catalog (maintained in the external product database).",
+      "description__i18n__pl": "Wejście do katalogu produktów (zarządzanego w zewnętrznej bazie danych produktów).",
+      "description__i18n__nl": "Toegang tot de productcatalogus (beheerd in de externe productdatabase).",
+      "description__i18n__cs": "Vstup do katalogu produktů (spravovaného v externí databázi produktů).",
+      "link": {
+       "linktype": "url",
+       "url": "/produkte",
+       "cached_url": "/produkte",
+       "fieldtype": "multilink"
+      },
+      "children": [
+       {
+        "_uid": "610f0150-68d7-4df1-9894-4a679c1663b1",
+        "component": "nav_item",
+        "node_key": "pr.tuerkommunikation",
+        "node_type": "page",
+        "show_in_public_nav": true,
+        "page_key": "produkte.tuerkommunikation",
+        "label": "Türkommunikation",
+        "label__i18n__en": "Door Communication",
+        "label__i18n__pl": "Komunikacja drzwiowa",
+        "label__i18n__nl": "Deurcommunicatie",
+        "label__i18n__cs": "Dveřní komunikace",
+        "description": "Außenstationen, Innenstationen, Packs und Zubehör aus dem TCS-Produktkatalog.",
+        "description__i18n__en": "Outdoor stations, indoor stations, packs and accessories from the TCS catalog.",
+        "description__i18n__pl": "Stacje zewnętrzne, stacje wewnętrzne, pakiety i akcesoria z katalogu produktów TCS.",
+        "description__i18n__nl": "Buitenstations, binnenstations, packs en toebehoren uit de TCS-productcatalogus.",
+        "description__i18n__cs": "Venkovní stanice, vnitřní stanice, sady a příslušenství z katalogu produktů TCS.",
+        "link": {
+         "linktype": "url",
+         "url": "/produkte/tuerkommunikation",
+         "cached_url": "/produkte/tuerkommunikation",
+         "fieldtype": "multilink"
+        }
+       },
+       {
+        "_uid": "f56a8ad5-9403-44e0-84f7-525ee369f0b8",
+        "component": "nav_item",
+        "node_key": "pr.zutrittskontrolle",
+        "node_type": "page",
+        "show_in_public_nav": true,
+        "page_key": "produkte.zutrittskontrolle",
+        "label": "Zutrittskontrolle",
+        "label__i18n__en": "Access Control",
+        "label__i18n__pl": "Kontrola dostępu",
+        "label__i18n__nl": "Toegangscontrole",
+        "label__i18n__cs": "Kontrola přístupu",
+        "description": "Leser, Schließsysteme und Komponenten aus dem TCS-Produktkatalog.",
+        "description__i18n__en": "Readers, locking systems and components from the TCS catalog.",
+        "description__i18n__pl": "Czytniki, systemy zamykania i komponenty z katalogu produktów TCS.",
+        "description__i18n__nl": "Lezers, sluitsystemen en componenten uit de TCS-productcatalogus.",
+        "description__i18n__cs": "Čtečky, uzamykací systémy a komponenty z produktového katalogu TCS.",
+        "link": {
+         "linktype": "url",
+         "url": "/produkte/zutrittskontrolle",
+         "cached_url": "/produkte/zutrittskontrolle",
+         "fieldtype": "multilink"
+        }
+       },
+       {
+        "_uid": "f802b4a5-dfa2-4f1c-997d-69b75c520e2e",
+        "component": "nav_item",
+        "node_key": "pr.eingangsloesungen",
+        "node_type": "page",
+        "show_in_public_nav": true,
+        "page_key": "produkte.eingangsloesungen",
+        "label": "Eingangslösungen",
+        "label__i18n__en": "Entrance Solutions",
+        "label__i18n__pl": "Rozwiązania wejściowe",
+        "label__i18n__cs": "Vstupní řešení",
+        "label__i18n__nl": "Ingangsoplossingen",
+        "description": "Komponenten und Systembausteine für Eingangslösungen aus dem TCS-Produktkatalog.",
+        "description__i18n__en": "Components and system building blocks for entrance solutions from the TCS catalog.",
+        "description__i18n__pl": "Komponenty i moduły systemowe do rozwiązań wejściowych z katalogu produktów TCS.",
+        "description__i18n__cs": "Komponenty a systémové moduly pro vstupní řešení z produktového katalogu TCS.",
+        "description__i18n__nl": "Componenten en systeemmodules voor ingangsoplossingen uit de TCS-productcatalogus.",
+        "link": {
+         "linktype": "url",
+         "url": "/produkte/eingangsloesungen",
+         "cached_url": "/produkte/eingangsloesungen",
+         "fieldtype": "multilink"
+        }
+       }
+      ]
+     },
+     {
+      "_uid": "45d6c3da-2e49-4402-a53e-f89297fa51a8",
+      "component": "nav_item",
+      "node_key": "gebaeudekommunikation",
+      "node_type": "page",
+      "show_in_public_nav": true,
+      "page_key": "gebaeudekommunikation.root",
+      "label": "Gebäudekommunikation",
+      "label__i18n__en": "Building communication",
+      "label__i18n__pl": "Komunikacja budynkowa",
+      "label__i18n__cs": "Komunikace v budovách",
+      "label__i18n__nl": "Gebouwcommunicatie",
+      "link": {
+       "linktype": "url",
+       "url": "/gebaeudekommunikation",
+       "cached_url": "/gebaeudekommunikation",
+       "fieldtype": "multilink"
+      },
+      "children": [
+       {
+        "_uid": "968206bd-d064-4a11-aa30-94c467fa0b01",
+        "component": "nav_item",
+        "node_key": "gk.tuersprechanlagen",
+        "node_type": "page",
+        "show_in_public_nav": true,
+        "page_key": "gebaeudekommunikation.tuersprechanlagen",
+        "label": "Türsprechanlagen",
+        "label__i18n__en": "Door intercom systems",
+        "label__i18n__pl": "Domofony",
+        "label__i18n__cs": "Domovní telefony",
+        "label__i18n__nl": "Deurintercomsystemen",
+        "description": "Audio- und Video-Kommunikation an der Tür",
+        "description__i18n__en": "Audio and video communication at the door",
+        "description__i18n__pl": "Komunikacja audio i wideo przy drzwiach",
+        "description__i18n__cs": "Audio a video komunikace u dveří",
+        "description__i18n__nl": "Audio- en videocommunikatie bij de deur",
+        "link": {
+         "linktype": "url",
+         "url": "/gebaeudekommunikation/tuersprechanlagen",
+         "cached_url": "/gebaeudekommunikation/tuersprechanlagen",
+         "fieldtype": "multilink"
+        }
+       },
+       {
+        "_uid": "3253906e-0287-4a36-8202-6ce5d160f27f",
+        "component": "nav_item",
+        "node_key": "gk.briefkastenanlagen",
+        "node_type": "page",
+        "show_in_public_nav": true,
+        "page_key": "gebaeudekommunikation.briefkastenanlagen",
+        "label": "Briefkastenanlagen",
+        "label__i18n__en": "Mailbox systems",
+        "label__i18n__pl": "Systemy skrzynek na listy",
+        "label__i18n__nl": "Brievenbusinstallaties",
+        "label__i18n__cs": "Poštovní schránkové systémy",
+        "description": "Briefkastenanlagen optional mit Sprechenfach",
+        "description__i18n__en": "Mailbox systems optional with door communication",
+        "description__i18n__pl": "Systemy skrzynek pocztowych opcjonalnie z modułem rozmównym",
+        "description__i18n__nl": "Brievenbusinstallaties optioneel met spraakvak",
+        "description__i18n__cs": "Systémy poštovních schránek volitelně s hovorovým modulem",
+        "link": {
+         "linktype": "url",
+         "url": "/gebaeudekommunikation/briefkastenanlagen",
+         "cached_url": "/gebaeudekommunikation/briefkastenanlagen",
+         "fieldtype": "multilink"
+        }
+       },
+       {
+        "_uid": "2c726fa7-5493-4b4d-916b-d5b1a5c7c9da",
+        "component": "nav_item",
+        "node_key": "gk.beschilderung",
+        "node_type": "page",
+        "show_in_public_nav": true,
+        "page_key": "gebaeudekommunikation.beschilderung",
+        "label": "Beschilderung und Wayfinding",
+        "label__i18n__en": "Signage and Wayfinding",
+        "label__i18n__pl": "Oznakowanie i nawigacja",
+        "label__i18n__cs": "Značení a orientační systémy",
+        "label__i18n__nl": "Signalisatie en bewegwijzering",
+        "description": "Von Hausnummer, Piktogramm bis Türschild",
+        "description__i18n__en": "From house number and pictogram to door sign",
+        "description__i18n__pl": "Od numeru domu, piktogramu po tabliczkę przydrzwiową",
+        "description__i18n__cs": "Od čísla domu, piktogramu až po dveřní štítek.",
+        "description__i18n__nl": "Van huisnummer, pictogram tot deurbordje",
+        "link": {
+         "linktype": "url",
+         "url": "/gebaeudekommunikation/beschilderung",
+         "cached_url": "/gebaeudekommunikation/beschilderung",
+         "fieldtype": "multilink"
+        }
+       },
+       {
+        "_uid": "d35c15b4-4e76-41c6-b65d-98bfea095a1b",
+        "component": "nav_item",
+        "node_key": "gk.grossanlagen",
+        "node_type": "page",
+        "show_in_public_nav": true,
+        "page_key": "gebaeudekommunikation.grossanlagen",
+        "label": "Großanlagen",
+        "label__i18n__en": "Large-scale systems",
+        "label__i18n__pl": "Duże instalacje",
+        "label__i18n__nl": "Grote installaties",
+        "label__i18n__cs": "Velké systémy",
+        "description": "Lösungen für Wohnquartiere und Großprojekte",
+        "description__i18n__en": "Solutions for residential quarters and large projects",
+        "description__i18n__pl": "Rozwiązania dla osiedli mieszkaniowych i dużych projektów",
+        "description__i18n__nl": "Oplossingen voor woonwijken en grootschalige projecten",
+        "description__i18n__cs": "Řešení pro rezidenční čtvrti a velké projekty",
+        "link": {
+         "linktype": "url",
+         "url": "/gebaeudekommunikation/grossanlagen",
+         "cached_url": "/gebaeudekommunikation/grossanlagen",
+         "fieldtype": "multilink"
+        }
+       },
+       {
+        "_uid": "5e7e0417-0a89-433d-b648-c137a0b4791d",
+        "component": "nav_item",
+        "node_key": "gk.zusatzfunktionen",
+        "node_type": "page",
+        "show_in_public_nav": true,
+        "page_key": "gebaeudekommunikation.systemloesungen",
+        "label": "Türsprechanlagen mit Zusatzfunktionen",
+        "label__i18n__en": "Door intercom systems with additional functions",
+        "label__i18n__pl": "Domofony z dodatkowymi funkcjami",
+        "label__i18n__cs": "Dveřní telefony s doplňkovými funkcemi",
+        "label__i18n__nl": "Deurintercomsystemen met extra functies",
+        "description": "Objektspezifische Ausstattung",
+        "description__i18n__en": "Property-specific features",
+        "description__i18n__pl": "Wyposażenie dostosowane do obiektu",
+        "description__i18n__cs": "Objektově specifické vybavení",
+        "description__i18n__nl": "Projectspecifieke uitrusting",
+        "link": {
+         "linktype": "url",
+         "url": "/gebaeudekommunikation/systemloesungen",
+         "cached_url": "/gebaeudekommunikation/systemloesungen",
+         "fieldtype": "multilink"
+        },
+        "children": [
+         {
+          "_uid": "bc3cab31-10eb-4a10-815e-cf5faa419489",
+          "component": "nav_item",
+          "node_key": "an.digitale-namensverwaltung",
+          "node_type": "action",
+          "show_in_public_nav": true,
+          "page_key": "",
+          "label": "Digitale Namensanzeige",
+          "label__i18n__en": "Digital name display",
+          "label__i18n__pl": "Cyfrowy wyświetlacz nazwisk",
+          "label__i18n__nl": "Digitale naamweergave",
+          "label__i18n__cs": "Digitální jmenovka",
+          "link": {
+           "linktype": "url",
+           "url": "/gebaeudemanagement/digitale-namensanzeige",
+           "cached_url": "/gebaeudemanagement/digitale-namensanzeige",
+           "fieldtype": "multilink"
+          }
+         },
+         {
+          "_uid": "09e3a8bb-bcc1-4884-bb23-45cf81872bce",
+          "component": "nav_item",
+          "node_key": "gk.zusatzfunktion.durchsage",
+          "node_type": "page",
+          "show_in_public_nav": true,
+          "page_key": "anwendungen.feuerwehrdurchsage",
+          "label": "Feuerwehr-Durchsage",
+          "label__i18n__en": "Fire service announcements",
+          "label__i18n__pl": "Komunikat straży pożarnej",
+          "label__i18n__nl": "Brandweeromroep",
+          "label__i18n__cs": "Hlášení hasičů"
+         },
+         {
+          "_uid": "351b10e7-0a44-4137-a9dc-052d4f281214",
+          "component": "nav_item",
+          "node_key": "gk.zusatzfunktion.concierge",
+          "node_type": "page",
+          "show_in_public_nav": true,
+          "page_key": "anwendungen.concierge",
+          "label": "Concierge- und Schrankensteuerung",
+          "label__i18n__en": "Concierge and barrier control",
+          "label__i18n__pl": "Sterowanie concierge i szlabanami",
+          "label__i18n__cs": "Řízení concierge a závor",
+          "label__i18n__nl": "Concierge- en slagboombesturing"
+         },
+         {
+          "_uid": "7107c4a4-cbee-45a8-9f65-5b6919f0e99b",
+          "component": "nav_item",
+          "node_key": "gk.zusatzfunktion.internkom",
+          "node_type": "page",
+          "show_in_public_nav": true,
+          "page_key": "anwendungen.interne-kommunikation",
+          "label": "Interne Kommunikation",
+          "label__i18n__en": "Internal communication",
+          "label__i18n__pl": "Komunikacja wewnętrzna",
+          "label__i18n__nl": "Interne communicatie",
+          "label__i18n__cs": "Interní komunikace"
+         },
+         {
+          "_uid": "46cb90ac-9d50-453a-8ceb-cbb686fca86d",
+          "component": "nav_item",
+          "node_key": "gk.zusatzfunktion.bidi",
+          "node_type": "page",
+          "show_in_public_nav": true,
+          "page_key": "anwendungen.bidirektionale-video",
+          "label": "Bidirektionale Video-Türsprechanlage",
+          "label__i18n__en": "Bidirectional video door entry system",
+          "label__i18n__pl": "Dwukierunkowy wideodomofon",
+          "label__i18n__nl": "Bidirectionele video-deurintercom",
+          "label__i18n__cs": "Obousměrný videovrátný"
+         }
+        ]
+       },
+       {
+        "_uid": "59e6a93f-9a85-4ed2-9953-c0a694a35e69",
+        "component": "nav_item",
+        "node_key": "gk.mobile-tuerkommunikation",
+        "node_type": "page",
+        "show_in_public_nav": true,
+        "page_key": "mobile-tk-preview.root",
+        "label": "Mobile Türkommunikation",
+        "label__i18n__en": "Mobile door communication",
+        "label__i18n__pl": "Mobilna domofonia",
+        "label__i18n__nl": "Mobiele deurcommunicatie",
+        "label__i18n__cs": "Mobilní dveřní komunikace",
+        "description": "Türkommunikation per App und Smartphone",
+        "description__i18n__en": "Door communication via app and smartphone",
+        "description__i18n__pl": "Komunikacja drzwiowa przez aplikację i smartfon",
+        "description__i18n__nl": "Deurcommunicatie via app en smartphone",
+        "description__i18n__cs": "Dveřní komunikace přes aplikaci a smartphone",
+        "link": {
+         "linktype": "url",
+         "url": "/gebaeudekommunikation/mobile-tuerkommunikation",
+         "cached_url": "/gebaeudekommunikation/mobile-tuerkommunikation",
+         "fieldtype": "multilink"
+        },
+        "children": [
+         {
+          "_uid": "23f56149-f29c-4b61-995f-83e810cee640",
+          "component": "nav_item",
+          "node_key": "an.mobile-tuerkommunikation",
+          "node_type": "page",
+          "show_in_public_nav": false,
+          "page_key": "anwendungen.mobile-tuerkommunikation",
+          "label": "Mobile Türkommunikation",
+          "label__i18n__en": "Mobile door communication",
+          "label__i18n__pl": "Mobilna domofonia",
+          "label__i18n__cs": "Mobilní dveřní komunikace",
+          "label__i18n__nl": "Mobiele deurcommunicatie",
+          "hidden": true
+         }
+        ]
+       },
+       {
+        "_uid": "41364afc-c1ba-45fa-91a8-e3ed00bceae1",
+        "component": "nav_item",
+        "node_key": "gk.snipdoo-ip",
+        "node_type": "page",
+        "show_in_public_nav": true,
+        "page_key": "gebaeudekommunikation.snipdoo-ip",
+        "label": "snipdoo® IP",
+        "label__i18n__en": "snipdoo® IP",
+        "label__i18n__pl": "snipdoo® IP",
+        "label__i18n__nl": "snipdoo® IP",
+        "label__i18n__cs": "snipdoo® IP",
+        "description": "IP-basierte Türkommunikation für moderne Gebäude",
+        "description__i18n__en": "IP-based door communication for modern buildings",
+        "description__i18n__pl": "Komunikacja drzwiowa IP dla nowoczesnych budynków",
+        "description__i18n__nl": "IP-gebaseerde deurcommunicatie voor moderne gebouwen",
+        "description__i18n__cs": "IP dveřní komunikace pro moderní budovy",
+        "link": {
+         "linktype": "url",
+         "url": "/gebaeudekommunikation/snipdoo-ip",
+         "cached_url": "/gebaeudekommunikation/snipdoo-ip",
+         "fieldtype": "multilink"
+        }
+       }
+      ]
+     },
+     {
+      "_uid": "80178f6d-fdb9-4702-8904-e2a1fa66d100",
+      "component": "nav_item",
+      "node_key": "zutrittskontrolle",
+      "node_type": "page",
+      "show_in_public_nav": true,
+      "page_key": "zutrittskontrolle.root",
+      "label": "Zutrittskontrolle",
+      "label__i18n__en": "Access control",
+      "label__i18n__pl": "Kontrola dostępu",
+      "label__i18n__cs": "Kontrola přístupu",
+      "label__i18n__nl": "Toegangscontrole",
+      "link": {
+       "linktype": "url",
+       "url": "/zutrittskontrolle",
+       "cached_url": "/zutrittskontrolle",
+       "fieldtype": "multilink"
+      },
+      "children": [
+       {
+        "_uid": "a48b0a17-ee02-4a39-969c-92c0c456f8e9",
+        "component": "nav_item",
+        "node_key": "zk.tueren-tore",
+        "node_type": "page",
+        "show_in_public_nav": true,
+        "page_key": "zutrittskontrolle.tueren-tore",
+        "label": "Türen und Tore",
+        "label__i18n__en": "Doors and Gates",
+        "label__i18n__pl": "Drzwi i bramy",
+        "label__i18n__nl": "Deuren en poorten",
+        "label__i18n__cs": "Dveře a brány",
+        "description": "Sichere Zutrittslösungen für jeden Eingang",
+        "description__i18n__en": "Secure access solutions for every entrance",
+        "description__i18n__pl": "Bezpieczne rozwiązania dostępowe dla każdego wejścia",
+        "description__i18n__nl": "Veilige toegangsoplossingen voor elke ingang",
+        "description__i18n__cs": "Bezpečná přístupová řešení pro každý vstup",
+        "link": {
+         "linktype": "url",
+         "url": "/zutrittskontrolle/tueren-tore",
+         "cached_url": "/zutrittskontrolle/tueren-tore",
+         "fieldtype": "multilink"
+        },
+        "children": [
+         {
+          "_uid": "5c8f89ab-be33-45ed-ad76-3e33c65946bd",
+          "component": "nav_item",
+          "node_key": "zk.drueckergarnitur",
+          "node_type": "page",
+          "show_in_public_nav": false,
+          "page_key": "zutrittskontrolle.elektronische-drueckergarnitur",
+          "label": "Elektronische Drückergarnitur",
+          "label__i18n__en": "Electronic door handle",
+          "label__i18n__pl": "Elektroniczne okucie klamkowe",
+          "label__i18n__nl": "Elektronisch deurbeslag",
+          "label__i18n__cs": "Elektronické kování",
+          "link": {
+           "linktype": "url",
+           "url": "/zutrittskontrolle/elektronische-drueckergarnitur",
+           "cached_url": "/zutrittskontrolle/elektronische-drueckergarnitur",
+           "fieldtype": "multilink"
+          }
+         },
+         {
+          "_uid": "4326c8cb-ddc7-4d14-9f1c-e21f08dfe052",
+          "component": "nav_item",
+          "node_key": "zk.knaufzylinder",
+          "node_type": "page",
+          "show_in_public_nav": false,
+          "page_key": "zutrittskontrolle.elektronischer-knaufzylinder",
+          "label": "Elektronischer Knaufzylinder",
+          "label__i18n__en": "Electronic knob cylinder",
+          "label__i18n__pl": "Elektroniczna wkładka gałkowa",
+          "label__i18n__nl": "Elektronische knopcilinder",
+          "label__i18n__cs": "Elektronická knoflíková vložka",
+          "link": {
+           "linktype": "url",
+           "url": "/zutrittskontrolle/elektronischer-knaufzylinder",
+           "cached_url": "/zutrittskontrolle/elektronischer-knaufzylinder",
+           "fieldtype": "multilink"
+          }
+         },
+         {
+          "_uid": "94cd0545-065f-4b70-94dc-0170805f9d47",
+          "component": "nav_item",
+          "node_key": "zk.bcm-online-leser",
+          "node_type": "page",
+          "show_in_public_nav": false,
+          "page_key": "zutrittskontrolle.bcm-online-leser",
+          "label": "BCM Online-Leser",
+          "label__i18n__en": "BCM online reader",
+          "label__i18n__pl": "Czytnik BCM online",
+          "label__i18n__cs": "BCM online čtečka",
+          "label__i18n__nl": "BCM online-lezer",
+          "link": {
+           "linktype": "url",
+           "url": "/zutrittskontrolle/bcm-online-leser",
+           "cached_url": "/zutrittskontrolle/bcm-online-leser",
+           "fieldtype": "multilink"
+          }
+         },
+         {
+          "_uid": "404c2172-5404-4f56-a219-d86e062df6ac",
+          "component": "nav_item",
+          "node_key": "zk.funkvernetzte-offline-leser",
+          "node_type": "page",
+          "show_in_public_nav": false,
+          "page_key": "zutrittskontrolle.funkvernetzte-offline-leser",
+          "label": "Funkvernetzte Offline-Leser",
+          "label__i18n__en": "Wireless offline readers",
+          "label__i18n__pl": "Bezprzewodowo usieciowione czytniki offline",
+          "label__i18n__cs": "Bezdrátově propojené offline čtečky",
+          "label__i18n__nl": "Draadloos gekoppelde offline lezers",
+          "link": {
+           "linktype": "url",
+           "url": "/zutrittskontrolle/funkvernetzte-offline-leser",
+           "cached_url": "/zutrittskontrolle/funkvernetzte-offline-leser",
+           "fieldtype": "multilink"
+          }
+         },
+         {
+          "_uid": "19731187-7ec8-4ec0-b361-c510aff170c3",
+          "component": "nav_item",
+          "node_key": "zk.bcm-handsender",
+          "node_type": "page",
+          "show_in_public_nav": false,
+          "page_key": "zutrittskontrolle.bcm-handsender",
+          "label": "BCM Handsender",
+          "label__i18n__en": "BCM handheld transmitter",
+          "label__i18n__pl": "Pilot BCM",
+          "label__i18n__nl": "BCM handzender",
+          "label__i18n__cs": "Ruční vysílač BCM",
+          "link": {
+           "linktype": "url",
+           "url": "/zutrittskontrolle/bcm-handsender",
+           "cached_url": "/zutrittskontrolle/bcm-handsender",
+           "fieldtype": "multilink"
+          }
+         },
+         {
+          "_uid": "56c3111e-805a-4951-9c87-fcd8c80f39db",
+          "component": "nav_item",
+          "node_key": "zk.tueren-tore.bcm-mini-cloud",
+          "node_type": "page",
+          "show_in_public_nav": false,
+          "page_key": "zutrittskontrolle.bcm-mini-cloud",
+          "label": "BCM MiniCloud",
+          "label__i18n__en": "BCM MiniCloud",
+          "label__i18n__pl": "BCM MiniCloud",
+          "label__i18n__nl": "BCM MiniCloud",
+          "label__i18n__cs": "BCM MiniCloud",
+          "link": {
+           "linktype": "url",
+           "url": "/zutrittskontrolle/bcm-mini-cloud",
+           "cached_url": "/zutrittskontrolle/bcm-mini-cloud",
+           "fieldtype": "multilink"
+          }
+         }
+        ]
+       },
+       {
+        "_uid": "e9b94e47-a85c-4dd6-8417-06c6df60d4d6",
+        "component": "nav_item",
+        "node_key": "zk.mobiler-zutritt",
+        "node_type": "page",
+        "show_in_public_nav": true,
+        "page_key": "zutrittskontrolle.mobiler-zutritt",
+        "label": "Mobiler Zutritt per App oder Anruf",
+        "label__i18n__en": "Mobile Access via App or Call",
+        "label__i18n__pl": "Mobilny dostęp przez aplikację lub połączenie",
+        "label__i18n__nl": "Mobiele toegang via app of oproep",
+        "label__i18n__cs": "Mobilní přístup přes aplikaci nebo hovor",
+        "description": "Türöffnung bequem per Smartphone-App oder Telefonanruf",
+        "description__i18n__en": "Open doors conveniently via smartphone app or phone call",
+        "description__i18n__pl": "Wygodne otwieranie drzwi za pomocą aplikacji na smartfona lub połączenia telefonicznego",
+        "description__i18n__nl": "Deuropening eenvoudig via smartphone-app of telefoonoproep",
+        "description__i18n__cs": "Pohodlné otevírání dveří pomocí mobilní aplikace nebo telefonního hovoru",
+        "link": {
+         "linktype": "url",
+         "url": "/zutrittskontrolle/mobiler-zutritt",
+         "cached_url": "/zutrittskontrolle/mobiler-zutritt",
+         "fieldtype": "multilink"
+        },
+        "children": [
+         {
+          "_uid": "c25c68ec-b4fa-4d9e-9bd9-fc0635646d14",
+          "component": "nav_item",
+          "node_key": "zk.bcm-door-app",
+          "node_type": "page",
+          "show_in_public_nav": true,
+          "page_key": "zutrittskontrolle.bcm-door-app",
+          "label": "BCM Door App",
+          "label__i18n__en": "BCM Door App",
+          "label__i18n__pl": "Aplikacja BCM Door",
+          "label__i18n__nl": "BCM Door App",
+          "label__i18n__cs": "Aplikace BCM Door",
+          "link": {
+           "linktype": "url",
+           "url": "/zutrittskontrolle/bcm-door-app",
+           "cached_url": "/zutrittskontrolle/bcm-door-app",
+           "fieldtype": "multilink"
+          }
+         },
+         {
+          "_uid": "0071949e-d228-4de2-bc78-b2c1648f8d42",
+          "component": "nav_item",
+          "node_key": "zk.zufahrten.gsm-gateway",
+          "node_type": "page",
+          "show_in_public_nav": true,
+          "page_key": "zutrittskontrolle.gsm-gateway",
+          "label": "BCM GSM Gateway",
+          "label__i18n__en": "BCM GSM Gateway",
+          "label__i18n__pl": "Bramka GSM BCM",
+          "label__i18n__nl": "BCM GSM-gateway",
+          "label__i18n__cs": "BCM GSM brána",
+          "link": {
+           "linktype": "url",
+           "url": "/zutrittskontrolle/gsm-gateway",
+           "cached_url": "/zutrittskontrolle/gsm-gateway",
+           "fieldtype": "multilink"
+          }
+         }
+        ]
+       },
+       {
+        "_uid": "70ffc8c7-2077-475b-a774-2b86e3d2d78e",
+        "component": "nav_item",
+        "node_key": "zk.fahrstuhl",
+        "node_type": "page",
+        "show_in_public_nav": true,
+        "page_key": "zutrittskontrolle.fahrstuhlsteuerung",
+        "label": "Fahrstuhlsteuerung",
+        "label__i18n__en": "Elevator control",
+        "label__i18n__pl": "Sterowanie windami",
+        "label__i18n__nl": "Liftbesturing",
+        "label__i18n__cs": "Řízení výtahů",
+        "description": "Intelligente Etagenfreigabe und Zugangsregelung",
+        "description__i18n__en": "Intelligent floor release and access regulation",
+        "description__i18n__pl": "Inteligentne odblokowanie pięter i kontrola dostępu",
+        "description__i18n__nl": "Intelligente etagevrijgave en toegangsregeling",
+        "description__i18n__cs": "Inteligentní uvolnění pater a řízení přístupu",
+        "link": {
+         "linktype": "url",
+         "url": "/zutrittskontrolle/fahrstuhlsteuerung",
+         "cached_url": "/zutrittskontrolle/fahrstuhlsteuerung",
+         "fieldtype": "multilink"
+        }
+       },
+       {
+        "_uid": "ec47d2c5-c0b2-4e5b-b8ba-de59b7c933f1",
+        "component": "nav_item",
+        "node_key": "zk.zufahrten",
+        "node_type": "page",
+        "show_in_public_nav": true,
+        "page_key": "zutrittskontrolle.zufahrten-parkplaetze",
+        "label": "Zufahrten und Parkplätze",
+        "label__i18n__en": "Driveways and Parking",
+        "label__i18n__pl": "Wjazdy i parkingi",
+        "label__i18n__nl": "Toegangswegen en parkeerplaatsen",
+        "label__i18n__cs": "Vjezdy a parkoviště",
+        "description": "Schranken- und Parkraumsteuerung",
+        "description__i18n__en": "Barrier and parking space control",
+        "description__i18n__pl": "Sterowanie szlabanami i przestrzenią parkingową",
+        "description__i18n__nl": "Slagboom- en parkeerbesturing",
+        "description__i18n__cs": "Řízení závor a parkovacích prostor",
+        "link": {
+         "linktype": "url",
+         "url": "/zutrittskontrolle/zufahrten-parkplaetze",
+         "cached_url": "/zutrittskontrolle/zufahrten-parkplaetze",
+         "fieldtype": "multilink"
+        },
+        "children": [
+         {
+          "_uid": "378dcec3-2832-4dd1-adab-fbed56a1d759",
+          "component": "nav_item",
+          "node_key": "zk.zufahrten.zufahrtskontrolle",
+          "node_type": "page",
+          "show_in_public_nav": false,
+          "page_key": "zutrittskontrolle.zufahrtskontrolle",
+          "label": "Zufahrtskontrolle",
+          "label__i18n__en": "Vehicle access control",
+          "label__i18n__pl": "Kontrola wjazdu",
+          "label__i18n__cs": "Kontrola vjezdu",
+          "label__i18n__nl": "Toegangscontrole voertuigen",
+          "link": {
+           "linktype": "url",
+           "url": "/zutrittskontrolle/zufahrtskontrolle",
+           "cached_url": "/zutrittskontrolle/zufahrtskontrolle",
+           "fieldtype": "multilink"
+          }
+         },
+         {
+          "_uid": "f9ab1f3f-25db-484e-8039-4564e814108f",
+          "component": "nav_item",
+          "node_key": "kfz-kennzeichenerkennung",
+          "node_type": "page",
+          "show_in_public_nav": true,
+          "page_key": "zutrittskontrolle.kfz-Kennzeichenerkennung",
+          "label": "Kfz-Kennzeichenerkennung",
+          "label__i18n__en": "License Plate Recognition",
+          "label__i18n__pl": "Rozpoznawanie tablic rejestracyjnych",
+          "label__i18n__nl": "Kentekenherkenning",
+          "label__i18n__cs": "Rozpoznávání SPZ"
+         },
+         {
+          "_uid": "8c4af878-dd6c-446c-aa70-6fd431c65217",
+          "component": "nav_item",
+          "node_key": "uhf-leser",
+          "node_type": "page",
+          "show_in_public_nav": true,
+          "page_key": "zutrittskontrolle.uhf-Leser",
+          "label": "UHF-Leser",
+          "label__i18n__en": "UHF-Reader",
+          "label__i18n__pl": "Czytnik UHF",
+          "label__i18n__nl": "UHF-lezer",
+          "label__i18n__cs": "UHF čtečka"
+         }
+        ]
+       },
+       {
+        "_uid": "67d7b95a-96e2-4da0-b799-759cfdf8d92a",
+        "component": "nav_item",
+        "node_key": "biometrie2",
+        "node_type": "page",
+        "show_in_public_nav": true,
+        "page_key": "zk.biometrie",
+        "label": "Biometrie",
+        "label__i18n__en": "Biometrics",
+        "label__i18n__pl": "Biometria",
+        "label__i18n__cs": "Biometrie",
+        "label__i18n__nl": "Biometrie",
+        "description": "Fingerprint- und Gesichtserkennung",
+        "description__i18n__en": "Fingerprint and facial recognition",
+        "description__i18n__pl": "Rozpoznawanie linii papilarnych i twarzy",
+        "description__i18n__cs": "Rozpoznávání otisků prstů a obličeje",
+        "description__i18n__nl": "Vingerafdruk- en gezichtsherkenning",
+        "link": {
+         "linktype": "url",
+         "url": "/zutrittskontrolle/biometrie2",
+         "cached_url": "/zutrittskontrolle/biometrie2",
+         "fieldtype": "multilink"
+        },
+        "children": [
+         {
+          "_uid": "126e30af-fc00-41d9-96b6-a599a4eb7834",
+          "component": "nav_item",
+          "node_key": "zk.fingerprint-scanner",
+          "node_type": "page",
+          "show_in_public_nav": true,
+          "page_key": "zutrittskontrolle.fingerprint-scanner",
+          "label": "Fingerprint-Scanner",
+          "label__i18n__en": "Fingerprint scanner",
+          "label__i18n__pl": "Skaner linii papilarnych",
+          "label__i18n__nl": "Vingerafdrukscanner",
+          "label__i18n__cs": "Skener otisků prstů"
+         },
+         {
+          "_uid": "5997460d-3985-4e1e-a94a-fd9d3e327e05",
+          "component": "nav_item",
+          "node_key": "zk.3d-finger-scanner",
+          "node_type": "page",
+          "show_in_public_nav": true,
+          "page_key": "zutrittskontrolle.3d-finger-scanner",
+          "label": "3D-Finger-Scanner",
+          "label__i18n__en": "3D Finger Scanner",
+          "label__i18n__pl": "Skaner linii papilarnych 3D",
+          "label__i18n__nl": "3D-fingerscanner",
+          "label__i18n__cs": "3D snímač otisků prstů"
+         },
+         {
+          "_uid": "84076ec8-f0aa-4eb5-b936-6377783e85f7",
+          "component": "nav_item",
+          "node_key": "zk.gesichtserkennung",
+          "node_type": "page",
+          "show_in_public_nav": true,
+          "page_key": "zutrittskontrolle.gesichtserkennung",
+          "label": "Scanner zur Gesichtserkennung",
+          "label__i18n__en": "Face recognition scanner",
+          "label__i18n__pl": "Skaner do rozpoznawania twarzy",
+          "label__i18n__cs": "Skener pro rozpoznání obličeje",
+          "label__i18n__nl": "Scanner voor gezichtsherkenning"
+         }
+        ]
+       },
+       {
+        "_uid": "1170fff5-b58e-4b19-bd1c-34712a173355",
+        "component": "nav_item",
+        "node_key": "an.zutrittskontrolle-bcm",
+        "node_type": "page",
+        "show_in_public_nav": true,
+        "page_key": "anwendungen.zutrittskontrolle-bcm",
+        "label": "Systemeigenschaften von BCM",
+        "label__i18n__en": "System features BCM",
+        "label__i18n__pl": "Właściwości systemu BCM",
+        "label__i18n__cs": "Systémové vlastnosti BCM",
+        "label__i18n__nl": "Systeemeigenschappen van BCM",
+        "description": "Skalierung, Mandanten, Logging, Türstatus, Anti-Passback u.a.m.",
+        "description__i18n__en": "Scaling, Tenants, Logging, Door status, Anti-Passback and more",
+        "description__i18n__pl": "Skalowalność, obsługa najemców, rejestrowanie zdarzeń, status drzwi, Anti-Passback i wiele innych.",
+        "description__i18n__cs": "Skálování, mandanti, protokolování, stav dveří, Anti-Passback a další.",
+        "description__i18n__nl": "Systeemeigenschappen van BCM",
+        "link": {
+         "linktype": "url",
+         "url": "/anwendungen/zutrittskontrolle-bcm",
+         "cached_url": "/anwendungen/zutrittskontrolle-bcm",
+         "fieldtype": "multilink"
+        }
+       }
+      ]
+     },
+     {
+      "_uid": "a22800b3-885f-4ca1-ab62-9baecbe61ad7",
+      "component": "nav_item",
+      "node_key": "gebaeudemanagement",
+      "node_type": "page",
+      "show_in_public_nav": true,
+      "page_key": "gebaeudemanagement.root",
+      "label": "Gebäudemanagement",
+      "label__i18n__en": "Facility Management",
+      "label__i18n__pl": "Zarządzanie budynkiem",
+      "label__i18n__nl": "Gebouwbeheer",
+      "label__i18n__cs": "Správa budov",
+      "link": {
+       "linktype": "url",
+       "url": "/gebaeudemanagement",
+       "cached_url": "/gebaeudemanagement",
+       "fieldtype": "multilink"
+      },
+      "children": [
+       {
+        "_uid": "77435fe3-c297-4b58-a533-b7729b93685b",
+        "component": "nav_item",
+        "node_key": "gm.namensanzeige",
+        "node_type": "page",
+        "show_in_public_nav": true,
+        "page_key": "gebaeudemanagement.digitale-namensanzeige",
+        "label": "Digitale Namensanzeige",
+        "label__i18n__en": "Digital name display",
+        "label__i18n__pl": "Cyfrowy wyświetlacz nazwisk",
+        "label__i18n__nl": "Digitale naamweergave",
+        "label__i18n__cs": "Digitální jmenovka",
+        "description": "e-Paper-Displays für die Namensanzeige",
+        "description__i18n__en": "e-paper displays for name display",
+        "description__i18n__pl": "Wyświetlacze e-paper do wyświetlania nazwisk",
+        "description__i18n__nl": "e-paper displays voor naamweergave",
+        "description__i18n__cs": "Displeje e-Paper pro zobrazení jmen",
+        "link": {
+         "linktype": "url",
+         "url": "/gebaeudemanagement/digitale-namensanzeige",
+         "cached_url": "/gebaeudemanagement/digitale-namensanzeige",
+         "fieldtype": "multilink"
+        },
+        "children": [
+         {
+          "_uid": "34d56e30-62eb-44c8-a942-3975914389eb",
+          "component": "nav_item",
+          "node_key": "gm.namensanzeige.aussenstation-adx5",
+          "node_type": "page",
+          "show_in_public_nav": false,
+          "page_key": "zutrittskontrolle.aussenstation-adx5",
+          "label": "Aussenstation ADX5",
+          "label__i18n__en": "ADX5 outdoor station",
+          "label__i18n__pl": "Stacja zewnętrzna ADX5",
+          "label__i18n__nl": "Buitenstation ADX5",
+          "label__i18n__cs": "Venkovní stanice ADX5",
+          "link": {
+           "linktype": "url",
+           "url": "/zutrittskontrolle/aussenstation-adx5",
+           "cached_url": "/zutrittskontrolle/aussenstation-adx5",
+           "fieldtype": "multilink"
+          }
+         },
+         {
+          "_uid": "f20a5887-34c9-4737-9af9-b022dd75fb06",
+          "component": "nav_item",
+          "node_key": "gm.namensanzeige.digitale-briefkasten",
+          "node_type": "page",
+          "show_in_public_nav": false,
+          "page_key": "zutrittskontrolle.digitale-briefkasten",
+          "label": "Digitale Briefkastenanlage",
+          "label__i18n__en": "Digital mailbox system",
+          "label__i18n__pl": "Cyfrowy system skrzynek pocztowych",
+          "label__i18n__nl": "Digitale brievenbusinstallatie",
+          "label__i18n__cs": "Digitální systém poštovních schránek",
+          "link": {
+           "linktype": "url",
+           "url": "/zutrittskontrolle/digitale-briefkasten",
+           "cached_url": "/zutrittskontrolle/digitale-briefkasten",
+           "fieldtype": "multilink"
+          }
+         },
+         {
+          "_uid": "37875f60-7e8c-4d76-a1e0-a089da2af234",
+          "component": "nav_item",
+          "node_key": "gm.namensanzeige.zutrittssoftware",
+          "node_type": "page",
+          "show_in_public_nav": false,
+          "page_key": "zutrittskontrolle.zutrittssoftware",
+          "label": "Zutrittssoftware",
+          "label__i18n__en": "Access software",
+          "label__i18n__pl": "Oprogramowanie kontroli dostępu",
+          "label__i18n__nl": "Toegangssoftware",
+          "label__i18n__cs": "Přístupový software",
+          "link": {
+           "linktype": "url",
+           "url": "/zutrittskontrolle/zutrittssoftware",
+           "cached_url": "/zutrittskontrolle/zutrittssoftware",
+           "fieldtype": "multilink"
+          }
+         }
+        ]
+       },
+       {
+        "_uid": "fe885dae-386f-4675-8b12-8cfe1f38ef23",
+        "component": "nav_item",
+        "node_key": "gm.schraenke",
+        "node_type": "page",
+        "show_in_public_nav": true,
+        "page_key": "gebaeudemanagement.schraenke-behaelter",
+        "label": "Schränke und Behälter",
+        "label__i18n__en": "Cabinets and Containers",
+        "label__i18n__pl": "Szafy i pojemniki",
+        "label__i18n__nl": "Kasten en containers",
+        "label__i18n__cs": "Skříně a kontejnery",
+        "description": "Elektronische Schließsysteme für Mobiliar",
+        "description__i18n__en": "Electronic locking systems for furniture",
+        "description__i18n__pl": "Elektroniczne systemy zamykania mebli",
+        "description__i18n__nl": "Elektronische sluitsystemen voor meubilair",
+        "description__i18n__cs": "Elektronické uzamykací systémy pro nábytek",
+        "link": {
+         "linktype": "url",
+         "url": "/gebaeudemanagement/schraenke-behaelter",
+         "cached_url": "/gebaeudemanagement/schraenke-behaelter",
+         "fieldtype": "multilink"
+        },
+        "children": [
+         {
+          "_uid": "53fb5003-ce5d-4244-b6ba-a78268861587",
+          "component": "nav_item",
+          "node_key": "zk.vorhaengeschloss",
+          "node_type": "page",
+          "show_in_public_nav": false,
+          "page_key": "zutrittskontrolle.vorhaengeschloss",
+          "label": "Elektronisches Vorhängeschloss",
+          "label__i18n__en": "Electronic padlock",
+          "label__i18n__pl": "Kłódka elektroniczna",
+          "label__i18n__cs": "Elektronický visací zámek",
+          "label__i18n__nl": "Elektronisch hangslot",
+          "link": {
+           "linktype": "url",
+           "url": "/zutrittskontrolle/vorhaengeschloss",
+           "cached_url": "/zutrittskontrolle/vorhaengeschloss",
+           "fieldtype": "multilink"
+          }
+         },
+         {
+          "_uid": "d05326a9-886b-4aee-abc6-80f8f26cdd13",
+          "component": "nav_item",
+          "node_key": "gm.schraenke.schrankschloss",
+          "node_type": "page",
+          "show_in_public_nav": false,
+          "page_key": "zutrittskontrolle.schrankschloss",
+          "label": "Elektronisches Schrankschloss",
+          "label__i18n__en": "Electronic cabinet lock",
+          "label__i18n__pl": "Elektroniczny zamek szafkowy",
+          "label__i18n__nl": "Elektronisch kastslot",
+          "label__i18n__cs": "Elektronický skříňový zámek",
+          "link": {
+           "linktype": "url",
+           "url": "/zutrittskontrolle/schrankschloss",
+           "cached_url": "/zutrittskontrolle/schrankschloss",
+           "fieldtype": "multilink"
+          }
+         },
+         {
+          "_uid": "e527b6bd-3ce2-4f26-93a0-c53d79d9901b",
+          "component": "nav_item",
+          "node_key": "gm.schraenke.serverschrankschloss",
+          "node_type": "page",
+          "show_in_public_nav": false,
+          "page_key": "zutrittskontrolle.serverschrankschloss",
+          "label": "Elektronisches Serverschrankschloss",
+          "label__i18n__en": "Electronic server cabinet lock",
+          "label__i18n__pl": "Elektroniczny zamek do szafy serwerowej",
+          "label__i18n__cs": "Elektronický zámek serverové skříně",
+          "label__i18n__nl": "Elektronisch serverkastslot",
+          "link": {
+           "linktype": "url",
+           "url": "/zutrittskontrolle/serverschrankschloss",
+           "cached_url": "/zutrittskontrolle/serverschrankschloss",
+           "fieldtype": "multilink"
+          }
+         }
+        ]
+       },
+       {
+        "_uid": "23dd2853-65fa-486d-806d-0b0c70387c04",
+        "component": "nav_item",
+        "node_key": "gm.signage",
+        "node_type": "page",
+        "show_in_public_nav": true,
+        "page_key": "gebaeudemanagement.digital-signage",
+        "label": "Digital Signage – Informieren",
+        "label__i18n__en": "Digital Signage – Inform",
+        "label__i18n__pl": "Digital Signage – Informowanie",
+        "label__i18n__nl": "Digital Signage – Informeren",
+        "label__i18n__cs": "Digital Signage – Informovat",
+        "description": "Digitale Informations- und Anzeigesysteme",
+        "description__i18n__en": "Digital information and display systems",
+        "description__i18n__pl": "Cyfrowe systemy informacyjno-wyświetlaczowe",
+        "description__i18n__nl": "Digitale informatie- en weergavesystemen",
+        "description__i18n__cs": "Digitální informační a zobrazovací systémy",
+        "link": {
+         "linktype": "url",
+         "url": "/gebaeudemanagement/digital-signage",
+         "cached_url": "/gebaeudemanagement/digital-signage",
+         "fieldtype": "multilink"
+        },
+        "children": [
+         {
+          "_uid": "9830d40c-9284-4bdd-88a7-fe375c5cc98a",
+          "component": "nav_item",
+          "node_key": "gm.signage.bcm-infoboard",
+          "node_type": "page",
+          "show_in_public_nav": true,
+          "page_key": "gebaeudemanagement.bcm-infoboard",
+          "label": "BCM Infoboard",
+          "label__i18n__en": "BCM Infoboard",
+          "label__i18n__pl": "BCM Infoboard",
+          "label__i18n__cs": "BCM Infoboard",
+          "label__i18n__nl": "BCM Infoboard",
+          "link": {
+           "linktype": "url",
+           "url": "/gebaeudemanagement/bcm-infoboard",
+           "cached_url": "/gebaeudemanagement/bcm-infoboard",
+           "fieldtype": "multilink"
+          }
+         }
+        ]
+       },
+       {
+        "_uid": "7d33230c-4e3e-4e98-b242-d55dcf494b17",
+        "component": "nav_item",
+        "node_key": "gm.reservieren",
+        "node_type": "page",
+        "show_in_public_nav": true,
+        "page_key": "gebaeudemanagement.reservieren-buchen",
+        "label": "Reservieren und Buchen",
+        "label__i18n__en": "Reserve and Book",
+        "label__i18n__pl": "Rezerwacja i zamawianie",
+        "label__i18n__cs": "Rezervovat a zamluvit",
+        "label__i18n__nl": "Reserveren en boeken",
+        "description": "Raum- und Ressourcenbuchung",
+        "description__i18n__en": "Room and resource booking",
+        "description__i18n__pl": "Rezerwacja sal i zasobów",
+        "description__i18n__cs": "Rezervace prostor a zdrojů",
+        "description__i18n__nl": "Ruimte- en resourceboeking",
+        "link": {
+         "linktype": "url",
+         "url": "/gebaeudemanagement/reservieren-buchen",
+         "cached_url": "/gebaeudemanagement/reservieren-buchen",
+         "fieldtype": "multilink"
+        },
+        "children": [
+         {
+          "_uid": "0b47d46c-508a-40c1-8c78-c768c9c0f71e",
+          "component": "nav_item",
+          "node_key": "gm.reservieren.bcm-buchungssystem",
+          "node_type": "page",
+          "show_in_public_nav": false,
+          "page_key": "gebaeudemanagement.bcm-buchungssystem",
+          "label": "BCM Buchungssystem",
+          "label__i18n__en": "BCM Booking System",
+          "label__i18n__pl": "System rezerwacji BCM",
+          "label__i18n__cs": "BCM rezervační systém",
+          "label__i18n__nl": "BCM-boekingssysteem",
+          "link": {
+           "linktype": "url",
+           "url": "/gebaeudemanagement/bcm-buchungssystem",
+           "cached_url": "/gebaeudemanagement/bcm-buchungssystem",
+           "fieldtype": "multilink"
+          }
+         }
+        ]
+       },
+       {
+        "_uid": "f2d3d6cc-91a1-4bb8-a709-c74640448b77",
+        "component": "nav_item",
+        "node_key": "gm.alarm",
+        "node_type": "page",
+        "show_in_public_nav": true,
+        "page_key": "gebaeudemanagement.alarmanlagenkopplung",
+        "label": "Alarmanlagenkopplung",
+        "label__i18n__en": "Alarm system interface",
+        "label__i18n__pl": "Integracja z systemem alarmowym",
+        "label__i18n__nl": "Alarmsysteemkoppeling",
+        "label__i18n__cs": "Propojení alarmu",
+        "description": "Integration von Sicherheitssystemen",
+        "description__i18n__en": "Integration of security systems",
+        "description__i18n__pl": "Integracja systemów bezpieczeństwa",
+        "description__i18n__nl": "Integratie van beveiligingssystemen",
+        "description__i18n__cs": "Integrace bezpečnostních systémů",
+        "link": {
+         "linktype": "url",
+         "url": "/gebaeudemanagement/alarmanlagenkopplung",
+         "cached_url": "/gebaeudemanagement/alarmanlagenkopplung",
+         "fieldtype": "multilink"
+        }
+       }
+      ]
+     },
+     {
+      "_uid": "122d80ae-580a-4fef-acc7-4a8fcc28eddb",
+      "component": "nav_item",
+      "node_key": "eingangssysteme",
+      "node_type": "page",
+      "show_in_public_nav": true,
+      "page_key": "eingangssysteme.root",
+      "label": "Eingangssysteme",
+      "label__i18n__en": "Entrance systems",
+      "label__i18n__pl": "Systemy wejściowe",
+      "label__i18n__nl": "Ingangssystemen",
+      "label__i18n__cs": "Vstupní systémy",
+      "link": {
+       "linktype": "url",
+       "url": "/entry-system",
+       "cached_url": "/entry-system",
+       "fieldtype": "multilink"
+      },
+      "children": [
+       {
+        "_uid": "acd3c19a-4c54-415f-bb6d-642be372e5f0",
+        "component": "nav_item",
+        "node_key": "es.design",
+        "node_type": "page",
+        "show_in_public_nav": true,
+        "page_key": "eingangssysteme.design",
+        "label": "Design",
+        "label__i18n__en": "Design",
+        "label__i18n__pl": "Design",
+        "label__i18n__nl": "Design",
+        "label__i18n__cs": "Design",
+        "description": "Von der Außenstation bis zum Gestaltungsband",
+        "description__i18n__en": "From a front door station to a design band",
+        "description__i18n__pl": "Od stacji zewnętrznej do listwy dekoracyjnej",
+        "description__i18n__nl": "Van het buitenstation tot de designstrip",
+        "description__i18n__cs": "Od venkovní stanice až po designovou lištu",
+        "link": {
+         "linktype": "url",
+         "url": "/entry-system/design",
+         "cached_url": "/entry-system/design",
+         "fieldtype": "multilink"
+        }
+       },
+       {
+        "_uid": "fae77e9b-7561-41bf-894b-b63ee86a908d",
+        "component": "nav_item",
+        "node_key": "es.funktionalitaet",
+        "node_type": "page",
+        "show_in_public_nav": true,
+        "page_key": "eingangssysteme.funktionalitaet",
+        "label": "Systematische Funktionalität",
+        "label__i18n__en": "Systematic functionality",
+        "label__i18n__pl": "Systematyczna funkcjonalność",
+        "label__i18n__nl": "Systematische functionaliteit",
+        "label__i18n__cs": "Systematická funkčnost",
+        "description": "Alle Gewerke unter Dach und Fach",
+        "description__i18n__en": "All trades under one roof",
+        "description__i18n__pl": "Wszystkie branże pod jednym dachem",
+        "description__i18n__nl": "Alle disciplines onder één dak",
+        "description__i18n__cs": "Všechna řemesla pod jednou střechou",
+        "link": {
+         "linktype": "url",
+         "url": "/entry-system/funktionalitaet",
+         "cached_url": "/entry-system/funktionalitaet",
+         "fieldtype": "multilink"
+        }
+       },
+       {
+        "_uid": "95c946b2-7f61-46da-81d0-bf64ee1b8e7f",
+        "component": "nav_item",
+        "node_key": "es.baukoerper",
+        "node_type": "page",
+        "show_in_public_nav": true,
+        "page_key": "eingangssysteme.integrationsformen",
+        "label": "Baukörper und Montageform",
+        "label__i18n__en": "Building structure and mounting",
+        "label__i18n__pl": "Struktura budynku i sposób montażu",
+        "label__i18n__cs": "Stavební konstrukce a typ montáže",
+        "label__i18n__nl": "Bouwlichaam en montagevorm",
+        "description": "Inputz, Unterputz, Aufputz, freistehend",
+        "description__i18n__en": "Flush-to-plaster, recessed, surface-mounted, free-standing",
+        "description__i18n__pl": "Wtynkowy, podtynkowy, natynkowy, wolnostojący",
+        "description__i18n__cs": "Do omítky, pod omítku, na omítku, volně stojící",
+        "description__i18n__nl": "In de pleisterlaag, inbouw, opbouw, vrijstaand",
+        "link": {
+         "linktype": "url",
+         "url": "/entry-system/integrationsformen",
+         "cached_url": "/entry-system/integrationsformen",
+         "fieldtype": "multilink"
+        }
+       },
+       {
+        "_uid": "9ad3e5cb-5bc7-4b76-a4d2-3b9d3eb175e4",
+        "component": "nav_item",
+        "node_key": "es.material",
+        "node_type": "page",
+        "show_in_public_nav": true,
+        "page_key": "eingangssysteme.material",
+        "label": "Ausdrucksstarke Materialien",
+        "label__i18n__en": "Expressive materials",
+        "label__i18n__pl": "Wyraziste materiały",
+        "label__i18n__nl": "Expressieve materialen",
+        "label__i18n__cs": "Výrazné materiály",
+        "description": "Edelstahl, Messing, Bronze, Aluminium, Pulverbeschichtung",
+        "description__i18n__en": "Stainless steel, brass, bronze, aluminium, powder coating",
+        "description__i18n__pl": "Stal nierdzewna, mosiądz, brąz, aluminium, powłoka proszkowa",
+        "description__i18n__nl": "Roestvrij staal, messing, brons, aluminium, poedercoating",
+        "description__i18n__cs": "Nerezová ocel, mosaz, bronz, hliník, práškové lakování",
+        "link": {
+         "linktype": "url",
+         "url": "/entry-system/material",
+         "cached_url": "/entry-system/material",
+         "fieldtype": "multilink"
+        }
+       },
+       {
+        "_uid": "e9514ebf-17a5-4c02-a517-5bade38f28f0",
+        "component": "nav_item",
+        "node_key": "es.standards",
+        "node_type": "page",
+        "show_in_public_nav": true,
+        "page_key": "eingangssysteme.standards",
+        "label": "Standard Montagesets",
+        "label__i18n__en": "Standards",
+        "label__i18n__pl": "Standardowe zestawy montażowe",
+        "label__i18n__cs": "Standardní montážní sady",
+        "label__i18n__nl": "Standaard montagesets",
+        "description": "Montagesets für Außenstationen der Serie AMI",
+        "description__i18n__en": "Mounting sets for AMI series front door stations",
+        "description__i18n__pl": "Zestawy montażowe do stacji zewnętrznych serii AMI",
+        "description__i18n__cs": "Montážní sady pro venkovní stanice řady AMI",
+        "description__i18n__nl": "Montagesets voor buitenstations van de serie AMI",
+        "link": {
+         "linktype": "url",
+         "url": "/entry-system/standards",
+         "cached_url": "/entry-system/standards",
+         "fieldtype": "multilink"
+        }
+       },
+       {
+        "_uid": "430df4aa-1997-4a76-ba80-7ea70f746ec2",
+        "component": "nav_item",
+        "node_key": "es.referenzen",
+        "node_type": "page",
+        "show_in_public_nav": true,
+        "page_key": "eingangssysteme.referenzen",
+        "label": "Referenzen",
+        "label__i18n__en": "References",
+        "label__i18n__pl": "Referencje",
+        "label__i18n__nl": "Referenties",
+        "label__i18n__cs": "Reference",
+        "description": "Beispiele für Entry-Installationen",
+        "description__i18n__en": "Examples of Entry installations",
+        "description__i18n__pl": "Przykłady instalacji Entry",
+        "description__i18n__nl": "Voorbeelden van Entry-installaties",
+        "description__i18n__cs": "Příklady instalací Entry",
+        "link": {
+         "linktype": "url",
+         "url": "/entry-system/referenzen",
+         "cached_url": "/entry-system/referenzen",
+         "fieldtype": "multilink"
+        }
+       },
+       {
+        "_uid": "bfa1c34f-6e95-4201-a7ae-c825d77fb986",
+        "component": "nav_item",
+        "node_key": "es.beratung",
+        "node_type": "page",
+        "show_in_public_nav": true,
+        "page_key": "eingangssysteme.beratung",
+        "label": "Projektberatung",
+        "label__i18n__en": "Project Consulting",
+        "label__i18n__pl": "Doradztwo projektowe",
+        "label__i18n__cs": "Projektové poradenství",
+        "label__i18n__nl": "Projectadvies",
+        "description": "Von der Vision bis zur Umsetzung",
+        "description__i18n__en": "From vision to implementation",
+        "description__i18n__pl": "Od wizji do realizacji",
+        "description__i18n__cs": "Od vize k realizaci",
+        "description__i18n__nl": "Van visie tot realisatie",
+        "link": {
+         "linktype": "url",
+         "url": "/entry-system/beratung",
+         "cached_url": "/entry-system/beratung",
+         "fieldtype": "multilink"
+        },
+        "hidden": true
+       }
+      ]
+     },
+     {
+      "_uid": "92761d17-9efd-4c5f-bc12-eef32c220c30",
+      "component": "nav_item",
+      "node_key": "bauten",
+      "node_type": "page",
+      "show_in_public_nav": true,
+      "page_key": "anwendungen.root",
+      "label": "TCS in Bauten",
+      "label__i18n__en": "TCS in buildings",
+      "label__i18n__pl": "TCS w obiektach",
+      "label__i18n__nl": "TCS in gebouwen",
+      "label__i18n__cs": "TCS v budovách",
+      "link": {
+       "linktype": "url",
+       "url": "/anwendungen",
+       "cached_url": "/anwendungen",
+       "fieldtype": "multilink"
+      },
+      "children": [
+       {
+        "_uid": "9911b064-c71d-4410-ad96-14f268f98f95",
+        "component": "nav_item",
+        "node_key": "an.wohnbau",
+        "node_type": "page",
+        "show_in_public_nav": true,
+        "page_key": "anwendungen.wohnbau",
+        "label": "TCS im Wohnbau",
+        "label__i18n__en": "TCS in Residential Construction",
+        "label__i18n__pl": "TCS w budownictwie mieszkaniowym",
+        "label__i18n__nl": "TCS in de woningbouw",
+        "label__i18n__cs": "TCS v bytové výstavbě",
+        "description": "Lösungen für Ein- und Mehrfamilienhäuser",
+        "description__i18n__en": "Solutions for single- and multi-family homes",
+        "description__i18n__pl": "Rozwiązania dla domów jedno- i wielorodzinnych",
+        "description__i18n__nl": "Oplossingen voor een- en meergezinswoningen",
+        "description__i18n__cs": "Řešení pro rodinné a bytové domy",
+        "link": {
+         "linktype": "url",
+         "url": "/anwendungen/wohnbau",
+         "cached_url": "/anwendungen/wohnbau",
+         "fieldtype": "multilink"
+        },
+        "children": [
+         {
+          "_uid": "b184d940-6890-4f43-a05d-91228f981308",
+          "component": "nav_item",
+          "node_key": "an.wohnbau.efh",
+          "node_type": "page",
+          "show_in_public_nav": true,
+          "page_key": "anwendungen.einfamilienhaus",
+          "label": "Einfamilienhaus",
+          "label__i18n__en": "Single-family home",
+          "label__i18n__pl": "Dom jednorodzinny",
+          "label__i18n__nl": "Eengezinswoning",
+          "label__i18n__cs": "Rodinný dům",
+          "link": {
+           "linktype": "url",
+           "url": "/anwendungen/einfamilienhaus",
+           "cached_url": "/anwendungen/einfamilienhaus",
+           "fieldtype": "multilink"
+          }
+         },
+         {
+          "_uid": "bbc95cf9-6f77-41e3-920f-4f1b4a26ea89",
+          "component": "nav_item",
+          "node_key": "an.wohnbau.mfh",
+          "node_type": "page",
+          "show_in_public_nav": true,
+          "page_key": "anwendungen.mehrfamilienhaus",
+          "label": "Mehrfamilienhaus",
+          "label__i18n__en": "Multi-family home",
+          "label__i18n__pl": "Budynek wielorodzinny",
+          "label__i18n__cs": "Bytový dům",
+          "label__i18n__nl": "Meergezinswoning",
+          "link": {
+           "linktype": "url",
+           "url": "/anwendungen/mehrfamilienhaus",
+           "cached_url": "/anwendungen/mehrfamilienhaus",
+           "fieldtype": "multilink"
+          }
+         },
+         {
+          "_uid": "8c5f2670-5975-4d92-8496-439bd05f8e0d",
+          "component": "nav_item",
+          "node_key": "an.wohnbau.sanierung",
+          "node_type": "page",
+          "show_in_public_nav": true,
+          "page_key": "anwendungen.sanierung",
+          "label": "Renovation im Bestand",
+          "label__i18n__en": "Renovation of existing buildings",
+          "label__i18n__pl": "Modernizacja w budynkach istniejących",
+          "label__i18n__cs": "Renovace stávajících budov",
+          "label__i18n__nl": "Renovatie in bestaande bouw",
+          "link": {
+           "linktype": "url",
+           "url": "/anwendungen/sanierung",
+           "cached_url": "/anwendungen/sanierung",
+           "fieldtype": "multilink"
+          }
+         }
+        ]
+       },
+       {
+        "_uid": "cd730dd8-2f10-4419-95f1-8f57be19d7dd",
+        "component": "nav_item",
+        "node_key": "an.bildung",
+        "node_type": "page",
+        "show_in_public_nav": true,
+        "page_key": "anwendungen.bildungseinrichtungen",
+        "label": "TCS in Bildungseinrichtungen",
+        "label__i18n__en": "TCS in educational facilities",
+        "label__i18n__pl": "TCS w placówkach edukacyjnych",
+        "label__i18n__cs": "TCS ve vzdělávacích zařízeních",
+        "label__i18n__nl": "TCS in onderwijsinstellingen",
+        "description": "Sichere Kommunikation für Kitas, Schulen und Wohnheime",
+        "description__i18n__en": "Secure communication for daycares, schools and dormitories",
+        "description__i18n__pl": "Bezpieczna komunikacja dla przedszkoli, szkół i internatów",
+        "description__i18n__cs": "Bezpečná komunikace pro mateřské školy, školy a domovy",
+        "description__i18n__nl": "Veilige communicatie voor kinderdagverblijven, scholen en tehuizen",
+        "link": {
+         "linktype": "url",
+         "url": "/anwendungen/bildungseinrichtungen",
+         "cached_url": "/anwendungen/bildungseinrichtungen",
+         "fieldtype": "multilink"
+        },
+        "children": [
+         {
+          "_uid": "392e10d5-9bdf-4cd6-a040-a1d7da46ac36",
+          "component": "nav_item",
+          "node_key": "an.bildung.kita",
+          "node_type": "page",
+          "show_in_public_nav": true,
+          "page_key": "anwendungen.kindertagesstaetten",
+          "label": "Kindertagesstätten",
+          "label__i18n__en": "Day-care centres",
+          "label__i18n__pl": "Przedszkola i żłobki",
+          "label__i18n__nl": "Kinderdagverblijven",
+          "label__i18n__cs": "Mateřské školy",
+          "link": {
+           "linktype": "url",
+           "url": "/anwendungen/kindertagesstaetten",
+           "cached_url": "/anwendungen/kindertagesstaetten",
+           "fieldtype": "multilink"
+          }
+         },
+         {
+          "_uid": "01feb3cb-81a4-4fe8-b596-683c3f090644",
+          "component": "nav_item",
+          "node_key": "an.bildung.schule",
+          "node_type": "page",
+          "show_in_public_nav": true,
+          "page_key": "anwendungen.schule",
+          "label": "Schulen",
+          "label__i18n__en": "Schools",
+          "label__i18n__pl": "Szkoły",
+          "label__i18n__nl": "Scholen",
+          "label__i18n__cs": "Školy",
+          "link": {
+           "linktype": "url",
+           "url": "/anwendungen/schule",
+           "cached_url": "/anwendungen/schule",
+           "fieldtype": "multilink"
+          }
+         },
+         {
+          "_uid": "fc9b409b-c13f-4d1a-a93a-f21ee744577e",
+          "component": "nav_item",
+          "node_key": "an.bildung.wohnheim",
+          "node_type": "page",
+          "show_in_public_nav": true,
+          "page_key": "anwendungen.wohnheim",
+          "label": "Wohnheime",
+          "label__i18n__en": "Residence halls",
+          "label__i18n__pl": "Akademiki i bursy",
+          "label__i18n__cs": "Koleje a ubytovny",
+          "label__i18n__nl": "Tehuizen",
+          "link": {
+           "linktype": "url",
+           "url": "/anwendungen/wohnheim",
+           "cached_url": "/anwendungen/wohnheim",
+           "fieldtype": "multilink"
+          }
+         }
+        ]
+       },
+       {
+        "_uid": "6828e93f-278d-4030-89bb-9a4fcda8d714",
+        "component": "nav_item",
+        "node_key": "an.gesundheit",
+        "node_type": "page",
+        "show_in_public_nav": true,
+        "page_key": "anwendungen.gesundheitseinrichtungen",
+        "label": "TCS in Gesundheitseinrichtungen",
+        "label__i18n__en": "TCS in healthcare facilities",
+        "label__i18n__pl": "TCS w placówkach medycznych",
+        "label__i18n__cs": "TCS ve zdravotnických zařízeních",
+        "label__i18n__nl": "TCS in zorginstellingen",
+        "description": "Zutritt und Kommunikation in Kliniken und Praxen",
+        "description__i18n__en": "Access and communication in clinics and practices",
+        "description__i18n__pl": "Dostęp i komunikacja w klinikach i gabinetach",
+        "description__i18n__cs": "Přístup a komunikace v klinikách a ordinacích",
+        "description__i18n__nl": "Toegang en communicatie in klinieken en praktijken",
+        "link": {
+         "linktype": "url",
+         "url": "/anwendungen/gesundheitseinrichtungen",
+         "cached_url": "/anwendungen/gesundheitseinrichtungen",
+         "fieldtype": "multilink"
+        },
+        "children": [
+         {
+          "_uid": "fc4f253b-056d-4ea7-afb0-721fb706e6ed",
+          "component": "nav_item",
+          "node_key": "an.pflege",
+          "node_type": "page",
+          "show_in_public_nav": true,
+          "page_key": "anwendungen.pflege",
+          "label": "Pflege und Betreutes Wohnen",
+          "label__i18n__en": "Care and assisted living",
+          "label__i18n__pl": "Opieka i mieszkalnictwo wspomagane",
+          "label__i18n__cs": "Péče a asistované bydlení",
+          "label__i18n__nl": "Zorg en begeleid wonen",
+          "link": {
+           "linktype": "url",
+           "url": "/anwendungen/pflege",
+           "cached_url": "/anwendungen/pflege",
+           "fieldtype": "multilink"
+          }
+         },
+         {
+          "_uid": "51a52601-6e7b-4782-8784-c4ee9d652d9e",
+          "component": "nav_item",
+          "node_key": "an.gesundheit.klinik",
+          "node_type": "page",
+          "show_in_public_nav": true,
+          "page_key": "anwendungen.klinik",
+          "label": "Klinik",
+          "label__i18n__en": "Hospital",
+          "label__i18n__pl": "Klinika",
+          "label__i18n__nl": "Kliniek",
+          "label__i18n__cs": "Klinika",
+          "hidden": true
+         },
+         {
+          "_uid": "9982a5c1-ec8b-440e-a699-ec1e1478418a",
+          "component": "nav_item",
+          "node_key": "an.gesundheit.arztpraxen",
+          "node_type": "action",
+          "show_in_public_nav": false,
+          "page_key": "",
+          "label": "Arztpraxen und Ärztehäuser",
+          "label__i18n__en": "Medical practices and medical centres",
+          "label__i18n__pl": "Gabinety lekarskie i centra medyczne",
+          "label__i18n__nl": "Artsenpraktijken en medische centra",
+          "label__i18n__cs": "Lékařské ordinace a lékařské domy",
+          "link": {
+           "linktype": "url",
+           "url": "/anwendungen/interne-kommunikation",
+           "cached_url": "/anwendungen/interne-kommunikation",
+           "fieldtype": "multilink"
+          }
+         }
+        ]
+       },
+       {
+        "_uid": "ab55d914-4b8c-4e6c-bf48-8cb905e24630",
+        "component": "nav_item",
+        "node_key": "an.oeffentlich",
+        "node_type": "page",
+        "show_in_public_nav": true,
+        "page_key": "anwendungen.oeffentliche-hand",
+        "label": "TCS in Einrichtungen der öffentlichen Hand",
+        "label__i18n__en": "TCS in public buildings",
+        "label__i18n__pl": "TCS w instytucjach publicznych",
+        "label__i18n__nl": "TCS in overheidsinstellingen",
+        "label__i18n__cs": "TCS ve zařízeních veřejné správy",
+        "description": "Lösungen für Behörden und öffentliche Gebäude",
+        "description__i18n__en": "Solutions for authorities and public buildings",
+        "description__i18n__pl": "Rozwiązania dla urzędów i budynków użyteczności publicznej",
+        "description__i18n__nl": "Oplossingen voor overheden en openbare gebouwen",
+        "description__i18n__cs": "Řešení pro úřady a veřejné budovy",
+        "link": {
+         "linktype": "url",
+         "url": "/anwendungen/oeffentliche-hand",
+         "cached_url": "/anwendungen/oeffentliche-hand",
+         "fieldtype": "multilink"
+        },
+        "children": [
+         {
+          "_uid": "0192ff54-5a1b-4457-9a9b-c4eff597d045",
+          "component": "nav_item",
+          "node_key": "an.oeffentlich.behoerde",
+          "node_type": "page",
+          "show_in_public_nav": true,
+          "page_key": "anwendungen.behoerde",
+          "label": "Behörden und Ämter",
+          "label__i18n__en": "Public authorities",
+          "label__i18n__pl": "Urzędy i instytucje publiczne",
+          "label__i18n__nl": "Overheden en instanties",
+          "label__i18n__cs": "Úřady a instituce"
+         },
+         {
+          "_uid": "37dcff46-0e68-431b-8289-e1d81665859f",
+          "component": "nav_item",
+          "node_key": "an.oeffentlich.feuerwehr",
+          "node_type": "page",
+          "show_in_public_nav": true,
+          "page_key": "anwendungen.feuerwehr",
+          "label": "Feuerwachen",
+          "label__i18n__en": "Fire stations",
+          "label__i18n__pl": "Strażnice pożarne",
+          "label__i18n__nl": "Brandweerkazernes",
+          "label__i18n__cs": "Hasičské stanice"
+         },
+         {
+          "_uid": "2384c4b6-cabc-4e85-9128-85738195a98d",
+          "component": "nav_item",
+          "node_key": "an.gesundheit.schwimmbad",
+          "node_type": "page",
+          "show_in_public_nav": true,
+          "page_key": "anwendungen.schwimmbad",
+          "label": "Schwimm- und Freibäder",
+          "label__i18n__en": "Swimming pools",
+          "label__i18n__pl": "Pływalnie i baseny odkryte",
+          "label__i18n__cs": "Bazény a koupaliště",
+          "label__i18n__nl": "Zwem- en openluchtbaden"
+         }
+        ]
+       },
+       {
+        "_uid": "a3e2648b-9659-4243-9b9e-e9a0b5319912",
+        "component": "nav_item",
+        "node_key": "an.objektloesungen",
+        "node_type": "page",
+        "show_in_public_nav": false,
+        "page_key": "anwendungen.objektloesungen",
+        "label": "TCS im Gewerbe- und Zweckbau",
+        "label__i18n__en": "Commercial & Property Solutions",
+        "label__i18n__pl": "TCS w obiektach komercyjnych i użyteczności publicznej",
+        "label__i18n__nl": "TCS in commerciële en utiliteitsbouw",
+        "label__i18n__cs": "TCS v komerčních a účelových stavbách",
+        "link": {
+         "linktype": "url",
+         "url": "/anwendungen/objektloesungen",
+         "cached_url": "/anwendungen/objektloesungen",
+         "fieldtype": "multilink"
+        },
+        "hidden": true
+       },
+       {
+        "_uid": "c1942363-aac6-4a37-b76d-575550b0eac6",
+        "component": "nav_item",
+        "node_key": "an.referenzen",
+        "node_type": "page",
+        "show_in_public_nav": true,
+        "page_key": "anwendungen.referenzprojekte",
+        "label": "Referenzprojekte",
+        "label__i18n__en": "Reference projects",
+        "label__i18n__pl": "Projekty referencyjne",
+        "label__i18n__cs": "Referenční projekty",
+        "label__i18n__nl": "Referentieprojecten",
+        "description": "Inspiration & Fallstudien",
+        "description__i18n__en": "Inspiration & case studies",
+        "description__i18n__pl": "Inspiracje & studia przypadków",
+        "description__i18n__cs": "Inspirace & případové studie",
+        "description__i18n__nl": "Inspiratie & casestudies",
+        "link": {
+         "linktype": "url",
+         "url": "/anwendungen/referenzprojekte",
+         "cached_url": "/anwendungen/referenzprojekte",
+         "fieldtype": "multilink"
+        },
+        "children": [
+         {
+          "_uid": "b3f247d1-b756-4d06-b2a7-fdb477783a20",
+          "component": "nav_item",
+          "node_key": "an.ref.pulse-berlin",
+          "node_type": "page",
+          "show_in_public_nav": false,
+          "page_key": "anwendungen.referenzprojekte.pulse-berlin",
+          "label": "Pulse Berlin",
+          "label__i18n__en": "Pulse Berlin",
+          "label__i18n__pl": "Pulse Berlin",
+          "label__i18n__nl": "Pulse Berlin",
+          "label__i18n__cs": "Pulse Berlin",
+          "link": {
+           "linktype": "url",
+           "url": "/anwendungen/referenzprojekte/pulse-berlin",
+           "cached_url": "/anwendungen/referenzprojekte/pulse-berlin",
+           "fieldtype": "multilink"
+          },
+          "hidden": true
+         },
+         {
+          "_uid": "869c0e3a-4cf6-45a2-a488-7423f1d9a1ef",
+          "component": "nav_item",
+          "node_key": "an.ref.weidt-park-corner",
+          "node_type": "page",
+          "show_in_public_nav": false,
+          "page_key": "anwendungen.referenzprojekte.weidt-park-corner",
+          "label": "Weidt Park Corner",
+          "label__i18n__en": "Weidt Park Corner",
+          "label__i18n__pl": "Weidt Park Corner",
+          "label__i18n__cs": "Weidt Park Corner",
+          "label__i18n__nl": "Weidt Park Corner",
+          "link": {
+           "linktype": "url",
+           "url": "/anwendungen/referenzprojekte/weidt-park-corner",
+           "cached_url": "/anwendungen/referenzprojekte/weidt-park-corner",
+           "fieldtype": "multilink"
+          },
+          "hidden": true
+         },
+         {
+          "_uid": "8c8e474a-855e-4868-a87b-808ee853270f",
+          "component": "nav_item",
+          "node_key": "an.ref.fritztower",
+          "node_type": "page",
+          "show_in_public_nav": false,
+          "page_key": "anwendungen.referenzprojekte.fritztower",
+          "label": "Fritztower",
+          "label__i18n__en": "Fritztower",
+          "label__i18n__pl": "Fritztower",
+          "label__i18n__cs": "Fritztower",
+          "label__i18n__nl": "Fritztower",
+          "link": {
+           "linktype": "url",
+           "url": "/anwendungen/referenzprojekte/fritztower",
+           "cached_url": "/anwendungen/referenzprojekte/fritztower",
+           "fieldtype": "multilink"
+          },
+          "hidden": true
+         },
+         {
+          "_uid": "51a73435-7c34-4fad-97a0-06543b574264",
+          "component": "nav_item",
+          "node_key": "an.ref.haupttelegraphenamt",
+          "node_type": "page",
+          "show_in_public_nav": false,
+          "page_key": "anwendungen.referenzprojekte.haupttelegraphenamt",
+          "label": "Haupttelegraphenamt",
+          "label__i18n__en": "Haupttelegraphenamt",
+          "label__i18n__pl": "Główny Urząd Telegraficzny",
+          "label__i18n__cs": "Hlavní telegrafní úřad",
+          "label__i18n__nl": "Hoofdtelegraafkantoor",
+          "link": {
+           "linktype": "url",
+           "url": "/anwendungen/referenzprojekte/haupttelegraphenamt",
+           "cached_url": "/anwendungen/referenzprojekte/haupttelegraphenamt",
+           "fieldtype": "multilink"
+          },
+          "hidden": true
+         },
+         {
+          "_uid": "68c1cd1d-7f63-4d77-8d99-afd5fb7ebf61",
+          "component": "nav_item",
+          "node_key": "an.ref.spichern-2",
+          "node_type": "page",
+          "show_in_public_nav": false,
+          "page_key": "anwendungen.referenzprojekte.spichern-2",
+          "label": "Spichern 2",
+          "label__i18n__en": "Spichern 2",
+          "label__i18n__pl": "Spichern 2",
+          "label__i18n__cs": "Spichern 2",
+          "label__i18n__nl": "Spichern 2",
+          "link": {
+           "linktype": "url",
+           "url": "/anwendungen/referenzprojekte/spichern-2",
+           "cached_url": "/anwendungen/referenzprojekte/spichern-2",
+           "fieldtype": "multilink"
+          },
+          "hidden": true
+         },
+         {
+          "_uid": "60073c47-6562-4c1f-b7ed-70ab70123443",
+          "component": "nav_item",
+          "node_key": "an.ref.biocity",
+          "node_type": "page",
+          "show_in_public_nav": false,
+          "page_key": "anwendungen.referenzprojekte.thulestrasse",
+          "label": "Biocity",
+          "label__i18n__en": "Biocity",
+          "label__i18n__pl": "Biocity",
+          "label__i18n__nl": "Biocity",
+          "label__i18n__cs": "Biocity",
+          "description": "biocity",
+          "description__i18n__en": "biocity",
+          "description__i18n__pl": "biocity",
+          "description__i18n__nl": "biocity",
+          "description__i18n__cs": "biocity",
+          "link": {
+           "linktype": "url",
+           "url": "/anwendungen/referenzprojekte/thulestrasse",
+           "cached_url": "/anwendungen/referenzprojekte/thulestrasse",
+           "fieldtype": "multilink"
+          },
+          "hidden": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "_uid": "5e605546-7f0f-4257-b4d6-be7191664b6b",
+      "component": "nav_item",
+      "node_key": "services",
+      "node_type": "page",
+      "show_in_public_nav": true,
+      "page_key": "service.hub",
+      "label": "Services",
+      "label__i18n__en": "Services",
+      "label__i18n__pl": "Usługi",
+      "label__i18n__nl": "Diensten",
+      "label__i18n__cs": "Služby",
+      "link": {
+       "linktype": "url",
+       "url": "/service",
+       "cached_url": "/service",
+       "fieldtype": "multilink"
+      },
+      "children": [
+       {
+        "_uid": "658675cd-7331-4d01-a115-ebe81ca7244c",
+        "component": "nav_item",
+        "node_key": "sv.installation-wartung",
+        "node_type": "page",
+        "show_in_public_nav": false,
+        "page_key": "service.installation-wartung",
+        "label": "Installation & Wartung",
+        "label__i18n__en": "Installation & Maintenance",
+        "label__i18n__pl": "Instalacja & konserwacja",
+        "label__i18n__cs": "Instalace & údržba",
+        "label__i18n__nl": "Installatie & Onderhoud",
+        "description": "Inbetriebnahme, Wartung und Servicepakete.",
+        "description__i18n__en": "Commissioning, maintenance and service packages.",
+        "description__i18n__pl": "Uruchomienie, konserwacja i pakiety serwisowe.",
+        "description__i18n__cs": "Uvedení do provozu, údržba a servisní balíčky.",
+        "description__i18n__nl": "Inbedrijfstelling, onderhoud en servicepakketten.",
+        "link": {
+         "linktype": "url",
+         "url": "/service/installation-wartung",
+         "cached_url": "/service/installation-wartung",
+         "fieldtype": "multilink"
+        },
+        "hidden": true
+       },
+       {
+        "_uid": "7f85bd53-618f-4fb4-ac84-9c3b410cd764",
+        "component": "nav_item",
+        "node_key": "sv.planen",
+        "node_type": "page",
+        "show_in_public_nav": false,
+        "page_key": "service.planen-konfigurieren",
+        "label": "Planen & Konfigurieren",
+        "label__i18n__en": "Plan & Configure",
+        "label__i18n__pl": "Planowanie i konfiguracja",
+        "label__i18n__cs": "Plánování a konfigurace",
+        "label__i18n__nl": "Plannen & Configureren",
+        "description": "TCS-Anlagenkonfigurator und Ausschreibungstexte",
+        "description__i18n__en": "TCS system configurator and tender texts",
+        "description__i18n__pl": "Konfigurator systemów TCS i teksty przetargowe",
+        "description__i18n__cs": "TCS konfigurátor systémů a texty pro výběrová řízení",
+        "description__i18n__nl": "TCS-systeemconfigurator en bestekteksten",
+        "link": {
+         "linktype": "url",
+         "url": "/planen-konfigurieren",
+         "cached_url": "/planen-konfigurieren",
+         "fieldtype": "multilink"
+        },
+        "hidden": true
+       },
+       {
+        "_uid": "2a3eced8-e63c-4ccf-a8e1-a25f711795a8",
+        "component": "nav_item",
+        "node_key": "sv.konfiguratoren",
+        "node_type": "page",
+        "show_in_public_nav": false,
+        "page_key": "service.konfiguratoren",
+        "label": "Konfiguratoren",
+        "label__i18n__en": "Configurators",
+        "label__i18n__pl": "Konfiguratory",
+        "label__i18n__nl": "Configuratoren",
+        "label__i18n__cs": "Konfigurátory",
+        "description": "TCS-Anlagenkonfigurator und weitere Konfigurations-Tools",
+        "description__i18n__en": "TCS system configurator and other configuration tools",
+        "description__i18n__pl": "Konfigurator systemów TCS i inne narzędzia konfiguracyjne",
+        "description__i18n__nl": "TCS-systeemconfigurator en andere configuratietools",
+        "description__i18n__cs": "TCS konfigurátor systémů a další konfigurační nástroje",
+        "link": {
+         "linktype": "url",
+         "url": "/service/konfiguratoren",
+         "cached_url": "/service/konfiguratoren",
+         "fieldtype": "multilink"
+        },
+        "hidden": true
+       },
+       {
+        "_uid": "71804add-c164-43ba-854f-d70b86ba88cf",
+        "component": "nav_item",
+        "node_key": "sv.beratung-schulung",
+        "node_type": "page",
+        "show_in_public_nav": false,
+        "page_key": "service.beratung-schulung",
+        "label": "Beratung & Schulung",
+        "label__i18n__en": "Consulting & Training",
+        "label__i18n__pl": "Doradztwo i szkolenia",
+        "label__i18n__nl": "Advies & Training",
+        "label__i18n__cs": "Poradenství & školení",
+        "description": "Projektberatung, Schulungen und Wissensvermittlung.",
+        "description__i18n__en": "Project consulting, training and knowledge transfer.",
+        "description__i18n__pl": "Doradztwo projektowe, szkolenia i transfer wiedzy.",
+        "description__i18n__nl": "Projectadvies, trainingen en kennisoverdracht.",
+        "description__i18n__cs": "Projektové poradenství, školení a předávání znalostí.",
+        "link": {
+         "linktype": "url",
+         "url": "/service/beratung-schulung",
+         "cached_url": "/service/beratung-schulung",
+         "fieldtype": "multilink"
+        },
+        "hidden": true
+       },
+       {
+        "_uid": "7ba47d26-2dd3-4971-8977-ade0069653e7",
+        "component": "nav_item",
+        "node_key": "sv.downloads",
+        "node_type": "page",
+        "show_in_public_nav": false,
+        "page_key": "service.downloads",
+        "label": "Downloads",
+        "label__i18n__en": "Downloads",
+        "label__i18n__pl": "Do pobrania",
+        "label__i18n__nl": "Downloads",
+        "label__i18n__cs": "Ke stažení",
+        "description": "Ausschreibungstexte, Datenblätter, Kataloge, Firmware",
+        "description__i18n__en": "Tender texts, datasheets, catalogs, firmware",
+        "description__i18n__pl": "Teksty przetargowe, karty danych, katalogi, firmware",
+        "description__i18n__nl": "Bestekteksten, databladen, catalogi, firmware",
+        "description__i18n__cs": "Texty pro výběrová řízení, datové listy, katalogy, firmware",
+        "link": {
+         "linktype": "url",
+         "url": "/downloads",
+         "cached_url": "/downloads",
+         "fieldtype": "multilink"
+        },
+        "hidden": true
+       },
+       {
+        "_uid": "59ef7139-06f3-469e-84af-9631e671da7f",
+        "component": "nav_item",
+        "node_key": "sv.datenblaetter-software",
+        "node_type": "page",
+        "show_in_public_nav": false,
+        "page_key": "service.datenblaetter-software",
+        "label": "Datenblätter & Software",
+        "label__i18n__en": "Datasheets & Software",
+        "label__i18n__pl": "Karty katalogowe i oprogramowanie",
+        "label__i18n__cs": "Datové listy & software",
+        "label__i18n__nl": "Datasheets & software",
+        "description": "Datenblätter, Ausschreibungstexte, Firmware und Software",
+        "description__i18n__en": "Datasheets, tender texts, firmware and software",
+        "description__i18n__pl": "Karty katalogowe, teksty przetargowe, firmware i oprogramowanie",
+        "description__i18n__cs": "Datové listy, texty pro výběrová řízení, firmware a software",
+        "description__i18n__nl": "Datasheets, bestekteksten, firmware en software",
+        "link": {
+         "linktype": "url",
+         "url": "/service/datenblaetter-software",
+         "cached_url": "/service/datenblaetter-software",
+         "fieldtype": "multilink"
+        },
+        "hidden": true
+       },
+       {
+        "_uid": "60e13d3d-cf11-48c7-8f43-a5abb330dc3e",
+        "component": "nav_item",
+        "node_key": "sv.garantie-sicherheit",
+        "node_type": "page",
+        "show_in_public_nav": false,
+        "page_key": "service.garantie-sicherheit",
+        "label": "Garantie & Sicherheit",
+        "label__i18n__en": "Warranty & Safety",
+        "label__i18n__pl": "Gwarancja i bezpieczeństwo",
+        "label__i18n__cs": "Záruka & bezpečnost",
+        "label__i18n__nl": "Garantie & Veiligheid",
+        "description": "Garantieleistungen, Sicherheitsstandards und Zertifikate.",
+        "description__i18n__en": "Warranty services, safety standards and certificates.",
+        "description__i18n__pl": "Usługi gwarancyjne, standardy bezpieczeństwa i certyfikaty.",
+        "description__i18n__cs": "Záruční plnění, bezpečnostní standardy a certifikáty.",
+        "description__i18n__nl": "Garantiediensten, veiligheidsstandaarden en certificaten.",
+        "link": {
+         "linktype": "url",
+         "url": "/service/garantie-sicherheit",
+         "cached_url": "/service/garantie-sicherheit",
+         "fieldtype": "multilink"
+        },
+        "hidden": true
+       },
+       {
+        "_uid": "7cf2ef14-0a64-47e4-b35e-3a0fbb6e1a89",
+        "component": "nav_item",
+        "node_key": "sv.support",
+        "node_type": "page",
+        "show_in_public_nav": false,
+        "page_key": "service.technischer-support",
+        "label": "Technischer Support",
+        "label__i18n__en": "Technical Support",
+        "label__i18n__pl": "Wsparcie techniczne",
+        "label__i18n__nl": "Technische ondersteuning",
+        "label__i18n__cs": "Technická podpora",
+        "description": "Schaltplan-Datenbank tcsplan.de, Hotline",
+        "description__i18n__en": "Wiring diagram database tcsplan.de, hotline",
+        "description__i18n__pl": "Baza schematów tcsplan.de, infolinia",
+        "description__i18n__nl": "Aansluitschemadatabase tcsplan.de, Hotline",
+        "description__i18n__cs": "Databáze schémat zapojení tcsplan.de, hotline",
+        "link": {
+         "linktype": "url",
+         "url": "/technischer-support",
+         "cached_url": "/technischer-support",
+         "fieldtype": "multilink"
+        },
+        "hidden": true
+       },
+       {
+        "_uid": "a69d5258-5d4b-4342-8c47-152707d7190e",
+        "component": "nav_item",
+        "node_key": "sv.planungshilfen",
+        "node_type": "page",
+        "show_in_public_nav": false,
+        "page_key": "service.planungshilfen",
+        "label": "Planungshilfen",
+        "label__i18n__en": "Planning Aids",
+        "label__i18n__pl": "Pomoce projektowe",
+        "label__i18n__nl": "Planningshulpmiddelen",
+        "label__i18n__cs": "Plánovací pomůcky",
+        "description": "Ausschreibungstexte, Schaltpläne und Planungsvorlagen.",
+        "description__i18n__en": "Tender texts, wiring diagrams and planning templates.",
+        "description__i18n__pl": "Teksty przetargowe, schematy połączeń i szablony projektowe.",
+        "description__i18n__nl": "Bestekteksten, schakelschema's en planningssjablonen.",
+        "description__i18n__cs": "Texty pro výběrová řízení, schémata zapojení a šablony pro plánování.",
+        "link": {
+         "linktype": "url",
+         "url": "/service/planungshilfen",
+         "cached_url": "/service/planungshilfen",
+         "fieldtype": "multilink"
+        },
+        "hidden": true
+       },
+       {
+        "_uid": "40117dca-6487-4014-a390-5a9355d1655d",
+        "component": "nav_item",
+        "node_key": "sv.akademie",
+        "node_type": "external_link",
+        "show_in_public_nav": false,
+        "page_key": "",
+        "label": "TCS Akademie",
+        "label__i18n__en": "TCS Academy",
+        "label__i18n__pl": "Akademia TCS",
+        "label__i18n__cs": "Akademie TCS",
+        "label__i18n__nl": "TCS Academie",
+        "description": "Schulungen & Webinare",
+        "description__i18n__en": "Trainings & webinars",
+        "description__i18n__pl": "Szkolenia i webinaria",
+        "description__i18n__cs": "Školení a webináře",
+        "description__i18n__nl": "Trainingen & webinars",
+        "link": {
+         "linktype": "url",
+         "url": "/akademie",
+         "cached_url": "/akademie",
+         "fieldtype": "multilink"
+        },
+        "hidden": true
+       },
+       {
+        "_uid": "8c28670e-7774-40db-9113-ea77b0577d73",
+        "component": "nav_item",
+        "node_key": "sv.ersatzteile",
+        "node_type": "page",
+        "show_in_public_nav": false,
+        "page_key": "service.ersatzteile",
+        "label": "Ersatzteile, Beschriftung und Freischaltcodes",
+        "label__i18n__en": "Spare parts, labeling and activation codes",
+        "label__i18n__pl": "Części zamienne, etykiety i kody aktywacyjne",
+        "label__i18n__cs": "Náhradní díly, popisky a aktivační kódy",
+        "label__i18n__nl": "Reserveonderdelen, belettering en activeringscodes",
+        "description": "Ersatzteile, Beschriftungen und Freischaltcodes online bestellen",
+        "description__i18n__en": "Order spare parts, labeling and activation codes online",
+        "description__i18n__pl": "Zamów części zamienne, etykiety i kody aktywacyjne online",
+        "description__i18n__cs": "Objednat náhradní díly, popisky a aktivační kódy online",
+        "description__i18n__nl": "Reserveonderdelen, belettering en activeringscodes online bestellen",
+        "link": {
+         "linktype": "url",
+         "url": "/ersatzteile",
+         "cached_url": "/ersatzteile",
+         "fieldtype": "multilink"
+        },
+        "hidden": true
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "_uid": "fa7b18b5-f3dc-4b69-94ff-e4a26c19d447",
+    "component": "nav_area",
+    "area": "meta",
+    "items": [
+     {
+      "_uid": "27d55872-90f7-469d-948e-81e8ad29a468",
+      "component": "nav_item",
+      "node_key": "meta.serviceportal",
+      "node_type": "page",
+      "show_in_public_nav": false,
+      "page_key": "serviceportal.login",
+      "label": "Serviceportal",
+      "label__i18n__en": "Service portal",
+      "label__i18n__pl": "Portal serwisowy",
+      "label__i18n__cs": "Servisní portál",
+      "label__i18n__nl": "Serviceportal",
+      "link": {
+       "linktype": "url",
+       "url": "/serviceportal",
+       "cached_url": "/serviceportal",
+       "fieldtype": "multilink"
+      },
+      "hidden": true,
+      "children": [
+       {
+        "_uid": "79059213-8eb8-456e-8933-0dc62592bd7f",
+        "component": "nav_item",
+        "node_key": "meta.serviceportal.registrieren",
+        "node_type": "page",
+        "show_in_public_nav": true,
+        "page_key": "serviceportal.registrieren",
+        "label": "Registrieren",
+        "label__i18n__en": "Register",
+        "label__i18n__pl": "Zarejestruj się",
+        "label__i18n__cs": "Zaregistrovat se",
+        "label__i18n__nl": "Registreren",
+        "hidden": true
+       },
+       {
+        "_uid": "71e77aa4-6cbb-4f58-b943-582cced033e4",
+        "component": "nav_item",
+        "node_key": "meta.serviceportal.passwort-vergessen",
+        "node_type": "page",
+        "show_in_public_nav": true,
+        "page_key": "serviceportal.passwort-vergessen",
+        "label": "Passwort vergessen",
+        "label__i18n__en": "Forgot password",
+        "label__i18n__pl": "Nie pamiętasz hasła?",
+        "label__i18n__cs": "Zapomenuté heslo",
+        "label__i18n__nl": "Wachtwoord vergeten",
+        "hidden": true
+       }
+      ]
+     },
+     {
+      "_uid": "23f57934-b8f1-4c84-981d-7d3d681a2aa0",
+      "component": "nav_item",
+      "node_key": "meta.kontakt",
+      "node_type": "page",
+      "show_in_public_nav": true,
+      "page_key": "kontakt.root",
+      "label": "Kontakt",
+      "label__i18n__en": "Contact",
+      "label__i18n__pl": "Kontakt",
+      "label__i18n__nl": "Contact",
+      "label__i18n__cs": "Kontakt",
+      "link": {
+       "linktype": "url",
+       "url": "/kontakt",
+       "cached_url": "/kontakt",
+       "fieldtype": "multilink"
+      },
+      "children": [
+       {
+        "_uid": "59bab575-c722-4b31-9a9f-20cd7725262b",
+        "component": "nav_item",
+        "node_key": "meta.kontakt-bcm",
+        "node_type": "page",
+        "show_in_public_nav": true,
+        "page_key": "kontakt-bcm.root",
+        "label": "Kontakt BCM",
+        "label__i18n__en": "Contact BCM",
+        "label__i18n__pl": "Kontakt BCM",
+        "label__i18n__cs": "Kontakt BCM",
+        "label__i18n__nl": "Contact BCM",
+        "hidden": true
+       }
+      ]
+     },
+     {
+      "_uid": "72b4bb6f-f6e9-4b55-9541-3a389b4cf80a",
+      "component": "nav_item",
+      "node_key": "meta.karriere",
+      "node_type": "page",
+      "show_in_public_nav": true,
+      "page_key": "karriere.root",
+      "label": "Karriere",
+      "label__i18n__en": "Careers",
+      "label__i18n__pl": "Kariera",
+      "label__i18n__nl": "Carrière",
+      "label__i18n__cs": "Kariéra",
+      "link": {
+       "linktype": "url",
+       "url": "/karriere",
+       "cached_url": "/karriere",
+       "fieldtype": "multilink"
+      }
+     },
+     {
+      "_uid": "730e76e6-9862-4b88-a371-26184ae4bfcb",
+      "component": "nav_item",
+      "node_key": "meta.presse",
+      "node_type": "page",
+      "show_in_public_nav": false,
+      "page_key": "presse.root",
+      "label": "News",
+      "label__i18n__en": "News",
+      "label__i18n__pl": "Aktualności",
+      "label__i18n__nl": "Nieuws",
+      "label__i18n__cs": "Novinky",
+      "link": {
+       "linktype": "url",
+       "url": "/presse",
+       "cached_url": "/presse",
+       "fieldtype": "multilink"
+      },
+      "hidden": true
+     },
+     {
+      "_uid": "d3c16f04-e3d6-4de7-b22c-9a272386fff5",
+      "component": "nav_item",
+      "node_key": "meta.online-produktkatalog",
+      "node_type": "page",
+      "show_in_public_nav": false,
+      "page_key": "service.online-produktkatalog",
+      "label": "Online-Produktkatalog",
+      "label__i18n__en": "Online product catalogue",
+      "label__i18n__pl": "Katalog produktów online",
+      "label__i18n__cs": "Online produktový katalog",
+      "label__i18n__nl": "Online productcatalogus",
+      "link": {
+       "linktype": "url",
+       "url": "/service/online-produktkatalog",
+       "cached_url": "/service/online-produktkatalog",
+       "fieldtype": "multilink"
+      },
+      "hidden": true
+     },
+     {
+      "_uid": "9a43f56c-3644-40b7-9496-f5be4907eabc",
+      "component": "nav_item",
+      "node_key": "meta.akademie",
+      "node_type": "page",
+      "show_in_public_nav": true,
+      "page_key": "wissen.akademie",
+      "label": "Akademie",
+      "label__i18n__en": "Academy",
+      "label__i18n__pl": "Akademia",
+      "label__i18n__cs": "Akademie",
+      "label__i18n__nl": "Academie",
+      "link": {
+       "linktype": "url",
+       "url": "/akademie",
+       "cached_url": "/akademie",
+       "fieldtype": "multilink"
+      }
+     }
+    ]
+   },
+   {
+    "_uid": "7bc7dca6-c0f6-4b3a-ac5e-edf5f8111963",
+    "component": "nav_area",
+    "area": "persona",
+    "items": [
+     {
+      "_uid": "a9a292c7-0e14-4f7f-9049-70d4e58e6111",
+      "component": "nav_item",
+      "node_key": "persona.bauherren",
+      "node_type": "group",
+      "show_in_public_nav": false,
+      "page_key": "personas.bauherr",
+      "label": "Bauherren",
+      "label__i18n__en": "Builders",
+      "label__i18n__pl": "Inwestorzy",
+      "label__i18n__cs": "Stavebníci",
+      "label__i18n__nl": "Opdrachtgevers",
+      "hidden": true
+     },
+     {
+      "_uid": "d72ccfdd-5217-4345-90d1-67a97dc048d3",
+      "component": "nav_item",
+      "node_key": "persona.architekten",
+      "node_type": "group",
+      "show_in_public_nav": false,
+      "page_key": "personas.architekt",
+      "label": "Architekten",
+      "label__i18n__en": "Architects",
+      "label__i18n__pl": "Architekci",
+      "label__i18n__cs": "Architekti",
+      "label__i18n__nl": "Architecten",
+      "hidden": true
+     },
+     {
+      "_uid": "75ea4a4e-d322-46b4-831f-cee62a31b832",
+      "component": "nav_item",
+      "node_key": "persona.wohnungswirtschaft",
+      "node_type": "group",
+      "show_in_public_nav": true,
+      "page_key": "personas.wohnungswirtschaft",
+      "label": "Wohnungswirtschaft",
+      "label__i18n__en": "Housing",
+      "label__i18n__pl": "Sektor mieszkaniowy",
+      "label__i18n__cs": "Bytové hospodářství",
+      "label__i18n__nl": "Woningsector"
+     },
+     {
+      "_uid": "44434d67-7cc5-4a2e-8d2e-5d9ff0bdf1d3",
+      "component": "nav_item",
+      "node_key": "persona.fachplaner",
+      "node_type": "group",
+      "show_in_public_nav": false,
+      "page_key": "personas.fachplaner",
+      "label": "Fachplaner",
+      "label__i18n__en": "Planners",
+      "label__i18n__pl": "Projektant",
+      "label__i18n__nl": "Gespecialiseerd planner",
+      "label__i18n__cs": "Odborný projektant",
+      "hidden": true
+     },
+     {
+      "_uid": "e2f86570-ac61-4133-a3a7-e0a62ca4c4ad",
+      "component": "nav_item",
+      "node_key": "persona.handwerk",
+      "node_type": "group",
+      "show_in_public_nav": true,
+      "page_key": "personas.handwerk",
+      "label": "Handwerk",
+      "label__i18n__en": "Trade",
+      "label__i18n__pl": "Rzemiosło",
+      "label__i18n__cs": "Řemeslo",
+      "label__i18n__nl": "Installateurs"
+     },
+     {
+      "_uid": "ea967bdb-078d-4ee9-a16c-9450b3779bb4",
+      "component": "nav_item",
+      "node_key": "persona.fachhandel",
+      "node_type": "group",
+      "show_in_public_nav": false,
+      "page_key": "personas.fachhandel",
+      "label": "Fachhandel",
+      "label__i18n__en": "Retail",
+      "label__i18n__pl": "Handel specjalistyczny",
+      "label__i18n__cs": "Odborný obchod",
+      "label__i18n__nl": "Vakhandel",
+      "hidden": true
+     }
+    ]
+   }
+  ]
+ }
+}

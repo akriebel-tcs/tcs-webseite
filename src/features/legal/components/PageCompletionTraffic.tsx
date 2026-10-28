@@ -8,6 +8,7 @@
  */
 import { createContext, useCallback, useContext, useEffect, useState } from "react";
 import { getCmsSupabaseClient, isCmsSupabaseConfigured } from "@/lib/cmsSupabase/client";
+import { isStoryblokSource } from "@/lib/content/source";
 
 export type CompletionStatus = "none" | "red" | "yellow" | "green";
 
@@ -55,7 +56,7 @@ export const PageCompletionProvider = ({ children }: { children: React.ReactNode
   useEffect(() => {
     let alive = true;
     (async () => {
-      if (!isCmsSupabaseConfigured()) return;
+      if (isStoryblokSource() || !isCmsSupabaseConfigured()) return; // Ampel gibt es nur im CMS-Light
       try {
         const sb = getCmsSupabaseClient();
         const { data } = await (sb as unknown as {

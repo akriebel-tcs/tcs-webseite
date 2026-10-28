@@ -33,6 +33,7 @@ import { RichV1 } from "./sections/RichV1";
 import { FaqV1 } from "./sections/FaqV1";
 import { Teaser2ColV1 } from "./sections/Teaser2ColV1";
 import { TabsV1 } from "./sections/TabsV1";
+import { editableAttributes } from "@/lib/storyblok/bridge";
 import { sectionAnchorId, sectionAnchorAlias } from "@/features/cms/lib/sectionAnchor";
 import type { AppLocale } from "@/i18n/locale";
 import { SECTION_BG_MUTED_CLASS, SELF_PAINTED_SECTION_TYPES, isMutedSectionBg, readSectionBg } from "@/features/cms/lib/sectionBackground";
@@ -160,6 +161,7 @@ export default function CmsBodyRenderer({ pageKey, cms, forceRender = false }: P
         id={anchor || undefined}
         data-cms-anchor={alias ?? anchor}
         className={wrapClass ? `${wrapClass} scroll-mt-24` : "scroll-mt-24"}
+        {...editableAttributes(sec.editable)}
       >
         {renderer({ pageKey, cms, locale, sectionKey: sec.section_key, children })}
       </div>,

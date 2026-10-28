@@ -15,9 +15,10 @@ function parseListField(raw: string | undefined, fallback: string[]): string[] {
     const parsed = JSON.parse(raw);
     if (Array.isArray(parsed) && parsed.length > 0) return parsed.map(String);
   } catch {
-    // raw ist kein JSON → ignoriere DB-Wert
+    // raw ist kein JSON → eine Zeile je Eintrag (Storyblok-Textarea)
   }
-  return fallback;
+  const lines = raw.split(/\r?\n/).map((l) => l.trim()).filter((l) => l.length > 0);
+  return lines.length > 0 ? lines : fallback;
 }
 
 const ReferenzprojektDetail = () => {

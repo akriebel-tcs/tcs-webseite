@@ -9,11 +9,35 @@
  */
 import { useEffect, useState } from "react";
 import { getCmsSupabaseClient } from "@/lib/cmsSupabase/client";
+import { isStoryblokSource } from "@/lib/content/source";
 import type { ShortIdMap } from "@/features/cms/lib/cardCanonical";
 
 let cachedPromise: Promise<ShortIdMap> | null = null;
 
+async function loadMapFromStoryblok(): Promise<ShortIdMap> {
+  const pages = new Map<number, string>();
+  const sections = new Map<number, { route: string; anchor?: string }>();
+  try {
+    const { readShortIdsFromStoryblok } = await import("@/lib/storyblok/uiStrings");
+    const entries = await readShortIdsFromStoryblok();
+    for (const [name, target] of entries) {
+      const m = /^([PB])-(\d+)$/.exec(name);
+      if (!m) continue;
+      if (m[1] === "P") {
+        pages.set(Number(m[2]), target);
+      } else {
+        const [route, anchor] = target.split("#");
+        sections.set(Number(m[2]), anchor ? { route, anchor } : { route });
+      }
+    }
+  } catch {
+    // Fail-soft: leere Map → Kurz-IDs werden als broken behandelt.
+  }
+  return { pages, sections };
+}
+
 async function loadMap(): Promise<ShortIdMap> {
+  if (isStoryblokSource()) return loadMapFromStoryblok();
   const supabase = getCmsSupabaseClient();
   const pages = new Map<number, string>();
   const sections = new Map<number, { route: string; anchor?: string }>();

@@ -2,6 +2,9 @@ import { readdirSync, readFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { beforeEach, describe, expect, it, vi } from "vitest";
 
+// Diese Tests pruefen den CMS-Light-Lesepfad (Supabase); Standardquelle ist sonst Storyblok.
+vi.stubEnv("VITE_CONTENT_SOURCE", "supabase");
+
 import {
   joinSegments,
   joinTranslatedSegments,

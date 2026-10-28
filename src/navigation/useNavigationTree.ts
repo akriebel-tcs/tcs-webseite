@@ -23,6 +23,33 @@ import {
   isCmsSupabaseConfigured,
 } from "@/lib/cmsSupabase/client";
 import { pickNavText } from "@/navigation/localizedNav";
+import { isStoryblokSource } from "@/lib/content/source";
+import type { NavNode } from "@/lib/storyblok/siteIndex";
+
+/** Storyblok-Knoten -> Zeilenformat der frueheren RPC. */
+export function navNodeToDbNode(n: NavNode): NavigationDbNode {
+  return {
+    id: n.id,
+    node_key: n.node_key,
+    parent_node_key: n.parent_node_key,
+    page_key: n.page_key,
+    label_de: n.labels.de ?? null,
+    label_en: n.labels.en ?? null,
+    label_pl: n.labels.pl ?? null,
+    description_de: n.descriptions.de ?? null,
+    description_en: n.descriptions.en ?? null,
+    description_pl: n.descriptions.pl ?? null,
+    labels: n.labels,
+    descriptions: n.descriptions,
+    route_path: n.route_path,
+    external_url: n.external_url,
+    node_type: n.node_type,
+    sort_order: n.sort_order,
+    is_active: n.is_active,
+    show_in_public_nav: n.show_in_public_nav,
+    children: [],
+  };
+}
 
 export interface NavigationDbNode {
   id: string;
@@ -87,6 +114,18 @@ export function useNavigationTree(navArea: string): State {
   useEffect(() => {
     let cancelled = false;
     (async () => {
+      if (isStoryblokSource()) {
+        try {
+          const { readNavigationArea } = await import("@/lib/storyblok/siteIndex");
+          const nodes = (await readNavigationArea(navArea)).filter((n) => n.show_in_public_nav);
+          if (cancelled) return;
+          setState({ tree: buildTree(nodes.map(navNodeToDbNode)), ready: true, error: null });
+        } catch (e) {
+          if (cancelled) return;
+          setState({ tree: EMPTY, ready: true, error: e instanceof Error ? e.message : "unknown" });
+        }
+        return;
+      }
       if (!isCmsSupabaseConfigured()) {
         setState({ tree: EMPTY, ready: true, error: "cms_not_configured" });
         return;

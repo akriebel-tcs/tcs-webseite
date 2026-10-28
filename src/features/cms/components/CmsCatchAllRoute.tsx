@@ -22,6 +22,7 @@ import { useLocation } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import CmsOnlyShell from "@/features/cms/components/CmsOnlyShell";
 import NotFoundPage from "@/app/pages/NotFoundPage";
+import { isStoryblokSource } from "@/lib/content/source";
 
 type Result =
   | { state: "loading" }
@@ -38,6 +39,17 @@ const CmsCatchAllRoute = () => {
     setResult({ state: "loading" });
 
     (async () => {
+      if (isStoryblokSource()) {
+        try {
+          const { findPageByRoute } = await import("@/lib/storyblok/siteIndex");
+          const page = await findPageByRoute(location.pathname);
+          if (cancelled) return;
+          setResult(page ? { state: "found", pageKey: page.page_key } : { state: "not_found" });
+        } catch {
+          if (!cancelled) setResult({ state: "not_found" });
+        }
+        return;
+      }
       try {
         const mod = await import("@/lib/cmsSupabase/client");
         if (!mod.isCmsSupabaseConfigured()) {

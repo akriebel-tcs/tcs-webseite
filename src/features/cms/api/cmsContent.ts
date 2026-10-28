@@ -1,4 +1,5 @@
 import type { AppLocale } from "@/i18n/locale";
+import { isStoryblokSource } from "@/lib/content/source";
 /**
  * CMS-Light read-only API.
  *
@@ -25,6 +26,19 @@ export async function fetchCmsPageFields(
   locale: CmsLocale,
 ): Promise<CmsFieldMap> {
   try {
+    if (isStoryblokSource()) {
+      const { loadPageRows } = await import("@/features/cms/hooks/useCmsPageContent");
+      const rows = await loadPageRows(pageKey);
+      const map: CmsFieldMap = {};
+      const ordered = [
+        ...rows.fields.filter((r) => r.locale === "de"),
+        ...rows.fields.filter((r) => r.locale === locale && locale !== "de"),
+      ];
+      for (const row of ordered) {
+        if (typeof row.value === "string" && row.value.length > 0) map[`${row.section_key}.${row.field_key}`] = row.value;
+      }
+      return map;
+    }
     const { getCmsSupabaseClient } = await import("@/lib/cmsSupabase/client");
     const supabase = getCmsSupabaseClient();
     // Zielsprache + Deutsch laden: Deutsch dient als Rückfallebene, damit

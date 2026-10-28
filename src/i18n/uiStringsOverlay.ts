@@ -15,6 +15,7 @@
 import type { i18n as I18nInstance } from "i18next";
 
 import { DEFAULT_APP_LOCALE, normalizeAppLocale } from "@/i18n/locale";
+import { isStoryblokSource } from "@/lib/content/source";
 
 type NestedRecord = { [key: string]: string | NestedRecord };
 
@@ -59,6 +60,10 @@ export function resetUiStringOverlayCache(): void {
 }
 
 async function readUiStrings(locale: string): Promise<Record<string, unknown>> {
+  if (isStoryblokSource()) {
+    const { readUiStringsFromStoryblok } = await import("@/lib/storyblok/uiStrings");
+    return readUiStringsFromStoryblok(locale);
+  }
   const { getCmsSupabaseClient } = await import("@/lib/cmsSupabase/client");
   const supabase = getCmsSupabaseClient();
   const { data, error } = await supabase.rpc("rpc_public_read_ui_strings", {

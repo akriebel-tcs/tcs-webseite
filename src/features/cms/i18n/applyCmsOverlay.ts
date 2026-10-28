@@ -17,6 +17,7 @@
 
 import type { i18n as I18nType } from "i18next";
 import { CMS_PAGE_I18N_REGISTRY } from "../registry/pageI18nRegistry";
+import { isStoryblokSource } from "@/lib/content/source";
 import type { AppLocale } from "@/i18n/locale";
 
 type CmsLocale = AppLocale;
@@ -71,6 +72,27 @@ function normalizeArrays(node: unknown): unknown {
 }
 
 async function fetchAllPublishedFields(locale: CmsLocale): Promise<FieldRow[]> {
+  if (isStoryblokSource()) {
+    // Storyblok: nur die Seiten der Registry laden (alle anderen Seiten lesen
+    // direkt ueber useCmsPageContent); Stories in einem Aufruf, zu Zeilen abgeflacht.
+    try {
+      const client = await import("@/lib/storyblok/client");
+      if (!client.isStoryblokConfigured()) return [];
+      const { flattenPageContent } = await import("@/lib/storyblok/flatten");
+      const stories = await client.fetchPagesByPageKeys(Object.keys(CMS_PAGE_I18N_REGISTRY));
+      const out: FieldRow[] = [];
+      for (const story of stories) {
+        const pageKey = String(story.content?.page_key ?? "");
+        for (const f of flattenPageContent(story.content).fields) {
+          if (f.locale !== locale || f.section_key === "__page__") continue;
+          out.push({ page_key: pageKey, section_key: f.section_key, field_key: f.field_key, locale: f.locale, value: f.value, review_status: null });
+        }
+      }
+      return out;
+    } catch {
+      return [];
+    }
+  }
   try {
     const { getCmsSupabaseClient } = await import("@/lib/cmsSupabase/client");
     const supabase = getCmsSupabaseClient();
