@@ -14,6 +14,7 @@ import AdminPage from "@/features/admin/pages/AdminPage";
 import AdminLoginPage from "@/features/admin/pages/AdminLoginPage";
 
 import CmsCatchAllRoute from "@/features/cms/components/CmsCatchAllRoute";
+import DiagnosePage from "@/features/diagnose/DiagnosePage";
 import { appRoutes } from "@/app/routes";
 
 import ScrollToTop from "@/components/ScrollToTop";
@@ -87,6 +88,7 @@ const AppLayout = () => {
         <main id="main-content" tabIndex={-1} className="flex-1 focus:outline-none">
           <Routes>
             {appRoutes}
+            <Route path="/diagnose" element={<DiagnosePage />} />
             {/* Catch-all: prüft cms_pages auf den aktuellen Pfad. Trifft
                 eine veröffentlichte+aktive Seite zu, wird sie aus der DB
                 gerendert. Andernfalls 404. So werden im /admin angelegte
