@@ -17,10 +17,7 @@ export interface CmsSourceBadgeProps {
 }
 
 const SHOW_BADGE =
-  import.meta.env.DEV ||
-  (typeof window !== "undefined" &&
-    /lovable\.app$/.test(window.location.hostname) &&
-    window.location.hostname.includes("preview"));
+  import.meta.env.DEV || import.meta.env.VITE_SHOW_CMS_SOURCE_BADGE === "1";
 
 export default function CmsSourceBadge({ pageKey, source, sectionCount }: CmsSourceBadgeProps) {
   const { t } = useTranslation();

@@ -1,5 +1,5 @@
 {
-  "name": "tcs-unternehmenswebseite",
+  "name": "tcs-webseite",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -35,14 +35,14 @@
     "cms:preflight": "node scripts/ci/preflight.mjs",
     "i18n:ui-catalog": "node scripts/i18n/ui-catalog-manifest.mjs",
     "i18n:ui-catalog:check": "node scripts/i18n/ui-catalog-manifest.mjs --check",
-    "i18n:ui-catalog:sync": "node scripts/i18n/ui-catalog-sync.mjs"
+    "i18n:ui-catalog:sync": "node scripts/i18n/ui-catalog-sync.mjs",
+    "typecheck": "tsc -p tsconfig.app.json --noEmit"
   },
   "dependencies": {
     "@dnd-kit/core": "^6.3.1",
     "@dnd-kit/sortable": "^10.0.0",
     "@dnd-kit/utilities": "^3.2.2",
     "@hookform/resolvers": "^3.10.0",
-    "@lovable.dev/mcp-js": "^0.20.0",
     "@radix-ui/react-accordion": "^1.2.11",
     "@radix-ui/react-alert-dialog": "^1.1.14",
     "@radix-ui/react-aspect-ratio": "^1.1.7",
@@ -117,7 +117,6 @@
     "globals": "^15.15.0",
     "happy-dom": "^20.14.5",
     "jsdom": "^20.0.3",
-    "lovable-tagger": "^1.1.13",
     "postcss": "^8.5.6",
     "tailwindcss": "^3.4.17",
     "typescript": "^5.8.3",

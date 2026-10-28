@@ -34,9 +34,10 @@ import { createClient, type SupabaseClient } from "@supabase/supabase-js";
  *
  * Quelle: Lovable-Cloud-Konfiguration dieses Projekts.
  */
-const CMS_FALLBACK_URL = "https://uvkubrrljyzfvbvejepl.supabase.co";
-const CMS_FALLBACK_PUBLISHABLE_KEY =
-  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InV2a3VicnJsanl6ZnZidmVqZXBsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzgzMDgyMjcsImV4cCI6MjA5Mzg4NDIyN30.UL-toX5FHrIArab9wHCixmjlufkm7X6507Hf0ZYvb3s";
+// Kein hartkodierter Fallback mehr: Verbindungsdaten kommen ausschliesslich aus
+// VITE_SUPABASE_URL / VITE_SUPABASE_PUBLISHABLE_KEY (siehe .env.example).
+const CMS_FALLBACK_URL = "";
+const CMS_FALLBACK_PUBLISHABLE_KEY = "";
 
 type Resolved = {
   url: string;
