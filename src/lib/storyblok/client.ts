@@ -97,13 +97,41 @@ function baseUrl(): string {
   return `${REGION_HOSTS[region] ?? REGION_HOSTS.eu}/v2/cdn`;
 }
 
-/** Cache-Version aus Storyblok; wird mit jeder Antwort aktualisiert. */
+/**
+ * Cache-Version (`cv`) aus Storyblok.
+ *
+ * Das Storyblok-CDN liefert veroeffentlichte Inhalte ohne `cv` aus einem
+ * Zwischenspeicher, der nach einer Veroeffentlichung veraltet sein kann. Deshalb
+ * wird die aktuelle Version einmal je Sitzung ueber `cdn/spaces/me` geholt und
+ * an jede Anfrage gehaengt; jede Antwort kann sie weiter aktualisieren.
+ */
 let cacheVersion: number | null = null;
+let cacheVersionPromise: Promise<void> | null = null;
 const responseCache = new Map<string, Promise<unknown>>();
 
 export function resetStoryblokCache(): void {
   cacheVersion = null;
+  cacheVersionPromise = null;
   responseCache.clear();
+}
+
+async function ensureCacheVersion(): Promise<void> {
+  if (cacheVersion !== null || storyblokVersion() === "draft") return;
+  if (!cacheVersionPromise) {
+    cacheVersionPromise = (async () => {
+      try {
+        const url = new URL(`${baseUrl()}/spaces/me`);
+        url.searchParams.set("token", storyblokToken());
+        const res = await fetch(url.toString(), { headers: { Accept: "application/json" } });
+        if (!res.ok) return;
+        const body = (await res.json()) as { space?: { version?: number } };
+        if (typeof body.space?.version === "number") cacheVersion = body.space.version;
+      } catch {
+        // ohne cv weiterarbeiten; die erste Antwort liefert dann eine Version
+      }
+    })();
+  }
+  await cacheVersionPromise;
 }
 
 type Params = Record<string, string | number | boolean | undefined>;
@@ -122,6 +150,7 @@ function buildUrl(path: string, params: Params): string {
 
 async function request<T>(path: string, params: Params): Promise<{ body: T; total: number }> {
   if (!isStoryblokConfigured()) throw new Error("storyblok_unconfigured");
+  await ensureCacheVersion();
   const url = buildUrl(path, params);
   const key = `${storyblokVersion()}|${url}`;
   const cached = responseCache.get(key);
