@@ -90,6 +90,9 @@ export function storyblokVersion(): "draft" | "published" {
 }
 
 function baseUrl(): string {
+  // Testbetrieb: komplette API-Basis ueberschreiben (z. B. lokaler Mock-Server)
+  const override = (import.meta.env.VITE_STORYBLOK_API_BASE as string | undefined)?.trim();
+  if (override) return override.replace(/\/+$/, "");
   const region = (import.meta.env.VITE_STORYBLOK_REGION as string | undefined)?.trim().toLowerCase() || "eu";
   return `${REGION_HOSTS[region] ?? REGION_HOSTS.eu}/v2/cdn`;
 }
