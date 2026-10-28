@@ -1,0 +1,150 @@
+{
+  "summary": {
+    "generated_at": "2026-06-04T21:44:05.214Z",
+    "counts": {
+      "total_page_files": 80,
+      "public_block_ignoriert_db_visibility": 2,
+      "davon_high_blocker_rot": 0,
+      "davon_medium_kandidat_gelb": 0,
+      "davon_low_vermutlich_gegated_grau": 2,
+      "public_block_ohne_db_bindung_gelb_restschuld": 0,
+      "pages_mit_befund_richtung_b": 2
+    },
+    "ampel": {
+      "rot_high_blocker": 0,
+      "gelb_medium_kandidat": 0,
+      "gelb_restschuld_ohne_bindung": 0,
+      "grau_vermutlich_gegated": 2
+    }
+  },
+  "buckets": {
+    "rot_high_blocker": [],
+    "gelb_medium_kandidat": [],
+    "gelb_restschuld_ohne_bindung": [],
+    "grau_vermutlich_gegated": [
+      {
+        "finding_class": "PUBLIC_BLOCK_IGNORIERT_DB_VISIBILITY",
+        "confidence": "low",
+        "page_key": "eingangssysteme.beratung",
+        "page_file": "src/features/eingangssysteme/pages/EntryBeratungPage.tsx",
+        "section_key": "cta",
+        "section_type": "content_v1",
+        "section_uid": 224,
+        "db_is_active": false,
+        "has_visibility_gate": true,
+        "in_rest_renderer_whitelist": false,
+        "markers": [
+          {
+            "kind": "i18n_t_call",
+            "line": 85,
+            "snippet": "t(\"beratung.cta.title\")}"
+          },
+          {
+            "kind": "i18n_t_call",
+            "line": 88,
+            "snippet": "t(\"beratung.cta.text\")}"
+          },
+          {
+            "kind": "i18n_t_call",
+            "line": 94,
+            "snippet": "t(\"beratung.cta.cta\")}"
+          }
+        ],
+        "bewertung": "Vermutlich gegated; Heuristik unsicher."
+      },
+      {
+        "finding_class": "PUBLIC_BLOCK_IGNORIERT_DB_VISIBILITY",
+        "confidence": "low",
+        "page_key": "eingangssysteme.root",
+        "page_file": "src/features/eingangssysteme/pages/EntrySystemPage.tsx",
+        "section_key": "cta",
+        "section_type": "content_v1",
+        "section_uid": 207,
+        "db_is_active": false,
+        "has_visibility_gate": true,
+        "in_rest_renderer_whitelist": false,
+        "markers": [
+          {
+            "kind": "i18n_t_call",
+            "line": 180,
+            "snippet": "t(\"root.cta.title\")}"
+          },
+          {
+            "kind": "i18n_t_call",
+            "line": 183,
+            "snippet": "t(\"root.cta.text\")}"
+          },
+          {
+            "kind": "i18n_t_call",
+            "line": 189,
+            "snippet": "t(\"root.cta.cta\")}"
+          }
+        ],
+        "bewertung": "Vermutlich gegated; Heuristik unsicher."
+      }
+    ]
+  },
+  "public_block_ignoriert_db_visibility": [
+    {
+      "finding_class": "PUBLIC_BLOCK_IGNORIERT_DB_VISIBILITY",
+      "confidence": "low",
+      "page_key": "eingangssysteme.beratung",
+      "page_file": "src/features/eingangssysteme/pages/EntryBeratungPage.tsx",
+      "section_key": "cta",
+      "section_type": "content_v1",
+      "section_uid": 224,
+      "db_is_active": false,
+      "has_visibility_gate": true,
+      "in_rest_renderer_whitelist": false,
+      "markers": [
+        {
+          "kind": "i18n_t_call",
+          "line": 85,
+          "snippet": "t(\"beratung.cta.title\")}"
+        },
+        {
+          "kind": "i18n_t_call",
+          "line": 88,
+          "snippet": "t(\"beratung.cta.text\")}"
+        },
+        {
+          "kind": "i18n_t_call",
+          "line": 94,
+          "snippet": "t(\"beratung.cta.cta\")}"
+        }
+      ],
+      "bewertung": "Vermutlich gegated; Heuristik unsicher."
+    },
+    {
+      "finding_class": "PUBLIC_BLOCK_IGNORIERT_DB_VISIBILITY",
+      "confidence": "low",
+      "page_key": "eingangssysteme.root",
+      "page_file": "src/features/eingangssysteme/pages/EntrySystemPage.tsx",
+      "section_key": "cta",
+      "section_type": "content_v1",
+      "section_uid": 207,
+      "db_is_active": false,
+      "has_visibility_gate": true,
+      "in_rest_renderer_whitelist": false,
+      "markers": [
+        {
+          "kind": "i18n_t_call",
+          "line": 180,
+          "snippet": "t(\"root.cta.title\")}"
+        },
+        {
+          "kind": "i18n_t_call",
+          "line": 183,
+          "snippet": "t(\"root.cta.text\")}"
+        },
+        {
+          "kind": "i18n_t_call",
+          "line": 189,
+          "snippet": "t(\"root.cta.cta\")}"
+        }
+      ],
+      "bewertung": "Vermutlich gegated; Heuristik unsicher."
+    }
+  ],
+  "public_block_ohne_db_bindung": []
+}

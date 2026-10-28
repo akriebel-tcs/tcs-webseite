@@ -1,0 +1,750 @@
+{
+  "_meta": {
+    "namespace": "gebaeudekommunikation",
+    "status": "migrated",
+    "note": "All 6 pages of the Building communication domain are migrated to i18n (Türkommunikation, Türsprechanlagen, Briefkastenanlagen, Systemlösungen, Großanlagen, snipdoo IP). Added to `strictPages` in stage `hygiene-strictpages-close-1`. Status aligned in stage `hygiene-status-1`."
+  },
+  "briefkastenanlagen": {
+    "hero": {
+      "label": "Building communication / Mailbox systems",
+      "headline": "Tailor-made mailbox systems for your building",
+      "intro": "Flexibility, design and smart door communication combined. Discover our versatile ENTRY mailbox systems and configure your individual solution to fit your construction project precisely – whether single-family home or larger residential complex.",
+      "imageAlt": "Mailbox systems"
+    },
+    "montageformen": {
+      "label": "Mounting types",
+      "title": "Our mounting types at a glance",
+      "intro": "For every structural requirement and architectural vision we offer the right design. You can choose from various base variants to position the mailbox optimally.",
+      "items": {
+        "aufputz": {
+          "title": "Surface-mounted systems",
+          "text": "The classic and simple solution for direct wall mounting. Surface-mounted systems can be retrofitted easily and are available in both horizontal and vertical layouts. They can be equipped with state-of-the-art audio or video technology without any difficulty."
+        },
+        "unterputz": {
+          "title": "Flush-mounted systems (Inputz)",
+          "text": "For a particularly flush and discreet integration into the façade, our flush-mounted systems are the right choice. Here, too, you can choose between horizontal and vertical arrangement to make optimal use of the available wall space."
+        },
+        "stele": {
+          "title": "Free-standing systems (steles & side feet)",
+          "text": "Set a visual highlight at your property line or representative entrance area. Free-standing systems can be configured either as an elegant stele or with side feet, making them completely independent of the building façade."
+        }
+      }
+    },
+    "skalierbarkeit": {
+      "label": "Scalability",
+      "title": "System sizes and layouts",
+      "intro": "No matter how many parties live in your building – the system grows with your requirements.",
+      "features": {
+        "wohneinheiten": {
+          "headline": "1 to 16 residential units",
+          "text": "Our standard systems are extremely scalable and easily cover building sizes from one to 16 residential units. For smaller projects or single-family homes you can plan systems for 1 to 4 mailboxes via our configurator."
+        },
+        "ausrichtung": {
+          "headline": "Horizontal and vertical layout",
+          "text": "To perfectly match the spatial conditions of your entrance area, we offer our mailbox systems in both space-saving vertical arrangement and clearly arranged horizontal design."
+        }
+      }
+    },
+    "smart": {
+      "label": "Smart & individual",
+      "title": "Smart functions & customisation",
+      "intro": "Turn your mailbox into a multifunctional communication hub that matches your visual and technical requirements exactly.",
+      "items": {
+        "tuerkommunikation": {
+          "title": "Integrated door communication (audio & video)",
+          "text": "All system sizes and mounting types can be configured flexibly: without bell buttons, with simple bell buttons or fully pre-wired for audio or video communication. We offer dedicated AUDIO:PACKS and VIDEO:PACKS (also for on-site cameras)."
+        },
+        "barrierefrei": {
+          "title": "Accessible operation",
+          "text": "Built-in door loudspeakers with accessibility symbols ensure the highest level of accessibility – clearly recognisable and intuitive to operate for all residents and visitors."
+        },
+        "design": {
+          "title": "Tailor-made design",
+          "text": "Give the system a personal touch. During configuration you adjust colours and surfaces individually – for a coherent overall appearance of your entrance area."
+        },
+        "beschriftung": {
+          "title": "Labelling on request",
+          "text": "Design the system with or without street name and house number. The result is a representative entrance that combines address and function in one clear appearance."
+        }
+      },
+      "cta": "Configure system"
+    }
+  },
+  "systemloesungen": {
+    "hero": {
+      "label": "Door communication / System solutions",
+      "headline": "Building communication system solutions: intelligent networking for modern properties",
+      "intro": "In complex properties and residential buildings, indoor stations and software solutions today are far more than just intercoms – they act as central communication, information and control hubs. TCS offers developers, planning offices and professional operators tailor-made system solutions that meet the highest security requirements, optimise workflows and relieve staff.",
+      "imageAlt": "Building communication system solutions"
+    },
+    "vorteile": {
+      "label": "At a glance",
+      "title": "Why TCS system solutions?",
+      "items": {
+        "steuerung": {
+          "title": "Central control",
+          "text": "Door communication, vehicle access and resident calls from a single workstation."
+        },
+        "sicherheit": {
+          "title": "High security",
+          "text": "Controlled access for staff, suppliers and visitors."
+        },
+        "alarmierung": {
+          "title": "MHHR-compliant alerting",
+          "text": "Certified fire brigade announcement for high-rise buildings of 8 storeys and above."
+        },
+        "ablaeufe": {
+          "title": "Optimised workflows",
+          "text": "Automatic door opener and intercom relieve reception and staff."
+        },
+        "barrierefrei": {
+          "title": "Accessible communication",
+          "text": "TCS:BIDI with visual return-channel communication in sign language."
+        },
+        "fachplanung": {
+          "title": "TCS:PLUS specialist planning",
+          "text": "Personal project support from the initial idea to commissioning."
+        }
+      }
+    },
+    "concierge": {
+      "label": "Central visitor management",
+      "title": "Concierge and barrier systems",
+      "headline": "Stay in control – at every entrance and access point",
+      "text": "For buildings where door communication, the operation of barrier systems and resident calls are to be brought together centrally, TCS offers powerful concierge solutions. Gatekeepers and reception staff can efficiently monitor and control access for employees, suppliers and visitors. Whether in hospitals, exhibition centres, hotels or upscale residential construction: the systems guarantee a high level of security thanks to controllable entrances and accesses. Through bidirectional communication from outdoor stations directly to the concierge or forwarding to mobile and landline networks, you remain reachable at all times."
+    },
+    "feuerwehr": {
+      "label": "Safety in an emergency",
+      "title": "Fire brigade announcement systems",
+      "headline": "Certified alerting for high-rise buildings according to MHHR",
+      "text": "The infrastructure of a TCS door intercom system can save lives: with the fire brigade announcement function, residents in high-rise buildings (from 8 storeys) are alerted quickly and specifically. The system meets the requirements of the high-rise construction directive and, in an emergency, plays signal tones or direct announcements from the fire brigade at a volume of more than 90 dB through the indoor stations. Thanks to 30 hours of emergency power supply, integrated fault monitoring and short-circuit protection (line isolators), the system offers maximum reliability."
+    },
+    "intern": {
+      "label": "Efficiency in everyday work",
+      "title": "Internal communication and automatic door opener",
+      "headline": "Relief for practices, offices and facilities with high visitor numbers",
+      "text": "In commercial properties, day-care centres or medical practices, regular door calls tie up valuable resources. The TCS automatic door opener triggers the door opener automatically when the bell button is pressed, thereby relieving reception staff. At the same time, functions for room-to-room calls and targeted in-room announcements expand the system into a fully fledged intercom solution. This ensures seamless and efficient workflows within the building."
+    },
+    "bidi": {
+      "label": "Accessibility integrated",
+      "title": "Bidirectional video intercom systems",
+      "headline": "Digital participation through visual communication",
+      "text": "TCS thinks inclusion further: with the TCS:BIDI system, video images are not only sent from the outdoor to the indoor station, but also in the opposite direction. A monitor integrated into the outdoor station enables deaf or hard-of-hearing people to communicate easily with residents using sign language. This solution noticeably eases everyday life and makes your properties more accessible."
+    },
+    "fachplanung": {
+      "label": "TCS:PLUS specialist planning",
+      "title": "Your vision, our expertise",
+      "intro": "Rely on the TCS:PLUS specialist planning team for planning and engineering. Our experts support architects, planners and operators from the first idea to implementation.",
+      "items": {
+        "projektierung": {
+          "title": "Individual engineering",
+          "text": "A project-responsible TCS contact accompanies your project and tailors the selection of components precisely to your property infrastructure."
+        },
+        "behoerden": {
+          "title": "Coordination with authorities",
+          "text": "For safety-critical solutions such as fire brigade announcements, we take over the definition of groups and installation locations in direct coordination with the local fire brigade and the fire protection concept."
+        },
+        "service": {
+          "title": "All-round service",
+          "text": "On request, TCS takes over professional commissioning, technical maintenance and the future further development of your system."
+        }
+      },
+      "ctaPrimary": "Request consulting",
+      "ctaSecondary": "Plan & configure"
+    }
+  },
+  "root": {
+    "hero": {
+      "label": "Building communication",
+      "headline": "Smart communication for every building",
+      "intro": "From single-family homes to large residential quarters, TCS offers tailor-made audio and video door intercom systems, integrated mailbox and wayfinding systems as well as holistic system solutions. With the future-proof IP system snipdoo®, we combine the simplicity of classic BUS systems with limitless network flexibility.",
+      "imageAlt": "Building communication"
+    },
+    "bereiche": {
+      "label": "Our areas",
+      "title": "Everything for building communication",
+      "intro": "Discover our complete portfolio – from a single door intercom to networked system solutions for entire residential quarters. Each area offers specialised solutions that combine seamlessly into holistic building communication.",
+      "moreLink": "Learn more",
+      "items": {
+        "tuersprechanlagen": {
+          "label": "Audio & video at the door",
+          "title": "Door intercom systems",
+          "text": "Updatable, modular audio and video intercom systems such as Senso Pro and TASTA PRO – with digital name display, call forwarding to smartphone, DECT or IP phone and mobile video door communication via the snipdoo® HOME app."
+        },
+        "briefkastenanlagen": {
+          "label": "Letters & parcels integrated",
+          "title": "Mailbox systems",
+          "text": "Versatile ENTRY mailbox systems for single- and multi-family homes. Maximum flexibility in design, size and integration of future-proof door communication – including parcel box options and individual labelling."
+        },
+        "beschilderung": {
+          "label": "Guide & orient",
+          "title": "Signage and wayfinding",
+          "text": "Thoughtful wayfinding with TCS signage: from house numbers and pictograms to individually designed door signs and bell panels – durable materials, optional engraving and a coherent overall appearance for the entrance area."
+        },
+        "grossanlagen": {
+          "label": "Residential quarters & large projects",
+          "title": "Large-scale systems",
+          "text": "Highly complex, networked systems for project developers and housing companies: concierge and barrier systems, vehicle access control, wirelessly networked offline readers and digital name management for a large number of residents."
+        },
+        "systemloesungen": {
+          "label": "Holistic networking",
+          "title": "System solutions",
+          "text": "Tailor-made system solutions for developers, planning offices and operators: concierge solutions, MHHR-compliant fire brigade announcement, automatic door opener & intercom as well as accessible bidirectional video intercom systems (TCS:BIDI)."
+        }
+      }
+    },
+    "anwendungsumfelder": {
+      "label": "Application fields",
+      "title": "Communication systems for specific facilities",
+      "outro": "In addition, architects can configure individually designed outdoor stations in special sizes, functions and materials for representative entrance areas.",
+      "items": {
+        "pflege": {
+          "title": "Care and assisted living",
+          "text": "Special comfort call systems and solutions for Ambient Assisted Living (AAL). Practices, medical centres and clinics are also served."
+        },
+        "bildung": {
+          "title": "Educational and care facilities",
+          "text": "TCS offers emergency call systems for schools and mobile communication solutions for staff in day-care centres."
+        },
+        "behoerden": {
+          "title": "Authorities, public offices and fire brigades",
+          "text": "In public administrative buildings and fire brigades, the systems are also used for special fire brigade announcements."
+        },
+        "gross": {
+          "title": "Large-scale and commercial use",
+          "text": "For large building complexes, dormitories or swimming pools and lidos, there are extended system solutions with concierge, barriers, booking systems and info boards."
+        }
+      }
+    },
+    "snipdoo": {
+      "label": "snipdoo® system",
+      "title": "Door communication in IP networks – simple and future-proof",
+      "card": {
+        "headline": "The IP platform for modern buildings",
+        "text": "Scalable up to 150 end devices per server, open standards (API, SIP, ONVIF), plug & play configuration without network expertise and smart facility management via the snipdoo® CLOUD.",
+        "cta": "More about snipdoo® IP"
+      },
+      "zielgruppen": {
+        "fachplaner": {
+          "title": "For electrical planners",
+          "text": "Tailor-made planning and open system architecture. System layout aligned exactly with the architecture, virtual representation of the building structure and seamless integration of third-party devices."
+        },
+        "installateur": {
+          "title": "For electrical installers",
+          "text": "Plug & play configuration without network expertise. Devices are detected automatically and assigned to installation locations via drag-and-drop – using the PC application snipdoo® SYSTEM."
+        },
+        "bautraeger": {
+          "title": "For developers and administrators",
+          "text": "Lasting cost benefits and smart facility management. Location-independent management of several properties via the snipdoo® CLOUD, tenant changes by remote access, free HOME app for residents."
+        }
+      }
+    }
+  },
+  "tuersprechanlagen": {
+    "hero": {
+      "label": "Door intercom systems",
+      "headline": "Audio and video communication at the door",
+      "intro": "From a compact single-family home to large residential quarters: TCS offers coordinated outdoor and indoor stations for every application – from the classic audio intercom to the networked IP video solution.",
+      "imageAlt": "Door intercom systems"
+    },
+    "ueberblick": {
+      "label": "Overview",
+      "title": "More than 1,200 products for building communication",
+      "p1": "TCS door intercom systems connect the outside and inside of a property: you see who is at the door, speak with visitors and open the door – conveniently, safely and in any desired configuration level. Modular outdoor stations, indoor stations from the classic handset to the 10-inch touch dashboard and the future-proof snipdoo® IP system form a continuous portfolio.",
+      "p2": "All components are developed and produced by TCS in-house – for reliable interaction and full system control over the entire life cycle of the property."
+    },
+    "scroller": {
+      "scrollLeft": "Scroll back",
+      "scrollRight": "Scroll forward",
+      "datasheet": "Data sheet"
+    },
+    "aussenstationen": {
+      "label": "Outdoor stations",
+      "title": "The first impression at the building",
+      "description": "The bell rings – the outdoor station is the first point of contact at the building. Video, audio, access control and accessible operation in a single device.",
+      "items": {
+        "pesPro": {
+          "title": "PES PRO",
+          "subtitle": "Outdoor station",
+          "description": "The compact outdoor station for classic residential construction – with a high-quality video camera, clear audio transmission and a robust housing for every entrance."
+        },
+        "carusArgos": {
+          "title": "CARUS ARGOS",
+          "subtitle": "Modular outdoor station",
+          "description": "Modular outdoor station with individual button assignment, display and video. Adapts flexibly to the architecture and the size of the system."
+        },
+        "entry": {
+          "title": "ENTRY",
+          "subtitle": "Architectural outdoor station",
+          "description": "Tailor-made outdoor stations for representative entrance areas: individual sizes, materials and functions – configurable down to the smallest detail."
+        },
+        "ktu": {
+          "title": "KTU configurator",
+          "subtitle": "Individual configuration",
+          "description": "With the KTU configurator, architects and planners assemble the matching outdoor station from function, material and layout – graphically and live."
+        }
+      }
+    },
+    "innenstationen": {
+      "label": "Indoor stations",
+      "title": "Inside the building: communicate, open, control",
+      "description": "From the compact hands-free handset to the smart home dashboard – the right indoor station for every living and operating style.",
+      "items": {
+        "tastaPro": {
+          "title": "TASTA PRO",
+          "subtitle": "Audio indoor station",
+          "description": "Comfortable hands-free indoor station with clear audio transmission, integrated door release and smart operation – ideal for classic residential construction."
+        },
+        "sensoPro": {
+          "title": "SENSO PRO",
+          "subtitle": "Video indoor station",
+          "description": "Premium video indoor station with colour display, capacitive sensor buttons and high-quality image quality – for demanding residential and commercial projects."
+        },
+        "ipTasta": {
+          "title": "IP TASTA",
+          "subtitle": "IP audio station",
+          "description": "Audio indoor station for the snipdoo® IP system – simply connected via the network, plug & play during commissioning and fully scalable."
+        },
+        "tasta7": {
+          "title": "TASTA 7",
+          "subtitle": "7\" touch display",
+          "description": "Indoor station with a large 7-inch touch display for video door communication, call list and control – as intuitive as a smartphone."
+        },
+        "skyline10": {
+          "title": "SKYLINE 10 PRO",
+          "subtitle": "Smart home dashboard",
+          "description": "The 10-inch dashboard combines door communication, smart home control and comfort functions – the central operating element of the connected home."
+        },
+        "carusNext": {
+          "title": "CARUS NEXT",
+          "subtitle": "Designer indoor station",
+          "description": "High-quality designer indoor station with touch operation and clean lines – the elegant complement to the CARUS outdoor stations."
+        },
+        "seriesH": {
+          "title": "SERIES H",
+          "subtitle": "Audio handset",
+          "description": "Classic audio indoor station with handset – the reliable and cost-effective solution for existing buildings, refurbishment and simple systems."
+        }
+      }
+    },
+    "vorteile": {
+      "label": "Advantages",
+      "title": "Why TCS door intercom systems?",
+      "items": {
+        "qualitaet": {
+          "title": "Clear audio and video quality",
+          "desc": "High-resolution cameras, noise-free voice transmission and echo cancellation – even in difficult lighting conditions."
+        },
+        "mobil": {
+          "title": "Mobile via snipdoo® HOME app",
+          "desc": "See, speak and open the door from anywhere – free app for iOS and Android, securely encrypted."
+        },
+        "barrierefrei": {
+          "title": "Accessible operation",
+          "desc": "Large buttons, voice output, inductive hearing aid coupling and high-contrast displays in accordance with DIN 18040."
+        },
+        "skalierbar": {
+          "title": "Scalable with snipdoo® IP",
+          "desc": "From single-family homes to 150 end devices per server – integrable via open standards (SIP, ONVIF, API)."
+        }
+      }
+    },
+    "snipdoo": {
+      "label": "System technology",
+      "title": "Door communication in IP networks – simple and future-proof",
+      "text": "With snipdoo®, TCS offers powerful, flexible and secure door and building communication technology for modern buildings. The system combines the straightforward handling of classic BUS systems with the limitless flexibility of modern IP technology.",
+      "cta": "Learn more about snipdoo® IP"
+    },
+    "anwendungsumfelder": {
+      "label": "Applications",
+      "title": "Door entry systems for every application",
+      "learnMore": "Learn more …"
+    }
+  },
+  "grossanlagen": {
+    "hero": {
+      "label": "Building communication / Large-scale systems",
+      "headline": "Large-scale systems for quarters, residential construction and mixed developer projects",
+      "intro": "Networked system solutions for project developers, large housing companies and quarter managers. One platform for concierge, access, vehicle entry and name management – across all construction phases and types of use, operationally safe and economical even with thousands of residents.",
+      "imageAlt": "Large-scale systems"
+    },
+    "anforderungen": {
+      "label": "For project developers & quarter managers",
+      "title": "Complex systems, one consolidated platform",
+      "intro": "Large housing companies and developers face the same challenge: grown portfolios, mixed uses and thousands of residents with individual permissions. We bundle door communication, access and vehicle entry in one IP-based system – operationally stable, multi-tenant capable and measurably more economical to operate than separate isolated solutions.",
+      "items": {
+        "nutzung": {
+          "title": "Mixed use in the quarter",
+          "text": "Living, commercial use, underground parking, waste rooms and shared areas in one system – with clearly separated permissions per unit of use."
+        },
+        "skalierung": {
+          "title": "Hundreds to thousands of units",
+          "text": "Scalable IP architecture for quarters from 100 residential units – several construction phases, entrances and building parts in one administration interface."
+        },
+        "concierge": {
+          "title": "Concierge & 24/7 service",
+          "text": "Reception as a control centre for parcels, visitors and emergency calls – outside service hours, automatic forwarding to standby or smartphone."
+        },
+        "zufahrt": {
+          "title": "Vehicle entry and parking control",
+          "text": "Barriers, bollards and gates with licence plate recognition or transponder – including visitor management and time-window approvals for service providers."
+        },
+        "funk": {
+          "title": "Wirelessly networked offline systems",
+          "text": "Battery-powered wireless cylinders and wall readers for apartment doors, cellars and side rooms – without elaborate cabling, with central permission management."
+        },
+        "namensverwaltung": {
+          "title": "Digital name management",
+          "text": "e-paper name displays and central tenant management – tenant changes are switched in seconds, without locksmith work or sign replacement."
+        }
+      }
+    },
+    "concierge": {
+      "label": "Concierge & reception",
+      "title": "The managed entrance",
+      "imageAlt": "Concierge workstation with screen control",
+      "p1": "In the urban quarter, the reception becomes a service centre: parcels, visitors, tradespeople, emergency calls – everything runs via one workstation with live video, targeted door switching and audit-proof logging. Several entrances of several buildings are operated centrally, also across construction phase boundaries.",
+      "p2": "Outside service hours, the system automatically forwards calls to standby, smartphone or DECT phone. The reception remains reachable 24/7 – without the personnel costs of a continuously staffed gatekeeper."
+    },
+    "zufahrt": {
+      "label": "Vehicle entry & parking",
+      "title": "Control vehicles in the quarter",
+      "imageAlt": "Barrier system and vehicle entry control in the quarter",
+      "p1": "Underground garages, employee parking, delivery zones and visitor spaces can be regulated in a differentiated manner via barriers, bollards and gates – by licence plate recognition, transponder or mobile app. Permissions are maintained in the same system as door access; a tenant change deactivates the apartment door, garage barrier and waste room simultaneously.",
+      "p2": "For service providers and delivery services, time windows, parking quotas and one-time codes can be issued – including automatic logging for the property management."
+    },
+    "funk": {
+      "label": "Wirelessly networked offline readers",
+      "title": "Key management without cabling",
+      "imageAlt": "Wirelessly networked offline cylinder on an apartment door",
+      "p1": "Equip apartment doors, cellars, waste rooms and side entrances with battery-powered wireless cylinders and wall readers – without chiselling work, without cabling. Permissions are written to the cylinder via radio gateways in the staircase or via the tenant's medium itself.",
+      "p2": "Particularly economical for housing companies: in the event of a tenant change or key loss, the lost transponder is centrally blocked – replacing the locking system is completely unnecessary."
+    },
+    "namensanzeige": {
+      "label": "Digital name display",
+      "title": "Tenant changes implemented in seconds",
+      "imageAlt": "Digital e-paper name display on an apartment door",
+      "p1": "e-paper name displays replace engraved signs on the bell panel, mailbox and apartment door. The change is made centrally from tenant management – no on-site appointment, no sign replacement, no outdated names in the staircase.",
+      "p2": "For systems with hundreds of residents and corresponding turnover, this noticeably reduces the management effort and ensures a permanently consistent appearance of the quarter.",
+      "moreLink": "More about the digital name display"
+    },
+    "leistungen": {
+      "label": "System services",
+      "title": "One platform – three disciplines",
+      "items": {
+        "steuerung": {
+          "title": "Central control",
+          "items": [
+            "Multi-tenant capable management for several construction phases",
+            "Role-based access for property management, concierge and facility management",
+            "Interfaces to ERP, CAFM and tenant portals"
+          ]
+        },
+        "zutritt": {
+          "title": "Access & mobility",
+          "items": [
+            "Wirelessly networked offline cylinders for apartment doors without cabling",
+            "Mobile access via app for tenants, service providers and delivery services",
+            "Barrier systems and bollards for underground parking, employee and visitor spaces"
+          ]
+        },
+        "kommunikation": {
+          "title": "Communication & service",
+          "items": [
+            "Display outdoor stations with digital name search for thousands of residents",
+            "Concierge workstations with video, door switching and parcel acceptance",
+            "Emergency call and lift emergency call integration in accordance with DIN EN 81-28"
+          ]
+        }
+      }
+    },
+    "wirtschaftlichkeit": {
+      "label": "For developers & housing companies",
+      "title": "Economical over the life cycle",
+      "items": {
+        "betriebskosten": {
+          "title": "Lower operating costs",
+          "text": "Central management, no replacement of the locking system on tenant change, automated name changes – measurable effect in the operation of large portfolios."
+        },
+        "investition": {
+          "title": "Investment security",
+          "text": "Open IP standards, modular extension without system change and long-term availability of components – also across several construction phases."
+        },
+        "architektur": {
+          "title": "Quarter-suitable architecture",
+          "text": "Multi-tenant capable for different owners, administrators and uses within one quarter – without parallel isolated solutions per building part."
+        }
+      }
+    },
+    "systembausteine": {
+      "label": "System building blocks",
+      "title": "Typical components in the quarter",
+      "intro": "Your individual quarter solution is created from these building blocks – modularly combinable and expandable over the life cycle.",
+      "details": "Details",
+      "items": {
+        "concierge": {
+          "label": "Concierge workstation",
+          "title": "Reception software",
+          "description": "Multi-entrance control with video, door switching and visitor log."
+        },
+        "bcm": {
+          "label": "BCM online / wireless offline",
+          "title": "Access management",
+          "description": "Hybrid of online door and wirelessly networked offline cylinders – one administration."
+        },
+        "schranken": {
+          "label": "Barriers & bollards",
+          "title": "Vehicle entry control",
+          "description": "Licence plate recognition, transponder and app control for vehicles."
+        },
+        "namensanzeige": {
+          "label": "Digital name display",
+          "title": "e-paper management",
+          "description": "Tenant changes centrally in seconds – without sign replacement on site."
+        }
+      }
+    },
+    "projektCta": {
+      "label": "Project consulting",
+      "title": "Plan a quarter concretely?",
+      "intro": "We accompany project developers, housing companies and quarter managers from needs analysis through topology planning to commissioning – including life cycle consideration and interface concept for ERP, CAFM and tenant portal.",
+      "ctaPrimary": "To the configurator",
+      "ctaSecondary": "Request consulting"
+    }
+  },
+  "snipdooIp": {
+    "seo": {
+      "title": "snipdoo IP – Intelligent door communication as a system | TCS",
+      "description": "snipdoo IP combines server, software and devices into an end-to-end IP system solution for planning, installation and operation."
+    },
+    "breadcrumbFallback": "snipdoo IP",
+    "subnav": {
+      "items": {
+        "hero": "Overview",
+        "systemversprechen": "Benefits",
+        "fuerWen": "For whom",
+        "nutzungAlltag": "Everyday use",
+        "systemaufbau": "System architecture",
+        "inbetriebnahme": "Commissioning",
+        "anwendungen": "Applications",
+        "rollen": "Details by audience",
+        "kontakt": "Contact"
+      }
+    },
+    "hero": {
+      "eyebrow": "snipdoo IP",
+      "headline": "snipdoo: Intelligent door communication for the buildings of tomorrow",
+      "subheadline": "Door communication as an end-to-end IP system",
+      "p1": "snipdoo IP combines server, software and devices into a clearly structured system solution for planning, installation and operation.",
+      "p2": "At its heart is the local snipdoo Server as the control and integration point for the entire installation. It connects all components and ensures stable operation. Configuration and expansion are structured and require no in-depth network knowledge – tailored to the needs of installers, planners and operators.",
+      "primary": "Request system documentation",
+      "secondary": "Go to system architecture"
+    },
+    "systemversprechen": {
+      "eyebrow": "snipdoo IP · Benefits",
+      "headline": "What sets snipdoo IP apart",
+      "p1": "snipdoo IP is an IP-based door communication system built consistently around the local server as the central unit. All components are brought together in an end-to-end system structure.",
+      "p2": "Setup is clearly guided and works without complex network technology. At the same time, the system remains flexibly scalable – from single-family homes to large building structures – and independently extensible thanks to open interfaces."
+    },
+    "audiences": {
+      "headline": "Who is snipdoo IP for?",
+      "items": {
+        "installateure": {
+          "iconLabel": "Installation icon",
+          "label": "For installers",
+          "title": "Easy to install and commission",
+          "text": "snipdoo IP significantly reduces the effort required for commissioning and setup. The server detects all devices automatically and presents them clearly. Assignment is done directly in the software via drag-and-drop – fast, traceable and without deep network expertise."
+        },
+        "planer": {
+          "iconLabel": "Planning icon",
+          "label": "For planners",
+          "title": "Plan and connect in a structured way",
+          "text": "The installation is built along the real building structure – with doors, floors and usage units. This brings clarity to planning and simplifies coordination with other trades. Through standardised interfaces, door communication can easily be integrated into existing systems."
+        },
+        "betreiber": {
+          "iconLabel": "Operations icon",
+          "label": "For operators",
+          "title": "Manage and operate centrally",
+          "text": "snipdoo IP enables location-independent administration of multiple installations. Changes can be implemented directly via remote access without on-site work. The cloud connection supports maintenance and operation and sustainably reduces administrative effort."
+        }
+      }
+    },
+    "nutzungAlltag": {
+      "eyebrow": "snipdoo IP · Everyday use",
+      "headline": "Everyday use",
+      "subheadline": "Convenient door communication for users",
+      "p1": "Beyond those involved in planning and operation, it is above all the people inside the building who benefit from the system.",
+      "p2": "snipdoo IP is used in everyday life via the snipdoo HOME app. Residents and office staff can see who is at the door at any time, talk to visitors and open the door – regardless of location. Operation is handled via the smartphone and can be flexibly extended to multiple users. Features such as call history or multi-device use further support daily use and increase comfort in the building.",
+      "imageAlt": "Young woman accepting a door call with the snipdoo HOME app on her smartphone."
+    },
+    "systemaufbau": {
+      "eyebrow": "snipdoo IP · System architecture",
+      "headline": "System architecture and functions",
+      "intro": "Five modules form a consistent overall system.",
+      "diagramAlt": "System diagram of snipdoo IP: snipdoo SERVER as central unit, connected to IP indoor stations, IP outdoor stations, camera, door speaker, snipdoo HOME app, PoE switch, LTE router, snipdoo CLOUD and snipdoo SYSTEM (PC application).",
+      "modules": {
+        "server": {
+          "iconLabel": "Server icon",
+          "label": "Server",
+          "title": "Central control of the installation",
+          "text": "The snipdoo Server is the heart of the system. It connects all devices, controls communication and ensures stable operation. All further functions rely on this central system base."
+        },
+        "software": {
+          "iconLabel": "Software icon",
+          "label": "Software",
+          "title": "Configuration with a clear structure",
+          "text": "The snipdoo SYSTEM software is used to set up the installation. Devices are detected automatically and assigned to their respective installation locations. The result is a clear structure that follows the building's logic."
+        },
+        "cloud": {
+          "iconLabel": "Cloud icon",
+          "label": "Cloud",
+          "title": "Remote administration",
+          "text": "The snipdoo CLOUD adds central administration functions to the system. Installations can be supported and adjusted regardless of location. Maintenance and updates take place without additional on-site effort."
+        },
+        "app": {
+          "iconLabel": "App icon",
+          "label": "App",
+          "title": "Use door communication on the go",
+          "text": "With the snipdoo HOME app, the installation can also be used on the go. Door calls, voice connections and camera images are transmitted directly to the smartphone. Operation remains simple and available at all times.",
+          "linkLabel": "More about mobile door communication"
+        },
+        "integration": {
+          "iconLabel": "Integration icon",
+          "label": "Integration",
+          "title": "Open to further systems",
+          "text": "snipdoo IP can be integrated into other systems via standardised interfaces. These include IP telephony, access control and video surveillance. This keeps the installation flexible and extensible."
+        }
+      }
+    },
+    "inbetriebnahme": {
+      "eyebrow": "snipdoo IP · Commissioning",
+      "headline": "Easy commissioning – without complex network technology",
+      "intro": "With the Windows application snipdoo® SYSTEM you configure your door intercom system quickly and in a structured way directly on your PC. All components are detected automatically and can be assigned to their real installation locations via drag-and-drop without network knowledge.",
+      "outro": "Configuration is fully traceable and significantly reduces the effort required for commissioning and adjustments.",
+      "imageAlt": "Three zoom details of the snipdoo SYSTEM software: 1. Structure tree with entrances, floors and apartments, 2. Device list with article numbers, 3. Drag-and-drop assignment of components to installation locations.",
+      "steps": {
+        "struktur": {
+          "title": "Build the structure along the building",
+          "text": "The installation is built in the software directly according to the building logic – with entrances, floors and usage units. This creates a clear and traceable structure right from the start."
+        },
+        "erkennung": {
+          "title": "Detect devices automatically",
+          "text": "The system automatically detects all devices in the network and lists them clearly – including article number instead of IP addresses."
+        },
+        "zuordnung": {
+          "title": "Assign components easily",
+          "text": "The detected devices are assigned to their respective installation locations via drag-and-drop. The assignment is visual and direct – fast and unambiguous."
+        }
+      }
+    },
+    "anwendungen": {
+      "eyebrow": "snipdoo IP · Applications",
+      "headline": "Suited to every system size",
+      "intro": "snipdoo IP can be used end-to-end from small to complex installations and adapts to the requirements of each environment.",
+      "items": {
+        "efh": {
+          "label": "Single-family home",
+          "title": "Quick start with little effort",
+          "text": "Commissioning is simple via the software. Existing network infrastructure can be used directly. The result is a working door communication system without major effort.",
+          "imageAlt": "Modern single-family home with photovoltaic roof and garden – typical application for snipdoo IP in single- and two-family homes."
+        },
+        "mfh": {
+          "label": "Multi-family home",
+          "title": "Structured for multiple units",
+          "text": "Even with several residential units, the installation remains clearly structured. The cloud connection supports central administration and user organisation. This allows larger residential complexes to be operated and adapted efficiently.",
+          "imageAlt": "Modern multi-family home with roof terrace – typical application for snipdoo IP in the housing sector."
+        },
+        "gewerbe": {
+          "label": "Commercial and larger installations",
+          "title": "Flexible for complex requirements",
+          "text": "In larger projects the system shows its integration capability. Further systems such as IP telephony, video surveillance or access solutions can be connected. The installation remains flexibly extensible and adaptable to different requirements.",
+          "imageAlt": "Modern glass facade with trees – typical environment for snipdoo IP in commercial buildings and larger installations."
+        }
+      }
+    },
+    "rollen": {
+      "eyebrow": "snipdoo IP · Details by audience",
+      "headline": "Details by audience",
+      "intro": "We dive deeper here into the three groups from the overview – for five typical participants in a door communication project.",
+      "tabs": {
+        "bauherren": {
+          "label": "Building owners",
+          "headline": "Easy entry, flexible use",
+          "p1": "snipdoo IP enables a fast entry into modern door communication – the effort for setup and commissioning remains low. The existing network infrastructure in the building can be used directly. The basis is an IP system built consistently around a local server as the central unit, reliably connecting all components in a single structure.",
+          "p2": "With the snipdoo HOME app the installation is conveniently usable in everyday life: door calls, voice connections and camera images are transmitted directly to the smartphone."
+        },
+        "architekten": {
+          "label": "Architects",
+          "headline": "Plan clearly, integrate openly",
+          "p1": "The system architecture of snipdoo IP brings clarity to project planning and simplifies coordination with other trades. The installation can be mapped exactly along the real building structure – including all doors, floors and usage units.",
+          "p2": "Through standardised interfaces, door communication is seamlessly integrated into existing concepts and further systems such as video surveillance or access control."
+        },
+        "wohnungswirtschaft": {
+          "label": "Housing sector",
+          "headline": "Operate efficiently, manage centrally",
+          "p1": "snipdoo IP sustainably reduces administrative effort and makes operating larger residential complexes noticeably more efficient. Even with several residential units, the installation structure remains consistently clear. The local snipdoo Server acts as a stable control and integration point that brings all devices together in an end-to-end system solution.",
+          "p2": "Users get a simple and always available mobile experience in everyday life. For operators, the snipdoo CLOUD enables location-independent administration – changes, maintenance and updates are implemented centrally via remote access, without on-site work."
+        },
+        "fachplaner": {
+          "label": "Specialist planners",
+          "headline": "Plan in a structured way, integrate openly",
+          "p1": "snipdoo IP enables clearly structured project planning that adapts to the respective installation – from single-family homes to complex large-scale systems. The system structure follows the building logic directly so that all devices are traceably assigned to their installation locations.",
+          "p2": "The local system base controls all communication. Standardised, open interfaces ensure the integration of external trades such as IP telephony, video surveillance and access solutions."
+        },
+        "handwerk": {
+          "label": "Trade professionals",
+          "headline": "Install quickly, operate reliably",
+          "p1": "snipdoo IP significantly reduces installation and setup effort. In-depth network knowledge is not required. The central snipdoo Server automatically detects all connected devices in the network, links them and ensures stable operation of the installation.",
+          "p2": "Configuration is fast and clear in the snipdoo SYSTEM software, where the detected components are assigned directly via drag-and-drop."
+        }
+      }
+    },
+    "kontakt": {
+      "headline": "Interested in snipdoo IP?",
+      "intro": "We support you with planning, testing and rollout.",
+      "ctaPrimary": "Send project enquiry",
+      "ctaSecondary": "Download system documentation",
+      "ctaTertiary": "Book training / demo"
+    }
+  },
+  "beschilderung": {
+    "hero": {
+      "label": "Building communication / Signage and wayfinding",
+      "headline": "Signage, guidance and orientation with TCS Signage",
+      "intro": "TCS Signage stands for modern signage and well-designed wayfinding – innovative guidance and orientation systems that combine high aesthetic standards with intelligent functionality. From ultra-flat smart house numbers to customised changeable signs and pictograms for office buildings, hotels and restaurants."
+    },
+    "features": {
+      "label": "Features & applications",
+      "title": "Architectural identity – designed to be functional",
+      "intro": "Create representative entrance areas and clear orientation. Get inspired by our flexible standards and individual custom-made solutions.",
+      "items": {
+        "hausnummer": {
+          "title": "Smart house numbers with day/night contrast",
+          "text": "Architectural highlights with attractive, illuminated house numbers in an ultra-flat design (only 18 mm surface-mount height). The innovative Day&Night special glass ensures maximum legibility: deep black during the day, bright white at night thanks to long-lasting LED backlighting. Integrated brightness sensor with automatic day/night switching and dimming function.",
+          "imageAlt": "Smart house numbers with day/night contrast"
+        },
+        "materialien": {
+          "title": "Unlimited individuality and colour variety",
+          "text": "Solid fronts made of 3 mm aluminium, brushed stainless steel or exclusive architectural bronze – extremely robust and durable. With finely structured powder coatings according to RAL classic, the maximum spectrum of colours is available. Exchangeable colour cards highlight the contours of digits and pictograms in your desired colour.",
+          "imageAlt": "Unlimited individuality and colour variety"
+        },
+        "tuerschilder": {
+          "title": "Flexible door signs and intuitive pictograms",
+          "text": "Generously sized door and information signs made of stainless steel and acrylic glass – ideal for offices, law firms and medical practices. Thanks to acrylic clip technology, inserts (up to DIN A3, including escape and rescue plans) can be exchanged completely without tools. Complemented by clear pictograms from the standard portfolio or as individual symbols.",
+          "imageAlt": "Flexible door signs and intuitive pictograms"
+        },
+        "klingel": {
+          "title": "Matching doorbells for the perfect entrance",
+          "text": "Complete the entrance area as a whole – with doorbells whose front plates match the colour and material of house numbers and signs. Generous push-buttons (22 or 28 mm diameter), either unlit or with brightly illuminated, neutral-white LED ring lighting. Optionally refined with engraving and over-coating.",
+          "imageAlt": "Matching doorbells for the perfect entrance"
+        }
+      }
+    },
+    "beratung": {
+      "label": "Project consultation",
+      "title": "Are you planning a new project?",
+      "text": "Whether a private semi-detached house, a complex office building or an exclusive hotel – our experts support architects, planning offices and developers from the first idea to the final implementation. See for yourself the performance and quality of TCS Signage.",
+      "cta": "Arrange project consultation"
+    }
+  }
+}

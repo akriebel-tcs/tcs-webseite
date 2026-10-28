@@ -1,0 +1,382 @@
+/**
+ * Portable datasheet stylesheet (A4 white sheet).
+ * No app tokens — colours come from the brand profile via CSS variables.
+ */
+
+.ds-root {
+  /* Neutral defaults — never another company's brand colour. */
+  --ds-accent: #333333;
+  --ds-accent-secondary: #333333;
+  --ds-accent-fg: #ffffff;
+  --ds-footer-bg: #333333;
+  --ds-footer-fg: #ffffff;
+  --ds-line: #d8d8d8;
+  --ds-muted: #666666;
+  background: #ffffff;
+  color: #1f1f1f;
+  font-size: 11px;
+  line-height: 1.5;
+  width: 100%;
+  max-width: 182mm;
+  margin: 0 auto;
+}
+
+/*
+ * Print frame. The sheet is paginated into explicit A4 pages by the engine in
+ * `paginate.ts`; repeated page margins come from the `@page` rule in
+ * `page.ts`, never from a one-off padding. The brand footer is placed once,
+ * into the reserved bottom band of the last page.
+ */
+.ds-print-frame {
+  width: 100%;
+}
+
+/* Unpaginated source: measured, never shown. */
+.ds-print-source {
+  position: absolute;
+  left: -10000px;
+  top: 0;
+  width: 182mm;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.ds-print-staging {
+  visibility: hidden;
+  z-index: -1;
+}
+
+.ds-print-pages {
+  transform: scale(var(--ds-page-scale, 1));
+  transform-origin: top left;
+}
+
+.ds-print-pages .ds-root {
+  max-width: none;
+  margin: 0;
+}
+
+.ds-print-pages .pagedjs_page {
+  background: #fff;
+  box-shadow: 0 1px 4px rgb(0 0 0 / 12%);
+  margin: 0 auto 6mm;
+}
+
+.ds-print-status,
+.ds-print-error {
+  font-size: 12px;
+  margin: 0 0 8px;
+}
+
+.ds-print-error {
+  border: 1px solid #b42318;
+  color: #b42318;
+  background: #fff5f4;
+  padding: 8px 10px;
+}
+
+.ds-print-retry {
+  margin-top: 6px;
+  border: 1px solid currentColor;
+  padding: 2px 8px;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+
+.ds-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12mm;
+}
+
+.ds-doctype {
+  background: var(--ds-accent);
+  color: var(--ds-accent-fg, #ffffff);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  padding: 3px 8px;
+}
+
+.ds-logo {
+  height: 26px;
+  width: auto;
+  max-width: 55mm;
+  object-fit: contain;
+}
+
+.ds-accentline {
+  height: 2px;
+  background: var(--ds-accent);
+  margin-top: 6px;
+}
+
+.ds-titleblock {
+  margin-top: 8px;
+}
+
+.ds-serie {
+  font-size: 10px;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  color: var(--ds-accent-secondary, var(--ds-accent));
+  font-weight: 700;
+}
+
+.ds-title {
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.25;
+  margin: 2px 0 0;
+}
+
+.ds-artikel {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 11px;
+  color: var(--ds-muted);
+  margin: 2px 0 0;
+}
+
+.ds-hero {
+  display: flex;
+  gap: 8mm;
+  margin-top: 6mm;
+  align-items: flex-start;
+}
+
+.ds-hero-media {
+  width: 60mm;
+  flex: 0 0 60mm;
+}
+
+.ds-hero-media img {
+  width: 100%;
+  height: auto;
+  max-height: 70mm;
+  object-fit: contain;
+  border: 1px solid var(--ds-line);
+  background: #fff;
+}
+
+.ds-hero-body {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.ds-lead {
+  margin: 0 0 4px;
+  font-size: 11.5px;
+}
+
+.ds-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 6px;
+}
+
+.ds-badges li {
+  border: 1px solid var(--ds-line);
+  padding: 1px 6px;
+  font-size: 9.5px;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  color: var(--ds-muted);
+}
+
+.ds-price {
+  margin: 6px 0 0;
+  font-size: 12px;
+}
+
+.ds-list {
+  margin: 0;
+  padding-left: 14px;
+}
+
+.ds-list li {
+  margin-bottom: 2px;
+}
+
+.ds-section {
+  margin-top: 6mm;
+}
+
+.ds-section-title {
+  font-size: 10.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  border-bottom: 1px solid var(--ds-accent);
+  padding-bottom: 2px;
+  margin: 0 0 4px;
+}
+
+.ds-group {
+  margin-top: 4px;
+}
+
+.ds-group-title {
+  font-size: 9.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  color: var(--ds-muted);
+  margin: 0 0 2px;
+}
+
+.ds-tbl {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 10.5px;
+}
+
+.ds-tbl th {
+  text-align: left;
+  font-size: 9.5px;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  color: var(--ds-muted);
+  border-bottom: 1px solid var(--ds-line);
+  padding: 2px 4px;
+}
+
+.ds-tbl td {
+  border-bottom: 1px solid var(--ds-line);
+  padding: 2px 4px;
+  vertical-align: top;
+  overflow-wrap: anywhere;
+}
+
+.ds-tbl td.ds-label {
+  width: 38%;
+  color: var(--ds-muted);
+}
+
+.ds-tbl td.ds-nr {
+  width: 24%;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  white-space: nowrap;
+}
+
+.ds-tbl td.ds-qty {
+  width: 8%;
+  text-align: right;
+}
+
+.ds-figures {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4mm;
+}
+
+.ds-figure {
+  flex: 1 1 45%;
+  margin: 0;
+}
+
+.ds-figure img {
+  width: 100%;
+  height: auto;
+  max-height: 55mm;
+  object-fit: contain;
+  border: 1px solid var(--ds-line);
+}
+
+.ds-figure figcaption {
+  font-size: 9.5px;
+  color: var(--ds-muted);
+  margin-top: 2px;
+}
+
+.ds-footer {
+  margin-top: 8mm;
+  background: var(--ds-footer-bg);
+  color: var(--ds-footer-fg);
+  padding: 4px 8px;
+  font-size: 9.5px;
+}
+
+/* Inside the reserved bottom band of the last page it carries no margin. */
+.ds-footer-slot .ds-footer {
+  margin: 0;
+}
+
+
+.ds-error {
+  border: 1px solid #b42318;
+  color: #b42318;
+  background: #fff5f4;
+  padding: 8px 10px;
+  font-size: 12px;
+}
+
+/* Mobile readability: stack the hero. */
+/*
+ * No host-viewport media queries for the sheet content: the sheet is always
+ * laid out for A4 (module 1.4.1). Narrow screens only scale the finished
+ * pages down (`--ds-page-scale`), which never introduces new line or page
+ * breaks and keeps screen and paper identical.
+ */
+
+/*
+ * Fragmentation rules. They must apply on screen as well: the pagination
+ * engine measures the live DOM, so print-only rules would be ignored.
+ */
+.ds-section,
+.ds-tbl,
+.ds-tbl tbody {
+  break-inside: auto;
+  page-break-inside: auto;
+}
+
+.ds-tbl tr,
+.ds-figure,
+.ds-head,
+.ds-hero,
+.ds-hero-media {
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+.ds-section-title,
+.ds-group-title {
+  break-after: avoid;
+  page-break-after: avoid;
+}
+
+@media print {
+  /* No reflow on paper: the pages are already laid out. */
+  .ds-root {
+    max-width: none;
+  }
+
+  /* Pages are explicit boxes; never scale them on paper. */
+  .ds-print-pages {
+    transform: none !important;
+  }
+
+  .ds-print-pages .pagedjs_page {
+    box-shadow: none;
+    margin: 0;
+  }
+
+  .ds-print-status,
+  .ds-print-error,
+  .ds-print-retry {
+    display: none !important;
+  }
+
+  .ds-doctype,
+  .ds-accentline,
+  .ds-footer {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}
+

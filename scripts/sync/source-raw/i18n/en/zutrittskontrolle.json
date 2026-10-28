@@ -1,0 +1,1566 @@
+{
+  "_meta": {
+    "namespace": "zutrittskontrolle",
+    "status": "migrated",
+    "note": "All 5 pages of the Access control domain are migrated (root, Fahrstuhlsteuerung, Mobiler Zutritt, Türen/Tore, Zufahrten/Parkplätze) and fully covered by `strictPages` (sub-pages added in stage `hygiene-strictpages-close-1`). Status aligned in stage `hygiene-status-1`. New section `elektronischeDrueckergarnitur` (stage `feature-elektronische-drueckergarnitur-1`) — content as placeholders, copy will be provided by the customer. DE-Inhalte befüllt in Etappe `feature-elektronische-drueckergarnitur-content-de-1` (Quelle: Flyer VF9815-9). EN-Übersetzung steht aus."
+  },
+  "shared": {
+    "label": "Access control",
+    "sections": {
+      "overview": "Overview",
+      "benefits": "Benefits"
+    },
+    "products": {
+      "label": "Products",
+      "title": "Solutions at a glance",
+      "datasheet": "Data sheet",
+      "learnMore": "Learn more"
+    },
+    "scroll": {
+      "left": "Scroll back",
+      "right": "Scroll forward"
+    }
+  },
+  "root": {
+    "hero": {
+      "headline": "End-to-end building security with the BCM system",
+      "intro": "Smart and flexible access control for every area of your property"
+    },
+    "bcm": {
+      "label": "BCM system",
+      "title": "The BCM system from TCS",
+      "text": "The BCM system from TCS provides a comprehensive digital solution for modern access control and building management. It combines maximum security with maximum convenience and makes it possible to effectively secure residential and commercial properties. From flexible door and lift control through intelligent locking systems for storage facilities to convenient mobile access via smartphone – BCM protects critical areas in a targeted manner and manages access rights precisely and ready for the future."
+    },
+    "functions": {
+      "label": "Functions",
+      "title": "Access control in detail",
+      "items": {
+        "tuerenTore": {
+          "headline": "1. Access control for doors and gates",
+          "text": "Reliable protection for outdoor and indoor areas: By using modern reading and input devices, the BCM system controls access at doors and gates – both outdoors and inside a building – securely and precisely. Doors are opened conveniently via transponder key or PIN code. To meet every structural requirement precisely, the portfolio includes a wide range of products such as electronic door handle sets, knob cylinders and BCM online readers."
+        },
+        "fahrstuhl": {
+          "headline": "2. Intelligent lift control",
+          "text": "Targeted floor release for authorised persons: To increase security in multi-storey properties, access control can be integrated directly into lifts. Especially in office and administrative buildings, hotels or apartment houses, access to individual floors can be precisely controlled. Floor access in the lifts is then granted securely and traceably via electronic key instead of by simply pressing a button."
+        },
+        "schraenkeContainer": {
+          "headline": "3. Electronic locking systems for cabinets and containers",
+          "text": "Seamless opening control for storage facilities: Beyond classic doors, the system also offers optimal security through detailed opening control of storage facilities. Outdoors, access to bicycle or container parking areas can be effectively controlled with electronic padlocks. Inside the building, cabinets, lockers or sensitive functional facilities such as server racks are reliably protected against unauthorised access by intelligent electronic cabinet locks."
+        },
+        "mobilerZutritt": {
+          "headline": "4. Mobile access via Door App or phone call",
+          "text": "The smartphone as a smart and flexible key: For maximum convenience, the BCM system enables keyless access directly via the mobile device. With the intelligent BCM DoorApp, the smartphone becomes a secure key for online and offline doors via Bluetooth (BLE) or NFC. Alternatively, the integrated GSM gateway makes it possible to grant access conveniently via a simple phone call or text message from a registered phone number, without the need for transponder cards. This is particularly useful, for example, to grant visitors or suppliers access for a limited time window."
+        }
+      }
+    }
+  },
+  "mobilerZutritt": {
+    "hero": {
+      "headline": "Mobile access by app or phone call",
+      "intro": "Open doors conveniently via smartphone app or phone call – keyless convenience for every access point."
+    },
+    "submenu": {
+      "bcmDoorApp": "BCM DoorApp",
+      "gsmGateway": "Access with Phone Call"
+    },
+    "overview": {
+      "title": "Keyless access – anytime and anywhere",
+      "text": "With the BCM system from TCS, the smartphone or phone call becomes the key. The BCM DoorApp enables effortless access via Bluetooth, NFC or remote opening – including temporary guest access and smart home integration. The GSM gateway provides time-limited access by call or SMS – ideal for suppliers, tradespeople or visitors without a transponder."
+    },
+    "products": {
+      "intro": "From the smartphone app to the GSM gateway – mobile access solutions for every use case.",
+      "items": {
+        "doorApp": {
+          "title": "BCM DoorApp",
+          "subtitle": "Smartphone access",
+          "description": "The smartphone is the key: effortless door opening via BLE, NFC or remote opening. With smart home integration, temporary guest access and biometric authentication."
+        },
+        "gsmGateway": {
+          "title": "GSM gateway",
+          "subtitle": "Access by phone call",
+          "description": "The ideal solution for time-limited access: the user gains access via call or SMS to the number stored in the GSM gateway – without keys or transponders."
+        }
+      }
+    },
+    "benefits": {
+      "title": "Why mobile access with TCS?",
+      "items": {
+        "komfort": {
+          "title": "Keyless convenience",
+          "desc": "Open doors via app, BLE, NFC or phone call – without transponders or keys."
+        },
+        "gaestezugang": {
+          "title": "Guest access in seconds",
+          "desc": "Grant temporary access rights directly in the app – ideal for visitors and suppliers."
+        },
+        "biometrie": {
+          "title": "Biometric security",
+          "desc": "Fingerprint or Face ID as additional authentication before opening the door."
+        },
+        "benachrichtigung": {
+          "title": "Real-time notifications",
+          "desc": "Push messages for warnings or critical incidents directly on your smartphone."
+        }
+      }
+    }
+  },
+  "fahrstuhlsteuerung": {
+    "hero": {
+      "headline": "Lift control – Intelligent floor release and access management",
+      "intro": "Controlled access to individual floors: The BCM lift control ensures that only authorised persons can reach the released floors."
+    },
+    "overview": {
+      "title": "Lift control with BCM",
+      "text": "TCS lift control extends the BCM access control system with targeted floor release. Access to individual floors is managed individually via transponder, PIN code or smartphone app. This reliably secures sensitive areas such as server rooms, executive floors or storage areas – while keeping operation highly convenient for users."
+    },
+    "benefits": {
+      "title": "Why TCS lift control?",
+      "items": {
+        "etagenfreigabe": {
+          "title": "Individual floor release",
+          "desc": "Every floor can be controlled separately – for maximum security in sensitive areas."
+        },
+        "skalierbar": {
+          "title": "Scalable & modular",
+          "desc": "From 4 to more than 100 floors: relay modules can be cascaded as needed."
+        },
+        "onlineOffline": {
+          "title": "Online & offline",
+          "desc": "Real-time control via online readers or autonomous operation with offline components."
+        },
+        "integration": {
+          "title": "Seamless BCM integration",
+          "desc": "Fully integrated into the BCM ecosystem – one software for doors, gates and lifts."
+        }
+      }
+    }
+  },
+  "zufahrtenParkplaetze": {
+    "hero": {
+      "headline": "Access roads and car parks – Effortless access to the car park",
+      "intro": "Providing a sufficient number of parking spaces and conveniently managing the car park can be a major challenge. The TCS parking system enables easy integration of all demanding factors."
+    },
+    "submenu": {
+      "bcmLeser": "BCM Online Readers",
+      "handsender": "BCM Remote Control Reader",
+      "kfzKennzeichenerkennung": "License Plate Recognition",
+      "uhfLeser": "UHF Reader",
+      "gsmGateway": "GSM Gateway"
+    },
+    "overview": {
+      "title": "Control of barrier systems",
+      "text": "The TCS parking system enables easy integration of all demanding factors so that parking runs completely smoothly. The wide range of available devices and identification media offers solutions for every situation – from simple barrier opening to fully automatic licence plate recognition."
+    },
+    "products": {
+      "intro": "From transponder cards to vehicle licence plate recognition – tailor-made products for every access point.",
+      "items": {
+        "bcmLeser": {
+          "title": "BCM reader",
+          "subtitle": "RFID technology",
+          "description": "Future-proof RFID readers that support smartphones, cards, tags or PIN – for flexible access control."
+        },
+        "handsender": {
+          "title": "Hand transmitter",
+          "subtitle": "Convenient access",
+          "description": "A simple press of a button enables convenient access to parking areas – with a copy-protected, AES-128-encrypted hand transmitter."
+        },
+        "kfz": {
+          "title": "Vehicle licence plate recognition",
+          "subtitle": "Automatic access",
+          "description": "Convenient opening with intelligent licence plate recognition via IP camera – with adjustable smart parameters at speeds of up to 30 km/h."
+        },
+        "uhfLeser": {
+          "title": "UHF reader",
+          "subtitle": "Long read range",
+          "description": "When security, fast operation and a long read range are decisive – ideal for high traffic frequencies."
+        },
+        "gsmGateway": {
+          "title": "GSM gateway",
+          "subtitle": "Remote opening by call",
+          "description": "Reliable remote opening of the gate via caller ID recognition – without additional hardware on the vehicle."
+        }
+      }
+    },
+    "benefits": {
+      "title": "Why TCS for access roads and car parks?",
+      "items": {
+        "modular": {
+          "title": "Modular design",
+          "desc": "Scalable from a single barrier to a complex parking system."
+        },
+        "integration": {
+          "title": "Easy integration",
+          "desc": "Various identification media – smartphone, card, tag, PIN or licence plate."
+        },
+        "verwaltung": {
+          "title": "Central management",
+          "desc": "All access points are managed via the web-based BCM software."
+        },
+        "sicherheit": {
+          "title": "Maximum security",
+          "desc": "AES-128 encryption and copy-protected hand transmitters for maximum protection."
+        }
+      }
+    }
+  },
+  "tuerenTore": {
+    "hero": {
+      "headline": "Doors and gates – Secure access solutions for every entrance",
+      "intro": "Reliable protection for outdoor and indoor areas: Modern reading and input devices control access at doors and gates securely and precisely."
+    },
+    "submenu": {
+      "drueckergarnitur": "Electronic Door Handle",
+      "knaufzylinder": "Electronic Knob Cylinder",
+      "onlineLeser": "BCM Online Readers",
+      "funkvernetzteLeser": "Wireless Offline Readers",
+      "miniCloud": "BCM MiniCloud",
+      "handsender": "BCM Remote Control Reader",
+      "biometrie": "Biometrics"
+    },
+    "overview": {
+      "title": "Access control for doors and gates",
+      "text": "The BCM system from TCS secures access at all doors and gates – from the main entrance door through interior doors to underground car park gates and outdoor facilities. Doors are opened conveniently via transponder key, card, PIN code, biometrics or vehicle licence plate recognition. Thanks to the modular product portfolio, every structural requirement can be covered precisely."
+    },
+    "products": {
+      "intro": "From the electronic door handle set to facial recognition – tailored products for every access point.",
+      "items": {
+        "drueckergarnitur": {
+          "title": "Electronic lever handle",
+          "subtitle": "Interior doors",
+          "description": "The elegant solution for interior doors: The electronic lever handle combines design and security. Access is granted via transponder."
+        },
+        "knaufzylinder": {
+          "title": "Electronic knob cylinder",
+          "subtitle": "Retrofit",
+          "description": "Retrofittable and flexible: The electronic knob cylinder replaces the mechanical locking cylinder and turns every existing door into a controlled access point."
+        },
+        "onlineLeser": {
+          "title": "BCM online reader",
+          "subtitle": "Various mounting options",
+          "description": "Future-proof RFID readers that support smartphones, cards, tags or PIN codes – for uncompromising security, modern in design and ready for the future."
+        },
+        "offlineLeser": {
+          "title": "Wireless offline readers",
+          "subtitle": "Wireless connection",
+          "description": "Wireless connection for flexible deployment locations: The wireless offline readers communicate wirelessly with the BCM control unit."
+        },
+        "handsender": {
+          "title": "Hand transmitter",
+          "subtitle": "Car parks & gates",
+          "description": "Convenient access by radio: The hand transmitter opens gates and barriers from up to 25 metres away – AES-128 encrypted and impossible to copy."
+        },
+        "vorhaengeschloss": {
+          "title": "Padlock",
+          "subtitle": "Remote locations",
+          "description": "Padlock with electronic knob cylinder: The secure solution for remote doors, bicycle sheds or containers – usable indoors and outdoors."
+        },
+        "biometrie": {
+          "title": "Biometrics",
+          "subtitle": "Fingerprint & face recognition",
+          "description": "Faster than a password: Biometric terminals with fingerprint scanner, 3D finger scanner or face recognition for maximum security."
+        },
+        "kfz": {
+          "title": "Vehicle licence plate recognition",
+          "subtitle": "Access control",
+          "description": "Smooth passage without waiting times: Licence plate recognition via IP camera or UHF reader for automatic access control at speeds of up to 30 km/h."
+        },
+        "bcmMiniCloud": {
+          "title": "BCM MiniCloud",
+          "subtitle": "Cloud access control",
+          "description": "Simple and secure cloud-based access control for small businesses and private homes – no cabling, ready in 10 minutes."
+        }
+      }
+    },
+    "benefits": {
+      "title": "Why TCS for doors and gates?",
+      "items": {
+        "modular": {
+          "title": "Modular design",
+          "desc": "Scalable from a single access point to a complex large-scale system."
+        },
+        "nachruestung": {
+          "title": "Easy retrofitting",
+          "desc": "Electronic cylinders and handle sets replace mechanical locks without any conversion work."
+        },
+        "verwaltung": {
+          "title": "Central management",
+          "desc": "All doors and gates are managed via the web-based BCM software."
+        },
+        "sicherheit": {
+          "title": "Maximum security",
+          "desc": "Encryption at every point, security grade 4 according to EN 60839-11-1."
+        }
+      }
+    }
+  },
+  "elektronischeDrueckergarnitur": {
+    "hero": {
+      "eyebrow": "One system – many applications",
+      "headline": "Electronic door handle set",
+      "subline": "Elegant and convenient digital door handle",
+      "description": "The electronic door handle set is a battery-powered RFID offline reader in the TCS access control system. Ideal where cabling is not possible or listed building regulations prevent structural modifications. For higher security requirements, the system can be upgraded with wireless network operation. Compatible with glass, wood, plastic and tubular frame doors.",
+      "cta": "Send project enquiry",
+      "ctaUrl": "/kontakt/bcm",
+      "datasheetLabel": "Download data sheet",
+      "datasheetUrl": "#datasheet-placeholder",
+      "imageAlt": "Electronic door handle set EvoLock Prima – stainless steel lever handle with integrated RFID reader module",
+      "imagePlaceholder": "Placeholder — image follows"
+    },
+    "benefits": {
+      "eyebrow": "Your benefits",
+      "label": "Advantages",
+      "title": "Advantages of the electronic door handle set",
+      "items": {
+        "1": {
+          "title": "Timeless Design",
+          "desc": "Stainless steel design with a wide range of variants."
+        },
+        "2": {
+          "title": "No Drilling or Cabling",
+          "desc": "Compatible with DIN profile cylinders and emergency exit locks (DIN EN 179)."
+        },
+        "3": {
+          "title": "Weatherproof and Fire-Rated",
+          "desc": "Available in weatherproof (IP66), fire- or smoke-resistant (DIN EN 1634) versions."
+        },
+        "4": {
+          "title": "Integrated Signalling",
+          "desc": "Optical and acoustic signalling integrated directly in the device."
+        },
+        "5": {
+          "title": "Long Battery Life",
+          "desc": "Integrated battery with a service life of up to 2 years and more."
+        },
+        "6": {
+          "title": "Flexible Operating Modes",
+          "desc": "Automatic unlocking and toggle function."
+        },
+        "7": {
+          "title": "Compliant with DIN EN 16867 and DIN EN 1906",
+          "desc": "Meets the relevant standards for electromechanical fittings."
+        }
+      }
+    },
+    "useCases": {
+      "label": "Applications",
+      "title": "Typical Areas of Application",
+      "items": {
+        "1": {
+          "title": "Commercial and Office Buildings",
+          "text": "Managing access rights for employees, offices, conference rooms and administrative floors."
+        },
+        "2": {
+          "title": "Healthcare",
+          "text": "Medical practices, hospitals and care homes – particularly for sensitive areas accessible to authorised personnel only."
+        },
+        "3": {
+          "title": "Educational Institutions",
+          "text": "Schools, nurseries and universities for secure access control."
+        },
+        "4": {
+          "title": "Residential Buildings",
+          "text": "Multi-family homes – entrance doors, basement doors, storage rooms."
+        },
+        "5": {
+          "title": "High-Security Areas",
+          "text": "Research and development departments, archives and server rooms."
+        },
+        "6": {
+          "title": "Public Buildings and Municipalities",
+          "text": "Cultural institutions or administrative buildings."
+        },
+        "7": {
+          "title": "Listed Buildings",
+          "text": "Installation often possible without drilling or cabling."
+        }
+      }
+    },
+    "cta": {
+      "label": "Contact",
+      "title": "We are happy to advise you!",
+      "text": "Get in touch — we will support you in selecting and planning your electronic door handle set.",
+      "button": "Send project enquiry",
+      "ctaUrl": "/kontakt/bcm",
+      "datasheetLabel": "Download data sheet",
+      "datasheetUrl": "#datasheet-placeholder"
+    }
+  },
+  "knaufzylinder": {
+    "hero": {
+      "eyebrow": "One System – Many Applications",
+      "headline": "Electronic Knob Cylinder",
+      "subline": "A versatile electronic door lock",
+      "description": "The electronic knob cylinder is a smart, battery-powered RFID offline reader within the TCS access control system. It is the perfect solution when wiring is not possible or when the building is part of cultural heritage. For higher security, functionality can easily be upgraded to wireless network operation.",
+      "introText": "Fits any Euro profile cylinder — simple retrofitting without drilling or cabling. Ideal for high tenant turnover and as part of the BCM access control system with online and offline readers.",
+      "imageAlt": "TCS Electronic Knob Cylinder",
+      "ctaBeratung": "Send project enquiry",
+      "ctaUrl": "/kontakt/bcm",
+      "ctaDatenblatt": "Download data sheet",
+      "datasheetUrl": "#datasheet-placeholder"
+    },
+    "intro": {
+      "headline": "Round, smart and secure!",
+      "text": "The electronic knob cylinder fits any Euro profile cylinder, enabling simple retrofitting without drilling or cabling. It is the ideal solution for apartment doors with high tenant turnover and the resulting higher risk of lost keys. Managed via the browser-based BCM software, it integrates seamlessly into existing access control systems with online and offline readers."
+    },
+    "vorteile": {
+      "eyebrow": "Your Benefits",
+      "headline": "Advantages of the Electronic Knob Cylinder",
+      "items": [
+        {
+          "title": "Easy Installation",
+          "description": "Minimal installation costs due to Euro profile cylinder compatibility — no drilling, no cabling."
+        },
+        {
+          "title": "Integrated Signalling",
+          "description": "LED and buzzer signals directly in the cylinder knob for acoustic and visual feedback."
+        },
+        {
+          "title": "Long Battery Life",
+          "description": "Up to 2 years of operation — low maintenance and reliable in daily use."
+        },
+        {
+          "title": "Wide Range of Versions",
+          "description": "Available in weatherproof (IP66), fire/smoke-resistant (DIN EN 1634), anti-panic and fire door versions (T90), as well as half-cylinder versions."
+        },
+        {
+          "title": "Flexible Functions",
+          "description": "Automatic unlocking and toggle function for different door requirements."
+        },
+        {
+          "title": "Norm Compliant",
+          "description": "Meets the requirements of DIN EN 15684 (mechatronic locking cylinders and fittings)."
+        },
+        {
+          "title": "Central Management",
+          "description": "Manage access rights conveniently via browser-based software — no on-site programming required."
+        },
+        {
+          "title": "Upgradeable",
+          "description": "Simple upgrade to wireless network operation for higher security requirements."
+        }
+      ]
+    },
+    "anwendungen": {
+      "eyebrow": "Applications",
+      "headline": "Typical Use Cases",
+      "items": [
+        {
+          "title": "Apartment Doors",
+          "description": "Ideal for high tenant turnover — manage access rights digitally instead of replacing keys."
+        },
+        {
+          "title": "Listed Buildings",
+          "description": "Electronic access control without visible cabling or structural modifications."
+        },
+        {
+          "title": "Retrofitting Existing Doors",
+          "description": "Direct replacement of the mechanical cylinder — compatible with existing Euro profile locks."
+        },
+        {
+          "title": "Offices and Commercial",
+          "description": "Flexible access rights and time window control for employees, cleaning staff and delivery personnel."
+        }
+      ]
+    },
+    "cta": {
+      "label": "Contact",
+      "title": "We are happy to advise you!",
+      "subtext": "Get in touch — we support you in selecting and planning your electronic knob cylinder.",
+      "button": "Send project enquiry",
+      "ctaUrl": "/kontakt/bcm",
+      "datasheetLabel": "Download data sheet",
+      "datasheetUrl": "#datasheet-placeholder",
+      "claim": "We are happy to advise you!",
+      "phone": "+49 4194 9881-175",
+      "email": "bcm.support@tcsag.de"
+    }
+  },
+  "handsender": {
+    "hero": {
+      "eyebrow": "One System – Many Applications",
+      "headline": "BCM Remote Control Reader",
+      "subline": "Safe and comfortable access to parking areas",
+      "description": "The BCM remote control reader operates like an ordinary online reader. The system requires a reader, antenna and remote control to open gates or parking barriers from up to 25 metres — conveniently from inside the vehicle.",
+      "introText": "Thanks to AES-128 encryption, every remote control is unique and impossible to copy. Access rights are managed conveniently via the web-based software.",
+      "imageAlt": "BCM Remote Control Reader by TCS",
+      "ctaBeratung": "Send project enquiry",
+      "ctaDatenblatt": "Download data sheet",
+      "ctaUrl": "/kontakt/bcm",
+      "datasheetUrl": "https://www.tcsag.de/fileadmin/Dokumente/Datenblaetter/VF9815-1_BCM_Handsender.pdf"
+    },
+    "vorteile": {
+      "eyebrow": "Your Benefits",
+      "headline": "Advantages of the BCM Remote Control Reader",
+      "items": [
+        {
+          "title": "Online Reader Functionality",
+          "description": "Functions like an ordinary online reader — seamlessly integrated into the BCM system."
+        },
+        {
+          "title": "Long Range",
+          "description": "Thanks to the external antenna, a range of approx. 25 metres is achieved, depending on conditions."
+        },
+        {
+          "title": "Three Remote Control Variants",
+          "description": "Remote controls with 1, 2 or 4 buttons for different needs and access areas."
+        },
+        {
+          "title": "Copy Protected",
+          "description": "Data is AES-128 encrypted — every remote control is unique and impossible to copy."
+        },
+        {
+          "title": "Flexible Access Rights",
+          "description": "Different buttons can grant access to different areas. Rights managed via the web interface."
+        },
+        {
+          "title": "Combinable",
+          "description": "Barrier control can be combined with complete control of car park entrances."
+        }
+      ]
+    },
+    "anwendungen": {
+      "eyebrow": "Applications",
+      "headline": "Typical Use Cases",
+      "items": [
+        {
+          "title": "Car Parks and Underground Garages",
+          "description": "Comfortable opening of barriers and gates directly from a moving vehicle."
+        },
+        {
+          "title": "Company Premises and Factory Gates",
+          "description": "Fast access for employees without stopping — no waiting times."
+        },
+        {
+          "title": "Logistics and Delivery Traffic",
+          "description": "Different buttons for different zones — one remote control for multiple access points."
+        },
+        {
+          "title": "Residential and Communal Garages",
+          "description": "Simple rights management for residents via the browser-based BCM software."
+        }
+      ]
+    },
+    "cta": {
+      "label": "Contact",
+      "title": "We are happy to advise you!",
+      "subtext": "Get in touch — we support you in selecting and planning your BCM remote control system.",
+      "button": "Send project enquiry",
+      "datasheetLabel": "Download data sheet",
+      "ctaUrl": "/kontakt/bcm",
+      "datasheetUrl": "https://www.tcsag.de/fileadmin/Dokumente/Datenblaetter/VF9815-1_BCM_Handsender.pdf"
+    }
+  },
+  "bcmMiniCloud": {
+    "hero": {
+      "eyebrow": "One System – Many Applications",
+      "headline": "BCM MiniCloud",
+      "subline": "Simple and secure access control",
+      "description": "MiniCloud is a simple, intuitive and secure system for small businesses or private homes that need simple and managed access control. With offline devices and cloud access, you can quickly build a flexible and scalable system.",
+      "introText": "Easy operation with a USB reader and complete control of access rights simplify your daily routine — no cabling, no drilling, ready in 10 minutes.",
+      "imageAlt": "TCS BCM MiniCloud",
+      "ctaBeratung": "Send project enquiry",
+      "ctaDatenblatt": "Download data sheet"
+    },
+    "vorteile": {
+      "eyebrow": "Your Benefits",
+      "headline": "BCM MiniCloud — simple, secure, flexible",
+      "items": [
+        {
+          "title": "Lower Investment",
+          "description": "10 minutes effort without drilling — replace existing lock with electronic access control."
+        },
+        {
+          "title": "Remote Management",
+          "description": "Easy remote management of users — no need to visit the site to update access rights."
+        },
+        {
+          "title": "Cloud Recovery",
+          "description": "Straightforward recovery from cloud configuration in case of hardware replacement."
+        },
+        {
+          "title": "Immediate Blocking",
+          "description": "Immediate user blacklisting and event transfer with administration cards or smartphones."
+        },
+        {
+          "title": "Security and Maintenance",
+          "description": "Regular security checks, remote support maintenance and free online upgrades included."
+        },
+        {
+          "title": "Modern Technology",
+          "description": "Perfect combination of Data-on-Card technology and MIFARE® DESFire®/Smartphone Bluetooth Low Energy (BLE)."
+        }
+      ]
+    },
+    "anwendungen": {
+      "eyebrow": "Applications",
+      "headline": "Smart offline devices",
+      "items": [
+        {
+          "title": "Electronic Knob Cylinder",
+          "description": "Complete electronic cylinder solution — retrofittable without cabling."
+        },
+        {
+          "title": "Electronic Door Handle",
+          "description": "Comfortable and intelligent digital handle for all common doors."
+        },
+        {
+          "title": "Electronic Locker Locks",
+          "description": "Electronic control of lockers, cabinets and server racks."
+        },
+        {
+          "title": "Padlock",
+          "description": "Electronic padlock for remote locations."
+        },
+        {
+          "title": "1-Door Controller",
+          "description": "Where a partially wired system is essential, e.g. for barriers or sliding doors."
+        }
+      ]
+    },
+    "cta": {
+      "eyebrow": "Contact",
+      "claim": "We are happy to advise you!",
+      "subtext": "Get in touch — we support you in setting up your BCM MiniCloud.",
+      "phone": "+49 4194 9881-175",
+      "email": "bcm.support@tcsag.de",
+      "ctaBeratung": "Send project enquiry",
+      "ctaDatenblatt": "Download data sheet"
+    }
+  },
+  "funkvernetzteLeser": {
+    "hero": {
+      "eyebrow": "One System – Many Applications",
+      "headline": "Wireless Offline Readers",
+      "subline": "Wireless Online System for Demanding Environments",
+      "description": "By connecting a wireless online module to the BCM-Central, real-time communication with up to 16 battery-driven offline readers is possible. Specific doors where cabling is not an option become an equivalent segment of a high-security system.",
+      "introText": "The wireless online system includes all online functionalities — up to 16 devices with 868 MHz, up to 8 devices with BLE. Offline and online readers can be combined in the same access control system.",
+      "imageAlt": "TCS Wireless Offline Readers",
+      "imagePlaceholder": "Product image follows",
+      "ctaBeratung": "Send project enquiry",
+      "ctaDatenblatt": "Download data sheet",
+      "ctaUrl": "/kontakt/bcm",
+      "datasheetUrl": "#datenblatt-platzhalter"
+    },
+    "vorteile": {
+      "eyebrow": "Your Benefits",
+      "headline": "Advantages of Wireless Offline Readers",
+      "items": [
+        {
+          "title": "Real-Time Events",
+          "description": "Capture online events in real time and remote opening via app — full online control without cabling."
+        },
+        {
+          "title": "Easy Setup",
+          "description": "Effortless setup and management with the browser-based BCM software."
+        },
+        {
+          "title": "Mixed Operation",
+          "description": "Wireless offline and wired online readers can be used in the same access control system."
+        },
+        {
+          "title": "High Security",
+          "description": "Encrypted wireless data transmission with AES 128 bit for maximum protection."
+        },
+        {
+          "title": "Wide Device Range",
+          "description": "A solution for every situation — electronic knob cylinder, door handle, padlock, locker lock."
+        },
+        {
+          "title": "Scalable",
+          "description": "Up to 16 devices with 868 MHz or up to 8 devices with BLE per gateway — flexibly expandable."
+        }
+      ]
+    },
+    "anwendungen": {
+      "eyebrow": "Applications",
+      "headline": "Typical Use Cases",
+      "items": [
+        {
+          "title": "Listed Buildings",
+          "description": "Electronic access control without cabling — no structural modifications required."
+        },
+        {
+          "title": "Retrofitting Existing Installations",
+          "description": "Upgrade offline readers to online functionality without laying new cables."
+        },
+        {
+          "title": "Remote Doors and Locations",
+          "description": "Doors without network connection become part of the central access control system."
+        },
+        {
+          "title": "Mixed Building Structures",
+          "description": "Combination of wired online readers and wireless offline readers in one system."
+        }
+      ]
+    },
+    "cta": {
+      "label": "Contact",
+      "title": "We are happy to advise you!",
+      "subtext": "Get in touch — we support you in planning your wireless offline reader system.",
+      "button": "Send project enquiry",
+      "datasheetLabel": "Download data sheet",
+      "ctaUrl": "/kontakt/bcm",
+      "datasheetUrl": "#datenblatt-platzhalter"
+    }
+  },
+  "onlineLeser": {
+    "hero": {
+      "eyebrow": "One System – Many Applications",
+      "headline": "BCM Online Readers",
+      "subline": "Future-proof RFID readers supporting smartphones, cards, tags or PIN codes",
+      "description": "BCM online readers offer uncompromising security, modern design and are ready for the future. They fit any environment and offer 100% security at all times — available as surface or flush mount, indoors and outdoors.",
+      "introText": "Open the door with an NFC smartphone — including Apple Wallet, Bluetooth Low Energy (BLE), card, tag or PIN code. Up to 200 m distance from the central using standard MODBUS protocol.",
+      "imageAlt": "TCS BCM Online Readers",
+      "imagePlaceholder": "Product image follows",
+      "ctaBeratung": "Send project enquiry",
+      "ctaDatenblatt": "Download data sheet",
+      "ctaUrl": "/kontakt/bcm",
+      "datasheetUrl": "#datenblatt-platzhalter"
+    },
+    "vorteile": {
+      "eyebrow": "Your Benefits",
+      "headline": "Advantages of BCM Online Readers",
+      "items": [
+        {
+          "title": "Flexible Mounting",
+          "description": "Surface or flush mounting option — easy to mount and connect."
+        },
+        {
+          "title": "Touch Keypad",
+          "description": "Optionally with backlit touch keypad for PIN code access."
+        },
+        {
+          "title": "Signalling",
+          "description": "Optical and acoustic signalling for clear access feedback."
+        },
+        {
+          "title": "Weatherproof",
+          "description": "IP65 protected — suitable for indoor and outdoor mounting in all weather conditions."
+        },
+        {
+          "title": "Highest Security",
+          "description": "Encrypted communication, tamper protection and Grade 4 security compliant (EN 60839-11-1)."
+        },
+        {
+          "title": "Multi-Media Access",
+          "description": "Read/write MIFARE® DESFire®, NFC and Bluetooth Low Energy (BLE) — one reader for all media."
+        },
+        {
+          "title": "Long Range",
+          "description": "Up to 200 m distance from the central using standard MODBUS protocol."
+        },
+        {
+          "title": "Special Functions",
+          "description": "Write data to cards for offline doors, arm/disarm intrusion alarm systems and other special functions."
+        }
+      ]
+    },
+    "anwendungen": {
+      "eyebrow": "Applications",
+      "headline": "Typical Use Cases",
+      "items": [
+        {
+          "title": "Offices and Commercial",
+          "description": "Access control for employees via card, smartphone or PIN — flexible and scalable."
+        },
+        {
+          "title": "Outdoor Areas and Entrances",
+          "description": "IP65 protected for main entrances, car park access and exterior doors in any weather."
+        },
+        {
+          "title": "Flush-Mounted Door Stations",
+          "description": "Readers for installation in front panels, e.g. in the AMI flush-mounted frontdoor station series."
+        },
+        {
+          "title": "Intrusion Alarm Systems",
+          "description": "Arm and disarm alarm systems directly via the BCM reader — no separate control panel required."
+        }
+      ]
+    },
+    "cta": {
+      "label": "Contact",
+      "title": "We are happy to advise you!",
+      "subtext": "Get in touch — we support you in selecting and planning your BCM online readers.",
+      "button": "Send project enquiry",
+      "datasheetLabel": "Download data sheet",
+      "ctaUrl": "/kontakt/bcm",
+      "datasheetUrl": "#datenblatt-platzhalter"
+    }
+  },
+  "vorhaengeschloss": {
+    "hero": {
+      "eyebrow": "One System – Many Applications",
+      "headline": "Padlock with Electronic Knob Cylinder",
+      "subline": "The perfect solution for securing remote sites",
+      "description": "The padlock is the perfect solution for distant doors where secure electronic access control is crucial. It provides a flexible and future-proof solution even for areas where the use of conventional access control is not possible.",
+      "introText": "The electronic knob cylinder is managed via browser-based BCM software and is part of the access control system with other offline and online readers in a building.",
+      "imageAlt": "TCS Padlock with Electronic Knob Cylinder",
+      "ctaBeratung": "Send project enquiry",
+      "ctaDatenblatt": "Download data sheet",
+      "ctaUrl": "/kontakt/bcm",
+      "datasheetUrl": "#datenblatt-platzhalter"
+    },
+    "vorteile": {
+      "eyebrow": "Your Benefits",
+      "headline": "Advantages of the Padlock",
+      "items": [
+        {
+          "title": "Two Operating Modes",
+          "description": "Available as offline reader or wireless offline reader — depending on security requirements."
+        },
+        {
+          "title": "Familiar Handling",
+          "description": "Use like a normal mechanical padlock, but much more secure thanks to the latest security technologies."
+        },
+        {
+          "title": "Lost Transponders",
+          "description": "Reset individual access rights in case of lost transponder tags or cards — no lock replacement needed."
+        },
+        {
+          "title": "Time Window Control",
+          "description": "Restriction of access rights to specific time windows for maximum control."
+        },
+        {
+          "title": "Vandal Protection",
+          "description": "Vandal shield included — robust and reliable even under difficult conditions."
+        },
+        {
+          "title": "Indoor and Outdoor",
+          "description": "Suitable for indoor and outdoor use, e.g. bike sheds, containers or remote locations."
+        }
+      ]
+    },
+    "anwendungen": {
+      "eyebrow": "Applications",
+      "headline": "Typical Use Cases",
+      "items": [
+        {
+          "title": "Remote Locations",
+          "description": "Electronic access control where cabling is not possible — e.g. external storage or outbuildings."
+        },
+        {
+          "title": "Bike Sheds and Containers",
+          "description": "Secure access control for communal facilities without complex installation."
+        },
+        {
+          "title": "Construction Sites and Temporary Locations",
+          "description": "Flexible and reusable — ideal for changing deployment locations."
+        },
+        {
+          "title": "Extension of Existing Systems",
+          "description": "Seamless integration into existing BCM access control systems with online and offline readers."
+        }
+      ]
+    },
+    "cta": {
+      "label": "Contact",
+      "title": "We are happy to advise you!",
+      "subtext": "Get in touch — we support you in selecting and planning your electronic padlock.",
+      "button": "Send project enquiry",
+      "ctaUrl": "/kontakt/bcm",
+      "datasheetLabel": "Download data sheet",
+      "datasheetUrl": "#datenblatt-platzhalter"
+    }
+  },
+  "biometrie": {
+    "hero": {
+      "eyebrow": "One System – Many Applications",
+      "headline": "Access Control Biometrics",
+      "subline": "Fingerprint and facial recognition",
+      "description": "Biometric TCS access control terminals are particularly suitable for applications where fast and secure identification is required. They optionally include an RFID reader for MIFARE® DESFire® transponders.",
+      "introText": "The terminals have a POE connection and are integrated into the BCM system via Ethernet. All devices are suitable for outdoor use (IP65) and particularly reliable against vandalism.",
+      "imageAlt": "TCS Biometric Access Control Terminal",
+      "imagePlaceholder": "Product image to follow",
+      "ctaBeratung": "Send project enquiry",
+      "ctaDatenblatt": "Download data sheet",
+      "ctaUrl": "/kontakt/bcm",
+      "datasheetUrl": "#datenblatt-platzhalter"
+    },
+    "produkte": {
+      "eyebrow": "Our Products",
+      "headline": "Faster than a password",
+      "items": [
+        {
+          "headline": "Fingerprint Scanner",
+          "imageAlt": "TCS Fingerprint Scanner",
+          "vorteile": [
+            "Identification of up to 1:100,000 in less than 1 second",
+            "Liveness detection",
+            "High security standards (OSDP, UL294)",
+            "Acoustic and optical signalling",
+            "Optional variant with display"
+          ]
+        },
+        {
+          "headline": "3D Finger Scanner",
+          "imageAlt": "TCS 3D Finger Scanner",
+          "vorteile": [
+            "Contactless scanning of fingerprints and QR codes",
+            "Storage of biometric data on the RFID card possible",
+            "Up to 10,000 user records",
+            "Capture and verification of 4 fingers in less than 1 second",
+            "Precise and fast access control"
+          ]
+        },
+        {
+          "headline": "Facial Recognition Scanner",
+          "imageAlt": "TCS Facial Recognition Scanner",
+          "vorteile": [
+            "Contactless, fast identification of up to 30 users per minute",
+            "Up to 40,000 user records",
+            "Operation without stopping while walking at different light conditions",
+            "Suitable for use with face masks",
+            "Fraud and manipulation-proof (iBeta Level 2, GDPR compliant)"
+          ]
+        }
+      ]
+    },
+    "anwendungen": {
+      "eyebrow": "Applications",
+      "headline": "Typical Use Cases",
+      "items": [
+        {
+          "title": "High Security Areas",
+          "description": "Server rooms, laboratories and security zones with the highest identity verification requirements."
+        },
+        {
+          "title": "Companies and Authorities",
+          "description": "Fast identification without cards or PINs — ideal for high staff throughput."
+        },
+        {
+          "title": "Outdoor Areas",
+          "description": "IP65-protected terminals for entrances and access points in all weather conditions."
+        },
+        {
+          "title": "Hygiene and Production Areas",
+          "description": "Contactless recognition via 3D finger scanner or facial recognition — no contact surfaces."
+        }
+      ]
+    },
+    "cta": {
+      "label": "Contact",
+      "title": "We are happy to advise you!",
+      "subtext": "Get in touch — we support you in selecting and planning your biometric access solution.",
+      "button": "Send project enquiry",
+      "ctaUrl": "/kontakt/bcm",
+      "datasheetLabel": "Download data sheet",
+      "datasheetUrl": "#datenblatt-platzhalter"
+    }
+  },
+  "zufahrtskontrolle": {
+    "hero": {
+      "eyebrow": "One System – Many Applications",
+      "headline": "Vehicle Access Control",
+      "subline": "License plate recognition and UHF readers",
+      "description": "Vehicle access control places special demands on a modern access control system. TCS offers two reliable solutions with license plate recognition and UHF readers with integrated broadband antenna for fast access verification while driving.",
+      "introText": "Access verification takes place without stopping — without leaving the vehicle. This avoids long waiting times and optimises operational processes. All products are perfectly integrated into the BCM system.",
+      "imageAlt": "TCS Vehicle Access Control",
+      "imagePlaceholder": "Placeholder — image follows",
+      "ctaBeratung": "Send project enquiry",
+      "ctaDatenblatt": "Download data sheet"
+    },
+    "produkte": {
+      "eyebrow": "Our Products",
+      "headline": "Free flow without waiting times",
+      "items": [
+        {
+          "headline": "License Plate Recognition",
+          "imageAlt": "TCS IP Camera for License Plate Recognition",
+          "vorteile": [
+            "License plate verification via IP cameras for day and night operation",
+            "Verification of vehicles in single-lane areas",
+            "Speeds of up to 30 km/h possible",
+            "Detection of license plates at distances of up to 7 m",
+            "Entry and exit control for vehicle presence detection",
+            "Power supply via POE connection",
+            "Suitable for outdoor use (IP66/67/68)",
+            "Maximum protection against vandalism (IK10)"
+          ]
+        },
+        {
+          "headline": "UHF Reader",
+          "imageAlt": "TCS UHF Reader",
+          "vorteile": [
+            "Online reader with integrated broadband antenna (865–868 MHz)",
+            "Optional antenna extension for entry and exit operation",
+            "Reading range of up to 6 m",
+            "UHF transponders attached to the windscreen",
+            "Alternative UHF labels for forklift trucks for use on metal surfaces",
+            "Power supply via POE connection",
+            "Suitable for outdoor use (IP67)"
+          ]
+        }
+      ]
+    },
+    "anwendungen": {
+      "eyebrow": "Applications",
+      "headline": "Typical Use Cases",
+      "items": [
+        {
+          "title": "Company Premises and Factory Gates",
+          "description": "Automatic access control for employees and suppliers — no stopping, no waiting times."
+        },
+        {
+          "title": "Car Parks and Underground Garages",
+          "description": "License plate recognition or UHF transponders for smooth entry and exit operation."
+        },
+        {
+          "title": "Logistics and Warehouse Locations",
+          "description": "Access control for trucks and forklift trucks — including on metal surfaces via UHF label."
+        },
+        {
+          "title": "Security Areas and Authorities",
+          "description": "Complete vehicle presence detection with entry and exit control."
+        }
+      ]
+    },
+    "cta": {
+      "label": "Contact",
+      "title": "We are happy to advise you!",
+      "subtext": "Get in touch — we support you in planning your vehicle access control.",
+      "button": "Send project enquiry",
+      "ctaUrl": "/kontakt/bcm",
+      "datasheetLabel": "Download data sheet",
+      "datasheetUrl": "#datenblatt-platzhalter"
+    }
+  },
+  "bcmDoorApp": {
+    "hero": {
+      "eyebrow": "One System – Many Applications",
+      "headline": "BCM DoorApp",
+      "subline": "Smart mobile access control application",
+      "description": "Experience the convenience of keyless entry using BLE (Bluetooth Low Energy), NFC or remote door opening. Enjoy advanced features like smart home integration, access right sharing and real-time security alerts.",
+      "introText": "The BCM DoorApp works for both online and offline doors. Multiple sites can be managed in a single app — with biometric authentication for enhanced security.",
+      "imagePlaceholder": "Product image to follow",
+      "ctaBeratung": "Send project enquiry",
+      "ctaDatenblatt": "Download data sheet",
+      "ctaUrl": "/kontakt/bcm",
+      "datasheetUrl": "#datenblatt-platzhalter"
+    },
+    "vorteile": {
+      "eyebrow": "Your Benefits",
+      "headline": "Smartphone is the key",
+      "items": [
+        {
+          "title": "BLE and NFC",
+          "description": "Effortless opening with Bluetooth Low Energy and NFC — no physical key required."
+        },
+        {
+          "title": "Smartwatch Access",
+          "description": "Keyless convenience with smartwatch door access — entry directly from your wrist."
+        },
+        {
+          "title": "Online and Offline",
+          "description": "Works for both online and offline doors within the BCM system."
+        },
+        {
+          "title": "Guest Access",
+          "description": "Convenient temporary access sharing for guests directly within the application."
+        },
+        {
+          "title": "Notifications",
+          "description": "Real-time notifications for warnings or critical incidents."
+        },
+        {
+          "title": "Biometric Security",
+          "description": "Enhanced security with biometric authentication when accessing the app."
+        },
+        {
+          "title": "Smart Home & Widgets",
+          "description": "Control intrusion alarms, smart home devices and automation scenarios with widgets."
+        },
+        {
+          "title": "Multiple Sites",
+          "description": "Manage multiple sites in one app — Google and Apple Wallet support coming soon."
+        }
+      ]
+    },
+    "anwendungen": {
+      "eyebrow": "Applications",
+      "headline": "Typical Use Cases",
+      "items": [
+        {
+          "title": "Offices and Commercial",
+          "description": "Employees open doors via smartphone or smartwatch — no more forgotten access cards."
+        },
+        {
+          "title": "Residential Buildings",
+          "description": "Residents grant temporary guest access for tradespeople or visitors directly via the app."
+        },
+        {
+          "title": "Remote Opening",
+          "description": "Open doors remotely — ideal for deliveries or unexpected visitors."
+        },
+        {
+          "title": "Smart Home Integration",
+          "description": "Link with intrusion alarm system and smart home scenarios via widgets."
+        }
+      ]
+    },
+    "cta": {
+      "label": "Contact",
+      "title": "We are happy to advise you!",
+      "subtext": "Get in touch — we support you in setting up the BCM DoorApp.",
+      "button": "Send project enquiry",
+      "ctaUrl": "/kontakt/bcm",
+      "datasheetLabel": "Download data sheet",
+      "datasheetUrl": "#datenblatt-platzhalter"
+    }
+  },
+  "gsmGateway": {
+    "hero": {
+      "eyebrow": "One System – Many Applications",
+      "headline": "Access with Phone Call",
+      "subline": "Or text message — no key, no transponder",
+      "description": "The GSM gateway is the ideal solution when several visitors only need access within a specific timeframe and you do not want to issue keys — e.g. truck drivers who need to deliver or collect packages within a certain timeframe.",
+      "introText": "The user gets access by calling or sending a text message to the number stored in the GSM gateway. No transponder tags or cards required.",
+      "imagePlaceholder": "Product image to follow",
+      "ctaBeratung": "Send project enquiry",
+      "ctaDatenblatt": "Download data sheet",
+      "ctaUrl": "/kontakt/bcm",
+      "datasheetUrl": "#datenblatt-platzhalter"
+    },
+    "vorteile": {
+      "eyebrow": "Your Benefits",
+      "headline": "Access within a limited timeframe",
+      "items": [
+        {
+          "title": "Online Reader Functionality",
+          "description": "Functions like an online reader — seamlessly integrated into the BCM system."
+        },
+        {
+          "title": "No Key Required",
+          "description": "No keys, transponder tags or cards needed — access via phone call or text message."
+        },
+        {
+          "title": "Simple Administration",
+          "description": "Add users' telephone number, country code and access rights easily via the software."
+        },
+        {
+          "title": "Time Window Control",
+          "description": "Access only within defined time windows — ideal for suppliers and service personnel."
+        },
+        {
+          "title": "Individual Scripts",
+          "description": "Possibility for extended functions using individual scripts in BCM software."
+        },
+        {
+          "title": "Alarm Integration",
+          "description": "Integration of alarm notifications in the software possible."
+        }
+      ]
+    },
+    "anwendungen": {
+      "eyebrow": "Applications",
+      "headline": "Typical Use Cases",
+      "items": [
+        {
+          "title": "Logistics and Delivery",
+          "description": "Truck drivers get access via phone call within their delivery time window — no key handover."
+        },
+        {
+          "title": "Service Personnel",
+          "description": "Cleaning, maintenance or tradespeople receive temporary access via their registered number."
+        },
+        {
+          "title": "Events",
+          "description": "Time-limited access for external service providers and setup teams without key management."
+        },
+        {
+          "title": "Remote Locations",
+          "description": "Access control where permanent key distribution is not practical."
+        }
+      ]
+    },
+    "cta": {
+      "label": "Contact",
+      "title": "We are happy to advise you!",
+      "subtext": "Get in touch — we support you in planning your GSM gateway system.",
+      "button": "Send project enquiry",
+      "ctaUrl": "/kontakt/bcm",
+      "datasheetLabel": "Download data sheet",
+      "datasheetUrl": "#datenblatt-platzhalter"
+    }
+  },
+  "aussenstationAdx5": {
+    "hero": {
+      "eyebrow": "One System – Many Applications",
+      "headline": "Compact Digital Front Door Station ADx5",
+      "subline": "Integration of access control systems in door communication",
+      "description": "The TCS access control system makes it possible to integrate modern door stations with digital name displays and readers. Resident names shown on the display are easily set up in the browser-based software.",
+      "introText": "The same access token for the integrated door station reader can also be used at other online and offline readers in the building — a complete system.",
+      "imageAlt": "TCS Compact Digital Front Door Station ADx5",
+      "ctaBeratung": "Send project enquiry",
+      "ctaDatenblatt": "Download data sheet"
+    },
+    "vorteile": {
+      "eyebrow": "Your Benefits",
+      "headline": "Modern and compact door stations",
+      "items": [
+        {
+          "title": "Large Capacity",
+          "description": "Store up to 60 residential units in each door station."
+        },
+        {
+          "title": "Clear Display",
+          "description": "5 residential units displayed per page — clear and intuitive."
+        },
+        {
+          "title": "Flexible Name Display",
+          "description": "Two names and a unit designation (e.g. apartment number) can be displayed per unit."
+        },
+        {
+          "title": "Two Mounting Options",
+          "description": "Available as flush or surface mount — suitable for any installation situation."
+        },
+        {
+          "title": "Robust Material",
+          "description": "Made from stainless steel — durable and weather-resistant."
+        },
+        {
+          "title": "Compact Dimensions",
+          "description": "Size: W 14 x H 37.5 x D 2.1 cm — space-saving and elegant."
+        },
+        {
+          "title": "Fully Equipped Standard Model",
+          "description": "Available with loudspeaker, microphone, camera, display and integrated BCM reader."
+        },
+        {
+          "title": "One Token for Everything",
+          "description": "The same access token works at the door station and at all online and offline readers in the building."
+        }
+      ]
+    },
+    "anwendungen": {
+      "eyebrow": "Applications",
+      "headline": "Typical Use Cases",
+      "items": [
+        {
+          "title": "Residential Buildings",
+          "description": "Digital name display and access control for apartment buildings and residential complexes."
+        },
+        {
+          "title": "Office and Commercial Buildings",
+          "description": "Professional door station with camera and reader for controlled entrance areas."
+        },
+        {
+          "title": "Hotels and Hostels",
+          "description": "Guests access with the same token used for rooms and communal areas."
+        },
+        {
+          "title": "Educational Institutions",
+          "description": "Central access control with digital resident management for boarding schools and student residences."
+        }
+      ]
+    },
+    "cta": {
+      "eyebrow": "Contact",
+      "claim": "We are happy to advise you!",
+      "subtext": "Get in touch — we support you in planning your digital front door station ADx5.",
+      "phone": "+49 4194 9881-175",
+      "email": "bcm.support@tcsag.de",
+      "ctaBeratung": "Send project enquiry",
+      "ctaDatenblatt": "Download data sheet"
+    }
+  },
+  "digitaleBriefkasten": {
+    "hero": {
+      "eyebrow": "One System – Many Applications",
+      "headline": "Digital Mailbox System",
+      "subline": "Digital name displays and unlocking mailboxes",
+      "description": "As part of the TCS access control system, it is possible to integrate digital mailboxes. The browser-based configuration allows the administrator to update digital name displays and set access rights for mailbox users.",
+      "introText": "Mailboxes are opened using digital keys such as MIFARE® DESFire® transponder tags, cards or PIN codes — no mechanical key required.",
+      "imageAlt": "TCS Digital Mailbox System",
+      "ctaBeratung": "Send project enquiry",
+      "ctaDatenblatt": "Download data sheet"
+    },
+    "vorteile": {
+      "eyebrow": "Your Benefits",
+      "headline": "Innovative and digital mailbox solution",
+      "items": [
+        {
+          "title": "Browser-Based Management",
+          "description": "Administrators update name displays and access rights conveniently via the web interface."
+        },
+        {
+          "title": "Digital Keys",
+          "description": "Open with MIFARE® DESFire® transponder tag, card or PIN code — no mechanical key."
+        },
+        {
+          "title": "BCM Integration",
+          "description": "Fully integrated into the BCM central — mailboxes and online readers in the same system."
+        },
+        {
+          "title": "Easy Rights Assignment",
+          "description": "Assign access rights for individual mailbox compartments individually and with time control."
+        },
+        {
+          "title": "Digital Name Displays",
+          "description": "Names are managed digitally and can be updated at any time without physical intervention."
+        },
+        {
+          "title": "Scalable",
+          "description": "Any number of mailbox compartments manageable in the system — grows with the installation."
+        }
+      ]
+    },
+    "anwendungen": {
+      "eyebrow": "Applications",
+      "headline": "Typical Use Cases",
+      "items": [
+        {
+          "title": "Residential Buildings",
+          "description": "Digital mailbox system with current resident names — no stickers, no key management."
+        },
+        {
+          "title": "Office Buildings",
+          "description": "Central mail management with controlled access for employees and couriers."
+        },
+        {
+          "title": "High Tenant Turnover",
+          "description": "Update names and access rights digitally within seconds when tenants change."
+        },
+        {
+          "title": "Administration Buildings",
+          "description": "Secure and traceable mail delivery with complete access documentation."
+        }
+      ]
+    },
+    "cta": {
+      "eyebrow": "Contact",
+      "claim": "We are happy to advise you!",
+      "subtext": "Get in touch — we support you in planning your digital mailbox system.",
+      "phone": "+49 4194 9881-175",
+      "email": "bcm.support@tcsag.de",
+      "ctaBeratung": "Send project enquiry",
+      "ctaDatenblatt": "Download data sheet"
+    }
+  },
+  "zutrittssoftware": {
+    "hero": {
+      "eyebrow": "One System – Many Applications",
+      "headline": "Access Software",
+      "subline": "Web-based scalable software",
+      "description": "A complete access control portfolio needs great software. The TCS access software provides an optimal cyber-secured solution — for standard access control as well as reservations, parking, elevators, apartments, hotel rooms, building management and visitors.",
+      "introText": "Up to 100 doors without a server — no time lost for software or database installation. Grade 4 certified and GDPR compliant.",
+      "imageAlt": "TCS BCM Access Software",
+      "ctaBeratung": "Send project enquiry",
+      "ctaDatenblatt": "Download data sheet"
+    },
+    "vorteile": {
+      "eyebrow": "Your Benefits",
+      "headline": "Access software for every requirement",
+      "items": [
+        {
+          "title": "Fast Commissioning",
+          "description": "No time lost for software or external database installation — ready for use immediately."
+        },
+        {
+          "title": "Cyber Secure",
+          "description": "Encryption at all entities, Grade 4 certified — highest security standards."
+        },
+        {
+          "title": "High Reliability",
+          "description": "Redundancy and continued operation even when the network connection is interrupted."
+        },
+        {
+          "title": "Third-Party Integration",
+          "description": "Interfaces for easy integration into third-party applications with MQTT, XML API, KNX and BACNet."
+        },
+        {
+          "title": "Future Proof",
+          "description": "Remote upgrade of centrals and readers — always up to date without on-site deployment."
+        },
+        {
+          "title": "GDPR Compliant",
+          "description": "GDPR-compliant settings configurable according to individual needs."
+        },
+        {
+          "title": "Notifications",
+          "description": "Email or app notifications for immediate action in case of disruption."
+        },
+        {
+          "title": "Flexible Scalability",
+          "description": "Various software packages and extensions — grows with requirements."
+        }
+      ]
+    },
+    "anwendungen": {
+      "eyebrow": "Applications",
+      "headline": "Typical Use Cases",
+      "items": [
+        {
+          "title": "Residential and Hotels",
+          "description": "Management of apartments, hotel rooms and communal areas in one software."
+        },
+        {
+          "title": "Offices and Commercial",
+          "description": "Scalable access control from small offices to large corporate sites."
+        },
+        {
+          "title": "Parking and Reservations",
+          "description": "Integrated parking management and room reservations in the BCM access software."
+        },
+        {
+          "title": "Building Management",
+          "description": "Integration into building management systems via KNX, BACNet, MQTT and XML API."
+        }
+      ]
+    },
+    "cta": {
+      "eyebrow": "Contact",
+      "claim": "We are happy to advise you!",
+      "subtext": "Get in touch — we support you in selecting and setting up the BCM access software.",
+      "phone": "+49 4194 9881-175",
+      "email": "bcm.support@tcsag.de",
+      "ctaBeratung": "Send project enquiry",
+      "ctaDatenblatt": "Download data sheet"
+    }
+  },
+  "schrankschloss": {
+    "hero": {
+      "eyebrow": "One System – Many Applications",
+      "headline": "Electronic Locker Lock",
+      "subline": "Securing lockers, cabinets and cupboards",
+      "description": "The compact battery-powered offline locker locks are suitable for cabinets that need controlled yet flexible locking. Access rights are easily configured in the browser-based software.",
+      "introText": "The system can easily be upgraded to wireless online locking via offline gateways — full control anywhere and at any time.",
+      "imageAlt": "TCS Electronic Locker Lock",
+      "ctaBeratung": "Send project enquiry",
+      "ctaDatenblatt": "Download data sheet"
+    },
+    "vorteile": {
+      "eyebrow": "Your Benefits",
+      "headline": "Reusable and flexible",
+      "items": [
+        {
+          "title": "Universal Use",
+          "description": "Fits indoors on any cabinet with a wood, steel or aluminium surface."
+        },
+        {
+          "title": "Wide Range of Locations",
+          "description": "Suitable for lockers, cabinets or furniture doors in swimming pools, sports clubs, educational institutions and more."
+        },
+        {
+          "title": "Flexible Mounting",
+          "description": "Can be installed horizontally or vertically, left or right of the locker — just like mechanical furniture locks."
+        },
+        {
+          "title": "Easy Management",
+          "description": "Configure access rights conveniently via the browser-based BCM software — no on-site programming."
+        },
+        {
+          "title": "Upgradeable",
+          "description": "Simple upgrade to wireless online locking via offline gateways for full real-time control."
+        },
+        {
+          "title": "Reusable",
+          "description": "Lock can simply be reassigned when a user changes — no lock replacement needed."
+        }
+      ]
+    },
+    "anwendungen": {
+      "eyebrow": "Applications",
+      "headline": "Typical Use Cases",
+      "items": [
+        {
+          "title": "Sports Centres and Swimming Pools",
+          "description": "Electronic locker management for visitors — flexible, hygienic, no key handover."
+        },
+        {
+          "title": "Educational Institutions",
+          "description": "Manage lockers for pupils and students digitally — update access rights easily."
+        },
+        {
+          "title": "Offices and Companies",
+          "description": "Secure storage for employees with central rights management via BCM software."
+        },
+        {
+          "title": "Healthcare",
+          "description": "Medication cabinets and valuables storage with complete access documentation."
+        }
+      ]
+    },
+    "cta": {
+      "eyebrow": "Contact",
+      "claim": "We are happy to advise you!",
+      "subtext": "Get in touch — we support you in planning your electronic locker lock solution.",
+      "phone": "+49 4194 9881-175",
+      "email": "bcm.support@tcsag.de",
+      "ctaBeratung": "Send project enquiry",
+      "ctaDatenblatt": "Download data sheet"
+    }
+  },
+  "serverschrankschloss": {
+    "hero": {
+      "eyebrow": "One System – Many Applications",
+      "headline": "Electronic Rack Lock",
+      "subline": "Securing server racks and cabinets",
+      "description": "The electronic rack lock is installed on a swing handle with a profile cylinder insert and is suitable for server racks where employee access needs to be restricted.",
+      "introText": "Access rights are easily configured in the browser-based BCM software. The system can be upgraded to wireless online locking — full control at any time.",
+      "imageAlt": "TCS Electronic Rack Lock",
+      "ctaBeratung": "Send project enquiry",
+      "ctaDatenblatt": "Download data sheet"
+    },
+    "vorteile": {
+      "eyebrow": "Your Benefits",
+      "headline": "Reusable and flexible",
+      "items": [
+        {
+          "title": "Swing Handle Mounting",
+          "description": "Can be installed on a swing handle with profile cylinder insert — no drilling or modifications."
+        },
+        {
+          "title": "Server Rack Security",
+          "description": "Suitable for servers and racks where employee access needs to be restricted."
+        },
+        {
+          "title": "Easy Management",
+          "description": "Configure access rights conveniently via the browser-based BCM software — no on-site programming."
+        },
+        {
+          "title": "Upgradeable",
+          "description": "Simple upgrade to wireless online locking via offline gateways for real-time control."
+        },
+        {
+          "title": "Access Documentation",
+          "description": "Complete logging of all access events — who opened which server rack and when."
+        },
+        {
+          "title": "Reusable",
+          "description": "Digitally revoke access rights immediately when staff change — no lock replacement needed."
+        }
+      ]
+    },
+    "anwendungen": {
+      "eyebrow": "Applications",
+      "headline": "Typical Use Cases",
+      "items": [
+        {
+          "title": "Data Centres",
+          "description": "Control physical access to server racks with complete audit trail."
+        },
+        {
+          "title": "IT Server Rooms",
+          "description": "Restrict access to individual server cabinets — only authorised staff gain entry."
+        },
+        {
+          "title": "Telecommunications",
+          "description": "Securing network and telecoms cabinets at remote locations."
+        },
+        {
+          "title": "Industry and Production",
+          "description": "Protection of control cabinets and automation systems against unauthorised access."
+        }
+      ]
+    },
+    "cta": {
+      "eyebrow": "Contact",
+      "claim": "We are happy to advise you!",
+      "subtext": "Get in touch — we support you in planning your rack lock solution.",
+      "phone": "+49 4194 9881-175",
+      "email": "bcm.support@tcsag.de",
+      "ctaBeratung": "Send project enquiry",
+      "ctaDatenblatt": "Download data sheet"
+    }
+  }
+}

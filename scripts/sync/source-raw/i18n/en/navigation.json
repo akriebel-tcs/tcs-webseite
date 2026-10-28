@@ -1,0 +1,356 @@
+{
+  "nav": {
+    "produkte": {
+      "label": "Products",
+      "katalog": {
+        "label": "Online catalog",
+        "desc": "Structured access to TCS products, product data, and data sheets maintained in BMEcat."
+      }
+    },
+    "gebaeudekommunikation": {
+      "label": "Building Communication",
+      "tuersprechanlagen": {
+        "label": "Door Intercom Systems",
+        "desc": "Audio and video communication at the door"
+      },
+      "briefkastenanlagen": {
+        "label": "Mailbox Systems",
+        "desc": "Integrated mail and parcel box systems"
+      },
+      "beschilderung": {
+        "label": "Signage and Wayfinding",
+        "desc": "From house number and pictogram to door sign"
+      },
+      "grossanlagen": {
+        "label": "Large-Scale Installations",
+        "desc": "Solutions for residential quarters and large projects"
+      },
+      "systemloesungen": {
+        "label": "System Solutions",
+        "desc": "Holistic communication systems"
+      }
+    },
+    "zutrittskontrolle": {
+      "label": "Access Control",
+      "tueren-tore": {
+        "label": "Doors and Gates",
+        "desc": "Secure access solutions for every entrance"
+      },
+      "elektronische-drueckergarnitur": {
+        "label": "Electronic Door Handle Set",
+        "desc": "Battery-powered RFID offline reader for doors without cabling"
+      },
+      "mobiler-zutritt": {
+        "label": "Mobile Access via App or Call",
+        "desc": "Open doors conveniently via smartphone app or phone call"
+      },
+      "fahrstuhl": {
+        "label": "Elevator Control",
+        "desc": "Intelligent floor release and access regulation"
+      },
+      "zufahrten": {
+        "label": "Driveways and Parking",
+        "desc": "Barrier and parking space control"
+      }
+    },
+    "gebaeudemanagement": {
+      "label": "Building Management",
+      "namensanzeige": {
+        "label": "Digital Name Display",
+        "desc": "e-paper displays for name display"
+      },
+      "schraenke": {
+        "label": "Cabinets and Containers",
+        "desc": "Electronic locking systems for furniture"
+      },
+      "signage": {
+        "label": "Digital Signage – Inform",
+        "desc": "Digital information and display systems"
+      },
+      "reservieren": {
+        "label": "Reserve and Book",
+        "desc": "Room and resource booking"
+      },
+      "alarm": {
+        "label": "Alarm System Coupling",
+        "desc": "Integration of security systems"
+      }
+    },
+    "eingangssysteme": {
+      "label": "Entrance Systems",
+      "funktionalitaet": {
+        "label": "Systematic Functionality",
+        "desc": "All trades under one roof"
+      },
+      "baukoerper": {
+        "label": "Body & Mounting Form",
+        "desc": "Precisely fitted and discreetly integrated"
+      },
+      "material": {
+        "label": "Expressive Materials",
+        "desc": "Haptics and color that convince"
+      },
+      "beratung": {
+        "label": "Project Consulting",
+        "desc": "From vision to implementation"
+      }
+    },
+    "anwendungen": {
+      "label": "TCS in Buildings",
+      "wohnbau": {
+        "label": "TCS in Residential Construction",
+        "desc": "Solutions for single- and multi-family homes"
+      },
+      "bildung": {
+        "label": "TCS in Educational Facilities",
+        "desc": "Secure communication for daycares, schools and dormitories"
+      },
+      "gesundheit": {
+        "label": "TCS in Healthcare Facilities",
+        "desc": "Access and communication in clinics and practices"
+      },
+      "oeffentlich": {
+        "label": "TCS in Public Sector Facilities",
+        "desc": "Solutions for authorities and public buildings"
+      },
+      "referenzen": {
+        "label": "Reference Projects",
+        "desc": "Inspiration & case studies"
+      }
+    },
+    "services": {
+      "label": "Services",
+      "hub": {
+        "label": "Service Center",
+        "desc": "Structured access point for trade, retail and product management"
+      },
+      "katalog": {
+        "label": "Online product catalog",
+        "desc": "Structured access to TCS products, product data, and data sheets maintained in BMEcat."
+      },
+      "downloads": {
+        "label": "Downloads",
+        "desc": "Tender texts, datasheets, catalogs, firmware"
+      },
+      "planen": {
+        "label": "Plan & configure",
+        "desc": "TCS system configurator and tender texts"
+      },
+      "support": {
+        "label": "Technical support",
+        "desc": "Wiring diagram database tcsplan.de, hotline"
+      },
+      "faqGlossar": {
+        "label": "FAQ & glossary",
+        "desc": "Frequently asked questions and technical terms"
+      },
+      "ersatzteile": {
+        "label": "Spare parts, labeling and activation codes",
+        "desc": "Order spare parts, labeling and activation codes online"
+      }
+    },
+    "wissen": {
+      "akademie": {
+        "label": "TCS Academy",
+        "desc": "Trainings & webinars"
+      },
+      "serviceportal": {
+        "label": "Service portal",
+        "desc": "Protected area for service partners"
+      }
+    }
+  },
+  "footer": {
+    "produkte": {
+      "title": "Products",
+      "tuerkommunikation": "Door Communication",
+      "zutrittskontrolle": "Access Control",
+      "eingangssysteme": "Entrance Systems",
+      "tcsPacks": "TCS:PACKS",
+      "snipdoo": "snipdoo®",
+      "beschilderung": "Signage"
+    },
+    "anwendungen": {
+      "title": "TCS in Buildings",
+      "efh": "Single-Family Home",
+      "mfh": "Multi-Family Home",
+      "grossanlagen": "Large-Scale Installations",
+      "gewerbe": "Commercial",
+      "referenzen": "References"
+    },
+    "services": {
+      "title": "Services",
+      "konfigurator": "Configurator",
+      "downloads": "Downloads",
+      "akademie": "TCS Academy",
+      "ersatzteile": "Spare Parts Shop",
+      "support": "Support"
+    },
+    "unternehmen": {
+      "title": "Company",
+      "ueberTcs": "About TCS",
+      "karriere": "Careers",
+      "presse": "News",
+      "kontakt": "Contact",
+      "datenschutz": "Privacy"
+    },
+    "legal": {
+      "impressum": "Imprint",
+      "datenschutz": "Privacy",
+      "agb": "Terms"
+    },
+    "bottom": {
+      "copyright": "© {{year}} TCS AG. All rights reserved. Made in Germany."
+    }
+  },
+  "persona": {
+    "bauherren": {
+      "label": "Builders & Owners",
+      "short": "Builders"
+    },
+    "architekten": {
+      "label": "Architects & Designers",
+      "short": "Architects"
+    },
+    "wohnungswirtschaft": {
+      "label": "Housing Industry & Developers",
+      "short": "Housing Industry"
+    },
+    "fachplaner": {
+      "label": "Specialist Planners & Integrators",
+      "short": "Planners"
+    },
+    "handwerk": {
+      "label": "Electrical Trade",
+      "short": "Trade"
+    },
+    "fachhandel": {
+      "label": "Specialist Retail",
+      "short": "Retail"
+    }
+  },
+  "meta": {
+    "serviceportal": {
+      "label": "Service Portal"
+    },
+    "kontakt": {
+      "label": "Contact"
+    },
+    "karriere": {
+      "label": "Careers"
+    },
+    "presse": {
+      "label": "News"
+    },
+    "personaPrompt": "I am",
+    "personaPromptShort": "I am...",
+    "personaActive": "View: {{persona}}"
+  },
+  "a11y": {
+    "skipToContent": "Skip to main content",
+    "mainNavigation": "Main navigation",
+    "metaNavigation": "Meta navigation",
+    "personaNavigation": "Persona selection",
+    "breadcrumb": "Breadcrumb navigation",
+    "footerNavigation": "Footer navigation",
+    "legalNavigation": "Legal information",
+    "sectionNavigation": "Section navigation",
+    "logoHome": "TCS – Back to home page",
+    "search": "Search",
+    "account": "Account",
+    "menuOpen": "Open menu",
+    "menuClose": "Close menu"
+  },
+  "common": {
+    "overview": "Overview"
+  },
+  "breadcrumb": {
+    "home": "Home",
+    "segments": {
+      "tuerkommunikation": "Door Communication",
+      "tuersprechanlagen": "Door Intercom Systems",
+      "briefkastenanlagen": "Mailbox Systems",
+      "beschilderung": "Signage & Wayfinding",
+      "grossanlagen": "Large-Scale Installations",
+      "systemloesungen": "System Solutions",
+      "zutrittskontrolle": "Access Control",
+      "tueren-tore": "Doors & Gates",
+      "elektronische-drueckergarnitur": "Electronic Lever Handle Set",
+      "elektronischer-knaufzylinder": "Electronic Knob Cylinder",
+      "funkvernetzte-offline-leser": "Wireless Offline Readers",
+      "bcm-online-leser": "BCM Online Reader",
+      "bcm-handsender": "BCM Remote Control",
+      "bcm-minicloud": "BCM MiniCloud",
+      "vorhaengeschloss": "Padlock",
+      "biometrie": "Biometrics",
+      "zufahrtskontrolle": "Vehicle Access Control",
+      "bcm-doorapp": "BCM DoorApp",
+      "gsm-gateway": "Access with Phone Call",
+      "aussenstation-adx5": "Compact Digital Front Door Station ADx5",
+      "digitale-briefkastenanlage": "Digital Mailbox System",
+      "zutrittssoftware": "Access Software",
+      "elektronisches-schrankschloss": "Electronic Locker Lock",
+      "elektronisches-serverschrankschloss": "Electronic Rack Lock",
+      "mobiler-zutritt": "Mobile Access",
+      "fahrstuhlsteuerung": "Elevator Control",
+      "zufahrten-parkplaetze": "Driveways & Parking",
+      "gebaeudemanagement": "Building Management",
+      "digitale-namensanzeige": "Digital Name Display",
+      "digital-signage": "Digital Signage",
+      "reservieren-buchen": "Reserve & Book",
+      "bcm-buchungssystem": "BCM Booking System",
+      "bcm-infoboard": "BCM Infoboard",
+      "schraenke-behaelter": "Cabinets & Containers",
+      "alarmanlagenkopplung": "Alarm System Coupling",
+      "entry-system": "Entrance Systems",
+      "design": "Design",
+      "funktionalitaet": "Functionality",
+      "material": "Material",
+      "integrationsformen": "Integration Forms",
+      "referenzen": "References",
+      "standards": "Standards",
+      "beratung": "Consulting",
+      "signage": "Digital Signage",
+      "anwendungen": "TCS in Buildings",
+      "objektloesungen": "Project Solutions",
+      "bildungseinrichtungen": "Educational Facilities",
+      "einfamilienhaus": "Single-Family Home",
+      "mehrfamilienhaus": "Multi-Family Home",
+      "grossanlage": "Large-Scale Installation",
+      "sanierung": "Renovation",
+      "pflege": "Care",
+      "klinik": "Clinic",
+      "behoerde": "Public Authority",
+      "feuerwehr": "Fire Department",
+      "schwimmbad": "Swimming Pool",
+      "concierge": "Concierge",
+      "interne-kommunikation": "Internal Communication",
+      "digitale-namensverwaltung": "Digital Name Management",
+      "feuerwehrdurchsage": "Fire Department Announcement",
+      "bidirektionale-video": "Bidirectional Video",
+      "mobile-tuerkommunikation": "Mobile Door Communication",
+      "zutrittskontrolle-bcm": "Access Control BCM",
+      "wohnbau": "Residential Construction",
+      "gesundheitseinrichtungen": "Healthcare Facilities",
+      "oeffentliche-hand": "Public Sector",
+      "referenzprojekte": "Reference Projects",
+      "systemtechnik": "System Technology",
+      "gebaeudekommunikation": "Building Communication",
+      "snipdoo-ip": "snipdoo IP",
+      "kontakt": "Contact",
+      "karriere": "Careers",
+      "presse": "News",
+      "ueber-tcs": "About TCS",
+      "service": "Services",
+      "online-produktkatalog": "Online product catalog",
+      "planen-konfigurieren": "Plan & Configure",
+      "downloads": "Downloads",
+      "technischer-support": "Technical Support",
+      "akademie": "TCS Academy",
+      "ersatzteile": "Spare parts, labeling and activation codes",
+      "serviceportal": "Service Portal",
+      "passwort-vergessen": "Forgot Password",
+      "registrieren": "Register"
+    }
+  }
+}

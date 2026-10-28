@@ -1,0 +1,83 @@
+{
+  "_meta": {
+    "namespace": "wissen",
+    "status": "migrated",
+    "note": "Stage doc-wissen-akademie-1: TCS Academy page (`seiten.akademie.*`) migrated i18n-first. Stage doc-service-final-1: status set to `migrated`."
+  },
+  "seiten": {
+    "akademie": {
+      "hero": {
+        "label": "TCS Academy",
+        "headline": "Training & continuing education",
+        "intro": "Continuing education for planning, installation and service – practical, flexible and certified."
+      },
+      "formate": {
+        "headline": "Training formats",
+        "intro": "Whether digital or on-site – choose the format that suits you.",
+        "items": {
+          "produktschulungen": {
+            "title": "Product training",
+            "desc": "Practical training on all TCS systems – from door communication and access control to the BCM system. Learn installation, configuration and commissioning directly on the device."
+          },
+          "webinare": {
+            "title": "Webinars",
+            "desc": "Digital learning formats on demand – flexible and location-independent. Current topics on planning, technology and new products in a compact format."
+          },
+          "zertifizierung": {
+            "title": "Certification",
+            "desc": "Proof of competence for specialist partners. With the TCS certification you document your know-how and qualify for exclusive partner programs."
+          },
+          "vorOrt": {
+            "title": "On-site training",
+            "desc": "Individual training directly with your team. We come to you and train your staff hands-on on your specific projects."
+          }
+        }
+      },
+      "zielgruppen": {
+        "headline": "Who is the TCS Academy for?",
+        "intro": "Our training courses are aimed at everyone who plans, installs or manages TCS products.",
+        "items": {
+          "elektro": {
+            "title": "Electricians & specialist tradespeople",
+            "desc": "Installation, wiring and commissioning of TCS systems"
+          },
+          "fachplaner": {
+            "title": "Specialist planners & architects",
+            "desc": "System planning, configuration and tender preparation"
+          },
+          "facility": {
+            "title": "Facility managers & property administrators",
+            "desc": "BCM software, access management and building management"
+          },
+          "fachhandel": {
+            "title": "Specialist trade & sales partners",
+            "desc": "Product knowledge, consulting expertise and partner programs"
+          }
+        }
+      },
+      "partner": {
+        "headline": "Partner programs",
+        "intro": "Value-added programs for specialist companies – benefit from exclusive advantages as a certified TCS partner.",
+        "items": {
+          "silber": {
+            "title": "Silver partner",
+            "desc": "Entry level with basic training and access to the partner shop."
+          },
+          "gold": {
+            "title": "Gold partner",
+            "desc": "Advanced training, priority support and marketing assistance."
+          },
+          "platin": {
+            "title": "Platinum partner",
+            "desc": "Highest level with a personal contact and project support."
+          }
+        }
+      },
+      "cta": {
+        "headline": "Request training now",
+        "text": "Contact us for individual training dates or sign up for the next webinar.",
+        "button": "Get in touch"
+      }
+    }
+  }
+}

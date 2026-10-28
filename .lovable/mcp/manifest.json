@@ -1,0 +1,106 @@
+{
+  "version": 1,
+  "sdk_version": "0.20.0",
+  "path": "/functions/v1/mcp",
+  "auth": {
+    "type": "none"
+  },
+  "mcp": {
+    "server": {
+      "name": "tcs-webseite-mcp",
+      "version": "0.1.0",
+      "title": "TCS Webseite MCP"
+    },
+    "tools": [
+      {
+        "name": "list_pages",
+        "title": "CMS-Seiten auflisten",
+        "description": "Listet veröffentlichte CMS-Seiten (Slug, Titel, Seitentyp) aus der TCS-Webseite.",
+        "annotations": {
+          "readOnlyHint": true,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "limit": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 200,
+              "description": "Maximale Anzahl Seiten (Default 50)."
+            },
+            "onlyPublished": {
+              "type": "boolean",
+              "description": "Nur veröffentlichte Seiten (Default true)."
+            }
+          },
+          "additionalProperties": false,
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        },
+        "outputSchema": null
+      },
+      {
+        "name": "get_page",
+        "title": "CMS-Seite mit Sections lesen",
+        "description": "Liest eine CMS-Seite anhand ihres page_key inklusive Sections und Feldwerten.",
+        "annotations": {
+          "readOnlyHint": true,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "pageKey": {
+              "type": "string",
+              "minLength": 1,
+              "description": "page_key der Seite, z. B. 'home' oder 'gebaeudekommunikation'."
+            }
+          },
+          "required": [
+            "pageKey"
+          ],
+          "additionalProperties": false,
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        },
+        "outputSchema": null
+      },
+      {
+        "name": "search_content",
+        "title": "CMS-Inhalte durchsuchen",
+        "description": "Volltextsuche über Feldwerte in cms_section_fields (case-insensitive ILIKE).",
+        "annotations": {
+          "readOnlyHint": true,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "query": {
+              "type": "string",
+              "minLength": 2,
+              "description": "Suchbegriff (mind. 2 Zeichen)."
+            },
+            "locale": {
+              "type": "string",
+              "description": "Optional: Sprachcode wie 'de' oder 'en'."
+            },
+            "limit": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 100
+            }
+          },
+          "required": [
+            "query"
+          ],
+          "additionalProperties": false,
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        },
+        "outputSchema": null
+      }
+    ]
+  }
+}

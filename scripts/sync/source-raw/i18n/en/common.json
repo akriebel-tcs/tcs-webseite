@@ -1,0 +1,26 @@
+{
+  "app": {
+    "name": "TCS",
+    "language": "English"
+  },
+  "actions": {
+    "more": "Learn more",
+    "contact": "Contact us",
+    "back": "Back"
+  },
+  "language": {
+    "de": "German",
+    "en": "English"
+  },
+  "pageCta": {
+    "headline": "Let’s plan your project together",
+    "intro": "Contact our experts for individual project consulting.",
+    "button": "Schedule project consulting"
+  },
+  "notFound": {
+    "code": "404",
+    "headline": "Page not found",
+    "intro": "The requested page does not exist or has been moved. Please check the address or return to the home page.",
+    "cta": "Back to home"
+  }
+}

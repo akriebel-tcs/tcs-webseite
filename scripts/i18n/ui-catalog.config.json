@@ -1,0 +1,59 @@
+{
+  "_doc": [
+    "Welche gebündelten Bedienungstexte (i18n) als übersetzbare UI-Einheiten in der",
+    "CMS-Datenbank registriert werden. Bewusst NICHT enthalten sind die",
+    "Seiteninhalts-Namespaces (home, personas, zutrittskontrolle, anwendungen, ...)",
+    "sowie `service.hub` / `service.seiten` — diese Inhalte sind DB-first und liegen",
+    "als CMS-Einheiten (section_field / page_title / nav_label / asset_alt) in",
+    "CMS-Light. Sie dürfen nicht als zweite Wahrheit im UI-Katalog erscheinen.",
+    "Ebenso ausgeschlossen: Navigationsbeschriftungen (cms_navigation_nodes)."
+  ],
+  "sourceLocale": "de",
+  "seedLocales": ["en", "pl", "nl"],
+  "namespaces": {
+    "common": { "include": ["*"], "exclude": [] },
+    "navigation": {
+      "include": ["a11y", "common", "breadcrumb"],
+      "exclude": [],
+      "reason": "nav/footer/persona/meta sind Navigationsbeschriftungen und liegen in cms_navigation_nodes"
+    },
+    "service": {
+      "include": ["katalog"],
+      "exclude": ["katalog.diagnostics"],
+      "reason": "hub/seiten sind Seiteninhalte (CMS); diagnostics ist Entwicklerdiagnostik"
+    },
+    "serviceportal": { "include": ["*"], "exclude": ["_meta"] }
+  },
+  "excludedKeySuffixes": [
+    "href",
+    "url",
+    "slug",
+    "id",
+    "icon",
+    "image",
+    "color",
+    "colour",
+    "variant",
+    "path",
+    "route",
+    "to",
+    "class",
+    "className",
+    "format",
+    "pattern",
+    "locale",
+    "lang"
+  ],
+  "excludedKeySegments": ["_meta", "diagnostics", "debug", "dev"],
+  "technicalValuePatterns": [
+    "^https?://",
+    "^/",
+    "^mailto:",
+    "^tel:",
+    "^#",
+    "^[0-9\\p{P}\\s]+$",
+    "^[A-Z0-9_]{2,}$",
+    "^\\{\\{[^}]+\\}\\}$"
+  ],
+  "technicalValueExact": ["TCS", "DE", "EN", "PL", "PDF", "CSV", "URL", "ID", "OK"]
+}

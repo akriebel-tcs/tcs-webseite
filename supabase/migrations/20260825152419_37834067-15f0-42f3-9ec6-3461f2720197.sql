@@ -1,0 +1,88 @@
+CREATE OR REPLACE FUNCTION public.rpc_admin_rename_section_key(p_page_key text, p_old_section_key text, p_new_section_key text)
+ RETURNS jsonb
+ LANGUAGE plpgsql
+ SECURITY DEFINER
+ SET search_path TO 'public'
+AS $function$
+DECLARE
+  v_section_type text;
+  v_exists_new boolean;
+  v_updated_fields int := 0;
+  v_updated_assets int := 0;
+  v_updated_whitelist int := 0;
+  v_updated_sections int := 0;
+  v_fixed_key_teaser_pages constant text[] := ARRAY[
+    'anwendungen.bildungseinrichtungen',
+    'anwendungen.interne-kommunikation',
+    'eingangssysteme.root'
+  ];
+BEGIN
+  IF p_page_key IS NULL OR p_old_section_key IS NULL OR p_new_section_key IS NULL THEN
+    RETURN jsonb_build_object('success', false, 'error', 'missing_arguments');
+  END IF;
+
+  IF p_old_section_key = p_new_section_key THEN
+    RETURN jsonb_build_object('success', false, 'error', 'same_key');
+  END IF;
+
+  IF p_new_section_key !~ '^[a-z][a-z0-9_]{1,60}$' THEN
+    RETURN jsonb_build_object('success', false, 'error', 'invalid_slug_format');
+  END IF;
+
+  SELECT section_type INTO v_section_type
+  FROM public.cms_sections
+  WHERE page_key = p_page_key AND section_key = p_old_section_key
+  LIMIT 1;
+
+  IF v_section_type IS NULL THEN
+    RETURN jsonb_build_object('success', false, 'error', 'section_not_found');
+  END IF;
+
+  IF v_section_type NOT IN ('card_v1', 'teaser_2col_v1', 'cards_v1') THEN
+    RETURN jsonb_build_object('success', false, 'error', 'section_type_not_renameable');
+  END IF;
+
+  IF v_section_type = 'teaser_2col_v1' AND p_page_key = ANY(v_fixed_key_teaser_pages) THEN
+    RETURN jsonb_build_object('success', false, 'error', 'teaser_key_locked_fixed_renderer');
+  END IF;
+
+  SELECT EXISTS (
+    SELECT 1 FROM public.cms_sections
+    WHERE page_key = p_page_key AND section_key = p_new_section_key
+  ) INTO v_exists_new;
+
+  IF v_exists_new THEN
+    RETURN jsonb_build_object('success', false, 'error', 'new_key_already_exists');
+  END IF;
+
+  UPDATE public.cms_sections
+  SET section_key = p_new_section_key, updated_at = now()
+  WHERE page_key = p_page_key AND section_key = p_old_section_key;
+  GET DIAGNOSTICS v_updated_sections = ROW_COUNT;
+
+  SELECT count(*) INTO v_updated_fields
+  FROM public.cms_section_fields
+  WHERE page_key = p_page_key AND section_key = p_new_section_key;
+
+  UPDATE public.cms_assets
+  SET section_key = p_new_section_key, updated_at = now()
+  WHERE page_key = p_page_key AND section_key = p_old_section_key;
+  GET DIAGNOSTICS v_updated_assets = ROW_COUNT;
+
+  UPDATE public.cms_admin_editable_fields
+  SET section_key = p_new_section_key, updated_at = now()
+  WHERE page_key = p_page_key AND section_key = p_old_section_key;
+  GET DIAGNOSTICS v_updated_whitelist = ROW_COUNT;
+
+  RETURN jsonb_build_object(
+    'success', true,
+    'error', null,
+    'updated_counts', jsonb_build_object(
+      'fields', v_updated_fields,
+      'assets', v_updated_assets,
+      'whitelist', v_updated_whitelist,
+      'sections', v_updated_sections
+    )
+  );
+END;
+$function$;

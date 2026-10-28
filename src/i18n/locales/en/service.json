@@ -1,0 +1,1235 @@
+{
+  "_meta": {
+    "namespace": "service",
+    "status": "migrated",
+    "note": "Hub page (Service Center) as the classic manufacturer access point. All service sub-pages migrated i18n-first: ServicePage (hub), OnlineProduktkatalogPage (`katalog.*`), PlanenKonfigurierenPage (`seiten.planenKonfigurieren.*`), DownloadsPage (`seiten.downloads.*`), TechnischerSupportPage (`seiten.technischerSupport.*`), ErsatzteilePage (`seiten.ersatzteile.*`). Stage doc-service-final-1: status set to `migrated`."
+  },
+  "hub": {
+    "hero": {
+      "label": "Services",
+      "headline": "Service Center",
+      "intro": "Direct access to the product catalog, datasheets, wiring diagrams, tender documents, spare parts and support – for trade, retail and product management."
+    },
+    "sections": {
+      "produktzugang": {
+        "label": "Product access",
+        "headline": "Find products",
+        "intro": "Online catalog, product finder, series and master data for direct product selection.",
+        "items": {
+          "katalog": {
+            "title": "Online product catalog",
+            "description": "Structured access to TCS products, product data, and data sheets maintained in BMEcat.",
+            "linkLabel": "Open catalog"
+          },
+          "finder": {
+            "title": "Product finder",
+            "description": "Guided selection by use case and technical requirements.",
+            "linkLabel": "Open product finder"
+          },
+          "serien": {
+            "title": "Series",
+            "description": "Overview of TCS product series for outdoor and indoor stations.",
+            "linkLabel": "View series"
+          },
+          "stammdaten": {
+            "title": "Product data & BMEcat",
+            "description": "Product master data and BMEcat package for wholesalers and ERP integration.",
+            "linkLabel": "In preparation"
+          }
+        }
+      },
+      "downloads": {
+        "label": "Downloads & documents",
+        "headline": "Documents and data",
+        "intro": "All technical documents in one place.",
+        "items": {
+          "downloads": {
+            "title": "Downloads",
+            "description": "Central download area for current documents and software.",
+            "linkLabel": "Open downloads"
+          },
+          "datenblaetter": {
+            "title": "Datasheets",
+            "description": "Technical datasheets for all products and series.",
+            "linkLabel": "View datasheets"
+          },
+          "handbuecher": {
+            "title": "Manuals",
+            "description": "Installation and operating manuals for TCS systems.",
+            "linkLabel": "Open manuals"
+          },
+          "schaltplaene": {
+            "title": "Wiring diagrams",
+            "description": "Wiring and connection diagrams for commissioning.",
+            "linkLabel": "View wiring diagrams"
+          },
+          "technische": {
+            "title": "Technical documents",
+            "description": "Additional project and planning documents.",
+            "linkLabel": "Open documents"
+          }
+        }
+      },
+      "planung": {
+        "label": "Planning & tender",
+        "headline": "Plan and tender",
+        "intro": "System configurator, tender texts and spare parts.",
+        "items": {
+          "planen": {
+            "title": "Plan & tender",
+            "description": "System configurator, tender texts and planning aids.",
+            "linkLabel": "Open planning area"
+          },
+          "ersatzteile": {
+            "title": "Spare parts",
+            "description": "Order spare parts, labeling and activation codes online.",
+            "linkLabel": "Open spare parts"
+          }
+        }
+      },
+      "support": {
+        "label": "Support & knowledge",
+        "headline": "Support and knowledge",
+        "intro": "Direct line to service and structured answers.",
+        "items": {
+          "support": {
+            "title": "Technical support",
+            "description": "Hotline and wiring diagram database tcsplan.de.",
+            "linkLabel": "Open support"
+          },
+          "faq": {
+            "title": "FAQ",
+            "description": "Frequently asked questions on products, installation and commissioning.",
+            "linkLabel": "Open FAQ"
+          },
+          "glossar": {
+            "title": "Glossary",
+            "description": "Terms and abbreviations from door communication and access control.",
+            "linkLabel": "View glossary"
+          }
+        }
+      },
+      "akademie": {
+        "label": "Academy & service portal",
+        "headline": "Training and service portal",
+        "intro": "Training offers and the protected area for service partners.",
+        "items": {
+          "akademie": {
+            "title": "Academy",
+            "description": "Training courses and webinars on TCS products and applications.",
+            "linkLabel": "Open academy"
+          },
+          "serviceportal": {
+            "title": "Service portal",
+            "description": "Protected area for registered service partners.",
+            "linkLabel": "Open service portal"
+          }
+        }
+      }
+    }
+  },
+  "katalog": {
+    "hero": {
+      "label": "Service",
+      "headline": "Online product catalog",
+      "intro": "Structured access to TCS products, product data, and data sheets maintained in BMEcat for trade professionals and distribution partners."
+    },
+    "access": {
+      "label": "Product access",
+      "headline": "Find products",
+      "intro": "Catalog, product finder, series and master data for direct product selection.",
+      "items": {
+        "katalog": {
+          "title": "Online product catalog",
+          "description": "Structured access to TCS products maintained in BMEcat with technical details.",
+          "linkLabel": "In preparation"
+        },
+        "finder": {
+          "title": "Product finder",
+          "description": "Guided selection by use case and technical requirements.",
+          "linkLabel": "In preparation"
+        },
+        "serien": {
+          "title": "Series",
+          "description": "Overview of TCS product series for outdoor and indoor stations.",
+          "linkLabel": "In preparation"
+        },
+        "stammdaten": {
+          "title": "Product data & BMEcat",
+          "description": "Product master data and BMEcat package for wholesalers and ERP integration.",
+          "linkLabel": "In preparation"
+        }
+      }
+    },
+    "hinweis": {
+      "label": "Note",
+      "headline": "Catalog is being connected",
+      "text": "The actual online catalog will be connected as a dedicated entry point in a later stage. For now, this page already bundles the entry points for product access and remains the central direct link from the service navigation."
+    },
+    "mvp": {
+      "label": "Catalog test run",
+      "headline": "Products from the TCS database",
+      "intro": "First technical stage of the catalog integration. Data is loaded read-only from the central TCS product database.",
+      "status": {
+        "loading": "Loading products …",
+        "error": "Products could not be loaded.",
+        "count": "{{count}} products loaded",
+        "contextOk": "Catalog context initialised successfully"
+      },
+      "errorBox": {
+        "headline": "Loading failed",
+        "text": "The product database did not answer the request. Technical details:",
+        "stale": "Update failed. Results from the previous successful load are shown; they may not match the current language, category or filters.",
+        "previous": "The new selection is loading. Previous results remain visible meanwhile and may not match the current selection."
+      },
+      "empty": {
+        "headline": "No products found",
+        "text": "The product list is currently empty or not yet released."
+      },
+      "card": {
+        "artikelNr": "Article no."
+      }
+    },
+    "target": {
+      "headline": "Product catalog",
+      "subline": {
+        "loading": "Loading products …",
+        "count": "{{count}} articles – choose a category or browse the catalog",
+        "count_one": "{{count}} article – choose a category or browse the catalog"
+      },
+      "search": {
+        "placeholder": "Search by article no., name or description …",
+        "aria": "Search products",
+        "clear": "Clear search"
+      },
+      "chips": {
+        "all": "All"
+      },
+      "results": {
+        "count": "{{shown}} of {{total}} products",
+        "count_one": "{{shown}} of {{total}} products"
+      },
+      "sort": {
+        "label": "Sort:",
+        "options": {
+          "default": "Default",
+          "artikel_nr_asc": "Article no. ascending",
+          "price_asc": "Price ascending",
+          "price_desc": "Price descending"
+        }
+      },
+      "start": {
+        "headline": "Where would you like to start?",
+        "text": "Choose a category, apply a filter, or search by article number or product name."
+      },
+      "selection": {
+        "reset": "Reset selection"
+      },
+      "seriesGate": {
+        "counter": "— select a series",
+        "hint": "Please select a series to continue.",
+        "filterAria": "Series filter"
+      },
+      "merkliste": {
+        "label": "Watchlist ({{count}})"
+      },
+      "chooseCategory": "Choose a category to start."
+    },
+    "filters": {
+      "groups": {
+        "system_typ": {
+          "label": "System",
+          "all": "All"
+        },
+        "paket_klasse": {
+          "label": "Package class",
+          "all": "All"
+        },
+        "montageart": {
+          "label": "Mounting",
+          "all": "All"
+        },
+        "wohneinheiten": {
+          "label": "RU",
+          "all": "All"
+        },
+        "ip_gateway": {
+          "label": "IP",
+          "all": "All",
+          "yes": "Yes",
+          "no": "No"
+        }
+      },
+      "bool": {
+        "yes": "Yes",
+        "no": "No"
+      },
+      "color": "Colour",
+      "series": "Series",
+      "reset": "Reset",
+      "status": {
+        "loading": "Loading filters …",
+        "error": "Filters could not be loaded.",
+        "retry": "Try again"
+      }
+    },
+    "v2": {
+      "status": {
+        "presetUsed": "Column model from preset “{{preset}}”",
+        "fallbackActive": "Reduced view – column model could not be resolved"
+      },
+      "filters": {
+        "headline": "Filters",
+        "reset": "Reset filters",
+        "allOption": "All"
+      },
+      "fallback": {
+        "text": "The preset “{{preset}}” was not found in the database. Until it is configured, products are shown in a reduced default view without detail columns.",
+        "columnsMissing": "The preset “{{preset}}” was found, but has no columns assigned in “column_preset_columns”. Until the assignment is maintained, products are shown in a reduced default view."
+      },
+      "card": {
+        "yes": "Yes",
+        "imageAvailable": "Image available",
+        "imageAvailableCount": "{{count}} image available",
+        "imageAvailableCount_other": "{{count}} images available",
+        "openDetails": "View details",
+        "openDetailsAria": "View details for “{{title}}”",
+        "fieldLabels": {
+          "system_typ": "System type",
+          "paket_klasse": "Package class",
+          "montageart": "Mounting type",
+          "wohneinheiten": "Residential units",
+          "ip_gateway": "IP gateway"
+        }
+      }
+    },
+    "pdp": {
+      "hero": {
+        "label": "Product detail",
+        "fallbackHeadline": "Product detail page",
+        "fallbackIntro": "Product information from the TCS database."
+      },
+      "back": "Back to catalog",
+      "sections": {
+        "details": "Product details",
+        "features": "Features",
+        "specs": "Technical data",
+        "info": "Product information",
+        "documents": "Documents and manuals",
+        "ausschreibung": "Specification text",
+        "paketKomponenten": "Package components",
+        "lieferumfang": "Scope of delivery",
+        "produktinformationen": "Product information",
+        "technischeDatenFeatures": "Technical features"
+      },
+      "summary": {
+        "deliveryTime": "Delivery time",
+        "warranty": "Warranty",
+        "warrantyValue": "{{count}} months"
+      },
+      "info": {
+        "cols": {
+          "description": "Description",
+          "artikelNr": "Item no.",
+          "price": "Price/unit"
+        }
+      },
+      "inquiry": {
+        "label": "Request product"
+      },
+      "empty": {
+        "images": "No images are currently available for this product.",
+        "documents": "No documents are currently available for this product."
+      },
+      "notFound": {
+        "headline": "Product not found",
+        "text": "This product could not be loaded unambiguously from the catalog delivery layer.",
+        "devHeadline": "Dev diagnostics – slug resolution"
+      },
+      "errorBox": {
+        "headline": "Failed to load product detail page",
+        "text": "The connection to the product database failed or the configuration is missing."
+      },
+      "paket": {
+        "cols": {
+          "anzahl": "Qty",
+          "rolle": "Role",
+          "title": "Description",
+          "artikelNr": "Item no."
+        }
+      },
+      "datasheet": {
+        "title": "Data sheet",
+        "open": "Show data sheet",
+        "print": "Print",
+        "close": "Close",
+        "empty": "No data sheet is currently released for this product.",
+        "price": "Price",
+        "contents": "Package contents",
+        "features": "Features",
+        "printPreparing": "Preparing print …",
+        "printFailed": "The print could not be prepared (images or fonts were not ready in time). Please try again.",
+        "retry": "Try again",
+        "brand": {
+          "missing": "No brand profile is stored for this document, so printing is blocked.",
+          "inactive": "The brand profile for this document is currently inactive, so printing is blocked.",
+          "mismatch": "A different brand profile was returned. For safety, printing is blocked.",
+          "unconfigured": "The product connection is not set up. The brand profile could not be read.",
+          "error": "The brand profile could not be read.",
+          "templateMissing": "The brand profile does not name a data sheet template, so the sheet is neither shown nor printed.",
+          "templateUnsupported": "The data sheet template named in the brand profile is not supported here, so the sheet is neither shown nor printed."
+        }
+      },
+      "documents": {
+        "categories": {
+          "bedienungsanleitung": "User manual",
+          "datenblatt": "Data sheet",
+          "montageanleitung": "Installation guide",
+          "produktinfo": "Product information",
+          "schaltplan": "Wiring diagram"
+        }
+      }
+    },
+    "diagnostics": {
+      "headline": "Database diagnostics",
+      "states": {
+        "notConfigured": "Supabase is not configured",
+        "wrongProject": "Supabase connected, but wrong project",
+        "rpcUnavailable": "Catalog context RPC not reachable",
+        "viewUnreachable": "Database view not reachable",
+        "emptyOrBlocked": "Database reachable, but product list is empty or not released",
+        "presetMissing": "Preset “{{preset}}” not found in database",
+        "presetColumnsMissing": "Preset “{{preset}}” found, but no column assignment",
+        "ok": "Catalog context initialised successfully"
+      },
+      "labels": {
+        "supabaseConfigured": "Supabase configured",
+        "urlPresent": "Supabase URL set",
+        "projectMatch": "Project matches “{{expected}}”",
+        "rpc": "RPC rpc_get_catalog_context()",
+        "productCatalogView": "View product_catalog_view",
+        "productCatalogViewRows": "product_catalog_view contains rows",
+        "columnPresets": "Table column_presets",
+        "columnPresetsCount": "Loaded presets",
+        "productColumnDefinitions": "Table product_column_definitions",
+        "productFilterOptionsView": "RPC rpc_get_localized_filter_options",
+        "publicCatalogPreset": "Preset “{{preset}}” found"
+      },
+      "values": {
+        "yes": "Yes",
+        "no": "No",
+        "skipped": "skipped",
+        "unknown": "unknown"
+      }
+    },
+    "merkliste": {
+      "title": "Watchlist",
+      "intro": "Compare up to {{max}} products and request them together.",
+      "backToCatalog": "Back to catalogue",
+      "emptyTitle": "No products saved yet",
+      "emptyHint": "Open a product in the catalogue and choose “Add to watchlist”.",
+      "toCatalog": "To the product catalogue",
+      "compareShow": "Compare products",
+      "compareHide": "Hide comparison",
+      "inquiry": "Request products",
+      "clear": "Clear watchlist",
+      "minTwo": "At least 2 products are required for a comparison.",
+      "compareHeading": "Technical comparison",
+      "loadingSpecs": "Loading technical data…",
+      "noSpecs": "No comparable technical data is available for the saved products.",
+      "feature": "Feature",
+      "removeItem": "Remove {{artikel}}",
+      "add": "Add to watchlist",
+      "removeLabel": "Remove from watchlist",
+      "toastAdded": "Added to watchlist",
+      "toastRemoved": "Removed from watchlist",
+      "toastFull": "A maximum of {{max}} products can be compared.",
+      "inquireProduct": "Request this product",
+      "back": "Back"
+    }
+  },
+  "seiten": {
+    "planenKonfigurieren": {
+      "hero": {
+        "label": "Services and knowledge",
+        "headline": "Plan & configure",
+        "intro": "From the first idea to commissioning – TCS supports every project phase with tools, data and consulting. Configurators and shops provide direct access to products, packages and services.",
+        "imageAlt": "Planning and configuration of TCS systems"
+      },
+      "anlagenplaner": {
+        "label": "Digital tool",
+        "headline": "System planner",
+        "intro": "Plan door communication systems in a structured way – including exports and project logic.",
+        "features": {
+          "gaeb": "GAEB support",
+          "stueckliste": "Bill-of-materials logic",
+          "export": "Project export",
+          "sprache": "Multilingual interface"
+        },
+        "cta": "Open system planner"
+      },
+      "hoai": {
+        "label": "HOAI phases",
+        "headline": "Planning support along the project phases",
+        "phasen": {
+          "p12": {
+            "phase": "1–2",
+            "title": "Basic evaluation & preliminary planning",
+            "text": "Clarify needs, review references, define the solution scope.",
+            "tools": {
+              "referenzprojekte": "Reference projects",
+              "produktkonfigurator": "Product configurator",
+              "entryBeratung": "ENTRY consulting"
+            }
+          },
+          "p35": {
+            "phase": "3–5",
+            "title": "Design & approval planning",
+            "text": "Select systems, define topology and integrations.",
+            "tools": {
+              "ausschreibungstexte": "Tender texts",
+              "tcsplan": "tcsplan",
+              "cadBim": "CAD/BIM data"
+            }
+          },
+          "p67": {
+            "phase": "6–7",
+            "title": "Detailed planning & preparation",
+            "text": "Secure installation, wiring diagrams and technical documentation.",
+            "tools": {
+              "montageanleitungen": "Installation guides",
+              "schaltplaene": "Wiring diagrams",
+              "installationstechniken": "Installation techniques"
+            }
+          },
+          "p8": {
+            "phase": "8",
+            "title": "Commissioning & handover",
+            "text": "Finalize configuration, firmware and operational handover.",
+            "tools": {
+              "firmware": "Firmware",
+              "konfigurationssoftware": "Configuration software",
+              "uebergabeprotokolle": "Handover protocols"
+            }
+          }
+        }
+      },
+      "planungsdaten": {
+        "label": "CAD/BIM",
+        "headline": "Planning data",
+        "items": {
+          "dwg": {
+            "title": "DWG data",
+            "text": "Floor plans and installation sketches."
+          },
+          "bim": {
+            "title": "BIM objects",
+            "text": "Model data for digital planning."
+          },
+          "gaeb": {
+            "title": "GAEB files",
+            "text": "Service data for tenders."
+          },
+          "datenblatt": {
+            "title": "PDF datasheets",
+            "text": "Technical quick overview."
+          },
+          "topologie": {
+            "title": "Topology templates",
+            "text": "System architecture and wiring."
+          },
+          "leitfaden": {
+            "title": "Planning guide",
+            "text": "Recommendations for the design."
+          }
+        }
+      },
+      "konfiguratoren": {
+        "label": "Configurators",
+        "headline": "Selection and configuration tools",
+        "intro": "Configure your TCS solution precisely – from preconfigured packages to individual system assemblies.",
+        "openLabel": "Open",
+        "items": {
+          "paket": {
+            "title": "Package configurator",
+            "text": "Preconfigured sets matching project requirements."
+          },
+          "produkt": {
+            "title": "Product configurator",
+            "text": "Assemble individual systems flexibly."
+          },
+          "ktu": {
+            "title": "KTU configurator",
+            "text": "Configuration for door communication systems."
+          },
+          "entry": {
+            "title": "ENTRY configurator",
+            "text": "ENTRY solutions for architectural projects."
+          },
+          "beschriftung": {
+            "title": "Labeling tool",
+            "text": "Create name plates digitally."
+          },
+          "einstein": {
+            "title": "Einstein module",
+            "text": "Assisted planning module."
+          }
+        }
+      },
+      "shops": {
+        "label": "Shops",
+        "headline": "Direct ordering and service access",
+        "intro": "Order spare parts, special products and signage directly online.",
+        "openLabel": "Visit shop",
+        "items": {
+          "tcs24": {
+            "title": "TCS24",
+            "text": "Spare parts and service products."
+          },
+          "mobile": {
+            "title": "Mobile solutions",
+            "text": "Products for mobile door communication."
+          },
+          "signage": {
+            "title": "SIGNAGE Store",
+            "text": "Signs, pictograms and labeling."
+          },
+          "versteckdose": {
+            "title": "Die Versteckdose®",
+            "text": "Special products around the entrance."
+          }
+        }
+      },
+      "bestellwege": {
+        "label": "Ordering channels",
+        "headline": "How to reach the right order",
+        "items": {
+          "fachhandel": {
+            "title": "Through specialist retailers",
+            "text": "Recommended path for most projects.",
+            "badge": "Recommended"
+          },
+          "online": {
+            "title": "Online direct",
+            "text": "Direct ordering through connected shops."
+          },
+          "beratung": {
+            "title": "With consulting",
+            "text": "Individual project consulting by TCS experts."
+          }
+        }
+      },
+      "ausschreibung": {
+        "label": "GAEB & tender",
+        "headline": "Tender texts",
+        "intro": "Texts and structures for clean tenders – per product or as a complete GAEB export.",
+        "items": {
+          "proProdukt": {
+            "title": "Per product",
+            "text": "Texts directly in the product context."
+          },
+          "komplettexport": {
+            "title": "Complete export",
+            "text": "Complete GAEB packages for download."
+          }
+        }
+      },
+      "cta": {
+        "headline": "Request planning consulting",
+        "text": "Our team supports you with the selection and design of your project.",
+        "button": "Request consulting"
+      }
+    },
+    "downloads": {
+      "hero": {
+        "label": "Download center",
+        "headline": "Find downloads",
+        "intro": "Find manuals, product information, planning documents, software and publications."
+      },
+      "quickLinks": {
+        "downloads": {
+          "label": "Downloads",
+          "desc": "Manuals, datasheets and software."
+        },
+        "faq": {
+          "label": "FAQ",
+          "desc": "Quick answers to common questions."
+        },
+        "ersatzteile": {
+          "label": "Spare parts",
+          "desc": "Direct access to the TCS24 spare parts shop."
+        },
+        "support": {
+          "label": "Support",
+          "desc": "Contact our service team."
+        }
+      },
+      "dokumente": {
+        "headline": "Downloads",
+        "intro": "Search directly by product, article number or document — or choose an audience and an area.",
+        "categories": {
+          "handbuecher": "Manuals",
+          "datenblaetter": "Datasheets",
+          "ausschreibungstexte": "Tender documents",
+          "software": "Software & firmware",
+          "schaltplaene": "Wiring diagrams"
+        },
+        "label_suche": "Search product, article number or document",
+        "label_weitere_filter": "More filters",
+        "label_zugeordnete_artikel": "Assigned articles",
+        "label_zielgruppen": "By audience",
+        "label_unterlagentypen": "By document type",
+        "label_uebersicht": "Overview",
+        "label_kapitel": "Chapters",
+        "btn_view": "Preview",
+        "btn_new_tab": "New tab",
+        "btn_close_preview": "Close preview",
+        "preview_unavailable_hint": "No preview is available here for this document. Please open it in a new tab."
+      },
+      "faq": {
+        "headline": "Frequently asked questions",
+        "intro": "Answers, tips and direct links.",
+        "categories": {
+          "alle": "All",
+          "allgemein": "General",
+          "produkte": "Products & series",
+          "installation": "Installation & wiring",
+          "video": "Video & 2-wire",
+          "zutritt": "Access control / BCM",
+          "snipdoo": "snipdoo & cloud",
+          "service": "Service & orders"
+        },
+        "items": {
+          "i01": {
+            "category": "allgemein",
+            "q": "What makes TCS door entry systems special?",
+            "a": "TCS offers modular, durable systems for all building types – from single-family homes to large-scale projects. All products are manufactured in Germany and stand out for their high quality and easy installation."
+          },
+          "i02": {
+            "category": "allgemein",
+            "q": "Which building types are TCS systems suitable for?",
+            "a": "TCS systems are suitable for single-family homes, multi-family buildings, commercial properties, public institutions and large-scale objects."
+          },
+          "i03": {
+            "category": "allgemein",
+            "q": "Are the systems suitable for elderly people?",
+            "a": "Yes, TCS systems offer intuitive operation, large displays and optionally accessible features."
+          },
+          "i04": {
+            "category": "allgemein",
+            "q": "Are the systems suitable for renovations / existing buildings?",
+            "a": "Yes, the 2-wire systems in particular are very well suited for use in existing buildings."
+          },
+          "i05": {
+            "category": "allgemein",
+            "q": "What does “plug and play” mean for TCS products?",
+            "a": "Pre-configured systems that are ready to use immediately without complex programming."
+          },
+          "i06": {
+            "category": "allgemein",
+            "q": "What warranty does TCS offer?",
+            "a": "TCS provides a comprehensive manufacturer warranty on all products. Details are available via the warranty check."
+          },
+          "i07": {
+            "category": "produkte",
+            "q": "What is the difference between Senso Pro and Tasta Pro?",
+            "a": "Senso Pro features capacitive touch buttons, Tasta Pro mechanical bell pushes. Both series are available in audio and video variants."
+          },
+          "i08": {
+            "category": "produkte",
+            "q": "What is a Smart Stick?",
+            "a": "A compact DECT module that enables door communication via existing DECT telephones."
+          },
+          "i09": {
+            "category": "produkte",
+            "q": "Is there an app for door communication?",
+            "a": "Yes, with snipdoo door calls can be forwarded to the smartphone and the door can be opened via the app."
+          },
+          "i10": {
+            "category": "installation",
+            "q": "Which door opener types are suitable for the TCS:BUS system?",
+            "a": "Standard door openers with 12 V AC/DC or electric locks can be controlled directly."
+          },
+          "i11": {
+            "category": "installation",
+            "q": "At what height should video stations be mounted?",
+            "a": "The recommended mounting height for video outdoor stations is approx. 1.50 m (centre of camera)."
+          },
+          "i12": {
+            "category": "installation",
+            "q": "How many stations can be connected to a TCS:BUS system?",
+            "a": "Depending on the control unit, up to 200+ subscribers can be connected."
+          },
+          "i13": {
+            "category": "installation",
+            "q": "Which cable lengths are permitted on the TCS:BUS?",
+            "a": "Depending on the cable cross-section, line lengths of up to several hundred metres are possible."
+          },
+          "i14": {
+            "category": "installation",
+            "q": "Are TCS:BUS devices reverse-polarity protected?",
+            "a": "Yes, all TCS:BUS devices are reverse-polarity protected, which makes installation particularly convenient."
+          },
+          "i15": {
+            "category": "video",
+            "q": "Can video be retrofitted in existing systems?",
+            "a": "Yes, with video 2-wire technology (V2D), video can be retrofitted via existing 2-wire lines."
+          },
+          "i16": {
+            "category": "video",
+            "q": "What is video 2-wire (V2D)?",
+            "a": "A technology that enables video transmission over just two wires – ideal for retrofits."
+          },
+          "i17": {
+            "category": "zutritt",
+            "q": "Does TCS offer access control systems?",
+            "a": "Yes, the BCM system provides comprehensive digital access control with transponders, PIN codes and smartphone access."
+          },
+          "i18": {
+            "category": "zutritt",
+            "q": "Which access media are supported?",
+            "a": "Transponder cards, key fobs, PIN code, fingerprint and smartphone (BLE/NFC)."
+          },
+          "i19": {
+            "category": "snipdoo",
+            "q": "What is snipdoo?",
+            "a": "snipdoo is the cloud-based TCS solution for door communication via smartphone – with video, door opening and push notifications."
+          },
+          "i20": {
+            "category": "snipdoo",
+            "q": "Can snipdoo be retrofitted into existing systems?",
+            "a": "Yes, snipdoo can easily be integrated into existing TCS systems via a gateway."
+          },
+          "i21": {
+            "category": "service",
+            "q": "Where do I find spare parts?",
+            "a": "Spare parts are available via the TCS24 online shop."
+          },
+          "i22": {
+            "category": "service",
+            "q": "How can I submit a warranty request?",
+            "a": "Via the RMA form or the online warranty check at garantie.tcsapps.de."
+          },
+          "i23": {
+            "category": "service",
+            "q": "Is there technical support?",
+            "a": "Yes, our technical support is available by phone and email."
+          }
+        }
+      },
+      "rma": {
+        "headline": "Repair & returns",
+        "intro": "Report defects in a structured way and check warranty status.",
+        "items": {
+          "rma": {
+            "title": "Open RMA form",
+            "text": "Initiate returns in a structured way via the RMA form."
+          },
+          "garantie": {
+            "title": "Check warranty",
+            "text": "Check warranty status online.",
+            "button": "Go to warranty check"
+          },
+          "support": {
+            "title": "Direct support",
+            "text": "Contact our team if you have questions.",
+            "button": "Go to contact"
+          }
+        }
+      },
+      "bestellung": {
+        "headline": "Ordering",
+        "items": {
+          "ersatzteile": {
+            "label": "Spare parts",
+            "desc": "Source components via TCS24."
+          },
+          "beschriftung": {
+            "label": "Labelling",
+            "desc": "Name plates and labelling service."
+          },
+          "freischaltcodes": {
+            "label": "Activation codes",
+            "desc": "Licences and activation codes."
+          }
+        }
+      },
+      "akademie": {
+        "headline": "Training & knowledge",
+        "intro": "Continuing education for planning, installation and service.",
+        "items": {
+          "produktschulungen": {
+            "label": "Product training",
+            "desc": "Hands-on training on the systems."
+          },
+          "webinare": {
+            "label": "Webinars",
+            "desc": "Digital learning formats on demand."
+          },
+          "zertifizierung": {
+            "label": "Certification",
+            "desc": "Proof of competence for specialist partners."
+          },
+          "vorOrt": {
+            "label": "On-site training",
+            "desc": "Individual training within the team."
+          },
+          "partner": {
+            "label": "Partner programmes",
+            "desc": "Value-added programmes for specialist companies."
+          }
+        }
+      },
+      "glossar": {
+        "headline": "Terms & abbreviations",
+        "intro": "Briefly explained – from A to Z.",
+        "groups": {
+          "A": {
+            "letter": "A",
+            "items": {
+              "automatischeWahl": {
+                "term": "Automatic dialling",
+                "def": "Automatic connection to a predefined station when the handset is picked up."
+              },
+              "aktoren": {
+                "term": "Actuators",
+                "def": "Components that convert electrical signals into mechanical actions – e.g. door openers or relays."
+              },
+              "automatischeTueroeffnung": {
+                "term": "Automatic door opening",
+                "def": "Automatic opening of the door after a call is answered, without an additional key press."
+              }
+            }
+          },
+          "B": {
+            "letter": "B",
+            "items": {
+              "bussystem": {
+                "term": "Bus system",
+                "def": "Shared communication line that connects all devices of a door entry system (e.g. TCS:BUS)."
+              },
+              "busspannung": {
+                "term": "Bus voltage",
+                "def": "Operating voltage on the bus line, typically approx. 24 VDC for TCS systems."
+              }
+            }
+          },
+          "D": {
+            "letter": "D",
+            "items": {
+              "datenprotokoll": {
+                "term": "Data protocol",
+                "def": "Defined communication rules for data exchange between bus participants."
+              },
+              "dinSchiene": {
+                "term": "DIN rail",
+                "def": "Standardised mounting rail for power supplies, control units and modules in distribution cabinets."
+              },
+              "tuerruf": {
+                "term": "Door call",
+                "def": "Signal transmission from the bell push at the outdoor station to the indoor station."
+              }
+            }
+          },
+          "F": {
+            "letter": "F",
+            "items": {
+              "etagenruf": {
+                "term": "Floor call",
+                "def": "Call from a floor door (not the main entrance) to the indoor station."
+              },
+              "vollduplex": {
+                "term": "Full duplex",
+                "def": "Speaking and listening at the same time – like a normal telephone call."
+              }
+            }
+          },
+          "S": {
+            "letter": "S",
+            "items": {
+              "schaltplan": {
+                "term": "Wiring diagram",
+                "def": "Technical drawing of the electrical wiring of a door entry system."
+              },
+              "seriennummer": {
+                "term": "Serial number",
+                "def": "Unique identification number of each TCS device for service and warranty."
+              },
+              "kurzschlussschutz": {
+                "term": "Short-circuit protection",
+                "def": "Property of a device to remain undamaged in the event of a short circuit."
+              }
+            }
+          },
+          "T": {
+            "letter": "T",
+            "items": {
+              "transformator": {
+                "term": "Transformer",
+                "def": "Power supply for converting the mains voltage to the operating voltage of the system."
+              }
+            }
+          },
+          "W": {
+            "letter": "W",
+            "items": {
+              "verdrahtungsplan": {
+                "term": "Wiring plan",
+                "def": "Simplified schematic representation of the system wiring."
+              },
+              "winClip": {
+                "term": "win:clip system",
+                "def": "TCS-proprietary modular clip system for tool-free mounting of indoor stations."
+              }
+            }
+          }
+        }
+      },
+      "ansprechpartner": {
+        "lead": "Didn't find what you were looking for?",
+        "name": "Tobias Schöneberg · Head of Technical Sales · Consulting · Training",
+        "experience": "More than 15 years of experience in building communication & systems engineering",
+        "button": "Get in touch"
+      }
+    },
+    "technischerSupport": {
+      "hero": {
+        "label": "Service",
+        "headline": "Technical support",
+        "intro": "Quick help with installation, configuration and operation of your TCS systems."
+      },
+      "channels": {
+        "headline": "How to reach us",
+        "items": {
+          "telefon": {
+            "label": "Phone hotline",
+            "desc": "Direct technical assistance from our expert team.",
+            "detail": "Mon–Fri, 8:00 a.m. – 5:00 p.m."
+          },
+          "email": {
+            "label": "Email support",
+            "desc": "Send us your request – we'll get back to you promptly.",
+            "detail": "support@tcsag.de"
+          },
+          "tcsplan": {
+            "label": "Wiring diagram database",
+            "desc": "More than 1,000 wiring diagrams on tcsplan.de for your projects.",
+            "detail": "tcsplan.de"
+          },
+          "downloads": {
+            "label": "Downloads",
+            "desc": "Manuals, datasheets, firmware and software."
+          }
+        }
+      },
+      "faq": {
+        "headline": "Frequent technical questions",
+        "intro": "Answers on installation, wiring and configuration.",
+        "items": {
+          "i01": {
+            "q": "The system whistles – what should be checked?",
+            "a": "Check the cable lengths, the distance between outdoor and indoor station and the volume setting. Too small a distance or incorrect wiring can cause feedback."
+          },
+          "i02": {
+            "q": "Which voltages can be measured at the BVS20 control unit?",
+            "a": "The bus voltage of approx. 24 VDC is present at the BVS20. During active communication, signal voltages can be measured on the bus line."
+          },
+          "i03": {
+            "q": "Are TCS:BUS devices reverse-polarity protected?",
+            "a": "Yes, all TCS:BUS devices are reverse-polarity protected, which makes installation particularly convenient."
+          },
+          "i04": {
+            "q": "Which cable lengths are permitted on the TCS:BUS?",
+            "a": "Depending on the cable cross-section, line lengths of up to several hundred metres are possible. Details can be found in the respective datasheets."
+          },
+          "i05": {
+            "q": "What is Configo?",
+            "a": "Configo is the programming and configuration software for TCS systems. It enables convenient setup and adjustment of all system parameters."
+          },
+          "i06": {
+            "q": "What can the TCS service device do?",
+            "a": "The service device is used for diagnostics, programming and troubleshooting on TCS:BUS systems directly on site."
+          },
+          "i07": {
+            "q": "How do you set up call forwarding?",
+            "a": "Call forwarding is configured via the indoor station or the snipdoo app. Door calls can be forwarded to smartphones or other stations."
+          },
+          "i08": {
+            "q": "Can video be retrofitted in existing systems?",
+            "a": "Yes, with video 2-wire technology (V2D), video can be retrofitted via existing 2-wire lines."
+          },
+          "i09": {
+            "q": "How can I have my service device activated?",
+            "a": "Activation is handled by TCS customer service. Please contact us with the serial number of your device."
+          },
+          "i10": {
+            "q": "How can I have the Configo (FBI) software activated?",
+            "a": "Send a request with your customer number and the hardware ID to TCS support."
+          }
+        }
+      },
+      "rma": {
+        "headline": "Repair & returns",
+        "intro": "Report defects in a structured way and check warranty status.",
+        "items": {
+          "rma": {
+            "title": "RMA form",
+            "text": "Initiate returns in a structured way via the RMA form."
+          },
+          "garantie": {
+            "title": "Check warranty",
+            "text": "Check warranty status online.",
+            "button": "Go to warranty check"
+          },
+          "support": {
+            "title": "Direct support",
+            "text": "Contact our team.",
+            "button": "Go to contact"
+          }
+        }
+      },
+      "ersatzteile": {
+        "headline": "Spare parts & ordering",
+        "items": {
+          "ersatzteile": {
+            "title": "Spare parts",
+            "text": "Source components directly via TCS24.",
+            "button": "Go to TCS24 shop"
+          },
+          "beschriftung": {
+            "title": "Labelling",
+            "text": "Name plates and labelling service for your system."
+          },
+          "freischaltcodes": {
+            "title": "Activation codes",
+            "text": "Licences and activation codes for software and service devices."
+          }
+        }
+      },
+      "ansprechpartner": {
+        "headline": "Your contact person",
+        "name": "Tobias Schöneberg · Head of Technical Sales · Consulting · Training",
+        "experience": "More than 15 years of experience in building communication & systems engineering",
+        "button": "Get in touch"
+      }
+    },
+    "ersatzteile": {
+      "hero": {
+        "label": "Spare parts, labelling and activation codes",
+        "headline": "Everything for your TCS system – order directly online",
+        "intro": "Whether replacement components, individual labelling or software activation codes: in the TCS24 online shop you'll find everything you need to operate, maintain and extend your TCS systems."
+      },
+      "ersatzteile": {
+        "headline": "Spare parts",
+        "intro": "Individual components and original spare parts for all TCS systems – quickly available and guaranteed to fit.",
+        "items": {
+          "netzteile": {
+            "title": "Power supplies & control units",
+            "desc": "Power supplies, BVS control units and DIN-rail components"
+          },
+          "kamera": {
+            "title": "Camera & video modules",
+            "desc": "Replacement cameras, camera modules and video distributors"
+          },
+          "audio": {
+            "title": "Speakers & microphones",
+            "desc": "Audio components for indoor and outdoor stations"
+          },
+          "gehaeuse": {
+            "title": "Housings & frames",
+            "desc": "Surface- and flush-mount housings, cover frames and mounting plates"
+          }
+        },
+        "cta": "Spare parts in the TCS24 shop"
+      },
+      "beschriftung": {
+        "headline": "Labelling",
+        "intro": "Professional labelling for bell panels, mailbox systems and name plates – custom-made and tailored to your TCS system.",
+        "cards": {
+          "namensschilder": {
+            "title": "Name plates",
+            "desc": "Engraved or printed name plates for bell pushes and mailboxes. Available in various materials, fonts and sizes – matching all TCS series.",
+            "features": {
+              "f1": "Various materials (plastic, aluminium)",
+              "f2": "Individual fonts and sizes",
+              "f3": "Perfect fit for all TCS panels"
+            }
+          },
+          "klingeltableau": {
+            "title": "Bell panel labelling",
+            "desc": "Complete labelling sets for bell panels with multiple bell pushes. Uniform appearance for the entire building.",
+            "features": {
+              "f1": "Uniform design for all parties",
+              "f2": "Weather-resistant materials",
+              "f3": "Easy replacement when tenants change"
+            }
+          },
+          "briefkasten": {
+            "title": "Mailbox labelling",
+            "desc": "Individual name plates for TCS mailbox systems. Matched to the respective mailbox series for a harmonious overall appearance.",
+            "features": {
+              "f1": "Matching all TCS mailbox series",
+              "f2": "Professional engraving or printing",
+              "f3": "Quick delivery even for single items"
+            }
+          }
+        },
+        "cta": "Order labelling"
+      },
+      "freischaltcodes": {
+        "headline": "Activation codes",
+        "intro": "Licences and activation codes for software functions, BCM modules and system extensions – available by email immediately after ordering.",
+        "cards": {
+          "bcm": {
+            "title": "BCM licences",
+            "desc": "Activation codes for BCM software modules such as advanced access control, building management functions, digital signage or alarm system integration."
+          },
+          "app": {
+            "title": "App functions",
+            "desc": "Activation codes for advanced app functions such as mobile access via Bluetooth, remote access to door communication and push notifications."
+          },
+          "system": {
+            "title": "System extensions",
+            "desc": "Licences to extend existing systems – e.g. additional users, doors, cameras or interfaces for third-party systems."
+          }
+        },
+        "ablauf": {
+          "headline": "How it works",
+          "steps": {
+            "s1": "Select the required activation code in the TCS24 shop",
+            "s2": "Place the order and complete the payment",
+            "s3": "Receive the activation code immediately by email",
+            "s4": "Enter the code in the BCM software or on the device"
+          }
+        },
+        "cta": "Buy activation codes"
+      },
+      "vorteile": {
+        "headline": "Your benefits in the TCS24 online shop",
+        "items": {
+          "online": {
+            "title": "24/7 online ordering",
+            "desc": "Order around the clock – no waiting times"
+          },
+          "versand": {
+            "title": "Fast shipping",
+            "desc": "Short delivery times directly from stock"
+          },
+          "qualitaet": {
+            "title": "Original quality",
+            "desc": "Guaranteed matching TCS original parts"
+          },
+          "freischaltung": {
+            "title": "Instant activation",
+            "desc": "Activation codes delivered directly by email"
+          }
+        }
+      },
+      "cta": {
+        "headline": "Order now in the TCS24 shop",
+        "text": "All spare parts, labelling and activation codes for your TCS system – conveniently ordered online.",
+        "button": "Go to the TCS24 shop"
+      }
+    }
+  }
+}

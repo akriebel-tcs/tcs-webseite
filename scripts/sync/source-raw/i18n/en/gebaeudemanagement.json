@@ -1,0 +1,392 @@
+{
+  "_meta": {
+    "namespace": "gebaeudemanagement",
+    "status": "migrated",
+    "note": "All 6 pages of the Building management domain are migrated to i18n."
+  },
+  "shared": {
+    "label": "Building management",
+    "sections": {
+      "overview": "Overview",
+      "useCases": "Use cases",
+      "technology": "Technology",
+      "benefits": "Benefits"
+    },
+    "products": {
+      "label": "Products",
+      "title": "Solutions at a glance",
+      "datasheet": "Data sheet",
+      "learnMore": "Learn more"
+    },
+    "scroll": {
+      "left": "Scroll back",
+      "right": "Scroll forward"
+    }
+  },
+  "alarmanlagenkopplung": {
+    "hero": {
+      "headline": "Alarm system integration",
+      "intro": "This page is currently being prepared."
+    },
+    "placeholder": {
+      "label": "In preparation",
+      "title": "Alarm system integration",
+      "text": "Information on connecting building management solutions with alarm systems will be added."
+    }
+  },
+  "digitalSignage": {
+    "hero": {
+      "headline": "Digital Signage – context-aware digital signage for all your needs",
+      "intro": "Inform residents, employees and visitors with the BCM Infoboard: dynamic content, integrated into your access control system – on any display with an HDMI input."
+    },
+    "overview": {
+      "title": "Infoboard – integrated into the BCM system",
+      "text": "Displaying important information for residents, employees or visitors can be crucial for staying better organised and informed. Through integration into the TCS access control system, the information gains a dynamic component, as the current content can be adapted interactively to current circumstances. Housing companies or businesses can personalise the infoboards through a wide range of design and content options – with company logo, important notices, weather data, menus, websites, videos or images."
+    },
+    "useCases": {
+      "title": "Versatile areas of application",
+      "items": {
+        "eingangsbereiche": {
+          "title": "Entrance areas",
+          "desc": "Display of resident names, apartment numbers and messages for residents and visitors."
+        },
+        "empfangsbereiche": {
+          "title": "Reception areas",
+          "desc": "Present important company information clearly – ideal for lobbies and reception desks."
+        },
+        "handelGastronomie": {
+          "title": "Shops, hotels & hospitality",
+          "desc": "Present current offers, menus, travel videos and images in an appealing way."
+        },
+        "individuell": {
+          "title": "Individual design",
+          "desc": "Freely customisable content: notices, weather data, websites, videos or images according to your wishes."
+        }
+      }
+    },
+    "technology": {
+      "title": "Simple integration",
+      "text": "Any display with an HDMI input is suitable. The BCM Infoboard is seamlessly integrated into the TCS access control system and can be managed centrally via the BCM software. This way you control doors, gates, lifts and information displays from a single interface."
+    },
+    "products": {
+      "intro": "The BCM Infoboard – integrated into your access control system, deployable on any display with an HDMI input.",
+      "items": {
+        "infoboard": {
+          "subtitle": "Digital signage",
+          "title": "BCM Infoboard",
+          "description": "Context-aware information display for residents, employees and visitors – dynamic, customisable and seamlessly integrated into the BCM system."
+        }
+      }
+    }
+  },
+  "bcmInfoboard": {
+    "hero": {
+      "eyebrow": "One system – many applications",
+      "headline": "BCM Infoboard",
+      "subline": "Context-aware digital signage for all your needs",
+      "description": "Displaying important information for residents, employees or visitors can be crucial for staying better organised and informed. Through integration into the TCS access control system, the information gains a dynamic component, as the current content can be adapted interactively to current circumstances.",
+      "ctaBeratung": "Send project enquiry",
+      "ctaDatenblatt": "Download data sheet",
+      "imageAlt": "BCM Infoboard by TCS"
+    },
+    "vorteile": {
+      "eyebrow": "Your benefits",
+      "headline": "Benefits of the BCM Infoboard",
+      "items": [
+        { "title": "Dynamic content", "description": "Current content is adapted interactively to the current circumstances – always up to date, always relevant." },
+        { "title": "Seamless integration", "description": "The infoboard is directly integrated into the TCS access control system – central management via the BCM software." },
+        { "title": "Versatile content", "description": "Important notices, weather data, menus, websites, videos or images – freely customisable according to your wishes." },
+        { "title": "Universally applicable", "description": "Any display with an HDMI input is suitable – no special hardware required." },
+        { "title": "Simple management", "description": "Housing companies and businesses personalise the infoboards through a wide range of design and content options." }
+      ]
+    },
+    "anwendungen": {
+      "eyebrow": "Applications",
+      "headline": "Typical use cases",
+      "items": [
+        { "title": "Entrance areas", "description": "Display of resident names and apartment numbers as well as messages for residents or visitors." },
+        { "title": "Company reception areas", "description": "Present important information clearly – ideal for lobbies and reception desks." },
+        { "title": "Shops, hotels & hospitality", "description": "Present current offers, menus, travel videos and images in an appealing way." },
+        { "title": "Pharmacies", "description": "Display emergency pharmacies and opening hours in a current and clear manner." }
+      ]
+    },
+    "cta": {
+      "eyebrow": "Contact",
+      "claim": "We are happy to advise you!",
+      "subtext": "Get in touch – we will support you in selecting and planning your BCM Infoboard."
+    }
+  },
+  "reservierenBuchen": {
+    "hero": {
+      "headline": "Reservations and booking – intelligent booking system",
+      "intro": "Reservations for everyone, anywhere: with the BCM booking system you manage rooms, devices and resources digitally – with automatic access control."
+    },
+    "overview": {
+      "title": "Digital booking system",
+      "text": "With this solution anyone can securely book a room via a smartphone, a desktop computer or even a touchscreen device with built-in reader. Complex reservation rules can easily be managed for any time period and any group of people. Controlled access to sports halls, schools, laundries or individual machines and devices has never been so well organised."
+    },
+    "products": {
+      "intro": "The BCM booking system – flexibly deployable for rooms, devices and communal facilities.",
+      "items": {
+        "bcmBuchungssystem": {
+          "subtitle": "Room & resource booking",
+          "title": "BCM booking system",
+          "description": "Digital booking of rooms, washing machines or sports facilities – via smartphone, desktop or touchscreen. With automatic access control and flexible reservation rules."
+        }
+      }
+    },
+    "benefits": {
+      "title": "Why the BCM booking system?",
+      "items": {
+        "intelligenteUebersicht": {
+          "title": "Intelligent overview",
+          "desc": "Use the user-friendly calendar to book specific facilities on predefined days and time slots."
+        },
+        "sichererZugang": {
+          "title": "Secure access",
+          "desc": "Only users who have reserved the room are granted access during the selected time period – automatically also at the car park and main entrance."
+        },
+        "umfassendeNutzung": {
+          "title": "Comprehensive use",
+          "desc": "Reservations via smartphone, desktop or touchscreen – all booking schedules can be embedded into your website."
+        },
+        "flexibleRegeln": {
+          "title": "Flexible rules",
+          "desc": "Manage reservation windows, capacity limits, booking invitations and cancellation features."
+        }
+      }
+    }
+  },
+  "bcmBuchungssystem": {
+    "hero": {
+      "eyebrow": "One system – many applications",
+      "headline": "BCM Booking System",
+      "subline": "Reservations for everyone, anywhere",
+      "description": "With this solution anyone can securely book a room via a smartphone, a desktop computer or even a touchscreen device with a built-in reader. Complex reservation rules can easily be managed for any time period and any group of people.",
+      "ctaBeratung": "Send project enquiry",
+      "ctaDatenblatt": "Download data sheet",
+      "imageAlt": "BCM booking system by TCS"
+    },
+    "vorteile": {
+      "eyebrow": "Your benefits",
+      "headline": "Benefits of the BCM booking system",
+      "items": [
+        {
+          "title": "Intelligent overview",
+          "description": "Use the user-friendly calendar to book specific facilities on predefined days and time slots."
+        },
+        {
+          "title": "Secure access with strict rules",
+          "description": "Only users who have reserved the room are granted access during the selected time period – automatically also at the car park and main entrance."
+        },
+        {
+          "title": "Comprehensive use",
+          "description": "The simple creation of booking rules gives you great flexibility. All booking schedules can be embedded into your website."
+        },
+        {
+          "title": "Flexible device choice",
+          "description": "A flexible selection of devices allows immediate reservations to be made – regardless of where you are."
+        },
+        {
+          "title": "Capacity management",
+          "description": "Manage reservation windows, time and capacity limits, booking invitations and cancellation features for no-shows."
+        },
+        {
+          "title": "Automatic access control",
+          "description": "The system automatically grants access at the access points where required – e.g. at the car park and main entrance."
+        }
+      ]
+    },
+    "anwendungen": {
+      "eyebrow": "Applications",
+      "headline": "Typical use cases",
+      "items": [
+        {
+          "title": "Sports halls & fitness rooms",
+          "description": "Controlled access to sports facilities – book specific time slots, automatic access release."
+        },
+        {
+          "title": "Schools & educational institutions",
+          "description": "Reserve rooms, labs and equipment specifically, and release access only for the respective booking period."
+        },
+        {
+          "title": "Laundries & communal appliances",
+          "description": "Book individual machines and appliances – avoid usage conflicts, manage utilisation transparently."
+        },
+        {
+          "title": "Offices & co-working spaces",
+          "description": "Manage desks, meeting rooms and resources digitally – via smartphone, desktop or directly at the on-site touchscreen."
+        }
+      ]
+    },
+    "cta": {
+      "eyebrow": "Contact",
+      "claim": "We are happy to advise you!",
+      "subtext": "Get in touch – we will support you in selecting and planning your BCM booking system."
+    }
+  },
+  "schraenkeBehaelter": {
+    "hero": {
+      "headline": "Cabinets and containers – electronic locking systems for furniture",
+      "intro": "Reusable and flexible: battery-powered offline cabinet locks secure lockers, cabinets and server cabinets – with digital rights management via the browser-based BCM software."
+    },
+    "overview": {
+      "title": "Electronic cabinet locks",
+      "text": "The compact battery-powered offline cabinet locks are suitable for cabinets that need to be locked in a controlled but flexible way. Access rights are easily configured in the browser-based software. The system can be upgraded to wireless online locking via offline gateways, enabling full control anytime, anywhere."
+    },
+    "products": {
+      "intro": "From locker locks to server cabinet locks – electronic locking systems for every requirement.",
+      "items": {
+        "schrankschloss": {
+          "subtitle": "Lockers & cabinets",
+          "title": "Electronic cabinet lock",
+          "description": "Compact battery-powered offline lock for cabinets with wood, steel or aluminium surfaces – mountable horizontally or vertically, ideal for swimming pools, sports clubs and educational institutions."
+        },
+        "serverschloss": {
+          "subtitle": "Racks & servers",
+          "title": "Electronic server cabinet lock",
+          "description": "Installation on the swing handle with euro profile cylinder – the secure solution for servers and racks where employee access needs to be restricted."
+        },
+        "vorhaengeschloss": {
+          "subtitle": "Remote Locations & Containers",
+          "title": "Padlock with Electronic Knob Cylinder",
+          "description": "Padlock with electronic knob cylinder: The secure solution for remote doors, bicycle sheds or containers – suitable for indoor and outdoor use."
+        }
+      }
+    },
+    "benefits": {
+      "title": "Why choose TCS to secure cabinets and containers?",
+      "items": {
+        "flexibel": {
+          "title": "Flexible deployment",
+          "desc": "Fits cabinets with wood, steel or aluminium surfaces – mountable horizontally or vertically."
+        },
+        "nachruestung": {
+          "title": "Easy retrofitting",
+          "desc": "Replaces mechanical furniture or cabinet locks without complex modifications."
+        },
+        "zentraleVerwaltung": {
+          "title": "Central management",
+          "desc": "All access rights are configured via the web-based BCM software."
+        },
+        "aufruestbar": {
+          "title": "Upgradeable to online",
+          "desc": "Wirelessly upgradeable to online locking via offline gateway – full control at any time."
+        }
+      }
+    },
+    "subnav": {
+      "items": {
+        "schrankschloss": "Electronic cabinet lock",
+        "serverschloss": "Electronic server cabinet lock"
+      }
+    }
+  },
+  "digitaleNamensanzeige": {
+    "hero": {
+      "headline": "Digital name display – Electronic name plates and management",
+      "intro": "Tenant changes without a technician: digital name displays and central management for outdoor stations, letterboxes and bell panels – simply via the browser."
+    },
+    "overview": {
+      "title": "Digital name management for buildings",
+      "text": "TCS's BCM system enables the digital management of name plates on outdoor stations, letterboxes and bell panels. Browser-based access allows housing administrators to change names and texts without an installer – ideal for frequent tenant changes."
+    },
+    "products": {
+      "intro": "From the compact outdoor station to the browser-based management software – everything for digital name display.",
+      "items": {
+        "adx5": {
+          "subtitle": "Digital name display",
+          "title": "Compact outdoor station ADx5",
+          "description": "Modern stainless steel outdoor station with integrated display for up to 60 residential units – with speaker, microphone, camera and BCM reader in a compact housing."
+        },
+        "displaymodul": {
+          "subtitle": "Modular integration",
+          "title": "CARUS ARGOS display module",
+          "description": "Backlit LCD graphic display with up to 3 buttons per module – seamlessly integrable into the modular CARUS ARGOS outdoor stations."
+        },
+        "briefkasten": {
+          "subtitle": "Letterboxes & name plates",
+          "title": "Digital letterbox system",
+          "description": "Digital letterboxes with electronic name plates and unlocking via transponder or PIN code – manageable in the browser."
+        },
+        "software": {
+          "subtitle": "Central control",
+          "title": "Management software",
+          "description": "Browser-based software for central management of all digital name displays – tenant changes without on-site visits, special texts and individual labelling."
+        },
+        "etagentaster": {
+          "subtitle": "Door release on the floor",
+          "title": "Floor Button",
+          "description": "Floor buttons for integration into the BCM access control system."
+        }
+      }
+    },
+    "benefits": {
+      "title": "Why TCS for digital name displays?",
+      "items": {
+        "fernverwaltung": {
+          "title": "Remote management via browser",
+          "desc": "Change names and texts without an installer – via PC software or cloud, also remotely."
+        },
+        "mieterwechsel": {
+          "title": "Tenant change without effort",
+          "desc": "Quick switching when residents change without physical intervention at the outdoor station."
+        },
+        "modular": {
+          "title": "Modular design",
+          "desc": "Display modules, outdoor stations and letterboxes flexibly combinable for any building size."
+        },
+        "vandalismus": {
+          "title": "Vandalism-proof",
+          "desc": "Robust stainless steel housings and LCD displays for permanent outdoor use."
+        }
+      }
+    },
+    "subnav": {
+      "items": {
+        "adx5": "Compact outdoor station ADx5",
+        "displaymodul": "CARUS ARGOS display module",
+        "briefkasten": "Digital letterbox system",
+        "software": "Management software",
+        "etagentaster": "Floor button"
+      }
+    }
+  },
+  "root": {
+    "hero": {
+      "headline": "Connected building management with the BCM system",
+      "intro": "Security, comfort and digital information centrally controlled"
+    },
+    "bcm": {
+      "label": "BCM system",
+      "title": "More than access control",
+      "text": "The BCM system from TCS offers far more than just classic access control. It integrates a wide range of functions for modern, connected building management in a central, scalable software solution. Whether smart booking of communal rooms, smooth management of car parks or digital resident information – BCM efficiently combines these requirements and creates real added value for operators, employees and residents."
+    },
+    "functions": {
+      "label": "Functions",
+      "title": "Building management in detail",
+      "items": {
+        "digitaleNamensanzeige": {
+          "headline": "1. Digital name display",
+          "text": "Central and contemporary management of resident data: with digital name management, resident or company names in residential and commercial buildings can be displayed in a modern way on display outdoor stations, floor buttons and letterboxes. Management is extremely convenient: via browser-based access, administrators can update the digital name plates remotely at any time, without having to be on site. At the letterboxes, the collection flap can also be fully integrated into the system and securely opened via electronic keys or PIN codes."
+        },
+        "zufahrtssteuerung": {
+          "headline": "2. Access control for driveways and car park monitoring",
+          "text": "Efficient parking management without waiting times: the system offers smooth access control for vehicles at barriers and gates – ideal for company driveways, logistics centres or employee car parks. Identification and opening are conveniently handled via intelligent licence plate recognition (even at speeds of up to 30 km/h), long-range UHF readers on the windscreen or copy-protected handheld transmitters. A special parking control unit also enables precise counting of vehicles in defined zones as well as the control of traffic light systems."
+        },
+        "digitalSignage": {
+          "headline": "3. Digital information and display systems (Digital Signage)",
+          "text": "Targeted communication via smart infoboards: whether in public authorities, companies, hotels or residential buildings: digital infoboards provide visitors, employees and residents with important information in a targeted way. These interactive display systems can be seamlessly integrated into the access control system and flexibly personalised. For example, opening hours, wayfinding plans, event calendars, weather data or important notices from the building management can be dynamically displayed on the screens."
+        },
+        "reservierenBuchen": {
+          "headline": "4. Reservation and booking",
+          "text": "Automated resource management including access authorisation: the BCM system includes an intelligent digital booking system that allows rooms, services or facilities such as laundries and sports halls to be conveniently reserved via smartphone, desktop PC or directly from applications such as Outlook. Particularly clever: the system grants access rights precisely for the selected time slot and, if required, also automatically opens upstream access points such as the main entrance or the car park barrier for the authorised user."
+        },
+        "alarmanlagenkopplung": {
+          "headline": "5. Alarm system integration",
+          "text": "Connected security technology for optimal protection: for a holistic building security concept, BCM access control can be linked directly to existing intrusion and alarm systems. Users can conveniently arm or disarm the alarm system via interactions with the BCM readers or the smartphone app. Administrators can also define specific alarm zones and centrally monitor incoming alarm messages in the BCM software."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,4 @@
+project_id = "uvkubrrljyzfvbvejepl"
+
+[functions.cms-translate-field]
+verify_jwt = false

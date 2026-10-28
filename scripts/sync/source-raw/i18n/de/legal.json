@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "status": "in-progress",
+    "note": "Etappe doc-legal-base-2: Reale technische Anlage der Legal-Seiten. Inhalte stehen unter redaktioneller Bearbeitung; juristische Texte folgen nach Freigabe."
+  },
+  "common": {
+    "draftBadge": "In redaktioneller Bearbeitung",
+    "draftIntro": "Diese Seite ist technisch angelegt. Die finalen rechtlichen Inhalte werden derzeit redaktionell und juristisch geprüft und nach Freigabe veröffentlicht.",
+    "contactCtaIntro": "Bis zur Veröffentlichung der vollständigen Texte erreichen Sie uns für Rückfragen über unser Kontaktformular.",
+    "contactCtaButton": "Kontakt aufnehmen"
+  },
+  "seiten": {
+    "impressum": {
+      "label": "Rechtliches",
+      "headline": "Impressum",
+      "intro": "Angaben gemäß den gesetzlichen Anforderungen zur Anbieterkennzeichnung."
+    },
+    "datenschutz": {
+      "label": "Rechtliches",
+      "headline": "Datenschutzerklärung",
+      "intro": "Informationen zur Verarbeitung personenbezogener Daten auf dieser Website."
+    },
+    "agb": {
+      "label": "Rechtliches",
+      "headline": "Allgemeine Geschäftsbedingungen",
+      "intro": "Bedingungen für die Nutzung unserer Leistungen und Lieferungen."
+    }
+  }
+}

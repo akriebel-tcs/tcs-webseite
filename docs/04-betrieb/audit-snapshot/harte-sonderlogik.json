@@ -1,0 +1,204 @@
+{
+  "funde": [
+    {
+      "datei": "src/features/gebaeudekommunikation/pages/TuersprechanlagenPage.tsx",
+      "route": "/gebaeudekommunikation/tuersprechanlagen",
+      "page_key": "gebaeudekommunikation.tuersprechanlagen",
+      "art": [
+        "hardcodierte_haeufung"
+      ],
+      "legitim_vermutet": false,
+      "empfehlung": "Hartcodierte Daten nach cms_section_fields heben."
+    },
+    {
+      "datei": "src/features/gebaeudekommunikation/pages/TuersprechanlagenPage.tsx",
+      "route": "/tuersprechanlagen",
+      "page_key": "gebaeudekommunikation.tuersprechanlagen",
+      "art": [
+        "hardcodierte_haeufung"
+      ],
+      "legitim_vermutet": false,
+      "empfehlung": "Hartcodierte Daten nach cms_section_fields heben."
+    },
+    {
+      "datei": "src/features/kontakt/pages/KontaktPage.tsx",
+      "route": "/kontakt",
+      "page_key": "kontakt.root",
+      "art": [
+        "formular_submit"
+      ],
+      "legitim_vermutet": true,
+      "empfehlung": "Als Sonderseite registrieren ODER auf Standardbausteine migrieren."
+    },
+    {
+      "datei": "src/features/kontakt/pages/KontaktBcmPage.tsx",
+      "route": "/kontakt/bcm",
+      "page_key": null,
+      "art": [
+        "formular_submit"
+      ],
+      "legitim_vermutet": true,
+      "empfehlung": "Als Sonderseite registrieren ODER auf Standardbausteine migrieren."
+    },
+    {
+      "datei": "src/features/produkte/pages/CategoryListPage.tsx",
+      "route": "/produkte/zutrittskontrolle",
+      "page_key": "produkte.zutrittskontrolle",
+      "art": [
+        "lokale_linkmap"
+      ],
+      "legitim_vermutet": false,
+      "empfehlung": "Als Sonderseite registrieren ODER auf Standardbausteine migrieren."
+    },
+    {
+      "datei": "src/features/produkte/pages/CategoryListPage.tsx",
+      "route": "/produkte/eingangsloesungen",
+      "page_key": "produkte.eingangsloesungen",
+      "art": [
+        "lokale_linkmap"
+      ],
+      "legitim_vermutet": false,
+      "empfehlung": "Als Sonderseite registrieren ODER auf Standardbausteine migrieren."
+    },
+    {
+      "datei": "src/features/serviceportal/pages/ServiceportalPage.tsx",
+      "route": "/serviceportal",
+      "page_key": "serviceportal.login",
+      "art": [
+        "formular_submit"
+      ],
+      "legitim_vermutet": false,
+      "empfehlung": "Als Sonderseite registrieren ODER auf Standardbausteine migrieren."
+    },
+    {
+      "datei": "src/features/serviceportal/pages/PasswortVergessenPage.tsx",
+      "route": "/serviceportal/passwort-vergessen",
+      "page_key": "serviceportal.passwort-vergessen",
+      "art": [
+        "formular_submit"
+      ],
+      "legitim_vermutet": true,
+      "empfehlung": "Als Sonderseite registrieren ODER auf Standardbausteine migrieren."
+    },
+    {
+      "datei": "src/features/serviceportal/pages/RegistrierenPage.tsx",
+      "route": "/serviceportal/registrieren",
+      "page_key": "serviceportal.registrieren",
+      "art": [
+        "formular_submit"
+      ],
+      "legitim_vermutet": false,
+      "empfehlung": "Als Sonderseite registrieren ODER auf Standardbausteine migrieren."
+    }
+  ],
+  "export_risiko": [
+    {
+      "datei": "src/features/gebaeudekommunikation/pages/TuersprechanlagenPage.tsx",
+      "route": "/gebaeudekommunikation/tuersprechanlagen",
+      "art": [
+        "hardcodierte_haeufung"
+      ],
+      "liegt_in_code": true,
+      "liegt_in_migration": false,
+      "liegt_in_audit_script": false,
+      "haengt_an_lovable_admin": false,
+      "hinweis": "Sonderlogik nur im React-Code — bei Server-Migration ohne Lovable-Admin nachbaubar, aber nicht im Migrations-Pfad dokumentiert."
+    },
+    {
+      "datei": "src/features/gebaeudekommunikation/pages/TuersprechanlagenPage.tsx",
+      "route": "/tuersprechanlagen",
+      "art": [
+        "hardcodierte_haeufung"
+      ],
+      "liegt_in_code": true,
+      "liegt_in_migration": false,
+      "liegt_in_audit_script": false,
+      "haengt_an_lovable_admin": false,
+      "hinweis": "Sonderlogik nur im React-Code — bei Server-Migration ohne Lovable-Admin nachbaubar, aber nicht im Migrations-Pfad dokumentiert."
+    },
+    {
+      "datei": "src/features/kontakt/pages/KontaktPage.tsx",
+      "route": "/kontakt",
+      "art": [
+        "formular_submit"
+      ],
+      "liegt_in_code": true,
+      "liegt_in_migration": false,
+      "liegt_in_audit_script": false,
+      "haengt_an_lovable_admin": false,
+      "hinweis": "Sonderlogik nur im React-Code — bei Server-Migration ohne Lovable-Admin nachbaubar, aber nicht im Migrations-Pfad dokumentiert."
+    },
+    {
+      "datei": "src/features/kontakt/pages/KontaktBcmPage.tsx",
+      "route": "/kontakt/bcm",
+      "art": [
+        "formular_submit"
+      ],
+      "liegt_in_code": true,
+      "liegt_in_migration": false,
+      "liegt_in_audit_script": false,
+      "haengt_an_lovable_admin": false,
+      "hinweis": "Sonderlogik nur im React-Code — bei Server-Migration ohne Lovable-Admin nachbaubar, aber nicht im Migrations-Pfad dokumentiert."
+    },
+    {
+      "datei": "src/features/produkte/pages/CategoryListPage.tsx",
+      "route": "/produkte/zutrittskontrolle",
+      "art": [
+        "lokale_linkmap"
+      ],
+      "liegt_in_code": true,
+      "liegt_in_migration": false,
+      "liegt_in_audit_script": false,
+      "haengt_an_lovable_admin": false,
+      "hinweis": "Sonderlogik nur im React-Code — bei Server-Migration ohne Lovable-Admin nachbaubar, aber nicht im Migrations-Pfad dokumentiert."
+    },
+    {
+      "datei": "src/features/produkte/pages/CategoryListPage.tsx",
+      "route": "/produkte/eingangsloesungen",
+      "art": [
+        "lokale_linkmap"
+      ],
+      "liegt_in_code": true,
+      "liegt_in_migration": false,
+      "liegt_in_audit_script": false,
+      "haengt_an_lovable_admin": false,
+      "hinweis": "Sonderlogik nur im React-Code — bei Server-Migration ohne Lovable-Admin nachbaubar, aber nicht im Migrations-Pfad dokumentiert."
+    },
+    {
+      "datei": "src/features/serviceportal/pages/ServiceportalPage.tsx",
+      "route": "/serviceportal",
+      "art": [
+        "formular_submit"
+      ],
+      "liegt_in_code": true,
+      "liegt_in_migration": false,
+      "liegt_in_audit_script": false,
+      "haengt_an_lovable_admin": false,
+      "hinweis": "Sonderlogik nur im React-Code — bei Server-Migration ohne Lovable-Admin nachbaubar, aber nicht im Migrations-Pfad dokumentiert."
+    },
+    {
+      "datei": "src/features/serviceportal/pages/PasswortVergessenPage.tsx",
+      "route": "/serviceportal/passwort-vergessen",
+      "art": [
+        "formular_submit"
+      ],
+      "liegt_in_code": true,
+      "liegt_in_migration": false,
+      "liegt_in_audit_script": false,
+      "haengt_an_lovable_admin": false,
+      "hinweis": "Sonderlogik nur im React-Code — bei Server-Migration ohne Lovable-Admin nachbaubar, aber nicht im Migrations-Pfad dokumentiert."
+    },
+    {
+      "datei": "src/features/serviceportal/pages/RegistrierenPage.tsx",
+      "route": "/serviceportal/registrieren",
+      "art": [
+        "formular_submit"
+      ],
+      "liegt_in_code": true,
+      "liegt_in_migration": false,
+      "liegt_in_audit_script": false,
+      "haengt_an_lovable_admin": false,
+      "hinweis": "Sonderlogik nur im React-Code — bei Server-Migration ohne Lovable-Admin nachbaubar, aber nicht im Migrations-Pfad dokumentiert."
+    }
+  ]
+}

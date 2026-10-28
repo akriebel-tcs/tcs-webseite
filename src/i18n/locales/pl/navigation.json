@@ -1,0 +1,68 @@
+{
+  "_meta": {
+    "note": "Nur Bedien-/Barrierefreiheits-Texte der Navigation auf Polnisch. Menü-Beschriftungen, Footer und Brotkrumen-Segmente kommen aus CMS-Light bzw. fallen auf Deutsch zurück."
+  },
+  "a11y": {
+    "skipToContent": "Przejdź do treści głównej",
+    "mainNavigation": "Nawigacja główna",
+    "metaNavigation": "Nawigacja dodatkowa",
+    "personaNavigation": "Wybór grupy odbiorców",
+    "breadcrumb": "Ścieżka nawigacji",
+    "footerNavigation": "Nawigacja w stopce",
+    "legalNavigation": "Informacje prawne",
+    "sectionNavigation": "Nawigacja na stronie",
+    "logoHome": "TCS – powrót na stronę główną",
+    "search": "Szukaj",
+    "account": "Konto",
+    "menuOpen": "Otwórz menu",
+    "menuClose": "Zamknij menu",
+    "roleTabs": "Role"
+  },
+  "meta": {
+    "personaPrompt": "Jestem",
+    "personaPromptShort": "Jestem…",
+    "personaActive": "Widok: {{persona}}"
+  },
+  "common": {
+    "overview": "Przegląd"
+  },
+  "breadcrumb": {
+    "home": "Strona główna",
+    "segments": {
+      "service": "Serwis",
+      "tueren-tore": "Drzwi i bramy",
+      "merkliste": "Schowek"
+    }
+  },
+  "persona": {
+    "bauherren": {
+      "label": "Inwestorzy",
+      "short": "Inwestorzy"
+    },
+    "architekten": {
+      "label": "Architekci",
+      "short": "Architekci"
+    },
+    "wohnungswirtschaft": {
+      "label": "Sektor mieszkaniowy",
+      "short": "Sektor mieszkaniowy"
+    },
+    "fachplaner": {
+      "label": "Projektanci",
+      "short": "Projektanci"
+    },
+    "handwerk": {
+      "label": "Rzemiosło",
+      "short": "Rzemiosło"
+    },
+    "fachhandel": {
+      "label": "Handel specjalistyczny",
+      "short": "Handel specjalistyczny"
+    }
+  },
+  "footer": {
+    "bottom": {
+      "copyright": "© {{year}} TCS AG. Wszelkie prawa zastrzeżone. Made in Germany."
+    }
+  }
+}

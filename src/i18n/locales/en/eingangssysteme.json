@@ -1,0 +1,505 @@
+{
+  "_meta": {
+    "namespace": "eingangssysteme",
+    "status": "migrated",
+    "note": "All 8 Entry pages migrated (19b-1 to 19b-8, completed with 19b-final-check)."
+  },
+  "shared": {
+    "label": "Entry systems"
+  },
+  "root": {
+    "hero": {
+      "label": "Entry systems",
+      "headline": "ENTRY",
+      "intro": "The design and mounting system for true individuality at the entrance. Entry opens up creative freedom: with screw-free mounting and systematic integration of all entrance functions in an individually selected design."
+    },
+    "pillars": {
+      "derEingang": {
+        "label": "The entrance",
+        "title": "A highly functional place",
+        "text": "Many functions of the building envelope come together at the entrance: delivering, storing, calling, seeing, speaking, identifying and entering. The entrance is the architectural hotspot and the user interface of the building."
+      },
+      "herstellerGewerke": {
+        "label": "Manufacturers and trades",
+        "title": "Plan across trades",
+        "text": "Installations from different manufacturers are not just placed side by side but integrated into a unified mounting system. This cross-manufacturer planning approach ensures that the entrance fulfils its representative role."
+      },
+      "lifecycle": {
+        "label": "Think lifecycle",
+        "title": "Anticipate change",
+        "text": "Companies change their names, tenants move and new functions are added. An entrance system must anticipate changing usage patterns over its lifecycle and prove its integration capability."
+      }
+    },
+    "discover": {
+      "title": "Discover Entry",
+      "intro": "From design and materials to functionality, integration, references, standards and consulting.",
+      "more": "Learn more →",
+      "items": {
+        "design": {
+          "title": "Design",
+          "subtitle": "Form follows idea.",
+          "description": "Entry enables individual designs. From a wide range of options, designs can be developed for compact tableaus, multifunctional terminals and large-scale design bands."
+        },
+        "funktionalitaet": {
+          "title": "Functionality",
+          "subtitle": "Electrical and mechanical installations",
+          "description": "Functionality in the building envelope is concentrated at the entrance as the interface between outside and inside – from door communication to fire protection."
+        },
+        "material": {
+          "title": "Material",
+          "subtitle": "Haptics, colour, texture, reflection, durability, ageing",
+          "description": "Choosing the right material is decisive – for the perceived quality and the first impression that the architecture leaves on contact."
+        },
+        "integrationsformen": {
+          "title": "Integration forms",
+          "subtitle": "Installation and building structure",
+          "description": "Installations at the entrance can be integrated into the façade in various ways or anchored in front of the building structure."
+        },
+        "referenzen": {
+          "title": "References",
+          "subtitle": "Examples of Entry installations",
+          "description": "Object-specific Entry installations have been realised in many residential and commercial buildings – unique in function, design and integration form."
+        },
+        "standards": {
+          "title": "Standards",
+          "subtitle": "The Entry design and mounting system",
+          "description": "Standards for mounting sets that can be completed with functional modules – in two mounting forms and with up to six functional modules."
+        },
+        "beratung": {
+          "title": "Consulting",
+          "subtitle": "Benefit from our expertise",
+          "description": "We advise private and professional building projects, general contractors, architects, specialist planners and the housing industry."
+        }
+      }
+    },
+    "downloads": {
+      "title": "Downloads",
+      "intro": "Brochures, exposés and data sheets for the Entry system.",
+      "items": {
+        "entryExpose": {
+          "label": "Entry exposé (PDF)"
+        },
+        "broschuereSonderbau": {
+          "label": "Special construction brochure (PDF)"
+        },
+        "datenblattUnterputz": {
+          "label": "Data sheet recessed mounting (PDF)"
+        },
+        "datenblattInputz": {
+          "label": "Data sheet flush-mount installation (PDF)"
+        },
+        "datenblattZubehoer": {
+          "label": "Data sheet accessories (PDF)"
+        }
+      }
+    },
+    "cta": {
+      "title": "Request consulting",
+      "text": "Do you have a specific project or are you designing an entrance? We are happy to advise you – also on site.",
+      "cta": "Get in touch"
+    }
+  },
+  "design": {
+    "hero": {
+      "label": "Entry / Design",
+      "headline": "Design",
+      "intro": "Entry enables individual designs. From a wide range of options, designs can be developed for compact tableaus, multifunctional terminals and large-scale design bands. They accentuate the entrance and make the architecture tangible and usable."
+    },
+    "cards": {
+      "tableausTerminals": {
+        "subtitle": "Tailored to individual needs",
+        "title": "Tableaus and terminals",
+        "text": "A single installation can combine all the functionality required at an entrance – systematically integrated in a homogeneous design.",
+        "imageAlt": "Large Entry station in stainless steel with door communication, call buttons, street name, house number, parcel box, letterboxes and fire-protection installation"
+      },
+      "gestaltungsbaender": {
+        "subtitle": "For representative entrance and façade functions",
+        "title": "Design bands",
+        "text": "Design bands can integrate not only entrance functions but also façade functions such as signage.",
+        "imageAlt": "Entry design band in brass with door communication and signage"
+      }
+    },
+    "nav": {
+      "prev": "← Entry overview",
+      "next": "Functionality →"
+    }
+  },
+  "integrationsformen": {
+    "hero": {
+      "label": "Entry / Integration forms",
+      "headline": "Integration forms",
+      "intro": "Installations at the entrance can be integrated into the façade in various ways or anchored in front of the building structure. Different integration forms are available for the main façade types."
+    },
+    "items": {
+      "inPutz": {
+        "subtitle": "With recessed front",
+        "title": "Flush-mount installation",
+        "text": "With flush-mount installation, the metalwork installation is fully integrated into the wall within a mounting frame. The 3 mm thick front is set flush into the mounting frame.",
+        "imageAlt": "Metalwork installation in flush, wall-aligned mounting"
+      },
+      "unterPutz": {
+        "subtitle": "With overlapping front",
+        "title": "Recessed installation",
+        "text": "With recessed installation, the metalwork installation is mounted on a flush-mount box. The front and front frame fully cover the flush-mount box and rest on the wall.",
+        "imageAlt": "Metalwork installation in recessed mounting with overlapping front"
+      },
+      "aufPutz": {
+        "subtitle": "With laterally visible housing",
+        "title": "Surface-mount installation",
+        "text": "With surface mounting, an installation with the smallest possible depth (approx. 30–50 mm) is mounted on the wall in a laterally visible mounting box. The advantage: easy implementation without wall recesses.",
+        "imageAlt": "Metalwork installation in surface mounting with laterally visible frame"
+      },
+      "freistehend": {
+        "subtitle": "As a free-standing stele visible from all sides",
+        "title": "Free-standing",
+        "text": "In this mounting form, the building structure and the metalwork installation have no direct mounting relationship. The installation as a column or stele is installed on a foundation anchor or base directly on a foundation.",
+        "imageAlt": "Metalwork installation in free-standing mounting with visible column body"
+      }
+    },
+    "nav": {
+      "prev": "← Material",
+      "next": "References →"
+    }
+  },
+  "material": {
+    "hero": {
+      "label": "Entry / Material",
+      "headline": "Material",
+      "intro": "Choosing the right material is decisive – for the perceived quality and the first impression that the architecture leaves on contact. The selection is broad – from cool and discreet to vibrant and classical."
+    },
+    "items": {
+      "aluminium": {
+        "subtitle": "Ground, blasted and anodised",
+        "title": "Aluminium",
+        "text": "The surface of aluminium can be processed smooth or structured by blasting or grinding. Corrosion protection and colouring are achieved by anodising – a finishing process for optimal protection and coloured decor.",
+        "imageAlt": "Aluminium surface ground, blasted and anodised",
+        "features": [
+          "Material AlMg1",
+          "Decorative coloured surface finishing",
+          "Increased scratch and break resistance",
+          "Good corrosion protection",
+          "Highly recyclable"
+        ]
+      },
+      "edelstahl": {
+        "subtitle": "Ground, brushed, polished … colour-coated",
+        "title": "Stainless steel",
+        "text": "The surface of stainless steel can be structured by grinding, brushing or polishing. PVD coating creates uniform, UV-resistant decorative colours that are extremely robust and corrosion-resistant.",
+        "imageAlt": "Stainless steel surface ground, brushed and PVD-coated",
+        "features": [
+          "V2A (V4A available)",
+          "400-grit ground",
+          "Hardened, scratch-resistant metal surface",
+          "UV-resistant decors",
+          "Improved corrosion resistance"
+        ]
+      },
+      "messingSatiniert": {
+        "subtitle": "Ground, sealed … burnished",
+        "title": "Satin-finished brass",
+        "text": "A copper alloy with a zinc content of up to 40% produces a golden-yellow, shiny appearance. The lower the zinc content, the redder or more copper-coloured the brass appears.",
+        "imageAlt": "Brass, satin-finished or burnished",
+        "features": [
+          "Material brass MS63 (CuZn37)",
+          "Harder than pure copper",
+          "Golden-yellow appearance"
+        ]
+      },
+      "bronzeBaubronze": {
+        "subtitle": "Patinated",
+        "title": "Bronze | architectural bronze",
+        "text": "Bronze is an alloy of copper and tin. The natural red-brown to black surface patina develops through external influences. Artificial patination intensifies the decorative effects.",
+        "imageAlt": "Bronze and patinated architectural bronze",
+        "features": [
+          "Material tin bronze (CuSn6)",
+          "Good wear and corrosion resistance",
+          "Hand-patinated for unique surface darkening"
+        ]
+      },
+      "pulverbeschichtung": {
+        "subtitle": "Colours according to the RAL fan",
+        "title": "Coloured powder coating",
+        "text": "Powder coating is a process for applying colour to electrically conductive materials such as aluminium or stainless steel. Powder coatings are available for almost all colours in the RAL colour fan.",
+        "imageAlt": "Powder coating in all colours of the RAL fan",
+        "features": [
+          "Maximum colour spectrum",
+          "Effect coatings possible (e.g. metallic)",
+          "Matt or glossy surfaces",
+          "Good corrosion protection"
+        ]
+      },
+      "mineralwerkstoff": {
+        "subtitle": "Corian, Himacs, Getalit, Varicor",
+        "title": "Mineral material",
+        "text": "Decorative panel materials in a broad design spectrum, made of ground minerals, acrylic and natural pigments. Suitable as front panel material for installations in protected outdoor or indoor areas.",
+        "imageAlt": "Front panels made of mineral materials for special designs",
+        "features": [
+          "Wide variety of decors and colours",
+          "For protected outdoor or indoor areas"
+        ]
+      }
+    },
+    "nav": {
+      "prev": "← Functionality",
+      "next": "Integration forms →"
+    }
+  },
+  "standards": {
+    "hero": {
+      "label": "Entry / Standards",
+      "headline": "Standards",
+      "intro": "For high-quality door communication, you will find here standards for mounting sets that can be completed with functional modules. The resulting outdoor stations are available in two mounting forms and can hold up to six functional modules."
+    },
+    "downloads": {
+      "title": "Data sheets",
+      "items": {
+        "unterputzAmi": {
+          "label": "Data sheet AMI series recessed mounting"
+        },
+        "inputzAmi": {
+          "label": "Data sheet AMI series flush-mount installation"
+        },
+        "zubehoerAmi": {
+          "label": "Data sheet AMI series accessories"
+        }
+      }
+    },
+    "items": {
+      "unterputzmontage": {
+        "subtitle": "Mounting sets for outdoor stations",
+        "title": "Recessed mounting",
+        "text": "With this recessed mounting, the front is enclosed by a frame. This frame covers the plaster connection of the mounting box except for the surrounding joint.",
+        "imageAlt": "Outdoor station in recessed mounting with surrounding frame"
+      },
+      "inputzmontage": {
+        "subtitle": "Mounting sets for outdoor stations",
+        "title": "Flush-mount installation",
+        "text": "With flush-mount installation, the metalwork installation is fully integrated into the wall within a mounting frame. The 3 mm thick stainless steel front is set flush with the plaster into the 2 mm thick mounting frame.",
+        "imageAlt": "Outdoor station in flush-mount installation with stainless steel front"
+      },
+      "funktionsmoduleAmi": {
+        "subtitle": "For combination with the mounting sets",
+        "title": "Functional modules AMI series",
+        "text": "Individually combined with each other in a mounting set, these modules can be used to create outdoor stations for door communication, access and usage control.",
+        "imageAlt": "Functional modules of the AMI series for door communication, access and usage control"
+      }
+    },
+    "nav": {
+      "prev": "← References",
+      "next": "Consulting →"
+    }
+  },
+  "beratung": {
+    "hero": {
+      "label": "Entry / Consulting",
+      "headline": "Consulting",
+      "intro": "We advise on private and professional building projects, general contractors, project development, architecture, specialist planning and system integration, as well as the housing industry and the installation trade."
+    },
+    "topics": {
+      "konzept": {
+        "title": "Concept and design topics",
+        "intro": "Our project consulting offers expert support for design and technology topics related to the entrance.",
+        "items": [
+          "Design development and material selection",
+          "Technology forms for control surfaces and input devices",
+          "Integration forms in façade types (plaster, curtain, clinker, glass, natural stone)",
+          "Ergonomics: formatting, mounting heights, accessibility"
+        ]
+      },
+      "technologie": {
+        "title": "Technology topics",
+        "intro": "We advise on all technological aspects related to the building entrance.",
+        "items": [
+          "Door and building communication",
+          "Digital name management",
+          "Access and usage control with network integration",
+          "Guidance and orientation, wayfinding, company signage",
+          "Communication technology for fire brigade announcements",
+          "Ambient Assisted Living (AAL) and home care"
+        ]
+      }
+    },
+    "cta": {
+      "title": "Discuss your project?",
+      "text": "Contact us for individual consulting on your building project – also on site.",
+      "cta": "Get in touch"
+    },
+    "nav": {
+      "prev": "← Standards",
+      "next": "Entry overview →"
+    }
+  },
+  "funktionalitaet": {
+    "hero": {
+      "label": "Entry / Functionality",
+      "headline": "Functionality",
+      "intro": "Functionality in the building envelope is concentrated at the entrance as the interface between outside and inside. In addition to representative functions such as house number, signage, letterboxes or call panel, mandatory functions for fire protection or building management can also be integrated into a mounting system."
+    },
+    "items": {
+      "tuerkommunikation": {
+        "subtitle": "Display of call destinations for communicating with visitors",
+        "title": "Door and building communication",
+        "text": "Depending on the system size and level of representation, door communication offers various forms of displaying call destinations – from bell buttons with paper inserts and call buttons with engraved names to electronic name displays on a touchscreen.",
+        "imageAlt": "Door and building communication with various forms of displaying call destinations",
+        "features": [
+          "Concierge and barrier systems",
+          "Internal communication and automatic door opener",
+          "Digital name management",
+          "Fire brigade announcement",
+          "Bidirectional video intercom",
+          "Ambient Assisted Living (AAL)"
+        ]
+      },
+      "accessControl": {
+        "subtitle": "Techniques for controlling access and usage",
+        "title": "Access Control",
+        "text": "Access to the building can be conveniently organised for recurring users with the help of electronic access control. The technology ranges from a code lock and transponder reader to a biometric fingerprint scanner.",
+        "imageAlt": "Electronic access control with code lock, transponder reader and fingerprint scanner",
+        "features": [
+          "Simple stand-alone installations",
+          "Complex network-connected installations"
+        ]
+      },
+      "verwahrung": {
+        "subtitle": "Letterbox, parcel box and key safe",
+        "title": "Storage",
+        "text": "The secure storage of mail or of keys for security and rescue services requires technical solutions. In addition to letterboxes and parcel boxes, key safes from well-known manufacturers can also be integrated into an Entry installation.",
+        "imageAlt": "Letterbox, parcel box and key safe in an Entry installation"
+      },
+      "gebaeudesicherheit": {
+        "subtitle": "Surveillance, announcements and fire protection",
+        "title": "Building security and fire protection",
+        "text": "Installations for building surveillance such as video cameras or motion detectors can be integrated into an installation. The same applies to fire brigade announcements and fire protection installations such as FSE, FSD, fire-water supply equipment or BMA.",
+        "imageAlt": "Building security and fire protection installations with FSE, FSD and BMA",
+        "features": [
+          "Fire brigade announcement",
+          "Fire protection installations (FSE, FSD, BMA)",
+          "Fire-water supply equipment"
+        ]
+      },
+      "wayfinding": {
+        "subtitle": "Wayfinding for public spaces and private residential environments",
+        "title": "Guidance, orientation, information",
+        "text": "In addition to displaying the street or building name, company signage and corporate elements are common in commercial construction. Pictograms point to important facilities.",
+        "imageAlt": "Wayfinding with door and information signs, pictograms and house numbers",
+        "features": [
+          "Door and information signs",
+          "Pictograms",
+          "House numbers and doorbells",
+          "Newsfeed displays"
+        ]
+      },
+      "beleuchtung": {
+        "subtitle": "For control surfaces, the façade and pathways",
+        "title": "Lighting",
+        "text": "Lighting solutions such as uplights and downlights or backlights serve as decorative light on the façade but, as technical lighting, can also illuminate control surfaces and information displays.",
+        "imageAlt": "Lighting solutions with uplights, downlights and backlights for façade and control surfaces"
+      },
+      "service": {
+        "subtitle": "Energy generation and supply",
+        "title": "Service, management and energy",
+        "text": "Various service functions can be integrated into a metalwork installation – from charging stations for e-vehicles to sockets for building cleaning and photovoltaic panels in the façade.",
+        "imageAlt": "Service functions with charging stations, sockets and photovoltaic panels in the façade"
+      }
+    },
+    "nav": {
+      "prev": "← Design",
+      "next": "Material →"
+    }
+  },
+  "referenzen": {
+    "hero": {
+      "label": "Entry / References",
+      "headline": "References",
+      "intro": "Object-specific Entry installations have been realised in numerous residential and commercial buildings. In close coordination with architecture, electrical planning and the building project, unique installations have been created in terms of function, design and integration form."
+    },
+    "labels": {
+      "designWish": "Design request from the client",
+      "scope": "Scope of functions and installation"
+    },
+    "items": {
+      "forumMuseumsinsel": {
+        "subtitle": "Contemporary in architectural bronze",
+        "title": "Forum an der Museumsinsel, Berlin",
+        "description": "Eight listed buildings directly adjacent to the UNESCO World Heritage site.",
+        "design": "The fronts are made of burnished brass for an authentic refurbishment of the former main telegraph office.",
+        "imageAlt": "Entry installation at Forum an der Museumsinsel in Berlin",
+        "scope": [
+          "Door communication with video camera",
+          "Access control via transponder cards",
+          "IP technology connected to IP telephony"
+        ]
+      },
+      "pulse": {
+        "subtitle": "Flush-mounted, integrated into the façade",
+        "title": "Pulse, Berlin",
+        "description": "A new commercial building in Berlin Kreuzberg with around 12,000 sqm of rental space across seven floors and an underground car park.",
+        "design": "The IP outdoor station is to blend into the white-powder-coated aluminium curtain-wall façade in colour and flush with the surface.",
+        "imageAlt": "Flush-mounted Entry installation at the Pulse building in Berlin",
+        "scope": [
+          "Door communication with video camera",
+          "Access control via transponder cards",
+          "Letterbox"
+        ]
+      },
+      "weidtParkCorner": {
+        "subtitle": "Integrated into anodised reveal",
+        "title": "Weidt Park Corner, Berlin",
+        "description": "An office building completed in 2022 in the heart of Europacity in Berlin.",
+        "design": "The Entry installations are integrated flush into the specially anodised outer skin, made from exactly the same material as the façade.",
+        "imageAlt": "Entry installation in anodised reveal at Weidt Park Corner in Berlin",
+        "scope": [
+          "Door communication with video camera",
+          "Access control via transponder cards",
+          "Letterbox",
+          "Company signage",
+          "Integration of FSD and FSE"
+        ]
+      },
+      "hamburgerFamiliendomizil": {
+        "subtitle": "Outdoor station, letterbox and access control",
+        "title": "Hamburger Familiendomizil",
+        "description": "Exclusive family residence and spacious detached house in a Hamburg villa district.",
+        "design": "All Entry installations integrated flush with the plaster into the exterior wall, black powder-coated with laser personalisation.",
+        "imageAlt": "Plaster-flush Entry installation at a family residence in Hamburg",
+        "scope": [
+          "Door communication with video camera and fingerprint scanner",
+          "Garage access with fingerprint scanner",
+          "Letterbox",
+          "Inputs integration into ETICS plaster façade"
+        ]
+      },
+      "fritzTower": {
+        "subtitle": "In ground stainless steel",
+        "title": "Berlin residential tower (Fritz Tower)",
+        "description": "High-quality residential tower with more than 266 apartments in the Mittenmang quarter in Berlin Mitte.",
+        "design": "Flush installation into the façade elements, vertical alignment matching the façade, in brushed stainless steel.",
+        "imageAlt": "Entry installation in brushed stainless steel at Fritz Tower in Berlin",
+        "scope": [
+          "Door communication with video camera",
+          "Touch display for 266 apartments",
+          "Concierge call button",
+          "Access control with transponder cards",
+          "Accessibility with second display"
+        ]
+      },
+      "potsdamerWohnhaus": {
+        "subtitle": "Signage house numbers",
+        "title": "Residential building in Potsdam",
+        "description": "Multi-family house in Potsdam Babelsberg with an illuminated signage house number in stainless steel.",
+        "design": "House number with LED-backlit digits in brushed stainless steel, matching the video outdoor station.",
+        "imageAlt": "Entry installation with illuminated signage house number at a residential building in Potsdam",
+        "scope": [
+          "Door communication with video camera",
+          "Access control with code lock",
+          "Illuminated signage house number with day/night switching"
+        ]
+      }
+    },
+    "nav": {
+      "prev": "← Integration forms",
+      "next": "Standards →"
+    }
+  }
+}
+

@@ -1,0 +1,59 @@
+{
+  "_meta": {
+    "namespace": "karriere",
+    "status": "migrated",
+    "note": "Careers page texts (stage 16a)."
+  },
+  "hero": {
+    "label": "Careers",
+    "headline": "Careers at TCS",
+    "intro": "Shape the future of building communication with us."
+  },
+  "benefits": {
+    "title": "Why TCS?",
+    "intro": "For over 30 years we have been developing and manufacturing innovative solutions for door communication and building security – Made in Germany.",
+    "items": {
+      "team": {
+        "title": "Family-like team",
+        "desc": "Flat hierarchies and a collegial atmosphere in a growing company."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "desc": "Work on forward-looking technologies for intelligent buildings."
+      },
+      "balance": {
+        "title": "Work-life balance",
+        "desc": "Flexible working hours, mobile work and 30 days of vacation."
+      },
+      "education": {
+        "title": "Continuing education",
+        "desc": "Individual development opportunities and regular training."
+      }
+    }
+  },
+  "jobs": {
+    "title": "Job openings",
+    "intro": "Find the right position for you at TCS.",
+    "apply": "Apply now",
+    "locations": {
+      "harsefeld": "Harsefeld",
+      "harsefeldRemote": "Harsefeld / Remote"
+    },
+    "types": {
+      "fulltime": "Full-time",
+      "parttime": "Part-time",
+      "apprenticeship": "Apprenticeship"
+    },
+    "items": {
+      "softwareEmbedded": "Software developer (m/f/d) – Embedded systems",
+      "productManager": "Product manager (m/f/d) – Access control",
+      "customerSupport": "Technical customer support (m/f/d)",
+      "apprenticeElectronics": "Apprentice electronics technician (m/f/d)",
+      "workingStudent": "Working student (m/f/d) – Marketing & communications"
+    }
+  },
+  "initiative": {
+    "title": "Speculative application",
+    "intro": "No suitable position found? We look forward to receiving your speculative application at"
+  }
+}

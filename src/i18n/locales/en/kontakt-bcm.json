@@ -1,0 +1,39 @@
+{
+  "_meta": {
+    "namespace": "kontakt-bcm",
+    "status": "migrated",
+    "note": "BCM contact landing page texts (stage kontakt-bcm-1)."
+  },
+  "hero": {
+    "label": "Contact",
+    "headline": "We are here for you",
+    "intro": "Get in touch – whether you have questions about our BCM products, need individual project consulting or technical support."
+  },
+  "sections": {
+    "reach": {
+      "title": "How to reach us",
+      "intro": "Our BCM team is happy to assist you."
+    },
+    "form": {
+      "title": "Send a message"
+    }
+  },
+  "cards": {
+    "phone": {
+      "title": "Phone",
+      "value": "+49 (0) 41949881-175"
+    },
+    "email": {
+      "title": "Email",
+      "value": "bcm.support@tcsag.de"
+    }
+  },
+  "form": {
+    "firstName": "First name",
+    "lastName": "Last name",
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Message",
+    "submit": "Send message"
+  }
+}

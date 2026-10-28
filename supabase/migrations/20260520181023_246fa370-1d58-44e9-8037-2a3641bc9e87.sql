@@ -1,0 +1,2 @@
+SELECT public.rpc_admin_update_section_field('home.start','block_entry','cta_link','de','/entry-system');
+SELECT public.rpc_admin_update_section_field('home.start','block_entry','cta_link','en','/entry-system');

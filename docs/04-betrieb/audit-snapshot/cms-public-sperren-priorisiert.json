@@ -1,0 +1,98 @@
+[
+  {
+    "prio": "struktur_schuld",
+    "typ": "whitelist_ohne_section",
+    "page_key": "home.start",
+    "section_key": "block_communication_kopie",
+    "field_key": "*",
+    "bedeutung": "Whitelist erlaubt Pflege, Section existiert aber nicht in cms_sections."
+  },
+  {
+    "prio": "struktur_schuld",
+    "typ": "whitelist_ohne_section",
+    "page_key": "home.start",
+    "section_key": "content_blocks",
+    "field_key": "*",
+    "bedeutung": "Whitelist erlaubt Pflege, Section existiert aber nicht in cms_sections."
+  },
+  {
+    "prio": "audit_korrektur",
+    "typ": "section_type_ohne_renderer",
+    "page_key": "*",
+    "section_key": "*",
+    "field_key": "card_v1",
+    "bedeutung": "Korrektur: card_v1 ist child_only (via Eltern: cards_v1, product_scroller_v1, product_showcase_list_v1, card_grid_v1, catalog_filter_grid_v1, feature_grid_v1, download_list_v1). Keine echte Renderer-Luecke."
+  },
+  {
+    "prio": "audit_korrektur",
+    "typ": "section_type_ohne_renderer",
+    "page_key": "*",
+    "section_key": "*",
+    "field_key": "catalog_filter_grid_v1",
+    "bedeutung": "Korrektur: catalog_filter_grid_v1 ist bespoke_registered (Spezial-/Page-Renderer (kein CmsBodyRenderer-Eintrag)). Keine echte Renderer-Luecke."
+  },
+  {
+    "prio": "audit_korrektur",
+    "typ": "section_type_ohne_renderer",
+    "page_key": "*",
+    "section_key": "*",
+    "field_key": "hero_v1",
+    "bedeutung": "Korrektur: hero_v1 ist layout_skip_registered (CmsPageLayout (Page-Hero)). Keine echte Renderer-Luecke."
+  },
+  {
+    "prio": "audit_korrektur",
+    "typ": "section_type_ohne_renderer",
+    "page_key": "*",
+    "section_key": "*",
+    "field_key": "role_tabs_v1",
+    "bedeutung": "Korrektur: role_tabs_v1 ist bespoke_registered (Spezial-/Page-Renderer (kein CmsBodyRenderer-Eintrag)). Keine echte Renderer-Luecke."
+  },
+  {
+    "prio": "audit_korrektur",
+    "typ": "section_type_ohne_renderer",
+    "page_key": "*",
+    "section_key": "*",
+    "field_key": "series_override_container_v1",
+    "bedeutung": "Korrektur: series_override_container_v1 ist data_only ((kein UI — reiner Datentraeger)). Keine echte Renderer-Luecke."
+  },
+  {
+    "prio": "audit_korrektur",
+    "typ": "section_type_ohne_renderer",
+    "page_key": "*",
+    "section_key": "*",
+    "field_key": "series_override_v1",
+    "bedeutung": "Korrektur: series_override_v1 ist data_only ((kein UI — reiner Datentraeger)). Keine echte Renderer-Luecke."
+  },
+  {
+    "prio": "audit_korrektur",
+    "typ": "section_type_ohne_renderer",
+    "page_key": "*",
+    "section_key": "*",
+    "field_key": "stat_v1",
+    "bedeutung": "Korrektur: stat_v1 ist child_only (via Eltern: stats_v1). Keine echte Renderer-Luecke."
+  },
+  {
+    "prio": "audit_korrektur",
+    "typ": "section_type_ohne_renderer",
+    "page_key": "*",
+    "section_key": "*",
+    "field_key": "tab_v1",
+    "bedeutung": "Korrektur: tab_v1 ist child_only (via Eltern: tabs_v1). Keine echte Renderer-Luecke."
+  },
+  {
+    "prio": "struktur_schuld",
+    "typ": "sonderseite_ohne_cms_page",
+    "page_key": "(route:/produkte/merkliste)",
+    "section_key": "-",
+    "field_key": "-",
+    "bedeutung": "/produkte/merkliste ist Sonderseite und hat keinen Eintrag in cms_pages — Inhalte ausschließlich im Code."
+  },
+  {
+    "prio": "struktur_schuld",
+    "typ": "sonderseite_ohne_cms_page",
+    "page_key": "(route:/produkte/tuerkommunikation/:pdpSlug)",
+    "section_key": "-",
+    "field_key": "-",
+    "bedeutung": "/produkte/tuerkommunikation/:pdpSlug ist Sonderseite und hat keinen Eintrag in cms_pages — Inhalte ausschließlich im Code."
+  }
+]

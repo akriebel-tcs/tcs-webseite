@@ -1,0 +1,1 @@
+UPDATE cms_navigation_nodes SET label_de='Zutrittssoftware', label_en='Access software' WHERE node_key='gm.namensanzeige.zutrittssoftware';

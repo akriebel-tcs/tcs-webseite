@@ -1,0 +1,342 @@
+{
+  "generated_at": "2026-05-18T13:50:20.511Z",
+  "count": 48,
+  "pages": [
+    {
+      "route_path": "/service/online-produktkatalog",
+      "from_nav_area": "main",
+      "from_node_key": "produkte",
+      "title_de": "Produkte",
+      "title_en": "Products"
+    },
+    {
+      "route_path": "/gebaeudekommunikation",
+      "from_nav_area": "main",
+      "from_node_key": "gebaeudekommunikation",
+      "title_de": "Gebäudekommunikation",
+      "title_en": "Building Communication"
+    },
+    {
+      "route_path": "/gebaeudekommunikation/tuersprechanlagen",
+      "from_nav_area": "main",
+      "from_node_key": "gk.tuersprechanlagen",
+      "title_de": "Türsprechanlagen",
+      "title_en": "Door Intercom Systems"
+    },
+    {
+      "route_path": "/gebaeudekommunikation/briefkastenanlagen",
+      "from_nav_area": "main",
+      "from_node_key": "gk.briefkastenanlagen",
+      "title_de": "Briefkastenanlagen",
+      "title_en": "Mailbox Systems"
+    },
+    {
+      "route_path": "/gebaeudekommunikation/beschilderung",
+      "from_nav_area": "main",
+      "from_node_key": "gk.beschilderung",
+      "title_de": "Beschilderung und Wayfinding",
+      "title_en": "Signage and Wayfinding"
+    },
+    {
+      "route_path": "/gebaeudekommunikation/grossanlagen",
+      "from_nav_area": "main",
+      "from_node_key": "gk.grossanlagen",
+      "title_de": "Großanlagen",
+      "title_en": "Large-Scale Installations"
+    },
+    {
+      "route_path": "/gebaeudekommunikation/systemloesungen",
+      "from_nav_area": "main",
+      "from_node_key": "gk.systemloesungen",
+      "title_de": "Systemlösungen",
+      "title_en": "System Solutions"
+    },
+    {
+      "route_path": "/zutrittskontrolle",
+      "from_nav_area": "main",
+      "from_node_key": "zutrittskontrolle",
+      "title_de": "Zutrittskontrolle",
+      "title_en": "Access Control"
+    },
+    {
+      "route_path": "/zutrittskontrolle/tueren-tore",
+      "from_nav_area": "main",
+      "from_node_key": "zk.tueren-tore",
+      "title_de": "Türen und Tore",
+      "title_en": "Doors and Gates"
+    },
+    {
+      "route_path": "/zutrittskontrolle/mobiler-zutritt",
+      "from_nav_area": "main",
+      "from_node_key": "zk.mobiler-zutritt",
+      "title_de": "Mobiler Zutritt per App oder Anruf",
+      "title_en": "Mobile Access via App or Call"
+    },
+    {
+      "route_path": "/zutrittskontrolle/fahrstuhlsteuerung",
+      "from_nav_area": "main",
+      "from_node_key": "zk.fahrstuhl",
+      "title_de": "Fahrstuhlsteuerung",
+      "title_en": "Elevator Control"
+    },
+    {
+      "route_path": "/zutrittskontrolle/zufahrten-parkplaetze",
+      "from_nav_area": "main",
+      "from_node_key": "zk.zufahrten",
+      "title_de": "Zufahrten und Parkplätze",
+      "title_en": "Driveways and Parking"
+    },
+    {
+      "route_path": "/gebaeudemanagement",
+      "from_nav_area": "main",
+      "from_node_key": "gebaeudemanagement",
+      "title_de": "Gebäudemanagement",
+      "title_en": "Building Management"
+    },
+    {
+      "route_path": "/gebaeudemanagement/digitale-namensanzeige",
+      "from_nav_area": "main",
+      "from_node_key": "gm.namensanzeige",
+      "title_de": "Digitale Namensanzeige",
+      "title_en": "Digital Name Display"
+    },
+    {
+      "route_path": "/gebaeudemanagement/schraenke-behaelter",
+      "from_nav_area": "main",
+      "from_node_key": "gm.schraenke",
+      "title_de": "Schränke und Behälter",
+      "title_en": "Cabinets and Containers"
+    },
+    {
+      "route_path": "/gebaeudemanagement/digital-signage",
+      "from_nav_area": "main",
+      "from_node_key": "gm.signage",
+      "title_de": "Digital Signage – Informieren",
+      "title_en": "Digital Signage – Inform"
+    },
+    {
+      "route_path": "/gebaeudemanagement/reservieren-buchen",
+      "from_nav_area": "main",
+      "from_node_key": "gm.reservieren",
+      "title_de": "Reservieren und Buchen",
+      "title_en": "Reserve and Book"
+    },
+    {
+      "route_path": "/gebaeudemanagement/alarmanlagenkopplung",
+      "from_nav_area": "main",
+      "from_node_key": "gm.alarm",
+      "title_de": "Alarmanlagenkopplung",
+      "title_en": "Alarm System Coupling"
+    },
+    {
+      "route_path": "/entry-system",
+      "from_nav_area": "main",
+      "from_node_key": "eingangssysteme",
+      "title_de": "Eingangssysteme",
+      "title_en": "Entrance Systems"
+    },
+    {
+      "route_path": "/entry-system/funktionalitaet",
+      "from_nav_area": "main",
+      "from_node_key": "es.funktionalitaet",
+      "title_de": "Systematische Funktionalität",
+      "title_en": "Systematic Functionality"
+    },
+    {
+      "route_path": "/entry-system/integrationsformen",
+      "from_nav_area": "main",
+      "from_node_key": "es.baukoerper",
+      "title_de": "Baukörper & Montageform",
+      "title_en": "Body & Mounting Form"
+    },
+    {
+      "route_path": "/entry-system/material",
+      "from_nav_area": "main",
+      "from_node_key": "es.material",
+      "title_de": "Ausdrucksstarke Materialien",
+      "title_en": "Expressive Materials"
+    },
+    {
+      "route_path": "/entry-system/beratung",
+      "from_nav_area": "main",
+      "from_node_key": "es.beratung",
+      "title_de": "Projektberatung",
+      "title_en": "Project Consulting"
+    },
+    {
+      "route_path": "/anwendungen",
+      "from_nav_area": "main",
+      "from_node_key": "anwendungen",
+      "title_de": "TCS in Bauten",
+      "title_en": "TCS in Buildings"
+    },
+    {
+      "route_path": "/anwendungen/wohnbau",
+      "from_nav_area": "main",
+      "from_node_key": "an.wohnbau",
+      "title_de": "TCS im Wohnbau",
+      "title_en": "TCS in Residential Construction"
+    },
+    {
+      "route_path": "/anwendungen/bildungseinrichtungen",
+      "from_nav_area": "main",
+      "from_node_key": "an.bildung",
+      "title_de": "TCS in Bildungseinrichtungen",
+      "title_en": "TCS in Educational Facilities"
+    },
+    {
+      "route_path": "/anwendungen/gesundheitseinrichtungen",
+      "from_nav_area": "main",
+      "from_node_key": "an.gesundheit",
+      "title_de": "TCS in Gesundheitseinrichtungen",
+      "title_en": "TCS in Healthcare Facilities"
+    },
+    {
+      "route_path": "/anwendungen/oeffentliche-hand",
+      "from_nav_area": "main",
+      "from_node_key": "an.oeffentlich",
+      "title_de": "TCS in Einrichtungen der öffentlichen Hand",
+      "title_en": "TCS in Public Sector Facilities"
+    },
+    {
+      "route_path": "/anwendungen/referenzprojekte",
+      "from_nav_area": "main",
+      "from_node_key": "an.referenzen",
+      "title_de": "Referenzprojekte",
+      "title_en": "Reference Projects"
+    },
+    {
+      "route_path": "/service",
+      "from_nav_area": "main",
+      "from_node_key": "services",
+      "title_de": "Services",
+      "title_en": "Services"
+    },
+    {
+      "route_path": "/planen-konfigurieren",
+      "from_nav_area": "main",
+      "from_node_key": "sv.planen",
+      "title_de": "Planen & Konfigurieren",
+      "title_en": "Plan & configure"
+    },
+    {
+      "route_path": "/downloads",
+      "from_nav_area": "main",
+      "from_node_key": "sv.downloads",
+      "title_de": "Downloads",
+      "title_en": "Downloads"
+    },
+    {
+      "route_path": "/technischer-support",
+      "from_nav_area": "main",
+      "from_node_key": "sv.support",
+      "title_de": "Technischer Support",
+      "title_en": "Technical support"
+    },
+    {
+      "route_path": "/akademie",
+      "from_nav_area": "main",
+      "from_node_key": "sv.akademie",
+      "title_de": "TCS Akademie",
+      "title_en": "TCS Academy"
+    },
+    {
+      "route_path": "/ersatzteile",
+      "from_nav_area": "main",
+      "from_node_key": "sv.ersatzteile",
+      "title_de": "Ersatzteile, Beschriftung und Freischaltcodes",
+      "title_en": "Spare parts, labeling and activation codes"
+    },
+    {
+      "route_path": "/serviceportal",
+      "from_nav_area": "meta",
+      "from_node_key": "meta.serviceportal",
+      "title_de": "Serviceportal",
+      "title_en": "Service Portal"
+    },
+    {
+      "route_path": "/kontakt",
+      "from_nav_area": "meta",
+      "from_node_key": "meta.kontakt",
+      "title_de": "Kontakt",
+      "title_en": "Contact"
+    },
+    {
+      "route_path": "/karriere",
+      "from_nav_area": "meta",
+      "from_node_key": "meta.karriere",
+      "title_de": "Karriere",
+      "title_en": "Careers"
+    },
+    {
+      "route_path": "/presse",
+      "from_nav_area": "meta",
+      "from_node_key": "meta.presse",
+      "title_de": "News",
+      "title_en": "News"
+    },
+    {
+      "route_path": "/gebaeudekommunikation/snipdoo-ip",
+      "from_nav_area": "footer",
+      "from_node_key": "f.produkte.snipdoo",
+      "title_de": "snipdoo®",
+      "title_en": "snipdoo®"
+    },
+    {
+      "route_path": "/anwendungen/einfamilienhaus",
+      "from_nav_area": "footer",
+      "from_node_key": "f.anw.efh",
+      "title_de": "Einfamilienhaus",
+      "title_en": "Single-Family Home"
+    },
+    {
+      "route_path": "/anwendungen/mehrfamilienhaus",
+      "from_nav_area": "footer",
+      "from_node_key": "f.anw.mfh",
+      "title_de": "Mehrfamilienhaus",
+      "title_en": "Multi-Family Home"
+    },
+    {
+      "route_path": "/anwendungen/grossanlage",
+      "from_nav_area": "footer",
+      "from_node_key": "f.anw.gross",
+      "title_de": "Großanlagen",
+      "title_en": "Large-Scale Installations"
+    },
+    {
+      "route_path": "/anwendungen/objektloesungen",
+      "from_nav_area": "footer",
+      "from_node_key": "f.anw.gewerbe",
+      "title_de": "Gewerbe",
+      "title_en": "Commercial"
+    },
+    {
+      "route_path": "/ueber-tcs",
+      "from_nav_area": "footer",
+      "from_node_key": "f.un.ueberTcs",
+      "title_de": "Über TCS",
+      "title_en": "About TCS"
+    },
+    {
+      "route_path": "/datenschutz",
+      "from_nav_area": "footer",
+      "from_node_key": "f.un.datenschutz",
+      "title_de": "Datenschutz",
+      "title_en": "Privacy"
+    },
+    {
+      "route_path": "/impressum",
+      "from_nav_area": "footer_bottom",
+      "from_node_key": "legal.impressum",
+      "title_de": "Impressum",
+      "title_en": "Imprint"
+    },
+    {
+      "route_path": "/agb",
+      "from_nav_area": "footer_bottom",
+      "from_node_key": "legal.agb",
+      "title_de": "AGB",
+      "title_en": "Terms"
+    }
+  ]
+}

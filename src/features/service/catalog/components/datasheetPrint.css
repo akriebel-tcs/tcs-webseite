@@ -1,0 +1,114 @@
+/**
+ * Host-spezifische Druck-Isolierung für das Datenblatt-Fenster.
+ *
+ * Das Seitenlayout selbst (A4-Seitenboxen, Innenabstände, Fußzeile genau
+ * einmal unten auf der letzten Seite) macht ausschließlich das gemeinsame
+ * Modul `src/shared/datasheet` (Seiten-Umbruch-Engine). Hier wird nur dafür
+ * gesorgt, dass beim Drucken nichts anderes als diese Seiten aufs Papier
+ * kommt: keine Website, keine Fensterkopfzeile, kein Schließen-X, kein
+ * abgedunkelter Hintergrund.
+ */
+
+/*
+ * A4 ohne Seitenrand: nur so lassen Browser (Chrome/Edge) ihre eigenen
+ * Kopf-/Fußzeilen (Datum, Uhrzeit, Seitentitel, URL, Seitenzahl) weg. Die
+ * echten, wiederholten Seitenränder stecken in den erzeugten Seitenboxen
+ * (siehe `src/shared/datasheet/page.ts`).
+ */
+@page {
+  size: A4;
+  margin: 0;
+}
+
+@media print {
+  html,
+  body {
+    height: auto !important;
+    max-height: none !important;
+    overflow: visible !important;
+    background: #ffffff !important;
+  }
+
+  /* Die Anwendung hinter dem Fenster wird nicht gedruckt. */
+  body.ds-printing #root {
+    display: none !important;
+  }
+
+  /* Weitere Portale (Hinweise, Menüs) ohne Datenblatt bleiben ebenfalls weg. */
+  body.ds-printing > *:not(:has([data-ds-print-root])) {
+    display: none !important;
+  }
+
+  body.ds-printing [data-radix-popper-content-wrapper] {
+    display: none !important;
+  }
+
+  /*
+   * Die Zentrier-Verschiebung des Dialogs muss im Druck weg, sonst entsteht
+   * ein Bezugsrahmen und die Seitenboxen sitzen nicht am Blattanfang.
+   * Höhere Spezifität als die Hilfsklassen des Dialogs.
+   */
+  body.ds-printing [data-ds-print-shell][data-ds-print-shell] {
+    transform: none !important;
+    translate: none !important;
+    --tw-translate-x: 0 !important;
+    --tw-translate-y: 0 !important;
+  }
+
+  /* Der Fenster-Container wird zu normalem Fließtext-Layout. */
+  body.ds-printing [data-ds-print-shell] {
+    position: static !important;
+    inset: auto !important;
+    width: auto !important;
+    max-width: none !important;
+    height: auto !important;
+    max-height: none !important;
+    overflow: visible !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    background: #ffffff !important;
+    display: block !important;
+    animation: none !important;
+  }
+
+  /*
+   * Kein eigener Seitenrand im Host: die Innenabstände jeder Seite bringt die
+   * Seiten-Umbruch-Engine mit.
+   */
+  body.ds-printing [data-ds-print-root] {
+    position: static !important;
+    height: auto !important;
+    max-height: none !important;
+    overflow: visible !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  /*
+   * Alles im Fenster, was nicht das Datenblatt ist (Kopfzeile mit Druckknopf,
+   * Schließen-X des Dialogs), wird nicht gedruckt.
+   */
+  body.ds-printing [data-ds-print-shell] > *:not([data-ds-print-root]) {
+    display: none !important;
+  }
+
+  /* Abdunkelnder Hintergrund neben dem Fenster wird nicht gedruckt. */
+  body.ds-printing > * > *:not(:has([data-ds-print-root])):not([data-ds-print-root]) {
+    display: none !important;
+  }
+
+  /* Keine Scroll-Container auf Papier; die Seitenboxen behalten ihre Geometrie. */
+  body.ds-printing
+    [data-ds-print-root]
+    *:not(.pagedjs_page):not(.pagedjs_page *) {
+    overflow: visible !important;
+    box-shadow: none !important;
+  }
+
+  .ds-no-print {
+    display: none !important;
+  }
+}

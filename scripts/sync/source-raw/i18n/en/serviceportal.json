@@ -1,0 +1,215 @@
+{
+  "_meta": {
+    "namespace": "serviceportal",
+    "status": "migrated",
+    "note": "Prototype/dummy login. Texts are migrated, auth is not productive."
+  },
+  "login": {
+    "eyebrow": "Service Portal",
+    "headline": "Customer login",
+    "intro": "Sign in with your TCS customer number to access the service portal.",
+    "kundennummerLabel": "Your TCS customer number",
+    "kundennummerPlaceholder": "e.g. 123",
+    "passwortLabel": "Your password",
+    "passwortPlaceholder": "Enter password",
+    "submit": "Sign in",
+    "error": "Invalid customer number or password.",
+    "forgotPassword": "Forgot password",
+    "register": "Register"
+  },
+  "passwortVergessen": {
+    "eyebrow": "Service Portal",
+    "headline": "Forgot password",
+    "intro": "Enter your email address. We will send you a link to reset your password.",
+    "emailLabel": "Email address",
+    "emailPlaceholder": "name@company.com",
+    "submit": "Send reset link",
+    "back": "Back to login",
+    "successHeadline": "Email sent",
+    "successIntro": "If an account with <strong>{{email}}</strong> exists, you will shortly receive an email with a link to reset your password."
+  },
+  "registrieren": {
+    "eyebrow": "Service Portal",
+    "headline": "Register",
+    "intro": "Register as a TCS specialist partner to gain access to the service portal.",
+    "firmaLabel": "Company *",
+    "firmaPlaceholder": "Mustermann Elektrotechnik GmbH",
+    "ansprechpartnerLabel": "Contact person *",
+    "ansprechpartnerPlaceholder": "Max Mustermann",
+    "emailLabel": "Email address *",
+    "emailPlaceholder": "name@company.com",
+    "telefonLabel": "Phone (optional)",
+    "telefonPlaceholder": "+49 123 456789",
+    "submit": "Submit registration",
+    "back": "Back to login",
+    "successHeadline": "Registration received",
+    "successIntro": "Thank you for your registration. We will review your details and send your access credentials by email to <strong>{{email}}</strong>."
+  },
+  "dashboard": {
+    "eyebrow": "Service Portal",
+    "logout": "Sign out",
+    "headline": "Service and support for your systems",
+    "intro": "Here you can configure your systems, edit configurations, request on-site service, download software and order spare parts — all in one place.",
+    "newBadge": "New",
+    "sections": {
+      "konto": {
+        "eyebrow": "Account & systems",
+        "title": "Master data & system management",
+        "desc": "Maintain your contact details and keep an overview of all installed systems.",
+        "tiles": {
+          "selfService": {
+            "label": "Self-service",
+            "title": "Contact details and settings",
+            "desc": "Update personal information, contact details and company details."
+          },
+          "anlagen": {
+            "label": "System history",
+            "title": "My systems & configurations",
+            "desc": "All installed TCS systems with wiring diagram, call buttons, tenant assignment and serial numbers.",
+            "tag": "3 systems"
+          },
+          "konfigurator": {
+            "label": "System configurator",
+            "title": "Configure system",
+            "desc": "Configure new systems with the interactive configurator and save settings in a retrievable history list."
+          }
+        }
+      },
+      "service": {
+        "eyebrow": "Service & support",
+        "title": "Warranty, deployment & technical help",
+        "desc": "Initiate warranty cases, request service deployments and receive immediate technical support.",
+        "tiles": {
+          "rma": {
+            "label": "RMA · Warranty",
+            "title": "Initiate warranty case",
+            "desc": "Report a warranty case for existing systems and start the RMA process."
+          },
+          "einsatz": {
+            "label": "Customer service",
+            "title": "Request service deployment",
+            "desc": "Request our customer service for an on-site service deployment."
+          },
+          "chat": {
+            "label": "AI assistant",
+            "title": "Technical support chat",
+            "desc": "Immediate help for system and large-scale system products — fault diagnosis and configuration questions.",
+            "tag": "System & large-scale systems"
+          }
+        }
+      },
+      "software": {
+        "eyebrow": "Software & activation codes",
+        "title": "Downloads, firmware & licensing",
+        "desc": "Latest firmware for servers and gateways as well as activation codes for software and service devices.",
+        "downloads": {
+          "title": "Software & firmware downloads",
+          "desc": "Latest firmware for TCS servers, IP gateways and control devices — sorted by product and version.",
+          "tags": {
+            "server": "Server software",
+            "gateway": "Gateway firmware",
+            "konfig": "Configuration software",
+            "doku": "Documentation"
+          },
+          "button": "Open download center"
+        },
+        "tiles": {
+          "configo": {
+            "label": "Software · configo",
+            "title": "Activation code configo",
+            "desc": "Request an activation code for the configo software FBI1210 and unlock the full feature set."
+          },
+          "servicegeraet": {
+            "label": "Hardware · TCSK",
+            "title": "Activation code service device",
+            "desc": "Request an activation code for the TCSK service device and unlock diagnostic functions."
+          }
+        }
+      },
+      "shop": {
+        "eyebrow": "Direct ordering",
+        "title": "Spare parts shop",
+        "desc": "Order spare parts, consumables and accessories directly online — delivery within 2–4 working days.",
+        "tile": {
+          "title": "Order spare parts & accessories",
+          "desc": "Indoor stations, outdoor stations, power supplies, cables and accessories — directly available for your installed TCS systems.",
+          "tags": {
+            "innen": "Indoor stations",
+            "aussen": "Outdoor stations",
+            "netzteile": "Power supplies",
+            "kabel": "Cables & accessories"
+          },
+          "button": "Open shop"
+        }
+      }
+    },
+    "cta": {
+      "headline": "Let's plan your project together",
+      "intro": "Contact our experts for individual project consulting.",
+      "button": "Schedule project consulting"
+    }
+  },
+  "downloadCenter": {
+    "eyebrow": "Download center",
+    "title": "Software & firmware",
+    "srDesc": "Downloads for TCS software and firmware",
+    "searchPlaceholder": "Search …",
+    "downloadButton": "Download",
+    "categories": {
+      "server": "Server software",
+      "gateway": "Gateway firmware",
+      "konfig": "Configuration software",
+      "doku": "Documentation"
+    },
+    "items": {
+      "serverV421": { "name": "TCS Server Manager v4.2.1", "meta": "Windows 10/11 · 64-bit · 87 MB · 12 Mar 2026" },
+      "serverV418": { "name": "TCS Server Manager v4.1.8 (LTS)", "meta": "Windows 10/11 · 64-bit · 85 MB · 07 Nov 2025" },
+      "gw4080": { "name": "TCS GW4080 firmware v2.8.0", "meta": "IP gateway · .bin · 3.2 MB · 28 Feb 2026" },
+      "gw2040": { "name": "TCS GW2040 firmware v1.6.3", "meta": "IP gateway compact · .bin · 1.8 MB · 15 Jan 2026" },
+      "configoFbi": { "name": "configo FBI1210 v3.5.2", "meta": "Windows 10/11 · setup EXE · 42 MB · 05 Apr 2026" },
+      "tcskTreiber": { "name": "TCSK service device driver v2.1", "meta": "Windows 10/11 · USB driver · 8 MB · 19 Feb 2026" },
+      "ivsHandbuch": { "name": "TCS IVS 4.x technical manual", "meta": "PDF · 12.4 MB · Revision 2026-01" },
+      "configoHandbuch": { "name": "configo FBI1210 user manual", "meta": "PDF · 5.1 MB · Revision 2025-11" }
+    }
+  },
+  "chat": {
+    "eyebrow": "AI assistant · System & large-scale systems",
+    "title": "Technical support chat",
+    "srDesc": "AI-powered technical support chat",
+    "welcome": "Welcome to TCS Support. Please describe your request or choose a topic.",
+    "botReply": "Thank you for your request. I am analyzing your concern and will forward you to technical support if needed.",
+    "now": "Now",
+    "inputPlaceholder": "Type a message …",
+    "send": "Send",
+    "topics": {
+      "device": "Device not responding",
+      "gateway": "Configure IP gateway",
+      "firmware": "Firmware update failed",
+      "bus": "Bus connection interrupted",
+      "errorCodes": "Error codes & LED meaning"
+    }
+  },
+  "shop": {
+    "eyebrow": "Direct ordering",
+    "title": "Spare parts shop",
+    "srDesc": "Order spare parts and accessories",
+    "filters": {
+      "alle": "All",
+      "innen": "Indoor stations",
+      "aussen": "Outdoor stations",
+      "netzteile": "Power supplies",
+      "kabel": "Cables",
+      "zubehoer": "Accessories"
+    },
+    "categoriesData": {
+      "innen": "Indoor stations",
+      "aussen": "Outdoor stations",
+      "netzteile": "Power supplies",
+      "kabel": "Cables",
+      "zubehoer": "Accessories"
+    },
+    "cart": "Cart",
+    "items": "items",
+    "checkout": "Checkout →"
+  }
+}

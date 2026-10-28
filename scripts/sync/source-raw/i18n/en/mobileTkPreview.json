@@ -1,0 +1,258 @@
+{
+  "_meta": {
+    "namespace": "mobileTkPreview",
+    "status": "in-progress"
+  },
+  "seo": {
+    "title": "Mobile Door Communication – Preview",
+    "description": "Take door calls at home, in the office, or on the move: smartphone, cordless phone, IP phone, or plug-in chime as an extension of your TCS system."
+  },
+  "subnav": {
+    "uebersicht": "Overview",
+    "anwendungen": "Use cases",
+    "zielgruppen": "Audiences",
+    "komponenten": "Components",
+    "faq": "FAQ",
+    "beratung": "Consultation"
+  },
+  "hero": {
+    "eyebrow": "MOBILE DOOR COMMUNICATION · EXTENSION OF YOUR TCS SYSTEM",
+    "headline": "Door calls reach you at home, in the office, on the move.",
+    "subheader": "Use the devices you already have. No rebuild, no new system.",
+    "answerFirst": "Mobile Door Communication forwards calls from your existing door entry system to the devices you already use every day: smartphone, cordless phone, or IP phone. So you can take door calls wherever you are, and a plug-in chime brings the ringing sound into the hobby room, onto the balcony, or up to the top floor.",
+    "imageAlt": "Person taking a door call via the smartphone app"
+  },
+  "anwendungen": {
+    "eyebrow": "Mobile Door Communication · Use cases",
+    "headline": "When Mobile Door Communication makes everyday life easier",
+    "items": {
+      "paket": {
+        "title": "Take a parcel without being home.",
+        "body": "The courier rings, no one is in. You take the door call on your smartphone, talk to the delivery person, and agree on a safe drop-off spot. If needed, you briefly open the main entrance door of your apartment building with one tap.",
+        "imageAlt": "Smartphone showing a parcel courier door call"
+      },
+      "ipGatewayMfh": {
+        "title": "One central device, app reception for every apartment.",
+        "body": "A property manager wants to offer smartphone reception to tenants without installing new devices in every apartment. An IP gateway in the electrical distribution panel connects the existing door entry system of the entire building to the cloud, so all tenants can use the snipdoo-HOME app.",
+        "imageAlt": "Apartment building with smartphone door call for every unit"
+      },
+      "funkgong": {
+        "title": "A ring that also reaches the hobby room or the balcony.",
+        "body": "Your indoor station is permanently mounted next to your apartment door, but you are upstairs, in the hobby room, or out on the balcony. An additional plug-in chime makes the ring audible everywhere in the home; speaking and opening the door still happen at the indoor station.",
+        "imageAlt": "Plug-in chime making the doorbell audible in the hobby room"
+      },
+      "dect": {
+        "title": "Talk to the door from your existing cordless phone.",
+        "body": "You already use a DECT phone in the house, for example connected to a Fritz!Box, a Gigaset, or a comparable base. Door calls can be answered on it like any other call: ring, talk, open the door, with no extra device required.",
+        "imageAlt": "DECT cordless phone receiving a door call"
+      },
+      "buero": {
+        "title": "Take pressure off the office reception.",
+        "body": "A supplier is waiting at the side entrance and reception is currently unattended. The door call reaches the IP phone on the desk so staff can answer directly and open the door without leaving their workplace.",
+        "imageAlt": "IP desk phone in an office showing a door call"
+      },
+      "barrierefrei": {
+        "title": "Accessible door call from your favourite spot.",
+        "body": "When every walk to the indoor station takes effort, whether due to limited mobility, a temporary injury, or older age, the door call quietly becomes a barrier. Pre-configured sets with a cordless phone (with large keys, with hearing-aid support, or as a phone for the visually impaired) bring ringing, speaking, and door opening directly to the seat, returning a piece of independence.",
+        "imageAlt": "Accessible cordless phone at the seating spot"
+      }
+    }
+  },
+  "zielgruppen": {
+    "eyebrow": "Mobile Door Communication · Details by audience",
+    "headline": "Details by audience",
+    "tablistLabel": "Audiences",
+    "spalten": {
+      "bewohner": {
+        "tabLabel": "Residents",
+        "titel": "Residents and end users",
+        "beschreibung": "Tenants, homeowners, office workers: the people who use the door entry system every day.",
+        "vorteile": {
+          "1": {
+            "headline": "Never miss a door call again.",
+            "body": "The door call reaches you even when you are not at the indoor station: on your smartphone, on your cordless phone, on the IP phone, or as a ring on the plug-in chime."
+          },
+          "2": {
+            "headline": "Convenient reception wherever you are.",
+            "body": "Talk and open the door from the sofa, the desk, the hobby room, or while you are out, with no walk to the indoor station next to the apartment door."
+          },
+          "3": {
+            "headline": "Keep your independence.",
+            "body": "Anyone who finds it hard to walk to the indoor station can take door calls from their seat, accessibly and with full control over who comes in."
+          },
+          "4": {
+            "headline": "Use familiar devices.",
+            "body": "Smartphone, the existing DECT phone on a Fritz!Box or Gigaset, IP phone: no need to buy extra devices or learn new controls."
+          }
+        }
+      },
+      "wohnungswirtschaft": {
+        "tabLabel": "Property management",
+        "titel": "Property management and housing associations",
+        "beschreibung": "Multi-unit operators: owner associations, property managers, housing associations.",
+        "vorteile": {
+          "1": {
+            "headline": "Modernise existing buildings without breaking walls.",
+            "body": "In existing 2-wire systems, audio and video indoor stations can be replaced without re-cabling. A quick upgrade with visible added value for the tenant."
+          },
+          "2": {
+            "headline": "Mobile Door Communication as a tenant differentiator.",
+            "body": "If you want to offer tenants smartphone door calls, cordless reception, or accessible solutions in the future, plan 3-wire cabling deliberately during new builds or major refurbishments. The Smart Stick options can then be added later without further construction work."
+          },
+          "3": {
+            "headline": "Scaling per apartment, as needed.",
+            "body": "From the plug-in chime to accessible cordless phone sets to the app-based solution: every tenant chooses what fits."
+          },
+          "4": {
+            "headline": "Direct tenant access to service.",
+            "body": "Via the QR code on the indoor station, tenants reach the user manual and the online shop for Smart Stick add-ons by themselves. Routine questions never reach property management in the first place."
+          }
+        }
+      },
+      "bauherren": {
+        "tabLabel": "Building owners",
+        "titel": "Building owners",
+        "beschreibung": "Private clients with a new build or larger modernisation project, often in the dual role of buyer and (later) resident.",
+        "vorteile": {
+          "1": {
+            "headline": "Modernise without touching the walls.",
+            "body": "Existing 2-wire systems can be upgraded to audio or video indoor stations. No chiselling, no new wires."
+          },
+          "2": {
+            "headline": "Future-ready new builds.",
+            "body": "If the power wire (a, b, P) is connected during termination, all Smart Stick extensions stay open: from cordless phone reception to the smartphone app, retrofittable any time."
+          },
+          "3": {
+            "headline": "Make residential value visible.",
+            "body": "Smartphone door calls, plug-in chimes, and accessible solutions are concrete arguments in sales and rental conversations. And quiet long-term value preservers over the years."
+          },
+          "4": {
+            "headline": "Expandable by the resident.",
+            "body": "Smart Sticks plug into the side drawer of the Tasta Pro or Senso Pro indoor station. Later expansion does not cost a tradesperson visit, provided the 3-wire connection is in place."
+          }
+        }
+      },
+      "handwerk": {
+        "tabLabel": "Trade",
+        "titel": "Trade and electricians",
+        "beschreibung": "Installing tradespeople, often the first point of contact for the building owner regarding the door entry system.",
+        "vorteile": {
+          "1": {
+            "headline": "Pre-installation advice as a professional standard.",
+            "body": "Smart Sticks require the 3-wire connection (a, b, P). The question \"Smart Sticks planned today or not?\" belongs before termination, not after. This avoids later discussions about functional limitations and protects the installation contract."
+          },
+          "2": {
+            "headline": "A termination question, not a wiring question.",
+            "body": "With 6 wires already pulled into the wall, the termination configuration decides between 2-wire and 3-wire; the wires themselves are there anyway. The effort difference is small and easy to make transparent in the consultation."
+          },
+          "3": {
+            "headline": "Serve the 2-wire installed base properly.",
+            "body": "In pure 2-wire renovations, audio and video indoor stations are possible as usual. The Tasta Pro indoor station detects 2-wire vs. 3-wire automatically. The reservation for 2-wire operation (no functional extensions, no additional consumers) must be documented towards the building owner."
+          },
+          "4": {
+            "headline": "Smart Stick sales as follow-up business.",
+            "body": "Every 3-wire installation is a potential service visit: the installer plugs in the Smart Stick and handles commissioning. Billable, schedulable, customer-focused."
+          }
+        }
+      }
+    }
+  },
+  "komponenten": {
+    "eyebrow": "Mobile Door Communication · Components",
+    "headline": "The building blocks of Mobile Door Communication",
+    "linkLabel": "Learn more",
+    "items": {
+      "smartStickMobilePhone": {
+        "title": "Smart Stick MOBILE PHONE",
+        "tagline": "Door calls worldwide on your smartphone.",
+        "body": "Plugs into the drawer of your Pro indoor station and connects the door entry system to the snipdoo-HOME app on iPhone or Android. Take door calls, talk, open the door, wherever you are. Five years of app licences included with purchase.",
+        "imageAlt": "Smart Stick MOBILE PHONE in a Pro indoor station"
+      },
+      "ipGateway": {
+        "title": "IP Gateway",
+        "tagline": "Mobile Door Communication for the entire building.",
+        "body": "DIN rail device for the electrical distribution panel that connects an existing door entry system to LAN and cloud. Extends audio and video systems with smartphone reception via the snipdoo-HOME app, for an apartment building with up to 24 units in a single step.",
+        "imageAlt": "IP Gateway on a DIN rail in the electrical distribution panel"
+      },
+      "smartStickDectGlobal": {
+        "title": "Smart Stick DECT GLOBAL",
+        "tagline": "Door calls on your existing cordless phone.",
+        "body": "Connects the Pro indoor station to an existing DECT base such as Fritz!Box, Gigaset, or Telekom Speedport. Door calls appear on the handset like regular calls; the door can be opened from the handset, including switching the door light. No licence fee.",
+        "imageAlt": "Smart Stick DECT GLOBAL with cordless phone"
+      },
+      "smartStickPhone": {
+        "title": "Smart Stick PHONE",
+        "tagline": "Door calls to the IP phone system on your desk.",
+        "body": "Connects the Pro indoor station to IP phone systems such as Fritz!Box, NFON, Starface, or 3CX. Door calls appear like normal calls on the IP phone, in the office or home office; door opening runs straight from the phone.",
+        "imageAlt": "Smart Stick PHONE with an IP office phone"
+      },
+      "funkgong": {
+        "title": "Plug-in chime",
+        "tagline": "Make the ring audible everywhere in the house.",
+        "body": "Plug-in chime for the socket that carries the doorbell signal into distant rooms: hobby room, upstairs, balcony. Speaking and opening the door still happen at the indoor station, but the ring reaches everywhere.",
+        "imageAlt": "Plug-in chime in a living-room socket"
+      },
+      "dectConnectSets": {
+        "title": "DECT Connect Sets",
+        "tagline": "Accessible door communication as a pre-configured set.",
+        "body": "Three sets for different needs: Easy with a large-key phone, Easy Pro with hearing-aid support via Bluetooth, Assistance as a phone for the visually impaired with single-key operation. Plug-and-play, no licence fee, operable from the seat.",
+        "imageAlt": "DECT Connect Sets with large-key phone"
+      }
+    }
+  },
+  "faq": {
+    "eyebrow": "Mobile Door Communication · Frequently asked questions",
+    "headline": "What you wanted to know, answered briefly",
+    "items": {
+      "neueAnlage": {
+        "frage": "Do I need a new door entry system?",
+        "antwort": "No, in most cases not. Mobile Door Communication is an extension of your existing system. Audio indoor stations can be extended with a Smart Stick, video systems can be connected to the smartphone app via the IP Gateway. Both without breaking the wall or opening the plaster."
+      },
+      "variante": {
+        "frage": "Which option is right for me?",
+        "antwort": "The choice follows your everyday life, not the technology. If you already use a cordless phone, the Smart Stick DECT GLOBAL is the direct bridge. For door calls on the move on your smartphone, the Smart Stick MOBILE PHONE with the snipdoo-HOME app. If you want to hear the ring better in distant rooms, the plug-in chime. If in doubt, our consultation team will help."
+      },
+      "installation": {
+        "frage": "Does an installer need to come, or can I do it myself?",
+        "antwort": "Smart Sticks are designed for self-installation: they plug into the side drawer of your Pro indoor station and are paired with the end device in a short setup, with no tools needed. The IP Gateway in the electrical distribution panel, however, belongs in the hands of an electrician."
+      },
+      "barrierefrei": {
+        "frage": "Are hearing or visual impairments supported too?",
+        "antwort": "Yes, with three pre-configured DECT Connect Sets: with a large-key phone, with hearing-aid support via Bluetooth, or as a phone for the visually impaired with single-key operation. All three allow ringing, speaking, and door opening from the seat, are plug-and-play, and require no licence fee."
+      }
+    }
+  },
+  "cta": {
+    "haupt": {
+      "eyebrow": "Mobile Door Communication · Consultation",
+      "headline": "Advice on the right extension",
+      "body": "Talk to our technical hotline. Together we will work out which extension fits your existing system and your everyday life.",
+      "button": "Request consultation"
+    },
+    "weitere": {
+      "shop": {
+        "headline": "Order a Smart Stick from the online shop",
+        "body": "Install yourself, use right away. Ready to ship within a few days.",
+        "button": "To the online shop"
+      },
+      "datenblatt": {
+        "headline": "Download the data sheet",
+        "body": "Full specifications for planning, installation, and system sizing.",
+        "button": "View data sheets"
+      },
+      "installateur": {
+        "headline": "Find an installer in your region",
+        "body": "We connect you with skilled tradespeople for modernising your system and properly preparing the 3-wire setup.",
+        "button": "Find a sales partner"
+      },
+      "wohnungswirtschaft": {
+        "headline": "Property management: request a tenant service concept",
+        "body": "Let's talk about Mobile Door Communication as a differentiator in your portfolio and for tenant retention.",
+        "button": "Consultation for property management"
+      }
+    }
+  },
+  "a11y": {
+    "subnav": "Section navigation"
+  }
+}

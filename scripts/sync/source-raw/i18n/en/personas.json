@@ -1,0 +1,782 @@
+{
+  "_meta": {
+    "namespace": "personas",
+    "status": "migrated",
+    "note": "All 6 persona components (Bauherr, Architekt, Fachplaner, Handwerk, Fachhandel, Wohnungswirtschaft) use `useTranslation(\"personas\")` and are fully populated. The components are embedded in HomePage, therefore not in `strictPages` themselves (no route target). Status aligned in stage `hygiene-status-1`."
+  },
+  "common": {
+    "ctaLearnMore": "Learn more"
+  },
+  "bauherr": {
+    "hero": {
+      "eyebrow": "For builders & homeowners",
+      "headline": "Your home deserves the best entrance",
+      "intro": "Door communication, access control and entrance design – all from a single source, perfectly tailored to your building project. Secure, comfortable and in timeless design. Made in Germany.",
+      "imageAlt": "Modern single-family home with TCS door communication"
+    },
+    "stats": {
+      "items": {
+        "experience": {
+          "value": "30+",
+          "label": "Years of experience"
+        },
+        "made": {
+          "value": "100%",
+          "label": "Made in Germany"
+        },
+        "app": {
+          "value": "24/7",
+          "label": "App access"
+        },
+        "oneSystem": {
+          "value": "1 system",
+          "label": "Everything from one source"
+        }
+      }
+    },
+    "highlights": {
+      "headline": "What TCS delivers for you as a homeowner",
+      "intro": "Discover the benefits that make your entrance area more secure, more comfortable and aesthetically more refined.",
+      "items": {
+        "security": {
+          "title": "Security for your home",
+          "desc": "See and speak with visitors before you open the door – via video door intercom or smartphone app."
+        },
+        "app": {
+          "title": "Convenient app control",
+          "desc": "With the snipdoo® app you open doors, receive parcels and manage access rights – anytime, from anywhere."
+        },
+        "design": {
+          "title": "Design that fits your house",
+          "desc": "The Entry system unites all functions at the entrance in a coherent, individually configurable design."
+        },
+        "orientation": {
+          "title": "Clear orientation & aesthetics",
+          "desc": "Elegant house numbers and signage with LED backlighting create accents at your entrance area."
+        },
+        "futureProof": {
+          "title": "Future-proof & expandable",
+          "desc": "Start with a basic configuration and expand step by step – thanks to the modular system architecture."
+        },
+        "consulting": {
+          "title": "Personal consulting",
+          "desc": "Our experts help you with selection and configuration – tailored to your building project."
+        }
+      }
+    },
+    "solutions": {
+      "headline": "Our solutions for your home",
+      "intro": "Whether new build or modernization – TCS offers you well-designed systems that integrate seamlessly into your home.",
+      "items": {
+        "communication": {
+          "label": "Video door intercom",
+          "headline": "See who is ringing – even when you're out",
+          "text": "The TCS video indoor stations Senso Pro and TASTA PRO offer brilliant image quality and intuitive operation. Thanks to the snipdoo® app you no longer miss any visitor and can open doors conveniently via smartphone – wherever you are."
+        },
+        "access": {
+          "label": "Access control",
+          "headline": "Keyless and secure entry to your own home",
+          "text": "Forget the key: with TCS access solutions you open your front door via fingerprint, RFID transponder or smartphone. Grant and revoke access rights for family, tradespeople or cleaning staff – flexible and secure."
+        },
+        "entry": {
+          "label": "Entrance design",
+          "headline": "An entrance that impresses",
+          "text": "The TCS Entry system combines door communication, mailbox, call button and nameplate in an elegant design. Choose from premium materials such as stainless steel, glass or anodized aluminium – matching the architecture of your house."
+        },
+        "signage": {
+          "label": "House numbers & signage",
+          "headline": "Your house – unmistakably marked",
+          "text": "Set a visible sign: the TCS house numbers with innovative day-night contrast and durable LED lighting provide orientation and elegantly highlight your facade."
+        }
+      }
+    },
+    "cases": {
+      "headline": "Typical use cases",
+      "intro": "How builders and owners use TCS solutions in everyday life.",
+      "items": {
+        "newBuild": {
+          "title": "New single-family home",
+          "desc": "Plan door communication, access control and mailbox as an integrated system from the start – with the Entry design system in your preferred material."
+        },
+        "modernization": {
+          "title": "Modernization & retrofit",
+          "desc": "Retrofit your existing building with a video intercom and keyless access – simply via 2-wire technology, without elaborate rewiring."
+        },
+        "ownerMfh": {
+          "title": "Multi-family house as owner",
+          "desc": "Manage access rights for tenants, tradespeople and service providers centrally via the snipdoo® app – transparent and changeable at any time."
+        }
+      }
+    },
+    "cta": {
+      "headline": "Plan your perfect entrance area",
+      "intro": "Get free, no-obligation advice – our experts will work with you to find the ideal solution for your building project.",
+      "primary": "Book a consultation",
+      "secondary": "Start configurator"
+    }
+  },
+  "architekt": {
+    "hero": {
+      "eyebrow": "For architects & designers",
+      "headline": "Technology that defers to your architecture",
+      "intro": "Door communication, access control and building signage – thoughtfully designed, modularly configurable and seamlessly integrated. For buildings where every detail counts.",
+      "imageAlt": "Modern building architecture with integrated TCS technology"
+    },
+    "stats": {
+      "items": {
+        "experience": {
+          "value": "30+",
+          "label": "Years of experience"
+        },
+        "made": {
+          "value": "100%",
+          "label": "Made in Germany"
+        },
+        "modular": {
+          "value": "Modular",
+          "label": "Freely configurable"
+        },
+        "bim": {
+          "value": "BIM",
+          "label": "Planning data available"
+        }
+      }
+    },
+    "highlights": {
+      "headline": "Why architects choose TCS",
+      "intro": "Products and services that combine design ambition with technical excellence.",
+      "items": {
+        "materials": {
+          "title": "Individual material choice",
+          "desc": "Stainless steel, glass, anodized aluminium or custom colours – design entrance areas to match your architectural concept."
+        },
+        "modular": {
+          "title": "Modular design system",
+          "desc": "The Entry system allows free combination of functional modules within a unified design framework – flexible and expandable."
+        },
+        "designFreedom": {
+          "title": "Creative freedom",
+          "desc": "From the mailbox unit to the door station: all components are coordinated in design and individually configurable."
+        },
+        "integration": {
+          "title": "Seamless integration",
+          "desc": "TCS systems blend invisibly into facades and interiors – with flush-mount, surface-mount and built-in solutions for every building situation."
+        },
+        "aesthetics": {
+          "title": "Technology meets aesthetics",
+          "desc": "Modern video door communication and digital signage in a reduced, timeless design – technology that defers to the architecture."
+        },
+        "planningSupport": {
+          "title": "Planning support",
+          "desc": "Benefit from our project consulting with technical drawings, BIM data and a personal point of contact."
+        }
+      }
+    },
+    "solutions": {
+      "headline": "Solutions for sophisticated design",
+      "intro": "Products that support your architectural signature – from single-family homes to large-scale projects.",
+      "items": {
+        "entry": {
+          "label": "Entry design system",
+          "headline": "One entrance – one design language",
+          "text": "The TCS Entry system unites call buttons, nameplates, mailbox, camera and reader in one consistent design concept. Choose materials, surfaces and formats that underline your architectural vision."
+        },
+        "communication": {
+          "label": "Video door communication",
+          "headline": "Communication with design ambition",
+          "text": "TCS outdoor and indoor stations stand out through clear lines and high-quality materials. Flush-mountable, with HD video and an intuitive interface – for buildings where every detail counts."
+        },
+        "access": {
+          "label": "Access control",
+          "headline": "Security that defers to design",
+          "text": "Minimalist readers for fingerprint, RFID and smartphone fit discreetly into the facade design. The BCM system offers flexible access management without visible compromises."
+        },
+        "signage": {
+          "label": "Signage & wayfinding",
+          "headline": "Orientation as a design element",
+          "text": "LED-backlit house numbers, e-paper door signs and digital wayfinding systems – TCS signage solutions combine function and form into a coherent overall picture."
+        }
+      }
+    },
+    "cases": {
+      "headline": "Typical project scenarios",
+      "intro": "How TCS systems support architects across different building tasks.",
+      "items": {
+        "housing": {
+          "title": "Multi-storey & residential construction",
+          "desc": "Consistent entrance design for multi-family buildings – with a continuous material concept from the mailbox unit to the apartment door."
+        },
+        "villa": {
+          "title": "Villas & premium residential",
+          "desc": "Exclusive entrance solutions with custom materials, flush integration and app-based comfort control for demanding clients."
+        },
+        "commercial": {
+          "title": "Commercial & mixed use",
+          "desc": "Scalable access and communication solutions that adapt flexibly to different usage units and tenant structures."
+        }
+      }
+    },
+    "cta": {
+      "headline": "Let's discuss your project",
+      "intro": "Our project consultants support you with technical drawings, sample setups and individual configuration – from the design phase through to execution.",
+      "primary": "Request project consulting",
+      "secondary": "Request samples"
+    }
+  },
+  "fachplaner": {
+    "hero": {
+      "eyebrow": "For specialist planners & integrators",
+      "headline": "Plan with systems that work together",
+      "intro": "Comprehensive planning documents, modular system architecture and personal project consulting – so your planning transitions smoothly into execution. Made in Germany.",
+      "imageAlt": "Modern building technology planning with TCS"
+    },
+    "stats": {
+      "items": {
+        "experience": {
+          "value": "30+",
+          "label": "Years of experience"
+        },
+        "schematics": {
+          "value": "1,000+",
+          "label": "Schematics online"
+        },
+        "made": {
+          "value": "100%",
+          "label": "Made in Germany"
+        },
+        "consulting": {
+          "value": "Free",
+          "label": "Planning consulting"
+        }
+      }
+    },
+    "highlights": {
+      "headline": "Your planning advantages",
+      "intro": "Tools, documents and support for efficient specialist planning.",
+      "items": {
+        "ipTwoWire": {
+          "title": "IP & 2-wire systems",
+          "desc": "Choose flexibly between classic 2-wire technology and future-proof IP technology – or combine both via the snipdoo® gateway."
+        },
+        "planningDocs": {
+          "title": "Planning documents & BIM",
+          "desc": "Tender texts, CAD data, schematics and technical data sheets are available digitally for download."
+        },
+        "modular": {
+          "title": "Modular system architecture",
+          "desc": "The open TCS architecture enables seamless integration into KNX, smart home systems and building automation."
+        },
+        "integration": {
+          "title": "Cross-system integration",
+          "desc": "Couple door communication, access control, elevator control and alarm systems in one consistent concept."
+        },
+        "academy": {
+          "title": "TCS Academy",
+          "desc": "Deepen your expertise in trainings and webinars – from fundamentals to planning complex large-scale installations."
+        },
+        "projectConsulting": {
+          "title": "Technical project consulting",
+          "desc": "Our planning department supports you with system selection, dimensioning and project planning – free of charge and manufacturer-neutral."
+        }
+      }
+    },
+    "solutions": {
+      "headline": "System solutions for your projects",
+      "intro": "Modular systems that integrate seamlessly into your overall concept.",
+      "items": {
+        "communication": {
+          "label": "Building communication",
+          "headline": "Plan door intercoms correctly",
+          "text": "From single installations to large-scale systems with hundreds of users: TCS offers scalable audio and video systems based on 2-wire and IP technology. The TCS system configurator supports you with quick dimensioning."
+        },
+        "access": {
+          "label": "Access control",
+          "headline": "Integrate access systems across trades",
+          "text": "Plan RFID, biometrics and app-based access as an integral part of your security concept. The BCM software enables central management and connection to higher-level building management systems."
+        },
+        "entry": {
+          "label": "Entrance systems",
+          "headline": "Entrance planning with a system",
+          "text": "The TCS Entry system bundles mailbox, doorbell, nameplates and communication modules in a configurable design frame. Materials, colours and dimensions can be tailored precisely to the building architecture."
+        },
+        "signage": {
+          "label": "Signage & wayfinding",
+          "headline": "Plan wayfinding and orientation",
+          "text": "Integrate house numbers, pictograms, door signs and digital info displays into your building concept. TCS offers consistent design lines for a coherent appearance."
+        }
+      }
+    },
+    "tools": {
+      "headline": "Planning tools & resources",
+      "intro": "Digital tools for efficient project planning.",
+      "items": {
+        "configurator": {
+          "title": "TCS system configurator",
+          "desc": "Configure your installation online – with automatic parts list, schematic and tender text."
+        },
+        "schematics": {
+          "title": "Schematic database",
+          "desc": "Over 1,000 schematics on tcsplan.de – searchable by installation type, number of users and system components."
+        },
+        "downloads": {
+          "title": "Downloads & data sheets",
+          "desc": "Technical documentation, CAD files and tender texts ready for immediate download."
+        }
+      }
+    },
+    "cta": {
+      "headline": "Project consulting for specialist planners",
+      "intro": "Our planning department supports you free of charge with system selection and dimensioning.",
+      "primary": "Request planning consultation",
+      "secondary": "Start configurator"
+    }
+  },
+  "handwerk": {
+    "hero": {
+      "eyebrow": "For the electrical trade",
+      "headline": "Technology that works on the building site",
+      "intro": "Easy installation, reliable products and fast support – so you can work efficiently and impress your customers. Made in Germany.",
+      "imageAlt": "Electrical installation of a TCS intercom system"
+    },
+    "stats": {
+      "items": {
+        "twoWire": {
+          "value": "2-wire",
+          "label": "Simple technology"
+        },
+        "experience": {
+          "value": "30+",
+          "label": "Years of experience"
+        },
+        "made": {
+          "value": "100%",
+          "label": "Made in Germany"
+        },
+        "hotline": {
+          "value": "Direct",
+          "label": "Technical hotline"
+        }
+      }
+    },
+    "highlights": {
+      "headline": "Your advantages as an installer",
+      "intro": "Products and services that save you time and effort on the building site.",
+      "items": {
+        "twoWireInstall": {
+          "title": "Easy 2-wire installation",
+          "desc": "Connect intercoms quickly and reliably with just two wires – without elaborate rewiring. Ideal for existing buildings and new construction."
+        },
+        "packs": {
+          "title": "TCS:PACKS – ready to go",
+          "desc": "Preconfigured complete packages with all components and installation material. Unpack, connect, done."
+        },
+        "academy": {
+          "title": "TCS Academy",
+          "desc": "Hands-on trainings and webinars – from basic installation to configuring complex IP systems."
+        },
+        "mounting": {
+          "title": "Well-thought-out mounting",
+          "desc": "Quick-mount frames, plug-ready connections and clearly structured instructions save time on the building site."
+        },
+        "availability": {
+          "title": "Fast availability",
+          "desc": "Production in Germany with short delivery times. Spare parts and extensions are available long-term."
+        },
+        "hotline": {
+          "title": "Technical hotline",
+          "desc": "For questions on installation or configuration you reach our technicians directly – fast and competent."
+        }
+      }
+    },
+    "solutions": {
+      "headline": "Products for everyday practice",
+      "intro": "Reliable technology that installs quickly and works for the long term.",
+      "items": {
+        "intercoms": {
+          "label": "Door intercoms",
+          "headline": "Installation made easy",
+          "text": "TCS door intercoms are based on proven 2-wire technology and can be installed in a short time. With TCS:PACKS you receive preconfigured complete packages – including outdoor station, indoor station and accessories."
+        },
+        "access": {
+          "label": "Access control",
+          "headline": "Retrofit and extend access systems",
+          "text": "Whether fingerprint, RFID or app access: TCS access solutions can be easily integrated into existing intercom systems. Programming is convenient via the BCM software or directly on the device."
+        },
+        "entry": {
+          "label": "Entry system",
+          "headline": "Mount mailbox, doorbell and communication",
+          "text": "The modular Entry system unites all entrance components in one frame. Thanks to standardized dimensions and quick mounting you save time and deliver a high-quality result."
+        },
+        "signage": {
+          "label": "Signage",
+          "headline": "Mount house numbers and signs",
+          "text": "LED-backlit house numbers and signage are quickly mounted and offer your customers a visible added value at the entrance area."
+        }
+      }
+    },
+    "tips": {
+      "headline": "Practical tips",
+      "intro": "How to install quickly and error-free.",
+      "items": {
+        "packs": {
+          "title": "Use TCS:PACKS",
+          "desc": "The preconfigured packages contain all components for the most common installation scenarios – including mounting material and instructions."
+        },
+        "schematics": {
+          "title": "Schematics on tcsplan.de",
+          "desc": "Find the right schematic for your project in the comprehensive online database – filterable by installation type."
+        },
+        "training": {
+          "title": "Attend trainings",
+          "desc": "In the hands-on TCS Academy trainings you learn tips and tricks for efficient installation."
+        }
+      }
+    },
+    "cta": {
+      "headline": "Start your next project with TCS",
+      "intro": "Technical hotline, trainings and fast delivery – we support you.",
+      "primary": "Book training",
+      "secondary": "Technical hotline"
+    }
+  },
+  "fachhandel": {
+    "hero": {
+      "eyebrow": "For the specialist trade",
+      "headline": "Your strong partner in the specialist trade",
+      "intro": "Premium products, attractive conditions and comprehensive sales support – for sustainable growth in your business. Made in Germany.",
+      "imageAlt": "TCS product portfolio for the specialist trade"
+    },
+    "stats": {
+      "items": {
+        "experience": {
+          "value": "30+",
+          "label": "Years of experience"
+        },
+        "made": {
+          "value": "100%",
+          "label": "Made in Germany"
+        },
+        "partners": {
+          "value": "1,000+",
+          "label": "Trade partners"
+        },
+        "delivery": {
+          "value": "48h",
+          "label": "Standard delivery time"
+        }
+      }
+    },
+    "highlights": {
+      "headline": "Your advantages as a trade partner",
+      "intro": "Everything you need for successful business with TCS products.",
+      "items": {
+        "margins": {
+          "title": "Strong margins",
+          "desc": "High-quality products made in Germany with attractive trade conditions and a clear pricing model."
+        },
+        "range": {
+          "title": "Broad product range",
+          "desc": "From the entry-level intercom to large-scale system solutions – serve all customer segments from a single system."
+        },
+        "premium": {
+          "title": "Premium brand",
+          "desc": "TCS stands for German quality, longevity and innovation – arguments that convince end customers."
+        },
+        "delivery": {
+          "title": "Fast delivery",
+          "desc": "Production in Germany with short delivery times and high availability – even for custom orders."
+        },
+        "salesSupport": {
+          "title": "Sales support",
+          "desc": "Product trainings, sales aids, sample presentations and marketing material for your sales success."
+        },
+        "orderTools": {
+          "title": "Digital ordering tools",
+          "desc": "Configure and order TCS systems online – with automatic parts list and price calculation."
+        }
+      }
+    },
+    "solutions": {
+      "headline": "Product areas for your sales",
+      "intro": "Broad product range with clear segmentation for every customer need.",
+      "items": {
+        "communication": {
+          "label": "Building communication",
+          "headline": "Intercoms for every requirement",
+          "text": "Offer your customers audio and video door intercoms for any building size. The TCS:PACKS as preconfigured complete packages are ideal for quick turnover in the trade segment."
+        },
+        "access": {
+          "label": "Access control",
+          "headline": "Access solutions as a growth segment",
+          "text": "Keyless access systems are rapidly gaining importance. With TCS you offer RFID, fingerprint and app-based access from a single source – and tap into high-margin additional business."
+        },
+        "entry": {
+          "label": "Entrance systems",
+          "headline": "Entry systems as a differentiator",
+          "text": "The TCS Entry system combines mailbox, doorbell and communication in one premium product. Ideal for demanding builders and architects – and therefore for your upper price segment."
+        },
+        "signage": {
+          "label": "Signage",
+          "headline": "House numbers and signage as a complement",
+          "text": "LED-backlit house numbers and signage complement every TCS installation and offer attractive additional business with minimal consulting effort."
+        }
+      }
+    },
+    "partnerServices": {
+      "headline": "Partner services",
+      "intro": "Our all-round package for your sales success.",
+      "items": {
+        "training": {
+          "title": "Product trainings",
+          "desc": "Train your sales team on-site or online – so you can advise your customers competently."
+        },
+        "marketing": {
+          "title": "Marketing support",
+          "desc": "Use our sales aids, product samples and marketing materials for your point of sale."
+        },
+        "orderPortal": {
+          "title": "Online ordering portal",
+          "desc": "Configure and order TCS products online – with real-time availability and automatic parts list."
+        }
+      }
+    },
+    "cta": {
+      "headline": "Become a TCS trade partner",
+      "intro": "Benefit from attractive conditions, strong products and personal support.",
+      "primary": "Request partnership",
+      "secondary": "View product range"
+    }
+  },
+  "wohnungswirtschaft": {
+    "hero": {
+      "eyebrow": "For housing industry & developers",
+      "headline": "Equip residential buildings for the future – with a competent technology partner",
+      "subheadline": "Adaptable, future-proof and economical system solutions for the housing industry",
+      "intro": "TCS is your competent technology partner for technical building equipment in multi-storey residential construction. With our core competence in door communication and a wide-ranging portfolio – from digital access control to resident information and hazard alerting – we create future-proof, standards-compliant and above all economical solutions. Our systems impress with high flexibility, long service life and easy expandability, which maximizes investment security for housing companies and at the same time enhances residents' self-determination.",
+      "imageAlt": "Modern residential complex with TCS entrance system"
+    },
+    "stats": {
+      "items": {
+        "experience": {
+          "value": "30+",
+          "label": "Years of experience"
+        },
+        "projects": {
+          "value": "500+",
+          "label": "Major projects"
+        },
+        "made": {
+          "value": "100%",
+          "label": "Made in Germany"
+        },
+        "management": {
+          "value": "24/7",
+          "label": "Digital management"
+        }
+      }
+    },
+    "highlights": {
+      "headline": "Your benefits with TCS",
+      "intro": "Efficient management, satisfied tenants and sustainable value growth of your properties.",
+      "items": {
+        "scalable": {
+          "title": "Scalable solutions",
+          "desc": "From small residential buildings to neighborhoods with several hundred units – TCS systems grow with your portfolio."
+        },
+        "tenantManagement": {
+          "title": "Efficient tenant management",
+          "desc": "Manage access rights, name changes and key issuance digitally – without on-site appointments."
+        },
+        "costOptimization": {
+          "title": "Cost optimization",
+          "desc": "Reduce operating costs through keyless access systems and central management software."
+        },
+        "security": {
+          "title": "Security & compliance",
+          "desc": "Meet security requirements and data protection regulations with certified systems – Made in Germany."
+        },
+        "digitalManagement": {
+          "title": "Digital administration",
+          "desc": "The BCM software and snipdoo® app enable central control of all access and communication systems."
+        },
+        "lowMaintenance": {
+          "title": "Low maintenance effort",
+          "desc": "Robust industrial quality, modular design and remote maintenance capability minimize service effort."
+        }
+      }
+    },
+    "solutions": {
+      "headline": "Solutions for your properties",
+      "intro": "Well-thought-out systems for new construction, modernization and ongoing operation of your properties.",
+      "items": {
+        "communication": {
+          "label": "Building communication",
+          "headline": "Professional intercoms for residential buildings",
+          "text": "Whether audio or video – TCS door intercoms provide your tenants with security and comfort. Thanks to IP technology and the snipdoo® app, residents can receive visitors and open doors from anywhere. Central administration via the BCM software simplifies tenant management."
+        },
+        "access": {
+          "label": "Access control",
+          "headline": "Manage keylessly – save costs",
+          "text": "Lost keys, tenant changes, tradesperson access: with TCS access solutions you manage permissions digitally and avoid expensive lock changes. RFID, biometrics and app-based access offer maximum flexibility."
+        },
+        "entry": {
+          "label": "Entrance systems",
+          "headline": "Entrance design that increases value",
+          "text": "The entrance area shapes the first impression. With the TCS Entry system you design mailbox, doorbell and name plates uniformly and to high quality – a clear advantage for re-letting and property valuation."
+        },
+        "signage": {
+          "label": "Signage",
+          "headline": "Orientation throughout the neighborhood",
+          "text": "From house numbers to wayfinding systems and digital info displays: TCS signage solutions provide clear orientation in large residential complexes and increase the quality of stay."
+        }
+      }
+    },
+    "detailSections": {
+      "tuersprechanlagen": {
+        "label": "Door communication",
+        "title": "Next-generation door intercoms",
+        "text": "Modular indoor stations for maximum flexibility",
+        "items": {
+          "modular": {
+            "title": "Modular indoor stations",
+            "desc": "The future-proof indoor stations of the Senso Pro and Tasta Pro lines flexibly adapt to your needs. Initially installed as cost-effective audio hands-free units, tenants can independently expand them at any time via plug & play with video functions or mobile control devices. This significantly reduces initial investment costs for housing companies."
+          },
+          "smartSticks": {
+            "title": "Mobile door communication via Smart Sticks",
+            "desc": "The indoor stations can be expanded with plug-in Smart Sticks for smart and mobile functions. The Smart Stick Mobile Phone enables worldwide call answering and door opening via smartphone in conjunction with the TCS app. Existing landline telephones can be integrated via the Smart Stick DECT Global or the Smart Stick Phone. The door call can also be forwarded via Smart Stick to a socket-based wireless chime."
+          }
+        }
+      },
+      "barrierefrei": {
+        "label": "Accessibility",
+        "title": "Age-appropriate and accessible living",
+        "text": "Comfortable communication without barriers",
+        "intro": "TCS outdoor stations are equipped for visitors in compliance with DIN 18040-1 with color-backlit accessibility symbols. For residents, TCS offers preconfigured, wireless DECT solutions for special needs:",
+        "items": {
+          "easy": {
+            "name": "DECT CONNECT Easy",
+            "desc": "Large-button telephone for easy operation"
+          },
+          "easyPro": {
+            "name": "DECT CONNECT Easy Pro",
+            "desc": "With hearing aid support for optimal communication"
+          },
+          "assistance": {
+            "name": "DECT CONNECT Assistance",
+            "desc": "For blind and visually impaired users, wearable around the neck – call answering from anywhere"
+          }
+        }
+      },
+      "plugPlay": {
+        "label": "Plug & Play",
+        "title": "Flexible video extensions and classic handsets",
+        "text": "\"Video-Ready\" installations and individual operating comfort",
+        "intro": "Systems can be prepared as standard in 6-wire video technology (\"video-ready\"), which means that cost-effective audio indoor stations can be replaced individually per tenant with a video display module if required. For tenants who prefer classic and discreet operation, the system can easily be retrofitted with a handset set for two-way communication.",
+        "items": {
+          "smartSticks": {
+            "title": "Smart Sticks",
+            "desc": "Small modules to plug into the indoor station. Enable mobile door communication – optionally to the smartphone, to DECT phones, IP telephone systems or to a wireless chime."
+          },
+          "videoModule": {
+            "title": "Video display module",
+            "desc": "On systems prepared as \"video-ready\", tenants can themselves add the video function to their basic station with a video display module – simply in exchange for the keypad module."
+          },
+          "handset": {
+            "title": "Classic handset set",
+            "desc": "If a resident prefers more discreet operation, the indoor station can easily be equipped with a handset set for two-way communication."
+          }
+        },
+        "noteProcurementLabel": "Easy procurement:",
+        "noteProcurementText": "Tenants can purchase the desired extensions directly online via the TCS tenant shop.",
+        "noteInstallationLabel": "Self-installation:",
+        "noteInstallationText": "All components are installed by the tenant themselves as a plug & play solution – the housing company incurs neither installation effort nor additional costs."
+      },
+      "mietershop": {
+        "label": "E-commerce",
+        "title": "The TCS tenant shop",
+        "text": "Equipment extensions directly and easily for the resident",
+        "body": "With the TCS tenant shop, residents can purchase individual product extensions – such as Smart Sticks, wireless chimes or video modules – online and put them into operation themselves without technical support. This way, the intercom systems meet individual needs while installation effort and costs for the housing company remain minimized."
+      },
+      "namensanzeige": {
+        "label": "Administration",
+        "title": "Digital name display",
+        "text": "Central and efficient data management for tenant changes",
+        "intro": "Paper name plates are a thing of the past: tenant names are shown in modern fashion on digital displays at mailboxes, outdoor stations, bell panels and apartment doors. When tenants change, property managers can update the displays centrally, securely and conveniently via remote access from a PC – without any on-site effort and for the entire building portfolio.",
+        "items": {
+          "central": {
+            "title": "Central control",
+            "desc": "Edit and update tenant names at any time using software directly from the PC in the office."
+          },
+          "comprehensive": {
+            "title": "Comprehensive update",
+            "desc": "Transfer changes via remote access to displays at mailboxes, bell panels and floor buttons."
+          },
+          "crossSite": {
+            "title": "Cross-location",
+            "desc": "Central remote access for the entire building portfolio at all locations."
+          },
+          "efficient": {
+            "title": "High efficiency",
+            "desc": "Quick and secure – manual replacement of paper name plates is completely eliminated."
+          }
+        }
+      },
+      "zutrittParkraum": {
+        "items": {
+          "access": {
+            "title": "Digital access control & parking management",
+            "desc": "The powerful BCM system offers digital access control with central rights management for building entrances, interior areas and facilities such as container and bicycle parking spaces. Thanks to the modular system structure, digital parking management can also be integrated to intelligently and centrally control driveways and parking space usage as digital tenant rights."
+          },
+          "info": {
+            "title": "Digital resident information",
+            "desc": "Residents can be informed easily, centrally and in real time on digital info boards in the entrance area. Housing companies can communicate important dates such as meter readings, cleaning schedules or maintenance work. Particularly efficient: resident information is controlled via the same system as access control."
+          }
+        }
+      },
+      "gefahrenalarmierung": {
+        "label": "Safety",
+        "title": "Hazard alerting and fire brigade announcement",
+        "text": "Powerful alerting system for emergencies",
+        "intro": "Specifically designed for high-rise buildings, the door intercom system can be equipped with a fire brigade announcement function in order to alert all residential units simultaneously in case of danger.",
+        "items": {
+          "coverage": {
+            "title": "Comprehensive alerting",
+            "desc": "Since the door intercom is already connected to every residential unit, it can be used optimally for direct alerting of all tenants by the fire brigade – a decisive time advantage."
+          },
+          "reliability": {
+            "title": "High reliability",
+            "desc": "The system is designed as a reliable and standards-compliant solution that meets the high requirements of fire protection."
+          },
+          "flexible": {
+            "title": "Flexible deployment options",
+            "desc": "For the outdoor area the AD4 display outdoor station is used, for the indoor area the FDE fire brigade announcement unit in a protective cabinet – the location is determined in coordination with the fire brigade."
+          }
+        }
+      },
+      "bestandsmodernisierung": {
+        "items": {
+          "universal": {
+            "title": "Modernization of existing buildings and universal telephone",
+            "desc": "Defective door telephones in existing 1+n multi-wire technology systems from various manufacturers (such as Siedle, Ritto or Elkom) can be replaced quickly and cost-effectively with the TCS universal telephone. In addition, thanks to special TCS installation kits, existing outdoor stations, door side panels or mailbox systems can be equipped with new technology and continue to be used."
+          },
+          "mailbox": {
+            "title": "Mailbox systems and signage systems",
+            "desc": "The TCS portfolio includes durable and flexibly configurable mailbox systems that can also be equipped with digital name plates and digital locks. The offering is complemented by illuminated and non-illuminated house numbers, door signs and escape and rescue plan signage for comprehensive stairwell equipment."
+          }
+        }
+      },
+      "serviceGarantie": {
+        "label": "Service",
+        "title": "TCS service, support and 5-year warranty",
+        "text": "Reliable partnership for the entire life of an installation",
+        "body": "As a system provider, TCS delivers not only technology but also powerful services from a single source. This ranges from configurators for installations through individual wiring diagrams and on-site commissioning to comprehensive maintenance offers. In addition, operators receive an extended quality warranty of 5 years for registered installations, which secures maximum reliability and investment protection."
+      }
+    },
+    "cta": {
+      "headline": "Let us plan your next project",
+      "intro": "Our experts will advise you individually on scalable solutions for your properties.",
+      "primary": "Request project consulting",
+      "secondary": "View reference projects"
+    }
+  }
+}

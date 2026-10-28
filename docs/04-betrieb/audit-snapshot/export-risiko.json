@@ -1,0 +1,128 @@
+[
+  {
+    "datei": "src/features/gebaeudekommunikation/pages/TuersprechanlagenPage.tsx",
+    "route": "/gebaeudekommunikation/tuersprechanlagen",
+    "art": [
+      "hardcodierte_haeufung"
+    ],
+    "regel_im_code_nachvollziehbar": true,
+    "migration_dazu": false,
+    "audit_gate_vorhanden": false,
+    "audit_gate_empfohlen": "—",
+    "haengt_an_lovable_admin": false,
+    "privatserver_reproduzierbar": "ja — Code + Supabase-Migrationen + Snapshot reichen; kein Lovable-spezifischer Pfad.",
+    "risiko": "mittel"
+  },
+  {
+    "datei": "src/features/gebaeudekommunikation/pages/TuersprechanlagenPage.tsx",
+    "route": "/tuersprechanlagen",
+    "art": [
+      "hardcodierte_haeufung"
+    ],
+    "regel_im_code_nachvollziehbar": true,
+    "migration_dazu": false,
+    "audit_gate_vorhanden": false,
+    "audit_gate_empfohlen": "—",
+    "haengt_an_lovable_admin": false,
+    "privatserver_reproduzierbar": "ja — Code + Supabase-Migrationen + Snapshot reichen; kein Lovable-spezifischer Pfad.",
+    "risiko": "mittel"
+  },
+  {
+    "datei": "src/features/kontakt/pages/KontaktPage.tsx",
+    "route": "/kontakt",
+    "art": [
+      "formular_submit"
+    ],
+    "regel_im_code_nachvollziehbar": true,
+    "migration_dazu": false,
+    "audit_gate_vorhanden": false,
+    "audit_gate_empfohlen": "gate-sonderseiten-register.mjs (empfohlen)",
+    "haengt_an_lovable_admin": false,
+    "privatserver_reproduzierbar": "ja — Code + Supabase-Migrationen + Snapshot reichen; kein Lovable-spezifischer Pfad.",
+    "risiko": "niedrig"
+  },
+  {
+    "datei": "src/features/kontakt/pages/KontaktBcmPage.tsx",
+    "route": "/kontakt/bcm",
+    "art": [
+      "formular_submit"
+    ],
+    "regel_im_code_nachvollziehbar": true,
+    "migration_dazu": false,
+    "audit_gate_vorhanden": false,
+    "audit_gate_empfohlen": "gate-sonderseiten-register.mjs (empfohlen)",
+    "haengt_an_lovable_admin": false,
+    "privatserver_reproduzierbar": "ja — Code + Supabase-Migrationen + Snapshot reichen; kein Lovable-spezifischer Pfad.",
+    "risiko": "niedrig"
+  },
+  {
+    "datei": "src/features/produkte/pages/CategoryListPage.tsx",
+    "route": "/produkte/zutrittskontrolle",
+    "art": [
+      "lokale_linkmap"
+    ],
+    "regel_im_code_nachvollziehbar": true,
+    "migration_dazu": false,
+    "audit_gate_vorhanden": false,
+    "audit_gate_empfohlen": "gate-vorlagenbereich-abgleich.mjs (empfohlen)",
+    "haengt_an_lovable_admin": false,
+    "privatserver_reproduzierbar": "ja — Code + Supabase-Migrationen + Snapshot reichen; kein Lovable-spezifischer Pfad.",
+    "risiko": "mittel"
+  },
+  {
+    "datei": "src/features/produkte/pages/CategoryListPage.tsx",
+    "route": "/produkte/eingangsloesungen",
+    "art": [
+      "lokale_linkmap"
+    ],
+    "regel_im_code_nachvollziehbar": true,
+    "migration_dazu": false,
+    "audit_gate_vorhanden": false,
+    "audit_gate_empfohlen": "gate-vorlagenbereich-abgleich.mjs (empfohlen)",
+    "haengt_an_lovable_admin": false,
+    "privatserver_reproduzierbar": "ja — Code + Supabase-Migrationen + Snapshot reichen; kein Lovable-spezifischer Pfad.",
+    "risiko": "mittel"
+  },
+  {
+    "datei": "src/features/serviceportal/pages/ServiceportalPage.tsx",
+    "route": "/serviceportal",
+    "art": [
+      "formular_submit"
+    ],
+    "regel_im_code_nachvollziehbar": true,
+    "migration_dazu": false,
+    "audit_gate_vorhanden": false,
+    "audit_gate_empfohlen": "gate-sonderseiten-register.mjs (empfohlen)",
+    "haengt_an_lovable_admin": false,
+    "privatserver_reproduzierbar": "ja — Code + Supabase-Migrationen + Snapshot reichen; kein Lovable-spezifischer Pfad.",
+    "risiko": "mittel"
+  },
+  {
+    "datei": "src/features/serviceportal/pages/PasswortVergessenPage.tsx",
+    "route": "/serviceportal/passwort-vergessen",
+    "art": [
+      "formular_submit"
+    ],
+    "regel_im_code_nachvollziehbar": true,
+    "migration_dazu": false,
+    "audit_gate_vorhanden": false,
+    "audit_gate_empfohlen": "gate-sonderseiten-register.mjs (empfohlen)",
+    "haengt_an_lovable_admin": false,
+    "privatserver_reproduzierbar": "ja — Code + Supabase-Migrationen + Snapshot reichen; kein Lovable-spezifischer Pfad.",
+    "risiko": "mittel"
+  },
+  {
+    "datei": "src/features/serviceportal/pages/RegistrierenPage.tsx",
+    "route": "/serviceportal/registrieren",
+    "art": [
+      "formular_submit"
+    ],
+    "regel_im_code_nachvollziehbar": true,
+    "migration_dazu": false,
+    "audit_gate_vorhanden": false,
+    "audit_gate_empfohlen": "gate-sonderseiten-register.mjs (empfohlen)",
+    "haengt_an_lovable_admin": false,
+    "privatserver_reproduzierbar": "ja — Code + Supabase-Migrationen + Snapshot reichen; kein Lovable-spezifischer Pfad.",
+    "risiko": "mittel"
+  }
+]

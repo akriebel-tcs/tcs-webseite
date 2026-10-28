@@ -1,0 +1,215 @@
+{
+  "_meta": {
+    "namespace": "serviceportal",
+    "status": "migrated",
+    "note": "Prototyp-/Dummy-Login. Texte sind migriert, Auth ist nicht produktiv."
+  },
+  "login": {
+    "eyebrow": "Serviceportal",
+    "headline": "Kundenlogin",
+    "intro": "Melden Sie sich mit Ihrer TCS-Kundennummer an, um auf das Serviceportal zuzugreifen.",
+    "kundennummerLabel": "Ihre TCS-Kundennummer",
+    "kundennummerPlaceholder": "z. B. 123",
+    "passwortLabel": "Ihr Passwort",
+    "passwortPlaceholder": "Passwort eingeben",
+    "submit": "Anmelden",
+    "error": "Ungültige Kundennummer oder Passwort.",
+    "forgotPassword": "Passwort vergessen",
+    "register": "Neu registrieren"
+  },
+  "passwortVergessen": {
+    "eyebrow": "Serviceportal",
+    "headline": "Passwort vergessen",
+    "intro": "Geben Sie Ihre E-Mail-Adresse ein. Wir senden Ihnen einen Link zum Zurücksetzen Ihres Passworts.",
+    "emailLabel": "E-Mail-Adresse",
+    "emailPlaceholder": "name@firma.de",
+    "submit": "Link zum Zurücksetzen senden",
+    "back": "Zurück zum Login",
+    "successHeadline": "E-Mail gesendet",
+    "successIntro": "Falls ein Konto mit <strong>{{email}}</strong> existiert, erhalten Sie in Kürze eine E-Mail mit einem Link zum Zurücksetzen Ihres Passworts."
+  },
+  "registrieren": {
+    "eyebrow": "Serviceportal",
+    "headline": "Neu registrieren",
+    "intro": "Registrieren Sie sich als TCS-Fachpartner, um Zugang zum Serviceportal zu erhalten.",
+    "firmaLabel": "Firma / Unternehmen *",
+    "firmaPlaceholder": "Mustermann Elektrotechnik GmbH",
+    "ansprechpartnerLabel": "Ansprechpartner *",
+    "ansprechpartnerPlaceholder": "Max Mustermann",
+    "emailLabel": "E-Mail-Adresse *",
+    "emailPlaceholder": "name@firma.de",
+    "telefonLabel": "Telefon (optional)",
+    "telefonPlaceholder": "+49 123 456789",
+    "submit": "Registrierung absenden",
+    "back": "Zurück zum Login",
+    "successHeadline": "Registrierung eingegangen",
+    "successIntro": "Vielen Dank für Ihre Registrierung. Wir prüfen Ihre Angaben und senden Ihnen Ihre Zugangsdaten per E-Mail an <strong>{{email}}</strong>."
+  },
+  "dashboard": {
+    "eyebrow": "Serviceportal",
+    "logout": "Abmelden",
+    "headline": "Service und Support für Ihre Anlagen",
+    "intro": "Hier können Sie ihre Anlagen konfigurieren, Konfigurationen editieren, vor Ort-Service beauftragen, Software herunterladen und Ersatzteile bestellen — alles an einem Ort.",
+    "newBadge": "Neu",
+    "sections": {
+      "konto": {
+        "eyebrow": "Konto & Anlagen",
+        "title": "Stammdaten & Anlagenverwaltung",
+        "desc": "Pflegen Sie Ihre Kontaktdaten und behalten Sie den Überblick über alle installierten Anlagen.",
+        "tiles": {
+          "selfService": {
+            "label": "Self-Service",
+            "title": "Kontaktdaten und Einstellungen",
+            "desc": "Aktualisieren Sie persönliche Angaben, Kontaktinformationen und Unternehmensdetails."
+          },
+          "anlagen": {
+            "label": "Anlagenhistorie",
+            "title": "Meine Anlagen & Konfigurationen",
+            "desc": "Alle installierten TCS-Anlagen mit Schaltplan, Klingeltasten, Mieterzuordnung und Seriennummern.",
+            "tag": "3 Anlagen"
+          },
+          "konfigurator": {
+            "label": "Anlagenkonfigurator",
+            "title": "Anlage konfigurieren",
+            "desc": "Konfigurieren Sie neue Anlagen mit dem interaktiven Konfigurator und speichern Sie Einstellungen in einer abrufbaren Verlaufsliste."
+          }
+        }
+      },
+      "service": {
+        "eyebrow": "Service & Support",
+        "title": "Garantie, Einsatz & technische Hilfe",
+        "desc": "Initialisieren Sie Garantiefälle, fordern Sie Serviceeinsätze an und erhalten Sie sofortige technische Unterstützung.",
+        "tiles": {
+          "rma": {
+            "label": "RMA · Garantie",
+            "title": "Garantiefall initialisieren",
+            "desc": "Melden Sie einen Garantiefall für bestehende Anlagen und starten Sie die RMA-Abwicklung."
+          },
+          "einsatz": {
+            "label": "Kundendienst",
+            "title": "Serviceeinsatz anfordern",
+            "desc": "Beauftragen Sie unseren Kundendienst für einen Serviceeinsatz vor Ort."
+          },
+          "chat": {
+            "label": "KI-Assistent",
+            "title": "Technischer Support-Chat",
+            "desc": "Sofortige Hilfe bei System- und Großanlagenprodukten — Fehlerdiagnose und Konfigurationsfragen.",
+            "tag": "System- & Großanlagen"
+          }
+        }
+      },
+      "software": {
+        "eyebrow": "Software & Freischaltcodes",
+        "title": "Downloads, Firmware & Lizenzierung",
+        "desc": "Aktuelle Firmware für Server und Gateways sowie Freischaltcodes für Software und Servicegeräte.",
+        "downloads": {
+          "title": "Software & Firmware Downloads",
+          "desc": "Aktuelle Firmware für TCS-Server, IP-Gateways und Steuergeräte — sortiert nach Produkt und Version.",
+          "tags": {
+            "server": "Server-Software",
+            "gateway": "Gateway-Firmware",
+            "konfig": "Konfigurations-Software",
+            "doku": "Dokumentation"
+          },
+          "button": "Download-Center öffnen"
+        },
+        "tiles": {
+          "configo": {
+            "label": "Software · configo",
+            "title": "Freischaltcode configo",
+            "desc": "Freischaltcode für die configo-Software FBI1210 anfordern und den vollen Funktionsumfang aktivieren."
+          },
+          "servicegeraet": {
+            "label": "Hardware · TCSK",
+            "title": "Freischaltcode Servicegerät",
+            "desc": "Freischaltcode für das TCSK-Servicegerät beantragen und Diagnosefunktionen freischalten."
+          }
+        }
+      },
+      "shop": {
+        "eyebrow": "Direktbestellung",
+        "title": "Ersatzteil-Shop",
+        "desc": "Ersatzteile, Verbrauchsmaterialien und Zubehör direkt online bestellen — Lieferung in 2–4 Werktagen.",
+        "tile": {
+          "title": "Ersatzteile & Zubehör bestellen",
+          "desc": "Innenstationen, Außenstationen, Netzteile, Kabel und Zubehör — direkt verfügbar für Ihre installierten TCS-Anlagen.",
+          "tags": {
+            "innen": "Innenstationen",
+            "aussen": "Außenstationen",
+            "netzteile": "Netzteile",
+            "kabel": "Kabel & Zubehör"
+          },
+          "button": "Shop öffnen"
+        }
+      }
+    },
+    "cta": {
+      "headline": "Lassen Sie uns Ihr Projekt gemeinsam planen",
+      "intro": "Kontaktieren Sie unsere Experten für eine individuelle Projektberatung.",
+      "button": "Projektberatung vereinbaren"
+    }
+  },
+  "downloadCenter": {
+    "eyebrow": "Download-Center",
+    "title": "Software & Firmware",
+    "srDesc": "Downloads für TCS Software und Firmware",
+    "searchPlaceholder": "Suchen …",
+    "downloadButton": "Download",
+    "categories": {
+      "server": "Server-Software",
+      "gateway": "Gateway-Firmware",
+      "konfig": "Konfigurations-Software",
+      "doku": "Dokumentation"
+    },
+    "items": {
+      "serverV421": { "name": "TCS Server Manager v4.2.1", "meta": "Windows 10/11 · 64-bit · 87 MB · 12.03.2026" },
+      "serverV418": { "name": "TCS Server Manager v4.1.8 (LTS)", "meta": "Windows 10/11 · 64-bit · 85 MB · 07.11.2025" },
+      "gw4080": { "name": "TCS GW4080 Firmware v2.8.0", "meta": "IP-Gateway · .bin · 3,2 MB · 28.02.2026" },
+      "gw2040": { "name": "TCS GW2040 Firmware v1.6.3", "meta": "IP-Gateway kompakt · .bin · 1,8 MB · 15.01.2026" },
+      "configoFbi": { "name": "configo FBI1210 v3.5.2", "meta": "Windows 10/11 · Setup-EXE · 42 MB · 05.04.2026" },
+      "tcskTreiber": { "name": "TCSK Servicegerät Treiber v2.1", "meta": "Windows 10/11 · USB-Treiber · 8 MB · 19.02.2026" },
+      "ivsHandbuch": { "name": "TCS IVS 4.x Technisches Handbuch", "meta": "PDF · 12,4 MB · Revision 2026-01" },
+      "configoHandbuch": { "name": "configo FBI1210 Benutzerhandbuch", "meta": "PDF · 5,1 MB · Revision 2025-11" }
+    }
+  },
+  "chat": {
+    "eyebrow": "KI-Assistent · System- & Großanlagen",
+    "title": "Technischer Support-Chat",
+    "srDesc": "KI-gestützter technischer Support-Chat",
+    "welcome": "Willkommen beim TCS Support. Bitte beschreiben Sie Ihr Anliegen oder wählen Sie ein Thema.",
+    "botReply": "Vielen Dank für Ihre Anfrage. Ich analysiere Ihr Anliegen und leite Sie bei Bedarf an den technischen Support weiter.",
+    "now": "Jetzt",
+    "inputPlaceholder": "Nachricht eingeben …",
+    "send": "Senden",
+    "topics": {
+      "device": "Gerät reagiert nicht",
+      "gateway": "IP-Gateway konfigurieren",
+      "firmware": "Firmware-Update fehlgeschlagen",
+      "bus": "Busverbindung unterbrochen",
+      "errorCodes": "Fehlercodes & LED-Bedeutung"
+    }
+  },
+  "shop": {
+    "eyebrow": "Direktbestellung",
+    "title": "Ersatzteil-Shop",
+    "srDesc": "Ersatzteile und Zubehör bestellen",
+    "filters": {
+      "alle": "Alle",
+      "innen": "Innenstationen",
+      "aussen": "Außenstationen",
+      "netzteile": "Netzteile",
+      "kabel": "Kabel",
+      "zubehoer": "Zubehör"
+    },
+    "categoriesData": {
+      "innen": "Innenstationen",
+      "aussen": "Außenstationen",
+      "netzteile": "Netzteile",
+      "kabel": "Kabel",
+      "zubehoer": "Zubehör"
+    },
+    "cart": "Warenkorb",
+    "items": "Artikel",
+    "checkout": "Zur Kasse →"
+  }
+}

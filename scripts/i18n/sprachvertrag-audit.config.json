@@ -1,0 +1,54 @@
+{
+  "_hinweis": "Konfiguration fuer scripts/i18n/sprachvertrag-audit.mjs. Wahrheit fuer aktive/oeffentliche Sprachen ist cms_locales; diese Liste ist der im Code gepflegte Spiegel und muss bei jeder neu freigegebenen Sprache ergaenzt werden.",
+  "localesDir": "src/i18n/locales",
+  "sourceLocale": "de",
+  "publicLocales": ["de", "en", "pl", "nl"],
+  "scanDirs": ["src/components", "src/features", "src/app", "src/navigation"],
+  "ignorePathPatterns": [
+    "src/features/admin/",
+    "src/features/cms/admin",
+    "/__tests__/",
+    ".test.",
+    ".stories.",
+    "src/components/ui/"
+  ],
+  "cmsBackedMarkers": [
+    "useCmsI18n",
+    "useCmsPageContent",
+    "useCmsPageFields",
+    "GenericCmsPage",
+    "CmsOnlyShell",
+    "CmsProductSolutionShell",
+    "CmsBodyRenderer"
+  ],
+  "productDataMarkers": [
+    "catalog/api/",
+    "getProductPdp",
+    "rpc_get_channel_product",
+    "productBase"
+  ],
+  "allowlistLiterals": [
+    "TCS",
+    "PDF",
+    "CSV",
+    "JSON",
+    "URL",
+    "IP",
+    "PoE",
+    "SIP",
+    "RFID",
+    "NFC",
+    "BCM",
+    "DSGVO",
+    "Ja/Nein",
+    "E-Mail",
+    "TCS GmbH",
+    "Snipdoo"
+  ],
+  "allowlistFiles": {
+    "src/features/service/catalog/components/pdp/ProductPdpTechnicalData.tsx": "Anzeige-Bezeichnungen technischer Werte kommen als fertige Labels aus der Produktdatenbank (Gruppe 3).",
+    "src/features/service/catalog/components/pdp/ProductPdpInfoTable.tsx": "Zeilenbezeichnungen stammen aus dem Kanalvertrag der Produktdatenbank (Gruppe 3).",
+    "src/features/mobile-tk-preview": "Interne Vorschau, nicht Teil der oeffentlichen Sprachfreigabe.",
+    "src/app/RootErrorBoundary.tsx": "Technische Notfallmeldung; laeuft, wenn i18n/Overlay nicht verfuegbar sind."
+  }
+}

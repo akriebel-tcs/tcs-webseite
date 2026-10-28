@@ -1,0 +1,107 @@
+[
+  {
+    "route": "/kontakt",
+    "page_key": "kontakt.root",
+    "komponente": "KontaktPage",
+    "datei": "src/features/kontakt/pages/KontaktPage.tsx",
+    "begruendung_sonderseite": "Kontaktformularseite mit eigenem Submit-Flow.",
+    "cms_steuerbare_inhalte": "Labels, Headlines, Hinweistexte, Erfolgs-/Fehlermeldungen, CTA-Texte; Datenschutzhinweise.",
+    "nicht_standard_funktion": "Formular-Submit/Auth-Flow",
+    "export_hinweis": "Funktion liegt im React-Code. Auf privatem Server reproduzierbar mit Code + Supabase-Migrationen.",
+    "status": "vorlaeufig_registriert",
+    "offene_risiken": [
+      "Inhalts-Felder schrittweise in cms_section_fields/Whitelist heben."
+    ],
+    "empfohlene_naechste_arbeit": "In sonderseiten-register aufnehmen; Labels/Headlines/Hinweistexte sukzessive nach cms_section_fields heben."
+  },
+  {
+    "route": "/kontakt/bcm",
+    "page_key": "kontakt-bcm.root",
+    "komponente": "KontaktBcmPage",
+    "datei": "src/features/kontakt/pages/KontaktBcmPage.tsx",
+    "begruendung_sonderseite": "Kontaktformularseite mit eigenem Submit-Flow.",
+    "cms_steuerbare_inhalte": "Labels, Headlines, Hinweistexte, Erfolgs-/Fehlermeldungen, CTA-Texte; Datenschutzhinweise.",
+    "nicht_standard_funktion": "Formular-Submit/Auth-Flow",
+    "export_hinweis": "Funktion liegt im React-Code. Auf privatem Server reproduzierbar mit Code + Supabase-Migrationen.",
+    "status": "vorlaeufig_registriert",
+    "offene_risiken": [
+      "Inhalts-Felder schrittweise in cms_section_fields/Whitelist heben."
+    ],
+    "empfohlene_naechste_arbeit": "In sonderseiten-register aufnehmen; Labels/Headlines/Hinweistexte sukzessive nach cms_section_fields heben."
+  },
+  {
+    "route": "/produkte/merkliste",
+    "page_key": null,
+    "komponente": "MerklistePage",
+    "datei": "src/features/produkte/merkliste/MerklistePage.tsx",
+    "begruendung_sonderseite": "Merklisten-Funktion (Session/User-State) — kein Standardbaustein.",
+    "cms_steuerbare_inhalte": "Labels, Headlines, Hinweistexte, Erfolgs-/Fehlermeldungen, CTA-Texte; Datenschutzhinweise.",
+    "nicht_standard_funktion": "Session-/User-Merklisten-Funktion",
+    "export_hinweis": "Funktion liegt im React-Code. Auf privatem Server reproduzierbar mit Code + Supabase-Migrationen.",
+    "status": "vorlaeufig_registriert",
+    "offene_risiken": [
+      "Inhalts-Felder schrittweise in cms_section_fields/Whitelist heben."
+    ],
+    "empfohlene_naechste_arbeit": "Registrieren; Leerzustand/Hinweistexte/CTAs als CMS-Felder definieren."
+  },
+  {
+    "route": "/produkte/tuerkommunikation/:pdpSlug",
+    "page_key": null,
+    "komponente": "ProductDetailPage",
+    "datei": "src/features/service/pages/ProductDetailPage.tsx",
+    "begruendung_sonderseite": "Produktdetailseite (PDP) mit Produktdatenbank-Logik — Sonderfunktion.",
+    "cms_steuerbare_inhalte": "Labels, Headlines, Hinweistexte, Erfolgs-/Fehlermeldungen, CTA-Texte; Datenschutzhinweise.",
+    "nicht_standard_funktion": "Produktdetail-Logik gegen Produktdatenbank",
+    "export_hinweis": "Funktion liegt im React-Code. Auf privatem Server reproduzierbar mit Code + Supabase-Migrationen.",
+    "status": "vorlaeufig_registriert",
+    "offene_risiken": [
+      "Inhalts-Felder schrittweise in cms_section_fields/Whitelist heben."
+    ],
+    "empfohlene_naechste_arbeit": "In sonderseiten-register aufnehmen; Produkttexte/Beschreibungen aus Produkt-DB belassen, CMS-Rahmentexte ergaenzen."
+  },
+  {
+    "route": "/serviceportal",
+    "page_key": "serviceportal.login",
+    "komponente": "ServiceportalPage",
+    "datei": "src/features/serviceportal/pages/ServiceportalPage.tsx",
+    "begruendung_sonderseite": "Auth-/Registrierungs-/Passwort-Flow, kein Standardbaustein abbildbar.",
+    "cms_steuerbare_inhalte": "Labels, Headlines, Hinweistexte, Erfolgs-/Fehlermeldungen, CTA-Texte; Datenschutzhinweise.",
+    "nicht_standard_funktion": "Formular-Submit/Auth-Flow",
+    "export_hinweis": "Funktion liegt im React-Code. Auf privatem Server reproduzierbar mit Code + Supabase-Migrationen.",
+    "status": "vorlaeufig_registriert",
+    "offene_risiken": [
+      "Inhalts-Felder schrittweise in cms_section_fields/Whitelist heben."
+    ],
+    "empfohlene_naechste_arbeit": "In sonderseiten-register aufnehmen; sichtbare Texte (Labels, Hinweise, Erfolg/Fehler) als CMS-Felder vorsehen."
+  },
+  {
+    "route": "/serviceportal/passwort-vergessen",
+    "page_key": "serviceportal.passwort-vergessen",
+    "komponente": "PasswortVergessenPage",
+    "datei": "src/features/serviceportal/pages/PasswortVergessenPage.tsx",
+    "begruendung_sonderseite": "Auth-/Registrierungs-/Passwort-Flow, kein Standardbaustein abbildbar.",
+    "cms_steuerbare_inhalte": "Labels, Headlines, Hinweistexte, Erfolgs-/Fehlermeldungen, CTA-Texte; Datenschutzhinweise.",
+    "nicht_standard_funktion": "Formular-Submit/Auth-Flow",
+    "export_hinweis": "Funktion liegt im React-Code. Auf privatem Server reproduzierbar mit Code + Supabase-Migrationen.",
+    "status": "vorlaeufig_registriert",
+    "offene_risiken": [
+      "Inhalts-Felder schrittweise in cms_section_fields/Whitelist heben."
+    ],
+    "empfohlene_naechste_arbeit": "In sonderseiten-register aufnehmen; sichtbare Texte (Labels, Hinweise, Erfolg/Fehler) als CMS-Felder vorsehen."
+  },
+  {
+    "route": "/serviceportal/registrieren",
+    "page_key": "serviceportal.registrieren",
+    "komponente": "RegistrierenPage",
+    "datei": "src/features/serviceportal/pages/RegistrierenPage.tsx",
+    "begruendung_sonderseite": "Auth-/Registrierungs-/Passwort-Flow, kein Standardbaustein abbildbar.",
+    "cms_steuerbare_inhalte": "Labels, Headlines, Hinweistexte, Erfolgs-/Fehlermeldungen, CTA-Texte; Datenschutzhinweise.",
+    "nicht_standard_funktion": "Formular-Submit/Auth-Flow",
+    "export_hinweis": "Funktion liegt im React-Code. Auf privatem Server reproduzierbar mit Code + Supabase-Migrationen.",
+    "status": "vorlaeufig_registriert",
+    "offene_risiken": [
+      "Inhalts-Felder schrittweise in cms_section_fields/Whitelist heben."
+    ],
+    "empfohlene_naechste_arbeit": "In sonderseiten-register aufnehmen; sichtbare Texte (Labels, Hinweise, Erfolg/Fehler) als CMS-Felder vorsehen."
+  }
+]

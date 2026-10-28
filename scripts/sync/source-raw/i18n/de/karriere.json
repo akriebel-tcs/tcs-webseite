@@ -1,0 +1,59 @@
+{
+  "_meta": {
+    "namespace": "karriere",
+    "status": "migrated",
+    "note": "Seitentexte der Karriere-Seite (Etappe 16a)."
+  },
+  "hero": {
+    "label": "Karriere",
+    "headline": "Karriere bei TCS",
+    "intro": "Gestalten Sie mit uns die Zukunft der Gebäudekommunikation."
+  },
+  "benefits": {
+    "title": "Warum TCS?",
+    "intro": "Seit über 30 Jahren entwickeln und fertigen wir innovative Lösungen für Türkommunikation und Gebäudesicherheit – Made in Germany.",
+    "items": {
+      "team": {
+        "title": "Familiäres Team",
+        "desc": "Flache Hierarchien und kollegiales Miteinander in einem wachsenden Unternehmen."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "desc": "Arbeiten Sie an zukunftsweisenden Technologien für intelligente Gebäude."
+      },
+      "balance": {
+        "title": "Work-Life-Balance",
+        "desc": "Flexible Arbeitszeiten, mobiles Arbeiten und 30 Tage Urlaub."
+      },
+      "education": {
+        "title": "Weiterbildung",
+        "desc": "Individuelle Entwicklungsmöglichkeiten und regelmäßige Schulungen."
+      }
+    }
+  },
+  "jobs": {
+    "title": "Offene Stellen",
+    "intro": "Finden Sie Ihre passende Position bei TCS.",
+    "apply": "Jetzt bewerben",
+    "locations": {
+      "harsefeld": "Harsefeld",
+      "harsefeldRemote": "Harsefeld / Remote"
+    },
+    "types": {
+      "fulltime": "Vollzeit",
+      "parttime": "Teilzeit",
+      "apprenticeship": "Ausbildung"
+    },
+    "items": {
+      "softwareEmbedded": "Softwareentwickler (m/w/d) – Embedded Systems",
+      "productManager": "Produktmanager (m/w/d) – Zutrittskontrolle",
+      "customerSupport": "Technischer Kundenbetreuer (m/w/d)",
+      "apprenticeElectronics": "Auszubildende/r Elektroniker (m/w/d)",
+      "workingStudent": "Werkstudent (m/w/d) – Marketing & Kommunikation"
+    }
+  },
+  "initiative": {
+    "title": "Initiativbewerbung",
+    "intro": "Keine passende Stelle gefunden? Wir freuen uns auf Ihre Initiativbewerbung an"
+  }
+}

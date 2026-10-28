@@ -1,0 +1,68 @@
+{
+  "_meta": {
+    "note": "Alleen bedienings-/toegankelijkheidsteksten van de navigatie in het Nederlands. Menulabels, footer en breadcrumb-segmenten komen uit CMS-Light."
+  },
+  "a11y": {
+    "skipToContent": "Naar de hoofdinhoud",
+    "mainNavigation": "Hoofdnavigatie",
+    "metaNavigation": "Metanavigatie",
+    "personaNavigation": "Doelgroepkeuze",
+    "breadcrumb": "Kruimelpad",
+    "footerNavigation": "Footernavigatie",
+    "legalNavigation": "Juridische informatie",
+    "sectionNavigation": "Paginanavigatie",
+    "logoHome": "TCS – terug naar de startpagina",
+    "search": "Zoeken",
+    "account": "Account",
+    "menuOpen": "Menu openen",
+    "menuClose": "Menu sluiten",
+    "roleTabs": "Rollen"
+  },
+  "meta": {
+    "personaPrompt": "Ik ben",
+    "personaPromptShort": "Ik ben…",
+    "personaActive": "Weergave: {{persona}}"
+  },
+  "common": {
+    "overview": "Overzicht"
+  },
+  "breadcrumb": {
+    "home": "Start",
+    "segments": {
+      "service": "Service",
+      "tueren-tore": "Deuren en poorten",
+      "merkliste": "Favorieten"
+    }
+  },
+  "persona": {
+    "bauherren": {
+      "label": "Opdrachtgevers",
+      "short": "Opdrachtgevers"
+    },
+    "architekten": {
+      "label": "Architecten",
+      "short": "Architecten"
+    },
+    "wohnungswirtschaft": {
+      "label": "Woningsector",
+      "short": "Woningsector"
+    },
+    "fachplaner": {
+      "label": "Adviseurs",
+      "short": "Adviseurs"
+    },
+    "handwerk": {
+      "label": "Installateurs",
+      "short": "Installateurs"
+    },
+    "fachhandel": {
+      "label": "Vakhandel",
+      "short": "Vakhandel"
+    }
+  },
+  "footer": {
+    "bottom": {
+      "copyright": "© {{year}} TCS AG. Alle rechten voorbehouden. Made in Germany."
+    }
+  }
+}

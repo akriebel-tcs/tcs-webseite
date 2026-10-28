@@ -1,0 +1,1 @@
+UPDATE public.cms_navigation_nodes SET node_key='gk.zusatzfunktion.concierge', updated_at=now() WHERE node_key='an.oeffentlich.concierge';

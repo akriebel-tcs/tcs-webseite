@@ -1,0 +1,216 @@
+name: CMS Audit
+
+# =============================================================================
+# Launch-Gate (Stand: 2026-06-04, nach Batch 6)
+#
+# Kritisch verboten, Restschuld erlaubt und dokumentiert.
+#
+# Diese CI bricht ROT bei:
+#   - Wahrheits-Check-Drift (Harvester nicht reproduzierbar)
+#   - FAQ orphan > 0  /  CTA orphan > 0
+#   - FAQ mixed  > 0  /  CTA mixed  > 0
+#   - CTA ok_dedup_only > 0
+#   - TypeScript-Fehlern (tsc --noEmit)
+#   - Standardbaustein-Vertragsbrüchen (Card-Parität, Persona-Eine-Wahrheit,
+#     Persona-Sort-Order, Renderer-DB-first --strict, No-FOUT,
+#     Whitelist-Coverage, Admin-Anzeige-Spiegel)
+#
+# Diese CI BLOCKIERT VORERST NICHT bei:
+#   - "Globaler Spiegel-Audit" Restschuld-Befunden (z. B.
+#     CONTAINER_HEADER_WHITELIST_FEHLT, PUNKT_KEY_IN_INAKTIVER_CONTAINER,
+#     I18N_JSX_SECTION_OHNE_DB_GEGENSTUECK) — werden nur reportet und als
+#     Artefakt hochgeladen. Siehe
+#     docs/04-betrieb/audit-snapshot/launch-restschuld-backlog.md.
+#   - page-renderer-coverage- und public-blocks-Befunden (Restschuld-Klasse).
+# =============================================================================
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Install dependencies
+        # Batch 57.1: reproduzierbarer Build — `npm ci` MUSS auf der
+        # eingecheckten package-lock.json laufen. Lockfile-Drift schlägt
+        # hier rot zurück und ist kein Diagnose-Schritt.
+        run: npm ci --ignore-scripts
+      - name: TypeScript no-emit (Launch-Gate)
+        # Harte TS-Prüfung. Kein continue-on-error.
+        run: npx tsc --noEmit
+      - name: Unit-Tests (offline, ohne DB)
+        # Batch 57.2: strikt nur Offline-Unit-/Komponententests. Vitest
+        # ist so konfiguriert, dass `**/*.int.test.{ts,tsx}` hier
+        # AUSGESCHLOSSEN ist — der Lauf muss ohne Netz und ohne DB
+        # reproduzierbar grün sein. DB-Integrationstests laufen unten
+        # separat (Vitest mit VITEST_INTEGRATION=1 + psql-Smoketests).
+        run: npm run test:unit
+      - name: i18n-Check (Locale-/Bindungs-Parität)
+        # Batch 57.1: war zuvor kein CI-Schritt. Prüft DE/EN-Parität,
+        # leere Werte und ob jede strictPage entweder klassisch
+        # (useTranslation) oder DB-first (useCmsI18n / useCmsPageContent /
+        # GenericCmsPage / CmsOnlyShell / CmsProductSolutionShell /
+        # renderPageSectionByType) gebunden ist.
+        run: npm run i18n:check
+      # Renderer-Audit braucht keine DB, läuft rein statisch über Quellcode.
+      - name: Renderer DB-first strict
+        run: node scripts/cms/renderer-audit.mjs --strict
+
+
+      - name: card_v1 Renderer-Parität (Gate)
+        # Sprint „card_v1 Abschluss". V2/V3/R5/R6 brechen die CI hart.
+        # Niemals stillschweigend grün schalten — kein continue-on-error.
+        run: node scripts/cms/card-renderer-paritaet.mjs
+      - name: card_v1 Pflichtkarten E2E (B-538, B-2084)
+        # Prüft Pflichtkarten gegen den Standardkarten-Vertrag.
+        # Ohne DB muss ein Snapshot-/Preview-Nachweis greifen; Skip zählt nicht grün.
+        env:
+          PGHOST: ${{ secrets.PGHOST }}
+          PGPORT: ${{ secrets.PGPORT }}
+          PGUSER: ${{ secrets.PGUSER }}
+          PGPASSWORD: ${{ secrets.PGPASSWORD }}
+          PGDATABASE: ${{ secrets.PGDATABASE }}
+        run: node scripts/cms/e2e-card-v1-pflichtkarten.mjs
+      - name: Whitelist-Coverage (DB-seitig)
+        # Verhindert, dass neue Sections/Bilder ohne Admin-Whitelist
+        # in die DB rutschen — das war die häufigste Quelle für „im Admin
+        # gepflegt, öffentlich unsichtbar" und „nicht änderbar".
+        env:
+          SKIP_DB: ${{ vars.CMS_DB_AVAILABLE == 'true' && '0' || '1' }}
+          PGHOST: ${{ secrets.PGHOST }}
+          PGPORT: ${{ secrets.PGPORT }}
+          PGUSER: ${{ secrets.PGUSER }}
+          PGPASSWORD: ${{ secrets.PGPASSWORD }}
+          PGDATABASE: ${{ secrets.PGDATABASE }}
+        run: node scripts/cms/whitelist-coverage-audit.mjs
+      - name: Standardbaustein-Vertrag (Eine Wahrheit)
+        # Etappe 7 – verifiziert pro Build: Container-Header-Whitelist,
+        # Link-Ziel-Vollständigkeit, Feld-Whitelist und Hero-Pflicht
+        # stimmen über DB, Whitelist und Renderer überein.
+        env:
+          SKIP_DB: ${{ vars.CMS_DB_AVAILABLE == 'true' && '0' || '1' }}
+          ALLOW_FIXTURE_ONLY: ${{ vars.CMS_DB_AVAILABLE == 'true' && '0' || '1' }}
+          CMS_FIXTURE_PATH: scripts/sync/snapshot/tables/cms_sections.json
+          PGHOST: ${{ secrets.PGHOST }}
+          PGPORT: ${{ secrets.PGPORT }}
+          PGUSER: ${{ secrets.PGUSER }}
+          PGPASSWORD: ${{ secrets.PGPASSWORD }}
+          PGDATABASE: ${{ secrets.PGDATABASE }}
+        run: node scripts/cms/standardbaustein-vertrag.mjs
+      - name: Admin-Anzeige-Spiegel (Eine Wahrheit)
+        # Stellt sicher, dass jede Seite mit DB-Inhalt auch im Admin-Baum
+        # erreichbar ist (cms_pages-Eintrag + Navigationsknoten). Verhindert
+        # die Klasse von Fehlern, bei der „Inhalte aus Code & i18n" angezeigt
+        # wird, obwohl die DB längst Inhalte führt.
+        env:
+          SKIP_DB: ${{ vars.CMS_DB_AVAILABLE == 'true' && '0' || '1' }}
+          ALLOW_FIXTURE_ONLY: ${{ vars.CMS_DB_AVAILABLE == 'true' && '0' || '1' }}
+          CMS_FIXTURE_PATH: scripts/sync/snapshot/tables/cms_sections.json
+          PGHOST: ${{ secrets.PGHOST }}
+          PGPORT: ${{ secrets.PGPORT }}
+          PGUSER: ${{ secrets.PGUSER }}
+          PGPASSWORD: ${{ secrets.PGPASSWORD }}
+          PGDATABASE: ${{ secrets.PGDATABASE }}
+        run: node scripts/cms/admin-anzeige-spiegel.mjs
+      - name: Persona-Eine-Wahrheit (Etappe 9)
+        # Verhindert, dass die 6 Persona-Content-Komponenten
+        # `cards_v1`-Inhalte (highlights, tools, tips, partnerServices,
+        # cases) wieder lokal aus i18n / hartcodierten Icon-Maps rendern.
+        # Persona-Karten müssen aus cms_sections + cms_section_fields
+        # über PersonaCmsSection → renderPageSectionByType kommen.
+        run: node scripts/cms/persona-eine-wahrheit.mjs
+      - name: Persona+Hub Sort-Order wirksam (Runde 12)
+        # Pflicht-Gate: prüft statisch, dass Persona-Seiten und der
+        # Produkte-Hub die Render-Reihenfolge aus cms.sections.sort_order
+        # beziehen statt aus festem JSX. Hartes Gate, kein continue-on-error.
+        run: node scripts/cms/persona-sort-order-wirksam.mjs
+      - name: Globaler Spiegel-Audit (Gesamtbeweis)
+        # Pflicht-Gate. Prüft alle aktiven Standardbausteine
+        # (card_v1, cards_v1, product_scroller_v1, cta_v1, faq_v1,
+        # hero_v1, content_v1, teaser_2col_v1, stats_v1) gegen DB,
+        # Whitelist, Admin-Erreichbarkeit, Link-Integrität und ruft die
+        # statischen Sub-Gates (persona, card-renderer-paritaet) mit auf.
+        # Schreibt Befundliste nach scripts/cms/output/
+        # globaler-spiegel-audit.{md,json}. SKIP_DB=1 zählt nicht grün.
+        env:
+          SKIP_DB: ${{ vars.CMS_DB_AVAILABLE == 'true' && '0' || '1' }}
+          ALLOW_FIXTURE_ONLY: ${{ vars.CMS_DB_AVAILABLE == 'true' && '0' || '1' }}
+          CMS_FIXTURE_PATH: scripts/sync/snapshot/tables/cms_sections.json
+          PGHOST: ${{ secrets.PGHOST }}
+          PGPORT: ${{ secrets.PGPORT }}
+          PGUSER: ${{ secrets.PGUSER }}
+          PGPASSWORD: ${{ secrets.PGPASSWORD }}
+          PGDATABASE: ${{ secrets.PGDATABASE }}
+        run: node scripts/cms/globaler-spiegel-audit.mjs
+      - name: Upload Spiegel-Audit Report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: globaler-spiegel-audit
+          path: scripts/cms/output/globaler-spiegel-audit.*
+      - name: Renderability-Gate (Batch 56.1 / 57)
+        # Striktes Gate für die zentrale Renderfähigkeitslogik
+        # (`public.cms_section_renderability` ↔ `renderability.ts`).
+        # Liest die kanonische Baseline aus
+        # `docs/04-betrieb/audit-snapshot/renderability-gate.baseline.json`
+        # und bricht hart bei NEUEN Befunden. Akzeptierter Altbestand
+        # (Baseline) zählt nicht als Fehler. Braucht denselben DB-Zugang
+        # wie die übrigen DB-Audits.
+        env:
+          PGHOST: ${{ secrets.PGHOST }}
+          PGPORT: ${{ secrets.PGPORT }}
+          PGUSER: ${{ secrets.PGUSER }}
+          PGPASSWORD: ${{ secrets.PGPASSWORD }}
+          PGDATABASE: ${{ secrets.PGDATABASE }}
+        run: node scripts/cms/renderability-gate.mjs
+      - name: Upload Renderability-Gate Report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: renderability-gate
+          path: scripts/cms/output/renderability-gate.*
+      - name: No-FOUT check
+        run: node scripts/cms/validate-no-fout.mjs
+      # Wahrheits-Check CI: läuft den FAQ-/CTA-/Body-Harvester offline
+      # gegen den eingecheckten Snapshot und verifiziert, dass die
+      # generierten Artefakte bit-genau im Repo liegen und keine
+      # Kommentar-False-Positives oder fehlende Body-Einträge enthalten.
+      - name: Wahrheits-Check (Harvester + Drift)
+        run: node scripts/cms/wahrheits-check-ci.mjs
+      - name: DB-Integrationstests (psql, supabase/tests/*.sql)
+        # Batch 57.1: SQL-Integrationstests für die gehärteten RPCs
+        # (rpc_admin_set_section_active / rpc_admin_update_section_field).
+        # Laufen nur wenn DB-Zugang vorhanden ist und werden in diesem
+        # Job VERPFLICHTEND ausgeführt — kein stilles Überspringen.
+        if: ${{ vars.CMS_DB_AVAILABLE == 'true' }}
+        env:
+          PGHOST: ${{ secrets.PGHOST }}
+          PGPORT: ${{ secrets.PGPORT }}
+          PGUSER: ${{ secrets.PGUSER }}
+          PGPASSWORD: ${{ secrets.PGPASSWORD }}
+          PGDATABASE: ${{ secrets.PGDATABASE }}
+        run: |
+          set -euo pipefail
+          for f in supabase/tests/*.sql; do
+            echo "::group::$f"
+            psql -v ON_ERROR_STOP=1 -f "$f"
+            echo "::endgroup::"
+          done
+      - name: DB-Integrationstests (Vitest, VITEST_INTEGRATION=1)
+        # Batch 57.2: Vitest-Integrationstests (`**/*.int.test.{ts,tsx}`)
+        # laufen verpflichtend, wenn die CI-Variable `CMS_DB_AVAILABLE`
+        # auf 'true' steht. Stilles Überspringen ist nicht erlaubt:
+        # ist die DB als verfügbar gemeldet, MÜSSEN die Tests laufen.
+        if: ${{ vars.CMS_DB_AVAILABLE == 'true' }}
+        run: npm run test:integration
+
+

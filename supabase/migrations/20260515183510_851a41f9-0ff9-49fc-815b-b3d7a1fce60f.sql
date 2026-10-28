@@ -1,0 +1,1 @@
+UPDATE public.cms_pages SET status='published', is_active=true, updated_at=now() WHERE page_key='gebaeudemanagement.root';

@@ -1,0 +1,37 @@
+{
+  "_meta": {
+    "namespace": "signage",
+    "status": "migrated",
+    "note": "SignagePage fully migrated and in `strictPages` (stage `i18n-coverage-close-1`). BeschilderungPage lives in `src/features/signage/`, but is mounted at `/gebaeudekommunikation/beschilderung` and uses the `gebaeudekommunikation` namespace. The `signage` namespace therefore only carries SignagePage and is complete. Status aligned in stage `hygiene-status-1`."
+  },
+  "hero": {
+    "label": "TCS Signage",
+    "headline": "Clear orientation with aesthetic appeal",
+    "intro": "Innovative guidance and orientation systems that combine the highest aesthetic standards with intelligent functionality. From ultra-flat, smart house numbers to tailor-made interchangeable signs and pictograms."
+  },
+  "intro": {
+    "text": "Discover TCS Signage – your expert for modern signage and well thought-out wayfinding. We offer architects, planners and developers innovative guidance and orientation systems for office buildings, hotels and gastronomy. Create representative entrance areas and clear orientation. Be inspired by our flexible standards and individual one-off manufactures."
+  },
+  "products": {
+    "label": "Products",
+    "title": "Our signage portfolio",
+    "items": {
+      "hausnummern": {
+        "headline": "Smart house numbers with revolutionary day-night contrast",
+        "text": "Set architectural highlights with our attractive, illuminated house numbers in an ultra-flat design (only 18 mm surface mounting height). The innovative Day&Night special glass ensures maximum readability: during the day, the flush-mounted digits appear in deep black; at night, the long-lasting LED backlighting glows in vivid white. Thanks to the integrated brightness sensor, you also benefit from automatic day/night switching and a dimming function."
+      },
+      "farbvielfalt": {
+        "headline": "Unlimited individuality and colour variety",
+        "text": "Adapt your signage system precisely to your corporate identity or facade design. Our solid fronts in 3 mm aluminium, brushed stainless steel or exclusive architectural bronze are extremely robust. With durable, fine-textured powder coatings to RAL classic, you have access to the maximum spectrum of possible colours. Interchangeable colour cards allow the contours of digits and pictograms to be highlighted in your preferred shade."
+      },
+      "tuerschilder": {
+        "headline": "Flexible door signs and intuitive pictograms",
+        "text": "TCS Signage makes it easy to implement individual guidance and orientation systems. Our generously formatted door and information signs in stainless steel and acrylic glass are particularly suitable for offices, law firms and medical practices. Inserts (including escape and rescue plans in DIN A3 format) can be changed completely without tools thanks to innovative acrylic clip technology. Complete the system with our clear pictograms – either from our standard portfolio or as fully individually developed signs."
+      },
+      "tuerklingeln": {
+        "headline": "The perfectly matched entrance: matching doorbells",
+        "text": "Complete the entrance area holistically. To match your house numbers and signs, we offer doorbells with front plates in aluminium, stainless steel or architectural bronze. The generously sized buttons (22 mm or 28 mm diameter) are optionally unlit or equipped with brightly illuminated, neutral-white LED ring lighting and create an inviting appearance. Optionally, we can refine your bell plate with engraving including powder coating overlay."
+      }
+    }
+  }
+}

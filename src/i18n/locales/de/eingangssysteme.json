@@ -1,0 +1,505 @@
+{
+  "_meta": {
+    "namespace": "eingangssysteme",
+    "status": "migrated",
+    "note": "Alle 8 Entry-Seiten migriert (19b-1 bis 19b-8, abgeschlossen mit 19b-final-check)."
+  },
+  "shared": {
+    "label": "Eingangssysteme"
+  },
+  "root": {
+    "hero": {
+      "label": "Eingangssysteme",
+      "headline": "ENTRY",
+      "intro": "Das Design- und Montagesystem für echte Individualität am Eingang. Entry eröffnet gestalterische Freiheit: mit schraubenfreier Montage und systematischer Integration aller Funktionen am Eingang in ein individuell gewähltes Design."
+    },
+    "pillars": {
+      "derEingang": {
+        "label": "Der Eingang",
+        "title": "Ein hochfunktionaler Ort",
+        "text": "Am Eingang laufen viele Funktionen der Gebäudehülle zusammen: Zustellen, Verwahren, Rufen, Sehen, Sprechen, Identifizieren und Zutreten. Der Eingang ist der architektonische Hotspot und die Benutzeroberfläche des Gebäudes."
+      },
+      "herstellerGewerke": {
+        "label": "Hersteller und Gewerke",
+        "title": "Gewerkeübergreifend planen",
+        "text": "Installationen unterschiedlicher Hersteller werden nicht nur nebeneinander platziert, sondern in ein einheitliches Montagesystem integriert. Dieser herstellerübergreifende Planungsansatz stellt sicher, dass der Eingang seine repräsentative Rolle erfüllt."
+      },
+      "lifecycle": {
+        "label": "Lifecycle denken",
+        "title": "Veränderung vorausdenken",
+        "text": "Unternehmen ändern ihre Namen, Mieter ziehen um und neue Funktionen kommen hinzu. Ein Eingangssystem muss sich wandelnde Nutzungsmuster über seinen Lebenszyklus hinweg antizipieren und seine Integrationsfähigkeit beweisen."
+      }
+    },
+    "discover": {
+      "title": "Entry entdecken",
+      "intro": "Von Design und Materialien über Funktionalität, Integration, Referenzen bis zu Standards und Beratung.",
+      "more": "Mehr erfahren →",
+      "items": {
+        "design": {
+          "title": "Design",
+          "subtitle": "Form follows idea.",
+          "description": "Mit Entry entstehen individuelle Designs. Aus vielen Optionen können Designs für kleine Tableaus, multifunktionale Terminals als auch großflächige Gestaltungsbänder entwickelt werden."
+        },
+        "funktionalitaet": {
+          "title": "Funktionalität",
+          "subtitle": "Elektrische und mechanische Einbauten",
+          "description": "Die Funktionalität in der Gebäudehülle konzentriert sich am Eingang als Schnittstelle von Außen und Innen – von Türkommunikation bis Brandschutz."
+        },
+        "material": {
+          "title": "Material",
+          "subtitle": "Haptik, Farbe, Textur, Reflexion, Haltbarkeit, Alterung",
+          "description": "Die Wahl des richtigen Materials ist entscheidend – für die empfundene Wertigkeit und den ersten Eindruck, den die Architektur im Kontakt hinterlässt."
+        },
+        "integrationsformen": {
+          "title": "Integrationsformen",
+          "subtitle": "Installation und Baukörper",
+          "description": "Installationen am Eingang können in verschiedenen Formen in die Fassade integriert oder vor dem Baukörper verankert werden."
+        },
+        "referenzen": {
+          "title": "Referenzen",
+          "subtitle": "Beispiele für Entry Installationen",
+          "description": "In vielen Wohn- und Gewerbebauten wurden objektspezifische Entry Installationen realisiert – einmalig in Funktion, Design und Integrationsform."
+        },
+        "standards": {
+          "title": "Standards",
+          "subtitle": "Das Design- und Montagesystem Entry",
+          "description": "Standards für Montagesets, die mit Funktionsmodulen komplettiert werden können – in zwei Montageformen und bis zu sechs Funktionsmodule."
+        },
+        "beratung": {
+          "title": "Beratung",
+          "subtitle": "Nutzen Sie unsere Expertise",
+          "description": "Wir beraten private und professionelle Bauvorhaben, Generalunternehmen, Architektur, Fachplanung und die Wohnungswirtschaft."
+        }
+      }
+    },
+    "downloads": {
+      "title": "Downloads",
+      "intro": "Broschüren, Exposés und Datenblätter zum Entry-System.",
+      "items": {
+        "entryExpose": {
+          "label": "Entry Exposé (PDF)"
+        },
+        "broschuereSonderbau": {
+          "label": "Broschüre Sonderbau (PDF)"
+        },
+        "datenblattUnterputz": {
+          "label": "Datenblatt Unterputzmontage (PDF)"
+        },
+        "datenblattInputz": {
+          "label": "Datenblatt Inputzmontage (PDF)"
+        },
+        "datenblattZubehoer": {
+          "label": "Datenblatt Zubehör (PDF)"
+        }
+      }
+    },
+    "cta": {
+      "title": "Beratung anfordern",
+      "text": "Sie haben ein konkretes Projekt oder gestalten einen Eingang? Wir beraten Sie gerne – auch vor Ort.",
+      "cta": "Kontakt aufnehmen"
+    }
+  },
+  "design": {
+    "hero": {
+      "label": "Entry / Design",
+      "headline": "Design",
+      "intro": "Mit Entry entstehen individuelle Designs. Aus vielen Optionen können Designs für kleine Tableaus, multifunktionale Terminals als auch großflächige Gestaltungsbänder entwickelt werden. Sie akzentuieren den Eingang und machen die Architektur erlebbar und nutzbar."
+    },
+    "cards": {
+      "tableausTerminals": {
+        "subtitle": "Zugeschnitten auf individuelle Bedürfnisse",
+        "title": "Tableaus und Terminals",
+        "text": "In einer Installation kann die gesamte an einem Eingang benötigte Funktionalität zusammengefasst werden. Systematisch, integriert und in einem homogenen Design.",
+        "imageAlt": "Große Entry-Station in Edelstahl mit Türkommunikation, Ruftaster, Straßennamen, Hausnummer, Paketbox, Briefkästen und Brandschutzinstallation"
+      },
+      "gestaltungsbaender": {
+        "subtitle": "Für repräsentative Eingangs- und Fassadenfunktionen",
+        "title": "Gestaltungsbänder",
+        "text": "In Gestaltungsbändern können neben den Eingangsfunktionen auch Funktionen der Fassade, wie zum Beispiel eine Beschilderung integriert werden.",
+        "imageAlt": "Entry-Gestaltungsband in Messing mit Türkommunikation und Beschilderung"
+      }
+    },
+    "nav": {
+      "prev": "← Entry Übersicht",
+      "next": "Funktionalität →"
+    }
+  },
+  "integrationsformen": {
+    "hero": {
+      "label": "Entry / Integrationsformen",
+      "headline": "Integrationsformen",
+      "intro": "Installationen am Eingang können in verschiedenen Formen in die Fassade integriert oder vor dem Baukörper verankert werden. Für die hauptsächlichen Fassadentypen sind unterschiedliche Integrationsformen wählbar."
+    },
+    "items": {
+      "inPutz": {
+        "subtitle": "Mit eingelassener Front",
+        "title": "In Putz Montage",
+        "text": "Bei einer Montage in Putz wird die Metallbauinstallation in einem Fassungsrahmen vollständig in die Wand integriert. Die Front aus 3 mm starkem Material wird frontbündig in den Fassungsrahmen eingelassen.",
+        "imageAlt": "Metallbauinstallation in wandbündiger In-Putz-Montage"
+      },
+      "unterPutz": {
+        "subtitle": "Mit aufliegender Front",
+        "title": "Unter Putz Montage",
+        "text": "Wird unter Putz montiert, so wird die Metallbauinstallation auf einem Unterputzkasten montiert. Front und Frontrahmen überdecken den Unterputzkasten vollständig und liegen auf der Wand auf.",
+        "imageAlt": "Metallbauinstallation in Unter-Putz-Montage mit aufliegender Front"
+      },
+      "aufPutz": {
+        "subtitle": "Mit seitlich sichtbarem Gehäuse",
+        "title": "Auf Putz Montage",
+        "text": "Bei einer Aufputzmontage wird eine Installation mit möglichst geringer Bautiefe (ca. 30–50 mm) in einem seitlich sichtbaren Fassungskasten auf die Wand montiert. Der Vorteil: einfache Umsetzung ohne Wandausnehmungen.",
+        "imageAlt": "Metallbauinstallation in Auf-Putz-Montage mit seitlich sichtbarem Rahmen"
+      },
+      "freistehend": {
+        "subtitle": "Als allseitig sichtbare Stele",
+        "title": "Freistehend",
+        "text": "In dieser Montageform haben Baukörper und Metallbauinstallation keinen direkten Montagebezug. Die Installation als Säule bzw. Stele wird auf einem Fundamentanker oder Sockel direkt auf ein Fundament installiert.",
+        "imageAlt": "Metallbauinstallation in freistehender Montageform mit sichtbarem Säulenkorpus"
+      }
+    },
+    "nav": {
+      "prev": "← Material",
+      "next": "Referenzen →"
+    }
+  },
+  "material": {
+    "hero": {
+      "label": "Entry / Material",
+      "headline": "Material",
+      "intro": "Die Wahl des richtigen Materials ist entscheidend – für die empfundene Wertigkeit und den ersten Eindruck, den die Architektur im Kontakt hinterlässt. Die Auswahl ist groß – von kühl und dezent über lebendig bis klassisch."
+    },
+    "items": {
+      "aluminium": {
+        "subtitle": "Geschliffen, gestrahlt und eloxiert",
+        "title": "Aluminium",
+        "text": "Die Oberfläche von Aluminium kann glatt verarbeitet oder durch Strahlen oder Schleifen strukturiert werden. Der Korrosionsschutz und die Färbung erfolgt mittels Eloxieren – ein Veredelungsprozess für optimalen Schutz und farbiges Dekor.",
+        "imageAlt": "Aluminium-Oberfläche geschliffen, gestrahlt und eloxiert",
+        "features": [
+          "Werkstoff AlMg1",
+          "Dekorativ farbige Oberflächenveredelung",
+          "Erhöhte Kratz- und Bruchfestigkeit",
+          "Guter Korrosionsschutz",
+          "Gut recyclingfähig"
+        ]
+      },
+      "edelstahl": {
+        "subtitle": "Geschliffen, gebürstet, poliert … farbig beschichtet",
+        "title": "Edelstahl",
+        "text": "Die Oberfläche von Edelstahl kann durch Schleifen, Bürsten oder Polieren strukturiert werden. Die PVD-Beschichtung erzeugt gleichmäßige, UV-resistente Dekorfarben, die extrem robust und korrosionsbeständig sind.",
+        "imageAlt": "Edelstahl-Oberfläche geschliffen, gebürstet und PVD-beschichtet",
+        "features": [
+          "V2A (V4A möglich)",
+          "400er Korn geschliffen",
+          "Gehärtete kratzfeste Metalloberfläche",
+          "UV-beständige Dekore",
+          "Verbesserte Korrosionsbeständigkeit"
+        ]
+      },
+      "messingSatiniert": {
+        "subtitle": "Geschliffen, versiegelt … brüniert",
+        "title": "Messing satiniert",
+        "text": "Eine Kupferlegierung mit einem Zinkanteil von bis zu 40 % erzeugt ein goldgelb glänzendes Erscheinungsbild. Je geringer der Zinkanteil, desto rötlicher bzw. kupferfarbener erscheint das Messing.",
+        "imageAlt": "Messing satiniert oder brüniert",
+        "features": [
+          "Werkstoff Messing MS63 (CuZn37)",
+          "Härter als reines Kupfer",
+          "Goldgelbes Erscheinungsbild"
+        ]
+      },
+      "bronzeBaubronze": {
+        "subtitle": "Patiniert",
+        "title": "Bronze | Baubronze",
+        "text": "Bronze ist eine Legierung aus Kupfer und Zinn. Die natürliche rot-braune bis schwarze Oberflächenpatina entsteht durch äußere Einflüsse. Beim künstlichen Patinieren werden die dekorativen Effekte verstärkt.",
+        "imageAlt": "Bronze und patinierte Baubronze",
+        "features": [
+          "Werkstoff Zinnbronze (CuSn6)",
+          "Gute Verschleiß- und Korrosionsbeständigkeit",
+          "Handpatiniert für unikale Oberflächenschwärzung"
+        ]
+      },
+      "pulverbeschichtung": {
+        "subtitle": "Farben nach RAL-Fächer",
+        "title": "Farbige Pulverbeschichtung",
+        "text": "Die Pulverlackierung ist ein Verfahren zum Farbauftrag auf elektrisch leitfähige Materialien wie Aluminium oder Edelstahl. Für nahezu alle im RAL-Farbfächer enthaltenen Farben sind Pulverlacke verfügbar.",
+        "imageAlt": "Pulverlackierung in allen Farben nach dem RAL-Fächer",
+        "features": [
+          "Maximales Farbspektrum",
+          "Effektlackierungen möglich (z.B. Metallic)",
+          "Matt oder glänzende Oberflächen",
+          "Guter Korrosionsschutz"
+        ]
+      },
+      "mineralwerkstoff": {
+        "subtitle": "Corian, Himacs, Getalit, Varicor",
+        "title": "Mineralwerkstoff",
+        "text": "Dekorative Plattenmaterialien in einem breiten Designspektrum, bestehend aus gemahlenen Mineralen, Acryl und natürlichen Pigmenten. Geeignet als Frontplattenmaterial für Installationen im geschützten Außen- oder Innenbereich.",
+        "imageAlt": "Frontplatten aus mineralischen Werkstoffen für besondere Designs",
+        "features": [
+          "Große Dekor- und Farbenvielfalt",
+          "Für geschützten Außen- oder Innenbereich"
+        ]
+      }
+    },
+    "nav": {
+      "prev": "← Funktionalität",
+      "next": "Integrationsformen →"
+    }
+  },
+  "standards": {
+    "hero": {
+      "label": "Entry / Standards",
+      "headline": "Standards",
+      "intro": "Für eine hochwertige Türkommunikation finden Sie hier Standards für Montagesets, die mit Funktionsmodulen komplettiert werden können. Die damit möglichen Außenstationen sind in zwei Montageformen erhältlich und können bis sechs Funktionsmodule aufnehmen."
+    },
+    "downloads": {
+      "title": "Datenblätter",
+      "items": {
+        "unterputzAmi": {
+          "label": "Datenblatt Serie AMI Unterputzmontage"
+        },
+        "inputzAmi": {
+          "label": "Datenblatt Serie AMI Inputzmontage"
+        },
+        "zubehoerAmi": {
+          "label": "Datenblatt Serie AMI Zubehör"
+        }
+      }
+    },
+    "items": {
+      "unterputzmontage": {
+        "subtitle": "Montagesets für Außenstationen",
+        "title": "Unterputzmontage",
+        "text": "In dieser Unterputzmontage ist die Front von einem Rahmen eingefasst. Dieser Rahmen überdeckt bis auf die Umlauffuge den Putzanschluss des Einfassungskastens.",
+        "imageAlt": "Außenstation in Unterputzmontage mit umlaufendem Rahmen"
+      },
+      "inputzmontage": {
+        "subtitle": "Montagesets für Außenstationen",
+        "title": "Inputzmontage",
+        "text": "Bei einer Montage in Putz wird die Metallbauinstallation in einem Fassungsrahmen vollständig in die Wand integriert. Die Front aus 3 mm starkem Edelstahl wird putzbündig in den 2 mm starken Fassungsrahmen eingelassen.",
+        "imageAlt": "Außenstation in Inputzmontage mit putzbündiger Edelstahlfront"
+      },
+      "funktionsmoduleAmi": {
+        "subtitle": "Zur Kombination mit den Montagesets",
+        "title": "Funktionsmodule Serie AMI",
+        "text": "Individuell miteinander in einem Montageset kombiniert, können mit diesen Modulen Außenstationen zur Türkommunikation, Zutritts- und Nutzungskontrolle erzeugt werden.",
+        "imageAlt": "Funktionsmodule der Serie AMI für Türkommunikation, Zutritts- und Nutzungskontrolle"
+      }
+    },
+    "nav": {
+      "prev": "← Referenzen",
+      "next": "Beratung →"
+    }
+  },
+  "beratung": {
+    "hero": {
+      "label": "Entry / Beratung",
+      "headline": "Beratung",
+      "intro": "Wir beraten private und professionelle Bauvorhaben, Generalunternehmen, Projektentwicklung, Architektur, Fachplanung und Systemintegration sowie die Wohnungswirtschaft und das Installationshandwerk."
+    },
+    "topics": {
+      "konzept": {
+        "title": "Konzept- und Gestaltungsthemen",
+        "intro": "Unsere Objektberatung bietet fachkompetente Unterstützung bei Gestaltungs- und Technologiethemen rund um den Eingang.",
+        "items": [
+          "Designentwicklung und Materialauswahl",
+          "Technologieformen für Bedienoberflächen und Eingabegeräte",
+          "Integrationsformen in Fassadentypen (Putz, Vorhang, Klinker, Glas, Naturstein)",
+          "Ergonomie: Formatierung, Montagehöhen, Barrierefreiheit"
+        ]
+      },
+      "technologie": {
+        "title": "Technologiethemen",
+        "intro": "Wir beraten zu allen technologischen Aspekten rund um den Gebäudeeingang.",
+        "items": [
+          "Tür- und Gebäudekommunikation",
+          "Digitale Namensverwaltung",
+          "Zutritts- und Nutzungskontrolle mit Netzwerkintegration",
+          "Leit- und Orientieren, Wayfinding, Firmenbeschilderung",
+          "Kommunikationstechnik zur Feuerwehrdurchsage",
+          "Ambient Assisted Living AAL und häusliche Pflege"
+        ]
+      }
+    },
+    "cta": {
+      "title": "Projekt besprechen?",
+      "text": "Kontaktieren Sie uns für eine individuelle Beratung zu Ihrem Bauvorhaben – auch vor Ort.",
+      "cta": "Kontakt aufnehmen"
+    },
+    "nav": {
+      "prev": "← Standards",
+      "next": "Entry Übersicht →"
+    }
+  },
+  "funktionalitaet": {
+    "hero": {
+      "label": "Entry / Funktionalität",
+      "headline": "Funktionalität",
+      "intro": "Die Funktionalität in der Gebäudehülle konzentriert sich am Eingang als Schnittstelle von Außen und Innen. Zu den repräsentativen Funktionen wie Hausnummer, Beschilderung, Briefkästen oder Klingeltableau lassen sich auch Pflicht-Funktionen des Brandschutzes oder des Gebäudemanagements in ein Montagesystem integrieren."
+    },
+    "items": {
+      "tuerkommunikation": {
+        "subtitle": "Wiedergabe von Rufzielen für die Kommunikation mit Besuchern",
+        "title": "Tür- und Gebäudekommunikation",
+        "text": "Die Türkommunikation stellt je nach Anlagengröße und Repräsentationsgrad verschiedene Formen der Wiedergabe von Rufzielen zur Verfügung – von Klingeltasten mit Papiereinlegern über Ruftaster mit Namensgravur bis zur elektronischen Namensanzeige auf einem Touchdisplay.",
+        "imageAlt": "Tür- und Gebäudekommunikation mit verschiedenen Wiedergabeformen für Rufziele",
+        "features": [
+          "Concierge- und Schrankenanlagen",
+          "Interne Kommunikation und Türöffnerautomatik",
+          "Digitale Namensverwaltung",
+          "Feuerwehrdurchsage",
+          "Bidirektionale Videosprechanlage",
+          "Ambient Assisted Living AAL"
+        ]
+      },
+      "accessControl": {
+        "subtitle": "Techniken zur Kontrolle von Zutritt und Nutzung",
+        "title": "Access Control",
+        "text": "Der Zugang zum Gebäude kann für wiederkehrende Nutzer mit Hilfe elektronischer Zutrittskontrolle komfortabel organisiert werden. Die Technik reicht von einem Codeschloss über Transponderleser bis zu einem biometrischen Fingerabdruckscanner.",
+        "imageAlt": "Elektronische Zutrittskontrolle mit Codeschloss, Transponderleser und Fingerabdruckscanner",
+        "features": [
+          "Einfache Stand-alone Installationen",
+          "Komplexe netzwerkangebundene Installationen"
+        ]
+      },
+      "verwahrung": {
+        "subtitle": "Briefkasten, Paketbox und Schlüsseldepot",
+        "title": "Verwahrung",
+        "text": "Die sichere Verwahrung von Postgut oder von Schlüsseln für Sicherheits- und Rettungskräfte erfordert technische Lösungen. Neben Briefkasten und Paketbox können auch Schlüsseldepots namhafter Hersteller in eine Entry-Installation integriert werden.",
+        "imageAlt": "Briefkasten, Paketbox und Schlüsseldepot in einer Entry-Installation"
+      },
+      "gebaeudesicherheit": {
+        "subtitle": "Überwachung, Durchsage und Brandschutz",
+        "title": "Gebäudesicherheit und Brandschutz",
+        "text": "Installationen zur Gebäudeüberwachung wie Videokameras oder Bewegungsmelder können in eine Installation integriert werden. Gleiches gilt für Feuerwehrdurchsage oder Brandschutzinstallationen wie FSE, FSD, Löschwasser-Einspeiseeinrichtungen oder BMA.",
+        "imageAlt": "Gebäudesicherheit und Brandschutzinstallationen mit FSE, FSD und BMA",
+        "features": [
+          "Feuerwehrdurchsage",
+          "Brandschutzinstallationen (FSE, FSD, BMA)",
+          "Löschwasser-Einspeiseeinrichtungen"
+        ]
+      },
+      "wayfinding": {
+        "subtitle": "Wayfinding für den öffentlichen Raum und das private Wohnumfeld",
+        "title": "Leiten, Orientieren, Informieren",
+        "text": "Neben der Wiedergabe des Straßen- oder Objektnamens sind im Gewerbebau Firmenbeschilderung und Corporate Elemente üblich. Piktogramme weisen auf wichtige Einrichtungen hin.",
+        "imageAlt": "Wayfinding mit Tür- und Informationsschildern, Piktogrammen und Hausnummern",
+        "features": [
+          "Tür- und Informationsschilder",
+          "Piktogramme",
+          "Hausnummern und Türklingeln",
+          "Newsfeed-Displays"
+        ]
+      },
+      "beleuchtung": {
+        "subtitle": "Für Bedienoberflächen, die Fassade und Wege",
+        "title": "Beleuchtung",
+        "text": "Beleuchtungslösungen wie Up- und Downlights bzw. Backlights richten sich als dekoratives Licht auf die Fassade, können aber als technische Beleuchtungen auch Bedienoberflächen und Informationsanzeigen betreffen.",
+        "imageAlt": "Beleuchtungslösungen mit Up-, Downlights und Backlights für Fassade und Bedienoberflächen"
+      },
+      "service": {
+        "subtitle": "Energieerzeugung und -bereitstellung",
+        "title": "Service, Management und Energie",
+        "text": "Verschiedene Servicefunktionen können in eine Metallbauinstallation integriert werden – von Ladestationen für E-Mobile über Steckdosen für Gebäudereinigung bis zu Fotovoltaik-Panelen in der Fassade.",
+        "imageAlt": "Servicefunktionen mit Ladestationen, Steckdosen und Fotovoltaik-Panelen in der Fassade"
+      }
+    },
+    "nav": {
+      "prev": "← Design",
+      "next": "Material →"
+    }
+  },
+  "referenzen": {
+    "hero": {
+      "label": "Entry / Referenzen",
+      "headline": "Referenzen",
+      "intro": "In vielen Wohn- und Gewerbebauten wurden objektspezifische Entry Installationen realisiert. In enger Abstimmung mit Architektur, Elektrofachplanung und Bauvorhaben sind in Funktion, Design und Integrationsform einmalige Installationen entstanden."
+    },
+    "labels": {
+      "designWish": "Designwunsch des Bauherrn",
+      "scope": "Funktions- und Installationsumfang"
+    },
+    "items": {
+      "forumMuseumsinsel": {
+        "subtitle": "Zeitgenössisch in Baubronze",
+        "title": "Forum an der Museumsinsel, Berlin",
+        "description": "Acht denkmalgeschützte Gebäude in direkter Nachbarschaft zum UNESCO-Weltkulturerbe.",
+        "design": "Die Fronten sind aus brüniertem Messing für eine authentische Sanierung des ehemaligen Haupttelegrafenamtes angefertigt.",
+        "imageAlt": "Entry Installation am Forum an der Museumsinsel in Berlin",
+        "scope": [
+          "Türkommunikation mit Videokamera",
+          "Zutrittskontrolle über Transponderkarten",
+          "IP Technik mit Anschluss an IP Telefonie"
+        ]
+      },
+      "pulse": {
+        "subtitle": "Frontbündig fassadenintegriert",
+        "title": "Pulse, Berlin",
+        "description": "Ein Gewerbeneubau in Berlin Kreuzberg mit ca. 12.000 qm Mietfläche auf sieben Etagen und einer Tiefgarage.",
+        "design": "Die IP Außenstation soll sich farblich sowie flächenbündig in die weiß gepulverte Aluminiumvorhangfassade einfügen.",
+        "imageAlt": "Frontbündige Entry Installation am Gebäude Pulse in Berlin",
+        "scope": [
+          "Türkommunikation mit Videokamera",
+          "Zutrittskontrolle über Transponderkarten",
+          "Briefkasten"
+        ]
+      },
+      "weidtParkCorner": {
+        "subtitle": "In eloxierte Laibung integriert",
+        "title": "Weidt Park Corner, Berlin",
+        "description": "Ein 2022 neu entstandenes Bürogebäude im Herzen der Europacity in Berlin.",
+        "design": "Die Entry Installationen werden flächenbündig aus dem exakt gleichen Material wie die Fassade in die speziell eloxierte Außenhaut integriert.",
+        "imageAlt": "Entry Installation in eloxierter Laibung am Weidt Park Corner in Berlin",
+        "scope": [
+          "Türkommunikation mit Videokamera",
+          "Zutrittskontrolle über Transponderkarten",
+          "Briefkasten",
+          "Firmenschilder",
+          "Integration von FSD und FSE"
+        ]
+      },
+      "hamburgerFamiliendomizil": {
+        "subtitle": "Außenstation, Briefkasten und Zutrittskontrolle",
+        "title": "Hamburger Familiendomizil",
+        "description": "Exklusives Familiendomizil und großzügiges Einfamilienhaus in Hamburger Villenviertel.",
+        "design": "Alle Entry Installationen putzbündig in die Außenwand integriert, schwarz pulverbeschichtet mit Laser-Personalisierungen.",
+        "imageAlt": "Putzbündige Entry Installation an einem Familiendomizil in Hamburg",
+        "scope": [
+          "Türkommunikation mit Videokamera und Fingerprintscanner",
+          "Garagenzugang mit Fingerprintscanner",
+          "Briefkasten",
+          "Inputs-Integration in WDVS-Putzfassade"
+        ]
+      },
+      "fritzTower": {
+        "subtitle": "In geschliffenem Edelstahl",
+        "title": "Berliner Wohnturm (Fritz Tower)",
+        "description": "Hochwertiges Wohnhochhaus mit über 266 Apartments im Quartier Mittenmang in Berlin Mitte.",
+        "design": "Flächenbündiger Einbau in die Fassadenelemente, vertikale Ausrichtung der Fassade entsprechend, in gebürstetem Edelstahl.",
+        "imageAlt": "Entry Installation in gebürstetem Edelstahl am Fritz Tower in Berlin",
+        "scope": [
+          "Türkommunikation mit Videokamera",
+          "Touchdisplay für 266 Apartments",
+          "Pförtnerruftaste",
+          "Zutrittskontrolle mit Transponderkarten",
+          "Barrierefreiheit mit zweitem Display"
+        ]
+      },
+      "potsdamerWohnhaus": {
+        "subtitle": "Signage Hausnummern",
+        "title": "Potsdamer Wohnhaus",
+        "description": "Mehrfamilienhaus in Potsdam Babelsberg mit beleuchteter Signage-Hausnummer in Edelstahl.",
+        "design": "Hausnummer mit LED-hinterleuchteten Ziffern in gebürstetem Edelstahl, passend zur Video-Außenstation.",
+        "imageAlt": "Entry Installation mit beleuchteter Signage-Hausnummer an einem Wohnhaus in Potsdam",
+        "scope": [
+          "Türkommunikation mit Videokamera",
+          "Zutrittskontrolle mit Codeschloss",
+          "Beleuchtete Signage Hausnummer mit Tag-Nacht-Umschaltung"
+        ]
+      }
+    },
+    "nav": {
+      "prev": "← Integrationsformen",
+      "next": "Standards →"
+    }
+  }
+}
+

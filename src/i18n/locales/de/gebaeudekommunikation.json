@@ -1,0 +1,750 @@
+{
+  "_meta": {
+    "namespace": "gebaeudekommunikation",
+    "status": "migrated",
+    "note": "Alle 6 Seiten der Domain Gebäudekommunikation sind nach i18n migriert (Türkommunikation, Türsprechanlagen, Briefkastenanlagen, Systemlösungen, Großanlagen, snipdoo IP). Aufnahme in `strictPages` in Etappe `hygiene-strictpages-close-1`. Statusangleichung in Etappe `hygiene-status-1`."
+  },
+  "briefkastenanlagen": {
+    "hero": {
+      "label": "Gebäudekommunikation / Briefkastenanlagen",
+      "headline": "Maßgeschneiderte Briefkastenanlagen für Ihr Gebäude",
+      "intro": "Flexibilität, Design und smarte Türkommunikation vereint. Entdecken Sie unsere vielseitigen ENTRY-Briefkasten-Anlagen und konfigurieren Sie Ihr individuelles System passgenau für Ihr Bauprojekt – ob Einfamilienhaus oder größerer Wohnkomplex.",
+      "imageAlt": "Briefkastenanlagen"
+    },
+    "montageformen": {
+      "label": "Montageformen",
+      "title": "Unsere Montageformen im Überblick",
+      "intro": "Für jede bauliche Anforderung und architektonische Vision bieten wir die passende Bauform. Sie können aus verschiedenen Grundvarianten wählen, um den Briefkasten optimal zu platzieren.",
+      "items": {
+        "aufputz": {
+          "title": "Aufputz-Anlagen",
+          "text": "Die klassische und einfache Lösung zur direkten Wandmontage. Aufputz-Anlagen lassen sich unkompliziert nachrüsten und sind sowohl in waagerechter als auch in senkrechter Ausführung verfügbar. Sie können problemlos mit modernster Audio- oder Videotechnik ausgestattet werden."
+        },
+        "unterputz": {
+          "title": "Unterputz-Anlagen (Inputz)",
+          "text": "Für eine besonders flächenbündige und unauffällige Integration in die Fassade eignen sich unsere Unterputz-Anlagen. Auch hier haben Sie die Wahl zwischen waagerechter und senkrechter Anordnung, um den verfügbaren Platz an der Wand optimal zu nutzen."
+        },
+        "stele": {
+          "title": "Freistehende Anlagen (Stelen & seitliche Füße)",
+          "text": "Setzen Sie ein optisches Highlight an Ihrer Grundstücksgrenze oder dem repräsentativen Eingangsbereich. Freistehende Anlagen können wahlweise als elegante Stele oder mit seitlichen Füßen konfiguriert werden und sind somit völlig unabhängig von der Hausfassade positionierbar."
+        }
+      }
+    },
+    "skalierbarkeit": {
+      "label": "Skalierbarkeit",
+      "title": "Anlagengrößen und Layouts",
+      "intro": "Egal wie viele Parteien in Ihrem Gebäude wohnen – das System wächst mit Ihren Anforderungen.",
+      "features": {
+        "wohneinheiten": {
+          "headline": "1 bis 16 Wohneinheiten",
+          "text": "Unsere Standardsysteme sind extrem skalierbar und decken Gebäudegrößen von einer bis zu 16 Wohneinheiten problemlos ab. Für kleinere Projekte oder Einfamilienhäuser können Sie über unseren Konfigurator gezielt Anlagen für 1 bis 4 Briefkästen planen."
+        },
+        "ausrichtung": {
+          "headline": "Waagerechte und senkrechte Ausführung",
+          "text": "Um sich den räumlichen Gegebenheiten Ihres Eingangsbereichs perfekt anzupassen, bieten wir unsere Briefkastenanlagen sowohl in platzsparender senkrechter Anordnung als auch in übersichtlicher waagerechter Bauweise an."
+        }
+      }
+    },
+    "smart": {
+      "label": "Smart & individuell",
+      "title": "Smarte Funktionen & Individualisierung",
+      "intro": "Machen Sie Ihren Briefkasten zu einer multifunktionalen Kommunikationszentrale, die exakt Ihren optischen und technischen Wünschen entspricht.",
+      "items": {
+        "tuerkommunikation": {
+          "title": "Integrierte Türkommunikation (Audio & Video)",
+          "text": "Alle Anlagengrößen und Montageformen können flexibel konfiguriert werden: ohne Klingeltasten, mit einfachen Klingeltasten oder komplett vorverdrahtet für Audio- bzw. Videokommunikation. Wir bieten spezielle AUDIO:PACKS sowie VIDEO:PACKS (auch für bauseitige Kameras) an."
+        },
+        "barrierefrei": {
+          "title": "Barrierefreie Bedienung",
+          "text": "Für höchste Zugänglichkeit sorgen Einbau-Türlautsprecher mit Barrierefrei-Symbolen – klar erkennbar und intuitiv bedienbar für alle Bewohner und Besucher."
+        },
+        "design": {
+          "title": "Maßgeschneidertes Design",
+          "text": "Verleihen Sie der Anlage eine persönliche Note. Im Konfigurationsprozess passen Sie Farben und Oberflächen individuell an – für ein stimmiges Gesamtbild Ihres Eingangsbereichs."
+        },
+        "beschriftung": {
+          "title": "Beschriftung nach Wunsch",
+          "text": "Gestalten Sie die Anlage mit oder ohne Straßennamen sowie Hausnummer. So entsteht ein repräsentativer Eingang, der Adresse und Funktion in einem klaren Auftritt vereint."
+        }
+      },
+      "cta": "Anlage konfigurieren"
+    }
+  },
+  "systemloesungen": {
+    "hero": {
+      "label": "Türkommunikation / Systemlösungen",
+      "headline": "Systemlösungen der Gebäudekommunikation: Intelligente Vernetzung für moderne Objekte",
+      "intro": "In komplexen Objekten und Wohngebäuden sind Innenstationen und Softwarelösungen heute weit mehr als nur Sprechanlagen – sie fungieren als zentrale Kommunikations-, Informations- und Schaltzentralen. TCS bietet Bauträgern, Planungsbüros und professionellen Betreibern maßgeschneiderte Systemlösungen, die höchste Sicherheitsanforderungen erfüllen, Arbeitsabläufe optimieren und Personal entlasten.",
+      "imageAlt": "Systemlösungen der Gebäudekommunikation"
+    },
+    "vorteile": {
+      "label": "Auf einen Blick",
+      "title": "Warum TCS-Systemlösungen?",
+      "items": {
+        "steuerung": {
+          "title": "Zentrale Steuerung",
+          "text": "Türkommunikation, Zufahrten und Bewohnerrufe an einem Arbeitsplatz."
+        },
+        "sicherheit": {
+          "title": "Hohe Sicherheit",
+          "text": "Kontrollierte Zugänge für Mitarbeiter, Lieferanten und Besucher."
+        },
+        "alarmierung": {
+          "title": "MHHR-konforme Alarmierung",
+          "text": "Zertifizierte Feuerwehr-Durchsage für Hochhäuser ab 8 Geschossen."
+        },
+        "ablaeufe": {
+          "title": "Optimierte Abläufe",
+          "text": "Türöffnerautomatik und Intercom entlasten Empfang und Personal."
+        },
+        "barrierefrei": {
+          "title": "Barrierefreie Kommunikation",
+          "text": "TCS:BIDI mit visueller Rückkanal-Kommunikation in Gebärdensprache."
+        },
+        "fachplanung": {
+          "title": "TCS:PLUS Fachplanung",
+          "text": "Persönliche Projektbegleitung von der Idee bis zur Inbetriebnahme."
+        }
+      }
+    },
+    "concierge": {
+      "label": "Zentrale Besucherleitung",
+      "title": "Concierge- und Schrankenanlagen",
+      "headline": "Den Überblick behalten – an jedem Eingang und jeder Zufahrt",
+      "text": "Für Gebäude, in denen Türkommunikation, das Bedienen von Schrankenanlagen und Rufe von Bewohnern zentral zusammenlaufen sollen, bietet TCS leistungsstarke Concierge-Lösungen. Pförtner und Empfangsmitarbeiter können damit Zugänge für Beschäftigte, Lieferanten und Besucher effizient überwachen und steuern. Ob in Krankenhäusern, Messezentren, Hotels oder im gehobenen Wohnungsbau: Die Systeme garantieren ein hohes Maß an Sicherheit durch kontrollierbare Eingänge und Zufahrten. Durch die bidirektionale Kommunikation von Außenstationen direkt zum Concierge oder die Weiterleitung auf Mobil- und Festnetze bleiben Sie stets erreichbar."
+    },
+    "feuerwehr": {
+      "label": "Sicherheit im Ernstfall",
+      "title": "Feuerwehr-Durchsagesysteme",
+      "headline": "Zertifizierte Alarmierung für Hochhäuser nach MHHR",
+      "text": "Die Infrastruktur einer TCS-Türsprechanlage kann lebensrettend sein: Mit der Feuerwehr-Durchsage-Funktion werden Bewohner in Hochhäusern (ab 8 Geschossen) schnell und gezielt alarmiert. Das System erfüllt die Anforderungen der Hochhausbaurichtlinie und gibt im Notfall Signaltöne oder direkte Durchsagen der Feuerwehr mit einer Lautstärke von über 90 dB über die Innenstationen wieder. Dank 30-stündiger Notstromversorgung, integrierter Fehlerüberwachung und Kurzschluss-Absicherung (Strangtrenner) bietet die Anlage maximale Ausfallsicherheit."
+    },
+    "intern": {
+      "label": "Effizienz im Arbeitsalltag",
+      "title": "Interne Kommunikation und Türöffnerautomatik",
+      "headline": "Entlastung für Praxen, Büros und Einrichtungen mit hohem Besucheraufkommen",
+      "text": "In Gewerbeobjekten, Kitas oder Arztpraxen binden regelmäßige Türrufe wertvolle Ressourcen. Die TCS-Türöffnerautomatik löst den Türöffner beim Betätigen der Klingeltaste automatisch aus und entlastet so das Empfangspersonal. Gleichzeitig erweitern Funktionen für Raum-zu-Raum-Gespräche und gezielte In-den-Raum-Durchsagen die Anlage zu einem vollwertigen Intercom-System. Dies gewährleistet nahtlose und effiziente Arbeitsabläufe innerhalb des Gebäudes."
+    },
+    "bidi": {
+      "label": "Barrierefreiheit integriert",
+      "title": "Bidirektionale Videosprechanlagen",
+      "headline": "Digitale Teilhabe durch visuelle Kommunikation",
+      "text": "TCS denkt Inklusion weiter: Mit dem TCS:BIDI System werden Videobilder nicht nur von der Außen- zur Innenstation gesendet, sondern auch in die entgegengesetzte Richtung. Ein in die Außenstation integrierter Monitor ermöglicht es gehörlosen oder schwerhörigen Menschen, problemlos per Gebärdensprache mit den Bewohnern zu kommunizieren. Diese Lösung erleichtert den Alltag spürbar und macht Ihre Objekte zugänglicher."
+    },
+    "fachplanung": {
+      "label": "TCS:PLUS Fachplanung",
+      "title": "Ihre Vision, unsere Expertise",
+      "intro": "Verlassen Sie sich bei der Planung und Projektierung auf das TCS:PLUS Fachplanungsteam. Unsere Experten unterstützen Architekten, Planer und Betreiber von der ersten Idee bis zur Umsetzung.",
+      "items": {
+        "projektierung": {
+          "title": "Individuelle Projektierung",
+          "text": "Ein projektverantwortlicher TCS-Ansprechpartner begleitet Ihr Vorhaben und passt die Auswahl der Komponenten genau an Ihre Objektinfrastruktur an."
+        },
+        "behoerden": {
+          "title": "Abstimmung mit Behörden",
+          "text": "Bei sicherheitskritischen Lösungen wie der Feuerwehr-Durchsage übernehmen wir die Festlegung der Gruppen und Montageorte in direkter Abstimmung mit der örtlichen Feuerwehr und dem Brandschutzkonzept."
+        },
+        "service": {
+          "title": "Rundum-Service",
+          "text": "Auf Wunsch übernimmt TCS die fachgerechte Inbetriebnahme, die technische Wartung sowie die zukünftige Weiterentwicklung Ihrer Anlage."
+        }
+      },
+      "ctaPrimary": "Beratung anfragen",
+      "ctaSecondary": "Planen & Konfigurieren"
+    }
+  },
+  "root": {
+    "hero": {
+      "label": "Gebäudekommunikation",
+      "headline": "Smarte Kommunikation für jedes Gebäude",
+      "intro": "Von Einfamilienhäusern bis zu großen Wohnquartieren bietet TCS maßgeschneiderte Audio- und Video-Türsprechanlagen, integrierte Briefkasten- und Wayfinding-Systeme sowie ganzheitliche Systemlösungen. Mit dem zukunftssicheren IP-System snipdoo® vereinen wir die Einfachheit klassischer BUS-Systeme mit grenzenloser Netzwerk-Flexibilität.",
+      "imageAlt": "Gebäudekommunikation"
+    },
+    "bereiche": {
+      "label": "Unsere Bereiche",
+      "title": "Alles für die Gebäudekommunikation",
+      "intro": "Entdecken Sie unser komplettes Portfolio – von der einzelnen Türsprechanlage bis hin zu vernetzten Systemlösungen für ganze Wohnquartiere. Jeder Bereich bietet spezialisierte Lösungen, die sich nahtlos zu einer ganzheitlichen Gebäudekommunikation kombinieren lassen.",
+      "moreLink": "Mehr erfahren",
+      "items": {
+        "tuersprechanlagen": {
+          "label": "Audio & Video an der Tür",
+          "title": "Türsprechanlagen",
+          "text": "Updatefähige, modular erweiterbare Audio- und Video-Sprechanlagen wie Senso Pro und TASTA PRO – mit digitaler Namensanzeige, Rufweiterleitung auf Smartphone, DECT- oder IP-Telefon und mobiler Video-Türkommunikation über die snipdoo® HOME App."
+        },
+        "briefkastenanlagen": {
+          "label": "Brief & Paket integriert",
+          "title": "Briefkastenanlagen",
+          "text": "Vielseitige ENTRY-Briefkasten-Anlagen für Ein- und Mehrfamilienhäuser. Höchste Flexibilität in Design, Größe und Integration zukunftssicherer Türkommunikation – inklusive Paketkasten-Optionen und individueller Beschriftung."
+        },
+        "beschilderung": {
+          "label": "Leiten & Orientieren",
+          "title": "Beschilderung und Wayfinding",
+          "text": "Durchdachtes Wayfinding mit TCS-Signage: von Hausnummern und Piktogrammen bis zu individuell gestalteten Türschildern und Klingelplatten – langlebige Materialien, optionale Gravur und stimmiges Gesamtbild für den Eingangsbereich."
+        },
+        "grossanlagen": {
+          "label": "Wohnquartiere & Großprojekte",
+          "title": "Großanlagen",
+          "text": "Hochkomplexe, vernetzte Systeme für Projektentwickler und Wohnungsbaugesellschaften: Concierge- und Schrankenanlagen, Zufahrtskontrolle für Fahrzeuge, funkvernetzte Offline-Leser und digitale Namensverwaltung für eine große Anzahl von Bewohnern."
+        },
+        "systemloesungen": {
+          "label": "Ganzheitliche Vernetzung",
+          "title": "Systemlösungen",
+          "text": "Maßgeschneiderte Systemlösungen für Bauträger, Planungsbüros und Betreiber: Concierge-Lösungen, MHHR-konforme Feuerwehr-Durchsage, Türöffnerautomatik & Intercom sowie barrierefreie bidirektionale Videosprechanlagen (TCS:BIDI)."
+        }
+      }
+    },
+    "anwendungsumfelder": {
+      "label": "Anwendungsumfelder",
+      "title": "Kommunikationsanlagen für spezifische Einrichtungen",
+      "outro": "Darüber hinaus können Architekten für repräsentative Eingangsbereiche individuell gestaltete Außenstationen in speziellen Größen, Funktionen und Materialien konfigurieren.",
+      "items": {
+        "pflege": {
+          "title": "Pflege und Betreutes Wohnen",
+          "text": "Spezielle Komfortrufsysteme sowie Lösungen für Ambient Assisted Living (AAL). Auch Praxen, Ärztehäuser und Kliniken werden bedient."
+        },
+        "bildung": {
+          "title": "Bildungs- und Betreuungseinrichtungen",
+          "text": "Für Schulen bietet TCS Notfallrufsysteme, für Kindertagesstätten mobile Kommunikationslösungen für Mitarbeiter."
+        },
+        "behoerden": {
+          "title": "Behörden, Ämter und Feuerwehren",
+          "text": "In öffentlichen Amtsgebäuden und Feuerwehren werden die Anlagen auch für spezielle Feuerwehrdurchsagen genutzt."
+        },
+        "gross": {
+          "title": "Großanlagen und gewerbliche Nutzung",
+          "text": "Für große Gebäudekomplexe, Wohnheime oder Schwimm- und Freibäder gibt es erweiterte Systemlösungen mit Concierge, Schranken, Buchungssystemen und Infoboards."
+        }
+      }
+    },
+    "snipdoo": {
+      "label": "snipdoo® System",
+      "title": "Türkommunikation in IP-Netzwerken – einfach und zukunftssicher",
+      "card": {
+        "headline": "Die IP-Plattform für moderne Gebäude",
+        "text": "Skalierbar bis 150 Endgeräte pro Server, offene Standards (API, SIP, ONVIF), Plug & Play Konfiguration ohne Netzwerk-Kenntnisse und smartes Facility Management über die snipdoo® CLOUD.",
+        "cta": "Mehr über snipdoo® IP"
+      },
+      "zielgruppen": {
+        "fachplaner": {
+          "title": "Für Elektrofachplaner",
+          "text": "Maßgeschneiderte Planung und offene Systemarchitektur. Anlagenaufbau exakt an der Architektur orientiert, virtuelle Abbildung der Gebäudestruktur und nahtlose Integration von Drittanbieter-Geräten."
+        },
+        "installateur": {
+          "title": "Für Elektroinstallateure",
+          "text": "Plug & Play Konfiguration ohne Netzwerk-Kenntnisse. Geräte werden automatisch erkannt und per Drag-and-Drop den Montageorten zugewiesen – mit der PC-Anwendung snipdoo® SYSTEM."
+        },
+        "bautraeger": {
+          "title": "Für Bauträger und Verwaltungen",
+          "text": "Dauerhafte Kostenvorteile und smartes Facility Management. Standortunabhängige Verwaltung mehrerer Objekte über die snipdoo® CLOUD, Mieterwechsel per Fernzugriff, kostenfreie HOME App für Bewohner."
+        }
+      }
+    }
+  },
+  "tuersprechanlagen": {
+    "hero": {
+      "label": "Türsprechanlagen",
+      "headline": "Audio- und Video-Kommunikation an der Tür",
+      "intro": "Vom kompakten Einfamilienhaus bis zum großen Wohnquartier: TCS bietet aufeinander abgestimmte Außen- und Innenstationen für jede Anwendung – von der klassischen Audio-Sprechanlage bis zur vernetzten IP-Video-Lösung.",
+      "imageAlt": "Türsprechanlagen"
+    },
+    "ueberblick": {
+      "label": "Überblick",
+      "title": "Über 1.200 Produkte für die Gebäudekommunikation",
+      "p1": "TCS Türsprechanlagen verbinden Außen- und Innenwelt einer Immobilie: Sie sehen, wer vor der Tür steht, sprechen mit Besuchern und öffnen die Tür – komfortabel, sicher und in jeder gewünschten Ausbaustufe. Modulare Außenstationen, Innenstationen vom klassischen Hörer bis zum 10-Zoll-Touch-Dashboard und das zukunftssichere snipdoo® IP-System bilden ein durchgängiges Portfolio.",
+      "p2": "Alle Komponenten werden von TCS in Eigenregie entwickelt und produziert – für ein zuverlässiges Zusammenspiel und volle Systemkontrolle über den gesamten Lebenszyklus der Immobilie."
+    },
+    "scroller": {
+      "scrollLeft": "Zurück scrollen",
+      "scrollRight": "Weiter scrollen",
+      "datasheet": "Datenblatt"
+    },
+    "aussenstationen": {
+      "label": "Außenstationen",
+      "title": "Der erste Eindruck am Gebäude",
+      "description": "Die Klingel ertönt – die Außenstation ist der erste Kontakt am Gebäude. Video, Audio, Zutrittskontrolle und barrierefreie Bedienung in einem Gerät.",
+      "items": {
+        "pesPro": {
+          "title": "PES PRO",
+          "subtitle": "Außenstation",
+          "description": "Die kompakte Außenstation für den klassischen Wohnungsbau – mit hochwertiger Video-Kamera, klarer Audio-Übertragung und robustem Gehäuse für jeden Eingang."
+        },
+        "carusArgos": {
+          "title": "CARUS ARGOS",
+          "subtitle": "Modulare Außenstation",
+          "description": "Modular aufgebaute Außenstation mit individueller Tastenbelegung, Display und Video. Passt sich flexibel an die Architektur und die Größe der Anlage an."
+        },
+        "entry": {
+          "title": "ENTRY",
+          "subtitle": "Architektur-Außenstation",
+          "description": "Maßgeschneiderte Außenstationen für repräsentative Eingangsbereiche: individuelle Größen, Materialien und Funktionen – konfigurierbar bis ins Detail."
+        },
+        "ktu": {
+          "title": "KTU Konfigurator",
+          "subtitle": "Individuelle Konfiguration",
+          "description": "Mit dem KTU-Konfigurator stellen Architekten und Planer die passende Außenstation aus Funktion, Material und Layout zusammen – grafisch und live."
+        }
+      }
+    },
+    "innenstationen": {
+      "label": "Innenstationen",
+      "title": "Im Gebäude: kommunizieren, öffnen, steuern",
+      "description": "Vom kompakten Freisprech-Hörer bis zum Smart-Home-Dashboard – die passende Innenstation für jede Wohn- und Bedienform.",
+      "items": {
+        "tastaPro": {
+          "title": "TASTA PRO",
+          "subtitle": "Audio-Innenstation",
+          "description": "Komfortable Freisprech-Innenstation mit klarer Audio-Übertragung, integrierter Türöffnung und smarter Bedienung – ideal für den klassischen Wohnungsbau."
+        },
+        "sensoPro": {
+          "title": "SENSO PRO",
+          "subtitle": "Video-Innenstation",
+          "description": "Premium-Video-Innenstation mit Farbdisplay, kapazitiven Sensortasten und hochwertiger Bildqualität – für anspruchsvolle Wohn- und Zweckbau-Projekte."
+        },
+        "ipTasta": {
+          "title": "IP TASTA",
+          "subtitle": "IP-Audio-Station",
+          "description": "Audio-Innenstation für das snipdoo® IP-System – einfach per Netzwerk angebunden, plug & play in der Inbetriebnahme und voll skalierbar."
+        },
+        "tasta7": {
+          "title": "TASTA 7",
+          "subtitle": "Touch-Display 7\"",
+          "description": "Innenstation mit großem 7-Zoll-Touch-Display für Video-Türkommunikation, Anrufliste und Bediensteuerung – intuitiv wie ein Smartphone."
+        },
+        "skyline10": {
+          "title": "SKYLINE 10 PRO",
+          "subtitle": "Smart-Home-Dashboard",
+          "description": "Das 10-Zoll-Dashboard vereint Türkommunikation, Smart-Home-Steuerung und Komfortfunktionen – das zentrale Bedienelement der vernetzten Wohnung."
+        },
+        "carusNext": {
+          "title": "CARUS NEXT",
+          "subtitle": "Designer-Innenstation",
+          "description": "Hochwertige Designer-Innenstation mit Touch-Bedienung und klaren Linien – die elegante Ergänzung zu den CARUS-Außenstationen."
+        },
+        "seriesH": {
+          "title": "SERIES H",
+          "subtitle": "Audio-Hörer",
+          "description": "Klassische Audio-Innenstation mit Hörer – die zuverlässige und kostengünstige Lösung für Bestand, Sanierung und einfache Anlagen."
+        }
+      }
+    },
+    "vorteile": {
+      "label": "Vorteile",
+      "title": "Warum TCS Türsprechanlagen?",
+      "items": {
+        "qualitaet": {
+          "title": "Klare Audio- und Video-Qualität",
+          "desc": "Hochauflösende Kameras, rauschfreie Sprachübertragung und Echo-Unterdrückung – auch bei schwierigen Lichtverhältnissen."
+        },
+        "mobil": {
+          "title": "Mobil per snipdoo® HOME App",
+          "desc": "Sehen, sprechen und Tür öffnen von überall – kostenfreie App für iOS und Android, sicher verschlüsselt."
+        },
+        "barrierefrei": {
+          "title": "Barrierefreie Bedienung",
+          "desc": "Große Tasten, Sprachausgabe, induktive Hörhilfen-Kopplung und kontrastreiche Displays gemäß DIN 18040."
+        },
+        "skalierbar": {
+          "title": "Skalierbar mit snipdoo® IP",
+          "desc": "Vom Einfamilienhaus bis zu 150 Endgeräten pro Server – über offene Standards (SIP, ONVIF, API) integrierbar."
+        }
+      }
+    },
+    "snipdoo": {
+      "label": "Systemtechnik",
+      "title": "Türkommunikation in IP-Netzwerken – einfach und zukunftssicher",
+      "text": "Mit snipdoo® bietet TCS eine leistungsstarke, flexible und sichere Tür- und Gebäudekommunikationstechnik für moderne Gebäude. Das System vereint die unkomplizierte Handhabung klassischer BUS-Systeme mit der grenzenlosen Flexibilität moderner IP-Technologie.",
+      "cta": "Mehr über snipdoo® IP erfahren"
+    },
+    "anwendungsumfelder": {
+      "label": "Anwendungen",
+      "title": "Türsprechanlagen für alle Anwendungsumfelder",
+      "learnMore": "Mehr erfahren …"
+    }
+  },
+  "grossanlagen": {
+    "hero": {
+      "label": "Gebäudekommunikation / Großanlagen",
+      "headline": "Großanlagen für Quartiere, Wohnungsbau und gemischte Bauträgerprojekte",
+      "intro": "Vernetzte Systemlösungen für Projektentwickler, große Wohnungsbaugesellschaften und Quartiersmanager. Eine Plattform für Concierge, Zutritt, Zufahrt und Namensverwaltung – über alle Bauabschnitte und Nutzungsarten hinweg, betriebssicher und wirtschaftlich auch bei tausenden Bewohnern.",
+      "imageAlt": "Großanlagen"
+    },
+    "anforderungen": {
+      "label": "Für Projektentwickler & Quartiersmanager",
+      "title": "Komplexe Anlagen, eine konsolidierte Plattform",
+      "intro": "Große Wohnungsbaugesellschaften und Bauträger stehen vor derselben Herausforderung: gewachsene Bestände, gemischte Nutzungen und tausende Bewohner mit individuellen Berechtigungen. Wir bündeln Türkommunikation, Zutritt und Zufahrt in einem IP-basierten System – betriebsstabil, mandantenfähig und in der Bewirtschaftung messbar günstiger als getrennte Insellösungen.",
+      "items": {
+        "nutzung": {
+          "title": "Gemischte Nutzung im Quartier",
+          "text": "Wohnen, Gewerbe, TG-Stellplätze, Müllräume und Gemeinschaftsflächen in einem System – mit klar getrennten Berechtigungen je Nutzungseinheit."
+        },
+        "skalierung": {
+          "title": "Hunderte bis tausende Einheiten",
+          "text": "Skalierbare IP-Architektur für Quartiere ab 100 WE – mehrere Bauabschnitte, Eingänge und Gebäudeteile in einer Verwaltungsoberfläche."
+        },
+        "concierge": {
+          "title": "Concierge & 24/7-Service",
+          "text": "Empfang als Schaltzentrale für Pakete, Besucher und Notrufe – außerhalb der Servicezeiten automatische Weiterleitung an Bereitschaft oder Smartphone."
+        },
+        "zufahrt": {
+          "title": "Zufahrts- und Parkraumkontrolle",
+          "text": "Schranken, Poller und Tore mit Kennzeichenerkennung oder Transponder – inkl. Besucherregelung und Zeitfensterfreigaben für Dienstleister."
+        },
+        "funk": {
+          "title": "Funkvernetzte Offline-Systeme",
+          "text": "Batteriebetriebene Funkzylinder und Wandleser für Wohnungstüren, Keller und Nebenräume – ohne aufwendige Verkabelung, mit zentralem Berechtigungsmanagement."
+        },
+        "namensverwaltung": {
+          "title": "Digitale Namensverwaltung",
+          "text": "e-Paper-Namensanzeigen und zentrales Mieter-Management – Mieterwechsel werden in Sekunden umgestellt, ohne Schlosserarbeiten oder Schildertausch."
+        }
+      }
+    },
+    "concierge": {
+      "label": "Concierge & Empfang",
+      "title": "Der bewirtschaftete Eingang",
+      "imageAlt": "Concierge-Arbeitsplatz mit Bildschirmsteuerung",
+      "p1": "Im urbanen Quartier wird der Empfang zum Servicezentrum: Pakete, Besucher, Handwerker, Notrufe – alles läuft über einen Arbeitsplatz mit Live-Video, gezielter Türschaltung und revisionssicherem Protokoll. Mehrere Eingänge mehrerer Gebäude werden zentral bedient, auch über Bauabschnittsgrenzen hinweg.",
+      "p2": "Außerhalb der Servicezeiten leitet das System Rufe automatisch auf Bereitschaft, Smartphone oder DECT-Telefon weiter. So bleibt der Empfang 24/7 erreichbar – ohne die Personalkosten eines durchgehend besetzten Pförtners."
+    },
+    "zufahrt": {
+      "label": "Zufahrt & Parkraum",
+      "title": "Fahrzeuge im Quartier kontrolliert steuern",
+      "imageAlt": "Schrankenanlage und Zufahrtskontrolle im Quartier",
+      "p1": "Tiefgaragen, Mitarbeiterparkplätze, Lieferzonen und Besucherstellplätze lassen sich über Schranken, Poller und Tore differenziert regeln – per Kennzeichenerkennung, Transponder oder mobiler App. Berechtigungen werden im selben System gepflegt wie die Türzutritte; ein Mieterwechsel deaktiviert Wohnungstür, TG-Schranke und Müllraum gleichzeitig.",
+      "p2": "Für Dienstleister und Lieferdienste lassen sich Zeitfenster, Stellplatz-Kontingente und einmalige Codes vergeben – inklusive automatischem Protokoll für die Hausverwaltung."
+    },
+    "funk": {
+      "label": "Funkvernetzte Offline-Leser",
+      "title": "Schlüsselverwaltung ohne Verkabelung",
+      "imageAlt": "Funkvernetzter Offline-Zylinder an einer Wohnungstür",
+      "p1": "Wohnungstüren, Keller, Müllräume und Nebeneingänge mit batteriebetriebenen Funkzylindern und Wandlesern ausstatten – ohne Stemmarbeiten, ohne Verkabelung. Berechtigungen werden über Funk-Gateways im Treppenhaus oder über das Mieter-Medium selbst auf den Zylinder geschrieben.",
+      "p2": "Für Wohnungsbaugesellschaften besonders wirtschaftlich: Bei Mieterwechsel oder Schlüsselverlust wird der verlorene Transponder zentral gesperrt – ein Schließanlagentausch entfällt vollständig."
+    },
+    "namensanzeige": {
+      "label": "Digitale Namensanzeige",
+      "title": "Mieterwechsel in Sekunden umgesetzt",
+      "imageAlt": "Digitale e-Paper-Namensanzeige an einer Wohnungstür",
+      "p1": "e-Paper-Namensanzeigen ersetzen gravierte Schilder an Klingeltableau, Briefkasten und Wohnungstür. Der Wechsel erfolgt zentral aus der Mieterverwaltung – kein Vor-Ort-Termin, kein Schildertausch, keine veralteten Namen im Treppenhaus.",
+      "p2": "Bei Anlagen mit hunderten Bewohnern und entsprechender Fluktuation reduziert das den Bewirtschaftungsaufwand spürbar und sorgt für ein dauerhaft konsistentes Erscheinungsbild des Quartiers.",
+      "moreLink": "Mehr zur digitalen Namensanzeige"
+    },
+    "leistungen": {
+      "label": "Systemleistungen",
+      "title": "Eine Plattform – drei Disziplinen",
+      "items": {
+        "steuerung": {
+          "title": "Zentrale Steuerung",
+          "items": [
+            "Mandantenfähige Verwaltung für mehrere Bauabschnitte",
+            "Rollenbasierte Zugriffe für Hausverwaltung, Concierge und Facility Management",
+            "Schnittstellen zu ERP-, CAFM- und Mieterportalen"
+          ]
+        },
+        "zutritt": {
+          "title": "Zutritt & Mobilität",
+          "items": [
+            "Funkvernetzte Offline-Zylinder für Wohnungstüren ohne Verkabelung",
+            "Mobiler Zutritt per App für Mieter, Dienstleister und Lieferdienste",
+            "Schrankenanlagen und Poller für TG, Mitarbeiter- und Besucherparkplätze"
+          ]
+        },
+        "kommunikation": {
+          "title": "Kommunikation & Service",
+          "items": [
+            "Display-Außenstationen mit digitaler Namenssuche für tausende Bewohner",
+            "Concierge-Arbeitsplätze mit Video, Türschaltung und Paketannahme",
+            "Notruf- und Aufzugnotruf-Integration nach DIN EN 81-28"
+          ]
+        }
+      }
+    },
+    "wirtschaftlichkeit": {
+      "label": "Für Bauträger & Wohnungsbaugesellschaften",
+      "title": "Wirtschaftlich über den Lebenszyklus",
+      "items": {
+        "betriebskosten": {
+          "title": "Geringere Betriebskosten",
+          "text": "Zentrale Verwaltung, kein Schließanlagentausch bei Mieterwechsel, automatisierte Namensänderungen – messbarer Effekt in der Bewirtschaftung großer Bestände."
+        },
+        "investition": {
+          "title": "Investitionssicherheit",
+          "text": "Offene IP-Standards, modulare Erweiterung ohne Systemwechsel und langfristige Verfügbarkeit der Komponenten – auch über mehrere Bauabschnitte hinweg."
+        },
+        "architektur": {
+          "title": "Quartierstaugliche Architektur",
+          "text": "Mandantenfähig für unterschiedliche Eigentümer, Verwalter und Nutzungen in einem Quartier – ohne parallele Insellösungen je Bauteil."
+        }
+      }
+    },
+    "systembausteine": {
+      "label": "Systembausteine",
+      "title": "Typische Komponenten im Quartier",
+      "intro": "Aus diesen Bausteinen entsteht Ihre individuelle Quartierslösung – modular kombinierbar und über den Lebenszyklus erweiterbar.",
+      "details": "Details",
+      "items": {
+        "concierge": {
+          "label": "Concierge-Arbeitsplatz",
+          "title": "Empfangs-Software",
+          "description": "Multi-Eingang-Steuerung mit Video, Türschaltung und Besucherprotokoll."
+        },
+        "bcm": {
+          "label": "BCM Online / Funk-Offline",
+          "title": "Zutrittsmanagement",
+          "description": "Hybrid aus Online-Tür und funkvernetzten Offline-Zylindern – eine Verwaltung."
+        },
+        "schranken": {
+          "label": "Schranken & Poller",
+          "title": "Zufahrtskontrolle",
+          "description": "Kennzeichenerkennung, Transponder und App-Steuerung für Fahrzeuge."
+        },
+        "namensanzeige": {
+          "label": "Digitale Namensanzeige",
+          "title": "e-Paper-Verwaltung",
+          "description": "Mieterwechsel zentral in Sekunden – ohne Schilderwechsel vor Ort."
+        }
+      }
+    },
+    "projektCta": {
+      "label": "Projektberatung",
+      "title": "Quartier konkret planen?",
+      "intro": "Wir begleiten Projektentwickler, Wohnungsbaugesellschaften und Quartiersmanager von der Bedarfsanalyse über die Topologieplanung bis zur Inbetriebnahme – inkl. Lebenszyklusbetrachtung und Schnittstellenkonzept zu ERP, CAFM und Mieterportal.",
+      "ctaPrimary": "Zum Konfigurator",
+      "ctaSecondary": "Beratung anfragen"
+    }
+  },
+  "snipdooIp": {
+    "seo": {
+      "title": "snipdoo IP – Intelligente Türkommunikation als System | TCS",
+      "description": "snipdoo IP verbindet Server, Software und Geräte zu einer durchgängigen IP-Systemlösung für Planung, Installation und Betrieb."
+    },
+    "breadcrumbFallback": "snipdoo IP",
+    "subnav": {
+      "items": {
+        "hero": "Überblick",
+        "systemversprechen": "Vorteile",
+        "fuerWen": "Für wen",
+        "nutzungAlltag": "Nutzung im Alltag",
+        "systemaufbau": "Systemaufbau",
+        "inbetriebnahme": "Inbetriebnahme",
+        "anwendungen": "Anwendungen",
+        "rollen": "Details je Zielgruppe",
+        "kontakt": "Kontakt"
+      }
+    },
+    "hero": {
+      "eyebrow": "snipdoo IP",
+      "headline": "snipdoo: Intelligente Türkommunikation für Gebäude von morgen",
+      "subheadline": "Türkommunikation als durchgängiges IP-System",
+      "p1": "snipdoo IP verbindet Server, Software und Geräte zu einer klar strukturierten Systemlösung für Planung, Installation und Betrieb.",
+      "p2": "Im Zentrum steht der lokale snipdoo Server als Steuer- und Integrationspunkt der gesamten Anlage. Er vernetzt alle Komponenten und sorgt für einen stabilen Betrieb. Konfiguration und Erweiterung erfolgen strukturiert und ohne vertiefte Netzwerkkenntnisse – abgestimmt auf die Anforderungen von Installateuren, Planern und Betreibern.",
+      "primary": "Systemunterlagen anfordern",
+      "secondary": "Zum Systemaufbau"
+    },
+    "systemversprechen": {
+      "eyebrow": "snipdoo IP · Vorteile",
+      "headline": "Was snipdoo IP ausmacht",
+      "p1": "snipdoo IP ist ein IP-basiertes Türkommunikationssystem, das konsequent um den lokalen Server als zentrale Einheit aufgebaut ist. Alle Komponenten werden in einer durchgängigen Systemstruktur zusammengeführt.",
+      "p2": "Die Einrichtung erfolgt klar geführt und ohne komplexe Netzwerktechnik. Gleichzeitig bleibt das System flexibel skalierbar – vom Einfamilienhaus bis zu großen Gebäudestrukturen – und durch offene Schnittstellen unabhängig erweiterbar."
+    },
+    "audiences": {
+      "headline": "Für wen ist snipdoo IP?",
+      "items": {
+        "installateure": {
+          "iconLabel": "Symbol Installation",
+          "label": "Für Installateure",
+          "title": "Einfach installieren und in Betrieb nehmen",
+          "text": "snipdoo IP reduziert den Aufwand bei Inbetriebnahme und Einrichtung deutlich. Der Server erkennt alle Geräte automatisch und stellt sie übersichtlich dar. Die Zuordnung erfolgt direkt in der Software per Drag-and-Drop – schnell, nachvollziehbar und ohne tiefgehende Netzwerkkenntnisse."
+        },
+        "planer": {
+          "iconLabel": "Symbol Planung",
+          "label": "Für Planer",
+          "title": "Strukturiert planen und vernetzen",
+          "text": "Die Anlage wird entlang der realen Gebäudestruktur aufgebaut – mit Türen, Etagen und Nutzungseinheiten. Das schafft Klarheit in der Planung und erleichtert die Abstimmung mit anderen Gewerken. Über standardisierte Schnittstellen lässt sich die Türkommunikation einfach in bestehende Systeme integrieren."
+        },
+        "betreiber": {
+          "iconLabel": "Symbol Betrieb",
+          "label": "Für Betreiber",
+          "title": "Zentral verwalten und betreiben",
+          "text": "snipdoo IP ermöglicht die standortunabhängige Verwaltung mehrerer Anlagen. Änderungen lassen sich direkt per Fernzugriff umsetzen, ohne Vor-Ort-Einsatz. Die Cloud-Anbindung unterstützt Wartung und Betrieb und reduziert den administrativen Aufwand nachhaltig."
+        }
+      }
+    },
+    "nutzungAlltag": {
+      "eyebrow": "snipdoo IP · Nutzung im Alltag",
+      "headline": "Nutzung im Alltag",
+      "subheadline": "Komfortable Türkommunikation für Nutzer",
+      "p1": "Neben den Beteiligten in Planung und Betrieb profitieren vor allem die Menschen im Gebäude vom System.",
+      "p2": "snipdoo IP wird im Alltag über die snipdoo HOME App genutzt. Bewohner und Büroangestellte können jederzeit sehen, wer vor der Tür steht, mit Besuchern sprechen und die Tür öffnen – unabhängig vom Standort. Die Bedienung erfolgt über das Smartphone und lässt sich flexibel auf mehrere Nutzer erweitern. Funktionen wie Rufhistorie oder Mehrgerätenutzung unterstützen die tägliche Nutzung zusätzlich und erhöhen den Komfort im Gebäude.",
+      "imageAlt": "Junge Frau nimmt einen Türruf mit der snipdoo HOME App auf dem Smartphone entgegen."
+    },
+    "systemaufbau": {
+      "eyebrow": "snipdoo IP · Systemaufbau",
+      "headline": "Systemaufbau und Funktionen",
+      "intro": "Fünf Module ergeben ein konsistentes Gesamtsystem.",
+      "diagramAlt": "Systemdiagramm snipdoo IP: snipdoo SERVER als Zentrale, verbunden mit IP-Innenstationen, IP-Außenstationen, Kamera, Türlautsprecher, snipdoo HOME App, PoE Switch, LTE-Router, snipdoo CLOUD und snipdoo SYSTEM (PC-Anwendung).",
+      "modules": {
+        "server": {
+          "iconLabel": "Symbol Server",
+          "label": "Server",
+          "title": "Zentrale Steuerung der Anlage",
+          "text": "Der snipdoo Server bildet das Zentrum des Systems. Er verbindet alle Geräte, steuert die Kommunikation und sorgt für einen stabilen Betrieb. Alle weiteren Funktionen greifen auf diese zentrale Systembasis zurück."
+        },
+        "software": {
+          "iconLabel": "Symbol Software",
+          "label": "Software",
+          "title": "Konfiguration mit klarer Struktur",
+          "text": "Mit der Software snipdoo SYSTEM wird die Anlage eingerichtet. Geräte werden automatisch erkannt und den jeweiligen Montageorten zugeordnet. So entsteht eine klare Struktur, die sich an der Gebäudelogik orientiert."
+        },
+        "cloud": {
+          "iconLabel": "Symbol Cloud",
+          "label": "Cloud",
+          "title": "Verwaltung per Fernzugriff",
+          "text": "Die snipdoo CLOUD ergänzt das System um zentrale Verwaltungsfunktionen. Anlagen können standortunabhängig betreut und angepasst werden. Wartung und Updates erfolgen ohne zusätzlichen Vor-Ort-Aufwand."
+        },
+        "app": {
+          "iconLabel": "Symbol App",
+          "label": "App",
+          "title": "Türkommunikation mobil nutzen",
+          "text": "Mit der snipdoo HOME App wird die Anlage auch mobil nutzbar. Türrufe, Sprachverbindungen und Kamerabilder werden direkt auf das Smartphone übertragen. Die Bedienung bleibt dabei einfach und jederzeit verfügbar.",
+          "linkLabel": "Mehr zur mobilen Türkommunikation"
+        },
+        "integration": {
+          "iconLabel": "Symbol Integration",
+          "label": "Integration",
+          "title": "Offen für weitere Systeme",
+          "text": "snipdoo IP lässt sich über standardisierte Schnittstellen in andere Systeme einbinden. Dazu gehören unter anderem IP-Telefonie, Zutrittskontrolle oder Videoüberwachung. So bleibt die Anlage flexibel und erweiterbar."
+        }
+      }
+    },
+    "inbetriebnahme": {
+      "eyebrow": "snipdoo IP · Inbetriebnahme",
+      "headline": "Einfach in Betrieb nehmen – ohne komplexe Netzwerktechnik",
+      "intro": "Mit der Windows-Anwendung snipdoo® SYSTEM konfigurieren Sie Ihre Türsprechanlage schnell und strukturiert direkt am PC. Alle Komponenten werden automatisch erkannt und lassen sich ohne Netzwerkkenntnisse per Drag-and-Drop den realen Montageorten zuordnen.",
+      "outro": "Die Konfiguration erfolgt nachvollziehbar und reduziert den Aufwand bei Inbetriebnahme und Anpassung deutlich.",
+      "imageAlt": "Drei Zoom-Details der snipdoo SYSTEM Software: 1. Strukturbaum mit Eingängen, Etagen und Wohnungen, 2. Geräteliste mit Artikelnummern, 3. Drag-and-Drop-Zuordnung von Komponenten zu Montageorten.",
+      "steps": {
+        "struktur": {
+          "title": "Struktur entlang des Gebäudes anlegen",
+          "text": "Die Anlage wird in der Software direkt nach der Gebäudelogik aufgebaut – mit Eingängen, Etagen und Nutzungseinheiten. So entsteht von Anfang an eine klare und nachvollziehbare Struktur."
+        },
+        "erkennung": {
+          "title": "Geräte automatisch erkennen",
+          "text": "Das System erkennt alle Geräte im Netzwerk automatisch und listet sie übersichtlich auf – inklusive Artikelnummer statt IP-Adressen."
+        },
+        "zuordnung": {
+          "title": "Komponenten einfach zuordnen",
+          "text": "Die erkannten Geräte werden per Drag-and-Drop den jeweiligen Montageorten zugewiesen. Die Zuordnung erfolgt visuell und direkt – schnell und eindeutig."
+        }
+      }
+    },
+    "anwendungen": {
+      "eyebrow": "snipdoo IP · Anwendungen",
+      "headline": "Passend für jede Anlagengröße",
+      "intro": "snipdoo IP lässt sich durchgängig von kleinen bis zu komplexen Anlagen einsetzen und passt sich den Anforderungen der jeweiligen Umgebung an.",
+      "items": {
+        "efh": {
+          "label": "Einfamilienhaus",
+          "title": "Schneller Einstieg mit geringem Aufwand",
+          "text": "Die Inbetriebnahme erfolgt einfach über die Software. Vorhandene Netzwerkinfrastruktur kann direkt genutzt werden. So entsteht ohne großen Aufwand ein funktionierendes System für die Türkommunikation.",
+          "imageAlt": "Modernes Einfamilienhaus mit Photovoltaik-Dach und Garten – typische Anwendung für snipdoo IP im Ein- und Zweifamilienhaus."
+        },
+        "mfh": {
+          "label": "Mehrfamilienhaus",
+          "title": "Strukturiert für mehrere Einheiten",
+          "text": "Auch bei mehreren Wohneinheiten bleibt die Anlage übersichtlich aufgebaut. Die Cloud-Anbindung unterstützt die zentrale Verwaltung und Organisation der Nutzer. So lassen sich größere Wohnanlagen effizient betreiben und anpassen.",
+          "imageAlt": "Modernes Mehrfamilienhaus mit Dachterrasse – typische Anwendung für snipdoo IP in der Wohnungswirtschaft."
+        },
+        "gewerbe": {
+          "label": "Gewerbe und größere Anlagen",
+          "title": "Flexibel für komplexe Anforderungen",
+          "text": "In größeren Projekten zeigt das System seine Integrationsfähigkeit. Weitere Systeme wie IP-Telefonie, Videoüberwachung oder Zutrittslösungen können eingebunden werden. Die Anlage bleibt flexibel erweiterbar und an unterschiedliche Anforderungen anpassbar.",
+          "imageAlt": "Moderne Glasfassade mit Bäumen – typische Einsatzumgebung für snipdoo IP in Gewerbegebäuden und größeren Anlagen."
+        }
+      }
+    },
+    "rollen": {
+      "eyebrow": "snipdoo IP · Details je Zielgruppe",
+      "headline": "Details je Zielgruppe",
+      "intro": "Die drei Gruppen aus dem Überblick vertiefen wir hier weiter – für fünf typische Beteiligte an einem Türkommunikationsprojekt.",
+      "tabs": {
+        "bauherren": {
+          "label": "Bauherren",
+          "headline": "Einfach einsteigen, flexibel nutzen",
+          "p1": "Mit snipdoo IP gelingt ein schneller Einstieg in eine moderne Türkommunikation – der Aufwand für Einrichtung und Inbetriebnahme bleibt gering. Für den Aufbau lässt sich die bereits vorhandene Netzwerkinfrastruktur im Gebäude direkt nutzen. Die Basis bildet ein IP-System, das konsequent um einen lokalen Server als zentrale Einheit aufgebaut ist und alle Komponenten zuverlässig in einer Struktur vernetzt.",
+          "p2": "Mit der snipdoo HOME App wird die Anlage komfortabel im Alltag nutzbar: Türrufe, Sprachverbindungen und Kamerabilder werden direkt auf das Smartphone übertragen."
+        },
+        "architekten": {
+          "label": "Architekten",
+          "headline": "Klar projektieren, offen integrieren",
+          "p1": "Die Systemarchitektur von snipdoo IP schafft Klarheit in der Projektierung und erleichtert die Abstimmung mit anderen Gewerken. Die Anlage lässt sich exakt entlang der realen Gebäudestruktur abbilden – einschließlich aller Türen, Etagen und Nutzungseinheiten.",
+          "p2": "Über standardisierte Schnittstellen wird die Türkommunikation nahtlos in bestehende Konzepte und weitere Systeme wie Videoüberwachung oder Zutrittskontrolle integriert."
+        },
+        "wohnungswirtschaft": {
+          "label": "Wohnungswirtschaft",
+          "headline": "Effizient betreiben, zentral verwalten",
+          "p1": "snipdoo IP reduziert den administrativen Aufwand nachhaltig und macht den Betrieb größerer Wohnanlagen spürbar effizienter. Auch bei mehreren Wohneinheiten bleibt die Struktur der Anlage durchgängig klar aufgebaut. Der lokale snipdoo Server fungiert als stabiler Steuer- und Integrationspunkt, der alle Geräte in einer durchgängigen Systemlösung zusammenführt.",
+          "p2": "Für die Nutzer entsteht eine einfache und stets verfügbare mobile Bedienung im Alltag. Für Betreiber erlaubt die snipdoo CLOUD die standortunabhängige Verwaltung – Änderungen, Wartung und Updates werden zentral per Fernzugriff umgesetzt, ohne Vor-Ort-Einsatz."
+        },
+        "fachplaner": {
+          "label": "Fachplaner",
+          "headline": "Strukturiert planen, offen integrieren",
+          "p1": "snipdoo IP ermöglicht eine klar strukturierte Projektierung, die sich an die jeweilige Anlage anpasst – vom Einfamilienhaus bis zu komplexen Großanlagen. Die Systemstruktur orientiert sich direkt an der Gebäudelogik, sodass alle Geräte nachvollziehbar ihren Montageorten zugeordnet werden.",
+          "p2": "Die lokale Systembasis steuert die gesamte Kommunikation. Standardisierte, offene Schnittstellen sichern die Einbindung externer Gewerke wie IP-Telefonie, Videoüberwachung und Zutrittslösungen."
+        },
+        "handwerk": {
+          "label": "Handwerk",
+          "headline": "Schnell installieren, zuverlässig betreiben",
+          "p1": "snipdoo IP reduziert den Installations- und Einrichtungsaufwand deutlich. Vertiefte Netzwerkkenntnisse sind nicht erforderlich. Der zentrale snipdoo Server erkennt alle angeschlossenen Geräte im Netzwerk automatisch, verbindet sie und sorgt für einen stabilen Betrieb der Anlage.",
+          "p2": "Die Konfiguration erfolgt schnell und übersichtlich in der Software snipdoo SYSTEM, in der die erkannten Komponenten direkt per Drag-and-Drop zugeordnet werden."
+        }
+      }
+    },
+    "kontakt": {
+      "headline": "Interesse an snipdoo IP?",
+      "intro": "Wir unterstützen Sie bei Planung, Test und Einführung.",
+      "ctaPrimary": "Projektanfrage senden",
+      "ctaSecondary": "Systemunterlagen herunterladen",
+      "ctaTertiary": "Schulung / Demo buchen"
+    }
+  },
+  "beschilderung": {
+    "hero": {
+      "label": "Gebäudekommunikation / Beschilderung und Wayfinding",
+      "headline": "Beschilderung, Leiten & Orientieren mit TCS-Signage",
+      "intro": "TCS-Signage steht für moderne Beschilderung und durchdachtes Wayfinding – innovative Leit- und Orientierungssysteme, die höchste ästhetische Ansprüche mit intelligenter Funktionalität vereinen. Von ultraflachen, smarten Hausnummern bis zu maßgeschneiderten Wechselschildern und Piktogrammen für Bürogebäude, Hotellerie und Gastronomie."
+    },
+    "features": {
+      "label": "Features & Anwendungen",
+      "title": "Architektonische Identität – funktional gedacht",
+      "intro": "Schaffen Sie repräsentative Eingangsbereiche und eine klare Orientierung. Lassen Sie sich von unseren flexiblen Standards und individuellen Einzelanfertigungen inspirieren.",
+      "items": {
+        "hausnummer": {
+          "title": "Smarte Hausnummern mit Tag-Nacht-Kontrast",
+          "text": "Architektonische Highlights mit attraktiven, beleuchteten Hausnummern in ultraflacher Bauform (nur 18 mm Aufputzhöhe). Das innovative Day&Night Spezialglas sorgt für maximale Lesbarkeit: tagsüber tiefes Schwarz, nachts kräftiges Weiß durch langlebige LED-Hinterleuchtung. Integrierter Helligkeitssensor mit automatischer Tag-/Nachtumschaltung und Dimmfunktion.",
+          "imageAlt": "Smarte Hausnummern mit Tag-Nacht-Kontrast"
+        },
+        "materialien": {
+          "title": "Grenzenlose Individualität und Farbvielfalt",
+          "text": "Solide Fronten aus 3 mm Aluminium, geschliffenem Edelstahl oder exklusiver Baubronze – äußerst robust und beständig. Mit feinstrukturierten Pulverlacken nach RAL classic steht Ihnen das maximale Spektrum an Farben zur Verfügung. Auswechselbare Farbkarten hinterlegen Ziffern- und Piktogrammkonturen in Ihrem Wunschfarbton.",
+          "imageAlt": "Grenzenlose Individualität und Farbvielfalt"
+        },
+        "tuerschilder": {
+          "title": "Flexible Türschilder und intuitive Piktogramme",
+          "text": "Großzügig formatierte Tür- und Informationsschilder aus Edelstahl und Acrylglas – ideal für Büros, Kanzleien und Praxen. Der Wechsel der Einleger (bis DIN A3, inkl. Flucht- und Rettungspläne) funktioniert dank Acrylcliptechnik gänzlich ohne Werkzeug. Ergänzt durch klare Piktogramme aus dem Standard-Portfolio oder als individuelle Zeichen.",
+          "imageAlt": "Flexible Türschilder und intuitive Piktogramme"
+        },
+        "klingel": {
+          "title": "Passende Türklingeln für das perfekte Entrée",
+          "text": "Vollenden Sie den Eingangsbereich ganzheitlich – mit Türklingeln, deren Frontplatten farblich und materiell zu Hausnummern und Schildern passen. Großzügige Taster (22 oder 28 mm Durchmesser), wahlweise unbeleuchtet oder mit hoch illuminierter, neutralweißer LED-Ringbeleuchtung. Optional veredelt mit Gravur und Überpulverung.",
+          "imageAlt": "Passende Türklingeln für das perfekte Entrée"
+        }
+      }
+    },
+    "beratung": {
+      "label": "Projektberatung",
+      "title": "Planen Sie ein neues Projekt?",
+      "text": "Egal, ob privates Doppelhaus, komplexes Bürogebäude oder exklusives Hotel – unsere Experten unterstützen Architekten, Planungsbüros und Bauträger von der ersten Idee bis zur finalen Umsetzung. Überzeugen Sie sich von der Leistungsfähigkeit und Qualität von TCS-Signage.",
+      "cta": "Projektberatung vereinbaren"
+    }
+  }
+}

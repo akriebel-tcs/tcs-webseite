@@ -1,0 +1,4078 @@
+{
+  "version": "mbf7e75fd-440",
+  "source_locale": "de",
+  "counts": {
+    "entries": 440,
+    "excluded": 33,
+    "seeds": {
+      "en": 420,
+      "pl": 210,
+      "nl": 197
+    }
+  },
+  "namespaces": [
+    "common",
+    "navigation",
+    "service",
+    "serviceportal"
+  ],
+  "entries": [
+    {
+      "namespace": "common",
+      "key": "actions.back",
+      "de": "Zurück",
+      "seed": {
+        "en": "Back",
+        "pl": "Wróć",
+        "nl": "Terug"
+      }
+    },
+    {
+      "namespace": "common",
+      "key": "actions.close",
+      "de": "Schließen",
+      "seed": {
+        "en": "Close",
+        "pl": "Zamknij",
+        "nl": "Sluiten"
+      }
+    },
+    {
+      "namespace": "common",
+      "key": "actions.contact",
+      "de": "Kontakt aufnehmen",
+      "seed": {
+        "en": "Contact us",
+        "pl": "Kontakt",
+        "nl": "Neem contact op"
+      }
+    },
+    {
+      "namespace": "common",
+      "key": "actions.more",
+      "de": "Mehr erfahren",
+      "seed": {
+        "en": "Learn more",
+        "pl": "Dowiedz się więcej",
+        "nl": "Meer informatie"
+      }
+    },
+    {
+      "namespace": "common",
+      "key": "app.language",
+      "de": "Deutsch",
+      "seed": {
+        "en": "English",
+        "pl": "Polski",
+        "nl": "Nederlands"
+      }
+    },
+    {
+      "namespace": "common",
+      "key": "language.de",
+      "de": "Deutsch",
+      "seed": {
+        "en": "German",
+        "pl": "niemiecki",
+        "nl": "Duits"
+      }
+    },
+    {
+      "namespace": "common",
+      "key": "language.en",
+      "de": "Englisch",
+      "seed": {
+        "en": "English",
+        "pl": "angielski",
+        "nl": "Engels"
+      }
+    },
+    {
+      "namespace": "common",
+      "key": "language.nl",
+      "de": "Niederländisch",
+      "seed": {
+        "en": "Dutch",
+        "pl": "niderlandzki",
+        "nl": "Nederlands"
+      }
+    },
+    {
+      "namespace": "common",
+      "key": "language.pl",
+      "de": "Polnisch",
+      "seed": {
+        "en": "Polish",
+        "pl": "polski",
+        "nl": "Pools"
+      }
+    },
+    {
+      "namespace": "common",
+      "key": "notFound.cta",
+      "de": "Zurück zur Startseite",
+      "seed": {
+        "en": "Back to home",
+        "pl": "Powrót na stronę główną",
+        "nl": "Terug naar de startpagina"
+      }
+    },
+    {
+      "namespace": "common",
+      "key": "notFound.headline",
+      "de": "Seite nicht gefunden",
+      "seed": {
+        "en": "Page not found",
+        "pl": "Strona nie została znaleziona",
+        "nl": "Pagina niet gevonden"
+      }
+    },
+    {
+      "namespace": "common",
+      "key": "notFound.intro",
+      "de": "Die angeforderte Seite existiert nicht oder wurde verschoben. Bitte prüfen Sie die Adresse oder kehren Sie zur Startseite zurück.",
+      "seed": {
+        "en": "The requested page does not exist or has been moved. Please check the address or return to the home page.",
+        "pl": "Żądana strona nie istnieje lub została przeniesiona. Sprawdź adres lub wróć na stronę główną.",
+        "nl": "De opgevraagde pagina bestaat niet of is verplaatst. Controleer het adres of ga terug naar de startpagina."
+      }
+    },
+    {
+      "namespace": "common",
+      "key": "pageCta.button",
+      "de": "Projektberatung vereinbaren",
+      "seed": {
+        "en": "Schedule project consulting",
+        "pl": "Zamów doradztwo projektowe",
+        "nl": "Projectadvies aanvragen"
+      }
+    },
+    {
+      "namespace": "common",
+      "key": "pageCta.headline",
+      "de": "Lassen Sie uns Ihr Projekt gemeinsam planen",
+      "seed": {
+        "en": "Let’s plan your project together",
+        "pl": "Zaplanujmy Państwa projekt razem",
+        "nl": "Laten we uw project samen plannen"
+      }
+    },
+    {
+      "namespace": "common",
+      "key": "pageCta.intro",
+      "de": "Kontaktieren Sie unsere Experten für eine individuelle Projektberatung.",
+      "seed": {
+        "en": "Contact our experts for individual project consulting.",
+        "pl": "Skontaktuj się z naszymi ekspertami, aby uzyskać indywidualne doradztwo projektowe.",
+        "nl": "Neem contact op met onze experts voor persoonlijk projectadvies."
+      }
+    },
+    {
+      "namespace": "common",
+      "key": "ui.hideBadge",
+      "de": "Badge ausblenden",
+      "seed": {
+        "en": "Hide badge",
+        "pl": "Ukryj plakietkę",
+        "nl": "Label verbergen"
+      }
+    },
+    {
+      "namespace": "common",
+      "key": "ui.learnMore",
+      "de": "Mehr erfahren",
+      "seed": {
+        "en": "Learn more",
+        "pl": "Dowiedz się więcej",
+        "nl": "Meer informatie"
+      }
+    },
+    {
+      "namespace": "common",
+      "key": "ui.loadingPage",
+      "de": "Lade Seite…",
+      "seed": {
+        "en": "Loading page…",
+        "pl": "Ładowanie strony…",
+        "nl": "Pagina wordt geladen…"
+      }
+    },
+    {
+      "namespace": "common",
+      "key": "ui.noCategories",
+      "de": "Noch keine Kategorien hinterlegt.",
+      "seed": {
+        "en": "No categories available yet.",
+        "pl": "Nie dodano jeszcze żadnych kategorii.",
+        "nl": "Er zijn nog geen categorieën aangelegd."
+      }
+    },
+    {
+      "namespace": "common",
+      "key": "ui.noImage",
+      "de": "Kein Bild gepflegt",
+      "seed": {
+        "en": "No image maintained",
+        "pl": "Brak obrazu",
+        "nl": "Geen afbeelding"
+      }
+    },
+    {
+      "namespace": "common",
+      "key": "ui.scrollLeft",
+      "de": "Nach links scrollen",
+      "seed": {
+        "en": "Scroll left",
+        "pl": "Przewiń w lewo",
+        "nl": "Naar links schuiven"
+      }
+    },
+    {
+      "namespace": "common",
+      "key": "ui.scrollRight",
+      "de": "Nach rechts scrollen",
+      "seed": {
+        "en": "Scroll right",
+        "pl": "Przewiń w prawo",
+        "nl": "Naar rechts schuiven"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "a11y.account",
+      "de": "Konto",
+      "seed": {
+        "en": "Account",
+        "nl": "Account"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "a11y.breadcrumb",
+      "de": "Brotkrumen-Navigation",
+      "seed": {
+        "en": "Breadcrumb navigation",
+        "pl": "Ścieżka nawigacji",
+        "nl": "Kruimelpad"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "a11y.footerNavigation",
+      "de": "Footer-Navigation",
+      "seed": {
+        "en": "Footer navigation",
+        "pl": "Nawigacja w stopce",
+        "nl": "Footernavigatie"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "a11y.legalNavigation",
+      "de": "Rechtliche Hinweise",
+      "seed": {
+        "en": "Legal information",
+        "pl": "Informacje prawne",
+        "nl": "Juridische informatie"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "a11y.logoHome",
+      "de": "TCS – Zurück zur Startseite",
+      "seed": {
+        "en": "TCS – Back to home page",
+        "pl": "TCS – powrót na stronę główną",
+        "nl": "TCS – terug naar de startpagina"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "a11y.mainNavigation",
+      "de": "Hauptnavigation",
+      "seed": {
+        "en": "Main navigation",
+        "pl": "Nawigacja główna",
+        "nl": "Hoofdnavigatie"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "a11y.menuClose",
+      "de": "Menü schließen",
+      "seed": {
+        "en": "Close menu",
+        "pl": "Zamknij menu",
+        "nl": "Menu sluiten"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "a11y.menuOpen",
+      "de": "Menü öffnen",
+      "seed": {
+        "en": "Open menu",
+        "pl": "Otwórz menu",
+        "nl": "Menu openen"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "a11y.metaNavigation",
+      "de": "Meta-Navigation",
+      "seed": {
+        "en": "Meta navigation",
+        "pl": "Nawigacja dodatkowa",
+        "nl": "Metanavigatie"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "a11y.personaNavigation",
+      "de": "Persona-Auswahl",
+      "seed": {
+        "en": "Persona selection",
+        "pl": "Wybór grupy odbiorców",
+        "nl": "Doelgroepkeuze"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "a11y.roleTabs",
+      "de": "Rollen",
+      "seed": {
+        "en": "Roles",
+        "pl": "Role"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "a11y.search",
+      "de": "Suche",
+      "seed": {
+        "en": "Search",
+        "pl": "Szukaj",
+        "nl": "Zoeken"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "a11y.sectionNavigation",
+      "de": "Seitennavigation",
+      "seed": {
+        "en": "Section navigation",
+        "pl": "Nawigacja na stronie",
+        "nl": "Paginanavigatie"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "a11y.skipToContent",
+      "de": "Zum Hauptinhalt springen",
+      "seed": {
+        "en": "Skip to main content",
+        "pl": "Przejdź do treści głównej",
+        "nl": "Naar de hoofdinhoud"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.home",
+      "de": "Startseite",
+      "seed": {
+        "en": "Home",
+        "pl": "Strona główna",
+        "nl": "Start"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.akademie",
+      "de": "TCS Akademie",
+      "seed": {
+        "en": "TCS Academy"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.alarmanlagenkopplung",
+      "de": "Alarmanlagenkopplung",
+      "seed": {
+        "en": "Alarm System Coupling"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.anwendungen",
+      "de": "TCS in Bauten",
+      "seed": {
+        "en": "TCS in Buildings"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.bcm-handsender",
+      "de": "BCM Handsender",
+      "seed": {
+        "en": "BCM Remote Control"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.bcm-online-leser",
+      "de": "BCM Online-Leser",
+      "seed": {
+        "en": "BCM Online Reader"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.behoerde",
+      "de": "Behörde",
+      "seed": {
+        "en": "Public Authority"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.beratung",
+      "de": "Beratung",
+      "seed": {
+        "en": "Consulting"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.beratung-schulung",
+      "de": "Beratung & Schulung",
+      "seed": {
+        "en": "Consulting & Training"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.beschilderung",
+      "de": "Beschilderung & Wayfinding",
+      "seed": {
+        "en": "Signage & Wayfinding"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.bewohnerinformation-im-sonderfall",
+      "de": "Bewohnerinformation im Sonderfall",
+      "seed": {
+        "en": "Resident information in exceptional situations"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.bidirektionale-video",
+      "de": "Bidirektionale Video",
+      "seed": {
+        "en": "Bidirectional Video"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.bildungseinrichtungen",
+      "de": "Bildungseinrichtungen",
+      "seed": {
+        "en": "Educational Facilities"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.briefkastenanlagen",
+      "de": "Briefkastenanlagen",
+      "seed": {
+        "en": "Mailbox Systems"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.concierge",
+      "de": "Concierge",
+      "seed": {}
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.datenblaetter-software",
+      "de": "Datenblätter & Software",
+      "seed": {
+        "en": "Datasheets & Software"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.design",
+      "de": "Design",
+      "seed": {}
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.digital-signage",
+      "de": "Digital Signage",
+      "seed": {}
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.digitale-namensanzeige",
+      "de": "Digitale Namensanzeige",
+      "seed": {
+        "en": "Digital Name Display"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.digitale-namensverwaltung",
+      "de": "Digitale Namensverwaltung",
+      "seed": {
+        "en": "Digital Name Management"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.downloads",
+      "de": "Downloads",
+      "seed": {}
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.einfamilienhaus",
+      "de": "Einfamilienhaus",
+      "seed": {
+        "en": "Single-Family Home"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.eingangsloesungen",
+      "de": "Eingangslösungen",
+      "seed": {
+        "en": "Entry Solutions"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.elektronische-drueckergarnitur",
+      "de": "Elektronische Drückergarnitur",
+      "seed": {
+        "en": "Electronic Lever Handle Set"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.elektronischer-knaufzylinder",
+      "de": "Elektronischer Knaufzylinder",
+      "seed": {
+        "en": "Electronic Knob Cylinder"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.entry-system",
+      "de": "Eingangssysteme",
+      "seed": {
+        "en": "Entrance Systems"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.ersatzteile",
+      "de": "Ersatzteile, Beschriftung und Freischaltcodes",
+      "seed": {
+        "en": "Spare parts, labeling and activation codes"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.fahrstuhlsteuerung",
+      "de": "Fahrstuhlsteuerung",
+      "seed": {
+        "en": "Elevator Control"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.feuerwehr",
+      "de": "Feuerwehr",
+      "seed": {
+        "en": "Fire Department"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.feuerwehrdurchsage",
+      "de": "Bewohnerinformation im Sonderfall",
+      "seed": {
+        "en": "Resident information in exceptional situations"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.funktionalitaet",
+      "de": "Funktionalität",
+      "seed": {
+        "en": "Functionality"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.funkvernetzte-offline-leser",
+      "de": "Funkvernetzte Offline-Leser",
+      "seed": {
+        "en": "Wireless Offline Readers"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.garantie-sicherheit",
+      "de": "Garantie & Sicherheit",
+      "seed": {
+        "en": "Warranty & Security"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.gebaeudekommunikation",
+      "de": "Gebäudekommunikation",
+      "seed": {
+        "en": "Building Communication"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.gebaeudemanagement",
+      "de": "Gebäudemanagement",
+      "seed": {
+        "en": "Building Management"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.gesundheitseinrichtungen",
+      "de": "Gesundheitseinrichtungen",
+      "seed": {
+        "en": "Healthcare Facilities"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.grossanlage",
+      "de": "Großanlage",
+      "seed": {
+        "en": "Large-Scale Installation"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.grossanlagen",
+      "de": "Großanlagen",
+      "seed": {
+        "en": "Large-Scale Installations"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.installation-wartung",
+      "de": "Installation & Wartung",
+      "seed": {
+        "en": "Installation & Maintenance"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.integrationsformen",
+      "de": "Integrationsformen",
+      "seed": {
+        "en": "Integration Forms"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.interne-kommunikation",
+      "de": "Interne Kommunikation",
+      "seed": {
+        "en": "Internal Communication"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.karriere",
+      "de": "Karriere",
+      "seed": {
+        "en": "Careers"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.klinik",
+      "de": "Klinik",
+      "seed": {
+        "en": "Clinic"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.konfiguratoren",
+      "de": "Konfiguratoren",
+      "seed": {
+        "en": "Configurators"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.kontakt",
+      "de": "Kontakt",
+      "seed": {
+        "en": "Contact"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.material",
+      "de": "Material",
+      "seed": {}
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.mehrfamilienhaus",
+      "de": "Mehrfamilienhaus",
+      "seed": {
+        "en": "Multi-Family Home"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.merkliste",
+      "de": "Merkliste",
+      "seed": {
+        "en": "Saved products",
+        "pl": "Schowek",
+        "nl": "Favorieten"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.mobile-tuerkommunikation",
+      "de": "Mobile Türkommunikation",
+      "seed": {
+        "en": "Mobile Door Communication"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.mobiler-zutritt",
+      "de": "Mobiler Zutritt",
+      "seed": {
+        "en": "Mobile Access"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.objektloesungen",
+      "de": "Objektlösungen",
+      "seed": {
+        "en": "Project Solutions"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.oeffentliche-hand",
+      "de": "Öffentliche Hand",
+      "seed": {
+        "en": "Public Sector"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.online-produktkatalog",
+      "de": "Online-Produktkatalog",
+      "seed": {
+        "en": "Online product catalog"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.passwort-vergessen",
+      "de": "Passwort vergessen",
+      "seed": {
+        "en": "Forgot Password"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.pflege",
+      "de": "Pflege",
+      "seed": {
+        "en": "Care"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.planen-konfigurieren",
+      "de": "Planen & Konfigurieren",
+      "seed": {
+        "en": "Plan & Configure"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.planungshilfen",
+      "de": "Planungshilfen",
+      "seed": {
+        "en": "Planning Tools"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.presse",
+      "de": "News",
+      "seed": {}
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.produkte",
+      "de": "Produkte",
+      "seed": {
+        "en": "Products"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.referenzen",
+      "de": "Referenzen",
+      "seed": {
+        "en": "References"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.referenzprojekte",
+      "de": "Referenzprojekte",
+      "seed": {
+        "en": "Reference Projects"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.registrieren",
+      "de": "Registrieren",
+      "seed": {
+        "en": "Register"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.reservieren-buchen",
+      "de": "Reservieren & Buchen",
+      "seed": {
+        "en": "Reserve & Book"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.sanierung",
+      "de": "Sanierung",
+      "seed": {
+        "en": "Renovation"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.schraenke-behaelter",
+      "de": "Schränke & Behälter",
+      "seed": {
+        "en": "Cabinets & Containers"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.schwimmbad",
+      "de": "Schwimmbad",
+      "seed": {
+        "en": "Swimming Pool"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.service",
+      "de": "Services",
+      "seed": {
+        "pl": "Serwis",
+        "nl": "Service"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.serviceportal",
+      "de": "Serviceportal",
+      "seed": {
+        "en": "Service Portal"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.signage",
+      "de": "Digital Signage",
+      "seed": {}
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.snipdoo-ip",
+      "de": "snipdoo IP",
+      "seed": {}
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.standards",
+      "de": "Standards",
+      "seed": {}
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.systemloesungen",
+      "de": "Systemlösungen",
+      "seed": {
+        "en": "System Solutions"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.systemtechnik",
+      "de": "Systemtechnik",
+      "seed": {
+        "en": "System Technology"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.technischer-support",
+      "de": "Technischer Support",
+      "seed": {
+        "en": "Technical Support"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.tueren-tore",
+      "de": "Türen & Tore",
+      "seed": {
+        "en": "Doors & Gates",
+        "pl": "Drzwi i bramy",
+        "nl": "Deuren en poorten"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.tuerkommunikation",
+      "de": "Türkommunikation",
+      "seed": {
+        "en": "Door Communication"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.tuersprechanlagen",
+      "de": "Türsprechanlagen",
+      "seed": {
+        "en": "Door Intercom Systems"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.ueber-tcs",
+      "de": "Über TCS",
+      "seed": {
+        "en": "About TCS"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.vorhaengeschloss",
+      "de": "Vorhängeschloss",
+      "seed": {
+        "en": "Padlock"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.wohnbau",
+      "de": "Wohnbau",
+      "seed": {
+        "en": "Residential Construction"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.zufahrten-parkplaetze",
+      "de": "Zufahrten & Parkplätze",
+      "seed": {
+        "en": "Driveways & Parking"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.zutrittskontrolle",
+      "de": "Zutrittskontrolle",
+      "seed": {
+        "en": "Access Control"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.zutrittskontrolle-bcm",
+      "de": "Zutrittskontrolle BCM",
+      "seed": {
+        "en": "Access Control BCM"
+      }
+    },
+    {
+      "namespace": "navigation",
+      "key": "common.overview",
+      "de": "Übersicht",
+      "seed": {
+        "en": "Overview",
+        "pl": "Przegląd",
+        "nl": "Overzicht"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.access.headline",
+      "de": "Produkte finden",
+      "seed": {
+        "en": "Find products",
+        "pl": "Znajdź produkty",
+        "nl": "Producten vinden"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.access.intro",
+      "de": "Katalog, Produktfinder, Serien und Stammdaten für die direkte Produktauswahl.",
+      "seed": {
+        "en": "Catalog, product finder, series and master data for direct product selection.",
+        "pl": "Katalog, wyszukiwarka produktów, serie i dane podstawowe do bezpośredniego wyboru produktu.",
+        "nl": "Catalogus, productzoeker, series en stamgegevens voor een directe productkeuze."
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.access.items.finder.description",
+      "de": "Geführte Auswahl nach Anwendungsfall und technischen Anforderungen.",
+      "seed": {
+        "en": "Guided selection by use case and technical requirements.",
+        "pl": "Wybór krok po kroku według zastosowania i wymagań technicznych.",
+        "nl": "Stap voor stap selecteren op toepassing en technische eisen."
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.access.items.finder.linkLabel",
+      "de": "In Vorbereitung",
+      "seed": {
+        "en": "In preparation",
+        "pl": "W przygotowaniu",
+        "nl": "In voorbereiding"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.access.items.finder.title",
+      "de": "Produktfinder",
+      "seed": {
+        "en": "Product finder",
+        "pl": "Wyszukiwarka produktów",
+        "nl": "Productzoeker"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.access.items.katalog.description",
+      "de": "Strukturierter Zugriff auf im BMEcat gepflegte TCS-Produkte mit technischen Details.",
+      "seed": {
+        "en": "Structured access to TCS products maintained in BMEcat with technical details.",
+        "pl": "Uporządkowany dostęp do produktów TCS z BMEcat wraz z danymi technicznymi.",
+        "nl": "Gestructureerde toegang tot TCS-producten met BMEcat en technische gegevens."
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.access.items.katalog.linkLabel",
+      "de": "In Vorbereitung",
+      "seed": {
+        "en": "In preparation",
+        "pl": "W przygotowaniu",
+        "nl": "In voorbereiding"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.access.items.katalog.title",
+      "de": "Online-Produktkatalog",
+      "seed": {
+        "en": "Online product catalog",
+        "pl": "Katalog produktów online",
+        "nl": "Online productcatalogus"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.access.items.serien.description",
+      "de": "Übersicht der TCS-Produktserien für Außen- und Innenstationen.",
+      "seed": {
+        "en": "Overview of TCS product series for outdoor and indoor stations.",
+        "pl": "Przegląd serii produktów TCS dla stacji zewnętrznych i wewnętrznych.",
+        "nl": "Overzicht van de TCS-productseries voor buiten- en binnenposten."
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.access.items.serien.linkLabel",
+      "de": "In Vorbereitung",
+      "seed": {
+        "en": "In preparation",
+        "pl": "W przygotowaniu",
+        "nl": "In voorbereiding"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.access.items.serien.title",
+      "de": "Serien",
+      "seed": {
+        "en": "Series",
+        "pl": "Serie",
+        "nl": "Series"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.access.items.stammdaten.description",
+      "de": "Produktstammdaten und BMEcat-Paket für Großhandel und ERP-Anbindung.",
+      "seed": {
+        "en": "Product master data and BMEcat package for wholesalers and ERP integration.",
+        "pl": "Dane podstawowe produktów oraz pakiet BMEcat dla hurtowni i integracji ERP.",
+        "nl": "Stamgegevens van producten en het BMEcat-pakket voor groothandel en ERP-integratie."
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.access.items.stammdaten.linkLabel",
+      "de": "In Vorbereitung",
+      "seed": {
+        "en": "In preparation",
+        "pl": "W przygotowaniu",
+        "nl": "In voorbereiding"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.access.items.stammdaten.title",
+      "de": "Produktdaten & BMEcat",
+      "seed": {
+        "en": "Product data & BMEcat",
+        "pl": "Dane produktowe i BMEcat",
+        "nl": "Productgegevens en BMEcat"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.access.label",
+      "de": "Produktzugang",
+      "seed": {
+        "en": "Product access",
+        "pl": "Dostęp do produktów",
+        "nl": "Producttoegang"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.filters.bool.no",
+      "de": "Nein",
+      "seed": {
+        "en": "No",
+        "pl": "Nie",
+        "nl": "Nee"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.filters.bool.yes",
+      "de": "Ja",
+      "seed": {
+        "en": "Yes",
+        "pl": "Tak"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.filters.groups.ip_gateway.all",
+      "de": "Alle",
+      "seed": {
+        "en": "All",
+        "pl": "Wszystkie"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.filters.groups.ip_gateway.no",
+      "de": "Nein",
+      "seed": {
+        "en": "No",
+        "pl": "Nie",
+        "nl": "Nee"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.filters.groups.ip_gateway.yes",
+      "de": "Ja",
+      "seed": {
+        "en": "Yes",
+        "pl": "Tak"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.filters.groups.montageart.all",
+      "de": "Alle",
+      "seed": {
+        "en": "All",
+        "pl": "Wszystkie"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.filters.groups.montageart.label",
+      "de": "Montage",
+      "seed": {
+        "en": "Mounting",
+        "pl": "Montaż"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.filters.groups.paket_klasse.all",
+      "de": "Alle",
+      "seed": {
+        "en": "All",
+        "pl": "Wszystkie"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.filters.groups.paket_klasse.label",
+      "de": "Paketklasse",
+      "seed": {
+        "en": "Package class",
+        "pl": "Klasa pakietu",
+        "nl": "Pakketklasse"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.filters.groups.system_typ.all",
+      "de": "Alle",
+      "seed": {
+        "en": "All",
+        "pl": "Wszystkie"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.filters.groups.system_typ.label",
+      "de": "System",
+      "seed": {
+        "nl": "Systeem"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.filters.groups.wohneinheiten.all",
+      "de": "Alle",
+      "seed": {
+        "en": "All",
+        "pl": "Wszystkie"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.filters.reset",
+      "de": "Zurücksetzen",
+      "seed": {
+        "en": "Reset",
+        "pl": "Wyczyść",
+        "nl": "Wissen"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.filters.series",
+      "de": "Serie",
+      "seed": {
+        "en": "Series",
+        "pl": "Seria"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.filters.status.error",
+      "de": "Filter konnten nicht geladen werden.",
+      "seed": {
+        "en": "Filters could not be loaded.",
+        "pl": "Nie udało się załadować filtrów.",
+        "nl": "Filters konden niet worden geladen."
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.filters.status.loading",
+      "de": "Filter werden geladen …",
+      "seed": {
+        "en": "Loading filters …",
+        "pl": "Filtry są ładowane …",
+        "nl": "Filters worden geladen …"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.filters.status.retry",
+      "de": "Erneut versuchen",
+      "seed": {
+        "en": "Try again",
+        "pl": "Spróbuj ponownie",
+        "nl": "Opnieuw proberen"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.hero.headline",
+      "de": "Online-Produktkatalog",
+      "seed": {
+        "en": "Online product catalog",
+        "pl": "Katalog produktów online",
+        "nl": "Online productcatalogus"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.hero.intro",
+      "de": "Strukturierter Zugriff auf im BMEcat gepflegte TCS-Produkte, Produktdaten und Datenblätter für Handwerk und Handel.",
+      "seed": {
+        "en": "Structured access to TCS products, product data, and data sheets maintained in BMEcat for trade professionals and distribution partners.",
+        "pl": "Uporządkowany dostęp do produktów TCS, danych produktowych i kart katalogowych z BMEcat dla profesjonalistów i partnerów handlowych.",
+        "nl": "Gestructureerde toegang tot TCS-producten, productgegevens en datasheets met BMEcat voor professionals en handelspartners."
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.hero.label",
+      "de": "Service",
+      "seed": {
+        "pl": "Serwis"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.hinweis.headline",
+      "de": "Katalog wird angebunden",
+      "seed": {
+        "en": "Catalog is being connected",
+        "pl": "Katalog jest podłączany",
+        "nl": "De catalogus wordt aangesloten"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.hinweis.label",
+      "de": "Hinweis",
+      "seed": {
+        "en": "Note",
+        "pl": "Wskazówka",
+        "nl": "Opmerking"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.hinweis.text",
+      "de": "Der eigentliche Online-Katalog wird in einer späteren Etappe als eigener Zugang angeschlossen. Diese Seite bündelt bereits jetzt die Einstiegspunkte für den Produktzugang und bleibt der zentrale Direktlink aus der Service-Navigation.",
+      "seed": {
+        "en": "The actual online catalog will be connected as a dedicated entry point in a later stage. For now, this page already bundles the entry points for product access and remains the central direct link from the service navigation.",
+        "pl": "Właściwy katalog online zostanie podłączony jako osobny punkt wejścia na późniejszym etapie. Ta strona już teraz zbiera punkty wejścia do produktów i pozostaje bezpośrednim odnośnikiem z nawigacji serwisowej.",
+        "nl": "De eigenlijke online catalogus wordt in een latere stap als apart startpunt aangesloten. Deze pagina bundelt nu al de ingangen naar de producten en blijft de directe verwijzing uit de servicenavigatie."
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.merkliste.add",
+      "de": "Zur Merkliste hinzufügen",
+      "seed": {
+        "en": "Add to watchlist",
+        "pl": "Dodaj do schowka",
+        "nl": "Aan favorieten toevoegen"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.merkliste.back",
+      "de": "Zurück",
+      "seed": {
+        "en": "Back",
+        "pl": "Wróć",
+        "nl": "Terug"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.merkliste.backToCatalog",
+      "de": "Zurück zum Katalog",
+      "seed": {
+        "en": "Back to catalogue",
+        "pl": "Powrót do katalogu",
+        "nl": "Terug naar de catalogus"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.merkliste.clear",
+      "de": "Merkliste leeren",
+      "seed": {
+        "en": "Clear watchlist",
+        "pl": "Wyczyść schowek",
+        "nl": "Favorieten wissen"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.merkliste.compareHeading",
+      "de": "Technischer Vergleich",
+      "seed": {
+        "en": "Technical comparison",
+        "pl": "Porównanie techniczne",
+        "nl": "Technische vergelijking"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.merkliste.compareHide",
+      "de": "Vergleich ausblenden",
+      "seed": {
+        "en": "Hide comparison",
+        "pl": "Ukryj porównanie",
+        "nl": "Vergelijking verbergen"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.merkliste.compareShow",
+      "de": "Produkte vergleichen",
+      "seed": {
+        "en": "Compare products",
+        "pl": "Porównaj produkty",
+        "nl": "Producten vergelijken"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.merkliste.emptyHint",
+      "de": "Öffne ein Produkt im Katalog und wähle „Zur Merkliste hinzufügen“.",
+      "seed": {
+        "en": "Open a product in the catalogue and choose “Add to watchlist”.",
+        "pl": "Otwórz produkt w katalogu i wybierz „Dodaj do schowka”.",
+        "nl": "Open een product in de catalogus en kies „Aan favorieten toevoegen”."
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.merkliste.emptyTitle",
+      "de": "Noch keine Produkte gemerkt",
+      "seed": {
+        "en": "No products saved yet",
+        "pl": "Brak zapisanych produktów",
+        "nl": "Geen opgeslagen producten"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.merkliste.feature",
+      "de": "Merkmal",
+      "seed": {
+        "en": "Feature",
+        "pl": "Cecha",
+        "nl": "Kenmerk"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.merkliste.inquireProduct",
+      "de": "Produkt direkt anfragen",
+      "seed": {
+        "en": "Request this product",
+        "pl": "Zapytaj o ten produkt",
+        "nl": "Dit product aanvragen"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.merkliste.inquiry",
+      "de": "Produkte anfragen",
+      "seed": {
+        "en": "Request products",
+        "pl": "Zapytaj o produkty",
+        "nl": "Producten aanvragen"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.merkliste.intro",
+      "de": "Bis zu {{max}} Produkte vergleichen und gemeinsam anfragen.",
+      "seed": {
+        "en": "Compare up to {{max}} products and request them together.",
+        "pl": "Porównaj do {{max}} produktów i zapytaj o nie razem.",
+        "nl": "Vergelijk tot {{max}} producten en vraag ze samen aan."
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.merkliste.loadingSpecs",
+      "de": "Lade technische Daten…",
+      "seed": {
+        "en": "Loading technical data…",
+        "pl": "Ładowanie danych technicznych…",
+        "nl": "Technische gegevens worden geladen…"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.merkliste.minTwo",
+      "de": "Mindestens 2 Produkte nötig, um einen Vergleich anzuzeigen.",
+      "seed": {
+        "en": "At least 2 products are required for a comparison.",
+        "pl": "Do porównania potrzebne są co najmniej 2 produkty.",
+        "nl": "Voor een vergelijking zijn minimaal 2 producten nodig."
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.merkliste.noSpecs",
+      "de": "Für die gemerkten Produkte liegen keine vergleichbaren technischen Daten vor.",
+      "seed": {
+        "en": "No comparable technical data is available for the saved products.",
+        "pl": "Dla zapisanych produktów nie ma porównywalnych danych technicznych.",
+        "nl": "Voor de opgeslagen producten zijn geen vergelijkbare technische gegevens beschikbaar."
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.merkliste.removeItem",
+      "de": "{{artikel}} entfernen",
+      "seed": {
+        "en": "Remove {{artikel}}",
+        "pl": "Usuń {{artikel}}",
+        "nl": "{{artikel}} verwijderen"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.merkliste.removeLabel",
+      "de": "Von Merkliste entfernen",
+      "seed": {
+        "en": "Remove from watchlist",
+        "pl": "Usuń ze schowka",
+        "nl": "Uit favorieten verwijderen"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.merkliste.title",
+      "de": "Merkliste",
+      "seed": {
+        "en": "Watchlist",
+        "pl": "Schowek",
+        "nl": "Favorieten"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.merkliste.toastAdded",
+      "de": "Zur Merkliste hinzugefügt",
+      "seed": {
+        "en": "Added to watchlist",
+        "pl": "Dodano do schowka",
+        "nl": "Aan favorieten toegevoegd"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.merkliste.toastFull",
+      "de": "Maximal {{max}} Produkte können verglichen werden.",
+      "seed": {
+        "en": "A maximum of {{max}} products can be compared.",
+        "pl": "Można porównać maksymalnie {{max}} produktów.",
+        "nl": "Er kunnen maximaal {{max}} producten worden vergeleken."
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.merkliste.toastRemoved",
+      "de": "Von Merkliste entfernt",
+      "seed": {
+        "en": "Removed from watchlist",
+        "pl": "Usunięto ze schowka",
+        "nl": "Uit favorieten verwijderd"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.merkliste.toCatalog",
+      "de": "Zum Produktkatalog",
+      "seed": {
+        "en": "To the product catalogue",
+        "pl": "Przejdź do katalogu produktów",
+        "nl": "Naar de productcatalogus"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.mvp.card.artikelNr",
+      "de": "Artikel-Nr.",
+      "seed": {
+        "en": "Article no.",
+        "pl": "Nr artykułu",
+        "nl": "Artikelnr."
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.mvp.empty.headline",
+      "de": "Keine Produkte gefunden",
+      "seed": {
+        "en": "No products found",
+        "pl": "Nie znaleziono produktów",
+        "nl": "Geen producten gevonden"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.mvp.empty.text",
+      "de": "Die Produktliste ist aktuell leer oder noch nicht freigegeben.",
+      "seed": {
+        "en": "The product list is currently empty or not yet released.",
+        "pl": "Lista produktów jest obecnie pusta lub jeszcze nieudostępniona.",
+        "nl": "De productlijst is momenteel leeg of nog niet vrijgegeven."
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.mvp.errorBox.headline",
+      "de": "Fehler beim Laden",
+      "seed": {
+        "en": "Loading failed",
+        "pl": "Wczytywanie nie powiodło się",
+        "nl": "Laden mislukt"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.mvp.errorBox.previous",
+      "de": "Die neue Auswahl wird geladen. Bis dahin sind Ergebnisse des vorherigen Stands sichtbar; sie passen möglicherweise nicht zur aktuellen Auswahl.",
+      "seed": {
+        "en": "The new selection is loading. Previous results remain visible meanwhile and may not match the current selection.",
+        "pl": "Nowy wybór jest wczytywany. Do tego czasu widoczne są poprzednie wyniki, które mogą nie odpowiadać bieżącemu wyborowi.",
+        "nl": "De nieuwe selectie wordt geladen. Tot die tijd blijven eerdere resultaten zichtbaar; ze passen mogelijk niet bij de huidige selectie."
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.mvp.errorBox.stale",
+      "de": "Aktualisierung fehlgeschlagen. Angezeigt werden Ergebnisse des vorherigen erfolgreichen Ladevorgangs; sie können nicht zur aktuellen Sprache, Kategorie oder Filterauswahl passen.",
+      "seed": {
+        "en": "Update failed. Results from the previous successful load are shown; they may not match the current language, category or filters.",
+        "pl": "Aktualizacja nie powiodła się. Pokazano wyniki z poprzedniego udanego wczytania; mogą nie odpowiadać bieżącemu językowi, kategorii lub filtrom.",
+        "nl": "Bijwerken mislukt. Resultaten van de vorige geslaagde laadactie worden weergegeven; ze passen mogelijk niet bij de huidige taal, categorie of filters."
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.mvp.errorBox.text",
+      "de": "Die Produktdatenbank hat die Anfrage nicht beantwortet. Technische Angaben:",
+      "seed": {
+        "en": "The product database did not answer the request. Technical details:",
+        "pl": "Baza produktów nie odpowiedziała na zapytanie. Dane techniczne:",
+        "nl": "De productdatabase heeft het verzoek niet beantwoord. Technische gegevens:"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.mvp.headline",
+      "de": "Produkte aus der TCS-Datenbank",
+      "seed": {
+        "en": "Products from the TCS database",
+        "pl": "Produkty z bazy danych TCS",
+        "nl": "Producten uit de TCS-database"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.mvp.intro",
+      "de": "Erste technische Stufe der Katalog-Anbindung. Die Daten werden read-only aus der zentralen TCS-Produktdatenbank geladen.",
+      "seed": {
+        "en": "First technical stage of the catalog integration. Data is loaded read-only from the central TCS product database.",
+        "pl": "Pierwszy etap techniczny integracji katalogu. Dane są wczytywane tylko do odczytu z centralnej bazy produktów TCS.",
+        "nl": "Eerste technische stap van de catalogusintegratie. De gegevens worden alleen-lezen uit de centrale TCS-productdatabase geladen."
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.mvp.label",
+      "de": "Katalog-Testlauf",
+      "seed": {
+        "en": "Catalog test run",
+        "pl": "Test katalogu",
+        "nl": "Catalogustest"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.mvp.status.contextOk",
+      "de": "Katalog-Kontext erfolgreich initialisiert",
+      "seed": {
+        "en": "Catalog context initialised successfully",
+        "pl": "Kontekst katalogu został poprawnie zainicjowany",
+        "nl": "Cataloguscontext correct geïnitialiseerd"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.mvp.status.count",
+      "de": "{{count}} Produkte geladen",
+      "seed": {
+        "en": "{{count}} products loaded",
+        "pl": "Wczytano {{count}} produktów",
+        "nl": "{{count}} producten geladen"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.mvp.status.error",
+      "de": "Produkte konnten nicht geladen werden.",
+      "seed": {
+        "en": "Products could not be loaded.",
+        "pl": "Nie udało się wczytać produktów.",
+        "nl": "De producten konden niet worden geladen."
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.mvp.status.loading",
+      "de": "Produkte werden geladen …",
+      "seed": {
+        "en": "Loading products …",
+        "pl": "Wczytywanie produktów …",
+        "nl": "Producten worden geladen …"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.pdp.back",
+      "de": "Zurück zum Katalog",
+      "seed": {
+        "en": "Back to catalog",
+        "pl": "Powrót do katalogu",
+        "nl": "Terug naar de catalogus"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.pdp.datasheet.brand.error",
+      "de": "Das Markenprofil konnte nicht gelesen werden.",
+      "seed": {
+        "en": "The brand profile could not be read.",
+        "pl": "Nie udało się odczytać profilu marki.",
+        "nl": "Het merkprofiel kon niet worden gelezen."
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.pdp.datasheet.brand.inactive",
+      "de": "Das Markenprofil für das Datenblatt ist derzeit nicht aktiv. Deshalb kann nicht gedruckt werden.",
+      "seed": {
+        "en": "The brand profile for this document is currently inactive, so printing is blocked.",
+        "pl": "Profil marki jest obecnie nieaktywny, dlatego drukowanie jest zablokowane.",
+        "nl": "Het merkprofiel is momenteel niet actief, daarom kan er niet worden afgedrukt."
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.pdp.datasheet.brand.mismatch",
+      "de": "Es wurde ein fremdes Markenprofil geliefert. Aus Sicherheitsgründen wird nicht gedruckt.",
+      "seed": {
+        "en": "A different brand profile was returned. For safety, printing is blocked.",
+        "pl": "Zwrócono obcy profil marki. Ze względów bezpieczeństwa druk jest zablokowany.",
+        "nl": "Er is een ander merkprofiel geleverd. Uit veiligheidsoverwegingen wordt niet afgedrukt."
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.pdp.datasheet.brand.missing",
+      "de": "Für das Datenblatt ist kein Markenprofil hinterlegt. Deshalb kann nicht gedruckt werden.",
+      "seed": {
+        "en": "No brand profile is stored for this document, so printing is blocked.",
+        "pl": "Nie zapisano profilu marki, dlatego drukowanie jest zablokowane.",
+        "nl": "Er is geen merkprofiel vastgelegd, daarom kan er niet worden afgedrukt."
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.pdp.datasheet.brand.templateMissing",
+      "de": "Im Markenprofil ist keine Datenblatt-Vorlage angegeben. Deshalb wird das Datenblatt nicht angezeigt oder gedruckt.",
+      "seed": {
+        "en": "The brand profile does not name a data sheet template, so the sheet is neither shown nor printed.",
+        "pl": "Profil marki nie wskazuje szablonu karty katalogowej, dlatego karta nie jest wyświetlana ani drukowana.",
+        "nl": "Het merkprofiel noemt geen datablad-sjabloon, daarom wordt het datablad niet weergegeven of afgedrukt."
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.pdp.datasheet.brand.templateUnsupported",
+      "de": "Die im Markenprofil angegebene Datenblatt-Vorlage wird hier nicht unterstützt. Deshalb wird das Datenblatt nicht angezeigt oder gedruckt.",
+      "seed": {
+        "en": "The data sheet template named in the brand profile is not supported here, so the sheet is neither shown nor printed.",
+        "pl": "Szablon karty katalogowej wskazany w profilu marki nie jest tu obsługiwany, dlatego karta nie jest wyświetlana ani drukowana.",
+        "nl": "Het in het merkprofiel genoemde datablad-sjabloon wordt hier niet ondersteund, daarom wordt het datablad niet weergegeven of afgedrukt."
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.pdp.datasheet.brand.unconfigured",
+      "de": "Die Produktverbindung ist nicht eingerichtet. Das Markenprofil konnte nicht gelesen werden.",
+      "seed": {
+        "en": "The product connection is not set up. The brand profile could not be read.",
+        "pl": "Połączenie z bazą produktów nie jest skonfigurowane. Nie można odczytać profilu marki.",
+        "nl": "De productverbinding is niet ingesteld. Het merkprofiel kon niet worden gelezen."
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.pdp.datasheet.close",
+      "de": "Schließen",
+      "seed": {
+        "en": "Close",
+        "pl": "Zamknij",
+        "nl": "Sluiten"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.pdp.datasheet.contents",
+      "de": "Paketinhalt",
+      "seed": {
+        "en": "Package contents",
+        "pl": "Zawartość zestawu",
+        "nl": "Pakketinhoud"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.pdp.datasheet.empty",
+      "de": "Für dieses Produkt ist aktuell kein Datenblatt freigegeben.",
+      "seed": {
+        "en": "No data sheet is currently released for this product.",
+        "pl": "Dla tego produktu nie udostępniono obecnie karty katalogowej.",
+        "nl": "Voor dit product is momenteel geen datablad beschikbaar."
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.pdp.datasheet.features",
+      "de": "Merkmale",
+      "seed": {
+        "en": "Features",
+        "pl": "Cechy",
+        "nl": "Kenmerken"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.pdp.datasheet.open",
+      "de": "Datenblatt anzeigen",
+      "seed": {
+        "en": "Show data sheet",
+        "pl": "Pokaż kartę katalogową",
+        "nl": "Datablad bekijken"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.pdp.datasheet.price",
+      "de": "Preis",
+      "seed": {
+        "en": "Price",
+        "pl": "Cena",
+        "nl": "Prijs"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.pdp.datasheet.print",
+      "de": "Drucken",
+      "seed": {
+        "en": "Print",
+        "pl": "Drukuj",
+        "nl": "Afdrukken"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.pdp.datasheet.printFailed",
+      "de": "Der Druck konnte nicht vorbereitet werden (Bilder oder Schriften waren nicht rechtzeitig bereit). Bitte erneut versuchen.",
+      "seed": {
+        "en": "The print could not be prepared (images or fonts were not ready in time). Please try again.",
+        "pl": "Nie udało się przygotować druku (obrazy lub czcionki nie były gotowe na czas). Spróbuj ponownie.",
+        "nl": "De afdruk kon niet worden voorbereid (afbeeldingen of lettertypen waren niet tijdig gereed). Probeer het opnieuw."
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.pdp.datasheet.printPreparing",
+      "de": "Druck wird vorbereitet …",
+      "seed": {
+        "en": "Preparing print …",
+        "pl": "Przygotowywanie druku …",
+        "nl": "Afdruk wordt voorbereid …"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.pdp.datasheet.retry",
+      "de": "Erneut versuchen",
+      "seed": {
+        "en": "Try again",
+        "pl": "Spróbuj ponownie",
+        "nl": "Opnieuw proberen"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.pdp.datasheet.title",
+      "de": "Datenblatt",
+      "seed": {
+        "en": "Data sheet",
+        "pl": "Karta katalogowa",
+        "nl": "Datablad"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.pdp.documents.categories.bedienungsanleitung",
+      "de": "Bedienungsanleitung",
+      "seed": {
+        "en": "User manual",
+        "pl": "Instrukcja obsługi",
+        "nl": "Gebruikershandleiding"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.pdp.documents.categories.datenblatt",
+      "de": "Datenblatt",
+      "seed": {
+        "en": "Data sheet",
+        "pl": "Karta katalogowa",
+        "nl": "Datablad"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.pdp.documents.categories.montageanleitung",
+      "de": "Montageanleitung",
+      "seed": {
+        "en": "Installation guide",
+        "pl": "Instrukcja montażu",
+        "nl": "Montagehandleiding"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.pdp.documents.categories.produktinfo",
+      "de": "Produktinformation",
+      "seed": {
+        "en": "Product information",
+        "pl": "Informacje o produkcie",
+        "nl": "Productinformatie"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.pdp.documents.categories.schaltplan",
+      "de": "Schaltplan",
+      "seed": {
+        "en": "Wiring diagram",
+        "pl": "Schemat połączeń",
+        "nl": "Schakelschema"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.pdp.empty.documents",
+      "de": "Für dieses Produkt sind aktuell keine Dokumente hinterlegt.",
+      "seed": {
+        "en": "No documents are currently available for this product.",
+        "pl": "Dla tego produktu nie ma obecnie dostępnych dokumentów.",
+        "nl": "Voor dit product zijn momenteel geen documenten beschikbaar."
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.pdp.empty.images",
+      "de": "Für dieses Produkt sind aktuell keine Bilder hinterlegt.",
+      "seed": {
+        "en": "No images are currently available for this product.",
+        "pl": "Dla tego produktu nie ma obecnie dostępnych zdjęć.",
+        "nl": "Voor dit product zijn momenteel geen afbeeldingen beschikbaar."
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.pdp.errorBox.headline",
+      "de": "Fehler beim Laden der Produktdetailseite",
+      "seed": {
+        "en": "Failed to load product detail page",
+        "pl": "Nie udało się wczytać strony produktu",
+        "nl": "Productpagina kon niet worden geladen"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.pdp.errorBox.text",
+      "de": "Die Verbindung zur Produktdatenbank ist fehlgeschlagen oder die Konfiguration fehlt.",
+      "seed": {
+        "en": "The connection to the product database failed or the configuration is missing.",
+        "pl": "Połączenie z bazą produktów nie powiodło się lub brakuje konfiguracji.",
+        "nl": "De verbinding met de productdatabase is mislukt of de configuratie ontbreekt."
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.pdp.hero.fallbackHeadline",
+      "de": "Produktdetailseite",
+      "seed": {
+        "en": "Product detail page",
+        "pl": "Strona produktu",
+        "nl": "Productpagina"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.pdp.hero.fallbackIntro",
+      "de": "Produktinformationen aus der TCS-Datenbank.",
+      "seed": {
+        "en": "Product information from the TCS database.",
+        "pl": "Informacje o produkcie z bazy danych TCS.",
+        "nl": "Productinformatie uit de TCS-database."
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.pdp.hero.label",
+      "de": "Produktdetail",
+      "seed": {
+        "en": "Product detail",
+        "pl": "Szczegóły produktu",
+        "nl": "Productdetails"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.pdp.info.cols.artikelNr",
+      "de": "Art.-Nr.",
+      "seed": {
+        "en": "Item no.",
+        "pl": "Nr artykułu",
+        "nl": "Artikelnr."
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.pdp.info.cols.description",
+      "de": "Bezeichnung",
+      "seed": {
+        "en": "Description",
+        "pl": "Opis",
+        "nl": "Omschrijving"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.pdp.info.cols.price",
+      "de": "Preis/Stk.",
+      "seed": {
+        "en": "Price/unit",
+        "pl": "Cena/szt.",
+        "nl": "Prijs/stuk"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.pdp.inquiry.label",
+      "de": "Produkt anfragen",
+      "seed": {
+        "en": "Request product",
+        "pl": "Zapytaj o produkt",
+        "nl": "Product aanvragen"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.pdp.notFound.devHeadline",
+      "de": "Dev-Diagnose Slug-Auflösung",
+      "seed": {
+        "en": "Dev diagnostics – slug resolution",
+        "pl": "Diagnostyka – rozpoznanie adresu",
+        "nl": "Diagnose – adresherkenning"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.pdp.notFound.headline",
+      "de": "Produkt nicht gefunden",
+      "seed": {
+        "en": "Product not found",
+        "pl": "Produkt nie został znaleziony",
+        "nl": "Product niet gevonden"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.pdp.notFound.text",
+      "de": "Dieses Produkt konnte in der Katalog-Auslieferungsschicht nicht eindeutig geladen werden.",
+      "seed": {
+        "en": "This product could not be loaded unambiguously from the catalog delivery layer.",
+        "pl": "Tego produktu nie udało się jednoznacznie wczytać z katalogu.",
+        "nl": "Dit product kon niet eenduidig uit de catalogus worden geladen."
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.pdp.paket.cols.anzahl",
+      "de": "Anzahl",
+      "seed": {
+        "en": "Qty",
+        "pl": "Ilość",
+        "nl": "Aantal"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.pdp.paket.cols.artikelNr",
+      "de": "Art.-Nr.",
+      "seed": {
+        "en": "Item no.",
+        "pl": "Nr artykułu",
+        "nl": "Artikelnr."
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.pdp.paket.cols.rolle",
+      "de": "Rolle",
+      "seed": {
+        "en": "Role",
+        "pl": "Rola",
+        "nl": "Rol"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.pdp.paket.cols.title",
+      "de": "Bezeichnung",
+      "seed": {
+        "en": "Description",
+        "pl": "Opis",
+        "nl": "Omschrijving"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.pdp.sections.ausschreibung",
+      "de": "Ausschreibungstext",
+      "seed": {
+        "en": "Specification text",
+        "pl": "Tekst przetargowy",
+        "nl": "Bestekstekst"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.pdp.sections.details",
+      "de": "Produktdetails",
+      "seed": {
+        "en": "Product details",
+        "pl": "Szczegóły produktu",
+        "nl": "Productdetails"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.pdp.sections.documents",
+      "de": "Dokumente und Anleitungen",
+      "seed": {
+        "en": "Documents and manuals",
+        "pl": "Dokumenty i instrukcje",
+        "nl": "Documenten en handleidingen"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.pdp.sections.features",
+      "de": "Leistungsmerkmale",
+      "seed": {
+        "en": "Features",
+        "pl": "Cechy",
+        "nl": "Kenmerken"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.pdp.sections.info",
+      "de": "Produktinformationen",
+      "seed": {
+        "en": "Product information",
+        "pl": "Informacje o produkcie",
+        "nl": "Productinformatie"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.pdp.sections.lieferumfang",
+      "de": "Lieferumfang",
+      "seed": {
+        "en": "Scope of delivery",
+        "pl": "Zakres dostawy",
+        "nl": "Leveringsomvang"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.pdp.sections.paketKomponenten",
+      "de": "Paket-Komponenten",
+      "seed": {
+        "en": "Package components",
+        "pl": "Elementy pakietu",
+        "nl": "Pakketonderdelen"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.pdp.sections.produktinformationen",
+      "de": "Produktinformationen",
+      "seed": {
+        "en": "Product information",
+        "pl": "Informacje o produkcie",
+        "nl": "Productinformatie"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.pdp.sections.specs",
+      "de": "Technische Daten",
+      "seed": {
+        "en": "Technical data",
+        "pl": "Dane techniczne",
+        "nl": "Technische gegevens"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.pdp.sections.technischeDatenFeatures",
+      "de": "Technische Merkmale",
+      "seed": {
+        "en": "Technical features",
+        "pl": "Cechy techniczne",
+        "nl": "Technische kenmerken"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.pdp.summary.deliveryTime",
+      "de": "Lieferzeit",
+      "seed": {
+        "en": "Delivery time",
+        "pl": "Czas dostawy",
+        "nl": "Levertijd"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.pdp.summary.warranty",
+      "de": "Garantie",
+      "seed": {
+        "en": "Warranty",
+        "pl": "Gwarancja"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.pdp.summary.warrantyValue",
+      "de": "{{count}} Monate",
+      "seed": {
+        "en": "{{count}} months",
+        "pl": "{{count}} miesięcy",
+        "nl": "{{count}} maanden"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.target.chips.all",
+      "de": "Alle",
+      "seed": {
+        "en": "All",
+        "pl": "Wszystkie"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.target.chooseCategory",
+      "de": "Wählen Sie eine Kategorie, um zu starten.",
+      "seed": {
+        "en": "Choose a category to start.",
+        "pl": "Wybierz kategorię, aby rozpocząć.",
+        "nl": "Kies een categorie om te beginnen."
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.target.headline",
+      "de": "Produktkatalog",
+      "seed": {
+        "en": "Product catalog",
+        "pl": "Katalog produktów",
+        "nl": "Productcatalogus"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.target.merkliste.label",
+      "de": "Merkliste ({{count}})",
+      "seed": {
+        "en": "Watchlist ({{count}})",
+        "pl": "Schowek ({{count}})",
+        "nl": "Favorieten ({{count}})"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.target.results.count",
+      "de": "{{shown}} von {{total}} Produkten",
+      "seed": {
+        "en": "{{shown}} of {{total}} products",
+        "pl": "{{shown}} z {{total}} produktów",
+        "nl": "{{shown}} van {{total}} producten"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.target.results.count_one",
+      "de": "{{shown}} von {{total}} Produkten",
+      "seed": {
+        "en": "{{shown}} of {{total}} products",
+        "pl": "{{shown}} z {{total}} produktów",
+        "nl": "{{shown}} van {{total}} producten"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.target.search.aria",
+      "de": "Produkte durchsuchen",
+      "seed": {
+        "en": "Search products",
+        "pl": "Szukaj produktów",
+        "nl": "Producten zoeken"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.target.search.clear",
+      "de": "Suche zurücksetzen",
+      "seed": {
+        "en": "Clear search",
+        "pl": "Wyczyść wyszukiwanie",
+        "nl": "Zoekopdracht wissen"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.target.search.placeholder",
+      "de": "Artikel-Nr., Bezeichnung oder Beschreibung suchen …",
+      "seed": {
+        "en": "Search by article no., name or description …",
+        "pl": "Szukaj po numerze artykułu, nazwie lub opisie …",
+        "nl": "Zoek op artikelnummer, naam of omschrijving …"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.target.selection.reset",
+      "de": "Auswahl zurücksetzen",
+      "seed": {
+        "en": "Reset selection",
+        "pl": "Wyczyść wybór",
+        "nl": "Selectie wissen"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.target.seriesGate.counter",
+      "de": "— wählen Sie eine Serie",
+      "seed": {
+        "en": "— select a series",
+        "pl": "— wybierz serię",
+        "nl": "— kies een serie"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.target.seriesGate.filterAria",
+      "de": "Serien-Filter",
+      "seed": {
+        "en": "Series filter",
+        "pl": "Filtr serii",
+        "nl": "Seriefilter"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.target.seriesGate.hint",
+      "de": "Bitte Serie wählen, um Filter und Produkte anzuzeigen.",
+      "seed": {
+        "en": "Please select a series to continue.",
+        "pl": "Wybierz serię, aby zobaczyć filtry i produkty.",
+        "nl": "Kies een serie om filters en producten te zien."
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.target.sort.label",
+      "de": "Sortieren:",
+      "seed": {
+        "en": "Sort:",
+        "pl": "Sortowanie:",
+        "nl": "Sortering:"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.target.sort.options.artikel_nr_asc",
+      "de": "Artikel-Nr. aufsteigend",
+      "seed": {
+        "en": "Article no. ascending",
+        "pl": "Nr artykułu rosnąco",
+        "nl": "Artikelnr. oplopend"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.target.sort.options.default",
+      "de": "Standard",
+      "seed": {
+        "en": "Default",
+        "pl": "Domyślnie",
+        "nl": "Standaard"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.target.sort.options.price_asc",
+      "de": "Preis aufsteigend",
+      "seed": {
+        "en": "Price ascending",
+        "pl": "Cena rosnąco",
+        "nl": "Prijs oplopend"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.target.sort.options.price_desc",
+      "de": "Preis absteigend",
+      "seed": {
+        "en": "Price descending",
+        "pl": "Cena malejąco",
+        "nl": "Prijs aflopend"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.target.start.headline",
+      "de": "Womit möchten Sie starten?",
+      "seed": {
+        "en": "Where would you like to start?",
+        "pl": "Od czego chcesz zacząć?",
+        "nl": "Waarmee wilt u beginnen?"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.target.start.text",
+      "de": "Wählen Sie eine Kategorie, setzen Sie einen Filter oder suchen Sie nach Artikelnummer oder Produktname.",
+      "seed": {
+        "en": "Choose a category, apply a filter, or search by article number or product name.",
+        "pl": "Wybierz kategorię, ustaw filtr albo wyszukaj po numerze artykułu lub nazwie produktu.",
+        "nl": "Kies een categorie, stel een filter in of zoek op artikelnummer of productnaam."
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.target.subline.count",
+      "de": "{{count}} Artikel – wählen Sie eine Kategorie oder durchsuchen Sie den Katalog",
+      "seed": {
+        "en": "{{count}} articles – choose a category or browse the catalog",
+        "pl": "{{count}} artykułów – wybierz kategorię lub przeglądaj katalog",
+        "nl": "{{count}} artikelen – kies een categorie of doorzoek de catalogus"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.target.subline.count_one",
+      "de": "{{count}} Artikel – wählen Sie eine Kategorie oder durchsuchen Sie den Katalog",
+      "seed": {
+        "en": "{{count}} article – choose a category or browse the catalog",
+        "pl": "{{count}} artykuł – wybierz kategorię lub przeglądaj katalog",
+        "nl": "{{count}} artikel – kies een categorie of doorzoek de catalogus"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.target.subline.loading",
+      "de": "Produkte werden geladen …",
+      "seed": {
+        "en": "Loading products …",
+        "pl": "Wczytywanie produktów …",
+        "nl": "Producten worden geladen …"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.v2.card.fieldLabels.ip_gateway",
+      "de": "IP-Gateway",
+      "seed": {
+        "en": "IP gateway",
+        "pl": "Brama IP",
+        "nl": "IP-gateway"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.v2.card.fieldLabels.montageart",
+      "de": "Montageart",
+      "seed": {
+        "en": "Mounting type",
+        "pl": "Rodzaj montażu",
+        "nl": "Montagewijze"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.v2.card.fieldLabels.paket_klasse",
+      "de": "Paketklasse",
+      "seed": {
+        "en": "Package class",
+        "pl": "Klasa pakietu",
+        "nl": "Pakketklasse"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.v2.card.fieldLabels.system_typ",
+      "de": "Systemtyp",
+      "seed": {
+        "en": "System type",
+        "pl": "Typ systemu",
+        "nl": "Systeemtype"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.v2.card.fieldLabels.wohneinheiten",
+      "de": "Wohneinheiten",
+      "seed": {
+        "en": "Residential units",
+        "pl": "Lokale mieszkalne",
+        "nl": "Wooneenheden"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.v2.card.imageAvailable",
+      "de": "Bild vorhanden",
+      "seed": {
+        "en": "Image available",
+        "pl": "Zdjęcie dostępne",
+        "nl": "Afbeelding beschikbaar"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.v2.card.imageAvailableCount",
+      "de": "{{count}} Bild vorhanden",
+      "seed": {
+        "en": "{{count}} image available",
+        "pl": "{{count}} zdjęcie dostępne",
+        "nl": "{{count}} afbeelding beschikbaar"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.v2.card.imageAvailableCount_other",
+      "de": "{{count}} Bilder vorhanden",
+      "seed": {
+        "en": "{{count}} images available",
+        "pl": "{{count}} zdjęć dostępnych",
+        "nl": "{{count}} afbeeldingen beschikbaar"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.v2.card.openDetails",
+      "de": "Details ansehen",
+      "seed": {
+        "en": "View details",
+        "pl": "Pokaż szczegóły",
+        "nl": "Details bekijken"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.v2.card.openDetailsAria",
+      "de": "Details zu „{{title}}“ ansehen",
+      "seed": {
+        "en": "View details for “{{title}}”",
+        "pl": "Pokaż szczegóły produktu „{{title}}”",
+        "nl": "Details van product „{{title}}” bekijken"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.v2.card.yes",
+      "de": "Ja",
+      "seed": {
+        "en": "Yes",
+        "pl": "Tak"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.v2.fallback.columnsMissing",
+      "de": "Das Preset „{{preset}}“ wurde gefunden, hat aber keine zugeordneten Spalten in „column_preset_columns“. Die Produkte werden bis zur Pflege der Zuordnung in einer reduzierten Standardansicht angezeigt.",
+      "seed": {
+        "en": "The preset “{{preset}}” was found, but has no columns assigned in “column_preset_columns”. Until the assignment is maintained, products are shown in a reduced default view.",
+        "pl": "Szablon „{{preset}}” został znaleziony, ale nie ma przypisanych kolumn w „column_preset_columns”. Do czasu uzupełnienia przypisania produkty są pokazywane w uproszczonym widoku.",
+        "nl": "Sjabloon „{{preset}}” is gevonden, maar heeft geen kolommen in „column_preset_columns”. Tot de toewijzing is aangevuld, worden de producten vereenvoudigd weergegeven."
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.v2.fallback.text",
+      "de": "Das Preset „{{preset}}“ wurde in der Datenbank nicht gefunden. Bis es eingerichtet ist, werden die Produkte in einer reduzierten Standardansicht ohne Detailspalten angezeigt.",
+      "seed": {
+        "en": "The preset “{{preset}}” was not found in the database. Until it is configured, products are shown in a reduced default view without detail columns.",
+        "pl": "Szablonu „{{preset}}” nie znaleziono w bazie danych. Dopóki nie zostanie skonfigurowany, produkty są pokazywane w uproszczonym widoku bez kolumn szczegółowych.",
+        "nl": "Sjabloon „{{preset}}” is niet in de database gevonden. Zolang het niet is ingericht, worden de producten in een vereenvoudigde weergave zonder detailkolommen getoond."
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.v2.filters.allOption",
+      "de": "Alle",
+      "seed": {
+        "en": "All",
+        "pl": "Wszystkie"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.v2.filters.headline",
+      "de": "Filter",
+      "seed": {
+        "en": "Filters",
+        "pl": "Filtry",
+        "nl": "Filters"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.v2.filters.reset",
+      "de": "Filter zurücksetzen",
+      "seed": {
+        "en": "Reset filters",
+        "pl": "Wyczyść filtry",
+        "nl": "Filters wissen"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.v2.status.fallbackActive",
+      "de": "Reduzierte Anzeige – Spaltenmodell nicht auflösbar",
+      "seed": {
+        "en": "Reduced view – column model could not be resolved",
+        "pl": "Widok uproszczony – nie udało się ustalić układu kolumn",
+        "nl": "Vereenvoudigde weergave – kolomindeling kon niet worden bepaald"
+      }
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.v2.status.presetUsed",
+      "de": "Spaltenmodell aus Preset „{{preset}}“",
+      "seed": {
+        "en": "Column model from preset “{{preset}}”",
+        "pl": "Układ kolumn z szablonu „{{preset}}”",
+        "nl": "Kolomindeling uit sjabloon „{{preset}}”"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "chat.botReply",
+      "de": "Vielen Dank für Ihre Anfrage. Ich analysiere Ihr Anliegen und leite Sie bei Bedarf an den technischen Support weiter.",
+      "seed": {
+        "en": "Thank you for your request. I am analyzing your concern and will forward you to technical support if needed."
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "chat.eyebrow",
+      "de": "KI-Assistent · System- & Großanlagen",
+      "seed": {
+        "en": "AI assistant · System & large-scale systems"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "chat.inputPlaceholder",
+      "de": "Nachricht eingeben …",
+      "seed": {
+        "en": "Type a message …"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "chat.now",
+      "de": "Jetzt",
+      "seed": {
+        "en": "Now"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "chat.send",
+      "de": "Senden",
+      "seed": {
+        "en": "Send"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "chat.srDesc",
+      "de": "KI-gestützter technischer Support-Chat",
+      "seed": {
+        "en": "AI-powered technical support chat"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "chat.title",
+      "de": "Technischer Support-Chat",
+      "seed": {
+        "en": "Technical support chat"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "chat.topics.bus",
+      "de": "Busverbindung unterbrochen",
+      "seed": {
+        "en": "Bus connection interrupted"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "chat.topics.device",
+      "de": "Gerät reagiert nicht",
+      "seed": {
+        "en": "Device not responding"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "chat.topics.errorCodes",
+      "de": "Fehlercodes & LED-Bedeutung",
+      "seed": {
+        "en": "Error codes & LED meaning"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "chat.topics.firmware",
+      "de": "Firmware-Update fehlgeschlagen",
+      "seed": {
+        "en": "Firmware update failed"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "chat.topics.gateway",
+      "de": "IP-Gateway konfigurieren",
+      "seed": {
+        "en": "Configure IP gateway"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "chat.welcome",
+      "de": "Willkommen beim TCS Support. Bitte beschreiben Sie Ihr Anliegen oder wählen Sie ein Thema.",
+      "seed": {
+        "en": "Welcome to TCS Support. Please describe your request or choose a topic."
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "dashboard.cta.button",
+      "de": "Projektberatung vereinbaren",
+      "seed": {
+        "en": "Schedule project consulting"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "dashboard.cta.headline",
+      "de": "Lassen Sie uns Ihr Projekt gemeinsam planen",
+      "seed": {
+        "en": "Let's plan your project together"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "dashboard.cta.intro",
+      "de": "Kontaktieren Sie unsere Experten für eine individuelle Projektberatung.",
+      "seed": {
+        "en": "Contact our experts for individual project consulting."
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "dashboard.eyebrow",
+      "de": "Serviceportal",
+      "seed": {
+        "en": "Service Portal"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "dashboard.headline",
+      "de": "Service und Support für Ihre Anlagen",
+      "seed": {
+        "en": "Service and support for your systems"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "dashboard.intro",
+      "de": "Hier können Sie ihre Anlagen konfigurieren, Konfigurationen editieren, vor Ort-Service beauftragen, Software herunterladen und Ersatzteile bestellen — alles an einem Ort.",
+      "seed": {
+        "en": "Here you can configure your systems, edit configurations, request on-site service, download software and order spare parts — all in one place."
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "dashboard.logout",
+      "de": "Abmelden",
+      "seed": {
+        "en": "Sign out"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "dashboard.newBadge",
+      "de": "Neu",
+      "seed": {
+        "en": "New"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "dashboard.sections.konto.desc",
+      "de": "Pflegen Sie Ihre Kontaktdaten und behalten Sie den Überblick über alle installierten Anlagen.",
+      "seed": {
+        "en": "Maintain your contact details and keep an overview of all installed systems."
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "dashboard.sections.konto.eyebrow",
+      "de": "Konto & Anlagen",
+      "seed": {
+        "en": "Account & systems"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "dashboard.sections.konto.tiles.anlagen.desc",
+      "de": "Alle installierten TCS-Anlagen mit Schaltplan, Klingeltasten, Mieterzuordnung und Seriennummern.",
+      "seed": {
+        "en": "All installed TCS systems with wiring diagram, call buttons, tenant assignment and serial numbers."
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "dashboard.sections.konto.tiles.anlagen.label",
+      "de": "Anlagenhistorie",
+      "seed": {
+        "en": "System history"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "dashboard.sections.konto.tiles.anlagen.tag",
+      "de": "3 Anlagen",
+      "seed": {
+        "en": "3 systems"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "dashboard.sections.konto.tiles.anlagen.title",
+      "de": "Meine Anlagen & Konfigurationen",
+      "seed": {
+        "en": "My systems & configurations"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "dashboard.sections.konto.tiles.konfigurator.desc",
+      "de": "Konfigurieren Sie neue Anlagen mit dem interaktiven Konfigurator und speichern Sie Einstellungen in einer abrufbaren Verlaufsliste.",
+      "seed": {
+        "en": "Configure new systems with the interactive configurator and save settings in a retrievable history list."
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "dashboard.sections.konto.tiles.konfigurator.label",
+      "de": "Anlagenkonfigurator",
+      "seed": {
+        "en": "System configurator"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "dashboard.sections.konto.tiles.konfigurator.title",
+      "de": "Anlage konfigurieren",
+      "seed": {
+        "en": "Configure system"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "dashboard.sections.konto.tiles.selfService.desc",
+      "de": "Aktualisieren Sie persönliche Angaben, Kontaktinformationen und Unternehmensdetails.",
+      "seed": {
+        "en": "Update personal information, contact details and company details."
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "dashboard.sections.konto.tiles.selfService.label",
+      "de": "Self-Service",
+      "seed": {
+        "en": "Self-service"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "dashboard.sections.konto.tiles.selfService.title",
+      "de": "Kontaktdaten und Einstellungen",
+      "seed": {
+        "en": "Contact details and settings"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "dashboard.sections.konto.title",
+      "de": "Stammdaten & Anlagenverwaltung",
+      "seed": {
+        "en": "Master data & system management"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "dashboard.sections.service.desc",
+      "de": "Initialisieren Sie Garantiefälle, fordern Sie Serviceeinsätze an und erhalten Sie sofortige technische Unterstützung.",
+      "seed": {
+        "en": "Initiate warranty cases, request service deployments and receive immediate technical support."
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "dashboard.sections.service.eyebrow",
+      "de": "Service & Support",
+      "seed": {
+        "en": "Service & support"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "dashboard.sections.service.tiles.chat.desc",
+      "de": "Sofortige Hilfe bei System- und Großanlagenprodukten — Fehlerdiagnose und Konfigurationsfragen.",
+      "seed": {
+        "en": "Immediate help for system and large-scale system products — fault diagnosis and configuration questions."
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "dashboard.sections.service.tiles.chat.label",
+      "de": "KI-Assistent",
+      "seed": {
+        "en": "AI assistant"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "dashboard.sections.service.tiles.chat.tag",
+      "de": "System- & Großanlagen",
+      "seed": {
+        "en": "System & large-scale systems"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "dashboard.sections.service.tiles.chat.title",
+      "de": "Technischer Support-Chat",
+      "seed": {
+        "en": "Technical support chat"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "dashboard.sections.service.tiles.einsatz.desc",
+      "de": "Beauftragen Sie unseren Kundendienst für einen Serviceeinsatz vor Ort.",
+      "seed": {
+        "en": "Request our customer service for an on-site service deployment."
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "dashboard.sections.service.tiles.einsatz.label",
+      "de": "Kundendienst",
+      "seed": {
+        "en": "Customer service"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "dashboard.sections.service.tiles.einsatz.title",
+      "de": "Serviceeinsatz anfordern",
+      "seed": {
+        "en": "Request service deployment"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "dashboard.sections.service.tiles.rma.desc",
+      "de": "Melden Sie einen Garantiefall für bestehende Anlagen und starten Sie die RMA-Abwicklung.",
+      "seed": {
+        "en": "Report a warranty case for existing systems and start the RMA process."
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "dashboard.sections.service.tiles.rma.label",
+      "de": "RMA · Garantie",
+      "seed": {
+        "en": "RMA · Warranty"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "dashboard.sections.service.tiles.rma.title",
+      "de": "Garantiefall initialisieren",
+      "seed": {
+        "en": "Initiate warranty case"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "dashboard.sections.service.title",
+      "de": "Garantie, Einsatz & technische Hilfe",
+      "seed": {
+        "en": "Warranty, deployment & technical help"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "dashboard.sections.shop.desc",
+      "de": "Ersatzteile, Verbrauchsmaterialien und Zubehör direkt online bestellen — Lieferung in 2–4 Werktagen.",
+      "seed": {
+        "en": "Order spare parts, consumables and accessories directly online — delivery within 2–4 working days."
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "dashboard.sections.shop.eyebrow",
+      "de": "Direktbestellung",
+      "seed": {
+        "en": "Direct ordering"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "dashboard.sections.shop.tile.button",
+      "de": "Shop öffnen",
+      "seed": {
+        "en": "Open shop"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "dashboard.sections.shop.tile.desc",
+      "de": "Innenstationen, Außenstationen, Netzteile, Kabel und Zubehör — direkt verfügbar für Ihre installierten TCS-Anlagen.",
+      "seed": {
+        "en": "Indoor stations, outdoor stations, power supplies, cables and accessories — directly available for your installed TCS systems."
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "dashboard.sections.shop.tile.tags.aussen",
+      "de": "Außenstationen",
+      "seed": {
+        "en": "Outdoor stations"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "dashboard.sections.shop.tile.tags.innen",
+      "de": "Innenstationen",
+      "seed": {
+        "en": "Indoor stations"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "dashboard.sections.shop.tile.tags.kabel",
+      "de": "Kabel & Zubehör",
+      "seed": {
+        "en": "Cables & accessories"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "dashboard.sections.shop.tile.tags.netzteile",
+      "de": "Netzteile",
+      "seed": {
+        "en": "Power supplies"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "dashboard.sections.shop.tile.title",
+      "de": "Ersatzteile & Zubehör bestellen",
+      "seed": {
+        "en": "Order spare parts & accessories"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "dashboard.sections.shop.title",
+      "de": "Ersatzteil-Shop",
+      "seed": {
+        "en": "Spare parts shop"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "dashboard.sections.software.desc",
+      "de": "Aktuelle Firmware für Server und Gateways sowie Freischaltcodes für Software und Servicegeräte.",
+      "seed": {
+        "en": "Latest firmware for servers and gateways as well as activation codes for software and service devices."
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "dashboard.sections.software.downloads.button",
+      "de": "Download-Center öffnen",
+      "seed": {
+        "en": "Open download center"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "dashboard.sections.software.downloads.desc",
+      "de": "Aktuelle Firmware für TCS-Server, IP-Gateways und Steuergeräte — sortiert nach Produkt und Version.",
+      "seed": {
+        "en": "Latest firmware for TCS servers, IP gateways and control devices — sorted by product and version."
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "dashboard.sections.software.downloads.tags.doku",
+      "de": "Dokumentation",
+      "seed": {
+        "en": "Documentation"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "dashboard.sections.software.downloads.tags.gateway",
+      "de": "Gateway-Firmware",
+      "seed": {
+        "en": "Gateway firmware"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "dashboard.sections.software.downloads.tags.konfig",
+      "de": "Konfigurations-Software",
+      "seed": {
+        "en": "Configuration software"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "dashboard.sections.software.downloads.tags.server",
+      "de": "Server-Software",
+      "seed": {
+        "en": "Server software"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "dashboard.sections.software.downloads.title",
+      "de": "Software & Firmware Downloads",
+      "seed": {
+        "en": "Software & firmware downloads"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "dashboard.sections.software.eyebrow",
+      "de": "Software & Freischaltcodes",
+      "seed": {
+        "en": "Software & activation codes"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "dashboard.sections.software.tiles.configo.desc",
+      "de": "Freischaltcode für die configo-Software FBI1210 anfordern und den vollen Funktionsumfang aktivieren.",
+      "seed": {
+        "en": "Request an activation code for the configo software FBI1210 and unlock the full feature set."
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "dashboard.sections.software.tiles.configo.label",
+      "de": "Software · configo",
+      "seed": {}
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "dashboard.sections.software.tiles.configo.title",
+      "de": "Freischaltcode configo",
+      "seed": {
+        "en": "Activation code configo"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "dashboard.sections.software.tiles.servicegeraet.desc",
+      "de": "Freischaltcode für das TCSK-Servicegerät beantragen und Diagnosefunktionen freischalten.",
+      "seed": {
+        "en": "Request an activation code for the TCSK service device and unlock diagnostic functions."
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "dashboard.sections.software.tiles.servicegeraet.label",
+      "de": "Hardware · TCSK",
+      "seed": {}
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "dashboard.sections.software.tiles.servicegeraet.title",
+      "de": "Freischaltcode Servicegerät",
+      "seed": {
+        "en": "Activation code service device"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "dashboard.sections.software.title",
+      "de": "Downloads, Firmware & Lizenzierung",
+      "seed": {
+        "en": "Downloads, firmware & licensing"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "downloadCenter.categories.doku",
+      "de": "Dokumentation",
+      "seed": {
+        "en": "Documentation"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "downloadCenter.categories.gateway",
+      "de": "Gateway-Firmware",
+      "seed": {
+        "en": "Gateway firmware"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "downloadCenter.categories.konfig",
+      "de": "Konfigurations-Software",
+      "seed": {
+        "en": "Configuration software"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "downloadCenter.categories.server",
+      "de": "Server-Software",
+      "seed": {
+        "en": "Server software"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "downloadCenter.downloadButton",
+      "de": "Download",
+      "seed": {}
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "downloadCenter.eyebrow",
+      "de": "Download-Center",
+      "seed": {
+        "en": "Download center"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "downloadCenter.items.configoFbi.meta",
+      "de": "Windows 10/11 · Setup-EXE · 42 MB · 05.04.2026",
+      "seed": {
+        "en": "Windows 10/11 · setup EXE · 42 MB · 05 Apr 2026"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "downloadCenter.items.configoFbi.name",
+      "de": "configo FBI1210 v3.5.2",
+      "seed": {}
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "downloadCenter.items.configoHandbuch.meta",
+      "de": "PDF · 5,1 MB · Revision 2025-11",
+      "seed": {
+        "en": "PDF · 5.1 MB · Revision 2025-11"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "downloadCenter.items.configoHandbuch.name",
+      "de": "configo FBI1210 Benutzerhandbuch",
+      "seed": {
+        "en": "configo FBI1210 user manual"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "downloadCenter.items.gw2040.meta",
+      "de": "IP-Gateway kompakt · .bin · 1,8 MB · 15.01.2026",
+      "seed": {
+        "en": "IP gateway compact · .bin · 1.8 MB · 15 Jan 2026"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "downloadCenter.items.gw2040.name",
+      "de": "TCS GW2040 Firmware v1.6.3",
+      "seed": {
+        "en": "TCS GW2040 firmware v1.6.3"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "downloadCenter.items.gw4080.meta",
+      "de": "IP-Gateway · .bin · 3,2 MB · 28.02.2026",
+      "seed": {
+        "en": "IP gateway · .bin · 3.2 MB · 28 Feb 2026"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "downloadCenter.items.gw4080.name",
+      "de": "TCS GW4080 Firmware v2.8.0",
+      "seed": {
+        "en": "TCS GW4080 firmware v2.8.0"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "downloadCenter.items.ivsHandbuch.meta",
+      "de": "PDF · 12,4 MB · Revision 2026-01",
+      "seed": {
+        "en": "PDF · 12.4 MB · Revision 2026-01"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "downloadCenter.items.ivsHandbuch.name",
+      "de": "TCS IVS 4.x Technisches Handbuch",
+      "seed": {
+        "en": "TCS IVS 4.x technical manual"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "downloadCenter.items.serverV418.meta",
+      "de": "Windows 10/11 · 64-bit · 85 MB · 07.11.2025",
+      "seed": {
+        "en": "Windows 10/11 · 64-bit · 85 MB · 07 Nov 2025"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "downloadCenter.items.serverV418.name",
+      "de": "TCS Server Manager v4.1.8 (LTS)",
+      "seed": {}
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "downloadCenter.items.serverV421.meta",
+      "de": "Windows 10/11 · 64-bit · 87 MB · 12.03.2026",
+      "seed": {
+        "en": "Windows 10/11 · 64-bit · 87 MB · 12 Mar 2026"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "downloadCenter.items.serverV421.name",
+      "de": "TCS Server Manager v4.2.1",
+      "seed": {}
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "downloadCenter.items.tcskTreiber.meta",
+      "de": "Windows 10/11 · USB-Treiber · 8 MB · 19.02.2026",
+      "seed": {
+        "en": "Windows 10/11 · USB driver · 8 MB · 19 Feb 2026"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "downloadCenter.items.tcskTreiber.name",
+      "de": "TCSK Servicegerät Treiber v2.1",
+      "seed": {
+        "en": "TCSK service device driver v2.1"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "downloadCenter.searchPlaceholder",
+      "de": "Suchen …",
+      "seed": {
+        "en": "Search …"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "downloadCenter.srDesc",
+      "de": "Downloads für TCS Software und Firmware",
+      "seed": {
+        "en": "Downloads for TCS software and firmware"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "downloadCenter.title",
+      "de": "Software & Firmware",
+      "seed": {
+        "en": "Software & firmware"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "login.error",
+      "de": "Ungültige Kundennummer oder Passwort.",
+      "seed": {
+        "en": "Invalid customer number or password."
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "login.eyebrow",
+      "de": "Serviceportal",
+      "seed": {
+        "en": "Service Portal"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "login.forgotPassword",
+      "de": "Passwort vergessen",
+      "seed": {
+        "en": "Forgot password"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "login.headline",
+      "de": "Kundenlogin",
+      "seed": {
+        "en": "Customer login"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "login.intro",
+      "de": "Melden Sie sich mit Ihrer TCS-Kundennummer an, um auf das Serviceportal zuzugreifen.",
+      "seed": {
+        "en": "Sign in with your TCS customer number to access the service portal."
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "login.kundennummerLabel",
+      "de": "Ihre TCS-Kundennummer",
+      "seed": {
+        "en": "Your TCS customer number"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "login.kundennummerPlaceholder",
+      "de": "z. B. 123",
+      "seed": {
+        "en": "e.g. 123"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "login.passwortLabel",
+      "de": "Ihr Passwort",
+      "seed": {
+        "en": "Your password"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "login.passwortPlaceholder",
+      "de": "Passwort eingeben",
+      "seed": {
+        "en": "Enter password"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "login.register",
+      "de": "Neu registrieren",
+      "seed": {
+        "en": "Register"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "login.submit",
+      "de": "Anmelden",
+      "seed": {
+        "en": "Sign in"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "passwortVergessen.back",
+      "de": "Zurück zum Login",
+      "seed": {
+        "en": "Back to login"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "passwortVergessen.emailLabel",
+      "de": "E-Mail-Adresse",
+      "seed": {
+        "en": "Email address"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "passwortVergessen.emailPlaceholder",
+      "de": "name@firma.de",
+      "seed": {
+        "en": "name@company.com"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "passwortVergessen.eyebrow",
+      "de": "Serviceportal",
+      "seed": {
+        "en": "Service Portal"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "passwortVergessen.headline",
+      "de": "Passwort vergessen",
+      "seed": {
+        "en": "Forgot password"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "passwortVergessen.intro",
+      "de": "Geben Sie Ihre E-Mail-Adresse ein. Wir senden Ihnen einen Link zum Zurücksetzen Ihres Passworts.",
+      "seed": {
+        "en": "Enter your email address. We will send you a link to reset your password."
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "passwortVergessen.submit",
+      "de": "Link zum Zurücksetzen senden",
+      "seed": {
+        "en": "Send reset link"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "passwortVergessen.successHeadline",
+      "de": "E-Mail gesendet",
+      "seed": {
+        "en": "Email sent"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "passwortVergessen.successIntro",
+      "de": "Falls ein Konto mit <strong>{{email}}</strong> existiert, erhalten Sie in Kürze eine E-Mail mit einem Link zum Zurücksetzen Ihres Passworts.",
+      "seed": {
+        "en": "If an account with <strong>{{email}}</strong> exists, you will shortly receive an email with a link to reset your password."
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "registrieren.ansprechpartnerLabel",
+      "de": "Ansprechpartner *",
+      "seed": {
+        "en": "Contact person *"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "registrieren.ansprechpartnerPlaceholder",
+      "de": "Max Mustermann",
+      "seed": {}
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "registrieren.back",
+      "de": "Zurück zum Login",
+      "seed": {
+        "en": "Back to login"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "registrieren.emailLabel",
+      "de": "E-Mail-Adresse *",
+      "seed": {
+        "en": "Email address *"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "registrieren.emailPlaceholder",
+      "de": "name@firma.de",
+      "seed": {
+        "en": "name@company.com"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "registrieren.eyebrow",
+      "de": "Serviceportal",
+      "seed": {
+        "en": "Service Portal"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "registrieren.firmaLabel",
+      "de": "Firma / Unternehmen *",
+      "seed": {
+        "en": "Company *"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "registrieren.firmaPlaceholder",
+      "de": "Mustermann Elektrotechnik GmbH",
+      "seed": {}
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "registrieren.headline",
+      "de": "Neu registrieren",
+      "seed": {
+        "en": "Register"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "registrieren.intro",
+      "de": "Registrieren Sie sich als TCS-Fachpartner, um Zugang zum Serviceportal zu erhalten.",
+      "seed": {
+        "en": "Register as a TCS specialist partner to gain access to the service portal."
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "registrieren.submit",
+      "de": "Registrierung absenden",
+      "seed": {
+        "en": "Submit registration"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "registrieren.successHeadline",
+      "de": "Registrierung eingegangen",
+      "seed": {
+        "en": "Registration received"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "registrieren.successIntro",
+      "de": "Vielen Dank für Ihre Registrierung. Wir prüfen Ihre Angaben und senden Ihnen Ihre Zugangsdaten per E-Mail an <strong>{{email}}</strong>.",
+      "seed": {
+        "en": "Thank you for your registration. We will review your details and send your access credentials by email to <strong>{{email}}</strong>."
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "registrieren.telefonLabel",
+      "de": "Telefon (optional)",
+      "seed": {
+        "en": "Phone (optional)"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "shop.cart",
+      "de": "Warenkorb",
+      "seed": {
+        "en": "Cart"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "shop.categoriesData.aussen",
+      "de": "Außenstationen",
+      "seed": {
+        "en": "Outdoor stations"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "shop.categoriesData.innen",
+      "de": "Innenstationen",
+      "seed": {
+        "en": "Indoor stations"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "shop.categoriesData.kabel",
+      "de": "Kabel",
+      "seed": {
+        "en": "Cables"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "shop.categoriesData.netzteile",
+      "de": "Netzteile",
+      "seed": {
+        "en": "Power supplies"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "shop.categoriesData.zubehoer",
+      "de": "Zubehör",
+      "seed": {
+        "en": "Accessories"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "shop.checkout",
+      "de": "Zur Kasse →",
+      "seed": {
+        "en": "Checkout →"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "shop.eyebrow",
+      "de": "Direktbestellung",
+      "seed": {
+        "en": "Direct ordering"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "shop.filters.alle",
+      "de": "Alle",
+      "seed": {
+        "en": "All"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "shop.filters.aussen",
+      "de": "Außenstationen",
+      "seed": {
+        "en": "Outdoor stations"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "shop.filters.innen",
+      "de": "Innenstationen",
+      "seed": {
+        "en": "Indoor stations"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "shop.filters.kabel",
+      "de": "Kabel",
+      "seed": {
+        "en": "Cables"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "shop.filters.netzteile",
+      "de": "Netzteile",
+      "seed": {
+        "en": "Power supplies"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "shop.filters.zubehoer",
+      "de": "Zubehör",
+      "seed": {
+        "en": "Accessories"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "shop.items",
+      "de": "Artikel",
+      "seed": {
+        "en": "items"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "shop.srDesc",
+      "de": "Ersatzteile und Zubehör bestellen",
+      "seed": {
+        "en": "Order spare parts and accessories"
+      }
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "shop.title",
+      "de": "Ersatzteil-Shop",
+      "seed": {
+        "en": "Spare parts shop"
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "namespace": "common",
+      "key": "app.name",
+      "reason": "marke_oder_code"
+    },
+    {
+      "namespace": "common",
+      "key": "notFound.code",
+      "reason": "technischer_wert"
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.diagnostics.headline",
+      "reason": "konfiguration_ausgeschlossen"
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.diagnostics.labels.columnPresets",
+      "reason": "konfiguration_ausgeschlossen"
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.diagnostics.labels.columnPresetsCount",
+      "reason": "konfiguration_ausgeschlossen"
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.diagnostics.labels.productCatalogView",
+      "reason": "konfiguration_ausgeschlossen"
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.diagnostics.labels.productCatalogViewRows",
+      "reason": "konfiguration_ausgeschlossen"
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.diagnostics.labels.productColumnDefinitions",
+      "reason": "konfiguration_ausgeschlossen"
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.diagnostics.labels.productFilterOptionsView",
+      "reason": "konfiguration_ausgeschlossen"
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.diagnostics.labels.projectMatch",
+      "reason": "konfiguration_ausgeschlossen"
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.diagnostics.labels.publicCatalogPreset",
+      "reason": "konfiguration_ausgeschlossen"
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.diagnostics.labels.rpc",
+      "reason": "konfiguration_ausgeschlossen"
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.diagnostics.labels.supabaseConfigured",
+      "reason": "konfiguration_ausgeschlossen"
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.diagnostics.labels.urlPresent",
+      "reason": "konfiguration_ausgeschlossen"
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.diagnostics.states.emptyOrBlocked",
+      "reason": "konfiguration_ausgeschlossen"
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.diagnostics.states.notConfigured",
+      "reason": "konfiguration_ausgeschlossen"
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.diagnostics.states.ok",
+      "reason": "konfiguration_ausgeschlossen"
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.diagnostics.states.presetColumnsMissing",
+      "reason": "konfiguration_ausgeschlossen"
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.diagnostics.states.presetMissing",
+      "reason": "konfiguration_ausgeschlossen"
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.diagnostics.states.rpcUnavailable",
+      "reason": "konfiguration_ausgeschlossen"
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.diagnostics.states.viewUnreachable",
+      "reason": "konfiguration_ausgeschlossen"
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.diagnostics.states.wrongProject",
+      "reason": "konfiguration_ausgeschlossen"
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.diagnostics.values.no",
+      "reason": "konfiguration_ausgeschlossen"
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.diagnostics.values.skipped",
+      "reason": "konfiguration_ausgeschlossen"
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.diagnostics.values.unknown",
+      "reason": "konfiguration_ausgeschlossen"
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.diagnostics.values.yes",
+      "reason": "konfiguration_ausgeschlossen"
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.filters.color",
+      "reason": "technischer_schluessel"
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.filters.groups.ip_gateway.label",
+      "reason": "technischer_wert"
+    },
+    {
+      "namespace": "service",
+      "key": "katalog.filters.groups.wohneinheiten.label",
+      "reason": "technischer_wert"
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "_meta.namespace",
+      "reason": "konfiguration_ausgeschlossen"
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "_meta.note",
+      "reason": "konfiguration_ausgeschlossen"
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "_meta.status",
+      "reason": "konfiguration_ausgeschlossen"
+    },
+    {
+      "namespace": "serviceportal",
+      "key": "registrieren.telefonPlaceholder",
+      "reason": "kein_text"
+    }
+  ]
+}

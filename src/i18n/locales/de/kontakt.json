@@ -1,0 +1,46 @@
+{
+  "_meta": {
+    "namespace": "kontakt",
+    "status": "migrated",
+    "note": "Seitentexte der Kontakt-Seite (Etappe 16a)."
+  },
+  "hero": {
+    "label": "Kontakt",
+    "headline": "Wir sind für Sie da",
+    "intro": "Sprechen Sie uns an – ob Fragen zu unseren Produkten, individuelle Projektberatung oder technischer Support."
+  },
+  "sections": {
+    "reach": {
+      "title": "So erreichen Sie uns",
+      "intro": "Ob Fragen zu unseren Produkten, individuelle Projektberatung oder technischer Support – unser Team steht Ihnen gerne zur Verfügung."
+    },
+    "form": {
+      "title": "Nachricht senden"
+    }
+  },
+  "cards": {
+    "phone": {
+      "title": "Telefon",
+      "hours": "Mo–Fr, 8:00–17:00 Uhr"
+    },
+    "email": {
+      "title": "E-Mail"
+    },
+    "address": {
+      "title": "Adresse",
+      "value": "TCS AG\nGeschwister-Scholl-Str. 7\n21698 Harsefeld"
+    },
+    "support": {
+      "title": "Technischer Support",
+      "hours": "Mo–Fr, 8:00–17:00 Uhr"
+    }
+  },
+  "form": {
+    "firstName": "Vorname",
+    "lastName": "Nachname",
+    "email": "E-Mail",
+    "subject": "Betreff",
+    "message": "Nachricht",
+    "submit": "Nachricht senden"
+  }
+}

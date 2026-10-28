@@ -1,0 +1,1 @@
+REVOKE UPDATE, DELETE ON public.cms_pages, public.cms_sections, public.cms_section_fields, public.cms_admin_editable_fields FROM sandbox_exec;

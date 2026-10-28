@@ -1,0 +1,391 @@
+{
+  "nav": {
+    "produkte": {
+      "label": "Produkte",
+      "tuerkommunikation": {
+        "label": "Türkommunikation",
+        "desc": "Online-Produktkatalog: Außenstationen, Innenstationen, AMI-Module, Pakete und Zubehör (BMEcat)."
+      },
+      "zutrittskontrolle": {
+        "label": "Zutrittskontrolle",
+        "desc": "Leser, Drückergarnituren, mobiler Zutritt und Fahrstuhlsteuerung."
+      },
+      "eingangsloesungen": {
+        "label": "Eingangslösungen",
+        "desc": "TCS-Einbauten, Briefkasten- und Paketkasten-Anlagen, Säulen und Stelen."
+      }
+    },
+    "gebaeudekommunikation": {
+      "label": "Gebäudekommunikation",
+      "tuersprechanlagen": {
+        "label": "Türsprechanlagen",
+        "desc": "Audio- und Video-Kommunikation an der Tür"
+      },
+      "briefkastenanlagen": {
+        "label": "Briefkastenanlagen",
+        "desc": "Integrierte Brief- und Paketkastensysteme"
+      },
+      "beschilderung": {
+        "label": "Beschilderung und Wayfinding",
+        "desc": "Von Hausnummer, Piktogramm bis Türschild"
+      },
+      "grossanlagen": {
+        "label": "Großanlagen",
+        "desc": "Lösungen für Wohnquartiere und Großprojekte"
+      },
+      "systemloesungen": {
+        "label": "Türsprechanlagen mit Zusatzfunktion",
+        "desc": "Gebäudespezifische Anlagenfunktionen"
+      },
+      "mobile-tuerkommunikation": {
+        "label": "Mobile Türkommunikation",
+        "desc": "Türkommunikation per App und Smartphone"
+      },
+      "snipdoo-ip": {
+        "label": "snipdoo® IP",
+        "desc": "IP-basierte Türkommunikation für moderne Gebäude"
+      }
+    },
+    "zutrittskontrolle": {
+      "label": "Zutrittskontrolle",
+      "tueren-tore": {
+        "label": "Türen und Tore",
+        "desc": "Sichere Zutrittslösungen für jeden Eingang"
+      },
+      "elektronische-drueckergarnitur": {
+        "label": "Elektronische Drückergarnitur",
+        "desc": "Batteriebetriebener RFID-Offline-Leser für Türen ohne Verkabelung"
+      },
+      "mobiler-zutritt": {
+        "label": "Mobiler Zutritt per App oder Anruf",
+        "desc": "Türöffnung bequem per Smartphone-App oder Telefonanruf"
+      },
+      "fahrstuhl": {
+        "label": "Fahrstuhlsteuerung",
+        "desc": "Intelligente Etagenfreigabe und Zugangsregelung"
+      },
+      "zufahrten": {
+        "label": "Zufahrten und Parkplätze",
+        "desc": "Schranken- und Parkraumsteuerung"
+      },
+      "systemeigenschaften-bcm": {
+        "label": "Systemeigenschaften BCM"
+      }
+    },
+    "gebaeudemanagement": {
+      "label": "Gebäudemanagement",
+      "namensanzeige": {
+        "label": "Digitale Namensanzeige",
+        "desc": "Namen auf e-Paper, in LCDs und Touch-Displays anzeigen"
+      },
+      "schraenke": {
+        "label": "Schränke und Behälter",
+        "desc": "Elektronische Schließsysteme für Mobiliar"
+      },
+      "signage": {
+        "label": "Digital Signage – Informieren",
+        "desc": "Digitale Informations- und Anzeigesysteme"
+      },
+      "reservieren": {
+        "label": "Reservieren und Buchen",
+        "desc": "Raum- und Ressourcenbuchung"
+      },
+      "alarm": {
+        "label": "Alarmanlagenkopplung",
+        "desc": "Integration von Sicherheitssystemen"
+      }
+    },
+    "eingangssysteme": {
+      "label": "Eingangssysteme",
+      "design": {
+        "label": "Design",
+        "desc": "Gestaltung, Formensprache und Oberflächen"
+      },
+      "funktionalitaet": {
+        "label": "Systematische Funktionalität",
+        "desc": "Alle Gewerke unter Dach und Fach"
+      },
+      "baukoerper": {
+        "label": "Baukörper & Montageform",
+        "desc": "Passgenau und diskret integriert"
+      },
+      "material": {
+        "label": "Ausdrucksstarke Materialien",
+        "desc": "Haptik und Farbe, die überzeugen"
+      },
+      "beratung": {
+        "label": "Projektberatung",
+        "desc": "Von der Vision bis zur Umsetzung"
+      },
+      "referenzen": {
+        "label": "Referenzen",
+        "desc": "Umgesetzte Eingangssysteme im Überblick"
+      },
+      "standards": {
+        "label": "Standards",
+        "desc": "Normen, Vorgaben und technische Standards"
+      }
+    },
+    "anwendungen": {
+      "label": "TCS in Bauten",
+      "wohnbau": {
+        "label": "TCS im Wohnbau",
+        "desc": "Lösungen für Ein- und Mehrfamilienhäuser"
+      },
+      "bildung": {
+        "label": "TCS in Bildungseinrichtungen",
+        "desc": "Sichere Kommunikation für Kitas, Schulen und Wohnheime"
+      },
+      "gesundheit": {
+        "label": "TCS in Gesundheitseinrichtungen",
+        "desc": "Zutritt und Kommunikation in Kliniken und Praxen"
+      },
+      "oeffentlich": {
+        "label": "TCS in Einrichtungen der öffentlichen Hand",
+        "desc": "Lösungen für Behörden und öffentliche Gebäude"
+      },
+      "referenzen": {
+        "label": "Referenzprojekte",
+        "desc": "Inspiration & Fallstudien"
+      }
+    },
+    "services": {
+      "label": "Services",
+      "hub": {
+        "label": "Service-Center",
+        "desc": "Strukturierter Einstieg für Handwerk, Handel und Produktmanagement"
+      },
+      "katalog": {
+        "label": "Online-Produktkatalog",
+        "desc": "Strukturierter Zugriff auf im BMEcat gepflegte TCS-Produkte, Produktdaten und Datenblätter."
+      },
+      "downloads": {
+        "label": "Downloads",
+        "desc": "Ausschreibungstexte, Datenblätter, Kataloge, Firmware"
+      },
+      "planen": {
+        "label": "Planen & Konfigurieren",
+        "desc": "TCS-Anlagenkonfigurator und Ausschreibungstexte"
+      },
+      "support": {
+        "label": "Technischer Support",
+        "desc": "Schaltplan-Datenbank tcsplan.de, Hotline"
+      },
+      "faqGlossar": {
+        "label": "FAQ & Glossar",
+        "desc": "Häufige Fragen und Fachbegriffe"
+      },
+      "ersatzteile": {
+        "label": "Ersatzteile, Beschriftung und Freischaltcodes",
+        "desc": "Ersatzteile, Beschriftungen und Freischaltcodes online bestellen"
+      }
+    },
+    "wissen": {
+      "akademie": {
+        "label": "TCS Akademie",
+        "desc": "Schulungen & Webinare"
+      },
+      "serviceportal": {
+        "label": "Serviceportal",
+        "desc": "Geschützter Bereich für Servicepartner"
+      }
+    }
+  },
+  "footer": {
+    "produkte": {
+      "title": "Produkte",
+      "tuerkommunikation": "Türkommunikation",
+      "zutrittskontrolle": "Zutrittskontrolle",
+      "eingangssysteme": "Eingangssysteme",
+      "tcsPacks": "TCS:PACKS",
+      "snipdoo": "snipdoo®",
+      "beschilderung": "Beschilderung"
+    },
+    "anwendungen": {
+      "title": "TCS in Bauten",
+      "efh": "Einfamilienhaus",
+      "mfh": "Mehrfamilienhaus",
+      "grossanlagen": "Großanlagen",
+      "gewerbe": "Gewerbe",
+      "referenzen": "Referenzen"
+    },
+    "services": {
+      "title": "Services",
+      "konfigurator": "Konfigurator",
+      "downloads": "Downloads",
+      "akademie": "TCS Akademie",
+      "ersatzteile": "Ersatzteil-Shop",
+      "support": "Support"
+    },
+    "unternehmen": {
+      "title": "Unternehmen",
+      "ueberTcs": "Über TCS",
+      "karriere": "Karriere",
+      "presse": "News",
+      "kontakt": "Kontakt",
+      "datenschutz": "Datenschutz"
+    },
+    "legal": {
+      "impressum": "Impressum",
+      "datenschutz": "Datenschutz",
+      "datenschutzSnipdoo": "Datenschutzhinweise snipdoo® IP",
+      "garantiebedingungen": "Garantiebedingungen",
+      "einwilligung": "Einwilligung",
+      "agbEinkauf": "AGB Einkauf",
+      "agb": "AGB",
+      "sitemap": "Sitemap"
+    },
+    "bottom": {
+      "copyright": "© {{year}} TCS AG. Alle Rechte vorbehalten. Made in Germany."
+    }
+  },
+  "persona": {
+    "bauherren": {
+      "label": "Bauherren",
+      "short": "Bauherren"
+    },
+    "architekten": {
+      "label": "Architekten",
+      "short": "Architekten"
+    },
+    "wohnungswirtschaft": {
+      "label": "Wohnungswirtschaft",
+      "short": "Wohnungswirtschaft"
+    },
+    "fachplaner": {
+      "label": "Fachplaner",
+      "short": "Fachplaner"
+    },
+    "handwerk": {
+      "label": "Handwerk",
+      "short": "Handwerk"
+    },
+    "fachhandel": {
+      "label": "Fachhandel",
+      "short": "Fachhandel"
+    }
+  },
+  "meta": {
+    "serviceportal": {
+      "label": "Serviceportal"
+    },
+    "kontakt": {
+      "label": "Kontakt"
+    },
+    "karriere": {
+      "label": "Karriere"
+    },
+    "presse": {
+      "label": "News"
+    },
+    "personaPrompt": "Ich bin",
+    "personaPromptShort": "Ich bin...",
+    "personaActive": "Ansicht: {{persona}}"
+  },
+  "a11y": {
+    "skipToContent": "Zum Hauptinhalt springen",
+    "mainNavigation": "Hauptnavigation",
+    "metaNavigation": "Meta-Navigation",
+    "personaNavigation": "Persona-Auswahl",
+    "breadcrumb": "Brotkrumen-Navigation",
+    "footerNavigation": "Footer-Navigation",
+    "legalNavigation": "Rechtliche Hinweise",
+    "sectionNavigation": "Seitennavigation",
+    "logoHome": "TCS – Zurück zur Startseite",
+    "search": "Suche",
+    "account": "Konto",
+    "menuOpen": "Menü öffnen",
+    "menuClose": "Menü schließen",
+    "roleTabs": "Rollen"
+  },
+  "common": {
+    "overview": "Übersicht"
+  },
+  "breadcrumb": {
+    "home": "Startseite",
+    "segments": {
+      "produkte": "Produkte",
+      "eingangsloesungen": "Eingangslösungen",
+      "installation-wartung": "Installation & Wartung",
+      "beratung-schulung": "Beratung & Schulung",
+      "garantie-sicherheit": "Garantie & Sicherheit",
+      "konfiguratoren": "Konfiguratoren",
+      "planungshilfen": "Planungshilfen",
+      "datenblaetter-software": "Datenblätter & Software",
+      "tuerkommunikation": "Türkommunikation",
+      "tuersprechanlagen": "Türsprechanlagen",
+      "briefkastenanlagen": "Briefkastenanlagen",
+      "beschilderung": "Beschilderung & Wayfinding",
+      "grossanlagen": "Großanlagen",
+      "systemloesungen": "Systemlösungen",
+      "zutrittskontrolle": "Zutrittskontrolle",
+      "tueren-tore": "Türen & Tore",
+      "elektronische-drueckergarnitur": "Elektronische Drückergarnitur",
+      "elektronischer-knaufzylinder": "Elektronischer Knaufzylinder",
+      "funkvernetzte-offline-leser": "Funkvernetzte Offline-Leser",
+      "bcm-online-leser": "BCM Online-Leser",
+      "bcm-handsender": "BCM Handsender",
+      "vorhaengeschloss": "Vorhängeschloss",
+      "mobiler-zutritt": "Mobiler Zutritt",
+      "fahrstuhlsteuerung": "Fahrstuhlsteuerung",
+      "zufahrten-parkplaetze": "Zufahrten & Parkplätze",
+      "gebaeudemanagement": "Gebäudemanagement",
+      "digitale-namensanzeige": "Digitale Namensanzeige",
+      "digital-signage": "Digital Signage",
+      "reservieren-buchen": "Reservieren & Buchen",
+      "schraenke-behaelter": "Schränke & Behälter",
+      "alarmanlagenkopplung": "Alarmanlagenkopplung",
+      "entry-system": "Eingangssysteme",
+      "design": "Design",
+      "funktionalitaet": "Funktionalität",
+      "material": "Material",
+      "integrationsformen": "Integrationsformen",
+      "referenzen": "Referenzen",
+      "standards": "Standards",
+      "beratung": "Beratung",
+      "signage": "Digital Signage",
+      "anwendungen": "TCS in Bauten",
+      "objektloesungen": "Objektlösungen",
+      "bildungseinrichtungen": "Bildungseinrichtungen",
+      "einfamilienhaus": "Einfamilienhaus",
+      "mehrfamilienhaus": "Mehrfamilienhaus",
+      "grossanlage": "Großanlage",
+      "sanierung": "Sanierung",
+      "pflege": "Pflege",
+      "klinik": "Klinik",
+      "behoerde": "Behörde",
+      "feuerwehr": "Feuerwehr",
+      "schwimmbad": "Schwimmbad",
+      "concierge": "Concierge",
+      "interne-kommunikation": "Interne Kommunikation",
+      "digitale-namensverwaltung": "Digitale Namensverwaltung",
+      "feuerwehrdurchsage": "Bewohnerinformation im Sonderfall",
+      "bewohnerinformation-im-sonderfall": "Bewohnerinformation im Sonderfall",
+      "bidirektionale-video": "Bidirektionale Video",
+      "mobile-tuerkommunikation": "Mobile Türkommunikation",
+      "zutrittskontrolle-bcm": "Zutrittskontrolle BCM",
+      "wohnbau": "Wohnbau",
+      "gesundheitseinrichtungen": "Gesundheitseinrichtungen",
+      "oeffentliche-hand": "Öffentliche Hand",
+      "referenzprojekte": "Referenzprojekte",
+      "systemtechnik": "Systemtechnik",
+      "gebaeudekommunikation": "Gebäudekommunikation",
+      "snipdoo-ip": "snipdoo IP",
+      "kontakt": "Kontakt",
+      "karriere": "Karriere",
+      "presse": "News",
+      "ueber-tcs": "Über TCS",
+      "service": "Services",
+      "online-produktkatalog": "Online-Produktkatalog",
+      "planen-konfigurieren": "Planen & Konfigurieren",
+      "downloads": "Downloads",
+      "technischer-support": "Technischer Support",
+      "akademie": "TCS Akademie",
+      "ersatzteile": "Ersatzteile, Beschriftung und Freischaltcodes",
+      "serviceportal": "Serviceportal",
+      "passwort-vergessen": "Passwort vergessen",
+      "registrieren": "Registrieren",
+      "merkliste": "Merkliste"
+    }
+  }
+}

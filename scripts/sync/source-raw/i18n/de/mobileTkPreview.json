@@ -1,0 +1,258 @@
+{
+  "_meta": {
+    "namespace": "mobileTkPreview",
+    "status": "in-progress"
+  },
+  "seo": {
+    "title": "Mobile Türkommunikation – Vorschau",
+    "description": "Türrufe erreichen Sie zu Hause, im Büro oder unterwegs: Smartphone, Schnurlostelefon, IP-Telefon oder Steckdosen-Funkgong als Erweiterung Ihrer TCS-Anlage."
+  },
+  "subnav": {
+    "uebersicht": "Übersicht",
+    "anwendungen": "Anwendungsfälle",
+    "zielgruppen": "Zielgruppen",
+    "komponenten": "Komponenten",
+    "faq": "FAQ",
+    "beratung": "Beratung"
+  },
+  "hero": {
+    "eyebrow": "MOBILE TÜRKOMMUNIKATION · ERWEITERUNG IHRER TCS-ANLAGE",
+    "headline": "Türrufe erreichen Sie zu Hause, im Büro, unterwegs.",
+    "subheader": "Bestehende Geräte nutzen. Kein komplizierter Umbau, keine neue Anlage.",
+    "answerFirst": "Mobile Türkommunikation leitet Türrufe Ihrer bestehenden Türsprechanlage an die Geräte weiter, die Sie i Alltag ohnehin nutzen: Smartphone, Schnurlostelefon oder IP-Telefon. So nehmen Sie Türrufe an, wo Sie gerade sind – im Hobbykeller, auf dem Balkon oder im Obergeschoss.",
+    "imageAlt": "Person nimmt Türruf über Smartphone-App entgegen"
+  },
+  "anwendungen": {
+    "eyebrow": "Mobile Türkommunikation · Anwendungsfälle",
+    "headline": "Wann Mobile Türkommunikation den Alltag erleichtert",
+    "items": {
+      "paket": {
+        "title": "Paket annehmen, ohne zu Hause zu sein.",
+        "body": "Der Zusteller klingelt, niemand ist daheim. Sie nehmen den Türruf auf dem Smartphone an, sprechen mit dem Boten und vereinbaren einen sicheren Ablageort. Wenn nötig, öffnen Sie die Hauseingangstür Ihres Apartmenthauses kurz per Tastendruck.",
+        "imageAlt": "Smartphone zeigt Türruf eines Paketzustellers"
+      },
+      "ipGatewayMfh": {
+        "title": "Ein zentrales Gerät, App-Empfang für alle Wohnungen.",
+        "body": "Eine Wohnungsverwaltung will den Mietern Smartphone-Empfang anbieten, ohne in jede Wohnung neue Geräte einbauen zu müssen. Ein IP-Gateway in der Elektroverteilung bindet die bestehende Türsprechanlage des ganzen Gebäudes an die Cloud an, sodass alle Mieter die snipdoo-HOME-App nutzen können.",
+        "imageAlt": "Apartmenthaus mit Smartphone-Türruf für alle Wohnungen"
+      },
+      "funkgong": {
+        "title": "Klingeln, das auch im Hobbyraum oder auf dem Balkon ankommt.",
+        "body": "Ihre Innenstation ist fest neben der Eingangstür zu Ihrer Wohnung verbaut, Sie selbst sind gerade im Obergeschoss, im Hobbyraum oder auf dem Balkon. Ein zusätzlicher Steckdosen-Funkgong macht das Klingelsignal überall in der Wohnung hörbar; das eigentliche Sprechen und Türöffnen geschieht weiterhin an der Innenstation.",
+        "imageAlt": "Steckdosen-Funkgong macht Klingeln im Hobbyraum hörbar"
+      },
+      "dect": {
+        "title": "Mit dem vorhandenen Schnurlostelefon zur Tür sprechen.",
+        "body": "Sie nutzen ohnehin ein DECT-Telefon im Haus, etwa an einer Fritz!Box, einem Gigaset oder einer vergleichbaren Basis. Türrufe lassen sich darauf annehmen wie ein Anruf: klingeln, sprechen, Tür öffnen, ohne dass ein zusätzliches Gerät dazukommen muss.",
+        "imageAlt": "DECT-Schnurlostelefon nimmt Türruf entgegen"
+      },
+      "buero": {
+        "title": "Empfang im Firmengebäude entlasten.",
+        "body": "Ein Lieferant wartet am Seiteneingang, der Empfang ist gerade unbesetzt. Der Türruf erreicht das IP-Telefon am Schreibtisch, sodass Mitarbeitende direkt antworten und die Tür öffnen können, ohne den Arbeitsplatz zu verlassen.",
+        "imageAlt": "IP-Telefon am Büroschreibtisch zeigt Türruf"
+      },
+      "barrierefrei": {
+        "title": "Barrierefreier Türruf vom Lieblingsplatz aus.",
+        "body": "Wenn jeder Weg zur Innenstation Anstrengung kostet, sei es durch eine Mobilitätseinschränkung, eine vorübergehende Verletzung oder das hohe Alter, wird der Türruf zur stillen Hürde. Vorkonfigurierte Sets mit Schnurlostelefon (mit großen Tasten, mit Hörgeräteunterstützung oder als Blindentelefon) bringen Klingeln, Sprechen und Türöffnen direkt zum Sitzplatz und damit ein Stück Selbstständigkeit zurück.",
+        "imageAlt": "Barrierefreies Schnurlostelefon am Sitzplatz"
+      }
+    }
+  },
+  "zielgruppen": {
+    "eyebrow": "Mobile Türkommunikation · Details je Zielgruppe",
+    "headline": "Details je Zielgruppe",
+    "tablistLabel": "Zielgruppen",
+    "spalten": {
+      "bewohner": {
+        "tabLabel": "Bewohner",
+        "titel": "Bewohner und Endnutzer",
+        "beschreibung": "Mieter, Eigenheim-Bewohner, Büro-Beschäftigte: die Personen, die die Sprechanlage täglich nutzen.",
+        "vorteile": {
+          "1": {
+            "headline": "Türrufe nicht mehr verpassen.",
+            "body": "Der Türruf erreicht Sie auch dann, wenn Sie nicht an der Innenstation sind: auf dem Smartphone, auf dem Schnurlostelefon, am IP-Telefon oder als Klingelsignal am Steckdosen-Funkgong."
+          },
+          "2": {
+            "headline": "Bequemer Empfang vom Aufenthaltsort aus.",
+            "body": "Sprechen und Tür öffnen vom Sofa, vom Schreibtisch, im Hobbyraum oder unterwegs, ohne den Weg zur Innenstation neben der Wohnungstür."
+          },
+          "3": {
+            "headline": "Selbstständigkeit erhalten.",
+            "body": "Wer sich schlecht zur Innenstation bewegen kann, nimmt Türrufe vom Sitzplatz aus an, barrierefrei und mit eigener Kontrolle über den Zugang."
+          },
+          "4": {
+            "headline": "Vertraute Geräte nutzen.",
+            "body": "Smartphone, vorhandenes DECT-Telefon an Fritz!Box oder Gigaset, IP-Telefon: keine zusätzlichen Geräte anschaffen, keine neue Bedienung lernen."
+          }
+        }
+      },
+      "wohnungswirtschaft": {
+        "tabLabel": "Wohnungswirtschaft",
+        "titel": "Wohnungswirtschaft und Hausverwaltung",
+        "beschreibung": "Multi-Unit-Betreiber: Eigentümergemeinschaften, Verwalter, Wohnungsbaugesellschaften.",
+        "vorteile": {
+          "1": {
+            "headline": "Bestandsmodernisierung ohne Wandöffnung.",
+            "body": "In vorhandenen 2-Draht-Anlagen lassen sich Audio- und Video-Innenstationen austauschen, ohne neu zu verkabeln. Eine schnelle Aufwertung mit sichtbarem Mehrwert für den Mieter."
+          },
+          "2": {
+            "headline": "Mobile Türkommunikation als Mieter-Differenzierung.",
+            "body": "Wer Mietern künftig Smartphone-Türruf, Schnurlostelefon-Empfang oder barrierefreie Lösungen anbieten will, plant 3-Draht-Verkabelung bei Neubau oder größerer Sanierung gezielt mit ein. Die Smart-Stick-Optionen kommen dann ohne weitere Bauarbeit dazu."
+          },
+          "3": {
+            "headline": "Bedarfsgerechte Skalierung pro Wohnung.",
+            "body": "Vom Steckdosen-Funkgong über barrierefreie Schnurlostelefon-Sets bis zur App-basierten Lösung: jede Mieterin, jeder Mieter wählt selbst, was passt."
+          },
+          "4": {
+            "headline": "Direkter Mieter-Zugang zum Service.",
+            "body": "Über den QR-Code auf der Innenstation gelangt der Mieter selbstständig zur Bedienungsanleitung und zum Online-Shop für Smart-Stick-Erweiterungen. Routinefragen erreichen die Hausverwaltung gar nicht erst."
+          }
+        }
+      },
+      "bauherren": {
+        "tabLabel": "Bauherren",
+        "titel": "Bauherren",
+        "beschreibung": "Privatkunden mit Neubau- oder größerem Modernisierungsprojekt, oft in der Doppelrolle Käufer und (späterer) Bewohner.",
+        "vorteile": {
+          "1": {
+            "headline": "Modernisierung ohne Eingriffe in den Putz.",
+            "body": "Bestehende 2-Draht-Anlagen lassen sich auf Audio- oder Video-Innenstationen umrüsten. Ohne Stemmarbeiten, ohne neue Adern."
+          },
+          "2": {
+            "headline": "Zukunftsoffenheit beim Neubau.",
+            "body": "Wer beim Klemmen die Strom-Ader (a, b, P) mit anschließen lässt, hält sich alle Smart-Stick-Erweiterungen offen: vom Schnurlostelefon-Empfang bis zur Smartphone-App, jederzeit nachrüstbar."
+          },
+          "3": {
+            "headline": "Wohnwert sichtbar machen.",
+            "body": "Smartphone-Türruf, Funkgong und barrierefreie Lösungen sind im Verkaufs- und Vermietungsgespräch konkrete Argumente. Und in der Werterhaltung über die Jahre stille Mitfahrer."
+          },
+          "4": {
+            "headline": "Vom Bewohner selbst erweiterbar.",
+            "body": "Smart Sticks lassen sich in die seitliche Schublade der Tasta-Pro- oder Senso-Pro-Innenstation einstecken. Die spätere Erweiterung kostet keinen Handwerkertermin, sofern der 3-Draht-Anschluss vorhanden ist."
+          }
+        }
+      },
+      "handwerk": {
+        "tabLabel": "Handwerk",
+        "titel": "Handwerk und Elektriker",
+        "beschreibung": "Ausführende Installateure, oft erste Ansprechpersonen für den Bauherren bei der Türsprechanlage.",
+        "vorteile": {
+          "1": {
+            "headline": "Vorab-Beratung als professioneller Standard.",
+            "body": "Smart Sticks setzen den 3-Draht-Anschluss (a, b, P) voraus. Die Frage „heute Smart Sticks geplant oder nicht?“ gehört vor das Klemmen, nicht hinterher. So verhindert man spätere Diskussionen über Funktionseinschränkungen und schützt den Installationsanspruch."
+          },
+          "2": {
+            "headline": "Klemm-Frage, keine Verlege-Frage.",
+            "body": "Bei 6 in der Wand vorgesehenen Adern entscheidet die Klemmkonfiguration zwischen 2- und 3-Draht; die Adern selbst liegen ohnehin. Der Aufwandunterschied ist überschaubar und im Beratungsgespräch transparent zu machen."
+          },
+          "3": {
+            "headline": "2-Draht-Bestand sauber bedienen.",
+            "body": "In reinen 2-Draht-Renovierungen sind Audio- und Video-Innenstationen wie gewohnt möglich. Die Tasta-Pro-Innenstation erkennt 2- gegenüber 3-Draht automatisch. Der Vorbehalt für den 2-Draht-Betrieb (keine Funktionserweiterungen, keine zusätzlichen Verbraucher) muss gegenüber dem Bauherrn dokumentiert werden."
+          },
+          "4": {
+            "headline": "Smart-Stick-Verkauf als Anschlussgeschäft.",
+            "body": "Jede 3-Draht-Anlage ist ein potenzieller Servicebesuch: der Installateur setzt den Smart Stick ein, übernimmt die Inbetriebnahme. Abrechenbar, planbar, kundennah."
+          }
+        }
+      }
+    }
+  },
+  "komponenten": {
+    "eyebrow": "Mobile Türkommunikation · Komponenten",
+    "headline": "Die Bausteine der Mobilen Türkommunikation",
+    "linkLabel": "Mehr erfahren",
+    "items": {
+      "smartStickMobilePhone": {
+        "title": "Smart Stick MOBILE PHONE",
+        "tagline": "Türrufe weltweit auf dem Smartphone.",
+        "body": "Wird in die Schublade Ihrer Pro-Innenstation gesteckt und verbindet die Türsprechanlage mit der snipdoo-HOME-App auf iPhone oder Android. Türrufe annehmen, sprechen, Tür öffnen, egal wo Sie gerade sind. App-Lizenzen für fünf Jahre beim Kauf inklusive.",
+        "imageAlt": "Smart Stick MOBILE PHONE in Pro-Innenstation"
+      },
+      "ipGateway": {
+        "title": "IP-Gateway",
+        "tagline": "Mobile Türkommunikation für das ganze Gebäude.",
+        "body": "Hutschienen-Gerät in der Elektroverteilung, das eine bestehende Sprechanlage ans LAN und an die Cloud anbindet. Erweitert Audio- und Video-Anlagen um Smartphone-Empfang per snipdoo-HOME-App, für ein Apartmenthaus mit bis zu 24 Wohneinheiten in einem Schritt.",
+        "imageAlt": "IP-Gateway auf Hutschiene in der Elektroverteilung"
+      },
+      "smartStickDectGlobal": {
+        "title": "Smart Stick DECT GLOBAL",
+        "tagline": "Türrufe auf das vorhandene Schnurlostelefon.",
+        "body": "Verbindet die Pro-Innenstation mit einer bestehenden DECT-Basis, etwa Fritz!Box, Gigaset oder Telekom Speedport. Türrufe erscheinen auf dem Mobilteil wie Anrufe; die Tür lässt sich vom Hörer aus öffnen, Türlicht schalten inklusive. Keine Lizenzgebühr.",
+        "imageAlt": "Smart Stick DECT GLOBAL mit Schnurlostelefon"
+      },
+      "smartStickPhone": {
+        "title": "Smart Stick PHONE",
+        "tagline": "Türrufe an die IP-Telefonanlage am Schreibtisch.",
+        "body": "Bindet die Pro-Innenstation an IP-Telefonanlagen wie Fritz!Box, NFON, Starface oder 3CX an. Türrufe erscheinen wie normale Anrufe am IP-Telefon, in Büro oder Home Office; das Türöffnen läuft direkt vom Telefon aus.",
+        "imageAlt": "Smart Stick PHONE mit IP-Bürotelefon"
+      },
+      "funkgong": {
+        "title": "Steckdosen-Funkgong",
+        "tagline": "Klingeln überall im Haus hörbar machen.",
+        "body": "Plug-in-Funkgong für die Steckdose, der das Türklingelsignal in entfernte Räume mitnimmt: Hobbyraum, Obergeschoss, Balkon. Sprechen und Türöffnen geschehen weiterhin an der Innenstation, das Klingeln kommt aber überallhin.",
+        "imageAlt": "Steckdosen-Funkgong eingesteckt in Wohnraum"
+      },
+      "dectConnectSets": {
+        "title": "DECT Connect Sets",
+        "tagline": "Barrierefreie Türkommunikation als vorkonfiguriertes Set.",
+        "body": "Drei Sets für unterschiedliche Anforderungen: Easy mit Großtasten-Telefon, Easy Pro mit Hörgeräteunterstützung über Bluetooth, Assistance als Blindentelefon mit 1-Tasten-Bedienung. Plug-and-play, keine Lizenzgebühr, vom Sitzplatz aus bedienbar.",
+        "imageAlt": "DECT Connect Sets mit Großtasten-Telefon"
+      }
+    }
+  },
+  "faq": {
+    "eyebrow": "Mobile Türkommunikation · Häufige Fragen",
+    "headline": "Was Sie wissen wollten, kurz beantwortet",
+    "items": {
+      "neueAnlage": {
+        "frage": "Brauche ich eine neue Türsprechanlage?",
+        "antwort": "Nein, in den meisten Fällen nicht. Mobile Türkommunikation ist eine Erweiterung Ihrer bestehenden Anlage. Audio-Innenstationen lassen sich mit einem Smart Stick ergänzen, Video-Anlagen über das IP-Gateway an die Smartphone-App anbinden. Beides ohne Eingriff in den Putz oder Wandöffnungen."
+      },
+      "variante": {
+        "frage": "Welche Variante passt zu mir?",
+        "antwort": "Die Wahl folgt Ihrem Alltag, nicht der Technik. Wenn Sie ein vorhandenes Schnurlostelefon nutzen, ist der Smart Stick DECT GLOBAL die direkte Brücke. Für Türrufe unterwegs auf dem Smartphone der Smart Stick MOBILE PHONE mit der snipdoo-HOME-App. Wenn Sie das Klingeln in entfernten Räumen besser hören wollen, der Steckdosen-Funkgong. Im Zweifel hilft Ihnen unsere Beratung weiter."
+      },
+      "installation": {
+        "frage": "Muss ein Installateur kommen, oder kann ich das selbst?",
+        "antwort": "Smart Sticks sind für die Selbstmontage gedacht: Sie werden in die seitliche Schublade Ihrer Pro-Innenstation eingesteckt und in einer kurzen Inbetriebnahme mit dem Endgerät verbunden, ganz ohne Werkzeug. Das IP-Gateway in der Elektroverteilung gehört allerdings in die Hand eines Elektrikers."
+      },
+      "barrierefrei": {
+        "frage": "Werden auch Hör- oder Sehbeeinträchtigungen bedient?",
+        "antwort": "Ja, mit drei vorkonfigurierten DECT-Connect-Sets: mit Großtasten-Telefon, mit Hörgeräteunterstützung über Bluetooth oder als Blindentelefon mit 1-Tasten-Bedienung. Alle drei erlauben Klingeln, Sprechen und Türöffnen vom Sitzplatz aus, sind plug-and-play und brauchen keine Lizenzgebühr."
+      }
+    }
+  },
+  "cta": {
+    "haupt": {
+      "eyebrow": "Mobile Türkommunikation · Beratung",
+      "headline": "Beratung zur passenden Erweiterung",
+      "body": "Sprechen Sie mit unserer technischen Hotline. Wir klären gemeinsam, welche Erweiterung zu Ihrer bestehenden Anlage und zu Ihrem Alltag passt.",
+      "button": "Beratung anfragen"
+    },
+    "weitere": {
+      "shop": {
+        "headline": "Smart Stick im Online-Shop bestellen",
+        "body": "Selber installieren, sofort nutzen. Versandfertig in wenigen Tagen.",
+        "button": "Zum Online-Shop"
+      },
+      "datenblatt": {
+        "headline": "Datenblatt herunterladen",
+        "body": "Vollständige Spezifikationen für Planung, Installation und Anlagendimensionierung.",
+        "button": "Datenblätter ansehen"
+      },
+      "installateur": {
+        "headline": "Installateur in Ihrer Region finden",
+        "body": "Wir vermitteln Ihnen Fachhandwerker für die Modernisierung Ihrer Anlage und die fachgerechte 3-Draht-Vorhaltung.",
+        "button": "Vertriebspartner finden"
+      },
+      "wohnungswirtschaft": {
+        "headline": "Wohnungswirtschaft: Mieter-Service-Konzept anfragen",
+        "body": "Sprechen wir über Mobile Türkommunikation als Differenzierungsmerkmal in Ihrem Bestand und für Ihre Mieterbindung.",
+        "button": "Beratung für Wohnungswirtschaft"
+      }
+    }
+  },
+  "a11y": {
+    "subnav": "Sektionsnavigation"
+  }
+}

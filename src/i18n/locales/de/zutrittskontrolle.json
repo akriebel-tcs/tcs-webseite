@@ -1,0 +1,645 @@
+{
+  "_meta": {
+    "namespace": "zutrittskontrolle",
+    "status": "migrated",
+    "note": "Alle 5 Seiten der Domain Zutrittskontrolle sind migriert (Root, Fahrstuhlsteuerung, Mobiler Zutritt, Türen/Tore, Zufahrten/Parkplätze) und vollständig in `strictPages` (Aufnahme der Sub-Pages in Etappe `hygiene-strictpages-close-1`). Statusangleichung in Etappe `hygiene-status-1`. Neuer Bereich `elektronischeDrueckergarnitur` (Etappe `feature-elektronische-drueckergarnitur-1`) — DE-Inhalte für Hero, Intro, Vorteile (6 von 8 Flyer-Items, TSX-Slot-Limit) und CTA-Headline/Button befüllt in Etappe `feature-elektronische-drueckergarnitur-content-de-1` (Quelle: Flyer VF9815-9, Stand 07-2025). Funktionsweise, Einsatzbereiche und FAQ bleiben Platzhalter — Inhalte folgen vom Auftraggeber."
+  },
+  "shared": {
+    "label": "Zutrittskontrolle",
+    "sections": {
+      "overview": "Überblick",
+      "benefits": "Vorteile"
+    },
+    "products": {
+      "label": "Produkte",
+      "title": "Lösungen im Überblick",
+      "datasheet": "Datenblatt",
+      "learnMore": "Mehr erfahren"
+    },
+    "scroll": {
+      "left": "Zurück scrollen",
+      "right": "Weiter scrollen"
+    }
+  },
+  "root": {
+    "hero": {
+      "headline": "Lückenlose Gebäudesicherheit mit dem BCM-System",
+      "intro": "Smarte und flexible Zutrittskontrolle für alle Bereiche Ihrer Immobilie"
+    },
+    "bcm": {
+      "label": "BCM-System",
+      "title": "Das BCM-System von TCS",
+      "text": "Das BCM-System von TCS bietet eine umfassende digitale Lösung für die moderne Zutrittskontrolle und Gebäudeverwaltung. Es verbindet höchste Sicherheit mit maximalem Komfort und ermöglicht es, Wohn- und Gewerbeobjekte effektiv abzusichern. Von der flexiblen Tür- und Fahrstuhlsteuerung über intelligente Schließsysteme für Verwahreinrichtungen bis hin zum bequemen mobilen Zutritt per Smartphone – BCM schützt kritische Bereiche gezielt und verwaltet Zugriffsrechte präzise und zukunftssicher."
+    },
+    "functions": {
+      "label": "Funktionen",
+      "title": "Zutrittskontrolle im Detail",
+      "items": {
+        "tuerenTore": {
+          "headline": "1. Zutrittskontrolle für Türen und Tore",
+          "text": "Zuverlässiger Schutz für Außen- und Innenbereiche: Durch den Einsatz moderner Lese- und Eingabegeräte steuert das BCM-System den Zutritt an Türen und Toren sowohl im Außenbereich als auch innerhalb eines Gebäudes sicher und präzise. Die Öffnung erfolgt dabei äußerst komfortabel per Transponderschlüssel oder Zahlencode. Um jeder baulichen Anforderung passgenau gerecht zu werden, umfasst das Portfolio vielfältige Produkte wie elektronische Drückergarnituren, Knaufzylinder und BCM Online-Leser."
+        },
+        "fahrstuhl": {
+          "headline": "2. Intelligente Fahrstuhlsteuerung",
+          "text": "Gezielte Etagenfreigabe für autorisierte Personen: Um die Sicherheit in mehrstöckigen Immobilien zu erhöhen, lässt sich die Zutrittskontrolle gezielt in Aufzüge integrieren. Besonders in Büro- und Verwaltungsgebäuden, Hotels oder Appartementhäusern kann so der Zugang zu einzelnen Etagen exakt gesteuert werden. Der Etagenzutritt erfolgt in den Fahrstühlen dann sicher und nachvollziehbar per elektronischem Schlüssel anstatt durch einen einfachen Knopfdruck."
+        },
+        "schraenkeContainer": {
+          "headline": "3. Elektronische Schließsysteme für Schränke und Container",
+          "text": "Lückenlose Öffnungskontrolle für Verwahreinrichtungen: Auch abseits klassischer Türen bietet das System optimale Sicherheit durch eine detaillierte Öffnungskontrolle von Verwahreinrichtungen. Im Außenbereich lässt sich der Zugang zu Fahrrad- oder Containerstellplätzen durch elektronische Vorhängeschlösser effektiv steuern. Im Gebäudeinnenbereich werden Schränke, Spinde oder sensible Funktionseinrichtungen wie Serverracks durch intelligente, elektronische Schrankschlösser zuverlässig vor unbefugtem Zugriff geschützt."
+        },
+        "mobilerZutritt": {
+          "headline": "4. Mobiler Zutritt per Door App oder Anruf",
+          "text": "Das Smartphone als smarter und flexibler Schlüssel: Für maximalen Komfort ermöglicht das BCM-System einen schlüssellosen Zutritt direkt über das mobile Endgerät. Mit der intelligenten BCM DoorApp wird das Smartphone über Bluetooth (BLE) oder NFC zum sicheren Schlüssel für Online- und Offline-Türen. Alternativ bietet das integrierte GSM-Gateway die Möglichkeit, den Zugang ganz bequem über einen einfachen Telefonanruf oder eine Textnachricht von einer registrierten Rufnummer zu gewähren, ohne dass Transponder-Karten nötig sind. Dies ist besonders praktisch, um beispielsweise Besuchern oder Lieferanten für ein begrenztes Zeitfenster Zutritt zu gewähren."
+        }
+      }
+    }
+  },
+  "mobilerZutritt": {
+    "hero": {
+      "headline": "Mobiler Zutritt per App oder Anruf",
+      "intro": "Türöffnung bequem per Smartphone-App oder Telefonanruf – schlüsselloser Komfort für jeden Zutrittspunkt."
+    },
+    "overview": {
+      "title": "Schlüsselloser Zutritt – jederzeit und überall",
+      "text": "Mit dem BCM-System von TCS wird das Smartphone oder der Telefonanruf zum Schlüssel. Die BCM DoorApp ermöglicht mühelosen Zutritt per Bluetooth, NFC oder Fernöffnung – inklusive temporärer Zugangsfreigabe für Gäste und Smart-Home-Integration. Das GSM-Gateway bietet zeitlich begrenzten Zutritt per Anruf oder SMS – ideal für Lieferanten, Handwerker oder Besucher ohne Transponder."
+    },
+    "products": {
+      "intro": "Von der Smartphone-App bis zum GSM-Gateway – mobile Zutrittslösungen für jeden Einsatzzweck.",
+      "items": {
+        "doorApp": {
+          "title": "BCM DoorApp",
+          "subtitle": "Smartphone-Zutritt",
+          "description": "Das Smartphone ist der Schlüssel: Mühelose Türöffnung per BLE, NFC oder Fernöffnung. Mit Smart-Home-Integration, temporärer Zugangsfreigabe für Gäste und biometrischer Authentifizierung."
+        },
+        "gsmGateway": {
+          "title": "GSM-Gateway",
+          "subtitle": "Zutritt per Telefonanruf",
+          "description": "Die ideale Lösung für zeitlich begrenzten Zutritt: Der Benutzer erhält Zugang per Anruf oder SMS an die im GSM-Gateway gespeicherte Nummer – ohne Schlüssel oder Transponder."
+        }
+      }
+    },
+    "benefits": {
+      "title": "Warum mobiler Zutritt mit TCS?",
+      "items": {
+        "komfort": {
+          "title": "Schlüsselloser Komfort",
+          "desc": "Türöffnung per App, BLE, NFC oder Telefonanruf – ohne Transponder oder Schlüssel."
+        },
+        "gaestezugang": {
+          "title": "Gästezugang in Sekunden",
+          "desc": "Temporäre Zutrittsrechte direkt in der App vergeben – ideal für Besucher und Lieferanten."
+        },
+        "biometrie": {
+          "title": "Biometrische Sicherheit",
+          "desc": "Fingerabdruck oder Face ID als zusätzliche Authentifizierung vor der Türöffnung."
+        },
+        "benachrichtigung": {
+          "title": "Echtzeit-Benachrichtigungen",
+          "desc": "Push-Mitteilungen bei Warnungen oder kritischen Vorfällen direkt auf dem Smartphone."
+        }
+      }
+    }
+  },
+  "fahrstuhlsteuerung": {
+    "hero": {
+      "headline": "Fahrstuhlsteuerung – Intelligente Etagenfreigabe und Zugangsregelung",
+      "intro": "Kontrollierter Zugang zu einzelnen Etagen: Die BCM-Aufzugsteuerung sorgt dafür, dass nur berechtigte Personen die freigegebenen Stockwerke erreichen."
+    },
+    "overview": {
+      "title": "Fahrstuhlsteuerung mit BCM",
+      "text": "Die Fahrstuhlsteuerung von TCS ergänzt das BCM-Zutrittskontrollsystem um die gezielte Etagenfreigabe. Per Transponder, Zahlencode oder Smartphone-App wird der Zugang zu einzelnen Stockwerken individuell gesteuert. So lassen sich sensible Bereiche wie Serverräume, Chefetagen oder Lagerbereiche zuverlässig absichern – bei gleichzeitig hohem Bedienkomfort für die Nutzer."
+    },
+    "benefits": {
+      "title": "Warum TCS Fahrstuhlsteuerung?",
+      "items": {
+        "etagenfreigabe": {
+          "title": "Individuelle Etagenfreigabe",
+          "desc": "Jede Etage einzeln steuerbar – für maximale Sicherheit in sensiblen Bereichen."
+        },
+        "skalierbar": {
+          "title": "Skalierbar & modular",
+          "desc": "Von 4 bis über 100 Etagen: Relaismodule lassen sich beliebig kaskadieren."
+        },
+        "onlineOffline": {
+          "title": "Online & Offline",
+          "desc": "Echtzeitsteuerung über Online-Leser oder autarker Betrieb mit Offline-Komponenten."
+        },
+        "integration": {
+          "title": "Nahtlose BCM-Integration",
+          "desc": "Vollständig in das BCM-Ökosystem integriert – eine Software für Türen, Tore und Aufzüge."
+        }
+      }
+    }
+  },
+  "zufahrtenParkplaetze": {
+    "hero": {
+      "headline": "Zufahrten und Parkplätze – Unbeschwerter Zugang zum Parkhaus",
+      "intro": "Die Bereitstellung einer ausreichenden Anzahl von Parkplätzen und die bequeme Verwaltung des Parkplatzes kann eine große Herausforderung sein. Das Parksystem von TCS ermöglicht die einfache Integration aller anspruchsvollen Faktoren."
+    },
+    "overview": {
+      "title": "Steuerung von Schrankenanlagen",
+      "text": "Das Parksystem von TCS ermöglicht die einfache Integration aller anspruchsvollen Faktoren, so dass das Parken völlig problemlos abläuft. Die Vielzahl der verfügbaren Geräte und Identifikationsmedien bietet Ihnen Lösungen für alle Situationen – von der einfachen Schrankenöffnung bis zur vollautomatischen Kennzeichenerkennung."
+    },
+    "products": {
+      "intro": "Von Transponderkarten bis zur KFZ-Kennzeichenerkennung – passgenaue Produkte für jeden Zufahrtspunkt.",
+      "items": {
+        "bcmLeser": {
+          "title": "BCM-Leser",
+          "subtitle": "RFID-Technologie",
+          "description": "Zukunftssichere RFID-Lesegeräte, die Smartphones, Karten, Tags oder PIN unterstützen – für flexible Zufahrtskontrolle."
+        },
+        "handsender": {
+          "title": "Handsender",
+          "subtitle": "Komfortzugang",
+          "description": "Ein einfacher Knopfdruck ermöglicht den bequemen Zugang zu Parkbereichen – mit kopiergeschütztem, AES-128-verschlüsseltem Handsender."
+        },
+        "kfz": {
+          "title": "KFZ-Kennzeichenerkennung",
+          "subtitle": "Automatische Zufahrt",
+          "description": "Bequemes Öffnen mit intelligenter Kennzeichenerkennung per IP-Kamera – mit einstellbaren Smart-Parametern bei bis zu 30 km/h."
+        },
+        "uhfLeser": {
+          "title": "UHF-Leser",
+          "subtitle": "Großer Leseabstand",
+          "description": "Wenn Sicherheit, schnelle Bedienung und großer Leserabstand entscheidend sind – ideal für hohe Durchfahrtsfrequenz."
+        },
+        "gsmGateway": {
+          "title": "GSM-Gateway",
+          "subtitle": "Fernöffnung per Anruf",
+          "description": "Zuverlässige Fernöffnung des Tores durch Rufnummernerkennung – ohne zusätzliche Hardware am Fahrzeug."
+        }
+      }
+    },
+    "benefits": {
+      "title": "Warum TCS für Zufahrten und Parkplätze?",
+      "items": {
+        "modular": {
+          "title": "Modularer Aufbau",
+          "desc": "Von der Einzelschranke bis zum komplexen Parksystem skalierbar."
+        },
+        "integration": {
+          "title": "Einfache Integration",
+          "desc": "Verschiedene Identifikationsmedien – Smartphone, Karte, Tag, PIN oder Kennzeichen."
+        },
+        "verwaltung": {
+          "title": "Zentrale Verwaltung",
+          "desc": "Alle Zufahrten werden über die webbasierte BCM-Software verwaltet."
+        },
+        "sicherheit": {
+          "title": "Höchste Sicherheit",
+          "desc": "AES-128-Verschlüsselung und kopiergeschützte Handsender für maximalen Schutz."
+        }
+      }
+    }
+  },
+  "tuerenTore": {
+    "hero": {
+      "headline": "Türen und Tore – Sichere Zutrittslösungen für jeden Eingang",
+      "intro": "Zuverlässiger Schutz für Außen- und Innenbereiche: Moderne Lese- und Eingabegeräte steuern den Zutritt an Türen und Toren sicher und präzise."
+    },
+    "overview": {
+      "title": "Zutrittskontrolle für Türen und Tore",
+      "text": "Das BCM-System von TCS sichert den Zugang an sämtlichen Türen und Toren – von der Hauseingangstür über Innentüren bis hin zu Tiefgaragentoren und Außenanlagen. Die Öffnung erfolgt komfortabel per Transponderschlüssel, -card, Zahlencode, Biometrie oder KFZ-Kennzeichenerkennung. Dank des modularen Produktportfolios lässt sich jede bauliche Anforderung passgenau abdecken."
+    },
+    "products": {
+      "intro": "Von der elektronischen Drückergarnitur bis zur KFZ-Kennzeichenerkennung – passgenaue Produkte für jeden Zutrittspunkt.",
+      "items": {
+        "drueckergarnitur": {
+          "title": "Elektronische Drückergarnitur",
+          "subtitle": "Innentüren",
+          "description": "Die elegante Lösung für Innentüren: Die elektronische Drückergarnitur vereint Design und Sicherheit. Per Transponder wird der Zugang freigegeben."
+        },
+        "knaufzylinder": {
+          "title": "Elektronischer Knaufzylinder",
+          "subtitle": "Nachrüstung",
+          "description": "Nachrüstbar und flexibel: Der elektronische Knaufzylinder ersetzt den mechanischen Schließzylinder und macht jede bestehende Tür zur kontrollierten Zutrittsstelle."
+        },
+        "onlineLeser": {
+          "title": "BCM Online-Leser",
+          "subtitle": "verschiedene Montageformen",
+          "description": "Zukunftssichere RFID-Leser, die Smartphones, Karten, Tags oder PIN-Codes unterstützen – für kompromisslose Sicherheit, modern gestaltet und bereit für die Zukunft."
+        },
+        "offlineLeser": {
+          "title": "Funkvernetzte Offline-Leser",
+          "subtitle": "Kabellose Anbindung",
+          "description": "Kabellose Anbindung für flexible Einsatzorte: Die funkvernetzten Offline-Leser kommunizieren drahtlos mit der BCM-Zentrale."
+        },
+        "handsender": {
+          "title": "Handsender",
+          "subtitle": "Parkplätze & Tore",
+          "description": "Komfortabler Zutritt per Funk: Der Handsender öffnet Tore und Schranken aus bis zu 25 Metern Entfernung – AES-128-verschlüsselt und nicht kopierbar."
+        },
+        "vorhaengeschloss": {
+          "title": "Vorhängeschloss",
+          "subtitle": "Abgelegene Standorte",
+          "description": "Vorhängeschloss mit elektronischem Knaufzylinder: Die sichere Lösung für abgelegene Türen, Fahrradschuppen oder Container – innen und außen einsetzbar."
+        },
+        "biometrie": {
+          "title": "Biometrie",
+          "subtitle": "Fingerprint & Gesichtserkennung",
+          "description": "Schneller als ein Passwort: Biometrische Terminals mit Fingerprint-Scanner, 3D-Finger-Scanner oder Gesichtserkennung für höchste Sicherheit."
+        },
+        "kfz": {
+          "title": "KFZ-Kennzeichenerkennung",
+          "subtitle": "Zufahrtskontrolle",
+          "description": "Freie Fahrt ohne Wartezeiten: Kennzeichenerkennung per IP-Kamera oder UHF-Leser für die automatische Zufahrtskontrolle bei bis zu 30 km/h."
+        }
+      }
+    },
+    "benefits": {
+      "title": "Warum TCS für Türen und Tore?",
+      "items": {
+        "modular": {
+          "title": "Modularer Aufbau",
+          "desc": "Vom Einzelzugang bis zur komplexen Großanlage skalierbar."
+        },
+        "nachruestung": {
+          "title": "Einfache Nachrüstung",
+          "desc": "Elektronische Zylinder und Garnituren ersetzen mechanische Schlösser ohne Umbau."
+        },
+        "verwaltung": {
+          "title": "Zentrale Verwaltung",
+          "desc": "Alle Türen und Tore werden über die webbasierte BCM-Software verwaltet."
+        },
+        "sicherheit": {
+          "title": "Höchste Sicherheit",
+          "desc": "Verschlüsselung an allen Punkten, Sicherheitsgrad 4 nach EN 60839-11-1."
+        }
+      }
+    }
+  },
+  "elektronischeDrueckergarnitur": {
+    "hero": {
+      "eyebrow": "Ein System – viele Anwendungen",
+      "headline": "Elektronische Drückergarnitur",
+      "subline": "Eleganter und komfortabler digitaler Türdrücker",
+      "description": "Die elektronische Drückergarnitur ist ein batteriebetriebener RFID-Offline-Leser im TCS-Zutrittskontrollsystem. Ideal dort, wo eine Verkabelung nicht möglich ist oder Denkmalschutz bauliche Eingriffe verhindert. Für erhöhte Sicherheitsanforderungen lässt sich das System durch funkvernetzten Betrieb aufrüsten. Einsetzbar an Glas-, Holz-, Kunststoff- und Rohrrahmentüren.",
+      "cta": "Projektanfrage senden",
+      "ctaUrl": "/kontakt/bcm",
+      "datasheetLabel": "Datenblatt herunterladen",
+      "datasheetUrl": "#datenblatt-platzhalter",
+      "imageAlt": "Elektronische Drückergarnitur EvoLock Prima – Edelstahl-Türdrücker mit integriertem RFID-Lesemodul",
+      "imagePlaceholder": "Platzhalter — Bild folgt"
+    },
+    "benefits": {
+      "label": "Vorteile",
+      "title": "Vorteile der elektronischen Drückergarnitur",
+      "items": {
+        "1": {
+          "title": "Zeitloses Design",
+          "desc": "Edelstahldesign mit großer Variantenvielfalt."
+        },
+        "2": {
+          "title": "Ohne Bohren und Verkabelung",
+          "desc": "Geeignet für DIN-Profilzylinder und Notausgangsschlösser (DIN EN 179)."
+        },
+        "3": {
+          "title": "Wetterfest und brandschutzgerecht",
+          "desc": "Erhältlich in wetterfester (IP66), feuer- oder rauchbeständiger (DIN EN 1634) Ausführung."
+        },
+        "4": {
+          "title": "Integrierte Signalisierung",
+          "desc": "Optische und akustische Signalisierung direkt im Gerät."
+        },
+        "5": {
+          "title": "Lange Batterielebensdauer",
+          "desc": "Integrierte Batterie mit einer Lebensdauer von bis zu 2 Jahren und mehr."
+        },
+        "6": {
+          "title": "Flexible Betriebsmodi",
+          "desc": "Automatische Entriegelung und Toggle-Funktion."
+        }
+      }
+    },
+    "useCases": {
+      "label": "Anwendungen",
+      "title": "Typische Einsatzbereiche",
+      "items": {
+        "1": { "title": "Gewerbe und Bürogebäude", "text": "Verwaltung von Zutrittsrechten für Mitarbeiter, Büroräume, Konferenzräume und Verwaltungsebenen." },
+        "2": { "title": "Gesundheitswesen", "text": "Arztpraxen, Krankenhäuser und Seniorenheime – insbesondere für sensible Bereiche, die nur für berechtigtes Personal zugänglich sein sollen." },
+        "3": { "title": "Bildungseinrichtungen", "text": "Schulen, Kitas und Universitäten zur sicheren Zugangskontrolle." },
+        "4": { "title": "Wohngebäude", "text": "Mehrfamilienhäuser – Eingangstüren, Kellertüren, Abstellräume." },
+        "5": { "title": "Hochsicherheitsbereiche", "text": "Forschungs- und Entwicklungsabteilungen, Archive und Serverräume." },
+        "6": { "title": "Öffentliche Gebäude und Kommunen", "text": "Kultureinrichtungen oder Verwaltungsgebäude." },
+        "7": { "title": "Denkmalgeschützte Gebäude", "text": "Montage oft ohne Bohrungen oder Verkabelung möglich." }
+      }
+    },
+    "cta": {
+      "label": "Kontakt",
+      "title": "Wir beraten Sie gern!",
+      "text": "Sprechen Sie uns an — wir unterstützen Sie bei der Auswahl und Planung Ihrer elektronischen Drückergarnitur.",
+      "button": "Projektanfrage senden",
+      "ctaUrl": "/kontakt/bcm",
+      "datasheetLabel": "Datenblatt herunterladen",
+      "datasheetUrl": "#datenblatt-platzhalter"
+    }
+  },
+  "knaufzylinder": {
+    "hero": {
+      "eyebrow": "Ein System – viele Anwendungen",
+      "headline": "Elektronischer Knaufzylinder",
+      "subline": "Ein vielseitiger elektronischer Schließzylinder",
+      "description": "Der elektronische Knaufzylinder ist ein eleganter batteriebetriebener RFID-Offline-Leser im Zutrittskontrollsystem von TCS. Er ist die perfekte Lösung, wenn eine Verkabelung nicht möglich ist oder wenn das Gebäude denkmalgeschützt ist. Für höhere Sicherheit kann die Funktionalität einfach über den funkvernetzten Betrieb aufgerüstet werden.",
+      "introText": "Passt in jeden Euro-Profilzylinder — einfache Nachrüstung ohne Bohren oder Verkabelung. Ideal bei hoher Mieterfluktuation und als Teil des BCM-Zutrittskontrollsystems mit Online- und Offline-Lesern.",
+      "imageAlt": "Elektronischer Knaufzylinder von TCS",
+      "ctaBeratung": "Projektanfrage senden",
+      "ctaUrl": "/kontakt/bcm",
+      "ctaDatenblatt": "Datenblatt herunterladen",
+      "datasheetUrl": "#datenblatt-platzhalter"
+    },
+    "intro": {
+      "headline": "Rund, intelligent und sicher!",
+      "text": "Der elektronische Knaufzylinder passt in jeden Euro-Profilzylinder und ermöglicht so eine einfache Nachrüstung ohne Bohren oder Verkabelung. Er ist die ideale Lösung für Wohnungstüren mit hoher Mieterfluktuation und dem daraus resultierenden höheren Risiko von Schlüsselverlusten. Verwaltet über die browserbasierte BCM-Software, fügt er sich nahtlos in ein bestehendes Zutrittskontrollsystem mit Online- und Offline-Lesern ein."
+    },
+    "vorteile": {
+      "eyebrow": "Ihre Vorteile",
+      "headline": "Vorteile des elektronischen Knaufzylinders",
+      "items": [
+        { "title": "Einfache Installation", "description": "Minimale Installationskosten durch Kompatibilität mit Euro-Profilzylindern — kein Bohren, keine Verkabelung." },
+        { "title": "Integrierte Signalisierung", "description": "LED- und Summersignale direkt im Zylinderknauf für akustische und optische Rückmeldung." },
+        { "title": "Lange Batterielebensdauer", "description": "Bis zu 2 Jahre Laufzeit — wartungsarm und zuverlässig im täglichen Betrieb." },
+        { "title": "Vielfältige Ausführungen", "description": "Erhältlich in wetterfesten (IP66), feuer- und rauchbeständigen (DIN EN 1634), Anti-Panik- und Feuerschutztür-Versionen (T90) sowie als Halbzylinder." },
+        { "title": "Flexible Funktionen", "description": "Automatische Entriegelung und Toggle-Funktion für unterschiedliche Türanforderungen." },
+        { "title": "Normkonform", "description": "Erfüllt die Anforderungen der DIN EN 15684 (Mechatronische Schließzylinder & Beschläge)." },
+        { "title": "Zentrale Verwaltung", "description": "Zutrittsrechte bequem über browserbasierte Software verwalten — keine Vor-Ort-Programmierung nötig." },
+        { "title": "Aufrüstbar", "description": "Einfache Erweiterung auf funkvernetzten Betrieb für höhere Sicherheitsanforderungen." }
+      ]
+    },
+    "anwendungen": {
+      "eyebrow": "Anwendungen",
+      "headline": "Typische Einsatzbereiche",
+      "items": [
+        { "title": "Wohnungstüren", "description": "Ideal bei hoher Mieterfluktuation — Zutrittsrechte digital verwalten statt Schlüssel tauschen." },
+        { "title": "Denkmalgeschützte Gebäude", "description": "Elektronische Zutrittskontrolle ohne sichtbare Verkabelung oder bauliche Eingriffe." },
+        { "title": "Nachrüstung bestehender Türen", "description": "Direkter Austausch des mechanischen Zylinders — kompatibel mit vorhandenen Euro-Profilschlössern." },
+        { "title": "Büros und Gewerbe", "description": "Flexible Rechtevergabe und Zeitfenstersteuerung für Mitarbeiter, Reinigungspersonal und Lieferanten." }
+      ]
+    },
+    "cta": {
+      "label": "Kontakt",
+      "title": "Wir beraten Sie gern!",
+      "subtext": "Sprechen Sie uns an — wir unterstützen Sie bei der Auswahl und Planung Ihres elektronischen Knaufzylinders.",
+      "button": "Projektanfrage senden",
+      "ctaUrl": "/kontakt/bcm",
+      "datasheetLabel": "Datenblatt herunterladen",
+      "datasheetUrl": "#datenblatt-platzhalter",
+      "claim": "Wir beraten Sie gern!",
+      "phone": "+49 4194 9881-175",
+      "email": "bcm.support@tcsag.de"
+    }
+  },
+  "handsender": {
+    "hero": {
+      "eyebrow": "Ein System – viele Anwendungen",
+      "headline": "BCM Handsender",
+      "subline": "Sicherer und komfortabler Zutritt zu Parkplätzen",
+      "description": "Der Handsender-Leser von TCS funktioniert wie ein gewöhnlicher Online-Leser. System aus Handsender-Leser, Antenne und Handsender ermöglicht das Öffnen von Toren oder Parkschranken aus bis zu 25 Metern Entfernung — bequem aus dem Fahrzeug heraus.",
+      "introText": "Dank AES-128-Verschlüsselung ist jeder Handsender einzigartig und kann nicht kopiert werden. Die Zutrittsrechte werden komfortabel über die Weboberfläche verwaltet.",
+      "imageAlt": "BCM Handsender von TCS",
+      "ctaBeratung": "Projektanfrage senden",
+      "ctaDatenblatt": "Datenblatt herunterladen",
+      "ctaUrl": "/kontakt/bcm",
+      "datasheetUrl": "https://www.tcsag.de/fileadmin/Dokumente/Datenblaetter/VF9815-1_BCM_Handsender.pdf"
+    },
+    "vorteile": {
+      "eyebrow": "Ihre Vorteile",
+      "headline": "Vorteile des BCM Handsenders",
+      "items": [
+        { "title": "Online-Leser-Funktionalität", "description": "Funktioniert wie ein gewöhnlicher Online-Leser — nahtlos in das BCM-System integriert." },
+        { "title": "Große Reichweite", "description": "Dank externer Antenne wird eine Reichweite von ca. 25 Metern erreicht, abhängig von den Gegebenheiten." },
+        { "title": "Drei Handsender-Varianten", "description": "Handsender mit 1, 2 oder 4 Tasten für unterschiedliche Bedürfnisse und Zutrittsbereiche." },
+        { "title": "Kopiergeschützt", "description": "Die übertragenen Daten sind AES-128-verschlüsselt — jeder Handsender ist einzigartig und nicht kopierbar." },
+        { "title": "Flexible Rechtevergabe", "description": "Verschiedene Tasten können den Zutritt zu verschiedenen Bereichen gewähren. Verwaltung über die Weboberfläche." },
+        { "title": "Kombinierbar", "description": "Die Steuerung von Schranken kann mit der kompletten Steuerung von Parkhauseinfahrten kombiniert werden." }
+      ]
+    },
+    "anwendungen": {
+      "eyebrow": "Anwendungen",
+      "headline": "Typische Einsatzbereiche",
+      "items": [
+        { "title": "Parkplätze und Tiefgaragen", "description": "Komfortables Öffnen von Schranken und Toren direkt aus dem fahrenden Fahrzeug." },
+        { "title": "Betriebsgeländer und Werkstore", "description": "Schneller Zufahrtszugang für Mitarbeiter ohne Anhalten — Wartezeiten entfallen." },
+        { "title": "Logistik und Lieferverkehr", "description": "Verschiedene Tasten für verschiedene Zonen — ein Handsender für mehrere Zugangspunkte." },
+        { "title": "Wohnanlage und Gemeinschaftsgaragen", "description": "Einfache Rechteverwaltung für Bewohner über die browserbasierte BCM-Software." }
+      ]
+    },
+    "cta": {
+      "label": "Kontakt",
+      "title": "Wir beraten Sie gern!",
+      "subtext": "Sprechen Sie uns an — wir unterstützen Sie bei der Auswahl und Planung Ihres BCM Handsender-Systems.",
+      "button": "Projektanfrage senden",
+      "datasheetLabel": "Datenblatt herunterladen",
+      "ctaUrl": "/kontakt/bcm",
+      "datasheetUrl": "https://www.tcsag.de/fileadmin/Dokumente/Datenblaetter/VF9815-1_BCM_Handsender.pdf"
+    }
+  },
+  "funkvernetzteLeser": {
+    "hero": {
+      "eyebrow": "Ein System – viele Anwendungen",
+      "headline": "Funkvernetzte Offline-Leser",
+      "subline": "Drahtloses Online-System für anspruchsvolle Umgebungen",
+      "description": "Durch den Anschluss eines Offline-Gateways an die BCM-Zentrale ist es möglich, in Echtzeit mit bis zu 16 batteriebetriebenen Offline-Lesern zu kommunizieren. Bestimmte Türen, bei denen eine Verkabelung nicht möglich ist, werden zum gleichwertigen Segment eines hochsicheren Systems.",
+      "introText": "Das drahtlose Online-System umfasst alle Online-Funktionen — bis zu 16 Geräte mit 868 MHz, bis zu 8 Geräte mit BLE. Offline- und Online-Leser lassen sich im selben Zutrittskontrollsystem kombinieren.",
+      "imageAlt": "Funkvernetzte Offline-Leser von TCS",
+      "imagePlaceholder": "Produktbild folgt",
+      "ctaBeratung": "Projektanfrage senden",
+      "ctaDatenblatt": "Datenblatt herunterladen",
+      "ctaUrl": "/kontakt/bcm",
+      "datasheetUrl": "#datenblatt-platzhalter"
+    },
+    "vorteile": {
+      "eyebrow": "Ihre Vorteile",
+      "headline": "Vorteile der funkvernetzten Offline-Leser",
+      "items": [
+        { "title": "Echtzeit-Ereignisse", "description": "Online-Ereignisse in Echtzeit erfassen und Fernöffnung über App — volle Online-Kontrolle ohne Kabel." },
+        { "title": "Einfache Einrichtung", "description": "Mühelose Einrichtung und Verwaltung mit der browserbasierten BCM-Software." },
+        { "title": "Gemischter Betrieb", "description": "Drahtlose Offline- und kabelgebundene Online-Leser können im selben Zutrittskontrollsystem verwendet werden." },
+        { "title": "Hohe Sicherheit", "description": "Verschlüsselte drahtlose Datenübertragung mit AES 128 Bit für maximalen Schutz." },
+        { "title": "Breite Gerätepalette", "description": "Eine Lösung für jede Situation — elektronischer Knaufzylinder, Drückergarnitur, Vorhängeschloss, Schrankschloss." },
+        { "title": "Skalierbar", "description": "Bis zu 16 Geräte mit 868 MHz oder bis zu 8 Geräte mit BLE pro Gateway — flexibel erweiterbar." }
+      ]
+    },
+    "anwendungen": {
+      "eyebrow": "Anwendungen",
+      "headline": "Typische Einsatzbereiche",
+      "items": [
+        { "title": "Denkmalgeschützte Gebäude", "description": "Elektronische Zutrittskontrolle ohne Kabelverlegung — keine baulichen Eingriffe erforderlich." },
+        { "title": "Nachrüstung bestehender Anlagen", "description": "Offline-Leser auf Online-Funktionalität aufrüsten, ohne neue Leitungen zu verlegen." },
+        { "title": "Abgelegene Türen und Standorte", "description": "Türen ohne Netzwerkanbindung werden Teil des zentralen Zutrittskontrollsystems." },
+        { "title": "Gemischte Gebäudestrukturen", "description": "Kombination von verkabelten Online-Lesern und funkvernetzten Offline-Lesern in einem System." }
+      ]
+    },
+    "cta": {
+      "label": "Kontakt",
+      "title": "Wir beraten Sie gern!",
+      "subtext": "Sprechen Sie uns an — wir unterstützen Sie bei der Planung Ihres funkvernetzten Offline-Leser-Systems.",
+      "button": "Projektanfrage senden",
+      "datasheetLabel": "Datenblatt herunterladen",
+      "ctaUrl": "/kontakt/bcm",
+      "datasheetUrl": "#datenblatt-platzhalter"
+    }
+  },
+  "onlineLeser": {
+    "hero": {
+      "eyebrow": "Ein System – viele Anwendungen",
+      "headline": "BCM Online-Leser",
+      "subline": "Zukunftssichere RFID-Leser für Smartphones, Karten, Tags oder PIN-Codes",
+      "description": "BCM Online-Leser bieten kompromisslose Sicherheit, modernes Design und sind bereit für die Zukunft. Sie passen in jede Umgebung und bieten jederzeit 100 % Sicherheit — als Auf- oder Unterputzmontage, innen wie außen.",
+      "introText": "Öffnen Sie die Tür mit einem NFC-Smartphone — einschließlich Apple Wallet, Bluetooth Low Energy (BLE), Karte, Tag oder PIN-Code. Bis zu 200 m Entfernung von der Zentrale über Standard-MODBUS-Protokoll.",
+      "imageAlt": "BCM Online-Leser von TCS",
+      "imagePlaceholder": "Produktbild folgt",
+      "ctaBeratung": "Projektanfrage senden",
+      "ctaDatenblatt": "Datenblatt herunterladen",
+      "ctaUrl": "/kontakt/bcm",
+      "datasheetUrl": "#datenblatt-platzhalter"
+    },
+    "vorteile": {
+      "eyebrow": "Ihre Vorteile",
+      "headline": "Vorteile der BCM Online-Leser",
+      "items": [
+        { "title": "Flexible Montage", "description": "Auf- oder Unterputzmontage möglich — einfach zu montieren und anzuschließen." },
+        { "title": "Touch-Tastatur", "description": "Wahlweise mit beleuchteter Touch-Tastatur für PIN-Code-Zutritt." },
+        { "title": "Signalisierung", "description": "Optische und akustische Signalisierung für klare Zutrittsrückmeldung." },
+        { "title": "Wetterfest", "description": "IP65-geschützt — geeignet für Innen- und Außenmontage in allen Witterungsbedingungen." },
+        { "title": "Höchste Sicherheit", "description": "Verschlüsselte Kommunikation, Manipulationsschutz und konform mit Sicherheitsstufe Grade 4 (EN 60839-11-1)." },
+        { "title": "Multimediale Zutrittsmittel", "description": "Lesen/Schreiben MIFARE® DESFire®, NFC und Bluetooth Low Energy (BLE) — ein Leser für alle Medien." },
+        { "title": "Große Reichweite", "description": "Bis zu 200 m Entfernung von der Zentrale mit Standard-MODBUS-Protokoll." },
+        { "title": "Sonderfunktionen", "description": "Daten auf Karten für Offline-Türen schreiben, Einbruchmeldeanlage scharf-/unscharfschalten und weitere Sonderfunktionen." }
+      ]
+    },
+    "anwendungen": {
+      "eyebrow": "Anwendungen",
+      "headline": "Typische Einsatzbereiche",
+      "items": [
+        { "title": "Büros und Gewerbe", "description": "Zutrittskontrolle für Mitarbeiter per Karte, Smartphone oder PIN — flexibel und skalierbar." },
+        { "title": "Außenbereiche und Eingänge", "description": "IP65-geschützt für Haupteingänge, Parkzufahrten und Außentüren bei jedem Wetter." },
+        { "title": "Unterputz-Außenstationen", "description": "Lesegeräte zum Einbau in bauseitige Frontblenden, z. B. in die Unterputz-Außenstationsserie AMI." },
+        { "title": "Einbruchmeldeanlagen", "description": "Scharf- und Unscharfschalten von Alarmanlagen direkt über den BCM-Leser — kein separates Bediengerät nötig." }
+      ]
+    },
+    "cta": {
+      "label": "Kontakt",
+      "title": "Wir beraten Sie gern!",
+      "subtext": "Sprechen Sie uns an — wir unterstützen Sie bei der Auswahl und Planung Ihrer BCM Online-Leser.",
+      "button": "Projektanfrage senden",
+      "datasheetLabel": "Datenblatt herunterladen",
+      "ctaUrl": "/kontakt/bcm",
+      "datasheetUrl": "#datenblatt-platzhalter"
+    }
+  },
+  "vorhaengeschloss": {
+    "hero": {
+      "eyebrow": "Ein System – viele Anwendungen",
+      "headline": "Vorhängeschloss mit elektronischem Knaufzylinder",
+      "subline": "Die perfekte Lösung für die Sicherung abgelegener Standorte",
+      "description": "Das Vorhängeschloss ist die perfekte Lösung für abgelegene Türen, bei denen eine sichere elektronische Zutrittskontrolle entscheidend ist. Es bietet eine flexible und zukunftssichere Lösung auch für Bereiche, in denen der Einsatz einer herkömmlichen Zutrittskontrolle nicht möglich ist.",
+      "introText": "Der elektronische Knaufzylinder wird über die browserbasierte BCM-Software verwaltet und ist Teil des Zutrittskontrollsystems mit anderen Offline- und Online-Lesern in einem Gebäude.",
+      "imageAlt": "Vorhängeschloss mit elektronischem Knaufzylinder von TCS",
+      "ctaBeratung": "Projektanfrage senden",
+      "ctaDatenblatt": "Datenblatt herunterladen",
+      "ctaUrl": "/kontakt/bcm",
+      "datasheetUrl": "#datenblatt-platzhalter"
+    },
+    "vorteile": {
+      "eyebrow": "Ihre Vorteile",
+      "headline": "Vorteile des Vorhängeschlosses",
+      "items": [
+        { "title": "Zwei Betriebsmodi", "description": "Erhältlich als Offline-Leser oder funkvernetzter Offline-Leser — je nach Sicherheitsanforderung." },
+        { "title": "Vertraute Handhabung", "description": "Verwendbar wie ein normales mechanisches Vorhängeschloss, aber sicherer durch den Einsatz modernster Sicherheitstechnologien." },
+        { "title": "Verlorene Transponder", "description": "Rücksetzung der individuellen Zutrittsrechte bei Verlust von Transponder-Tags oder -Karten — kein Schlossaustausch nötig." },
+        { "title": "Zeitfenstersteuerung", "description": "Einschränkung von Zutrittsrechten in bestimmten Zeitfenstern für maximale Kontrolle." },
+        { "title": "Vandalismusschutz", "description": "Inklusive Vandalismusschutz — robust und zuverlässig auch unter schwierigen Bedingungen." },
+        { "title": "Innen und Außen", "description": "Geeignet für den Innen- und Außenbereich, wie z. B. Fahrradschuppen, Container oder abgelegene Standorte." }
+      ]
+    },
+    "anwendungen": {
+      "eyebrow": "Anwendungen",
+      "headline": "Typische Einsatzbereiche",
+      "items": [
+        { "title": "Abgelegene Standorte", "description": "Elektronische Zutrittskontrolle dort, wo keine Verkabelung möglich ist — z. B. Außenlager oder Nebengebäude." },
+        { "title": "Fahrradschuppen und Container", "description": "Sichere Zugangskontrolle für Gemeinschaftsanlagen ohne aufwendige Installation." },
+        { "title": "Baustellen und temporäre Standorte", "description": "Flexibel einsetzbar und wiederverwendbar — ideal für wechselnde Einsatzorte." },
+        { "title": "Ergänzung bestehender Systeme", "description": "Nahtlose Integration in vorhandene BCM-Zutrittskontrollsysteme mit Online- und Offline-Lesern." }
+      ]
+    },
+    "cta": {
+      "label": "Kontakt",
+      "title": "Wir beraten Sie gern!",
+      "subtext": "Sprechen Sie uns an — wir unterstützen Sie bei der Auswahl und Planung Ihres elektronischen Vorhängeschlosses.",
+      "button": "Projektanfrage senden",
+      "ctaUrl": "/kontakt/bcm",
+      "datasheetLabel": "Datenblatt herunterladen",
+      "datasheetUrl": "#datenblatt-platzhalter"
+    }
+  },
+  "biometrie": {
+    "hero": {
+      "eyebrow": "Ein System – viele Anwendungen",
+      "headline": "Zutrittskontrolle Biometrie",
+      "subline": "Fingerprint- und Gesichtserkennung",
+      "description": "Biometrische TCS-Zutrittskontrollterminals eignen sich besonders für Anwendungen, bei denen eine schnelle und sichere Identifikation notwendig ist. Sie enthalten auf Wunsch einen RFID-Leser für MIFARE® DESFire® Transponder.",
+      "introText": "Die Terminals verfügen über einen POE-Anschluss und werden über Ethernet in das BCM-System eingebunden. Alle Geräte sind für den Einsatz im Außenbereich geeignet (IP65) und besonders zuverlässig gegen Vandalismus geschützt.",
+      "imageAlt": "Biometrisches Zutrittskontrollterminal von TCS",
+      "imagePlaceholder": "Produktbild folgt",
+      "ctaBeratung": "Projektanfrage senden",
+      "ctaDatenblatt": "Datenblatt herunterladen",
+      "ctaUrl": "/kontakt/bcm",
+      "datasheetUrl": "#datenblatt-platzhalter"
+    },
+    "produkte": {
+      "eyebrow": "Unsere Produkte",
+      "headline": "Schneller als ein Passwort",
+      "items": [
+        {
+          "headline": "Fingerprint-Scanner",
+          "vorteile": [
+            "Identifizierung von bis zu 1:100.000 in weniger als 1 Sekunde",
+            "Lebenderkennung",
+            "Hohe Sicherheitsstandards (OSDP, UL294)",
+            "Akustische und optische Signalisierung",
+            "Optionale Variante mit Display"
+          ]
+        },
+        {
+          "headline": "3D-Finger-Scanner",
+          "vorteile": [
+            "Berührungsloses Scannen von Fingerabdrücken und QR-Codes",
+            "Speicherung biometrischer Daten auf der RFID-Karte möglich",
+            "Bis zu 10.000 Benutzerdatensätze",
+            "Erfassung und Überprüfung von 4 Fingern in weniger als 1 Sekunde",
+            "Präzise und schnelle Zutrittskontrolle"
+          ]
+        },
+        {
+          "headline": "Scanner zur Gesichtserkennung",
+          "vorteile": [
+            "Berührungslose, schnelle Identifikation bis zu 30 Nutzern pro Minute",
+            "Bis zu 40.000 Benutzerdatensätze",
+            "Bedienung ohne Stoppen in der Laufbewegung bei unterschiedlichen Lichtverhältnissen",
+            "Zur Verwendung mit Gesichtsmasken geeignet",
+            "Betrugs- und Manipulationssicher (iBeta Level 2, DSGVO-konform)"
+          ]
+        }
+      ]
+    },
+    "anwendungen": {
+      "eyebrow": "Anwendungen",
+      "headline": "Typische Einsatzbereiche",
+      "items": [
+        { "title": "Hochsicherheitsbereiche", "description": "Serverräume, Labore und Sicherheitszonen mit höchsten Anforderungen an Identitätsprüfung." },
+        { "title": "Unternehmen und Behörden", "description": "Schnelle Identifikation ohne Karten oder PINs — ideal bei hohem Personaldurchlauf." },
+        { "title": "Außenbereiche", "description": "IP65-geschützte Terminals für Eingänge und Zufahrten bei allen Witterungsbedingungen." },
+        { "title": "Hygienebereich und Produktion", "description": "Berührungslose Erkennung per 3D-Finger-Scanner oder Gesichtserkennung — keine Kontaktflächen." }
+      ]
+    },
+    "cta": {
+      "label": "Kontakt",
+      "title": "Wir beraten Sie gern!",
+      "subtext": "Sprechen Sie uns an — wir unterstützen Sie bei der Auswahl und Planung Ihrer biometrischen Zutrittslösung.",
+      "button": "Projektanfrage senden",
+      "ctaUrl": "/kontakt/bcm",
+      "datasheetLabel": "Datenblatt herunterladen",
+      "datasheetUrl": "#datenblatt-platzhalter"
+    }
+  }
+}

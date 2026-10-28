@@ -1,0 +1,38 @@
+{
+  "app": {
+    "name": "TCS",
+    "language": "Nederlands"
+  },
+  "actions": {
+    "more": "Meer informatie",
+    "contact": "Neem contact op",
+    "back": "Terug",
+    "close": "Sluiten"
+  },
+  "language": {
+    "de": "Duits",
+    "en": "Engels",
+    "pl": "Pools",
+    "nl": "Nederlands"
+  },
+  "pageCta": {
+    "headline": "Laten we uw project samen plannen",
+    "intro": "Neem contact op met onze experts voor persoonlijk projectadvies.",
+    "button": "Projectadvies aanvragen"
+  },
+  "notFound": {
+    "code": "404",
+    "headline": "Pagina niet gevonden",
+    "intro": "De opgevraagde pagina bestaat niet of is verplaatst. Controleer het adres of ga terug naar de startpagina.",
+    "cta": "Terug naar de startpagina"
+  },
+  "ui": {
+    "learnMore": "Meer informatie",
+    "scrollLeft": "Naar links schuiven",
+    "scrollRight": "Naar rechts schuiven",
+    "noImage": "Geen afbeelding",
+    "hideBadge": "Label verbergen",
+    "loadingPage": "Pagina wordt geladen…",
+    "noCategories": "Er zijn nog geen categorieën aangelegd."
+  }
+}

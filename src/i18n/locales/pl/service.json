@@ -1,0 +1,325 @@
+{
+  "_meta": {
+    "note": "Nur Bedien-Texte (UI-Microcopy) des Produktkatalogs auf Polnisch. Redaktionelle Seiteninhalte kommen aus CMS-Light. Nicht enthaltene Schlüssel fallen automatisch auf Deutsch zurück."
+  },
+  "katalog": {
+    "hero": {
+      "label": "Serwis",
+      "headline": "Katalog produktów online",
+      "intro": "Uporządkowany dostęp do produktów TCS, danych produktowych i kart katalogowych z BMEcat dla profesjonalistów i partnerów handlowych."
+    },
+    "access": {
+      "label": "Dostęp do produktów",
+      "headline": "Znajdź produkty",
+      "intro": "Katalog, wyszukiwarka produktów, serie i dane podstawowe do bezpośredniego wyboru produktu.",
+      "items": {
+        "katalog": {
+          "title": "Katalog produktów online",
+          "description": "Uporządkowany dostęp do produktów TCS z BMEcat wraz z danymi technicznymi.",
+          "linkLabel": "W przygotowaniu"
+        },
+        "finder": {
+          "title": "Wyszukiwarka produktów",
+          "description": "Wybór krok po kroku według zastosowania i wymagań technicznych.",
+          "linkLabel": "W przygotowaniu"
+        },
+        "serien": {
+          "title": "Serie",
+          "description": "Przegląd serii produktów TCS dla stacji zewnętrznych i wewnętrznych.",
+          "linkLabel": "W przygotowaniu"
+        },
+        "stammdaten": {
+          "title": "Dane produktowe i BMEcat",
+          "description": "Dane podstawowe produktów oraz pakiet BMEcat dla hurtowni i integracji ERP.",
+          "linkLabel": "W przygotowaniu"
+        }
+      }
+    },
+    "hinweis": {
+      "label": "Wskazówka",
+      "headline": "Katalog jest podłączany",
+      "text": "Właściwy katalog online zostanie podłączony jako osobny punkt wejścia na późniejszym etapie. Ta strona już teraz zbiera punkty wejścia do produktów i pozostaje bezpośrednim odnośnikiem z nawigacji serwisowej."
+    },
+    "mvp": {
+      "label": "Test katalogu",
+      "headline": "Produkty z bazy danych TCS",
+      "intro": "Pierwszy etap techniczny integracji katalogu. Dane są wczytywane tylko do odczytu z centralnej bazy produktów TCS.",
+      "status": {
+        "loading": "Wczytywanie produktów …",
+        "error": "Nie udało się wczytać produktów.",
+        "count": "Wczytano {{count}} produktów",
+        "contextOk": "Kontekst katalogu został poprawnie zainicjowany"
+      },
+      "errorBox": {
+        "headline": "Wczytywanie nie powiodło się",
+        "text": "Baza produktów nie odpowiedziała na zapytanie. Dane techniczne:",
+        "stale": "Aktualizacja nie powiodła się. Pokazano wyniki z poprzedniego udanego wczytania; mogą nie odpowiadać bieżącemu językowi, kategorii lub filtrom.",
+        "previous": "Nowy wybór jest wczytywany. Do tego czasu widoczne są poprzednie wyniki, które mogą nie odpowiadać bieżącemu wyborowi."
+      },
+      "empty": {
+        "headline": "Nie znaleziono produktów",
+        "text": "Lista produktów jest obecnie pusta lub jeszcze nieudostępniona."
+      },
+      "card": {
+        "artikelNr": "Nr artykułu"
+      }
+    },
+    "target": {
+      "headline": "Katalog produktów",
+      "subline": {
+        "loading": "Wczytywanie produktów …",
+        "count": "{{count}} artykułów – wybierz kategorię lub przeglądaj katalog",
+        "count_one": "{{count}} artykuł – wybierz kategorię lub przeglądaj katalog"
+      },
+      "search": {
+        "placeholder": "Szukaj po numerze artykułu, nazwie lub opisie …",
+        "aria": "Szukaj produktów",
+        "clear": "Wyczyść wyszukiwanie"
+      },
+      "chips": {
+        "all": "Wszystkie"
+      },
+      "results": {
+        "count": "{{shown}} z {{total}} produktów",
+        "count_one": "{{shown}} z {{total}} produktów"
+      },
+      "sort": {
+        "label": "Sortowanie:",
+        "options": {
+          "default": "Domyślnie",
+          "artikel_nr_asc": "Nr artykułu rosnąco",
+          "price_asc": "Cena rosnąco",
+          "price_desc": "Cena malejąco"
+        }
+      },
+      "start": {
+        "headline": "Od czego chcesz zacząć?",
+        "text": "Wybierz kategorię, ustaw filtr albo wyszukaj po numerze artykułu lub nazwie produktu."
+      },
+      "selection": {
+        "reset": "Wyczyść wybór"
+      },
+      "seriesGate": {
+        "counter": "— wybierz serię",
+        "hint": "Wybierz serię, aby zobaczyć filtry i produkty.",
+        "filterAria": "Filtr serii"
+      },
+      "merkliste": {
+        "label": "Schowek ({{count}})"
+      },
+      "chooseCategory": "Wybierz kategorię, aby rozpocząć."
+    },
+    "filters": {
+      "groups": {
+        "system_typ": {
+          "label": "System",
+          "all": "Wszystkie"
+        },
+        "paket_klasse": {
+          "label": "Klasa pakietu",
+          "all": "Wszystkie"
+        },
+        "montageart": {
+          "label": "Montaż",
+          "all": "Wszystkie"
+        },
+        "wohneinheiten": {
+          "label": "Lokale",
+          "all": "Wszystkie"
+        },
+        "ip_gateway": {
+          "label": "IP",
+          "all": "Wszystkie",
+          "yes": "Tak",
+          "no": "Nie"
+        }
+      },
+      "bool": {
+        "yes": "Tak",
+        "no": "Nie"
+      },
+      "color": "Kolor",
+      "series": "Seria",
+      "reset": "Wyczyść",
+      "status": {
+        "loading": "Filtry są ładowane …",
+        "error": "Nie udało się załadować filtrów.",
+        "retry": "Spróbuj ponownie"
+      }
+    },
+    "v2": {
+      "status": {
+        "presetUsed": "Układ kolumn z szablonu „{{preset}}”",
+        "fallbackActive": "Widok uproszczony – nie udało się ustalić układu kolumn"
+      },
+      "filters": {
+        "headline": "Filtry",
+        "reset": "Wyczyść filtry",
+        "allOption": "Wszystkie"
+      },
+      "fallback": {
+        "text": "Szablonu „{{preset}}” nie znaleziono w bazie danych. Dopóki nie zostanie skonfigurowany, produkty są pokazywane w uproszczonym widoku bez kolumn szczegółowych.",
+        "columnsMissing": "Szablon „{{preset}}” został znaleziony, ale nie ma przypisanych kolumn w „column_preset_columns”. Do czasu uzupełnienia przypisania produkty są pokazywane w uproszczonym widoku."
+      },
+      "card": {
+        "yes": "Tak",
+        "imageAvailable": "Zdjęcie dostępne",
+        "imageAvailableCount": "{{count}} zdjęcie dostępne",
+        "imageAvailableCount_other": "{{count}} zdjęć dostępnych",
+        "openDetails": "Pokaż szczegóły",
+        "openDetailsAria": "Pokaż szczegóły produktu „{{title}}”",
+        "fieldLabels": {
+          "system_typ": "Typ systemu",
+          "paket_klasse": "Klasa pakietu",
+          "montageart": "Rodzaj montażu",
+          "wohneinheiten": "Lokale mieszkalne",
+          "ip_gateway": "Brama IP"
+        }
+      }
+    },
+    "pdp": {
+      "hero": {
+        "label": "Szczegóły produktu",
+        "fallbackHeadline": "Strona produktu",
+        "fallbackIntro": "Informacje o produkcie z bazy danych TCS."
+      },
+      "back": "Powrót do katalogu",
+      "sections": {
+        "details": "Szczegóły produktu",
+        "features": "Cechy",
+        "specs": "Dane techniczne",
+        "info": "Informacje o produkcie",
+        "documents": "Dokumenty i instrukcje",
+        "ausschreibung": "Tekst przetargowy",
+        "paketKomponenten": "Elementy pakietu",
+        "lieferumfang": "Zakres dostawy",
+        "produktinformationen": "Informacje o produkcie",
+        "technischeDatenFeatures": "Cechy techniczne"
+      },
+      "summary": {
+        "deliveryTime": "Czas dostawy",
+        "warranty": "Gwarancja",
+        "warrantyValue": "{{count}} miesięcy"
+      },
+      "info": {
+        "cols": {
+          "description": "Opis",
+          "artikelNr": "Nr artykułu",
+          "price": "Cena/szt."
+        }
+      },
+      "inquiry": {
+        "label": "Zapytaj o produkt"
+      },
+      "empty": {
+        "images": "Dla tego produktu nie ma obecnie dostępnych zdjęć.",
+        "documents": "Dla tego produktu nie ma obecnie dostępnych dokumentów."
+      },
+      "notFound": {
+        "headline": "Produkt nie został znaleziony",
+        "text": "Tego produktu nie udało się jednoznacznie wczytać z katalogu.",
+        "devHeadline": "Diagnostyka – rozpoznanie adresu"
+      },
+      "errorBox": {
+        "headline": "Nie udało się wczytać strony produktu",
+        "text": "Połączenie z bazą produktów nie powiodło się lub brakuje konfiguracji."
+      },
+      "paket": {
+        "cols": {
+          "anzahl": "Ilość",
+          "rolle": "Rola",
+          "title": "Opis",
+          "artikelNr": "Nr artykułu"
+        }
+      },
+      "datasheet": {
+        "title": "Karta katalogowa",
+        "open": "Pokaż kartę katalogową",
+        "print": "Drukuj",
+        "close": "Zamknij",
+        "empty": "Dla tego produktu nie udostępniono obecnie karty katalogowej.",
+        "price": "Cena",
+        "contents": "Zawartość zestawu",
+        "features": "Cechy",
+        "printPreparing": "Przygotowywanie druku …",
+        "printFailed": "Nie udało się przygotować druku (obrazy lub czcionki nie były gotowe na czas). Spróbuj ponownie.",
+        "retry": "Spróbuj ponownie",
+        "brand": {
+          "missing": "Nie zapisano profilu marki, dlatego drukowanie jest zablokowane.",
+          "inactive": "Profil marki jest obecnie nieaktywny, dlatego drukowanie jest zablokowane.",
+          "mismatch": "Zwrócono obcy profil marki. Ze względów bezpieczeństwa druk jest zablokowany.",
+          "unconfigured": "Połączenie z bazą produktów nie jest skonfigurowane. Nie można odczytać profilu marki.",
+          "error": "Nie udało się odczytać profilu marki.",
+          "templateMissing": "Profil marki nie wskazuje szablonu karty katalogowej, dlatego karta nie jest wyświetlana ani drukowana.",
+          "templateUnsupported": "Szablon karty katalogowej wskazany w profilu marki nie jest tu obsługiwany, dlatego karta nie jest wyświetlana ani drukowana."
+        }
+      },
+      "documents": {
+        "categories": {
+          "bedienungsanleitung": "Instrukcja obsługi",
+          "datenblatt": "Karta katalogowa",
+          "montageanleitung": "Instrukcja montażu",
+          "produktinfo": "Informacje o produkcie",
+          "schaltplan": "Schemat połączeń"
+        }
+      }
+    },
+    "diagnostics": {
+      "headline": "Diagnostyka bazy danych",
+      "states": {
+        "notConfigured": "Baza danych nie jest skonfigurowana",
+        "wrongProject": "Baza danych połączona, ale nieprawidłowy projekt",
+        "rpcUnavailable": "Usługa kontekstu katalogu jest nieosiągalna",
+        "viewUnreachable": "Widok bazy danych jest nieosiągalny",
+        "emptyOrBlocked": "Baza danych osiągalna, ale lista produktów jest pusta lub niezatwierdzona",
+        "presetMissing": "Nie znaleziono ustawienia „{{preset}}” w bazie danych",
+        "presetColumnsMissing": "Ustawienie „{{preset}}” znalezione, ale bez przypisania kolumn",
+        "ok": "Kontekst katalogu został poprawnie zainicjowany"
+      },
+      "labels": {
+        "supabaseConfigured": "Baza danych skonfigurowana",
+        "urlPresent": "Adres bazy danych ustawiony",
+        "projectMatch": "Projekt odpowiada „{{expected}}”",
+        "rpc": "RPC rpc_get_catalog_context()",
+        "productCatalogView": "Widok product_catalog_view",
+        "productCatalogViewRows": "product_catalog_view zawiera wiersze",
+        "columnPresets": "Tabela column_presets",
+        "columnPresetsCount": "Wczytane ustawienia",
+        "productColumnDefinitions": "Tabela product_column_definitions",
+        "productFilterOptionsView": "RPC rpc_get_localized_filter_options",
+        "publicCatalogPreset": "Ustawienie „{{preset}}” znalezione"
+      },
+      "values": {
+        "yes": "Tak",
+        "no": "Nie",
+        "skipped": "pominięto",
+        "unknown": "nieznane"
+      }
+    },
+    "merkliste": {
+      "title": "Schowek",
+      "intro": "Porównaj do {{max}} produktów i zapytaj o nie razem.",
+      "backToCatalog": "Powrót do katalogu",
+      "emptyTitle": "Brak zapisanych produktów",
+      "emptyHint": "Otwórz produkt w katalogu i wybierz „Dodaj do schowka”.",
+      "toCatalog": "Przejdź do katalogu produktów",
+      "compareShow": "Porównaj produkty",
+      "compareHide": "Ukryj porównanie",
+      "inquiry": "Zapytaj o produkty",
+      "clear": "Wyczyść schowek",
+      "minTwo": "Do porównania potrzebne są co najmniej 2 produkty.",
+      "compareHeading": "Porównanie techniczne",
+      "loadingSpecs": "Ładowanie danych technicznych…",
+      "noSpecs": "Dla zapisanych produktów nie ma porównywalnych danych technicznych.",
+      "feature": "Cecha",
+      "removeItem": "Usuń {{artikel}}",
+      "add": "Dodaj do schowka",
+      "removeLabel": "Usuń ze schowka",
+      "toastAdded": "Dodano do schowka",
+      "toastRemoved": "Usunięto ze schowka",
+      "toastFull": "Można porównać maksymalnie {{max}} produktów.",
+      "inquireProduct": "Zapytaj o ten produkt",
+      "back": "Wróć"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+[
+  {
+    "typ": "sonderseite_ohne_cms_page",
+    "page_key": "kontakt.root",
+    "section_key": "-",
+    "field_key": "-",
+    "bedeutung": "/kontakt ist Sonderseite und hat keinen Eintrag in cms_pages — Inhalte ausschließlich im Code."
+  },
+  {
+    "typ": "sonderseite_ohne_cms_page",
+    "page_key": "(route:/kontakt/bcm)",
+    "section_key": "-",
+    "field_key": "-",
+    "bedeutung": "/kontakt/bcm ist Sonderseite und hat keinen Eintrag in cms_pages — Inhalte ausschließlich im Code."
+  },
+  {
+    "typ": "sonderseite_ohne_cms_page",
+    "page_key": "(route:/produkte/merkliste)",
+    "section_key": "-",
+    "field_key": "-",
+    "bedeutung": "/produkte/merkliste ist Sonderseite und hat keinen Eintrag in cms_pages — Inhalte ausschließlich im Code."
+  },
+  {
+    "typ": "sonderseite_ohne_cms_page",
+    "page_key": "(route:/produkte/tuerkommunikation/:pdpSlug)",
+    "section_key": "-",
+    "field_key": "-",
+    "bedeutung": "/produkte/tuerkommunikation/:pdpSlug ist Sonderseite und hat keinen Eintrag in cms_pages — Inhalte ausschließlich im Code."
+  },
+  {
+    "typ": "sonderseite_ohne_cms_page",
+    "page_key": "produkte.zutrittskontrolle",
+    "section_key": "-",
+    "field_key": "-",
+    "bedeutung": "/produkte/zutrittskontrolle ist Sonderseite und hat keinen Eintrag in cms_pages — Inhalte ausschließlich im Code."
+  },
+  {
+    "typ": "sonderseite_ohne_cms_page",
+    "page_key": "produkte.eingangsloesungen",
+    "section_key": "-",
+    "field_key": "-",
+    "bedeutung": "/produkte/eingangsloesungen ist Sonderseite und hat keinen Eintrag in cms_pages — Inhalte ausschließlich im Code."
+  },
+  {
+    "typ": "sonderseite_ohne_cms_page",
+    "page_key": "serviceportal.login",
+    "section_key": "-",
+    "field_key": "-",
+    "bedeutung": "/serviceportal ist Sonderseite und hat keinen Eintrag in cms_pages — Inhalte ausschließlich im Code."
+  },
+  {
+    "typ": "sonderseite_ohne_cms_page",
+    "page_key": "serviceportal.passwort-vergessen",
+    "section_key": "-",
+    "field_key": "-",
+    "bedeutung": "/serviceportal/passwort-vergessen ist Sonderseite und hat keinen Eintrag in cms_pages — Inhalte ausschließlich im Code."
+  },
+  {
+    "typ": "sonderseite_ohne_cms_page",
+    "page_key": "serviceportal.registrieren",
+    "section_key": "-",
+    "field_key": "-",
+    "bedeutung": "/serviceportal/registrieren ist Sonderseite und hat keinen Eintrag in cms_pages — Inhalte ausschließlich im Code."
+  }
+]

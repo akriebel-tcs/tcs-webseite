@@ -1,0 +1,122 @@
+[
+  {
+    "route": "/kontakt",
+    "page_key": "kontakt.root",
+    "komponente": "KontaktPage",
+    "datei": "src/features/kontakt/pages/KontaktPage.tsx",
+    "aktuelle_klasse": "sonderseite_unregistriert",
+    "empfohlene_aktion": "registrieren",
+    "confidence": "hoch",
+    "begruendung": "Kontaktformularseite mit eigenem Submit-Flow.",
+    "was_passieren_muss": "In sonderseiten-register aufnehmen; Labels/Headlines/Hinweistexte sukzessive nach cms_section_fields heben.",
+    "braucht_menschliche_entscheidung": false
+  },
+  {
+    "route": "/kontakt/bcm",
+    "page_key": "kontakt-bcm.root",
+    "komponente": "KontaktBcmPage",
+    "datei": "src/features/kontakt/pages/KontaktBcmPage.tsx",
+    "aktuelle_klasse": "sonderseite_unregistriert",
+    "empfohlene_aktion": "registrieren",
+    "confidence": "hoch",
+    "begruendung": "Kontaktformularseite mit eigenem Submit-Flow.",
+    "was_passieren_muss": "In sonderseiten-register aufnehmen; Labels/Headlines/Hinweistexte sukzessive nach cms_section_fields heben.",
+    "braucht_menschliche_entscheidung": false
+  },
+  {
+    "route": "/produkte/merkliste",
+    "page_key": null,
+    "komponente": "MerklistePage",
+    "datei": "src/features/produkte/merkliste/MerklistePage.tsx",
+    "aktuelle_klasse": "sonderseite_unregistriert",
+    "empfohlene_aktion": "registrieren",
+    "confidence": "hoch",
+    "begruendung": "Merklisten-Funktion (Session/User-State) — kein Standardbaustein.",
+    "was_passieren_muss": "Registrieren; Leerzustand/Hinweistexte/CTAs als CMS-Felder definieren.",
+    "braucht_menschliche_entscheidung": false
+  },
+  {
+    "route": "/produkte/tuerkommunikation/:pdpSlug",
+    "page_key": null,
+    "komponente": "ProductDetailPage",
+    "datei": "src/features/service/pages/ProductDetailPage.tsx",
+    "aktuelle_klasse": "sonderseite_unregistriert",
+    "empfohlene_aktion": "registrieren",
+    "confidence": "hoch",
+    "begruendung": "Produktdetailseite (PDP) mit Produktdatenbank-Logik — Sonderfunktion.",
+    "was_passieren_muss": "In sonderseiten-register aufnehmen; Produkttexte/Beschreibungen aus Produkt-DB belassen, CMS-Rahmentexte ergaenzen.",
+    "braucht_menschliche_entscheidung": false
+  },
+  {
+    "route": "/produkte/zutrittskontrolle",
+    "page_key": "produkte.zutrittskontrolle",
+    "komponente": "CategoryListPage",
+    "datei": "src/features/produkte/pages/CategoryListPage.tsx",
+    "aktuelle_klasse": "sonderseite_unregistriert",
+    "empfohlene_aktion": "migrieren_pruefen",
+    "confidence": "mittel",
+    "begruendung": "Kategorie-Hub mit lokaler linkMap/externalActionMap — hartcodierte Verlinkungen, sonst CMS-naehnlich.",
+    "was_passieren_muss": "Linkziele in cms_section_fields (card_v1.link_href) heben, dann auf cards_v1 migrieren.",
+    "braucht_menschliche_entscheidung": true
+  },
+  {
+    "route": "/produkte/eingangsloesungen",
+    "page_key": "produkte.eingangsloesungen",
+    "komponente": "CategoryListPage",
+    "datei": "src/features/produkte/pages/CategoryListPage.tsx",
+    "aktuelle_klasse": "sonderseite_unregistriert",
+    "empfohlene_aktion": "migrieren_pruefen",
+    "confidence": "mittel",
+    "begruendung": "Kategorie-Hub mit lokaler linkMap/externalActionMap — hartcodierte Verlinkungen, sonst CMS-naehnlich.",
+    "was_passieren_muss": "Linkziele in cms_section_fields (card_v1.link_href) heben, dann auf cards_v1 migrieren.",
+    "braucht_menschliche_entscheidung": true
+  },
+  {
+    "route": "/service/online-produktkatalog/:pdpSlug",
+    "page_key": null,
+    "komponente": "LegacyPdpRedirect",
+    "datei": null,
+    "aktuelle_klasse": "legacy_unklar",
+    "empfohlene_aktion": "archivieren_pruefen",
+    "confidence": "niedrig",
+    "begruendung": "Renderer-Datei nicht aufloesbar; Funktion unklar.",
+    "was_passieren_muss": "Manuell pruefen: noch verlinkt? Sonst Route entfernen.",
+    "braucht_menschliche_entscheidung": true
+  },
+  {
+    "route": "/serviceportal",
+    "page_key": "serviceportal.login",
+    "komponente": "ServiceportalPage",
+    "datei": "src/features/serviceportal/pages/ServiceportalPage.tsx",
+    "aktuelle_klasse": "sonderseite_unregistriert",
+    "empfohlene_aktion": "registrieren",
+    "confidence": "hoch",
+    "begruendung": "Auth-/Registrierungs-/Passwort-Flow, kein Standardbaustein abbildbar.",
+    "was_passieren_muss": "In sonderseiten-register aufnehmen; sichtbare Texte (Labels, Hinweise, Erfolg/Fehler) als CMS-Felder vorsehen.",
+    "braucht_menschliche_entscheidung": false
+  },
+  {
+    "route": "/serviceportal/passwort-vergessen",
+    "page_key": "serviceportal.passwort-vergessen",
+    "komponente": "PasswortVergessenPage",
+    "datei": "src/features/serviceportal/pages/PasswortVergessenPage.tsx",
+    "aktuelle_klasse": "sonderseite_unregistriert",
+    "empfohlene_aktion": "registrieren",
+    "confidence": "hoch",
+    "begruendung": "Auth-/Registrierungs-/Passwort-Flow, kein Standardbaustein abbildbar.",
+    "was_passieren_muss": "In sonderseiten-register aufnehmen; sichtbare Texte (Labels, Hinweise, Erfolg/Fehler) als CMS-Felder vorsehen.",
+    "braucht_menschliche_entscheidung": false
+  },
+  {
+    "route": "/serviceportal/registrieren",
+    "page_key": "serviceportal.registrieren",
+    "komponente": "RegistrierenPage",
+    "datei": "src/features/serviceportal/pages/RegistrierenPage.tsx",
+    "aktuelle_klasse": "sonderseite_unregistriert",
+    "empfohlene_aktion": "registrieren",
+    "confidence": "hoch",
+    "begruendung": "Auth-/Registrierungs-/Passwort-Flow, kein Standardbaustein abbildbar.",
+    "was_passieren_muss": "In sonderseiten-register aufnehmen; sichtbare Texte (Labels, Hinweise, Erfolg/Fehler) als CMS-Felder vorsehen.",
+    "braucht_menschliche_entscheidung": false
+  }
+]

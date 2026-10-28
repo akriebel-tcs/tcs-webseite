@@ -1,0 +1,277 @@
+{
+  "_meta": {
+    "namespace": "home",
+    "status": "migrated",
+    "note": "UeberTCSPage fully migrated (stage `i18n-coverage-close-1`, area `home.ueberTcs.*`, in `strictPages`). HomePage itself is a container page without own texts and is intentionally documented as `exemptPages`; visible content comes from shared components (HeroSection, ContentBlocks, PersonaSection, CTASection) using their own namespaces. Status aligned in stage `hygiene-status-1`."
+  },
+  "hero": {
+    "eyebrow": "Welcome to TCS",
+    "headline": "Your partner for door communication, building security and management systems",
+    "intro": "For more than 30 years, TCS has been developing communication and access systems that combine architecture, technology and security – for every building and every requirement. Made in Germany.",
+    "imageAlt": "TCS entrance area with modern door communication"
+  },
+  "stats": {
+    "items": {
+      "experience": {
+        "value": "30+",
+        "label": "Years of experience"
+      },
+      "madeInGermany": {
+        "value": "100%",
+        "label": "Made in Germany"
+      },
+      "technology": {
+        "value": "IP & 2-wire",
+        "label": "Technology"
+      },
+      "support": {
+        "value": "24/7",
+        "label": "Technical support"
+      }
+    }
+  },
+  "personas": {
+    "headline": "Tailored solutions for your role",
+    "intro": "Whether planner, installer or owner – we speak your language and provide exactly the information you need to make your decision.",
+    "cta": "Learn more",
+    "items": {
+      "bauherren": {
+        "title": "Builders & Owners",
+        "desc": "Smart home, security and design – find the perfect solution for your home."
+      },
+      "architekten": {
+        "title": "Architects & Designers",
+        "desc": "Entrance architecture at its best – with a wide range of materials and barrier-free concepts."
+      },
+      "wohnungswirtschaft": {
+        "title": "Housing Industry",
+        "desc": "Cost-efficient, scalable solutions for large properties with digital management."
+      },
+      "fachplaner": {
+        "title": "Specialist Planners & Integrators",
+        "desc": "Technical depth: system boundaries, interface documentation and tender texts."
+      },
+      "handwerk": {
+        "title": "Electrical Trade",
+        "desc": "Fast installation thanks to TCS:PACKS, configurators and wiring diagrams."
+      },
+      "fachhandel": {
+        "title": "Specialist Retail",
+        "desc": "Master product data, efficient ordering and direct access to the spare parts shop."
+      }
+    }
+  },
+  "cta": {
+    "headline": "Let's plan your project together",
+    "intro": "Our experts advise you personally – from the initial idea to the finished installation.",
+    "primary": "Schedule a consultation",
+    "secondary": "Start configurator"
+  },
+  "contentBlocks": {
+    "headline": "Holistic solutions for the entrance area",
+    "intro": "From door communication and access control to architectural design – everything from a single source.",
+    "cta": "Learn more",
+    "items": {
+      "communication": {
+        "label": "Door Communication",
+        "headline": "Smart communication for every building",
+        "text": "From single-family homes to large residential quarters, TCS offers tailor-made audio and video door intercom systems such as the Senso Pro and TASTA PRO series. With the future-proof IP system snipdoo®, we combine the simplicity of classic BUS systems with unlimited network flexibility."
+      },
+      "access": {
+        "label": "Access Control",
+        "headline": "Access and management, rethought",
+        "text": "The web-based BCM system is your central solution for modern building management – secure, scalable and holistic. Manage access rights for doors, barriers and parking areas flexibly via smartphone app, biometric scanner or RFID."
+      },
+      "entry": {
+        "label": "Entry System",
+        "headline": "True individuality at the entrance",
+        "text": "The Entry design and mounting system ends the restless succession of different brands and bundles door communication, access control, mailboxes and fire protection in a homogeneous design – completely without visible screws."
+      },
+      "signage": {
+        "label": "Signage",
+        "headline": "Clear orientation with aesthetic appeal",
+        "text": "Create representative entrance areas and intuitive wayfinding with TCS signage. Discover our smart, ultra-flat house numbers with revolutionary day-night contrast and durable LED backlighting."
+      },
+      "solutions": {
+        "label": "Project Solutions",
+        "headline": "Tailored equipment for special requirements",
+        "text": "Every building has its own rules. We offer barrier-free solutions in line with DIN 18040-1 for care facilities, emergency call systems for schools, as well as efficient access control for clinics and public authorities."
+      },
+      "consulting": {
+        "label": "Project Consulting",
+        "headline": "From the first idea to the final implementation",
+        "text": "Our experts support architects, planning offices and developers across all trades throughout the entire process. We assist you with system and material selection and ensure smooth implementation.",
+        "cta": "Arrange project consulting"
+      }
+    }
+  },
+  "ueberTcs": {
+    "hero": {
+      "eyebrow": "Company",
+      "headline": "More than a manufacturer.",
+      "intro": "TCS is a family-run company and a comprehensive system provider for building communication, access control and integrated entrance solutions – with in-house development, manufacturing and service."
+    },
+    "stats": {
+      "items": {
+        "founded": {
+          "value": "1995",
+          "label": "Founded"
+        },
+        "headquarters": {
+          "value": "Genthin",
+          "label": "Headquarters, Saxony-Anhalt"
+        },
+        "employees": {
+          "value": "350+",
+          "label": "Employees worldwide"
+        },
+        "markets": {
+          "value": "DACH & int.",
+          "label": "Markets"
+        }
+      }
+    },
+    "history": {
+      "eyebrow": "History",
+      "headline": "A family business with an inventive spirit",
+      "p1": "We Open Worlds. Under this motto, the family-run TCS AG has been developing and manufacturing system technology for building communication since 1995 – from simple door intercoms to complex large-scale systems for several hundred residential units.",
+      "p2": "Founder Otto Duffner invented the world's first polarity-free, software-controlled 2-wire BUS intercom – the TCS:BUS®. This pioneering invention laid the foundation for rapid corporate development.",
+      "p3": "Otto Duffner runs the company together with his youngest son Johannes Duffner on the executive board and his eldest son Florian Duffner on the supervisory board. Decades of experience and contemporary ideas in perfect balance."
+    },
+    "values": {
+      "eyebrow": "Attitude",
+      "headline": "What drives TCS",
+      "items": {
+        "system": {
+          "title": "System expertise",
+          "text": "Not just individual products, but well thought-out systems for the entire building entrance – from the simple intercom to the complex large-scale system."
+        },
+        "innovation": {
+          "title": "Innovation",
+          "text": "In-house development, manufacturing and software – TCS invented the world's first software-controlled intercom based on the TCS:BUS in 1995."
+        },
+        "quality": {
+          "title": "Quality",
+          "text": "Made in Germany. Manufacturing certified to DIN-ISO 9001 on more than 2,000 m² in Genthin and at the CARUS Manufaktur in Triberg. 5-year warranty on all products."
+        },
+        "partnership": {
+          "title": "Partnership",
+          "text": "Architecture, planning, installation and wholesale as a true partnership – with 18 field service teams and 6 training centres throughout Germany."
+        }
+      }
+    },
+    "businessFields": {
+      "eyebrow": "Business fields",
+      "headline": "Broad portfolio, clear strengths",
+      "items": {
+        "handel": {
+          "title": "German trade business",
+          "text": "Core range for door and building communication, video surveillance and electronic access control – via electrical wholesalers to the electrical trade."
+        },
+        "international": {
+          "title": "International projects",
+          "text": "System solutions for home automation, call and announcement management, age-appropriate comfort and assistance systems as well as system networking, nationally and internationally."
+        },
+        "odm": {
+          "title": "ODM | OEM",
+          "text": "Customer-specific development, individual design and contract manufacturing including branding, labelling & packaging for European market leaders."
+        },
+        "customising": {
+          "title": "Customising & manufaktur",
+          "text": "Individual product configurations, tailor-made user interfaces and one-off production – at the CARUS Manufaktur in Triberg."
+        }
+      }
+    },
+    "manufacturing": {
+      "eyebrow": "Manufacturing & quality",
+      "headline": "Made in Germany",
+      "intro": "With experience and the latest technology, TCS produces small, medium and large series on more than 2,000 m² – certified to DIN-ISO 9001.",
+      "items": {
+        "iso": {
+          "title": "DIN-ISO 9001",
+          "text": "Certified quality management from incoming goods inspection through intermediate checks to delivery."
+        },
+        "smd": {
+          "title": "SMD assembly",
+          "text": "State-of-the-art automated assembly line for electronic circuit boards since 2018, ESD-protected and fully ERP-integrated."
+        },
+        "ihk": {
+          "title": "IHK Training Award",
+          "text": "First-class training quality – repeatedly recognised at state and federal level in metal and electrical engineering."
+        },
+        "sustainability": {
+          "title": "Sustainability",
+          "text": "Commitment to energy efficiency, pollutant avoidance and recyclability of materials and packaging."
+        }
+      }
+    },
+    "milestones": {
+      "eyebrow": "History",
+      "headline": "Milestones",
+      "items": {
+        "y1995": {
+          "year": "1995",
+          "text": "Foundation of TCS AG in Genthin – world's first software-controlled intercom (TCS:BUS)"
+        },
+        "y2000": {
+          "year": "2000",
+          "text": "Expansion of the product range and first international projects in Austria and Switzerland"
+        },
+        "y2005": {
+          "year": "2005",
+          "text": "Build-up of the OEM/ODM business – supplying European market leaders"
+        },
+        "y2012": {
+          "year": "2012",
+          "text": "snipdoo Home App – door communication on the smartphone, one of the first on the market"
+        },
+        "y2015": {
+          "year": "2015",
+          "text": "IHK Training Award for first-class training quality"
+        },
+        "y2018": {
+          "year": "2018",
+          "text": "State-of-the-art automated SMD assembly line at the Genthin site"
+        },
+        "y2020": {
+          "year": "2020",
+          "text": "25 years of TCS – anniversary and further expansion of the system worlds"
+        },
+        "y2024": {
+          "year": "2024",
+          "text": "Digital transformation – new tools, platforms and product lines"
+        },
+        "y2025": {
+          "year": "2025",
+          "text": "30 years of TCS – 5-year warranty on all products as a quality promise"
+        }
+      }
+    },
+    "locations": {
+      "eyebrow": "Locations",
+      "headline": "Development and manufacturing in Germany, sales worldwide",
+      "items": {
+        "genthin": {
+          "title": "Headquarters & manufacturing",
+          "location": "Genthin, Saxony-Anhalt",
+          "text": "R&D, SMD manufacturing, final assembly, administration, training centre"
+        },
+        "triberg": {
+          "title": "CARUS Manufaktur",
+          "location": "Triberg, Baden-Württemberg",
+          "text": "Individual one-off production, metalworking"
+        },
+        "international": {
+          "title": "International locations",
+          "location": "Austria, Serbia, Turkey, India, Hong Kong, Shanghai",
+          "text": "Sales and project business worldwide"
+        }
+      }
+    },
+    "cta": {
+      "headline": "Get to know TCS personally",
+      "intro": "Contact us for individual consulting or visit us at one of our locations.",
+      "button": "Contact us"
+    }
+  }
+}

@@ -1,0 +1,1 @@
+UPDATE public.cms_sections SET is_active = false, updated_at = now() WHERE page_key='home.start' AND section_key='personas_picker';

@@ -1,0 +1,1141 @@
+{
+  "_meta": {
+    "namespace": "service",
+    "status": "migrated",
+    "note": "Hub-Seite (Service-Center) als klassischer Herstellerzugang. Alle Service-Unterseiten i18n-first migriert: ServicePage (Hub), OnlineProduktkatalogPage (`katalog.*`), PlanenKonfigurierenPage (`seiten.planenKonfigurieren.*`), DownloadsPage (`seiten.downloads.*`), TechnischerSupportPage (`seiten.technischerSupport.*`), ErsatzteilePage (`seiten.ersatzteile.*`). Etappe doc-service-final-1: Status auf `migrated` gesetzt."
+  },
+  "hub": {
+    "hero": {
+      "label": "Services",
+      "headline": "Service-Center",
+      "intro": "Direkter Zugang zu Produktkatalog, Datenblättern, Schaltplänen, Ausschreibung, Ersatzteilen und Support – für Handwerk, Handel und Produktmanagement."
+    },
+    "sections": {
+      "produktzugang": {
+        "label": "Produktzugang",
+        "headline": "Produkte finden",
+        "intro": "Online-Katalog, Produktfinder, Serien und Stammdaten für die direkte Produktauswahl.",
+        "items": {
+          "katalog": {
+            "title": "Online-Produktkatalog",
+            "description": "Strukturierter Zugriff auf im BMEcat gepflegte TCS-Produkte, Produktdaten und Datenblätter.",
+            "linkLabel": "Katalog öffnen"
+          },
+          "finder": {
+            "title": "Produktfinder",
+            "description": "Geführte Auswahl nach Anwendungsfall und technischen Anforderungen.",
+            "linkLabel": "Produktfinder öffnen"
+          },
+          "serien": {
+            "title": "Serien",
+            "description": "Übersicht der TCS-Produktserien für Außen- und Innenstationen.",
+            "linkLabel": "Serien ansehen"
+          },
+          "stammdaten": {
+            "title": "Produktdaten & BMEcat",
+            "description": "Produktstammdaten und BMEcat-Paket für Großhandel und ERP-Anbindung.",
+            "linkLabel": "In Vorbereitung"
+          }
+        }
+      },
+      "downloads": {
+        "label": "Downloads & Dokumente",
+        "headline": "Dokumente und Daten",
+        "intro": "Alle technischen Unterlagen an einem Ort.",
+        "items": {
+          "downloads": {
+            "title": "Downloads",
+            "description": "Zentraler Download-Bereich für aktuelle Dokumente und Software.",
+            "linkLabel": "Zu den Downloads"
+          },
+          "datenblaetter": {
+            "title": "Datenblätter",
+            "description": "Technische Datenblätter zu allen Produkten und Serien.",
+            "linkLabel": "Datenblätter ansehen"
+          },
+          "handbuecher": {
+            "title": "Handbücher",
+            "description": "Installations- und Bedienungsanleitungen für TCS-Anlagen.",
+            "linkLabel": "Handbücher öffnen"
+          },
+          "schaltplaene": {
+            "title": "Schaltpläne",
+            "description": "Verdrahtungs- und Anschlusspläne für die Inbetriebnahme.",
+            "linkLabel": "Schaltpläne ansehen"
+          },
+          "technische": {
+            "title": "Technische Unterlagen",
+            "description": "Weitere Projekt- und Planungsunterlagen.",
+            "linkLabel": "Unterlagen öffnen"
+          }
+        }
+      },
+      "planung": {
+        "label": "Planung & Ausschreibung",
+        "headline": "Planen und ausschreiben",
+        "intro": "Anlagenkonfigurator, Ausschreibungstexte und Ersatzteile.",
+        "items": {
+          "planen": {
+            "title": "Planen & Ausschreibung",
+            "description": "Anlagenkonfigurator, Ausschreibungstexte und Planungshilfen.",
+            "linkLabel": "Zum Planungsbereich"
+          },
+          "ersatzteile": {
+            "title": "Ersatzteile",
+            "description": "Ersatzteile, Beschriftungen und Freischaltcodes online bestellen.",
+            "linkLabel": "Ersatzteile öffnen"
+          }
+        }
+      },
+      "support": {
+        "label": "Support & Wissen",
+        "headline": "Support und Wissen",
+        "intro": "Direkter Draht zum Service und strukturierte Antworten.",
+        "items": {
+          "support": {
+            "title": "Technischer Support",
+            "description": "Hotline und Schaltplan-Datenbank tcsplan.de.",
+            "linkLabel": "Zum Support"
+          },
+          "faq": {
+            "title": "FAQ",
+            "description": "Häufige Fragen zu Produkten, Installation und Inbetriebnahme.",
+            "linkLabel": "FAQ öffnen"
+          },
+          "glossar": {
+            "title": "Glossar",
+            "description": "Begriffe und Abkürzungen aus Türkommunikation und Zutrittskontrolle.",
+            "linkLabel": "Glossar ansehen"
+          }
+        }
+      },
+      "akademie": {
+        "label": "Akademie & Serviceportal",
+        "headline": "Schulung und Serviceportal",
+        "intro": "Schulungsangebote und der geschützte Bereich für Servicepartner.",
+        "items": {
+          "akademie": {
+            "title": "Akademie",
+            "description": "Schulungen und Webinare zu TCS-Produkten und Anwendungen.",
+            "linkLabel": "Zur Akademie"
+          },
+          "serviceportal": {
+            "title": "Serviceportal",
+            "description": "Geschützter Bereich für registrierte Servicepartner.",
+            "linkLabel": "Zum Serviceportal"
+          }
+        }
+      }
+    }
+  },
+  "katalog": {
+    "hero": {
+      "label": "Service",
+      "headline": "Online-Produktkatalog",
+      "intro": "Strukturierter Zugriff auf im BMEcat gepflegte TCS-Produkte, Produktdaten und Datenblätter für Handwerk und Handel."
+    },
+    "access": {
+      "label": "Produktzugang",
+      "headline": "Produkte finden",
+      "intro": "Katalog, Produktfinder, Serien und Stammdaten für die direkte Produktauswahl.",
+      "items": {
+        "katalog": {
+          "title": "Online-Produktkatalog",
+          "description": "Strukturierter Zugriff auf im BMEcat gepflegte TCS-Produkte mit technischen Details.",
+          "linkLabel": "In Vorbereitung"
+        },
+        "finder": {
+          "title": "Produktfinder",
+          "description": "Geführte Auswahl nach Anwendungsfall und technischen Anforderungen.",
+          "linkLabel": "In Vorbereitung"
+        },
+        "serien": {
+          "title": "Serien",
+          "description": "Übersicht der TCS-Produktserien für Außen- und Innenstationen.",
+          "linkLabel": "In Vorbereitung"
+        },
+        "stammdaten": {
+          "title": "Produktdaten & BMEcat",
+          "description": "Produktstammdaten und BMEcat-Paket für Großhandel und ERP-Anbindung.",
+          "linkLabel": "In Vorbereitung"
+        }
+      }
+    },
+    "hinweis": {
+      "label": "Hinweis",
+      "headline": "Katalog wird angebunden",
+      "text": "Der eigentliche Online-Katalog wird in einer späteren Etappe als eigener Zugang angeschlossen. Diese Seite bündelt bereits jetzt die Einstiegspunkte für den Produktzugang und bleibt der zentrale Direktlink aus der Service-Navigation."
+    },
+    "mvp": {
+      "label": "Katalog-Testlauf",
+      "headline": "Produkte aus der TCS-Datenbank",
+      "intro": "Erste technische Stufe der Katalog-Anbindung. Die Daten werden read-only aus der zentralen TCS-Produktdatenbank geladen.",
+      "status": {
+        "loading": "Produkte werden geladen …",
+        "error": "Produkte konnten nicht geladen werden.",
+        "count": "{{count}} Produkte geladen",
+        "contextOk": "Katalog-Kontext erfolgreich initialisiert"
+      },
+      "errorBox": {
+        "headline": "Fehler beim Laden",
+        "text": "Die Verbindung zur Produktdatenbank ist fehlgeschlagen oder die Konfiguration fehlt."
+      },
+      "empty": {
+        "headline": "Keine Produkte gefunden",
+        "text": "Die Produktliste ist aktuell leer oder noch nicht freigegeben."
+      },
+      "card": {
+        "artikelNr": "Artikel-Nr."
+      }
+    },
+    "target": {
+      "headline": "Produktkatalog",
+      "subline": {
+        "loading": "Produkte werden geladen …",
+        "count": "{{count}} Artikel – wählen Sie eine Kategorie oder durchsuchen Sie den Katalog",
+        "count_one": "{{count}} Artikel – wählen Sie eine Kategorie oder durchsuchen Sie den Katalog"
+      },
+      "search": {
+        "placeholder": "Artikel-Nr., Bezeichnung oder Beschreibung suchen …",
+        "aria": "Produkte durchsuchen",
+        "clear": "Suche zurücksetzen"
+      },
+      "chips": {
+        "all": "Alle"
+      },
+      "results": {
+        "count": "{{shown}} von {{total}} Produkten",
+        "count_one": "{{shown}} von {{total}} Produkten"
+      },
+      "sort": {
+        "label": "Sortieren:",
+        "options": {
+          "default": "Standard",
+          "artikel_nr_asc": "Artikel-Nr. aufsteigend",
+          "price_asc": "Preis aufsteigend",
+          "price_desc": "Preis absteigend"
+        }
+      },
+      "start": {
+        "headline": "Womit möchten Sie starten?",
+        "text": "Wählen Sie eine Kategorie, setzen Sie einen Filter oder suchen Sie nach Artikelnummer oder Produktname."
+      },
+      "selection": {
+        "reset": "Auswahl zurücksetzen"
+      }
+    },
+    "filters": {
+      "groups": {
+        "system_typ": {
+          "label": "System",
+          "all": "Alle"
+        },
+        "montageart": {
+          "label": "Montage",
+          "all": "Alle"
+        },
+        "wohneinheiten": {
+          "label": "WE",
+          "all": "Alle"
+        },
+        "ip_gateway": {
+          "label": "IP",
+          "all": "Alle",
+          "yes": "Ja",
+          "no": "Nein"
+        }
+      }
+    },
+    "v2": {
+      "status": {
+        "presetUsed": "Spaltenmodell aus Preset „{{preset}}“",
+        "fallbackActive": "Reduzierte Anzeige – Spaltenmodell nicht auflösbar"
+      },
+      "filters": {
+        "headline": "Filter",
+        "reset": "Filter zurücksetzen",
+        "allOption": "Alle"
+      },
+      "fallback": {
+        "text": "Das Preset „{{preset}}“ wurde in der Datenbank nicht gefunden. Bis es eingerichtet ist, werden die Produkte in einer reduzierten Standardansicht ohne Detailspalten angezeigt.",
+        "columnsMissing": "Das Preset „{{preset}}“ wurde gefunden, hat aber keine zugeordneten Spalten in „column_preset_columns“. Die Produkte werden bis zur Pflege der Zuordnung in einer reduzierten Standardansicht angezeigt."
+      },
+      "card": {
+        "yes": "Ja",
+        "imageAvailable": "Bild vorhanden",
+        "imageAvailableCount": "{{count}} Bild vorhanden",
+        "imageAvailableCount_other": "{{count}} Bilder vorhanden",
+        "openDetails": "Details ansehen",
+        "openDetailsAria": "Details zu „{{title}}“ ansehen",
+        "fieldLabels": {
+          "system_typ": "Systemtyp",
+          "paket_klasse": "Paketklasse",
+          "montageart": "Montageart",
+          "wohneinheiten": "Wohneinheiten",
+          "ip_gateway": "IP-Gateway"
+        }
+      }
+    },
+    "pdp": {
+      "hero": {
+        "label": "Produktdetail",
+        "fallbackHeadline": "Produktdetailseite",
+        "fallbackIntro": "Produktinformationen aus der TCS-Datenbank."
+      },
+      "back": "Zurück zum Katalog",
+      "sections": {
+        "details": "Produktdetails",
+        "features": "Leistungsmerkmale",
+        "specs": "Technische Daten",
+        "info": "Produktinformationen",
+        "documents": "Dokumente und Anleitungen",
+        "ausschreibung": "Ausschreibungstext",
+        "paketKomponenten": "Paket-Komponenten",
+        "lieferumfang": "Lieferumfang",
+        "produktinformationen": "Produktinformationen",
+        "technischeDatenFeatures": "Technische Merkmale"
+      },
+      "summary": {
+        "deliveryTime": "Lieferzeit",
+        "warranty": "Garantie",
+        "warrantyValue": "{{count}} Monate"
+      },
+      "info": {
+        "cols": {
+          "description": "Bezeichnung",
+          "artikelNr": "Art.-Nr.",
+          "price": "Preis/Stk."
+        }
+      },
+      "inquiry": {
+        "label": "Produkt anfragen"
+      },
+      "empty": {
+        "images": "Für dieses Produkt sind aktuell keine Bilder hinterlegt.",
+        "documents": "Für dieses Produkt sind aktuell keine Dokumente hinterlegt."
+      },
+      "notFound": {
+        "headline": "Produkt nicht gefunden",
+        "text": "Dieses Produkt konnte in der Katalog-Auslieferungsschicht nicht eindeutig geladen werden.",
+        "devHeadline": "Dev-Diagnose Slug-Auflösung"
+      },
+      "errorBox": {
+        "headline": "Fehler beim Laden der Produktdetailseite",
+        "text": "Die Verbindung zur Produktdatenbank ist fehlgeschlagen oder die Konfiguration fehlt."
+      },
+      "paket": {
+        "cols": {
+          "anzahl": "Anzahl",
+          "rolle": "Rolle",
+          "title": "Bezeichnung",
+          "artikelNr": "Art.-Nr."
+        }
+      }
+    },
+    "diagnostics": {
+      "headline": "Datenbank-Diagnose",
+      "states": {
+        "notConfigured": "Supabase nicht konfiguriert",
+        "wrongProject": "Supabase verbunden, aber falsches Projekt",
+        "rpcUnavailable": "Katalog-Kontext-RPC nicht erreichbar",
+        "viewUnreachable": "Datenbank-View nicht erreichbar",
+        "emptyOrBlocked": "Datenbank erreichbar, aber Produktliste leer oder nicht freigegeben",
+        "presetMissing": "Preset „{{preset}}“ in der Datenbank nicht gefunden",
+        "presetColumnsMissing": "Preset „{{preset}}“ gefunden, aber keine Spaltenzuordnung",
+        "ok": "Katalog-Kontext erfolgreich initialisiert"
+      },
+      "labels": {
+        "supabaseConfigured": "Supabase konfiguriert",
+        "urlPresent": "Supabase-URL gesetzt",
+        "projectMatch": "Projekt entspricht „{{expected}}“",
+        "rpc": "RPC rpc_get_catalog_context()",
+        "productCatalogView": "View product_catalog_view",
+        "productCatalogViewRows": "product_catalog_view enthält Zeilen",
+        "columnPresets": "Tabelle column_presets",
+        "columnPresetsCount": "Geladene Presets",
+        "productColumnDefinitions": "Tabelle product_column_definitions",
+        "productFilterOptionsView": "View product_filter_options_view",
+        "publicCatalogPreset": "Preset „{{preset}}“ gefunden"
+      },
+      "values": {
+        "yes": "Ja",
+        "no": "Nein",
+        "skipped": "übersprungen",
+        "unknown": "unbekannt"
+      }
+    }
+  },
+  "seiten": {
+    "planenKonfigurieren": {
+      "hero": {
+        "label": "Services und Wissen",
+        "headline": "Planen & Konfigurieren",
+        "intro": "Von der ersten Idee bis zur Inbetriebnahme – TCS unterstützt jede Projektphase mit Tools, Daten und Beratung. Konfiguratoren und Shops bieten direkten Zugang zu Produkten, Paketen und Services.",
+        "imageAlt": "Planung und Konfiguration von TCS-Systemen"
+      },
+      "anlagenplaner": {
+        "label": "Digitales Werkzeug",
+        "headline": "Anlagenplaner",
+        "intro": "Türkommunikation strukturiert planen – inklusive Exporten und Projektlogik.",
+        "features": {
+          "gaeb": "GAEB-Unterstützung",
+          "stueckliste": "Stücklisten-Logik",
+          "export": "Projektexport",
+          "sprache": "Mehrsprachige Oberfläche"
+        },
+        "cta": "Anlagenplaner öffnen"
+      },
+      "hoai": {
+        "label": "HOAI-Phasen",
+        "headline": "Planungsunterstützung entlang der Projektphasen",
+        "phasen": {
+          "p12": {
+            "phase": "1–2",
+            "title": "Grundlagenermittlung & Vorplanung",
+            "text": "Bedarf klären, Referenzen prüfen, Lösungsrahmen definieren.",
+            "tools": {
+              "referenzprojekte": "Referenzprojekte",
+              "produktkonfigurator": "Produktkonfigurator",
+              "entryBeratung": "ENTRY-Beratung"
+            }
+          },
+          "p35": {
+            "phase": "3–5",
+            "title": "Entwurfs- & Genehmigungsplanung",
+            "text": "Systeme auswählen, Topologie und Integrationen festlegen.",
+            "tools": {
+              "ausschreibungstexte": "Ausschreibungstexte",
+              "tcsplan": "tcsplan",
+              "cadBim": "CAD/BIM-Daten"
+            }
+          },
+          "p67": {
+            "phase": "6–7",
+            "title": "Ausführungsplanung & Vorbereitung",
+            "text": "Montage absichern, Schaltpläne und technische Dokumentation.",
+            "tools": {
+              "montageanleitungen": "Montageanleitungen",
+              "schaltplaene": "Schaltpläne",
+              "installationstechniken": "Installationstechniken"
+            }
+          },
+          "p8": {
+            "phase": "8",
+            "title": "Inbetriebnahme & Übergabe",
+            "text": "Konfiguration abschließen, Firmware und betriebliche Übergabe.",
+            "tools": {
+              "firmware": "Firmware",
+              "konfigurationssoftware": "Konfigurationssoftware",
+              "uebergabeprotokolle": "Übergabeprotokolle"
+            }
+          }
+        }
+      },
+      "planungsdaten": {
+        "label": "CAD/BIM",
+        "headline": "Planungsdaten",
+        "items": {
+          "dwg": {
+            "title": "DWG-Daten",
+            "text": "Grundrisse und Installationsskizzen."
+          },
+          "bim": {
+            "title": "BIM-Objekte",
+            "text": "Modelldaten für die digitale Planung."
+          },
+          "gaeb": {
+            "title": "GAEB-Dateien",
+            "text": "Leistungsdaten für Ausschreibungen."
+          },
+          "datenblatt": {
+            "title": "PDF-Datenblätter",
+            "text": "Technischer Schnellüberblick."
+          },
+          "topologie": {
+            "title": "Topologie-Vorlagen",
+            "text": "Systemarchitektur und Verdrahtung."
+          },
+          "leitfaden": {
+            "title": "Planungsleitfaden",
+            "text": "Empfehlungen für die Gestaltung."
+          }
+        }
+      },
+      "konfiguratoren": {
+        "label": "Konfiguratoren",
+        "headline": "Auswahl- und Zusammenstellungstools",
+        "intro": "Konfigurieren Sie Ihre TCS-Lösung passgenau – von vorkonfigurierten Paketen bis zur individuellen Systemzusammenstellung.",
+        "openLabel": "Öffnen",
+        "items": {
+          "paket": {
+            "title": "Paketkonfigurator",
+            "text": "Vorkonfigurierte Sets nach Projektanforderungen."
+          },
+          "produkt": {
+            "title": "Produktkonfigurator",
+            "text": "Individuelle Systeme flexibel zusammenstellen."
+          },
+          "ktu": {
+            "title": "KTU-Konfigurator",
+            "text": "Konfiguration für Türkommunikationssysteme."
+          },
+          "entry": {
+            "title": "ENTRY-Konfigurator",
+            "text": "ENTRY-Lösungen für Architekturprojekte."
+          },
+          "beschriftung": {
+            "title": "Beschriftungstool",
+            "text": "Namensschilder digital erstellen."
+          },
+          "einstein": {
+            "title": "Einstein-Modul",
+            "text": "Assistiertes Planungsmodul."
+          }
+        }
+      },
+      "shops": {
+        "label": "Shops",
+        "headline": "Direkter Bestell- und Servicezugang",
+        "intro": "Ersatzteile, Spezialprodukte und Beschilderung direkt online bestellen.",
+        "openLabel": "Zum Shop",
+        "items": {
+          "tcs24": {
+            "title": "TCS24",
+            "text": "Ersatzteile und Serviceprodukte."
+          },
+          "mobile": {
+            "title": "Mobile Lösungen",
+            "text": "Produkte für mobile Türkommunikation."
+          },
+          "signage": {
+            "title": "SIGNAGE Store",
+            "text": "Schilder, Piktogramme und Beschriftungen."
+          },
+          "versteckdose": {
+            "title": "Die Versteckdose®",
+            "text": "Spezialprodukte rund um den Eingang."
+          }
+        }
+      },
+      "bestellwege": {
+        "label": "Bestellwege",
+        "headline": "So kommen Sie zur passenden Bestellung",
+        "items": {
+          "fachhandel": {
+            "title": "Über den Fachhandel",
+            "text": "Empfohlener Weg für die meisten Projekte.",
+            "badge": "Empfohlen"
+          },
+          "online": {
+            "title": "Online direkt",
+            "text": "Direktbestellung über angebundene Shops."
+          },
+          "beratung": {
+            "title": "Mit Beratung",
+            "text": "Individuelle Projektberatung durch TCS-Experten."
+          }
+        }
+      },
+      "ausschreibung": {
+        "label": "GAEB & Ausschreibung",
+        "headline": "Ausschreibungstexte",
+        "intro": "Texte und Strukturen für eine saubere Ausschreibung – pro Produkt oder als kompletter GAEB-Export.",
+        "items": {
+          "proProdukt": {
+            "title": "Pro Produkt",
+            "text": "Texte direkt im Produktkontext."
+          },
+          "komplettexport": {
+            "title": "Komplettexport",
+            "text": "Vollständige GAEB-Pakete zum Download."
+          }
+        }
+      },
+      "cta": {
+        "headline": "Planungsberatung anfragen",
+        "text": "Unser Team unterstützt Sie bei Auswahl und Gestaltung Ihres Projekts.",
+        "button": "Beratung anfragen"
+      }
+    },
+    "downloads": {
+      "hero": {
+        "label": "Service",
+        "headline": "Service & Downloads",
+        "intro": "Downloads, FAQ, Kundendienst und Bestellungen – alles an einem Ort."
+      },
+      "quickLinks": {
+        "downloads": {
+          "label": "Downloads",
+          "desc": "Handbücher, Datenblätter und Software."
+        },
+        "faq": {
+          "label": "FAQ",
+          "desc": "Schnelle Antworten auf häufige Fragen."
+        },
+        "ersatzteile": {
+          "label": "Ersatzteile",
+          "desc": "Direkt zum TCS24 Ersatzteil-Shop."
+        },
+        "support": {
+          "label": "Support",
+          "desc": "Kontakt zum Service-Team."
+        }
+      },
+      "dokumente": {
+        "headline": "Dokumente",
+        "intro": "Schneller Zugriff auf wichtige Unterlagen.",
+        "categories": {
+          "handbuecher": "Handbücher",
+          "datenblaetter": "Datenblätter",
+          "ausschreibungstexte": "Ausschreibungstexte",
+          "software": "Software & Firmware",
+          "schaltplaene": "Schaltpläne"
+        }
+      },
+      "faq": {
+        "headline": "Häufig gestellte Fragen",
+        "intro": "Antworten, Tipps und direkte Links.",
+        "categories": {
+          "alle": "Alle",
+          "allgemein": "Allgemein",
+          "produkte": "Produkte & Serien",
+          "installation": "Installation & Verdrahtung",
+          "video": "Video & 2-Draht",
+          "zutritt": "Zutrittskontrolle / BCM",
+          "snipdoo": "snipdoo & Cloud",
+          "service": "Service & Bestellungen"
+        },
+        "items": {
+          "i01": {
+            "category": "allgemein",
+            "q": "Was macht TCS Türsprechanlagen besonders?",
+            "a": "TCS bietet modulare, langlebige Systeme für alle Gebäudetypen – vom Einfamilienhaus bis zum Großobjekt. Alle Produkte werden in Deutschland gefertigt und zeichnen sich durch hohe Qualität und einfache Installation aus."
+          },
+          "i02": {
+            "category": "allgemein",
+            "q": "Für welche Gebäudetypen sind TCS-Anlagen geeignet?",
+            "a": "TCS-Anlagen eignen sich für Einfamilienhäuser, Mehrfamilienhäuser, Gewerbegebäude, öffentliche Einrichtungen und Großobjekte."
+          },
+          "i03": {
+            "category": "allgemein",
+            "q": "Sind die Systeme für ältere Menschen geeignet?",
+            "a": "Ja, TCS-Systeme bieten intuitive Bedienung, große Displays und optional barrierefreie Funktionen."
+          },
+          "i04": {
+            "category": "allgemein",
+            "q": "Sind die Systeme für Renovierungen / Bestandsbauten geeignet?",
+            "a": "Ja, besonders die 2-Draht-Systeme eignen sich hervorragend für den Einsatz in Bestandsgebäuden."
+          },
+          "i05": {
+            "category": "allgemein",
+            "q": "Was bedeutet „Plug and Play\" bei TCS-Produkten?",
+            "a": "Vorkonfigurierte Systeme, die ohne aufwändige Programmierung sofort einsatzbereit sind."
+          },
+          "i06": {
+            "category": "allgemein",
+            "q": "Welche Garantie bietet TCS?",
+            "a": "TCS gewährt eine umfassende Herstellergarantie auf alle Produkte. Details erfahren Sie über die Garantieprüfung."
+          },
+          "i07": {
+            "category": "produkte",
+            "q": "Was ist der Unterschied zwischen Senso Pro und Tasta Pro?",
+            "a": "Senso Pro verfügt über kapazitive Touch-Tasten, Tasta Pro über mechanische Klingeltaster. Beide Serien bieten Audio- und Video-Varianten."
+          },
+          "i08": {
+            "category": "produkte",
+            "q": "Was ist ein Smart Stick?",
+            "a": "Ein kompaktes DECT-Modul, das die Türkommunikation über vorhandene DECT-Telefone ermöglicht."
+          },
+          "i09": {
+            "category": "produkte",
+            "q": "Gibt es eine App für die Türkommunikation?",
+            "a": "Ja, mit snipdoo können Türrufe auf das Smartphone weitergeleitet und die Tür per App geöffnet werden."
+          },
+          "i10": {
+            "category": "installation",
+            "q": "Welche Türöffnertypen eignen sich für das TCS:BUS-System?",
+            "a": "Standard-Türöffner mit 12V AC/DC oder elektrische Verriegelungen können direkt angesteuert werden."
+          },
+          "i11": {
+            "category": "installation",
+            "q": "In welcher Höhe sollten Video-Stationen montiert werden?",
+            "a": "Die empfohlene Montagehöhe für Video-Außenstationen beträgt ca. 1,50 m (Kameramitte)."
+          },
+          "i12": {
+            "category": "installation",
+            "q": "Wie viele Stationen können an ein TCS:BUS-System angeschlossen werden?",
+            "a": "Je nach Steuergerät können bis zu 200+ Teilnehmer angeschlossen werden."
+          },
+          "i13": {
+            "category": "installation",
+            "q": "Welche Kabellängen sind beim TCS:BUS zulässig?",
+            "a": "Abhängig vom Kabelquerschnitt sind Leitungslängen bis zu mehreren hundert Metern möglich."
+          },
+          "i14": {
+            "category": "installation",
+            "q": "Sind TCS:BUS-Geräte verpolungssicher?",
+            "a": "Ja, alle TCS:BUS-Geräte sind verpolungssicher und damit besonders installationsfreundlich."
+          },
+          "i15": {
+            "category": "video",
+            "q": "Kann Video in bestehenden Anlagen nachgerüstet werden?",
+            "a": "Ja, mit der Video-2-Draht-Technologie (V2D) kann Video über bestehende 2-Draht-Leitungen nachgerüstet werden."
+          },
+          "i16": {
+            "category": "video",
+            "q": "Was ist Video 2-Draht (V2D)?",
+            "a": "Eine Technologie, die Videoübertragung über nur zwei Adern ermöglicht – ideal für Nachrüstungen."
+          },
+          "i17": {
+            "category": "zutritt",
+            "q": "Bietet TCS Zutrittskontrollsysteme an?",
+            "a": "Ja, das BCM-System bietet umfassende digitale Zutrittskontrolle mit Transpondern, PIN-Codes und Smartphone-Zugang."
+          },
+          "i18": {
+            "category": "zutritt",
+            "q": "Welche Zugangsmedien werden unterstützt?",
+            "a": "Transponder-Karten, Schlüsselanhänger, PIN-Code, Fingerabdruck und Smartphone (BLE/NFC)."
+          },
+          "i19": {
+            "category": "snipdoo",
+            "q": "Was ist snipdoo?",
+            "a": "snipdoo ist die Cloud-basierte Lösung von TCS für die Türkommunikation per Smartphone – mit Video, Türöffnung und Push-Benachrichtigungen."
+          },
+          "i20": {
+            "category": "snipdoo",
+            "q": "Kann snipdoo in bestehende Anlagen nachgerüstet werden?",
+            "a": "Ja, snipdoo kann über ein Gateway einfach in bestehende TCS-Anlagen integriert werden."
+          },
+          "i21": {
+            "category": "service",
+            "q": "Wo finde ich Ersatzteile?",
+            "a": "Ersatzteile sind über den TCS24 Online-Shop erhältlich."
+          },
+          "i22": {
+            "category": "service",
+            "q": "Wie kann ich eine Garantieanfrage stellen?",
+            "a": "Über das RMA-Formular oder die Online-Garantieprüfung auf garantie.tcsapps.de."
+          },
+          "i23": {
+            "category": "service",
+            "q": "Gibt es technischen Support?",
+            "a": "Ja, unser technischer Support ist telefonisch und per E-Mail erreichbar."
+          }
+        }
+      },
+      "rma": {
+        "headline": "Reparatur & Rücksendung",
+        "intro": "Defekte strukturiert melden und Garantiestatus prüfen.",
+        "items": {
+          "rma": {
+            "title": "RMA-Formular öffnen",
+            "text": "Rücksendung strukturiert über das RMA-Formular einleiten."
+          },
+          "garantie": {
+            "title": "Garantie prüfen",
+            "text": "Garantiestatus online prüfen.",
+            "button": "Zur Garantieprüfung"
+          },
+          "support": {
+            "title": "Direkter Support",
+            "text": "Kontaktieren Sie unser Team bei Fragen.",
+            "button": "Zum Kontakt"
+          }
+        }
+      },
+      "bestellung": {
+        "headline": "Bestellung",
+        "items": {
+          "ersatzteile": {
+            "label": "Ersatzteile",
+            "desc": "Komponenten über TCS24 beschaffen."
+          },
+          "beschriftung": {
+            "label": "Beschriftung",
+            "desc": "Namensschilder und Beschriftungsservice."
+          },
+          "freischaltcodes": {
+            "label": "Freischaltcodes",
+            "desc": "Lizenzen und Aktivierungscodes."
+          }
+        }
+      },
+      "akademie": {
+        "headline": "Schulung & Wissen",
+        "intro": "Weiterbildung für Planung, Installation und Service.",
+        "items": {
+          "produktschulungen": {
+            "label": "Produktschulungen",
+            "desc": "Praxisnahe Schulungen an den Systemen."
+          },
+          "webinare": {
+            "label": "Webinare",
+            "desc": "Digitale Lernformate on demand."
+          },
+          "zertifizierung": {
+            "label": "Zertifizierung",
+            "desc": "Kompetenznachweis für Fachpartner."
+          },
+          "vorOrt": {
+            "label": "Vor-Ort-Schulungen",
+            "desc": "Individuelle Schulungen im Team."
+          },
+          "partner": {
+            "label": "Partnerprogramme",
+            "desc": "Mehrwertprogramme für Fachbetriebe."
+          }
+        }
+      },
+      "glossar": {
+        "headline": "Begriffe & Abkürzungen",
+        "intro": "Kurz erklärt – von A bis Z.",
+        "groups": {
+          "A": {
+            "letter": "A",
+            "items": {
+              "automatischeWahl": {
+                "term": "Automatische Wahl",
+                "def": "Automatische Verbindung zu einer vordefinierten Station beim Abheben des Hörers."
+              },
+              "aktoren": {
+                "term": "Aktoren",
+                "def": "Komponenten, die elektrische Signale in mechanische Aktionen umsetzen – z. B. Türöffner oder Relais."
+              },
+              "automatischeTueroeffnung": {
+                "term": "Automatische Türöffnung",
+                "def": "Automatisches Öffnen der Tür nach Annahme eines Rufs ohne zusätzlichen Tastendruck."
+              }
+            }
+          },
+          "B": {
+            "letter": "B",
+            "items": {
+              "bussystem": {
+                "term": "Bussystem",
+                "def": "Gemeinsame Kommunikationsleitung, die alle Geräte einer Sprechanlage verbindet (z. B. TCS:BUS)."
+              },
+              "busspannung": {
+                "term": "Busspannung",
+                "def": "Betriebsspannung auf der Busleitung, typisch ca. 24 VDC bei TCS-Systemen."
+              }
+            }
+          },
+          "D": {
+            "letter": "D",
+            "items": {
+              "datenprotokoll": {
+                "term": "Datenprotokoll",
+                "def": "Definierte Kommunikationsregeln für den Datenaustausch zwischen Bus-Teilnehmern."
+              },
+              "dinSchiene": {
+                "term": "DIN-Schiene",
+                "def": "Standardisierte Montageschiene für Netzteile, Steuergeräte und Module in Verteilerkästen."
+              },
+              "tuerruf": {
+                "term": "Türruf",
+                "def": "Signalübertragung vom Klingeltaster an der Außenstation zur Innenstation."
+              }
+            }
+          },
+          "F": {
+            "letter": "F",
+            "items": {
+              "etagenruf": {
+                "term": "Etagenruf",
+                "def": "Ruf von einer Etagentür (nicht Haupteingang) zur Innenstation."
+              },
+              "vollduplex": {
+                "term": "Vollduplex",
+                "def": "Gleichzeitiges Sprechen und Hören – wie bei einem normalen Telefongespräch."
+              }
+            }
+          },
+          "S": {
+            "letter": "S",
+            "items": {
+              "schaltplan": {
+                "term": "Schaltplan",
+                "def": "Technische Zeichnung der elektrischen Verdrahtung einer Türsprechanlage."
+              },
+              "seriennummer": {
+                "term": "Seriennummer",
+                "def": "Eindeutige Identifikationsnummer jedes TCS-Geräts für Service und Garantie."
+              },
+              "kurzschlussschutz": {
+                "term": "Kurzschlussschutz",
+                "def": "Eigenschaft eines Geräts, bei Kurzschluss unbeschädigt zu bleiben."
+              }
+            }
+          },
+          "T": {
+            "letter": "T",
+            "items": {
+              "transformator": {
+                "term": "Transformator",
+                "def": "Netzteil zur Umwandlung der Netzspannung in die Betriebsspannung des Systems."
+              }
+            }
+          },
+          "W": {
+            "letter": "W",
+            "items": {
+              "verdrahtungsplan": {
+                "term": "Verdrahtungsplan",
+                "def": "Vereinfachte schematische Darstellung der Systemverdrahtung."
+              },
+              "winClip": {
+                "term": "win:clip-System",
+                "def": "TCS-eigenes modulares Clippsystem zur werkzeuglosen Montage von Innenstationen."
+              }
+            }
+          }
+        }
+      },
+      "ansprechpartner": {
+        "lead": "Nicht das Richtige gefunden?",
+        "name": "Tobias Schöneberg · Leiter Technischer Vertrieb · Beratung · Schulung",
+        "experience": "Über 15 Jahre Erfahrung in Gebäudekommunikation & Systemtechnik",
+        "button": "Kontakt aufnehmen"
+      }
+    },
+    "technischerSupport": {
+      "hero": {
+        "label": "Service",
+        "headline": "Technischer Support",
+        "intro": "Schnelle Hilfe bei Installation, Konfiguration und Betrieb Ihrer TCS-Systeme."
+      },
+      "channels": {
+        "headline": "So erreichen Sie uns",
+        "items": {
+          "telefon": {
+            "label": "Telefon-Hotline",
+            "desc": "Direkte technische Hilfe durch unser Expertenteam.",
+            "detail": "Mo–Fr, 8:00–17:00 Uhr"
+          },
+          "email": {
+            "label": "E-Mail-Support",
+            "desc": "Schreiben Sie uns Ihr Anliegen – wir melden uns zeitnah.",
+            "detail": "support@tcsag.de"
+          },
+          "tcsplan": {
+            "label": "Schaltplan-Datenbank",
+            "desc": "Über 1.000 Schaltpläne auf tcsplan.de für Ihre Projektierung.",
+            "detail": "tcsplan.de"
+          },
+          "downloads": {
+            "label": "Downloads",
+            "desc": "Handbücher, Datenblätter, Firmware und Software."
+          }
+        }
+      },
+      "faq": {
+        "headline": "Häufige technische Fragen",
+        "intro": "Antworten zu Installation, Verdrahtung und Konfiguration.",
+        "items": {
+          "i01": {
+            "q": "Die Anlage pfeift – was ist zu prüfen?",
+            "a": "Prüfen Sie die Leitungslängen, den Abstand zwischen Außen- und Innenstation sowie die Lautstärkeeinstellung. Ein zu geringer Abstand oder falsche Verdrahtung kann Rückkopplungen verursachen."
+          },
+          "i02": {
+            "q": "Welche Spannungen können am Steuergerät BVS20 gemessen werden?",
+            "a": "Am BVS20 liegt die Busspannung von ca. 24 VDC an. Bei aktiver Kommunikation sind Signalspannungen auf der Busleitung messbar."
+          },
+          "i03": {
+            "q": "Sind TCS:BUS-Geräte verpolungssicher?",
+            "a": "Ja, alle TCS:BUS-Geräte sind verpolungssicher und damit besonders installationsfreundlich."
+          },
+          "i04": {
+            "q": "Welche Kabellängen sind beim TCS:BUS zulässig?",
+            "a": "Abhängig vom Kabelquerschnitt sind Leitungslängen bis zu mehreren hundert Metern möglich. Details finden Sie in den jeweiligen Datenblättern."
+          },
+          "i05": {
+            "q": "Was ist Configo?",
+            "a": "Configo ist die Programmier- und Konfigurationssoftware für TCS-Systeme. Sie ermöglicht die komfortable Einrichtung und Anpassung aller Systemparameter."
+          },
+          "i06": {
+            "q": "Was kann das TCS-Servicegerät?",
+            "a": "Das Servicegerät dient zur Diagnose, Programmierung und Fehlersuche an TCS:BUS-Anlagen direkt vor Ort."
+          },
+          "i07": {
+            "q": "Wie richtet man eine Rufumleitung ein?",
+            "a": "Die Rufumleitung wird über die Innenstation oder die snipdoo-App konfiguriert. Türrufe können an Smartphones oder andere Stationen weitergeleitet werden."
+          },
+          "i08": {
+            "q": "Kann Video in bestehende Anlagen nachgerüstet werden?",
+            "a": "Ja, mit der Video-2-Draht-Technologie (V2D) kann Video über bestehende 2-Draht-Leitungen nachgerüstet werden."
+          },
+          "i09": {
+            "q": "Wie kann ich mein Servicegerät freischalten lassen?",
+            "a": "Die Freischaltung erfolgt über den TCS-Kundenservice. Kontaktieren Sie uns mit der Seriennummer Ihres Geräts."
+          },
+          "i10": {
+            "q": "Wie kann ich die Configo (FBI) Software freischalten lassen?",
+            "a": "Senden Sie eine Anfrage mit Ihrer Kundennummer und der Hardware-ID an den TCS-Support."
+          }
+        }
+      },
+      "rma": {
+        "headline": "Reparatur & Rücksendung",
+        "intro": "Defekte strukturiert melden und Garantiestatus prüfen.",
+        "items": {
+          "rma": {
+            "title": "RMA-Formular",
+            "text": "Rücksendung strukturiert über das RMA-Formular einleiten."
+          },
+          "garantie": {
+            "title": "Garantie prüfen",
+            "text": "Garantiestatus online prüfen.",
+            "button": "Zur Garantieprüfung"
+          },
+          "support": {
+            "title": "Direkter Support",
+            "text": "Kontaktieren Sie unser Team.",
+            "button": "Zum Kontakt"
+          }
+        }
+      },
+      "ersatzteile": {
+        "headline": "Ersatzteile & Bestellung",
+        "items": {
+          "ersatzteile": {
+            "title": "Ersatzteile",
+            "text": "Komponenten direkt über TCS24 beschaffen.",
+            "button": "Zum TCS24-Shop"
+          },
+          "beschriftung": {
+            "title": "Beschriftung",
+            "text": "Namensschilder und Beschriftungsservice für Ihre Anlage."
+          },
+          "freischaltcodes": {
+            "title": "Freischaltcodes",
+            "text": "Lizenzen und Aktivierungscodes für Software und Servicegeräte."
+          }
+        }
+      },
+      "ansprechpartner": {
+        "headline": "Ihr Ansprechpartner",
+        "name": "Tobias Schöneberg · Leiter Technischer Vertrieb · Beratung · Schulung",
+        "experience": "Über 15 Jahre Erfahrung in Gebäudekommunikation & Systemtechnik",
+        "button": "Kontakt aufnehmen"
+      }
+    },
+    "ersatzteile": {
+      "hero": {
+        "label": "Ersatzteile, Beschriftung und Freischaltcodes",
+        "headline": "Alles für Ihre TCS-Anlage – direkt online bestellen",
+        "intro": "Ob Ersatzkomponenten, individuelle Beschriftungen oder Software-Freischaltcodes: Im TCS24-Onlineshop finden Sie alles, was Sie für Betrieb, Pflege und Erweiterung Ihrer TCS-Systeme benötigen."
+      },
+      "ersatzteile": {
+        "headline": "Ersatzteile",
+        "intro": "Einzelkomponenten und Original-Ersatzteile für alle TCS-Systeme – schnell verfügbar und garantiert passend.",
+        "items": {
+          "netzteile": {
+            "title": "Netzteile & Steuergeräte",
+            "desc": "Stromversorgungen, BVS-Steuergeräte und Hutschienen-Komponenten"
+          },
+          "kamera": {
+            "title": "Kamera- & Videomodule",
+            "desc": "Ersatzkameras, Kameramodule und Videoverteiler"
+          },
+          "audio": {
+            "title": "Lautsprecher & Mikrofone",
+            "desc": "Audio-Komponenten für Innen- und Außenstationen"
+          },
+          "gehaeuse": {
+            "title": "Gehäuse & Rahmen",
+            "desc": "Aufputz- und Unterputzgehäuse, Abdeckrahmen und Montageplatten"
+          }
+        },
+        "cta": "Ersatzteile im TCS24-Shop"
+      },
+      "beschriftung": {
+        "headline": "Beschriftung",
+        "intro": "Professionelle Beschriftungen für Klingeltableaus, Briefkastenanlagen und Namensschilder – individuell gefertigt und passgenau für Ihr TCS-System.",
+        "cards": {
+          "namensschilder": {
+            "title": "Namensschilder",
+            "desc": "Gravierte oder gedruckte Namensschilder für Klingeltaster und Briefkästen. Erhältlich in verschiedenen Materialien, Schriftarten und Größen – passend für alle TCS-Serien.",
+            "features": {
+              "f1": "Verschiedene Materialien (Kunststoff, Aluminium)",
+              "f2": "Individuelle Schriftarten und Größen",
+              "f3": "Passgenau für alle TCS-Tableaus"
+            }
+          },
+          "klingeltableau": {
+            "title": "Klingeltableau-Beschriftung",
+            "desc": "Komplette Beschriftungssets für Klingeltableaus mit mehreren Klingeltastern. Einheitliches Erscheinungsbild für das gesamte Gebäude.",
+            "features": {
+              "f1": "Einheitliches Design für alle Parteien",
+              "f2": "Witterungsbeständige Materialien",
+              "f3": "Einfacher Austausch bei Mieterwechsel"
+            }
+          },
+          "briefkasten": {
+            "title": "Briefkasten-Beschriftung",
+            "desc": "Individuelle Namensschilder für TCS-Briefkastenanlagen. Abgestimmt auf die jeweilige Briefkastenserie für ein harmonisches Gesamtbild.",
+            "features": {
+              "f1": "Passend für alle TCS-Briefkastenserien",
+              "f2": "Professionelle Gravur oder Druck",
+              "f3": "Schnelle Lieferung auch bei Einzelstücken"
+            }
+          }
+        },
+        "cta": "Beschriftung bestellen"
+      },
+      "freischaltcodes": {
+        "headline": "Freischaltcodes",
+        "intro": "Lizenzen und Aktivierungscodes für Software-Funktionen, BCM-Module und Systemerweiterungen – sofort nach Bestellung per E-Mail verfügbar.",
+        "cards": {
+          "bcm": {
+            "title": "BCM-Lizenzen",
+            "desc": "Aktivierungscodes für BCM-Softwaremodule wie erweiterte Zutrittskontrolle, Gebäudemanagement-Funktionen, Digital Signage oder die Integration von Alarmanlagen."
+          },
+          "app": {
+            "title": "App-Funktionen",
+            "desc": "Freischaltcodes für erweiterte App-Funktionen wie mobilen Zutritt per Bluetooth, Fernzugriff auf Türkommunikation und Push-Benachrichtigungen."
+          },
+          "system": {
+            "title": "Systemerweiterungen",
+            "desc": "Lizenzen zur Erweiterung bestehender Anlagen – z. B. zusätzliche Benutzer, Türen, Kameras oder Schnittstellen für Drittsysteme."
+          }
+        },
+        "ablauf": {
+          "headline": "So funktioniert's",
+          "steps": {
+            "s1": "Benötigten Freischaltcode im TCS24-Shop auswählen",
+            "s2": "Bestellung aufgeben und Zahlung abschließen",
+            "s3": "Aktivierungscode sofort per E-Mail erhalten",
+            "s4": "Code in der BCM-Software oder am Gerät eingeben"
+          }
+        },
+        "cta": "Freischaltcodes kaufen"
+      },
+      "vorteile": {
+        "headline": "Ihre Vorteile im TCS24-Onlineshop",
+        "items": {
+          "online": {
+            "title": "24/7 Online-Bestellung",
+            "desc": "Rund um die Uhr bestellen – ohne Wartezeiten"
+          },
+          "versand": {
+            "title": "Schneller Versand",
+            "desc": "Kurze Lieferzeiten direkt ab Lager"
+          },
+          "qualitaet": {
+            "title": "Original-Qualität",
+            "desc": "Garantiert passende TCS-Originalteile"
+          },
+          "freischaltung": {
+            "title": "Sofortige Freischaltung",
+            "desc": "Aktivierungscodes direkt per E-Mail"
+          }
+        }
+      },
+      "cta": {
+        "headline": "Jetzt im TCS24-Shop bestellen",
+        "text": "Alle Ersatzteile, Beschriftungen und Freischaltcodes für Ihre TCS-Anlage – bequem online bestellen.",
+        "button": "Zum TCS24-Shop"
+      }
+    }
+  }
+}

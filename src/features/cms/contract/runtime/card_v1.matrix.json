@@ -1,0 +1,153 @@
+{
+  "$comment": "Runtime-Vertrag card_v1 — EINZIGE Quelle der Wahrheit. Wird von src/features/cms/lib/cardRuntimeMatrix.ts UND scripts/cms/e2e-vertrag.mjs gelesen. Keine Doppelpflege. Grundregel: card_v1 ist Masterkarte — jede card_v1 kann jedes Modul tragen. Container ordnet nur an, reduziert nicht. Echte Sonderfälle (download_list_v1, catalog_filter_grid_v1, unknown) bleiben restriktiv.",
+  "version": "2.0.0",
+  "groups": [
+    "eyebrow",
+    "title",
+    "description",
+    "image",
+    "thumbnail",
+    "icon",
+    "icon_image",
+    "bullets",
+    "chips",
+    "links"
+  ],
+  "containers": {
+    "cards_v1.grid": {
+      "expectedSlot": "image",
+      "supports": {
+        "eyebrow": true,
+        "title": true,
+        "description": true,
+        "image": true,
+        "thumbnail": true,
+        "icon": true,
+        "icon_image": true,
+        "bullets": true,
+        "chips": true,
+        "links": true
+      }
+    },
+    "cards_v1.scroller": {
+      "expectedSlot": "image",
+      "supports": {
+        "eyebrow": true,
+        "title": true,
+        "description": true,
+        "image": true,
+        "thumbnail": true,
+        "icon": true,
+        "icon_image": true,
+        "bullets": true,
+        "chips": true,
+        "links": true
+      }
+    },
+    "product_scroller_v1": {
+      "expectedSlot": "image",
+      "supports": {
+        "eyebrow": true,
+        "title": true,
+        "description": true,
+        "image": true,
+        "thumbnail": true,
+        "icon": true,
+        "icon_image": true,
+        "bullets": true,
+        "chips": true,
+        "links": true
+      }
+    },
+    "product_showcase_list_v1": {
+      "expectedSlot": "image",
+      "supports": {
+        "eyebrow": true,
+        "title": true,
+        "description": true,
+        "image": true,
+        "thumbnail": true,
+        "icon": true,
+        "icon_image": true,
+        "bullets": true,
+        "chips": true,
+        "links": true
+      }
+    },
+    "card_grid_v1": {
+      "expectedSlot": "thumbnail",
+      "supports": {
+        "eyebrow": true,
+        "title": true,
+        "description": true,
+        "image": true,
+        "thumbnail": true,
+        "icon": true,
+        "icon_image": true,
+        "bullets": true,
+        "chips": true,
+        "links": true
+      }
+    },
+    "catalog_filter_grid_v1": {
+      "expectedSlot": "thumbnail",
+      "supports": {
+        "eyebrow": false,
+        "title": true,
+        "description": true,
+        "image": false,
+        "thumbnail": true,
+        "icon": false,
+        "icon_image": false,
+        "bullets": false,
+        "chips": false,
+        "links": false
+      }
+    },
+    "feature_grid_v1": {
+      "expectedSlot": "icon_image",
+      "supports": {
+        "eyebrow": true,
+        "title": true,
+        "description": true,
+        "image": true,
+        "thumbnail": true,
+        "icon": true,
+        "icon_image": true,
+        "bullets": true,
+        "chips": true,
+        "links": true
+      }
+    },
+    "download_list_v1": {
+      "expectedSlot": "none",
+      "supports": {
+        "eyebrow": false,
+        "title": false,
+        "description": false,
+        "image": false,
+        "thumbnail": false,
+        "icon": false,
+        "icon_image": false,
+        "bullets": false,
+        "chips": false,
+        "links": false
+      }
+    },
+    "unknown": {
+      "expectedSlot": "none",
+      "supports": {
+        "eyebrow": false,
+        "title": false,
+        "description": false,
+        "image": false,
+        "thumbnail": false,
+        "icon": false,
+        "icon_image": false,
+        "bullets": false,
+        "chips": false,
+        "links": false
+      }
+    }
+  }
+}

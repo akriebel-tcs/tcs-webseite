@@ -1,0 +1,38 @@
+{
+  "app": {
+    "name": "TCS",
+    "language": "Polski"
+  },
+  "actions": {
+    "more": "Dowiedz się więcej",
+    "contact": "Kontakt",
+    "back": "Wróć",
+    "close": "Zamknij"
+  },
+  "language": {
+    "de": "niemiecki",
+    "en": "angielski",
+    "pl": "polski",
+    "nl": "niderlandzki"
+  },
+  "pageCta": {
+    "headline": "Zaplanujmy Państwa projekt razem",
+    "intro": "Skontaktuj się z naszymi ekspertami, aby uzyskać indywidualne doradztwo projektowe.",
+    "button": "Zamów doradztwo projektowe"
+  },
+  "notFound": {
+    "code": "404",
+    "headline": "Strona nie została znaleziona",
+    "intro": "Żądana strona nie istnieje lub została przeniesiona. Sprawdź adres lub wróć na stronę główną.",
+    "cta": "Powrót na stronę główną"
+  },
+  "ui": {
+    "learnMore": "Dowiedz się więcej",
+    "scrollLeft": "Przewiń w lewo",
+    "scrollRight": "Przewiń w prawo",
+    "noImage": "Brak obrazu",
+    "hideBadge": "Ukryj plakietkę",
+    "loadingPage": "Ładowanie strony…",
+    "noCategories": "Nie dodano jeszcze żadnych kategorii."
+  }
+}

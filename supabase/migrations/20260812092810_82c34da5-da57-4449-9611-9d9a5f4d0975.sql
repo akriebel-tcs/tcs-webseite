@@ -1,0 +1,1 @@
+update public.cms_section_fields set value = 'Zutrittskontrolle' where page_key='personas.wohnungswirtschaft' and section_key='solution_teaser_management' and field_key='label' and locale='de';

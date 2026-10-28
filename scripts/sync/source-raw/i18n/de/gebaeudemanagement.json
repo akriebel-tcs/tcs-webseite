@@ -1,0 +1,392 @@
+{
+  "_meta": {
+    "namespace": "gebaeudemanagement",
+    "status": "migrated",
+    "note": "Alle 6 Seiten der Domain Gebäudemanagement sind nach i18n migriert."
+  },
+  "shared": {
+    "label": "Gebäudemanagement",
+    "sections": {
+      "overview": "Überblick",
+      "useCases": "Einsatzbereiche",
+      "technology": "Technik",
+      "benefits": "Vorteile"
+    },
+    "products": {
+      "label": "Produkte",
+      "title": "Lösungen im Überblick",
+      "datasheet": "Datenblatt",
+      "learnMore": "Mehr erfahren"
+    },
+    "scroll": {
+      "left": "Zurück scrollen",
+      "right": "Weiter scrollen"
+    }
+  },
+  "alarmanlagenkopplung": {
+    "hero": {
+      "headline": "Alarmanlagenkopplung",
+      "intro": "Diese Seite wird derzeit vorbereitet."
+    },
+    "placeholder": {
+      "label": "In Vorbereitung",
+      "title": "Alarmanlagenkopplung",
+      "text": "Informationen zur Kopplung von Gebäudemanagement-Lösungen mit Alarmanlagen werden ergänzt."
+    }
+  },
+  "digitalSignage": {
+    "hero": {
+      "headline": "Digital Signage – Kontextabhängige digitale Beschilderung für alle Ihre Bedürfnisse",
+      "intro": "Informieren Sie Bewohner, Mitarbeiter und Besucher mit dem BCM Infoboard: dynamische Inhalte, integriert in Ihr Zutrittskontrollsystem – auf jedem Display mit HDMI-Eingang."
+    },
+    "overview": {
+      "title": "Infoboard – im BCM System integriert",
+      "text": "Die Anzeige von wichtigen Informationen für Bewohner, Mitarbeiter oder Besucher kann entscheidend dazu beitragen, besser organisiert und informiert zu sein. Durch die Integration im Zutrittskontrollsystem von TCS erhält die Information eine dynamische Komponente, da der aktuelle Inhalt interaktiv an die aktuellen Gegebenheiten angepasst werden kann. Wohnungsbaugesellschaften oder Unternehmen können die Infoboards durch eine Vielzahl von Gestaltungs- und Inhaltsmöglichkeiten personalisieren – mit Firmenlogo, wichtigen Hinweisen, Wetterdaten, Speisekarten, Webseiten, Videos oder Bildern."
+    },
+    "useCases": {
+      "title": "Vielfältige Anwendungsmöglichkeiten",
+      "items": {
+        "eingangsbereiche": {
+          "title": "Eingangsbereiche",
+          "desc": "Anzeige von Bewohnernamen, Wohnungsnummern sowie Mitteilungen für Bewohner und Besucher."
+        },
+        "empfangsbereiche": {
+          "title": "Empfangsbereiche",
+          "desc": "Wichtige Unternehmensinformationen übersichtlich darstellen – ideal für Lobbys und Rezeptionen."
+        },
+        "handelGastronomie": {
+          "title": "Geschäfte, Hotels & Gastronomie",
+          "desc": "Aktuelles Angebot, Speisekarten, Reisevideos und Bilder ansprechend präsentieren."
+        },
+        "individuell": {
+          "title": "Individuelle Gestaltung",
+          "desc": "Frei personalisierbare Inhalte: Hinweise, Wetterdaten, Webseiten, Videos oder Bilder nach Ihren Wünschen."
+        }
+      }
+    },
+    "technology": {
+      "title": "Einfache Integration",
+      "text": "Jedes Display mit HDMI-Eingang ist geeignet. Das BCM Infoboard wird nahtlos in das TCS-Zutrittskontrollsystem integriert und lässt sich zentral über die BCM-Software verwalten. So steuern Sie Türen, Tore, Aufzüge und Informationsanzeigen aus einer einzigen Oberfläche."
+    },
+    "products": {
+      "intro": "Das BCM Infoboard – integriert in Ihr Zutrittskontrollsystem, einsetzbar auf jedem Display mit HDMI-Eingang.",
+      "items": {
+        "infoboard": {
+          "subtitle": "Digitale Beschilderung",
+          "title": "BCM Infoboard",
+          "description": "Kontextabhängige Informationsanzeige für Bewohner, Mitarbeiter und Besucher – dynamisch, personalisierbar und nahtlos in das BCM-System integriert."
+        }
+      }
+    }
+  },
+  "bcmInfoboard": {
+    "hero": {
+      "eyebrow": "Ein System – viele Anwendungen",
+      "headline": "BCM Infoboard",
+      "subline": "Kontextabhängige digitale Beschilderung für alle Ihre Bedürfnisse",
+      "description": "Die Anzeige von wichtigen Informationen für Bewohner, Mitarbeiter oder Besucher kann entscheidend dazu beitragen, besser organisiert und informiert zu sein. Durch die Integration im Zutrittskontrollsystem von TCS erhält die Information eine dynamische Komponente, da der aktuelle Inhalt interaktiv an die aktuellen Gegebenheiten angepasst werden kann.",
+      "ctaBeratung": "Projektanfrage senden",
+      "ctaDatenblatt": "Datenblatt herunterladen",
+      "imageAlt": "BCM Infoboard von TCS"
+    },
+    "vorteile": {
+      "eyebrow": "Ihre Vorteile",
+      "headline": "Vorteile des BCM Infoboards",
+      "items": [
+        { "title": "Dynamische Inhalte", "description": "Der aktuelle Inhalt wird interaktiv an die aktuellen Gegebenheiten angepasst – immer aktuell, immer relevant." },
+        { "title": "Nahtlose Integration", "description": "Das Infoboard ist direkt in das BCM-System integriert – zentrale Verwaltung über die BCM-Software." },
+        { "title": "Vielfältige Inhalte", "description": "Wichtige Hinweise, Wetterdaten, Speisekarten, Webseiten, Videos oder Bilder – frei personalisierbar nach Ihren Wünschen." },
+        { "title": "Universell einsetzbar", "description": "Jedes Display mit HDMI-Eingang ist geeignet – keine spezielle Hardware erforderlich." },
+        { "title": "Einfache Verwaltung", "description": "Wohnungsbaugesellschaften und Unternehmen personalisieren die Infoboards durch eine Vielzahl von Gestaltungs- und Inhaltsmöglichkeiten." }
+      ]
+    },
+    "anwendungen": {
+      "eyebrow": "Anwendungen",
+      "headline": "Typische Einsatzbereiche",
+      "items": [
+        { "title": "Eingangsbereiche", "description": "Anzeige von Bewohnernamen und Wohnungsnummern sowie Mitteilungen für Bewohner oder Besucher." },
+        { "title": "Empfangsbereiche von Unternehmen", "description": "Wichtige Informationen übersichtlich darstellen – ideal für Lobbys und Rezeptionen." },
+        { "title": "Geschäfte, Hotels & Gastronomie", "description": "Aktuelles Angebot, Speisekarten, Reisevideos und Bilder ansprechend präsentieren." },
+        { "title": "Apotheken", "description": "Notfallapotheken und Öffnungszeiten aktuell und übersichtlich anzeigen." }
+      ]
+    },
+    "cta": {
+      "eyebrow": "Kontakt",
+      "claim": "Wir beraten Sie gern!",
+      "subtext": "Sprechen Sie uns an – wir unterstützen Sie bei der Auswahl und Planung Ihres BCM Infoboards."
+    }
+  },
+  "reservierenBuchen": {
+    "hero": {
+      "headline": "Reservieren und Buchen – Intelligentes Buchungssystem",
+      "intro": "Reservierungen für jeden, überall: Mit dem BCM-Buchungssystem verwalten Sie Räume, Geräte und Ressourcen digital – mit automatischer Zutrittskontrolle."
+    },
+    "overview": {
+      "title": "Digitales Buchungssystem",
+      "text": "Mit dieser Lösung kann jeder sicher ein Zimmer über ein Smartphone, einen Desktop-Computer oder sogar ein Touchscreen-Gerät mit eingebautem Lesegerät buchen. Komplexe Reservierungsregeln können auf einfache Weise für jeden Zeitraum und für jede Gruppe von Personen verwaltet werden. Der kontrollierte Zugang zu Sporthallen, Schulen, Waschsalons oder einzelnen Maschinen und Geräten war noch nie so gut organisiert."
+    },
+    "products": {
+      "intro": "Das BCM-Buchungssystem – flexibel einsetzbar für Räume, Geräte und Gemeinschaftseinrichtungen.",
+      "items": {
+        "bcmBuchungssystem": {
+          "subtitle": "Raum- & Ressourcenbuchung",
+          "title": "BCM Buchungssystem",
+          "description": "Digitale Buchung von Räumen, Waschmaschinen oder Sportanlagen – per Smartphone, Desktop oder Touchscreen. Mit automatischer Zutrittskontrolle und flexiblen Reservierungsregeln."
+        }
+      }
+    },
+    "benefits": {
+      "title": "Warum das BCM-Buchungssystem?",
+      "items": {
+        "intelligenteUebersicht": {
+          "title": "Intelligente Übersicht",
+          "desc": "Buchen Sie über den benutzerfreundlichen Kalender bestimmte Einrichtungen an vorgegebenen Tagen und Zeitfenstern."
+        },
+        "sichererZugang": {
+          "title": "Sicherer Zugang",
+          "desc": "Nur Benutzer, die den Raum reserviert haben, erhalten in der gewählten Zeitspanne Zutritt – automatisch auch an Parkplatz und Haupteingang."
+        },
+        "umfassendeNutzung": {
+          "title": "Umfassende Nutzung",
+          "desc": "Reservierungen per Smartphone, Desktop oder Touchscreen – alle Buchungspläne lassen sich in Ihre Website einbinden."
+        },
+        "flexibleRegeln": {
+          "title": "Flexible Regeln",
+          "desc": "Verwalten Sie Reservierungsfenster, Kapazitätsbeschränkungen, Buchungseinladungen und Stornierungsfunktionen."
+        }
+      }
+    }
+  },
+  "bcmBuchungssystem": {
+    "hero": {
+      "eyebrow": "Ein System – viele Anwendungen",
+      "headline": "BCM Buchungssystem",
+      "subline": "Reservierungen für jeden, überall",
+      "description": "Mit dieser Lösung kann jeder sicher ein Zimmer über ein Smartphone, einen Desktop-Computer oder sogar ein Touchscreen-Gerät mit eingebautem Lesegerät buchen. Komplexe Reservierungsregeln können auf einfache Weise für jeden Zeitraum und für jede Gruppe von Personen verwaltet werden.",
+      "ctaBeratung": "Projektanfrage senden",
+      "ctaDatenblatt": "Datenblatt herunterladen",
+      "imageAlt": "BCM Buchungssystem von TCS"
+    },
+    "vorteile": {
+      "eyebrow": "Ihre Vorteile",
+      "headline": "Vorteile des BCM Buchungssystems",
+      "items": [
+        {
+          "title": "Intelligente Übersicht",
+          "description": "Buchen Sie über den benutzerfreundlichen Kalender bestimmte Einrichtungen an vorgegebenen Tagen und Zeitfenstern."
+        },
+        {
+          "title": "Sicherer Zugang mit strengen Regeln",
+          "description": "Nur Benutzer, die den Raum reserviert haben, erhalten in der gewählten Zeitspanne Zutritt – automatisch auch an Parkplatz und Haupteingang."
+        },
+        {
+          "title": "Umfassende Nutzung",
+          "description": "Die einfache Erstellung von Buchungsregeln gibt Ihnen große Flexibilität. Alle Buchungspläne lassen sich in Ihre Website einbinden."
+        },
+        {
+          "title": "Flexible Gerätewahl",
+          "description": "Eine flexible Auswahl an Geräten ermöglicht es, sofortige Reservierungen vorzunehmen – unabhängig davon, wo Sie sich gerade befinden."
+        },
+        {
+          "title": "Kapazitätsverwaltung",
+          "description": "Verwalten Sie Reservierungsfenster, Zeit- und Kapazitätsbeschränkungen, Buchungseinladungen und Stornierungsfunktionen bei Nichtteilnahme."
+        },
+        {
+          "title": "Automatische Zutrittskontrolle",
+          "description": "Das System schaltet den Zutritt automatisch auch an den Zugangspunkten frei, wo dies erforderlich ist – z. B. am Parkplatz und am Haupteingang."
+        }
+      ]
+    },
+    "anwendungen": {
+      "eyebrow": "Anwendungen",
+      "headline": "Typische Einsatzbereiche",
+      "items": [
+        {
+          "title": "Sporthallen & Fitnessräume",
+          "description": "Kontrollierter Zugang zu Sportstätten – Buchung für bestimmte Zeitfenster, automatische Zutrittsfreigabe."
+        },
+        {
+          "title": "Schulen & Bildungseinrichtungen",
+          "description": "Räume, Labore und Ausstattung gezielt reservieren und den Zugang nur für den jeweiligen Buchungszeitraum freischalten."
+        },
+        {
+          "title": "Waschsalons & Gemeinschaftsgeräte",
+          "description": "Einzelne Maschinen und Geräte buchen – Nutzungskonflikte vermeiden, Auslastung transparent steuern."
+        },
+        {
+          "title": "Büros & Co-Working-Flächen",
+          "description": "Schreibtische, Meetingräume und Ressourcen digital verwalten – per Smartphone, Desktop oder direkt am Touchscreen vor Ort."
+        }
+      ]
+    },
+    "cta": {
+      "eyebrow": "Kontakt",
+      "claim": "Wir beraten Sie gern!",
+      "subtext": "Sprechen Sie uns an – wir unterstützen Sie bei der Auswahl und Planung Ihres BCM Buchungssystems."
+    }
+  },
+  "schraenkeBehaelter": {
+    "hero": {
+      "headline": "Schränke und Behälter – Elektronische Schließsysteme für Mobiliar",
+      "intro": "Wiederverwendbar und flexibel: Batteriebetriebene Offline-Schrankschlösser sichern Spinde, Schränke und Serverschränke – mit digitaler Rechteverwaltung über die browserbasierte BCM-Software."
+    },
+    "overview": {
+      "title": "Elektronische Schrankschlösser",
+      "text": "Die kompakten batteriebetriebenen Offline-Schrankschlösser eignen sich für Schränke, die kontrolliert, aber flexibel verschlossen werden sollen. Die Zugriffsrechte werden einfach in der browserbasierten Software konfiguriert. Das System kann auf drahtlose Online-Schließung durch Offline-Gateways aufgerüstet werden, was eine vollständige Kontrolle an jedem Ort und zu jeder Zeit ermöglicht."
+    },
+    "products": {
+      "intro": "Vom Spindschloss bis zum Serverschrank-Schloss – elektronische Schließsysteme für jede Anforderung.",
+      "items": {
+        "schrankschloss": {
+          "subtitle": "Spinde & Schränke",
+          "title": "Elektronisches Schrankschloss",
+          "description": "Kompaktes batteriebetriebenes Offline-Schloss für Schränke mit Holz-, Stahl- oder Aluminiumoberfläche – horizontal oder vertikal montierbar, ideal für Schwimmbäder, Sportvereine und Bildungseinrichtungen."
+        },
+        "serverschloss": {
+          "subtitle": "Racks & Server",
+          "title": "Elektronisches Serverschrank-Schloss",
+          "description": "Installation am Schwenkhebelgriff mit PZ-Einsatz – die sichere Lösung für Server und Racks, bei denen der Zugang für Mitarbeiter eingeschränkt werden soll."
+        },
+        "vorhaengeschloss": {
+          "subtitle": "Abgelegene Standorte & Behälter",
+          "title": "Vorhängeschloss mit elektronischem Knaufzylinder",
+          "description": "Vorhängeschloss mit elektronischem Knaufzylinder: Die sichere Lösung für abgelegene Türen, Fahrradschuppen oder Container – innen und außen einsetzbar."
+        }
+      }
+    },
+    "benefits": {
+      "title": "Warum TCS für die Sicherung von Schränken und Behälter?",
+      "items": {
+        "flexibel": {
+          "title": "Flexibel einsetzbar",
+          "desc": "Passt an Schränke mit Holz-, Stahl- oder Aluminiumoberfläche – horizontal und vertikal montierbar."
+        },
+        "nachruestung": {
+          "title": "Einfache Nachrüstung",
+          "desc": "Ersetzt mechanische Möbel- oder Schrankschlösser ohne aufwändigen Umbau."
+        },
+        "zentraleVerwaltung": {
+          "title": "Zentrale Verwaltung",
+          "desc": "Alle Zugriffsrechte werden über die webbasierte BCM-Software konfiguriert."
+        },
+        "aufruestbar": {
+          "title": "Aufrüstbar auf Online",
+          "desc": "Per Offline-Gateway drahtlos zur Online-Schließung erweiterbar – volle Kontrolle jederzeit."
+        }
+      }
+    },
+    "subnav": {
+      "items": {
+        "schrankschloss": "Elektronisches Schrankschloss",
+        "serverschloss": "Elektronisches Serverschrank-Schloss"
+      }
+    }
+  },
+  "digitaleNamensanzeige": {
+    "hero": {
+      "headline": "Digitale Namensanzeige – Elektronische Namensschilder und Verwaltung",
+      "intro": "Mieterwechsel ohne Techniker: Digitale Namensanzeigen und zentrale Verwaltung für Außenstationen, Briefkästen und Klingeltableaus – einfach per Browser."
+    },
+    "overview": {
+      "title": "Digitale Namensverwaltung für Gebäude",
+      "text": "Das BCM-System von TCS ermöglicht die digitale Verwaltung von Namensschildern an Außenstationen, Briefkästen und Klingeltableaus. Der browserbasierte Zugriff erlaubt es Hausverwaltungen, Namen und Texte ohne Installateur zu ändern – ideal bei häufigem Mieterwechsel."
+    },
+    "products": {
+      "intro": "Von der kompakten Außenstation bis zur browserbasierten Verwaltungssoftware – \nalles für die digitale Namensanzeige.",
+      "items": {
+        "adx5": {
+          "subtitle": "Digitale Namensanzeige",
+          "title": "Kompakte Außenstation ADx5",
+          "description": "Moderne Edelstahl-Außenstation mit integriertem Display für bis zu 60 Wohneinheiten – mit Lautsprecher, Mikrofon, Kamera und BCM Online-Leser in einem kompakten Gehäuse."
+        },
+        "displaymodul": {
+          "subtitle": "Modulare Integration",
+          "title": "CARUS ARGOS Displaymodul",
+          "description": "Hinterleuchtetes LCD-Grafikdisplay mit bis zu 3 Tasten pro Modul – nahtlos integrierbar in die modularen CARUS ARGOS Außenstationen."
+        },
+        "briefkasten": {
+          "subtitle": "Briefkästen & Namensschilder",
+          "title": "Digitale Briefkastenanlage",
+          "description": "Digitale Briefkästen mit elektronischen Namensschildern und Entriegelung per Transponder oder PIN-Code – browserbasiert verwaltbar."
+        },
+        "software": {
+          "subtitle": "Zentrale Steuerung",
+          "title": "Verwaltungssoftware",
+          "description": "Browserbasierte Software zur zentralen Verwaltung aller digitalen Namensanzeigen – Mieterwechsel ohne Vor-Ort-Einsatz, Sondertexte und individuelle Beschriftungen."
+        },
+        "etagentaster": {
+          "subtitle": "Türöffnung im Treppenhaus",
+          "title": "Etagentaster",
+          "description": "Etagentaster für die Integration in das BCM-Zutrittskontrollsystem."
+        }
+      }
+    },
+    "benefits": {
+      "title": "Warum TCS für digitale Namensanzeigen?",
+      "items": {
+        "fernverwaltung": {
+          "title": "Fernverwaltung per Browser",
+          "desc": "Namen und Texte ohne Installateur ändern – per PC-Software oder Cloud, auch remote."
+        },
+        "mieterwechsel": {
+          "title": "Mieterwechsel ohne Aufwand",
+          "desc": "Schnelle Umschaltung bei Bewohnerwechsel ohne physischen Eingriff an der Außenstation."
+        },
+        "modular": {
+          "title": "Modularer Aufbau",
+          "desc": "Displaymodule, Außenstationen und Briefkästen flexibel kombinierbar für jede Gebäudegröße."
+        },
+        "vandalismus": {
+          "title": "Vandalismussicher",
+          "desc": "Robuste Edelstahlgehäuse und LCD-Displays für den dauerhaften Einsatz im Außenbereich."
+        }
+      }
+    },
+    "subnav": {
+      "items": {
+        "adx5": "Kompakte Außenstation ADx5",
+        "displaymodul": "CARUS ARGOS Displaymodul",
+        "briefkasten": "Digitale Briefkastenanlage",
+        "software": "Verwaltungssoftware",
+        "etagentaster": "Etagentaster"
+      }
+    }
+  },
+  "root": {
+    "hero": {
+      "headline": "Vernetztes Gebäudemanagement mit dem BCM-System",
+      "intro": "Sicherheit, Komfort und digitale Information zentral gesteuert"
+    },
+    "bcm": {
+      "label": "BCM-System",
+      "title": "Mehr als Zutrittskontrolle",
+      "text": "Das BCM-System von TCS bietet weit mehr als nur klassische Zutrittskontrolle. Es integriert vielfältige Funktionen für ein modernes und vernetztes Gebäudemanagement in einer zentralen, skalierbaren Softwarelösung. Ob die smarte Buchung von Gemeinschaftsräumen, die reibungslose Verwaltung von Parkplätzen oder die digitale Bewohnerinformation – BCM vereint diese Anforderungen effizient und schafft so einen echten Mehrwert für Betreiber, Mitarbeiter und Bewohner."
+    },
+    "functions": {
+      "label": "Funktionen",
+      "title": "Gebäudemanagement im Detail",
+      "items": {
+        "digitaleNamensanzeige": {
+          "headline": "1. Digitale Namensanzeige",
+          "text": "Zentrale und zeitgemäße Verwaltung von Bewohnerdaten: Mit der digitalen Namensverwaltung lassen sich Bewohner- oder Firmennamen in Wohn- und Gewerbebauten modern auf Display-Außenstationen, Etagentastern und Briefkästen anzeigen. Die Verwaltung erfolgt äußerst komfortabel: Über einen browserbasierten Zugriff können Administratoren die digitalen Namensschilder jederzeit aus der Ferne aktualisieren, ohne vor Ort sein zu müssen. An den Briefkästen lässt sich zudem die Entnahmeklappe voll in das System integrieren und sicher über elektronische Schlüssel oder PIN-Codes öffnen."
+        },
+        "zufahrtssteuerung": {
+          "headline": "2. Zufahrtssteuerung und Parkraumüberwachung",
+          "text": "Effizientes Parkmanagement ohne Wartezeiten: Das System bietet eine reibungslose Zufahrtskontrolle für Fahrzeuge an Schranken und Toren – ideal für Firmenzufahrten, Logistikzentren oder Mitarbeiterparkplätze. Die Identifikation und Öffnung erfolgt komfortabel über intelligente Kfz-Kennzeichenerkennung (sogar bei Geschwindigkeiten von bis zu 30 km/h), reichweitenstarke UHF-Leser an der Windschutzscheibe oder kopiergeschützte BCM Handsender. Eine spezielle Parking-Zentrale ermöglicht zudem die genaue Zählung von Fahrzeugen in definierten Zonen sowie die Steuerung von Ampelanlagen."
+        },
+        "digitalSignage": {
+          "headline": "3. Digitale Informations- und Anzeigesysteme (Digital Signage)",
+          "text": "Gezielte Kommunikation über smarte Infoboards: Ob in Behörden, Unternehmen, Hotels oder Wohngebäuden: Digitale Infoboards versorgen Besucher, Mitarbeiter und Bewohner gezielt mit wichtigen Informationen. Diese interaktiven Anzeigesysteme lassen sich nahtlos in das Zutrittskontrollsystem integrieren und flexibel personalisieren. So können auf den Bildschirmen beispielsweise Öffnungszeiten, Wegeleitpläne, Veranstaltungskalender, Wetterdaten oder wichtige Mitteilungen der Hausverwaltung dynamisch dargestellt werden."
+        },
+        "reservierenBuchen": {
+          "headline": "4. Reservieren und Buchen",
+          "text": "Automatisiertes Ressourcenmanagement inklusive Zutrittsfreigabe: Das BCM-System umfasst ein intelligentes digitales Buchungssystem, mit dem sich Räume, Services oder Einrichtungen wie Waschsalons und Sporthallen bequem per Smartphone, Desktop-PC oder direkt aus Anwendungen wie Outlook reservieren lassen. Besonders clever: Das System vergibt die Zutrittsrechte exakt für das gewählte Zeitfenster und schaltet bei Bedarf automatisch auch vorgelagerte Zugangspunkte, wie den Haupteingang oder die Parkplatzschranke, für den berechtigten Nutzer frei."
+        },
+        "alarmanlagenkopplung": {
+          "headline": "5. Alarmanlagenkopplung",
+          "text": "Vernetzte Sicherheitstechnik für optimalen Schutz: Für ein ganzheitliches Gebäudesicherheitskonzept lässt sich die BCM-Zutrittskontrolle direkt mit bestehenden Einbruchmelde- und Alarmanlagen verbinden. Nutzer können Funktionen wie die Scharf- oder Unscharfschaltung der Alarmanlage bequem über Interaktionen mit den BCM-Lesegeräten oder der Smartphone-App bedienen. Administratoren haben zudem die Möglichkeit, spezifische Alarmzonen zu definieren und eingehende Alarmmeldungen zentral in der BCM-Software zu überwachen."
+        }
+      }
+    }
+  }
+}

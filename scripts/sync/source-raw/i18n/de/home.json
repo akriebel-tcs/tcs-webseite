@@ -1,0 +1,277 @@
+{
+  "_meta": {
+    "namespace": "home",
+    "status": "migrated",
+    "note": "UeberTCSPage vollständig migriert (Etappe `i18n-coverage-close-1`, Bereich `home.ueberTcs.*`, in `strictPages`). HomePage selbst ist eine Container-Seite ohne eigene Texte und bewusst als `exemptPages` dokumentiert; sichtbare Inhalte kommen über Shared-Komponenten (HeroSection, ContentBlocks, PersonaSection, CTASection), die eigene Namespaces nutzen. Statusangleichung in Etappe `hygiene-status-1`."
+  },
+  "hero": {
+    "eyebrow": "Willkommen bei TCS",
+    "headline": "Ihr Partner für Türkommunikation, Gebäudesicherheit und Managementsysteme",
+    "intro": "Seit über 30 Jahren entwickelt TCS Kommunikations- und Zutrittssysteme, die Architektur, Technologie und Sicherheit vereinen – für jedes Gebäude, jede Anforderung. Made in Germany.",
+    "imageAlt": "TCS Eingangsbereich mit moderner Türkommunikation"
+  },
+  "stats": {
+    "items": {
+      "experience": {
+        "value": "30+",
+        "label": "Jahre Erfahrung"
+      },
+      "madeInGermany": {
+        "value": "100%",
+        "label": "Made in Germany"
+      },
+      "technology": {
+        "value": "IP & 2-Draht",
+        "label": "Technologie"
+      },
+      "support": {
+        "value": "24/7",
+        "label": "Technischer Support"
+      }
+    }
+  },
+  "personas": {
+    "headline": "Passende Lösungen für Ihre Rolle",
+    "intro": "Ob Planer, Errichter oder Eigentümer – wir sprechen Ihre Sprache und liefern genau die Informationen, die Sie für Ihre Entscheidung brauchen.",
+    "cta": "Mehr erfahren",
+    "items": {
+      "bauherren": {
+        "title": "Bauherren & Eigentümer",
+        "desc": "Smart Home, Sicherheit & Design – finden Sie die perfekte Lösung für Ihr Zuhause."
+      },
+      "architekten": {
+        "title": "Architekten & Gestalter",
+        "desc": "Eingangsarchitektur in Perfektion – mit Materialvielfalt und barrierefreien Konzepten."
+      },
+      "wohnungswirtschaft": {
+        "title": "Wohnungswirtschaft",
+        "desc": "Wirtschaftliche, skalierbare Lösungen für Großanlagen mit digitaler Verwaltung."
+      },
+      "fachplaner": {
+        "title": "Fachplaner & Integratoren",
+        "desc": "Technische Tiefe: Systemgrenzen, Schnittstellendokumentation und Ausschreibungstexte."
+      },
+      "handwerk": {
+        "title": "Elektro-Handwerk",
+        "desc": "Schnelle Installation dank TCS:PACKS, Konfiguratoren und Schaltplänen."
+      },
+      "fachhandel": {
+        "title": "Fachhandel",
+        "desc": "Artikelstammdaten, effizientes Bestellwesen und direkter Zugang zum Ersatzteil-Shop."
+      }
+    }
+  },
+  "cta": {
+    "headline": "Lassen Sie uns Ihr Projekt gemeinsam planen",
+    "intro": "Unsere Experten beraten Sie persönlich – von der ersten Idee bis zur fertigen Installation.",
+    "primary": "Beratungstermin vereinbaren",
+    "secondary": "Konfigurator starten"
+  },
+  "contentBlocks": {
+    "headline": "Ganzheitliche Lösungen für den Eingangsbereich",
+    "intro": "Von der Türkommunikation über Zutrittskontrolle bis hin zur architektonischen Gestaltung – alles aus einer Hand.",
+    "cta": "Mehr erfahren",
+    "items": {
+      "communication": {
+        "label": "Türkommunikation",
+        "headline": "Smarte Kommunikation für jedes Gebäude",
+        "text": "Von Einfamilienhäusern bis zu großen Wohnquartieren bietet TCS maßgeschneiderte Audio- und Video-Türsprechanlagen wie die Serien Senso Pro und TASTA PRO. Mit dem zukunftssicheren IP-System snipdoo® vereinen wir die Einfachheit klassischer BUS-Systeme mit grenzenloser Netzwerk-Flexibilität."
+      },
+      "access": {
+        "label": "Zutrittskontrolle",
+        "headline": "Zutritt und Verwaltung neu gedacht",
+        "text": "Das webbasierte BCM-System ist Ihre zentrale Lösung für modernes Gebäudemanagement – sicher, skalierbar und ganzheitlich. Verwalten Sie Zutrittsrechte für Türen, Schranken und Parkräume flexibel per Smartphone-App, biometrischem Scanner oder RFID."
+      },
+      "entry": {
+        "label": "Entry-System",
+        "headline": "Echte Individualität am Eingang",
+        "text": "Das Design- und Montagesystem Entry beendet die unruhige Aneinanderreihung verschiedener Fabrikate und bündelt Türkommunikation, Zutrittskontrolle, Briefkästen und Brandschutz in einem homogenen Design – ganz ohne sichtbare Schrauben."
+      },
+      "signage": {
+        "label": "Signage",
+        "headline": "Klare Orientierung mit ästhetischem Anspruch",
+        "text": "Schaffen Sie repräsentative Eingangsbereiche und eine intuitive Wegeführung mit TCS-Signage. Entdecken Sie unsere smarten, ultraflachen Hausnummern mit revolutionärem Tag-Nacht-Kontrast und langlebiger LED-Hinterleuchtung."
+      },
+      "solutions": {
+        "label": "Objektlösungen",
+        "headline": "Maßgeschneiderte Ausstattung für besondere Anforderungen",
+        "text": "Jedes Gebäude hat eigene Regeln. Wir bieten barrierefreie Lösungen nach DIN 18040-1 für Pflegeeinrichtungen, Notfall-Rufsysteme für Schulen sowie effiziente Zutrittskontrollen für Kliniken und Behörden."
+      },
+      "consulting": {
+        "label": "Projektberatung",
+        "headline": "Von der ersten Idee bis zur finalen Umsetzung",
+        "text": "Unsere Experten begleiten Architekten, Planungsbüros und Bauträger gewerkeübergreifend durch den gesamten Prozess. Wir unterstützen Sie bei der System- und Materialauswahl und sorgen für eine reibungslose Umsetzung.",
+        "cta": "Projektberatung vereinbaren"
+      }
+    }
+  },
+  "ueberTcs": {
+    "hero": {
+      "eyebrow": "Unternehmen",
+      "headline": "Mehr als ein Hersteller.",
+      "intro": "TCS ist ein familiengeführtes Unternehmen und umfassender Systemanbieter für Gebäudekommunikation, Zutrittskontrolle und integrierte Eingangslösungen – mit eigener Entwicklung, Fertigung und Service."
+    },
+    "stats": {
+      "items": {
+        "founded": {
+          "value": "1995",
+          "label": "Gegründet"
+        },
+        "headquarters": {
+          "value": "Genthin",
+          "label": "Hauptsitz, Sachsen-Anhalt"
+        },
+        "employees": {
+          "value": "350+",
+          "label": "Mitarbeiter weltweit"
+        },
+        "markets": {
+          "value": "DACH & int.",
+          "label": "Märkte"
+        }
+      }
+    },
+    "history": {
+      "eyebrow": "Geschichte",
+      "headline": "Ein Familienunternehmen mit Erfindergeist",
+      "p1": "We Open Worlds. Unter diesem Motto entwickelt und fertigt die familiengeführte TCS AG seit 1995 Systemtechnik für die Gebäudekommunikation – von einfachen Türsprechanlagen bis hin zu komplexen Großanlagen für mehrere hundert Wohneinheiten.",
+      "p2": "Gründer Otto Duffner erfand die weltweit erste polaritätsfreie, softwaregesteuerte 2-Draht-BUS-Sprechanlage – den TCS:BUS®. Diese bahnbrechende Erfindung legte den Grundstein für eine rasante Unternehmensentwicklung.",
+      "p3": "Otto Duffner führt das Unternehmen gemeinsam mit seinem jüngsten Sohn Johannes Duffner im Vorstand und seinem ältesten Sohn Florian Duffner im Aufsichtsrat. Jahrzehntelange Erfahrung und zeitgemäße Ideen in perfekter Balance."
+    },
+    "values": {
+      "eyebrow": "Haltung",
+      "headline": "Was TCS antreibt",
+      "items": {
+        "system": {
+          "title": "Systemkompetenz",
+          "text": "Nicht nur Einzelprodukte, sondern durchdachte Systeme für den gesamten Gebäudeeingang – von der einfachen Sprechanlage bis zur komplexen Großanlage."
+        },
+        "innovation": {
+          "title": "Innovation",
+          "text": "Eigene Entwicklung, Fertigung und Software – TCS erfand 1995 die weltweit erste softwaregesteuerte Sprechanlage auf Basis des TCS:BUS."
+        },
+        "quality": {
+          "title": "Qualität",
+          "text": "Made in Germany. Fertigung nach DIN-ISO 9001 auf über 2.000 m² in Genthin und in der CARUS Manufaktur in Triberg. 5 Jahre Garantie auf alle Produkte."
+        },
+        "partnership": {
+          "title": "Partnerschaft",
+          "text": "Architektur, Planung, Installation und Großhandel als echte Partnerschaft – mit 18 Außendienstteams und 6 Schulungszentren in ganz Deutschland."
+        }
+      }
+    },
+    "businessFields": {
+      "eyebrow": "Geschäftsfelder",
+      "headline": "Breite Aufstellung, klare Stärken",
+      "items": {
+        "handel": {
+          "title": "Deutsches Handelsgeschäft",
+          "text": "Kernsortiment für Tür- und Gebäudekommunikation, Videoüberwachung und elektronische Zutrittskontrolle – über den Elektrogroßhandel an das Elektrohandwerk."
+        },
+        "international": {
+          "title": "Internationale Projekte",
+          "text": "Systemlösungen für Heimautomation, Ruf- und Durchsagemanagement, altersgerechte Komfort- und Assistenzsysteme sowie Systemvernetzung national und international."
+        },
+        "odm": {
+          "title": "ODM | OEM",
+          "text": "Kundenspezifische Entwicklung, individuelles Design und Auftragsfertigung inkl. Branding, Beschriftung & Verpackung für europäische Marktführer."
+        },
+        "customising": {
+          "title": "Customising & Manufaktur",
+          "text": "Individuelle Produktkonfigurationen, maßgeschneiderte Benutzeroberflächen und Einzelstückfertigung – in der CARUS Manufaktur in Triberg."
+        }
+      }
+    },
+    "manufacturing": {
+      "eyebrow": "Fertigung & Qualität",
+      "headline": "Made in Germany",
+      "intro": "Mit Erfahrung und modernster Technologie fertigt TCS Klein-, Mittel- und Großserien auf über 2.000 m² – zertifiziert nach DIN-ISO 9001.",
+      "items": {
+        "iso": {
+          "title": "DIN-ISO 9001",
+          "text": "Zertifiziertes Qualitätsmanagement von der Wareneingangskontrolle über Zwischenkontrollen bis zur Auslieferung."
+        },
+        "smd": {
+          "title": "SMD-Bestückung",
+          "text": "Modernste automatisierte Bestückungslinie für elektronische Leiterplatten seit 2018, ESD-geschützt und voll ERP-integriert."
+        },
+        "ihk": {
+          "title": "IHK-Ausbildungspreis",
+          "text": "Erstklassige Ausbildungsqualität – mehrfach auf Landes- und Bundesebene in Metall- und Elektrotechnik ausgezeichnet."
+        },
+        "sustainability": {
+          "title": "Nachhaltigkeit",
+          "text": "Engagement für Energieeffizienz, Schadstoffvermeidung und Recyclingfähigkeit von Materialien und Verpackungen."
+        }
+      }
+    },
+    "milestones": {
+      "eyebrow": "Historie",
+      "headline": "Meilensteine",
+      "items": {
+        "y1995": {
+          "year": "1995",
+          "text": "Gründung der TCS AG in Genthin – weltweit erste softwaregesteuerte Sprechanlage (TCS:BUS)"
+        },
+        "y2000": {
+          "year": "2000",
+          "text": "Ausbau des Produktsortiments und erste internationale Projekte in Österreich und der Schweiz"
+        },
+        "y2005": {
+          "year": "2005",
+          "text": "Aufbau des OEM/ODM-Geschäfts – Belieferung europäischer Marktführer"
+        },
+        "y2012": {
+          "year": "2012",
+          "text": "snipdoo Home App – Türkommunikation auf dem Smartphone, eine der ersten am Markt"
+        },
+        "y2015": {
+          "year": "2015",
+          "text": "IHK-Ausbildungspreis für erstklassige Ausbildungsqualität"
+        },
+        "y2018": {
+          "year": "2018",
+          "text": "Modernste automatisierte SMD-Bestückungslinie am Standort Genthin"
+        },
+        "y2020": {
+          "year": "2020",
+          "text": "25 Jahre TCS – Jubiläum und weiterer Ausbau der Systemwelten"
+        },
+        "y2024": {
+          "year": "2024",
+          "text": "Digitale Transformation – neue Tools, Plattformen und Produktlinien"
+        },
+        "y2025": {
+          "year": "2025",
+          "text": "30 Jahre TCS – 5 Jahre Garantie auf alle Produkte als Qualitätsversprechen"
+        }
+      }
+    },
+    "locations": {
+      "eyebrow": "Standorte",
+      "headline": "Entwicklung und Fertigung in Deutschland, Vertrieb weltweit",
+      "items": {
+        "genthin": {
+          "title": "Hauptsitz & Fertigung",
+          "location": "Genthin, Sachsen-Anhalt",
+          "text": "F&E, SMD-Fertigung, Endmontage, Verwaltung, Schulungszentrum"
+        },
+        "triberg": {
+          "title": "CARUS Manufaktur",
+          "location": "Triberg, Baden-Württemberg",
+          "text": "Individuelle Einzelfertigung, Metallverarbeitung"
+        },
+        "international": {
+          "title": "Internationale Standorte",
+          "location": "Österreich, Serbien, Türkei, Indien, Hongkong, Shanghai",
+          "text": "Vertrieb und Projektgeschäft weltweit"
+        }
+      }
+    },
+    "cta": {
+      "headline": "Lernen Sie TCS persönlich kennen",
+      "intro": "Kontaktieren Sie uns für eine individuelle Beratung oder besuchen Sie uns an einem unserer Standorte.",
+      "button": "Kontakt aufnehmen"
+    }
+  }
+}

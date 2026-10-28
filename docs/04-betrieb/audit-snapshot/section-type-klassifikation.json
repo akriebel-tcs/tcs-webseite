@@ -1,0 +1,412 @@
+[
+  {
+    "section_type": "card_grid_v1",
+    "anzahl_total": 0,
+    "anzahl_aktiv": 0,
+    "instanzen_top_level": 0,
+    "instanzen_mit_parent": 0,
+    "parents_in_db": [],
+    "allowed_parents": [],
+    "in_renderers": false,
+    "in_contract": true,
+    "klasse": "bespoke_registered",
+    "status": "gelb",
+    "renderer": "Spezial-/Page-Renderer (kein CmsBodyRenderer-Eintrag)",
+    "hinweise": [
+      "Konsument/Datei/Zweck muss im Vorlagenbereich-Abgleich dokumentiert sein."
+    ],
+    "admin_label": "Hub-Karten-Grid"
+  },
+  {
+    "section_type": "card_v1",
+    "anzahl_total": 661,
+    "anzahl_aktiv": 641,
+    "instanzen_top_level": 0,
+    "instanzen_mit_parent": 661,
+    "parents_in_db": [
+      "cards_v1",
+      "catalog_filter_grid_v1",
+      "product_scroller_v1",
+      "product_showcase_list_v1",
+      "feature_grid_v1"
+    ],
+    "allowed_parents": [
+      "cards_v1",
+      "product_scroller_v1",
+      "product_showcase_list_v1",
+      "card_grid_v1",
+      "catalog_filter_grid_v1",
+      "feature_grid_v1",
+      "download_list_v1"
+    ],
+    "in_renderers": false,
+    "in_contract": true,
+    "klasse": "child_only",
+    "status": "gruen",
+    "renderer": "via Eltern: cards_v1, product_scroller_v1, product_showcase_list_v1, card_grid_v1, catalog_filter_grid_v1, feature_grid_v1, download_list_v1",
+    "hinweise": [],
+    "admin_label": "Karte (flexible Standard-Karte mit Presets)"
+  },
+  {
+    "section_type": "cards_v1",
+    "anzahl_total": 131,
+    "anzahl_aktiv": 131,
+    "instanzen_top_level": 131,
+    "instanzen_mit_parent": 0,
+    "parents_in_db": [],
+    "allowed_parents": [],
+    "in_renderers": true,
+    "in_contract": true,
+    "klasse": "top_level_renderable",
+    "status": "gruen",
+    "renderer": "CmsBodyRenderer.RENDERERS",
+    "hinweise": [],
+    "admin_label": "Kartencontainer (Bildkarten)"
+  },
+  {
+    "section_type": "catalog_filter_grid_v1",
+    "anzahl_total": 3,
+    "anzahl_aktiv": 3,
+    "instanzen_top_level": 3,
+    "instanzen_mit_parent": 0,
+    "parents_in_db": [],
+    "allowed_parents": [],
+    "in_renderers": false,
+    "in_contract": true,
+    "klasse": "bespoke_registered",
+    "status": "gelb",
+    "renderer": "Spezial-/Page-Renderer (kein CmsBodyRenderer-Eintrag)",
+    "hinweise": [
+      "Konsument/Datei/Zweck muss im Vorlagenbereich-Abgleich dokumentiert sein."
+    ],
+    "admin_label": "Katalog-Filter-Grid"
+  },
+  {
+    "section_type": "contact_block_v1",
+    "anzahl_total": 0,
+    "anzahl_aktiv": 0,
+    "instanzen_top_level": 0,
+    "instanzen_mit_parent": 0,
+    "parents_in_db": [],
+    "allowed_parents": [],
+    "in_renderers": true,
+    "in_contract": true,
+    "klasse": "top_level_renderable",
+    "status": "gruen",
+    "renderer": "CmsBodyRenderer.RENDERERS",
+    "hinweise": [],
+    "admin_label": "Kontaktblock"
+  },
+  {
+    "section_type": "content_v1",
+    "anzahl_total": 216,
+    "anzahl_aktiv": 190,
+    "instanzen_top_level": 216,
+    "instanzen_mit_parent": 0,
+    "parents_in_db": [],
+    "allowed_parents": [],
+    "in_renderers": true,
+    "in_contract": true,
+    "klasse": "top_level_renderable",
+    "status": "gruen",
+    "renderer": "CmsBodyRenderer.RENDERERS",
+    "hinweise": [],
+    "admin_label": "Textblock"
+  },
+  {
+    "section_type": "cta_v1",
+    "anzahl_total": 110,
+    "anzahl_aktiv": 110,
+    "instanzen_top_level": 110,
+    "instanzen_mit_parent": 0,
+    "parents_in_db": [],
+    "allowed_parents": [],
+    "in_renderers": true,
+    "in_contract": true,
+    "klasse": "top_level_renderable",
+    "status": "gruen",
+    "renderer": "CmsBodyRenderer.RENDERERS",
+    "hinweise": [
+      "Zusaetzlich global ueber CmsTailCta gerendert."
+    ],
+    "admin_label": "Call-to-Action"
+  },
+  {
+    "section_type": "download_list_v1",
+    "anzahl_total": 0,
+    "anzahl_aktiv": 0,
+    "instanzen_top_level": 0,
+    "instanzen_mit_parent": 0,
+    "parents_in_db": [],
+    "allowed_parents": [],
+    "in_renderers": true,
+    "in_contract": true,
+    "klasse": "top_level_renderable",
+    "status": "gruen",
+    "renderer": "CmsBodyRenderer.RENDERERS",
+    "hinweise": [],
+    "admin_label": "Download-Liste"
+  },
+  {
+    "section_type": "faq_v1",
+    "anzahl_total": 102,
+    "anzahl_aktiv": 80,
+    "instanzen_top_level": 102,
+    "instanzen_mit_parent": 0,
+    "parents_in_db": [],
+    "allowed_parents": [],
+    "in_renderers": true,
+    "in_contract": true,
+    "klasse": "top_level_renderable",
+    "status": "gruen",
+    "renderer": "CmsBodyRenderer.RENDERERS",
+    "hinweise": [],
+    "admin_label": "FAQ"
+  },
+  {
+    "section_type": "feature_grid_v1",
+    "anzahl_total": 1,
+    "anzahl_aktiv": 1,
+    "instanzen_top_level": 1,
+    "instanzen_mit_parent": 0,
+    "parents_in_db": [],
+    "allowed_parents": [],
+    "in_renderers": true,
+    "in_contract": true,
+    "klasse": "top_level_renderable",
+    "status": "gruen",
+    "renderer": "CmsBodyRenderer.RENDERERS",
+    "hinweise": [],
+    "admin_label": "Iconkarten-Grid"
+  },
+  {
+    "section_type": "hero_v1",
+    "anzahl_total": 92,
+    "anzahl_aktiv": 92,
+    "instanzen_top_level": 92,
+    "instanzen_mit_parent": 0,
+    "parents_in_db": [],
+    "allowed_parents": [],
+    "in_renderers": false,
+    "in_contract": true,
+    "klasse": "layout_skip_registered",
+    "status": "gruen",
+    "renderer": "CmsPageLayout (Page-Hero)",
+    "hinweise": [],
+    "admin_label": "Hero"
+  },
+  {
+    "section_type": "list_v1",
+    "anzahl_total": 24,
+    "anzahl_aktiv": 24,
+    "instanzen_top_level": 24,
+    "instanzen_mit_parent": 0,
+    "parents_in_db": [],
+    "allowed_parents": [],
+    "in_renderers": false,
+    "in_contract": true,
+    "klasse": "bespoke_registered",
+    "status": "gelb",
+    "renderer": "Spezial-/Page-Renderer (kein CmsBodyRenderer-Eintrag)",
+    "hinweise": [
+      "Konsument/Datei/Zweck muss im Vorlagenbereich-Abgleich dokumentiert sein."
+    ],
+    "admin_label": "Liste (Spezial: Referenzprojekte)"
+  },
+  {
+    "section_type": "product_scroller_v1",
+    "anzahl_total": 7,
+    "anzahl_aktiv": 7,
+    "instanzen_top_level": 7,
+    "instanzen_mit_parent": 0,
+    "parents_in_db": [],
+    "allowed_parents": [],
+    "in_renderers": true,
+    "in_contract": true,
+    "klasse": "top_level_renderable",
+    "status": "gruen",
+    "renderer": "CmsBodyRenderer.RENDERERS",
+    "hinweise": [],
+    "admin_label": "Produkt-Scroller (Bildkarten)"
+  },
+  {
+    "section_type": "product_showcase_list_v1",
+    "anzahl_total": 2,
+    "anzahl_aktiv": 2,
+    "instanzen_top_level": 2,
+    "instanzen_mit_parent": 0,
+    "parents_in_db": [],
+    "allowed_parents": [],
+    "in_renderers": true,
+    "in_contract": true,
+    "klasse": "top_level_renderable",
+    "status": "gruen",
+    "renderer": "CmsBodyRenderer.RENDERERS",
+    "hinweise": [],
+    "admin_label": "Produkt-Showcase (gestapelte 2-Spalten-Liste)"
+  },
+  {
+    "section_type": "rich_v1",
+    "anzahl_total": 7,
+    "anzahl_aktiv": 2,
+    "instanzen_top_level": 1,
+    "instanzen_mit_parent": 6,
+    "parents_in_db": [
+      "rich_v1"
+    ],
+    "allowed_parents": [],
+    "in_renderers": true,
+    "in_contract": true,
+    "klasse": "top_level_renderable",
+    "status": "gruen",
+    "renderer": "CmsBodyRenderer.RENDERERS",
+    "hinweise": [],
+    "admin_label": "Rich-Text-Block"
+  },
+  {
+    "section_type": "role_tabs_v1",
+    "anzahl_total": 1,
+    "anzahl_aktiv": 1,
+    "instanzen_top_level": 1,
+    "instanzen_mit_parent": 0,
+    "parents_in_db": [],
+    "allowed_parents": [],
+    "in_renderers": false,
+    "in_contract": true,
+    "klasse": "bespoke_registered",
+    "status": "gelb",
+    "renderer": "Spezial-/Page-Renderer (kein CmsBodyRenderer-Eintrag)",
+    "hinweise": [
+      "Konsument/Datei/Zweck muss im Vorlagenbereich-Abgleich dokumentiert sein."
+    ],
+    "admin_label": "Rollen-Tabs (Spezial: snipdoo IP)"
+  },
+  {
+    "section_type": "series_override_container_v1",
+    "anzahl_total": 1,
+    "anzahl_aktiv": 1,
+    "instanzen_top_level": 1,
+    "instanzen_mit_parent": 0,
+    "parents_in_db": [],
+    "allowed_parents": [],
+    "in_renderers": false,
+    "in_contract": true,
+    "klasse": "data_only",
+    "status": "gelb",
+    "renderer": "(kein UI — reiner Datentraeger)",
+    "hinweise": [
+      "Konsument/Auswertung muss in docs/02-architektur dokumentiert sein."
+    ],
+    "admin_label": "Serien-Override-Container (Spezial: Produktkatalog)"
+  },
+  {
+    "section_type": "series_override_v1",
+    "anzahl_total": 30,
+    "anzahl_aktiv": 30,
+    "instanzen_top_level": 0,
+    "instanzen_mit_parent": 30,
+    "parents_in_db": [
+      "series_override_container_v1"
+    ],
+    "allowed_parents": [
+      "series_override_container_v1"
+    ],
+    "in_renderers": false,
+    "in_contract": true,
+    "klasse": "data_only",
+    "status": "gelb",
+    "renderer": "(kein UI — reiner Datentraeger)",
+    "hinweise": [
+      "Konsument/Auswertung muss in docs/02-architektur dokumentiert sein."
+    ],
+    "admin_label": "Serien-Override (Legacy)"
+  },
+  {
+    "section_type": "stat_v1",
+    "anzahl_total": 32,
+    "anzahl_aktiv": 32,
+    "instanzen_top_level": 0,
+    "instanzen_mit_parent": 32,
+    "parents_in_db": [
+      "stats_v1"
+    ],
+    "allowed_parents": [
+      "stats_v1"
+    ],
+    "in_renderers": false,
+    "in_contract": true,
+    "klasse": "child_only",
+    "status": "gruen",
+    "renderer": "via Eltern: stats_v1",
+    "hinweise": [],
+    "admin_label": "Kennzahl"
+  },
+  {
+    "section_type": "stats_v1",
+    "anzahl_total": 8,
+    "anzahl_aktiv": 8,
+    "instanzen_top_level": 8,
+    "instanzen_mit_parent": 0,
+    "parents_in_db": [],
+    "allowed_parents": [],
+    "in_renderers": true,
+    "in_contract": true,
+    "klasse": "top_level_renderable",
+    "status": "gruen",
+    "renderer": "CmsBodyRenderer.RENDERERS",
+    "hinweise": [],
+    "admin_label": "Kennzahlen-Container"
+  },
+  {
+    "section_type": "tab_v1",
+    "anzahl_total": 4,
+    "anzahl_aktiv": 4,
+    "instanzen_top_level": 0,
+    "instanzen_mit_parent": 4,
+    "parents_in_db": [
+      "tabs_v1"
+    ],
+    "allowed_parents": [
+      "tabs_v1"
+    ],
+    "in_renderers": false,
+    "in_contract": true,
+    "klasse": "child_only",
+    "status": "gruen",
+    "renderer": "via Eltern: tabs_v1",
+    "hinweise": [],
+    "admin_label": "Tab (Kind von tabs_v1)"
+  },
+  {
+    "section_type": "tabs_v1",
+    "anzahl_total": 1,
+    "anzahl_aktiv": 1,
+    "instanzen_top_level": 1,
+    "instanzen_mit_parent": 0,
+    "parents_in_db": [],
+    "allowed_parents": [],
+    "in_renderers": true,
+    "in_contract": true,
+    "klasse": "top_level_renderable",
+    "status": "gruen",
+    "renderer": "CmsBodyRenderer.RENDERERS",
+    "hinweise": [],
+    "admin_label": "Tabs"
+  },
+  {
+    "section_type": "teaser_2col_v1",
+    "anzahl_total": 67,
+    "anzahl_aktiv": 67,
+    "instanzen_top_level": 67,
+    "instanzen_mit_parent": 0,
+    "parents_in_db": [],
+    "allowed_parents": [],
+    "in_renderers": true,
+    "in_contract": true,
+    "klasse": "top_level_renderable",
+    "status": "gruen",
+    "renderer": "CmsBodyRenderer.RENDERERS",
+    "hinweise": [],
+    "admin_label": "Wechselteaser (2 Spalten)"
+  }
+]

@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "namespace": "presse",
+    "status": "migrated",
+    "note": "Seitentexte der Presse-Seite (Etappe 16a)."
+  },
+  "hero": {
+    "label": "News",
+    "headline": "News & Medien",
+    "intro": "Neuigkeiten und Informationen für Medienvertreter."
+  },
+  "releases": {
+    "title": "Pressemitteilungen",
+    "downloadPdf": "PDF herunterladen",
+    "categories": {
+      "produkt": "Produkt",
+      "messe": "Messe",
+      "unternehmen": "Unternehmen"
+    },
+    "items": {
+      "bcm2025": {
+        "date": "15. März 2025",
+        "title": "TCS stellt neue BCM-Softwareversion mit erweiterter Gebäudemanagement-Funktionalität vor"
+      },
+      "lightBuilding2025": {
+        "date": "22. Januar 2025",
+        "title": "TCS auf der light + building 2025: Intelligente Eingangssysteme im Fokus"
+      },
+      "rekordumsatz2024": {
+        "date": "10. Dezember 2024",
+        "title": "TCS AG erzielt Rekordumsatz und baut Produktionskapazitäten in Harsefeld aus"
+      },
+      "appleHomeKey": {
+        "date": "5. November 2024",
+        "title": "Neue Partnerschaft: TCS integriert Apple Home Key in die Zutrittskontrolle"
+      },
+      "akademie2024": {
+        "date": "18. September 2024",
+        "title": "TCS Akademie startet erweitertes Schulungsprogramm für Elektrofachbetriebe"
+      }
+    }
+  },
+  "pressContact": {
+    "title": "Pressekontakt",
+    "intro": "Für Presseanfragen, Bildmaterial und Interviewwünsche steht Ihnen unsere Unternehmenskommunikation gerne zur Verfügung.",
+    "name": "TCS AG – Unternehmenskommunikation",
+    "address": "Geschwister-Scholl-Str. 7, 21698 Harsefeld",
+    "downloadKit": "Pressekit herunterladen (ZIP)"
+  }
+}

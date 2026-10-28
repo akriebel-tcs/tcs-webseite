@@ -1,0 +1,325 @@
+{
+  "_meta": {
+    "note": "Alleen bedieningsteksten (UI-microcopy) van de productcatalogus in het Nederlands. Redactionele pagina-inhoud komt uit CMS-Light."
+  },
+  "katalog": {
+    "hero": {
+      "label": "Service",
+      "headline": "Online productcatalogus",
+      "intro": "Gestructureerde toegang tot TCS-producten, productgegevens en datasheets met BMEcat voor professionals en handelspartners."
+    },
+    "access": {
+      "label": "Producttoegang",
+      "headline": "Producten vinden",
+      "intro": "Catalogus, productzoeker, series en stamgegevens voor een directe productkeuze.",
+      "items": {
+        "katalog": {
+          "title": "Online productcatalogus",
+          "description": "Gestructureerde toegang tot TCS-producten met BMEcat en technische gegevens.",
+          "linkLabel": "In voorbereiding"
+        },
+        "finder": {
+          "title": "Productzoeker",
+          "description": "Stap voor stap selecteren op toepassing en technische eisen.",
+          "linkLabel": "In voorbereiding"
+        },
+        "serien": {
+          "title": "Series",
+          "description": "Overzicht van de TCS-productseries voor buiten- en binnenposten.",
+          "linkLabel": "In voorbereiding"
+        },
+        "stammdaten": {
+          "title": "Productgegevens en BMEcat",
+          "description": "Stamgegevens van producten en het BMEcat-pakket voor groothandel en ERP-integratie.",
+          "linkLabel": "In voorbereiding"
+        }
+      }
+    },
+    "hinweis": {
+      "label": "Opmerking",
+      "headline": "De catalogus wordt aangesloten",
+      "text": "De eigenlijke online catalogus wordt in een latere stap als apart startpunt aangesloten. Deze pagina bundelt nu al de ingangen naar de producten en blijft de directe verwijzing uit de servicenavigatie."
+    },
+    "mvp": {
+      "label": "Catalogustest",
+      "headline": "Producten uit de TCS-database",
+      "intro": "Eerste technische stap van de catalogusintegratie. De gegevens worden alleen-lezen uit de centrale TCS-productdatabase geladen.",
+      "status": {
+        "loading": "Producten worden geladen …",
+        "error": "De producten konden niet worden geladen.",
+        "count": "{{count}} producten geladen",
+        "contextOk": "Cataloguscontext correct geïnitialiseerd"
+      },
+      "errorBox": {
+        "headline": "Laden mislukt",
+        "text": "De productdatabase heeft het verzoek niet beantwoord. Technische gegevens:",
+        "stale": "Bijwerken mislukt. Resultaten van de vorige geslaagde laadactie worden weergegeven; ze passen mogelijk niet bij de huidige taal, categorie of filters.",
+        "previous": "De nieuwe selectie wordt geladen. Tot die tijd blijven eerdere resultaten zichtbaar; ze passen mogelijk niet bij de huidige selectie."
+      },
+      "empty": {
+        "headline": "Geen producten gevonden",
+        "text": "De productlijst is momenteel leeg of nog niet vrijgegeven."
+      },
+      "card": {
+        "artikelNr": "Artikelnr."
+      }
+    },
+    "target": {
+      "headline": "Productcatalogus",
+      "subline": {
+        "loading": "Producten worden geladen …",
+        "count": "{{count}} artikelen – kies een categorie of doorzoek de catalogus",
+        "count_one": "{{count}} artikel – kies een categorie of doorzoek de catalogus"
+      },
+      "search": {
+        "placeholder": "Zoek op artikelnummer, naam of omschrijving …",
+        "aria": "Producten zoeken",
+        "clear": "Zoekopdracht wissen"
+      },
+      "chips": {
+        "all": "Alle"
+      },
+      "results": {
+        "count": "{{shown}} van {{total}} producten",
+        "count_one": "{{shown}} van {{total}} producten"
+      },
+      "sort": {
+        "label": "Sortering:",
+        "options": {
+          "default": "Standaard",
+          "artikel_nr_asc": "Artikelnr. oplopend",
+          "price_asc": "Prijs oplopend",
+          "price_desc": "Prijs aflopend"
+        }
+      },
+      "start": {
+        "headline": "Waarmee wilt u beginnen?",
+        "text": "Kies een categorie, stel een filter in of zoek op artikelnummer of productnaam."
+      },
+      "selection": {
+        "reset": "Selectie wissen"
+      },
+      "seriesGate": {
+        "counter": "— kies een serie",
+        "hint": "Kies een serie om filters en producten te zien.",
+        "filterAria": "Seriefilter"
+      },
+      "merkliste": {
+        "label": "Favorieten ({{count}})"
+      },
+      "chooseCategory": "Kies een categorie om te beginnen."
+    },
+    "filters": {
+      "groups": {
+        "system_typ": {
+          "label": "Systeem",
+          "all": "Alle"
+        },
+        "paket_klasse": {
+          "label": "Pakketklasse",
+          "all": "Alle"
+        },
+        "montageart": {
+          "label": "Montage",
+          "all": "Alle"
+        },
+        "wohneinheiten": {
+          "label": "Wooneenheden",
+          "all": "Alle"
+        },
+        "ip_gateway": {
+          "label": "IP",
+          "all": "Alle",
+          "yes": "Ja",
+          "no": "Nee"
+        }
+      },
+      "bool": {
+        "yes": "Ja",
+        "no": "Nee"
+      },
+      "color": "Kleur",
+      "series": "Serie",
+      "reset": "Wissen",
+      "status": {
+        "loading": "Filters worden geladen …",
+        "error": "Filters konden niet worden geladen.",
+        "retry": "Opnieuw proberen"
+      }
+    },
+    "v2": {
+      "status": {
+        "presetUsed": "Kolomindeling uit sjabloon „{{preset}}”",
+        "fallbackActive": "Vereenvoudigde weergave – kolomindeling kon niet worden bepaald"
+      },
+      "filters": {
+        "headline": "Filters",
+        "reset": "Filters wissen",
+        "allOption": "Alle"
+      },
+      "fallback": {
+        "text": "Sjabloon „{{preset}}” is niet in de database gevonden. Zolang het niet is ingericht, worden de producten in een vereenvoudigde weergave zonder detailkolommen getoond.",
+        "columnsMissing": "Sjabloon „{{preset}}” is gevonden, maar heeft geen kolommen in „column_preset_columns”. Tot de toewijzing is aangevuld, worden de producten vereenvoudigd weergegeven."
+      },
+      "card": {
+        "yes": "Ja",
+        "imageAvailable": "Afbeelding beschikbaar",
+        "imageAvailableCount": "{{count}} afbeelding beschikbaar",
+        "imageAvailableCount_other": "{{count}} afbeeldingen beschikbaar",
+        "openDetails": "Details bekijken",
+        "openDetailsAria": "Details van product „{{title}}” bekijken",
+        "fieldLabels": {
+          "system_typ": "Systeemtype",
+          "paket_klasse": "Pakketklasse",
+          "montageart": "Montagewijze",
+          "wohneinheiten": "Wooneenheden",
+          "ip_gateway": "IP-gateway"
+        }
+      }
+    },
+    "pdp": {
+      "hero": {
+        "label": "Productdetails",
+        "fallbackHeadline": "Productpagina",
+        "fallbackIntro": "Productinformatie uit de TCS-database."
+      },
+      "back": "Terug naar de catalogus",
+      "sections": {
+        "details": "Productdetails",
+        "features": "Kenmerken",
+        "specs": "Technische gegevens",
+        "info": "Productinformatie",
+        "documents": "Documenten en handleidingen",
+        "ausschreibung": "Bestekstekst",
+        "paketKomponenten": "Pakketonderdelen",
+        "lieferumfang": "Leveringsomvang",
+        "produktinformationen": "Productinformatie",
+        "technischeDatenFeatures": "Technische kenmerken"
+      },
+      "summary": {
+        "deliveryTime": "Levertijd",
+        "warranty": "Garantie",
+        "warrantyValue": "{{count}} maanden"
+      },
+      "info": {
+        "cols": {
+          "description": "Omschrijving",
+          "artikelNr": "Artikelnr.",
+          "price": "Prijs/stuk"
+        }
+      },
+      "inquiry": {
+        "label": "Product aanvragen"
+      },
+      "empty": {
+        "images": "Voor dit product zijn momenteel geen afbeeldingen beschikbaar.",
+        "documents": "Voor dit product zijn momenteel geen documenten beschikbaar."
+      },
+      "notFound": {
+        "headline": "Product niet gevonden",
+        "text": "Dit product kon niet eenduidig uit de catalogus worden geladen.",
+        "devHeadline": "Diagnose – adresherkenning"
+      },
+      "errorBox": {
+        "headline": "Productpagina kon niet worden geladen",
+        "text": "De verbinding met de productdatabase is mislukt of de configuratie ontbreekt."
+      },
+      "paket": {
+        "cols": {
+          "anzahl": "Aantal",
+          "rolle": "Rol",
+          "title": "Omschrijving",
+          "artikelNr": "Artikelnr."
+        }
+      },
+      "datasheet": {
+        "title": "Datablad",
+        "open": "Datablad bekijken",
+        "print": "Afdrukken",
+        "close": "Sluiten",
+        "empty": "Voor dit product is momenteel geen datablad beschikbaar.",
+        "price": "Prijs",
+        "contents": "Pakketinhoud",
+        "features": "Kenmerken",
+        "printPreparing": "Afdruk wordt voorbereid …",
+        "printFailed": "De afdruk kon niet worden voorbereid (afbeeldingen of lettertypen waren niet tijdig gereed). Probeer het opnieuw.",
+        "retry": "Opnieuw proberen",
+        "brand": {
+          "missing": "Er is geen merkprofiel vastgelegd, daarom kan er niet worden afgedrukt.",
+          "inactive": "Het merkprofiel is momenteel niet actief, daarom kan er niet worden afgedrukt.",
+          "mismatch": "Er is een ander merkprofiel geleverd. Uit veiligheidsoverwegingen wordt niet afgedrukt.",
+          "unconfigured": "De productverbinding is niet ingesteld. Het merkprofiel kon niet worden gelezen.",
+          "error": "Het merkprofiel kon niet worden gelezen.",
+          "templateMissing": "Het merkprofiel noemt geen datablad-sjabloon, daarom wordt het datablad niet weergegeven of afgedrukt.",
+          "templateUnsupported": "Het in het merkprofiel genoemde datablad-sjabloon wordt hier niet ondersteund, daarom wordt het datablad niet weergegeven of afgedrukt."
+        }
+      },
+      "documents": {
+        "categories": {
+          "bedienungsanleitung": "Gebruikershandleiding",
+          "datenblatt": "Datablad",
+          "montageanleitung": "Montagehandleiding",
+          "produktinfo": "Productinformatie",
+          "schaltplan": "Schakelschema"
+        }
+      }
+    },
+    "diagnostics": {
+      "headline": "Databasediagnose",
+      "states": {
+        "notConfigured": "Database is niet geconfigureerd",
+        "wrongProject": "Database verbonden, maar verkeerd project",
+        "rpcUnavailable": "De cataloguscontextservice is niet bereikbaar",
+        "viewUnreachable": "De databaseweergave is niet bereikbaar",
+        "emptyOrBlocked": "Database bereikbaar, maar de productlijst is leeg of niet vrijgegeven",
+        "presetMissing": "Instelling „{{preset}}” niet in de database gevonden",
+        "presetColumnsMissing": "Instelling „{{preset}}” gevonden, maar zonder kolomtoewijzing",
+        "ok": "Cataloguscontext correct geïnitialiseerd"
+      },
+      "labels": {
+        "supabaseConfigured": "Database geconfigureerd",
+        "urlPresent": "Databaseadres ingesteld",
+        "projectMatch": "Project komt overeen met „{{expected}}”",
+        "rpc": "RPC rpc_get_catalog_context()",
+        "productCatalogView": "Weergave product_catalog_view",
+        "productCatalogViewRows": "product_catalog_view bevat rijen",
+        "columnPresets": "Tabel column_presets",
+        "columnPresetsCount": "Geladen instellingen",
+        "productColumnDefinitions": "Tabel product_column_definitions",
+        "productFilterOptionsView": "RPC rpc_get_localized_filter_options",
+        "publicCatalogPreset": "Instelling „{{preset}}” gevonden"
+      },
+      "values": {
+        "yes": "Ja",
+        "no": "Nee",
+        "skipped": "overgeslagen",
+        "unknown": "onbekend"
+      }
+    },
+    "merkliste": {
+      "title": "Favorieten",
+      "intro": "Vergelijk tot {{max}} producten en vraag ze samen aan.",
+      "backToCatalog": "Terug naar de catalogus",
+      "emptyTitle": "Geen opgeslagen producten",
+      "emptyHint": "Open een product in de catalogus en kies „Aan favorieten toevoegen”.",
+      "toCatalog": "Naar de productcatalogus",
+      "compareShow": "Producten vergelijken",
+      "compareHide": "Vergelijking verbergen",
+      "inquiry": "Producten aanvragen",
+      "clear": "Favorieten wissen",
+      "minTwo": "Voor een vergelijking zijn minimaal 2 producten nodig.",
+      "compareHeading": "Technische vergelijking",
+      "loadingSpecs": "Technische gegevens worden geladen…",
+      "noSpecs": "Voor de opgeslagen producten zijn geen vergelijkbare technische gegevens beschikbaar.",
+      "feature": "Kenmerk",
+      "removeItem": "{{artikel}} verwijderen",
+      "add": "Aan favorieten toevoegen",
+      "removeLabel": "Uit favorieten verwijderen",
+      "toastAdded": "Aan favorieten toegevoegd",
+      "toastRemoved": "Uit favorieten verwijderd",
+      "toastFull": "Er kunnen maximaal {{max}} producten worden vergeleken.",
+      "inquireProduct": "Dit product aanvragen",
+      "back": "Terug"
+    }
+  }
+}

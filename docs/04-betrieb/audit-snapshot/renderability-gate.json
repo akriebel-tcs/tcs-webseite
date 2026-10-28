@@ -1,0 +1,3122 @@
+{
+  "generated_at": "2026-09-14T16:14:38.148Z",
+  "contract_source": "src/features/cms/contract/renderability.ts",
+  "sql_mirror": "public.cms_section_renderability",
+  "total_active_with_contract": 1645,
+  "out_of_scope_count": 52,
+  "out_of_scope": [
+    {
+      "page_key": "anwendungen.behoerde",
+      "section_key": "broschure",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "anwendungen.behoerde",
+      "section_key": "content",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "anwendungen.behoerde",
+      "section_key": "leistungen",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "anwendungen.behoerde",
+      "section_key": "systembausteine",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "anwendungen.concierge",
+      "section_key": "broschure",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "anwendungen.concierge",
+      "section_key": "content",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "anwendungen.concierge",
+      "section_key": "leistungen",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "anwendungen.concierge",
+      "section_key": "systembausteine",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "anwendungen.digitale-namensverwaltung",
+      "section_key": "broschure",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "anwendungen.digitale-namensverwaltung",
+      "section_key": "content",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "anwendungen.digitale-namensverwaltung",
+      "section_key": "leistungen",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "anwendungen.digitale-namensverwaltung",
+      "section_key": "systembausteine",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "anwendungen.einfamilienhaus",
+      "section_key": "leistungen",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "anwendungen.feuerwehr",
+      "section_key": "broschure",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "anwendungen.feuerwehr",
+      "section_key": "content",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "anwendungen.feuerwehr",
+      "section_key": "leistungen",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "anwendungen.feuerwehr",
+      "section_key": "systembausteine",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "anwendungen.feuerwehrdurchsage",
+      "section_key": "broschure",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "anwendungen.feuerwehrdurchsage",
+      "section_key": "content",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "anwendungen.feuerwehrdurchsage",
+      "section_key": "leistungen",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "anwendungen.feuerwehrdurchsage",
+      "section_key": "systembausteine",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "anwendungen.grossanlage",
+      "section_key": "content",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "anwendungen.grossanlage",
+      "section_key": "leistungen",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "anwendungen.grossanlage",
+      "section_key": "systembausteine",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "anwendungen.kindertagesstaetten",
+      "section_key": "content",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "anwendungen.kindertagesstaetten",
+      "section_key": "leistungen",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "anwendungen.kindertagesstaetten",
+      "section_key": "systembausteine",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "anwendungen.klinik",
+      "section_key": "broschure",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "anwendungen.klinik",
+      "section_key": "content",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "anwendungen.klinik",
+      "section_key": "leistungen",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "anwendungen.klinik",
+      "section_key": "systembausteine",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "anwendungen.mehrfamilienhaus",
+      "section_key": "content",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "anwendungen.mehrfamilienhaus",
+      "section_key": "leistungen",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "anwendungen.mobile-tuerkommunikation",
+      "section_key": "content",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "anwendungen.mobile-tuerkommunikation",
+      "section_key": "leistungen",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "anwendungen.mobile-tuerkommunikation",
+      "section_key": "systembausteine",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "anwendungen.objektloesungen",
+      "section_key": "content",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "anwendungen.pflege",
+      "section_key": "broschure",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "anwendungen.pflege",
+      "section_key": "content",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "anwendungen.pflege",
+      "section_key": "leistungen",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "anwendungen.pflege",
+      "section_key": "systembausteine",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "anwendungen.sanierung",
+      "section_key": "content",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "anwendungen.sanierung",
+      "section_key": "leistungen",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "anwendungen.sanierung",
+      "section_key": "systembausteine",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "anwendungen.schule",
+      "section_key": "content",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "anwendungen.schule",
+      "section_key": "systembausteine",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "anwendungen.schwimmbad",
+      "section_key": "broschure",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "anwendungen.schwimmbad",
+      "section_key": "content",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "anwendungen.schwimmbad",
+      "section_key": "leistungen",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "anwendungen.schwimmbad",
+      "section_key": "systembausteine",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "anwendungen.wohnheim",
+      "section_key": "content",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "anwendungen.wohnheim",
+      "section_key": "systembausteine",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    }
+  ],
+  "baseline_known": 102,
+  "baseline_still_present": 70,
+  "baseline_resolved": 32,
+  "new_findings_count": 4,
+  "new_findings": [
+    {
+      "page_key": "legal.agbEinkauf",
+      "section_key": "standard_cta",
+      "section_type": "cta_v1",
+      "canonical_type": "cta_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_field",
+          "field_keys": [
+            "title"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_field",
+          "field_keys": [
+            "title"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "legal.datenschutzSnipdoo",
+      "section_key": "standard_cta",
+      "section_type": "cta_v1",
+      "canonical_type": "cta_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_field",
+          "field_keys": [
+            "title"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_field",
+          "field_keys": [
+            "title"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "legal.einwilligung",
+      "section_key": "standard_cta",
+      "section_type": "cta_v1",
+      "canonical_type": "cta_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_field",
+          "field_keys": [
+            "title"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_field",
+          "field_keys": [
+            "title"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "legal.garantiebedingungen",
+      "section_key": "standard_cta",
+      "section_type": "cta_v1",
+      "canonical_type": "cta_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_field",
+          "field_keys": [
+            "title"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_field",
+          "field_keys": [
+            "title"
+          ]
+        }
+      ]
+    }
+  ],
+  "all_findings_count": 74,
+  "all_findings": [
+    {
+      "page_key": "anwendungen.referenzprojekte.campus-westend",
+      "section_key": "gallery",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "anwendungen.referenzprojekte.fritztower",
+      "section_key": "gallery",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "anwendungen.referenzprojekte.haupttelegraphenamt",
+      "section_key": "gallery",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "anwendungen.referenzprojekte.klinikum-sued",
+      "section_key": "gallery",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "anwendungen.referenzprojekte.luisenpark-residenz",
+      "section_key": "gallery",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "anwendungen.referenzprojekte.pulse-berlin",
+      "section_key": "gallery",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "anwendungen.referenzprojekte.quartier-heidestrasse",
+      "section_key": "gallery",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "anwendungen.referenzprojekte.rathaus-neustadt",
+      "section_key": "gallery",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "anwendungen.referenzprojekte.seniorenresidenz-am-park",
+      "section_key": "gallery",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "anwendungen.referenzprojekte.spichern-2",
+      "section_key": "gallery",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "anwendungen.referenzprojekte.thulestrasse",
+      "section_key": "gallery",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "anwendungen.referenzprojekte.weidt-park-corner",
+      "section_key": "gallery",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "eingangssysteme.beratung",
+      "section_key": "nav",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "eingangssysteme.beratung",
+      "section_key": "topics",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "eingangssysteme.design",
+      "section_key": "nav",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "eingangssysteme.funktionalitaet",
+      "section_key": "nav",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "eingangssysteme.integrationsformen",
+      "section_key": "nav",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "eingangssysteme.material",
+      "section_key": "nav",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "eingangssysteme.referenzen",
+      "section_key": "items",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "eingangssysteme.referenzen",
+      "section_key": "labels",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "eingangssysteme.referenzen",
+      "section_key": "nav",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "eingangssysteme.standards",
+      "section_key": "nav",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "gebaeudekommunikation.snipdoo-ip",
+      "section_key": "subnav",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "gebaeudemanagement.bcm-buchungssystem",
+      "section_key": "hero",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "gebaeudemanagement.bcm-infoboard",
+      "section_key": "hero",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "gebaeudemanagement.digitale-namensanzeige",
+      "section_key": "subnav",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "gebaeudemanagement.schraenke-behaelter",
+      "section_key": "subnav",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "home.start",
+      "section_key": "content_blocks_intro",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "home.ueber-tcs",
+      "section_key": "history",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "kontakt-bcm.root",
+      "section_key": "cards",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "kontakt-bcm.root",
+      "section_key": "form",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "kontakt-bcm.root",
+      "section_key": "sections",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "legal.agbEinkauf",
+      "section_key": "standard_cta",
+      "section_type": "cta_v1",
+      "canonical_type": "cta_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_field",
+          "field_keys": [
+            "title"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_field",
+          "field_keys": [
+            "title"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "legal.datenschutzSnipdoo",
+      "section_key": "standard_cta",
+      "section_type": "cta_v1",
+      "canonical_type": "cta_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_field",
+          "field_keys": [
+            "title"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_field",
+          "field_keys": [
+            "title"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "legal.einwilligung",
+      "section_key": "standard_cta",
+      "section_type": "cta_v1",
+      "canonical_type": "cta_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_field",
+          "field_keys": [
+            "title"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_field",
+          "field_keys": [
+            "title"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "legal.garantiebedingungen",
+      "section_key": "standard_cta",
+      "section_type": "cta_v1",
+      "canonical_type": "cta_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_field",
+          "field_keys": [
+            "title"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_field",
+          "field_keys": [
+            "title"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "mobile-tk-preview.root",
+      "section_key": "a11y",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "mobile-tk-preview.root",
+      "section_key": "subnav",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "personas.architekt",
+      "section_key": "solutions",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "personas.architekt.kopie",
+      "section_key": "cases",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "personas.architekt.kopie",
+      "section_key": "highlights",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "personas.architekt.kopie",
+      "section_key": "solutions",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "personas.architekt.kopie",
+      "section_key": "stats",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "personas.bauherr",
+      "section_key": "solutions",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "personas.fachhandel",
+      "section_key": "solutions",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "personas.fachplaner",
+      "section_key": "solutions",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "personas.handwerk",
+      "section_key": "solutions",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "service.downloads",
+      "section_key": "dokumente",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "service.ersatzteile",
+      "section_key": "beschriftung",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "service.ersatzteile",
+      "section_key": "freischaltcodes",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "service.online-produktkatalog",
+      "section_key": "diagnostics",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "service.online-produktkatalog",
+      "section_key": "filters",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "service.online-produktkatalog",
+      "section_key": "mvp",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "service.online-produktkatalog",
+      "section_key": "pdp",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "service.online-produktkatalog",
+      "section_key": "target",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "service.online-produktkatalog",
+      "section_key": "v2",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "service.planen-konfigurieren",
+      "section_key": "anlagenplaner",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "service.planen-konfigurieren",
+      "section_key": "hoai",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "service.technischer-support",
+      "section_key": "ansprechpartner",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "serviceportal.login",
+      "section_key": "content",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "serviceportal.passwort-vergessen",
+      "section_key": "content",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "serviceportal.registrieren",
+      "section_key": "content",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "zutrittskontrolle.aussenstation-adx5",
+      "section_key": "hero",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "zutrittskontrolle.bcm-door-app",
+      "section_key": "hero",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "zutrittskontrolle.bcm-mini-cloud",
+      "section_key": "hero",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "zutrittskontrolle.digitale-briefkasten",
+      "section_key": "hero",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "zutrittskontrolle.gsm-gateway",
+      "section_key": "hero",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "zutrittskontrolle.mobiler-zutritt",
+      "section_key": "submenu",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "zutrittskontrolle.schrankschloss",
+      "section_key": "hero",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "zutrittskontrolle.serverschrankschloss",
+      "section_key": "hero",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "zutrittskontrolle.tueren-tore",
+      "section_key": "submenu",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "zutrittskontrolle.zufahrten-parkplaetze",
+      "section_key": "submenu",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "zutrittskontrolle.zufahrtskontrolle",
+      "section_key": "hero",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "page_key": "zutrittskontrolle.zutrittssoftware",
+      "section_key": "hero",
+      "section_type": "content_v1",
+      "canonical_type": "content_v1",
+      "missing": [
+        {
+          "locale": "de",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        },
+        {
+          "locale": "en",
+          "reason": "missing_required_any_of",
+          "field_keys": [
+            "title",
+            "text"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,959 @@
+{
+  "generated_at": "2026-09-05T15:38:56.678Z",
+  "summary": {
+    "total_pages_with_faq": 105,
+    "active_sections": 87,
+    "inactive_sections": 18,
+    "total_items": 548,
+    "items_with_toggle": 548,
+    "items_missing_toggle": 0,
+    "pages_without_section_whitelist": 105
+  },
+  "rows": [
+    {
+      "page_key": "anwendungen.behoerde",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "anwendungen.bidirektionale-video",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "anwendungen.bildungseinrichtungen",
+      "section_key": "faq",
+      "is_active": false,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "anwendungen.concierge",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "anwendungen.digitale-namensverwaltung",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "anwendungen.einfamilienhaus",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "anwendungen.feuerwehr",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "anwendungen.feuerwehrdurchsage",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "anwendungen.gesundheitseinrichtungen",
+      "section_key": "faq",
+      "is_active": false,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "anwendungen.grossanlage",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "anwendungen.interne-kommunikation",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "anwendungen.kindertagesstaetten",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "anwendungen.klinik",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "anwendungen.mehrfamilienhaus",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "anwendungen.mobile-tuerkommunikation",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "anwendungen.objektloesungen",
+      "section_key": "faq",
+      "is_active": false,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "anwendungen.oeffentliche-hand",
+      "section_key": "faq",
+      "is_active": false,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "anwendungen.pflege",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "anwendungen.referenzprojekte",
+      "section_key": "faq",
+      "is_active": false,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "anwendungen.referenzprojekte.campus-westend",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "anwendungen.referenzprojekte.fritztower",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "anwendungen.referenzprojekte.haupttelegraphenamt",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "anwendungen.referenzprojekte.klinikum-sued",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "anwendungen.referenzprojekte.luisenpark-residenz",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "anwendungen.referenzprojekte.pulse-berlin",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "anwendungen.referenzprojekte.quartier-heidestrasse",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "anwendungen.referenzprojekte.rathaus-neustadt",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "anwendungen.referenzprojekte.seniorenresidenz-am-park",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "anwendungen.referenzprojekte.spichern-2",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "anwendungen.referenzprojekte.thulestrasse",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "anwendungen.referenzprojekte.weidt-park-corner",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "anwendungen.root",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "anwendungen.sanierung",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "anwendungen.schule",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "anwendungen.schwimmbad",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "anwendungen.wohnbau",
+      "section_key": "faq",
+      "is_active": false,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "anwendungen.wohnheim",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "anwendungen.zutrittskontrolle-bcm",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "eingangssysteme.beratung",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "eingangssysteme.design",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "eingangssysteme.funktionalitaet",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "eingangssysteme.integrationsformen",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "eingangssysteme.material",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "eingangssysteme.referenzen",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "eingangssysteme.root",
+      "section_key": "faq",
+      "is_active": false,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "eingangssysteme.standards",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "gebaeudekommunikation.beschilderung",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "gebaeudekommunikation.briefkastenanlagen",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "gebaeudekommunikation.grossanlagen",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "gebaeudekommunikation.root",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "gebaeudekommunikation.snipdoo-ip",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "gebaeudekommunikation.systemloesungen",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "gebaeudekommunikation.tuersprechanlagen",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "gebaeudemanagement.alarmanlagenkopplung",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "gebaeudemanagement.bcm-buchungssystem",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "gebaeudemanagement.bcm-infoboard",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "gebaeudemanagement.digital-signage",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "gebaeudemanagement.digitale-namensanzeige",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "gebaeudemanagement.reservieren-buchen",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "gebaeudemanagement.root",
+      "section_key": "faq",
+      "is_active": false,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "gebaeudemanagement.schraenke-behaelter",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "mobile-tk-preview.root",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "personas.architekt",
+      "section_key": "faq",
+      "is_active": false,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "personas.bauherr",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "personas.fachhandel",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "personas.fachplaner",
+      "section_key": "faq",
+      "is_active": false,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "personas.handwerk",
+      "section_key": "faq",
+      "is_active": false,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "personas.wohnungswirtschaft",
+      "section_key": "faq",
+      "is_active": false,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "produkte.eingangsloesungen",
+      "section_key": "faq",
+      "is_active": false,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "produkte.tuerkommunikation",
+      "section_key": "faq",
+      "is_active": false,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "produkte.zutrittskontrolle",
+      "section_key": "faq",
+      "is_active": false,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "service.beratung-schulung",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "service.datenblaetter-software",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "service.downloads",
+      "section_key": "faq",
+      "is_active": false,
+      "items": 23,
+      "items_with_toggle": 23,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "service.ersatzteile",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "service.garantie-sicherheit",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "service.installation-wartung",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "service.konfiguratoren",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "service.online-produktkatalog",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "service.planen-konfigurieren",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "service.planungshilfen",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "service.technischer-support",
+      "section_key": "faq",
+      "is_active": false,
+      "items": 10,
+      "items_with_toggle": 10,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "signage.root",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "wissen.akademie",
+      "section_key": "faq",
+      "is_active": false,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "zutrittskontrolle.aussenstation-adx5",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "zutrittskontrolle.bcm-door-app",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "zutrittskontrolle.bcm-handsender",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "zutrittskontrolle.bcm-mini-cloud",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "zutrittskontrolle.bcm-online-leser",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "zutrittskontrolle.biometrie",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "zutrittskontrolle.digitale-briefkasten",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "zutrittskontrolle.elektronische-drueckergarnitur",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "zutrittskontrolle.elektronischer-knaufzylinder",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "zutrittskontrolle.fahrstuhlsteuerung",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "zutrittskontrolle.funkvernetzte-offline-leser",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "zutrittskontrolle.gsm-gateway",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "zutrittskontrolle.mobiler-zutritt",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "zutrittskontrolle.root",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "zutrittskontrolle.schrankschloss",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "zutrittskontrolle.serverschrankschloss",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "zutrittskontrolle.tueren-tore",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "zutrittskontrolle.vorhaengeschloss",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "zutrittskontrolle.zufahrten-parkplaetze",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "zutrittskontrolle.zufahrtskontrolle",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    },
+    {
+      "page_key": "zutrittskontrolle.zutrittssoftware",
+      "section_key": "faq",
+      "is_active": true,
+      "items": 5,
+      "items_with_toggle": 5,
+      "items_missing_toggle": 0,
+      "section_whitelisted": false
+    }
+  ]
+}

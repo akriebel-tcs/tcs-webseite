@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "status": "in-progress",
+    "note": "Stage doc-legal-base-2: Actual technical creation of legal pages. Content is under editorial review; final legal texts will be published after approval."
+  },
+  "common": {
+    "draftBadge": "Under editorial review",
+    "draftIntro": "This page has been technically created. The final legal content is currently being reviewed editorially and legally and will be published after approval.",
+    "contactCtaIntro": "Until the full texts are published, you can reach us via our contact form for any questions.",
+    "contactCtaButton": "Get in touch"
+  },
+  "seiten": {
+    "impressum": {
+      "label": "Legal",
+      "headline": "Imprint",
+      "intro": "Information according to the statutory requirements for provider identification."
+    },
+    "datenschutz": {
+      "label": "Legal",
+      "headline": "Privacy policy",
+      "intro": "Information about the processing of personal data on this website."
+    },
+    "agb": {
+      "label": "Legal",
+      "headline": "Terms and conditions",
+      "intro": "Terms governing the use of our services and deliveries."
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "_doc": "Mapping Quellkey → DB-node_key. Hand-curated. Wird vom diff-report und apply-snapshot benutzt.",
+
+  "node_key": {
+    "produkte": "produkte",
+    "produkte.katalog": "produkte.katalog",
+
+    "gebaeudekommunikation": "gebaeudekommunikation",
+    "gebaeudekommunikation.tuersprechanlagen": "gk.tuersprechanlagen",
+    "gebaeudekommunikation.briefkastenanlagen": "gk.briefkastenanlagen",
+    "gebaeudekommunikation.beschilderung": "gk.beschilderung",
+    "gebaeudekommunikation.grossanlagen": "gk.grossanlagen",
+    "gebaeudekommunikation.systemloesungen": "gk.zusatzfunktionen",
+
+    "zutrittskontrolle": "zutrittskontrolle",
+    "zutrittskontrolle.tueren-tore": "zk.tueren-tore",
+    "zutrittskontrolle.mobiler-zutritt": "zk.mobiler-zutritt",
+    "zutrittskontrolle.fahrstuhl": "zk.fahrstuhl",
+    "zutrittskontrolle.zufahrten": "zk.zufahrten",
+
+    "gebaeudemanagement": "gebaeudemanagement",
+    "gebaeudemanagement.namensanzeige": "gm.namensanzeige",
+    "gebaeudemanagement.schraenke": "gm.schraenke",
+    "gebaeudemanagement.signage": "gm.signage",
+    "gebaeudemanagement.reservieren": "gm.reservieren",
+    "gebaeudemanagement.alarm": "gm.alarm",
+
+    "eingangssysteme": "eingangssysteme",
+    "eingangssysteme.funktionalitaet": "es.funktionalitaet",
+    "eingangssysteme.baukoerper": "es.baukoerper",
+    "eingangssysteme.material": "es.material",
+    "eingangssysteme.beratung": "es.beratung",
+
+    "anwendungen": "anwendungen",
+    "anwendungen.wohnbau": "an.wohnbau",
+    "anwendungen.bildung": "an.bildung",
+    "anwendungen.gesundheit": "an.gesundheit",
+    "anwendungen.oeffentlich": "an.oeffentlich",
+    "anwendungen.referenzen": "an.referenzen",
+
+    "services": "services",
+    "services.planen": "sv.planen",
+    "services.downloads": "sv.downloads",
+    "services.support": "sv.support",
+    "wissen.akademie": "sv.akademie",
+    "services.ersatzteile": "sv.ersatzteile",
+
+    "meta.serviceportal": "meta.serviceportal",
+    "meta.kontakt": "meta.kontakt",
+    "meta.karriere": "meta.karriere",
+    "meta.presse": "meta.presse"
+  },
+
+  "_doc_footer": "Footer-Mapping: { '<source-col>.<source-item>': '<db-node_key>' }. col.* sind die Spalten-Top-Knoten.",
+  "footer_node_key": {
+    "produkte": "col.produkte",
+    "anwendungen": "col.anwendungen",
+    "services": "col.services",
+    "unternehmen": "col.unternehmen",
+
+    "produkte.tuerkommunikation": "f.produkte.tuerkomm",
+    "produkte.zutrittskontrolle": "f.produkte.zk",
+    "produkte.eingangssysteme": "f.produkte.es",
+    "produkte.tcsPacks": "f.produkte.tcsPacks",
+    "produkte.snipdoo": "f.produkte.snipdoo",
+    "produkte.beschilderung": "f.produkte.beschilderung",
+
+    "anwendungen.efh": "f.anw.efh",
+    "anwendungen.mfh": "f.anw.mfh",
+    "anwendungen.grossanlagen": "f.anw.gross",
+    "anwendungen.gewerbe": "f.anw.gewerbe",
+    "anwendungen.referenzen": "f.anw.referenzen",
+
+    "services.konfigurator": "f.sv.konfigurator",
+    "services.downloads": "f.sv.downloads",
+    "services.akademie": "f.sv.akademie",
+    "services.ersatzteile": "f.sv.ersatzteile",
+    "services.support": "f.sv.support",
+
+    "unternehmen.ueberTcs": "f.un.ueberTcs",
+    "unternehmen.karriere": "f.un.karriere",
+    "unternehmen.presse": "f.un.presse",
+    "unternehmen.kontakt": "f.un.kontakt",
+    "unternehmen.datenschutz": "f.un.datenschutz"
+  },
+
+  "_doc_persona": "Persona-IDs aus personaNavigation.ts → DB node_key (mit 'persona.'-Prefix).",
+  "persona_node_key": {
+    "bauherren": "persona.bauherren",
+    "architekten": "persona.architekten",
+    "wohnungswirtschaft": "persona.wohnungswirtschaft",
+    "fachplaner": "persona.fachplaner",
+    "handwerk": "persona.handwerk",
+    "fachhandel": "persona.fachhandel"
+  },
+
+  "_unmapped_will_be_flagged": "Knoten ohne Eintrag werden vom diff-report als 'unbekannt' aufgelistet."
+}

@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-06-04T20:35:00Z",
+  "criterion": {
+    "section_type": "content_v1",
+    "is_active": true,
+    "page_status": "published",
+    "min_field_keys": 8,
+    "pattern_any_of": [
+      "/(^|\\.)items?\\.[a-z0-9_-]+\\.(title|label|description|linkLabel|href|icon)$/i",
+      "paarweise <key>.headline + <key>.intro"
+    ]
+  },
+  "total": 4,
+  "by_class": { "A": 3, "B": 1, "C": 0, "D": 0, "E": 0 },
+  "findings": [
+    {
+      "page_key": "service.hub",
+      "section_key": "sections",
+      "field_keys": 66,
+      "items_hits": 48,
+      "headline_keys": 5,
+      "intro_keys": 5,
+      "class": "A",
+      "public_appearance": "5 Themenkachel-Sektionen mit Eyebrow/H2/Intro + Kachelraster",
+      "redaktions_erwartung": "Karten anlegen, sortieren, duplizieren, Ziel-Seite verlinken, Icon wählen",
+      "renderer": "src/features/service/pages/ServicePage.tsx (Custom)",
+      "empfehlung": "Pilot Batch 22: zu 5 cards_v1-Sections + 16 card_v1-Kindern migrieren"
+    },
+    {
+      "page_key": "gebaeudekommunikation.beschilderung",
+      "section_key": "features",
+      "field_keys": 16,
+      "items_hits": 4,
+      "headline_keys": 0,
+      "intro_keys": 0,
+      "class": "A",
+      "public_appearance": "4 Themenkacheln (hausnummer, klingel, materialien, tuerschilder) mit Bild + Titel + Text",
+      "redaktions_erwartung": "Kachel-Editor mit Bildslot + Alt-Text",
+      "renderer": "src/features/signage/pages/BeschilderungPage.tsx (Custom, mit cmsOr-Fallback)",
+      "empfehlung": "Migrationskandidat, NICHT Pilot — erst nach service.hub-Pilot bewerten"
+    },
+    {
+      "page_key": "gebaeudemanagement.digital-signage",
+      "section_key": "products",
+      "field_keys": 8,
+      "items_hits": 3,
+      "headline_keys": 0,
+      "intro_keys": 0,
+      "class": "A",
+      "public_appearance": "1 Produktkachel (infoboard) mit Subtitle/Description/Href",
+      "redaktions_erwartung": "Weitere Produktkacheln hinzufügen können",
+      "renderer": "GenericCmsPage (DigitalSignagePage Wrapper)",
+      "empfehlung": "Migrationskandidat, klein — sammeln und gemeinsam mit Beschilderung später migrieren"
+    },
+    {
+      "page_key": "gebaeudekommunikation.grossanlagen",
+      "section_key": "leistungen",
+      "field_keys": 15,
+      "items_hits": 3,
+      "headline_keys": 0,
+      "intro_keys": 0,
+      "class": "B",
+      "public_appearance": "3 Leistungsblöcke (kommunikation/steuerung/zutritt) mit Titel + Bullet-Liste (items.X.items.0..2)",
+      "redaktions_erwartung": "Bullets editieren — kein Kartenraster, eher Liste",
+      "renderer": "GenericCmsPage (GrossanlagenPage Wrapper)",
+      "empfehlung": "KEIN Kartenmodell — Punktfelder sind sachgerecht (Bullet-Listen). Eigener feature_grid_v1- oder tabs_v1-Vertrag passender als cards_v1. Nicht im Service-Hub-Pilot mitziehen."
+    }
+  ]
+}

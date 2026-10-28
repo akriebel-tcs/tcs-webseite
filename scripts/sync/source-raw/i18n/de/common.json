@@ -1,0 +1,26 @@
+{
+  "app": {
+    "name": "TCS",
+    "language": "Deutsch"
+  },
+  "actions": {
+    "more": "Mehr erfahren",
+    "contact": "Kontakt aufnehmen",
+    "back": "Zurück"
+  },
+  "language": {
+    "de": "Deutsch",
+    "en": "Englisch"
+  },
+  "pageCta": {
+    "headline": "Lassen Sie uns Ihr Projekt gemeinsam planen",
+    "intro": "Kontaktieren Sie unsere Experten für eine individuelle Projektberatung.",
+    "button": "Projektberatung vereinbaren"
+  },
+  "notFound": {
+    "code": "404",
+    "headline": "Seite nicht gefunden",
+    "intro": "Die angeforderte Seite existiert nicht oder wurde verschoben. Bitte prüfen Sie die Adresse oder kehren Sie zur Startseite zurück.",
+    "cta": "Zurück zur Startseite"
+  }
+}

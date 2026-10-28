@@ -1,0 +1,2 @@
+REVOKE ALL ON FUNCTION public.rpc_admin_update_navigation_label(uuid, text, text) FROM PUBLIC;
+GRANT EXECUTE ON FUNCTION public.rpc_admin_update_navigation_label(uuid, text, text) TO anon, authenticated;

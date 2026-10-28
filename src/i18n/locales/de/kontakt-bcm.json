@@ -1,0 +1,39 @@
+{
+  "_meta": {
+    "namespace": "kontakt-bcm",
+    "status": "migrated",
+    "note": "Seitentexte der BCM-Kontakt-Landingpage (Etappe kontakt-bcm-1)."
+  },
+  "hero": {
+    "label": "KONTAKT BCM",
+    "headline": "Wir sind für Sie da",
+    "intro": "Sprechen Sie uns an – ob Fragen zu unseren BCM-Produkten, individuelle Projektberatung oder technischer Support."
+  },
+  "sections": {
+    "reach": {
+      "title": "So erreichen Sie uns",
+      "intro": "Unser Team steht Ihnen gerne zur Verfügung."
+    },
+    "form": {
+      "title": "Nachricht senden"
+    }
+  },
+  "cards": {
+    "phone": {
+      "title": "Telefon",
+      "value": "+49 (0) 41949881-175"
+    },
+    "email": {
+      "title": "E-Mail",
+      "value": "bcm.support@tcsag.de"
+    }
+  },
+  "form": {
+    "firstName": "Vorname",
+    "lastName": "Nachname",
+    "email": "E-Mail",
+    "subject": "Betreff",
+    "message": "Nachricht",
+    "submit": "Nachricht senden"
+  }
+}

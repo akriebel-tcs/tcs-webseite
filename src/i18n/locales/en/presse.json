@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "namespace": "presse",
+    "status": "migrated",
+    "note": "Press page texts (stage 16a)."
+  },
+  "hero": {
+    "label": "News",
+    "headline": "News & media",
+    "intro": "News and information for media representatives."
+  },
+  "releases": {
+    "title": "Press releases",
+    "downloadPdf": "Download PDF",
+    "categories": {
+      "produkt": "Product",
+      "messe": "Trade fair",
+      "unternehmen": "Company"
+    },
+    "items": {
+      "bcm2025": {
+        "date": "March 15, 2025",
+        "title": "TCS unveils new BCM software version with extended building management functionality"
+      },
+      "lightBuilding2025": {
+        "date": "January 22, 2025",
+        "title": "TCS at light + building 2025: Intelligent entrance systems in focus"
+      },
+      "rekordumsatz2024": {
+        "date": "December 10, 2024",
+        "title": "TCS AG achieves record revenue and expands production capacity in Harsefeld"
+      },
+      "appleHomeKey": {
+        "date": "November 5, 2024",
+        "title": "New partnership: TCS integrates Apple Home Key into access control"
+      },
+      "akademie2024": {
+        "date": "September 18, 2024",
+        "title": "TCS Academy launches expanded training program for electrical contractors"
+      }
+    }
+  },
+  "pressContact": {
+    "title": "Press contact",
+    "intro": "For press inquiries, image material and interview requests, our corporate communications team is happy to assist you.",
+    "name": "TCS AG – Corporate Communications",
+    "address": "Geschwister-Scholl-Str. 7, 21698 Harsefeld, Germany",
+    "downloadKit": "Download press kit (ZIP)"
+  }
+}

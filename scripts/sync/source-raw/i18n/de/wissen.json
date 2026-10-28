@@ -1,0 +1,83 @@
+{
+  "_meta": {
+    "namespace": "wissen",
+    "status": "migrated",
+    "note": "Etappe doc-wissen-akademie-1: Seite TCS Akademie (`seiten.akademie.*`) i18n-first migriert. Etappe doc-service-final-1: Status auf `migrated` gesetzt."
+  },
+  "seiten": {
+    "akademie": {
+      "hero": {
+        "label": "TCS Akademie",
+        "headline": "Schulungen & Weiterbildung",
+        "intro": "Weiterbildung für Planung, Installation und Service – praxisnah, flexibel und zertifiziert."
+      },
+      "formate": {
+        "headline": "Schulungsformate",
+        "intro": "Ob digital oder vor Ort – wählen Sie das Format, das zu Ihnen passt.",
+        "items": {
+          "produktschulungen": {
+            "title": "Produktschulungen",
+            "desc": "Praxisnahe Schulungen zu allen TCS-Systemen – von der Türkommunikation über Zutrittskontrolle bis zum BCM-System. Lernen Sie Installation, Konfiguration und Inbetriebnahme direkt am Gerät."
+          },
+          "webinare": {
+            "title": "Webinare",
+            "desc": "Digitale Lernformate on demand – flexibel und ortsunabhängig. Aktuelle Themen rund um Planung, Technik und neue Produkte kompakt aufbereitet."
+          },
+          "zertifizierung": {
+            "title": "Zertifizierung",
+            "desc": "Kompetenznachweis für Fachpartner. Mit der TCS-Zertifizierung dokumentieren Sie Ihr Know-how und qualifizieren sich für exklusive Partnerprogramme."
+          },
+          "vorOrt": {
+            "title": "Vor-Ort-Schulungen",
+            "desc": "Individuelle Schulungen direkt bei Ihnen im Team. Wir kommen zu Ihnen und schulen Ihre Mitarbeiter praxisnah an Ihren konkreten Projekten."
+          }
+        }
+      },
+      "zielgruppen": {
+        "headline": "Für wen ist die TCS Akademie?",
+        "intro": "Unsere Schulungen richten sich an alle, die mit TCS-Produkten planen, installieren oder verwalten.",
+        "items": {
+          "elektro": {
+            "title": "Elektroinstallateure & Fachhandwerker",
+            "desc": "Installation, Verdrahtung und Inbetriebnahme von TCS-Anlagen"
+          },
+          "fachplaner": {
+            "title": "Fachplaner & Architekten",
+            "desc": "Systemplanung, Konfiguration und Ausschreibungsvorbereitung"
+          },
+          "facility": {
+            "title": "Facility Manager & Hausverwaltungen",
+            "desc": "BCM-Software, Zutrittsverwaltung und Gebäudemanagement"
+          },
+          "fachhandel": {
+            "title": "Fachhandel & Vertriebspartner",
+            "desc": "Produktwissen, Beratungskompetenz und Partnerprogramme"
+          }
+        }
+      },
+      "partner": {
+        "headline": "Partnerprogramme",
+        "intro": "Mehrwertprogramme für Fachbetriebe – profitieren Sie von exklusiven Vorteilen als zertifizierter TCS-Partner.",
+        "items": {
+          "silber": {
+            "title": "Silber-Partner",
+            "desc": "Einstieg mit Grundschulung und Zugang zum Partnershop."
+          },
+          "gold": {
+            "title": "Gold-Partner",
+            "desc": "Erweiterte Schulungen, bevorzugter Support und Marketing-Unterstützung."
+          },
+          "platin": {
+            "title": "Platin-Partner",
+            "desc": "Höchste Stufe mit persönlichem Ansprechpartner und Projektbegleitung."
+          }
+        }
+      },
+      "cta": {
+        "headline": "Jetzt Schulung anfragen",
+        "text": "Kontaktieren Sie uns für individuelle Schulungstermine oder melden Sie sich für das nächste Webinar an.",
+        "button": "Kontakt aufnehmen"
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "_meta": {
+    "namespace": "signage",
+    "status": "migrated",
+    "note": "SignagePage vollständig migriert und in `strictPages` (Etappe `i18n-coverage-close-1`). BeschilderungPage liegt zwar in `src/features/signage/`, ist aber unter `/gebaeudekommunikation/beschilderung` gemountet und nutzt den Namespace `gebaeudekommunikation`. Der Namespace `signage` selbst trägt damit ausschließlich SignagePage und ist vollständig. Statusangleichung in Etappe `hygiene-status-1`."
+  },
+  "hero": {
+    "label": "TCS-Signage",
+    "headline": "Klare Orientierung mit ästhetischem Anspruch",
+    "intro": "Innovative Leit- und Orientierungssysteme, die höchste ästhetische Ansprüche mit intelligenter Funktionalität vereinen. Von ultraflachen, smarten Hausnummern bis hin zu maßgeschneiderten Wechselschildern und Piktogrammen."
+  },
+  "intro": {
+    "text": "Entdecken Sie TCS-Signage – Ihr Experte für moderne Beschilderung und durchdachtes Wayfinding. Wir bieten Architekten, Planern und Bauherren innovative Leit- und Orientierungssysteme für Bürogebäude, Hotellerie und Gastronomie. Schaffen Sie repräsentative Eingangsbereiche und eine klare Orientierung. Lassen Sie sich von unseren flexiblen Standards und individuellen Einzelanfertigungen inspirieren."
+  },
+  "products": {
+    "label": "Produkte",
+    "title": "Unser Signage-Portfolio",
+    "items": {
+      "hausnummern": {
+        "headline": "Smarte Hausnummern mit revolutionärem Tag-Nacht-Kontrast",
+        "text": "Setzen Sie architektonische Highlights mit unseren attraktiven, beleuchteten Hausnummern in ultraflacher Bauform (nur 18 mm Aufputzhöhe). Das innovative Day&Night Spezialglas sorgt für maximale Lesbarkeit: Tagsüber erscheinen die frontbündigen Ziffern in tiefem Schwarz, nachts erstrahlt die langlebige LED-Hinterleuchtung in kräftigem Weiß. Dank integriertem Helligkeitssensor profitieren Sie zudem von einer automatischen Tag-/Nachtumschaltung und Dimmfunktion."
+      },
+      "farbvielfalt": {
+        "headline": "Grenzenlose Individualität und Farbvielfalt",
+        "text": "Passen Sie Ihr Beschilderungssystem exakt an die Corporate Identity oder die Fassadengestaltung an. Unsere soliden Fronten aus 3 mm Aluminium, geschliffenem Edelstahl oder exklusiver Baubronze sind äußerst robust. Mit beständigen feinstrukturierten Pulverlacken nach RAL classic steht Ihnen das maximale Spektrum an möglichen Farben zur Verfügung. Durch auswechselbare Farbkarten lassen sich die Ziffern- und Piktogrammkonturen farbig in Ihrem Wunschfarbton hinterlegen."
+      },
+      "tuerschilder": {
+        "headline": "Flexible Türschilder und intuitive Piktogramme",
+        "text": "Mit TCS-Signage lassen sich individuelle Leit- und Orientierungssysteme spielend leicht verwirklichen. Unsere großzügig formatierten Tür- und Informationsschilder aus Edelstahl und Acrylglas eignen sich besonders für Büros, Kanzleien und Praxen. Der Wechsel der Einleger (bis hin zu Flucht- und Rettungsplänen im DIN A3-Format) funktioniert dank innovativer Acrylcliptechnik gänzlich ohne Werkzeug. Ergänzen Sie das System mit unseren klaren Piktogrammen – wahlweise aus unserem Standard-Portfolio oder als komplett individuell entwickelte Zeichen."
+      },
+      "tuerklingeln": {
+        "headline": "Das perfekt abgestimmte Entrée: Passende Türklingeln",
+        "text": "Vollenden Sie den Eingangsbereich ganzheitlich. Passend zu Ihren Hausnummern und Schildern bieten wir Türklingeln mit Frontplatten aus Aluminium, Edelstahl oder Baubronze. Die großzügigen Taster (22 mm oder 28 mm Durchmesser) sind wahlweise unbeleuchtet oder mit einer hoch illuminierten, neutralweißen LED-Ringbeleuchtung ausgestattet und sorgen für eine einladende Optik. Optional veredeln wir Ihre Klingelplatte mit einer Gravur inklusive Überpulverung."
+      }
+    }
+  }
+}

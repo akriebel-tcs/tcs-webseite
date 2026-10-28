@@ -1,0 +1,2186 @@
+{
+  "_meta": {
+    "namespace": "anwendungen",
+    "status": "migrated",
+    "note": "Domain `anwendungen` vollständig migriert (19c-1 Shell, 19c-2 Wohnen, 19c-3 Gesundheit/öffentlich, 19c-4 System/Funktion, 19c-5 mittlere Übersichten, 19c-6 Bildung, 19c-7 Referenzen, 19c-8 Root, 19c-final-check)."
+  },
+  "shared": {
+    "sections": {
+      "anforderungen": "Anforderungen",
+      "systemleistungen": "Systemleistungen",
+      "systembausteine": "Systembausteine",
+      "werkzeuge": "Passende Werkzeuge",
+      "verwandteAnwendungen": "Verwandte Anwendungen"
+    },
+    "subtitles": {
+      "anforderungenForHeadline": "Typische Anforderungen für {{headline}}.",
+      "systembausteine": "Typische Komponenten für diese Anwendung.",
+      "werkzeuge": "Planen, konfigurieren und beraten lassen."
+    },
+    "labels": {
+      "leistungen": "Leistungen"
+    },
+    "tools": {
+      "konfigurator": {
+        "label": "Konfigurator",
+        "desc": "System zusammenstellen"
+      },
+      "tcsplan": {
+        "label": "tcsplan",
+        "desc": "Systemplanung und Topologie"
+      },
+      "ausschreibungstexte": {
+        "label": "Ausschreibungstexte",
+        "desc": "Direkt herunterladen"
+      },
+      "beratung": {
+        "label": "Technische Beratung",
+        "desc": "Persönliche Unterstützung"
+      }
+    },
+    "actions": {
+      "open": "Öffnen"
+    },
+    "cta": {
+      "projektTitle": "Projekt konkretisieren?",
+      "projektText": "Wir unterstützen Sie bei Auswahl, Planung und Umsetzung.",
+      "kontaktAufnehmen": "Kontakt aufnehmen"
+    },
+    "labelsCommon": {
+      "anwendungsloesung": "Anwendungslösung"
+    },
+    "verwandte": {
+      "einfamilienhaus": "Einfamilienhaus",
+      "mehrfamilienhaus": "Mehrfamilienhaus",
+      "grossanlage": "Großanlage",
+      "sanierung": "Sanierung / Bestand",
+      "pflege": "Pflege & Betreutes Wohnen",
+      "wohnheim": "Wohnheim",
+      "kindertagesstaette": "Kindertagesstätte",
+      "behoerde": "Behörden & Ämter",
+      "klinik": "Klinik & Ärztehaus",
+      "mobileTuerkommunikation": "Mobile Türkommunikation",
+      "bidirektionaleVideo": "Bidirektionale Video-Gegensprechanlage",
+      "interneKommunikation": "Interne Kommunikation",
+      "feuerwehrdurchsage": "Feuerwehrdurchsage",
+      "concierge": "Concierge & Schranken",
+      "schule": "Schule",
+      "feuerwehr": "Feuerwehr & Rettungswache",
+      "schwimmbad": "Schwimm- & Freibad",
+      "zutrittskontrolleBCM": "Zutrittskontrolle / BCM"
+    }
+  },
+  "wohnen": {
+    "einfamilienhaus": {
+      "headline": "Einfamilienhaus",
+      "intro": "Hochwertige Türkommunikation für den privaten Eingang – Audio, Video, Zutritt und App-Anbindung in einem System.",
+      "description": "Ob Audio, mit Kamera oder zusätzlicher Bedienung per App: TCS bietet individuelle Lösungen für Ihr Zuhause – von der Außenstation bis zur Innenstation.",
+      "anforderungen": {
+        "audioVideo": {
+          "label": "Audio & Video",
+          "text": "Hören, sehen, sprechen und Tür öffnen – zuverlässig und komfortabel."
+        },
+        "design": {
+          "label": "Designansprüche",
+          "text": "Außenstationen, die sich in die Fassade integrieren – Aufputz, Unterputz oder freistehend."
+        },
+        "app": {
+          "label": "App-Anbindung",
+          "text": "Türruf auf dem Smartphone – auch unterwegs erreichbar."
+        },
+        "zutritt": {
+          "label": "Zutrittskontrolle",
+          "text": "Schlüssellos per Transponder, Fingerprint oder Code."
+        },
+        "bedienung": {
+          "label": "Einfache Bedienung",
+          "text": "Intuitive Innenstationen für alle Bewohner."
+        }
+      },
+      "leistungen": {
+        "kommunikation": {
+          "title": "Kommunikation",
+          "items": [
+            "Audio-Türsprechanlage oder Video-Türsprechanlage",
+            "Freisprechstationen oder Videostationen in der Wohnung",
+            "Türruf auf dem Smartphone via TCS:APP und snipdoo"
+          ]
+        },
+        "sicherheit": {
+          "title": "Sicherheit & Zutritt",
+          "items": [
+            "Videoüberwachung am Eingang",
+            "Schlüssellose Zutrittskontrolle per Transponder oder Fingerprint",
+            "Elektrischer Türöffner und Etagentüröffner"
+          ]
+        },
+        "design": {
+          "title": "Design & Integration",
+          "items": [
+            "Außenstation an der Fassade, in die Fassade integriert, freistehend oder im Briefkasten",
+            "ENTRY Systeme für architektonisch anspruchsvolle Projekte",
+            "Hochwertige Materialien: Edelstahl, Glas, Aluminium"
+          ]
+        }
+      },
+      "systembausteine": {
+        "aussenstation": {
+          "label": "PES PRO / PK / CARUS ARGOS",
+          "title": "Außenstation",
+          "description": "Audio- oder Video-Außenstation für den Hauseingang."
+        },
+        "innenstation": {
+          "label": "TASTA 7 / CARUS NEXT",
+          "title": "Innenstation",
+          "description": "Freisprechstation oder Video-Innenstation."
+        },
+        "zutritt": {
+          "label": "BCM Leser / BCM Zylinder",
+          "title": "Zutrittskontrolle",
+          "description": "Transponderleser oder Fingerprint-Modul."
+        },
+        "mobil": {
+          "label": "Smart Stick / snipdoo",
+          "title": "Mobile Erweiterung",
+          "description": "Türruf auf dem Smartphone."
+        }
+      }
+    },
+    "mehrfamilienhaus": {
+      "headline": "Mehrfamilienhaus",
+      "intro": "Türkommunikation und Zutrittskontrolle für Wohngebäude mit vielen Parteien – skalierbar, verwaltbar, nachrüstbar.",
+      "description": "Ob Neubau mit 12 Wohneinheiten oder Bestandskomplex mit 200+ Parteien: TCS-Systeme verbinden Audio, Video, Zutritt und mobile Nutzung in einer durchgängigen Lösung.",
+      "anforderungen": {
+        "vieleEinheiten": {
+          "label": "Viele Wohneinheiten",
+          "text": "Systeme, die 10, 50 oder 200+ Teilnehmer verwalten – skalierbar und übersichtlich."
+        },
+        "namensverwaltung": {
+          "label": "Zentrale Namensverwaltung",
+          "text": "Mieterwechsel digital abwickeln – ohne Techniker, ohne Aufwand."
+        },
+        "zutritt": {
+          "label": "Zutrittskontrolle",
+          "text": "Schlüssel, Transponder oder App – kontrolliert, dokumentiert, jederzeit änderbar."
+        },
+        "video": {
+          "label": "Video-Sicherheit",
+          "text": "Kamera am Eingang, Bildübertragung auf Innenstation oder Smartphone."
+        },
+        "mobil": {
+          "label": "Mobile Anbindung",
+          "text": "Türruf auf dem Smartphone – auch in Bestandsanlagen nachrüstbar."
+        },
+        "vernetzung": {
+          "label": "Systemvernetzung",
+          "text": "IP-Integration, Gateway-Anbindung, Zusammenschaltung mehrerer Hauseingänge."
+        }
+      },
+      "leistungen": {
+        "kommunikation": {
+          "title": "Kommunikation",
+          "items": [
+            "Video- oder Audio-Außenstationen mit modularem Aufbau",
+            "Freisprechstationen oder Video-Innenstationen in jeder Wohnung",
+            "Türruf auf dem Smartphone via IP-Gateway"
+          ]
+        },
+        "verwaltung": {
+          "title": "Zutritt & Verwaltung",
+          "items": [
+            "Digitale Zutrittskontrolle: Berechtigungen zentral vergeben, ändern und entziehen",
+            "Mieterwechsel ohne Techniker: Namensschilder digital verwalten",
+            "Dokumentiertes Zugangsmanagement für Compliance"
+          ]
+        },
+        "skalierung": {
+          "title": "Skalierung & Vernetzung",
+          "items": [
+            "Skalierbar von 10 bis 500+ Wohneinheiten",
+            "IP-basierte Vernetzung mehrerer Hauseingänge",
+            "Nachrüstbar im Bestand – auch ohne neue Verkabelung"
+          ]
+        }
+      },
+      "systembausteine": {
+        "aussenstation": {
+          "label": "PES PRO / CARUS ARGOS / PK",
+          "title": "Außenstation",
+          "description": "Video- oder Audio-Außenstation mit modularem Aufbau."
+        },
+        "innenstation": {
+          "label": "TASTA 7 / SKYLINE TEN PRO / CARUS NEXT",
+          "title": "Innenstationen",
+          "description": "Freisprechstationen oder Video-Innenstationen in jeder Wohnung."
+        },
+        "bcm": {
+          "label": "BCM Zylinder / BCM Leser",
+          "title": "BCM – Bus Control Module",
+          "description": "Digitale Zutrittskontrolle: Berechtigungen zentral verwalten."
+        },
+        "mobil": {
+          "label": "Smart Stick / snipdoo Server",
+          "title": "Mobile Erweiterung",
+          "description": "Türruf auf dem Smartphone – auch in Bestandsanlagen nachrüstbar."
+        }
+      }
+    },
+    "grossanlage": {
+      "headline": "Großanlage",
+      "intro": "Wohnparks, Hochhausprojekte und Gewerbeobjekte mit hoher Nutzerdichte – angemessene Tür- und Gebäudekommunikation für komplexe Anforderungen.",
+      "description": "Außenstationen mit Displays bis 12 Zoll können mehrere tausend Wohn- oder Geschäftseinheiten vernetzen.",
+      "anforderungen": {
+        "teilnehmer": {
+          "label": "Hohe Teilnehmerzahl",
+          "text": "Systeme für hunderte oder tausende Wohn- und Geschäftseinheiten."
+        },
+        "display": {
+          "label": "Display-Außenstationen",
+          "text": "Großformatige Displays bis 12 Zoll für eine übersichtliche Darstellung aller Teilnehmer."
+        },
+        "ip": {
+          "label": "IP-Vernetzung",
+          "text": "Systemübergreifende Vernetzung mehrerer Eingänge und Gebäudeteile."
+        },
+        "zutritt": {
+          "label": "Zutrittskontrolle",
+          "text": "Zentrale Berechtigungsverwaltung für alle Zugänge."
+        },
+        "concierge": {
+          "label": "Pförtner/Concierge",
+          "text": "Schalt- und Anzeigefunktionen am Empfang oder Pförtnerplatz."
+        }
+      },
+      "leistungen": {
+        "kommunikation": {
+          "title": "Kommunikation",
+          "items": [
+            "Großformatige Display-Außenstationen für tausende Teilnehmer",
+            "Pförtner- und Concierge-Arbeitsplätze mit Bildschirmsteuerung",
+            "Rufweiterleitung auf Smartphone und DECT"
+          ]
+        },
+        "sicherheit": {
+          "title": "Sicherheit & Zutritt",
+          "items": [
+            "Videoüberwachung aller Eingangsbereiche",
+            "Zentrale Zutrittskontrolle via BCM",
+            "Tor- und Schrankensteuerung"
+          ]
+        },
+        "vernetzung": {
+          "title": "Vernetzung & Skalierung",
+          "items": [
+            "IP-basierte Vernetzung über Gebäudegrenzen hinweg",
+            "SIP-Integration und KNX-Anbindung",
+            "Modulare Erweiterung ohne Systemwechsel"
+          ]
+        }
+      },
+      "systembausteine": {
+        "display": {
+          "label": "CARUS ARGOS",
+          "title": "Display-Außenstation",
+          "description": "Großformatige Außenstation mit Touch-Display."
+        },
+        "innenstation": {
+          "label": "TASTA 7 / SKYLINE TEN PRO",
+          "title": "Innenstationen",
+          "description": "Video-Innenstationen und Freisprechstationen."
+        },
+        "bcm": {
+          "label": "BCM Online / BCM Zylinder",
+          "title": "BCM-System",
+          "description": "Zentrale Berechtigungsverwaltung."
+        },
+        "gateway": {
+          "label": "IP-Gateway / snipdoo Server",
+          "title": "IP-Gateway",
+          "description": "Vernetzung und SIP-Integration."
+        }
+      }
+    },
+    "sanierung": {
+      "headline": "Sanierung & Modernisierung",
+      "intro": "Modernisierung bestehender Anlagen – vorhandene Leitungsinfrastruktur nutzen, schrittweise erneuern und digital erweitern.",
+      "description": "TCS-Systeme sind auf maximale Kompatibilität ausgelegt: Vorhandene Verkabelung (2-Draht, 4-Draht) kann weiter genutzt werden, Außenstationen lassen sich 1:1 tauschen und mit snipdoo® IP wird die Brücke in die IP-Welt gebaut – ohne Komplettabriss.",
+      "anforderungen": {
+        "bestand": {
+          "label": "Bestandsanbindung",
+          "text": "Vorhandene 2-Draht- oder 4-Draht-Kabel weiter nutzen."
+        },
+        "austausch": {
+          "label": "Einfacher Austausch",
+          "text": "Außenstationen 1:1 tauschen ohne Wandumbau."
+        },
+        "ausbau": {
+          "label": "Schrittweiser Ausbau",
+          "text": "Heute Audio, morgen Video, übermorgen IP – modulare Nachrüstung."
+        },
+        "namen": {
+          "label": "Digitale Namensverwaltung",
+          "text": "Beleuchtete und elektronisch verwaltbare Namensschilder."
+        }
+      },
+      "leistungen": {
+        "szenarien": {
+          "title": "Typische Sanierungsszenarien",
+          "items": [
+            "Austausch veralteter Sprechanlagen bei bestehender Verkabelung",
+            "Nachrüstung von Video bei bestehenden Audio-Anlagen",
+            "Ergänzung von Zutrittskontrolle (RFID/PIN) im Bestand",
+            "Umstellung auf IP-Technologie mit snipdoo® Gateway",
+            "Digitale Namensschilder statt manueller Einleger"
+          ]
+        },
+        "vorteile": {
+          "title": "TCS-Vorteile bei Sanierung",
+          "items": [
+            "Breite Kompatibilität mit bestehender Leitungsinfrastruktur",
+            "Modulare Systeme – Schritt für Schritt statt alles auf einmal",
+            "Geringe Einbautiefe für Bestandsmontage",
+            "Smart Stick für mobile Erweiterung ohne neue Kabel"
+          ]
+        }
+      },
+      "systembausteine": {
+        "aussenstation": {
+          "label": "PES PRO / PK / CARUS ARGOS",
+          "title": "Außenstation",
+          "description": "1:1-Austausch bestehender Außenstationen."
+        },
+        "smartStick": {
+          "label": "Smart Stick",
+          "title": "Smart Stick",
+          "description": "Mobile Erweiterung – Türruf auf dem Smartphone nachrüsten."
+        },
+        "namen": {
+          "label": "SIGNAGE / Namensanzeige",
+          "title": "Namensverwaltung",
+          "description": "Elektronische Namensschilder für häufige Mieterwechsel."
+        },
+        "snipdoo": {
+          "label": "snipdoo® IP",
+          "title": "snipdoo® Gateway",
+          "description": "Bestehende Anlagen IP-fähig machen."
+        }
+      }
+    }
+  },
+  "gesundheit": {
+    "pflege": {
+      "headline": "Pflege & Betreutes Wohnen",
+      "intro": "Barrierefreie Kommunikations- und Sicherheitssysteme für Seniorenresidenzen und Pflegeeinrichtungen.",
+      "description": "Mehr Sicherheit für Bewohner, Entlastung für Pflegepersonal und optimale Orientierung für Besucher – bei maximaler Planungseffizienz.",
+      "anforderungen": {
+        "barrierefreiheit": {
+          "label": "Barrierefreiheit",
+          "text": "Türkommunikation gemäß DIN 18040-1 – für alle Nutzergruppen zugänglich."
+        },
+        "notruf": {
+          "label": "Notruf & Assistenz",
+          "text": "DECT, Notruf-Armbänder und bidirektionale Videokommunikation."
+        },
+        "zutritt": {
+          "label": "Zutrittskontrolle",
+          "text": "Per Code, Schlüssel oder Fingerprint – sicher und komfortabel."
+        },
+        "infotafeln": {
+          "label": "Digitale Infotafeln",
+          "text": "Beschilderung und Orientierung für Bewohner und Besucher."
+        },
+        "skalierbarkeit": {
+          "label": "Skalierbarkeit",
+          "text": "Von 1 bis 1.000 Wohneinheiten – intelligent erweiterbar."
+        }
+      },
+      "leistungen": {
+        "sicherheit": {
+          "title": "Sicherheit & Zutritt",
+          "items": [
+            "Video-Türkommunikation mit skyline:ten PRO (10-Zoll-Touch-Display)",
+            "Zutrittskontrollsysteme mit Code, Schlüssel oder Fingerprint",
+            "Integration von Briefkasten, Beleuchtung, Brandschutz und Alarmanlage"
+          ]
+        },
+        "assistenz": {
+          "title": "Assistenz & Pflege",
+          "items": [
+            "Assistenzsysteme für Bewohner und Pflegepersonal (DECT, Notruf-Armbänder)",
+            "Barrierefreie Kommunikation mit bidirektionaler Videofunktion",
+            "Automatische Türöffnung für Bewohner"
+          ]
+        },
+        "orientierung": {
+          "title": "Orientierung & Information",
+          "items": [
+            "Beschilderungssysteme und digitale Infotafeln",
+            "Wegeleitung für Besucher und neue Bewohner",
+            "Barrierefreie Bedienung aller Komponenten"
+          ]
+        }
+      },
+      "systembausteine": {
+        "aussenstation": {
+          "label": "PES PRO / CARUS ARGOS",
+          "title": "Außenstation",
+          "description": "Video-Außenstation mit barrierefreier Bedienung."
+        },
+        "leitstelle": {
+          "label": "SKYLINE TEN PRO",
+          "title": "Leitstelle",
+          "description": "10-Zoll-Touch-Display für Empfang und Pflege."
+        },
+        "bcm": {
+          "label": "BCM Online / BCM Zylinder",
+          "title": "BCM-System",
+          "description": "Zutrittskontrolle für Bewohner und Personal."
+        },
+        "signage": {
+          "label": "SIGNAGE Display",
+          "title": "SIGNAGE",
+          "description": "Digitale Beschilderung und Wegeleitsysteme."
+        }
+      },
+      "broschure": {
+        "label": "Broschüre herunterladen – TCS in Pflege & Betreutem Wohnen (PDF)"
+      }
+    },
+    "klinik": {
+      "headline": "Praxis, Ärztehaus & Klinik",
+      "intro": "Maßgeschneiderte Kommunikations- und Sicherheitslösungen für medizinische Einrichtungen – Effizienz, Sicherheit und Patientenkomfort.",
+      "description": "Von der Einzelpraxis bis zum Krankenhaus: TCS-Systeme verbinden Video-Türkommunikation, Zutrittskontrolle, Patientenzugang und barrierefreie Orientierung.",
+      "anforderungen": {
+        "patientenaufruf": {
+          "label": "Patientenaufruf",
+          "text": "Rufsysteme für Wartebereiche – direkt integriert."
+        },
+        "zutritt": {
+          "label": "24/7-Zutrittskontrolle",
+          "text": "Automatische Türöffnung während der Sprechzeiten, kontrollierter Zugang außerhalb."
+        },
+        "video": {
+          "label": "Video-Türkommunikation",
+          "text": "Skyline:ten PRO Leitstelle mit 10-Zoll-Touch-Display."
+        },
+        "barrierefreiheit": {
+          "label": "Barrierefreiheit",
+          "text": "Normgerechte Lösungen gemäß DIN 18040-1."
+        },
+        "hygiene": {
+          "label": "Hygiene",
+          "text": "Berührungslose Bedienung und robuste Materialien."
+        }
+      },
+      "leistungen": {
+        "sicherheit": {
+          "title": "Sicherheit & Zutritt",
+          "items": [
+            "Video-Türkommunikation mit skyline:ten PRO",
+            "Zutrittskontrolle via Code, Schlüssel oder Fingerprint",
+            "Automatische Türöffnung während der Sprechzeiten",
+            "Integrierte Eingangssysteme mit Briefkasten, Beleuchtung und Brandschutz"
+          ]
+        },
+        "kommunikation": {
+          "title": "Interne Kommunikation",
+          "items": [
+            "Patientenrufsysteme für Wartebereiche",
+            "Mobile DECT-Telefone für Rufweiterleitung",
+            "Durchsagefunktion für schnelle interne Kommunikation"
+          ]
+        },
+        "orientierung": {
+          "title": "Barrierefreiheit & Orientierung",
+          "items": [
+            "Bidirektionale Videofunktion für Gebärdensprache",
+            "Digitale Infotafeln für Patienten und Besucher",
+            "Wegeleitung mit Beschilderung und Piktogrammen"
+          ]
+        }
+      },
+      "systembausteine": {
+        "aussenstation": {
+          "label": "PES PRO / CARUS ARGOS",
+          "title": "Außenstation",
+          "description": "Video-Außenstation mit Weitwinkelkamera."
+        },
+        "leitstelle": {
+          "label": "SKYLINE TEN PRO",
+          "title": "Leitstelle",
+          "description": "10-Zoll-Touch-Display für den Empfang."
+        },
+        "bcm": {
+          "label": "BCM Online / BCM Zylinder",
+          "title": "Zutrittskontrolle",
+          "description": "BCM-System für Personal und Patienten."
+        },
+        "signage": {
+          "label": "SIGNAGE Display",
+          "title": "SIGNAGE",
+          "description": "Patientenaufruf und Orientierung."
+        }
+      },
+      "broschure": {
+        "label": "Broschüre herunterladen – TCS in Praxis, Ärztehaus & Klinik (PDF)"
+      }
+    }
+  },
+  "oeffentlich": {
+    "behoerde": {
+      "headline": "Behörden & Ämter",
+      "intro": "Effiziente Kommunikations- und Sicherheitslösungen für öffentliche Verwaltungsgebäude – Bürgernähe, Sicherheit und klare Prozesse.",
+      "description": "TCS bietet Systeme für moderne Verwaltungsarchitektur, die ideal auf Besucher und Mitarbeiter zugeschnitten sind – normgerecht, skalierbar und gewerkeübergreifend.",
+      "anforderungen": {
+        "zutritt": {
+          "label": "Zutrittskontrolle",
+          "text": "Video-Türkommunikation und Zutrittskontrolle für große Gebäude."
+        },
+        "cloud": {
+          "label": "Cloud-Verwaltung",
+          "text": "Cloudbasierte Benutzerverwaltung für flexible Administration."
+        },
+        "tore": {
+          "label": "Tor- & Schrankensteuerung",
+          "text": "Fernsteuerung von Schranken und Toren."
+        },
+        "orientierung": {
+          "label": "Besucherorientierung",
+          "text": "Digitale Infotafeln und Wegeleitsysteme."
+        },
+        "barrierefreiheit": {
+          "label": "Barrierefreiheit",
+          "text": "Normgerechte Lösungen gemäß DIN 18040-1."
+        }
+      },
+      "leistungen": {
+        "sicherheit": {
+          "title": "Sicherheit & Zutrittskontrolle",
+          "items": [
+            "Video-Türkommunikation mit skyline:ten PRO",
+            "Zutrittskontrolle via Code, Schlüssel oder Fingerprint",
+            "Cloudbasierte Benutzerverwaltung",
+            "Fernsteuerung von Schrankenanlagen und Toren",
+            "Batteriebetriebene elektronische Knaufzylinder"
+          ]
+        },
+        "kommunikation": {
+          "title": "Interne Kommunikation",
+          "items": [
+            "Direkte Kommunikation mit Eingängen, Büros und Wartebereichen",
+            "Mobile Erreichbarkeit via DECT und Smartphone",
+            "Durchsagefunktion für schnelle interne Kommunikation"
+          ]
+        },
+        "orientierung": {
+          "title": "Orientierung & Bürgernähe",
+          "items": [
+            "Digitale Infotafeln mit aktuellen Öffnungszeiten und Informationen",
+            "Wegeleitsysteme für Besucher",
+            "Barrierefreie Türkommunikation gemäß DIN 18040-1"
+          ]
+        }
+      },
+      "systembausteine": {
+        "aussenstation": {
+          "label": "PES PRO / CARUS ARGOS",
+          "title": "Außenstation",
+          "description": "Video-Außenstation für Haupt- und Nebeneingänge."
+        },
+        "leitstelle": {
+          "label": "SKYLINE TEN PRO",
+          "title": "Leitstelle",
+          "description": "10-Zoll-Touch-Display für Empfang und Pforte."
+        },
+        "bcm": {
+          "label": "BCM Online / BCM Zylinder",
+          "title": "BCM-System",
+          "description": "Zutrittskontrolle und Schrankensteuerung."
+        },
+        "signage": {
+          "label": "SIGNAGE Display",
+          "title": "SIGNAGE",
+          "description": "Digitale Beschilderung und Infotafeln."
+        }
+      },
+      "broschure": {
+        "label": "Broschüre herunterladen – TCS in Behörden & Ämtern (PDF)"
+      }
+    },
+    "feuerwehr": {
+      "headline": "Feuerwehr & Rettungswache",
+      "intro": "Kommunikations- und Sicherheitslösungen für Feuerwehrgebäude und Rettungswachen – maximale Effizienz und schnelle Abläufe im Einsatzfall.",
+      "description": "Bei der Planung von Feuerwehrgebäuden stehen Effizienz, Sicherheit und schnelle Abläufe im Vordergrund.",
+      "anforderungen": {
+        "alarmierung": {
+          "label": "Schnelle Alarmierung",
+          "text": "Direkte Kommunikation und Durchsagefunktionen für Einsatzlagen."
+        },
+        "tore": {
+          "label": "Tor- & Schrankensteuerung",
+          "text": "Fernsteuerung von Fahrzeughallen, Toren und Schranken."
+        },
+        "zutritt": {
+          "label": "Zutrittskontrolle",
+          "text": "Schlüssellos per Code, Schlüssel oder Fingerprint."
+        },
+        "video": {
+          "label": "Videoüberwachung",
+          "text": "Weitläufiges Gelände per Knopfdruck im Blick."
+        },
+        "robust": {
+          "label": "Robuste Systeme",
+          "text": "Batteriebetriebene Knaufzylinder für Container und Außenbereiche."
+        }
+      },
+      "leistungen": {
+        "sicherheit": {
+          "title": "Sicherheit & Zutrittskontrolle",
+          "items": [
+            "Video-Türkommunikation mit skyline:ten PRO",
+            "Zutrittskontrolle via Code, Schlüssel oder Fingerprint",
+            "Fernsteuerung von Schrankenanlagen und Toren",
+            "Batteriebetriebene Knaufzylinder für Container und Tore",
+            "Integrierte Eingangssysteme mit Brandschutz und Alarmanlage"
+          ]
+        },
+        "kommunikation": {
+          "title": "Schnelle Orientierung & Kommunikation",
+          "items": [
+            "Direkte Kommunikation mit allen Bereichen: Wache, Fahrzeughalle, Leitstelle",
+            "Durchsagefunktion für schnelle interne Alarmierung",
+            "Geländekennzeichnung durch Digital Signage"
+          ]
+        },
+        "orientierung": {
+          "title": "Orientierung & Betrieb",
+          "items": [
+            "Digitale Infotafeln für Dienstpläne und aktuelle Informationen",
+            "Wegeleitung für Besucher und neue Einsatzkräfte",
+            "Barrierefreie Türkommunikation gemäß DIN 18040-1"
+          ]
+        }
+      },
+      "systembausteine": {
+        "aussenstation": {
+          "label": "PES PRO / CARUS ARGOS",
+          "title": "Außenstation",
+          "description": "Robuste Video-Außenstation."
+        },
+        "leitstelle": {
+          "label": "SKYLINE TEN PRO",
+          "title": "Leitstelle",
+          "description": "10-Zoll-Touch-Display für Wache und Leitstelle."
+        },
+        "bcm": {
+          "label": "BCM Online / BCM Zylinder",
+          "title": "BCM-System",
+          "description": "Zutrittskontrolle und Torsteuerung."
+        },
+        "signage": {
+          "label": "SIGNAGE Display",
+          "title": "SIGNAGE",
+          "description": "Digitale Dienstpläne und Betriebsinformationen."
+        }
+      },
+      "broschure": {
+        "label": "Broschüre herunterladen – TCS in Feuerwehren (PDF)"
+      }
+    },
+    "schwimmbad": {
+      "headline": "Schwimm- & Freibad",
+      "intro": "Kommunikations- und Sicherheitslösungen für Schwimmbäder und Freibäder – vom Eingang bis zum Schließfach in der Umkleide.",
+      "description": "Besuchersicherheit, klare Orientierung und effiziente Betriebsabläufe – TCS bietet ideal zugeschnittene Lösungen für moderne Schwimmanlagen.",
+      "anforderungen": {
+        "zutritt": {
+          "label": "Zutrittskontrolle",
+          "text": "Kontrollierter Zugang für Besucher, Personal und technische Bereiche."
+        },
+        "schliessfach": {
+          "label": "Schließfachsysteme",
+          "text": "Elektronische Schließfächer in Umkleiden – schlüssellos und wartungsarm."
+        },
+        "video": {
+          "label": "Videoüberwachung",
+          "text": "Alle Bereiche auf Videodisplays im Blick."
+        },
+        "orientierung": {
+          "label": "Besucherorientierung",
+          "text": "Digitale Infotafeln mit Öffnungszeiten und Sicherheitshinweisen."
+        },
+        "robust": {
+          "label": "Robuste Materialien",
+          "text": "Feuchtigkeits- und korrosionsbeständige Systeme."
+        }
+      },
+      "leistungen": {
+        "sicherheit": {
+          "title": "Sicherheit & Zutrittskontrolle",
+          "items": [
+            "Video-Türkommunikation mit skyline:ten PRO",
+            "Zutrittskontrolle via Code, Schlüssel oder Fingerprint",
+            "Vereinfachter Zugang zu technischen Anlagen",
+            "Batteriebetriebene Knaufzylinder für Außenbereiche"
+          ]
+        },
+        "betrieb": {
+          "title": "Kommunikation & Betrieb",
+          "items": [
+            "Direkte Kommunikation mit Eingängen, Kassen und Technikräumen",
+            "Mobile Erreichbarkeit für Bademeister und Personal",
+            "Durchsagefunktion für Sicherheitsdurchsagen"
+          ]
+        },
+        "orientierung": {
+          "title": "Orientierung & Schließfächer",
+          "items": [
+            "Elektronische Schließfachsysteme in Umkleiden",
+            "Digitale Infotafeln mit Öffnungszeiten und Belegung",
+            "Wegeleitsysteme für Besucher",
+            "Barrierefreier Zugang gemäß DIN 18040-1"
+          ]
+        }
+      },
+      "systembausteine": {
+        "aussenstation": {
+          "label": "PES PRO / CARUS ARGOS",
+          "title": "Außenstation",
+          "description": "Robuste Video-Außenstation für Außenbereiche."
+        },
+        "leitstelle": {
+          "label": "SKYLINE TEN PRO",
+          "title": "Leitstelle",
+          "description": "10-Zoll-Touch-Display für Kasse und Aufsicht."
+        },
+        "bcm": {
+          "label": "BCM Online / BCM Zylinder",
+          "title": "BCM-System",
+          "description": "Zutrittskontrolle und Schließfachsysteme."
+        },
+        "signage": {
+          "label": "SIGNAGE Display",
+          "title": "SIGNAGE",
+          "description": "Digitale Beschilderung und Besucherinformation."
+        }
+      },
+      "broschure": {
+        "label": "Broschüre herunterladen – TCS in Schwimm- & Freibädern (PDF)"
+      }
+    }
+  },
+  "funktionen": {
+    "concierge": {
+      "headline": "Concierge & Schrankenanlagen",
+      "intro": "Zentrale Empfangs- und Pförtnerlösungen mit Tor- und Schrankensteuerung – für Großprojekte, Wohnanlagen und Gewerbeobjekte.",
+      "description": "Vom Pförtnerarbeitsplatz über die Schrankensteuerung bis zum zentralen Sprechsystem: TCS-Systeme ermöglichen komfortables Besuchermanagement und kontrollierten Zugang – vernetzt, skalierbar und in die Gebäudeinfrastruktur integriert.",
+      "anforderungen": {
+        "pfoertnerplatz": {
+          "label": "Pförtnerplatz",
+          "text": "Zentrale Steuerung aller Eingänge, Tore und Schranken über eine Station."
+        },
+        "schranken": {
+          "label": "Schrankensteuerung",
+          "text": "Ferngesteuerte Tor- und Schrankenöffnung vom Empfang."
+        },
+        "video": {
+          "label": "Videoüberwachung",
+          "text": "Kamerabild aller Eingänge am Concierge-Arbeitsplatz."
+        },
+        "besucher": {
+          "label": "Besuchermanagement",
+          "text": "Gezielte Rufweiterleitung und Gesprächsverwaltung."
+        },
+        "vernetzung": {
+          "label": "Vernetzung",
+          "text": "IP-basierte Anbindung mehrerer Eingänge und Gebäude."
+        }
+      },
+      "leistungen": {
+        "empfang": {
+          "title": "Empfang & Steuerung",
+          "items": [
+            "Pförtnerstation mit skyline:ten PRO (10-Zoll-Touch-Display)",
+            "Schranken- und Torsteuerung direkt vom Empfang",
+            "Rufweiterleitung auf DECT, Smartphone oder andere Stationen",
+            "Zentrales Sprechsystem mit Videobild"
+          ]
+        },
+        "sicherheit": {
+          "title": "Sicherheit & Zutritt",
+          "items": [
+            "Zutrittskontrolle für Besucher und Lieferanten",
+            "Videoüberwachung aller Zugangsbereiche",
+            "Dokumentation von Zugangsereignissen"
+          ]
+        },
+        "vernetzung": {
+          "title": "Vernetzung & Skalierung",
+          "items": [
+            "IP-Vernetzung mehrerer Gebäude und Standorte",
+            "SIP-Integration in bestehende TK-Anlagen",
+            "Erweiterbar ohne Systemwechsel"
+          ]
+        }
+      },
+      "systembausteine": {
+        "leitstelle": {
+          "label": "SKYLINE TEN PRO",
+          "title": "Leitstelle",
+          "description": "Pförtnerstation mit 10-Zoll-Touch-Display."
+        },
+        "aussenstation": {
+          "label": "PES PRO / CARUS ARGOS / AVC-Serie",
+          "title": "Außenstation",
+          "description": "Video-Außenstation für Zufahrten und Eingänge."
+        },
+        "schranken": {
+          "label": "Relaismodule",
+          "title": "Schrankensteuerung",
+          "description": "Relaismodule und Schaltausgänge."
+        },
+        "gateway": {
+          "label": "IP-Gateway / snipdoo Server",
+          "title": "IP-Gateway",
+          "description": "Vernetzung mehrerer Standorte."
+        }
+      },
+      "broschure": {
+        "label": "Broschüre herunterladen – TCS Concierge & Schrankenanlagen (PDF)"
+      }
+    },
+    "interneKommunikation": {
+      "headline": "Interne Kommunikation & Türöffnerautomatik",
+      "intro": "Raum-zu-Raum-Kommunikation, Durchsagefunktionen und automatisierte Türöffnung – direkt im TCS-System integriert.",
+      "description": "Interne Sprechsysteme, automatische Türöffner und Durchsagefunktionen erweitern die klassische Türkommunikation um gebäudeinterne Funktionen – für Schulen, Pflegeeinrichtungen, Kliniken und Bürogebäude.",
+      "anforderungen": {
+        "raumZuRaum": {
+          "label": "Raum-zu-Raum",
+          "text": "Interne Kommunikation zwischen beliebigen Stationen im Gebäude."
+        },
+        "durchsage": {
+          "label": "Durchsage",
+          "text": "Funktionale Durchsage an alle oder ausgewählte Innenstationen."
+        },
+        "automatik": {
+          "label": "Türöffnerautomatik",
+          "text": "Automatisierte Türöffnung nach Zeitplan oder Ereignis."
+        },
+        "mobil": {
+          "label": "Mobile Erweiterung",
+          "text": "Interne Rufe auch auf DECT oder Smartphone."
+        },
+        "integration": {
+          "label": "Integration",
+          "text": "Nahtlose Integration in bestehende TCS-Sprechanlagen."
+        }
+      },
+      "leistungen": {
+        "kommunikation": {
+          "title": "Kommunikation",
+          "items": [
+            "Interne Gegensprechanlage zwischen Innenstationen",
+            "Durchsagefunktion an alle oder ausgewählte Stationen",
+            "Rufweiterleitung auf DECT und Smartphone",
+            "Gruppenkommunikation und Sammelruf"
+          ]
+        },
+        "automatik": {
+          "title": "Türöffnerautomatik",
+          "items": [
+            "Zeitgesteuerte Türöffnung (Sprechzeiten, Bürozeiten)",
+            "Automatisch via Schalteingang oder Timer",
+            "Fernsteuerung über Innenstationen"
+          ]
+        },
+        "einsatz": {
+          "title": "Einsatzbereiche",
+          "items": [
+            "Schulen und Kindertagesstätten",
+            "Pflegeeinrichtungen und Kliniken",
+            "Bürogebäude und Behörden",
+            "Wohnheime und Mehrfamilienhäuser"
+          ]
+        }
+      },
+      "systembausteine": {
+        "innenstationen": {
+          "label": "TASTA 7 / CARUS NEXT / ecoos",
+          "title": "Innenstationen",
+          "description": "Freisprechstationen und Video-Innenstationen."
+        },
+        "leitstelle": {
+          "label": "SKYLINE TEN PRO",
+          "title": "Leitstelle",
+          "description": "Touch-Display mit Durchsagefunktion."
+        },
+        "tueroeffner": {
+          "label": "FIL1101 / Schaltmodule",
+          "title": "Türöffnermodule",
+          "description": "Relais und Timer für automatische Türöffnung."
+        },
+        "aussenstationen": {
+          "label": "PES PRO / AVC-Serie / CARUS ARGOS",
+          "title": "Außenstationen",
+          "description": "Integration interner Rufe über bestehende Stationen."
+        }
+      },
+      "broschure": {
+        "label": "Broschüre herunterladen – TCS Interne Kommunikation & Türöffnerautomatik (PDF)"
+      }
+    },
+    "digitaleNamensverwaltung": {
+      "headline": "Digitale Namensverwaltung",
+      "intro": "Mieterwechsel ohne Techniker – digitale Namensschilder und zentrale Verwaltung für Außenstationen.",
+      "description": "Namensschilder werden mit dem digitalen Anzeigemodul elektronisch verwaltet.",
+      "anforderungen": {
+        "schild": {
+          "label": "Digitales Namensschild",
+          "text": "LCD-Display mit beleuchteter Namensanzeige direkt in der Außenstation."
+        },
+        "fernverwaltung": {
+          "label": "Fernverwaltung",
+          "text": "Namen und Texte ohne Installateur ändern – per Software oder Cloud."
+        },
+        "mieterwechsel": {
+          "label": "Mieterwechsel",
+          "text": "Schnelle Umschaltung bei Bewohnerwechsel ohne physischen Eingriff."
+        },
+        "sondertexte": {
+          "label": "Sondertexte",
+          "text": "Hinweise, Logos und spezielle Beschriftungen auf dem Display."
+        },
+        "integration": {
+          "label": "Integration",
+          "text": "Nahtlose Integration in modulare Außenstationen."
+        }
+      },
+      "leistungen": {
+        "verwaltung": {
+          "title": "Verwaltung",
+          "items": [
+            "Digitale Namensänderung per PC-Software",
+            "Cloudbasierte Verwaltung für Hausverwaltungen",
+            "Mieterwechsel ohne Vor-Ort-Einsatz",
+            "Sondertexte und individuelle Beschriftungen"
+          ]
+        },
+        "displaytechnik": {
+          "title": "Displaytechnik",
+          "items": [
+            "Hinterleuchtetes LCD-Grafikdisplay",
+            "Bis zu 3 Tasten pro Displaymodul",
+            "Modulare Integration in CARUS ARGOS Außenstationen",
+            "Vandalismussicher und wartungsarm"
+          ]
+        },
+        "einsatz": {
+          "title": "Einsatzbereiche",
+          "items": [
+            "Mehrfamilienhäuser mit häufigem Mieterwechsel",
+            "Wohnungswirtschaft und Hausverwaltungen",
+            "Gewerbeobjekte mit wechselnden Mietern",
+            "Großanlagen mit zentraler Verwaltung"
+          ]
+        }
+      },
+      "systembausteine": {
+        "displaymodul": {
+          "label": "CARUS ARGOS Displaymodul",
+          "title": "Displaymodul",
+          "description": "LCD-Grafikdisplay mit 3 Tasten für modulare Außenstationen."
+        },
+        "aussenstation": {
+          "label": "CARUS ARGOS",
+          "title": "Außenstation",
+          "description": "Modulare Außenstation mit Display-Steckplatz."
+        },
+        "software": {
+          "label": "TCS Software",
+          "title": "Verwaltungssoftware",
+          "description": "PC-Software für zentrale Namensverwaltung."
+        }
+      },
+      "broschure": {
+        "label": "Broschüre herunterladen – TCS Digitale Namensverwaltung (PDF)"
+      }
+    },
+    "feuerwehrdurchsage": {
+      "headline": "Feuerwehrdurchsage",
+      "intro": "Normgerechte Feuerwehrdurchsagen über das TCS-System – direkte Kommunikation mit allen Wohnungen im Brandfall.",
+      "description": "Im Brandfall kann die Feuerwehr über das Feuerwehrdurchsage-Modul direkte Durchsagen an alle oder ausgewählte Innenstationen im Gebäude machen.",
+      "anforderungen": {
+        "norm": {
+          "label": "Normkonformität",
+          "text": "Durchsageanlage gemäß relevanten Brandschutznormen."
+        },
+        "alleWohneinheiten": {
+          "label": "Alle Wohneinheiten",
+          "text": "Durchsage an alle oder ausgewählte Innenstationen."
+        },
+        "bedienung": {
+          "label": "Einfache Bedienung",
+          "text": "Schlüsselschalter-Aktivierung für Feuerwehrleute."
+        },
+        "bestand": {
+          "label": "Bestandsintegration",
+          "text": "Nutzung vorhandener TCS-Verkabelung und -Stationen."
+        }
+      },
+      "leistungen": {
+        "durchsage": {
+          "title": "Durchsagefunktion",
+          "items": [
+            "Zentrale Durchsage an alle Innenstationen im Gebäude",
+            "Selektive Durchsagen an einzelne Stationen oder Gruppen",
+            "Aktivierung via Schlüsselschalter (Feuerwehrschließung)",
+            "Integriertes Mikrofon im Durchsagemodul"
+          ]
+        },
+        "integration": {
+          "title": "Systemintegration",
+          "items": [
+            "Nutzung der bestehenden TCS-Busverkabelung",
+            "Kompatibel mit allen TCS-Innenstationen",
+            "Nachrüstbar in bestehende Anlagen",
+            "Kombination mit Concierge-Funktion möglich"
+          ]
+        },
+        "produkte": {
+          "title": "Produkte & Module",
+          "items": [
+            "FDE-Modul: Feuerwehrdurchsage-Einheit",
+            "Kompatible Innenstationen: TASTA, ecoos, sky, CARUS ORIGO",
+            "Schlüsselschalter und Aktivierungsmodule"
+          ]
+        }
+      },
+      "systembausteine": {
+        "fde": {
+          "label": "FDE-AD4 / FDE",
+          "title": "FDE-Modul",
+          "description": "Feuerwehrdurchsage-Einheit mit Mikrofon."
+        },
+        "innenstationen": {
+          "label": "TASTA / ecoos / sky / CARUS ORIGO",
+          "title": "Innenstationen",
+          "description": "Kompatible Empfangsstationen in den Wohnungen."
+        },
+        "schluesselschalter": {
+          "label": "FDE-ISH / FDE-ISW",
+          "title": "Schlüsselschalter",
+          "description": "Feuerwehr-Aktivierungsmodul."
+        },
+        "video": {
+          "label": "FDE-IVW",
+          "title": "Video-Innenstation",
+          "description": "Kompatible Video-Innenstationen."
+        }
+      },
+      "broschure": {
+        "label": "Broschüre herunterladen – TCS Feuerwehrdurchsage (PDF)"
+      }
+    },
+    "bidirektionaleVideo": {
+      "headline": "Bidirektionale Video-Gegensprechanlage",
+      "intro": "Zwei-Wege-Videokommunikation an der Tür – barrierefreie Verständigung per Gebärdensprache und Lippenlesen.",
+      "description": "Die bidirektionale Video-Gegensprechanlage ergänzt die klassische Türkommunikation um eine Kamera an der Innenstation.",
+      "anforderungen": {
+        "barrierefreiheit": {
+          "label": "Barrierefreiheit",
+          "text": "Visuelle Kommunikation für Gehörlose und Schwerhörige."
+        },
+        "pflege": {
+          "label": "Pflege & Assistenz",
+          "text": "Pflegekräfte sehen den Besucher – Bewohner werden gesehen."
+        },
+        "kameras": {
+          "label": "Zwei Kameras",
+          "text": "Kamera an Außen- und Innenstation für beidseitiges Videobild."
+        },
+        "datenschutz": {
+          "label": "Datenschutz",
+          "text": "Kamerafreigabe nur bei aktivem Gespräch, keine Dauerüberwachung."
+        }
+      },
+      "leistungen": {
+        "video": {
+          "title": "Videokommunikation",
+          "items": [
+            "Doppelseitiges Videobild: Besucher und Bewohner sehen sich",
+            "Kamera an Innenstation mit manueller Freigabe",
+            "Gebärdensprache und Lippenlesen möglich",
+            "Keine Dauerüberwachung – Kamera nur bei Gespräch aktiv"
+          ]
+        },
+        "barrierefreiheit": {
+          "title": "Barrierefreiheit",
+          "items": [
+            "Visuelle Kommunikation für Gehörlose und Schwerhörige",
+            "Unterstützung der DIN 18040-1",
+            "Kombination mit Induktionsschleife möglich",
+            "Großes Display für klare Videobilder"
+          ]
+        },
+        "einsatz": {
+          "title": "Einsatzbereiche",
+          "items": [
+            "Seniorenresidenzen und Pflegeeinrichtungen",
+            "Barrierefreie Wohnprojekte",
+            "Öffentliche Einrichtungen nach DIN 18040",
+            "Kliniken und Ärztehäuser"
+          ]
+        }
+      },
+      "systembausteine": {
+        "innenstation": {
+          "label": "CARUS PENTA / CARUS ORIGO",
+          "title": "Video-Innenstation",
+          "description": "Innenstation mit integrierter Kamera."
+        },
+        "aussenstation": {
+          "label": "PES PRO / CARUS ARGOS",
+          "title": "Video-Außenstation",
+          "description": "Außenstation mit Weitwinkelkamera."
+        },
+        "leitstelle": {
+          "label": "SKYLINE TEN PRO",
+          "title": "Leitstelle",
+          "description": "10-Zoll-Display für Empfang und Pflege."
+        }
+      },
+      "broschure": {
+        "label": "Broschüre herunterladen – TCS Bidirektionale Video-Gegensprechanlage (PDF)"
+      }
+    },
+    "mobileTuerkommunikation": {
+      "label": "Mobile Lösungen",
+      "headline": "Mobile Türkommunikation",
+      "intro": "Türrufe annehmen, Kamerabild sehen und Tür öffnen – überall und jederzeit.",
+      "description": "TCS bietet die passende mobile Lösung für jede Anforderung: vom einfachen Funkgong über DECT-Schnurlostelefone bis zur weltweiten Smartphone-Anbindung per App. Zwei Varianten stehen zur Wahl: Audio-only oder mit Video. Beide nutzen das bestehende TCS-Bussystem.",
+      "anforderungen": {
+        "smartStickMobile": {
+          "label": "Smart Stick MOBILE PHONE",
+          "text": "Türrufe weltweit auf dem Smartphone via snipdoo® HOME App und Cloud-Service."
+        },
+        "ipGateway": {
+          "label": "IP-Gateway Cloud",
+          "text": "TCS-Systeme mit bis zu 24 Innenstationen um mobile Video-Türkommunikation erweitern."
+        },
+        "smartStickDect": {
+          "label": "Smart Stick DECT GLOBAL",
+          "text": "Türrufe auf dem DECT-Schnurlostelefon – kompatibel mit Fritz!Box, Gigaset und Co."
+        },
+        "smartStickPhone": {
+          "label": "Smart Stick PHONE",
+          "text": "Vorhandenes IP-Telefon oder TK-Anlage für Türkommunikation nutzen."
+        },
+        "funkgong": {
+          "label": "Funkgong",
+          "text": "Steckdosen-Funkgong – Klingel zum Mitnehmen, nie einen Ruf verpassen."
+        }
+      },
+      "leistungen": {
+        "audio": {
+          "title": "Audio-Türkommunikation",
+          "items": [
+            "Türrufe auf Smartphone, Schnurlostelefon oder IP-Telefon",
+            "Sprechen und Tür öffnen – ohne Kamerabild",
+            "Smart Stick MOBILE PHONE, DECT GLOBAL, PHONE"
+          ]
+        },
+        "video": {
+          "title": "Video-Türkommunikation",
+          "items": [
+            "Videobild und Türruf weltweit auf dem Smartphone",
+            "Via snipdoo® HOME App durch IP-Gateway und Cloud",
+            "IP-Gateway 4 WE / IP-Gateway 24 WE"
+          ]
+        },
+        "barrierefrei": {
+          "title": "Barrierefreie Lösungen",
+          "items": [
+            "DECT Connect Sets: Plug & Play mit Großtastentelefon",
+            "Easy Pro: Hörgeräte-Bluetooth-Kopplung",
+            "Assistance: Blindentelefon mit Notruf-Sender"
+          ]
+        }
+      },
+      "systembausteine": {
+        "smartStickMobile": {
+          "label": "FFI0002",
+          "title": "Smart Stick MOBILE PHONE",
+          "description": "Türruf weltweit auf dem Smartphone via snipdoo® HOME App."
+        },
+        "ipGateway": {
+          "label": "FBI6126",
+          "title": "IP-Gateway Cloud 4/24 WE",
+          "description": "Mobile Video-Türkommunikation für Ein- und Mehrfamilienhäuser."
+        },
+        "smartStickDect": {
+          "label": "FFI0004",
+          "title": "Smart Stick DECT GLOBAL",
+          "description": "Türrufe auf dem DECT-Schnurlostelefon."
+        },
+        "smartStickPhone": {
+          "label": "FFI0001",
+          "title": "Smart Stick PHONE",
+          "description": "Türkommunikation über IP-Telefon oder TK-Anlage."
+        }
+      }
+    },
+    "zutrittskontrolleBCM": {
+      "label": "Zutrittskontrolle / BCM",
+      "headline": "Ein System – viele Anwendungen",
+      "intro": "Das BCM-Zutrittskontrollsystem von TCS bietet einen flexiblen und zuverlässigen Ansatz für moderne Gebäudesicherheit und effizientes Gebäudemanagement.",
+      "description": "Jede Anwendung integriert sich nahtlos in die zentrale BCM-Software. Sicherheitsgrad 4 nach EN 60839-11-1 mit Verschlüsselung an allen Punkten. Webbasierte Verwaltung ohne Softwareinstallation. Skalierbar vom Einfamilienhaus bis zur Großanlage mit integriertem Server – bis zu 100.000 Benutzer.",
+      "anforderungen": {
+        "zutritt": {
+          "label": "Zutrittskontrolle",
+          "text": "Lese- und Eingabegeräte für Transponderschlüssel oder Zahlencodes an Türen und Toren."
+        },
+        "oeffnung": {
+          "label": "Öffnungskontrolle",
+          "text": "Vorhängeschlösser und Schrankschlösser für Fahrradstellplätze, Container, Spinde und Serverschränke."
+        },
+        "zufahrten": {
+          "label": "Zufahrten & Parkplätze",
+          "text": "Steuerung von Schrankenanlagen, Handsender und KFZ-Kennzeichenerkennung."
+        },
+        "fahrstuhl": {
+          "label": "Fahrstuhlsteuerung",
+          "text": "Etagenzutritt per Schlüssel in Büro- und Verwaltungsgebäuden, Hotels oder Appartementhäusern."
+        },
+        "mobil": {
+          "label": "Mobile Identifikation",
+          "text": "Schlüsselloser Zugang per Smartphone, BLE, NFC oder Telefonanruf."
+        },
+        "reservieren": {
+          "label": "Reservieren & Buchen",
+          "text": "Einrichtungen, Services oder Räume reservieren und buchen."
+        },
+        "alarm": {
+          "label": "Alarmanlagenkopplung",
+          "text": "BCM Zutrittskontrolle mit Alarmanlagen verbinden – Scharf/Unscharf-Schaltung."
+        },
+        "cloud": {
+          "label": "Software & Cloud",
+          "text": "Webbasierte Verwaltung, Cloud-Zutrittskontrolle und BCM-Zentrale."
+        }
+      },
+      "leistungen": {
+        "zutritt": {
+          "title": "Zutrittskontrolle",
+          "items": [
+            "Elektronische Drückergarnitur",
+            "Elektronischer Knaufzylinder",
+            "BCM Online-Leser",
+            "Funkvernetzte Offline-Leser",
+            "Vorhängeschloss mit elektr. Knaufzylinder"
+          ]
+        },
+        "integration": {
+          "title": "Integration & Sicherheit",
+          "items": [
+            "REST API, webhooks, XML, RS-485, KNX, MQTT, BACnet",
+            "Partner: CRESTRON, IDEMIA, OLILINK, senia, AXIS, Active Directory",
+            "Custom Python Scripting",
+            "Multi-Tenancy für Mehrstandortbetrieb",
+            "Sicherheitsgrad 4 nach IEC 60839-11"
+          ]
+        },
+        "verwaltung": {
+          "title": "Verwaltung",
+          "items": [
+            "BCM Zutrittssoftware (webbasiert)",
+            "BCM MiniCloud",
+            "BCM Zentrale",
+            "Digitale Namensverwaltung",
+            "Infoboard für Besucher und Mitarbeiter"
+          ]
+        }
+      }
+    }
+  },
+  "uebersichten": {
+    "wohnen": {
+      "hero": {
+        "label": "Anwendungen",
+        "headline": "TCS im Wohnbau",
+        "intro": "Maßgeschneiderte Lösungen für Ein- und Mehrfamilienhäuser, Großanlagen und die Modernisierung von Bestandsgebäuden – von der Türkommunikation bis zur vernetzten Zutrittskontrolle."
+      },
+      "section": {
+        "eyebrow": "Wohngebäude",
+        "title": "Lösungen für den Wohnbau",
+        "intro": "Vom Einfamilienhaus bis zur Großanlage – TCS bietet die passende Lösung für jedes Wohnprojekt.",
+        "cta": "Details"
+      },
+      "cards": {
+        "einfamilienhaus": {
+          "title": "Einfamilienhaus",
+          "description": "Komplettsysteme für Ein- und Zweifamilienhäuser – Audio, Video, App-Anbindung und Türöffnung.",
+          "tags": [
+            "Audio/Video",
+            "App",
+            "Einzelsystem"
+          ]
+        },
+        "mehrfamilienhaus": {
+          "title": "Mehrfamilienhaus",
+          "description": "Skalierbare Sprechanlagen mit digitaler Zutrittsverwaltung für Wohnanlagen bis 50 Einheiten.",
+          "tags": [
+            "Verwaltung",
+            "BCM",
+            "Video"
+          ]
+        },
+        "grossanlage": {
+          "title": "Großanlage",
+          "description": "IP-basierte Vernetzung, zentrale Zutrittskontrolle und snipdoo-Integration für große Wohnanlagen.",
+          "tags": [
+            "IP",
+            "Planung",
+            "Zutritt"
+          ]
+        },
+        "sanierung": {
+          "title": "Sanierung / Bestand",
+          "description": "Vorhandene Verkabelung nutzen, snipdoo nachrüsten und bestehende Anlagen modernisieren.",
+          "tags": [
+            "Bestandsanbindung",
+            "snipdoo",
+            "Austausch"
+          ]
+        }
+      }
+    },
+    "gesundheit": {
+      "hero": {
+        "label": "Anwendungen",
+        "headline": "TCS in Gesundheitseinrichtungen",
+        "intro": "Barrierefreie Kommunikations- und Zutrittslösungen für Pflegeheime, Kliniken und Betreutes Wohnen – zuverlässig, hygienegerecht und einfach zu bedienen."
+      },
+      "section": {
+        "eyebrow": "Gesundheitseinrichtungen",
+        "title": "Lösungen für Pflege und Medizin",
+        "intro": "Kommunikation und Zutritt für Einrichtungen mit hohen Anforderungen an Barrierefreiheit, Hygiene und Sicherheit.",
+        "cta": "Details"
+      },
+      "cards": {
+        "pflege": {
+          "title": "Pflege / Betreutes Wohnen",
+          "description": "Barrierefreie Türkommunikation, Notruf-Integration und einfache Bedienung für Pflegeeinrichtungen.",
+          "tags": [
+            "Barrierefreiheit",
+            "Notruf",
+            "BCM"
+          ]
+        },
+        "klinik": {
+          "title": "Klinik / Ärztehaus",
+          "description": "Rund-um-die-Uhr-Zutrittskontrolle, hygieneoptimierte Bedienung und Notfallzugang.",
+          "tags": [
+            "Hygiene",
+            "Zutritt",
+            "Video"
+          ]
+        }
+      }
+    },
+    "oeffentlich": {
+      "hero": {
+        "label": "Anwendungen",
+        "headline": "TCS in Einrichtungen der öffentlichen Hand",
+        "intro": "Sicherheit, Wegeleitung und Zutritt für Behörden, Feuerwachen und öffentliche Freizeiteinrichtungen – normgerecht, robust und flexibel administrierbar."
+      },
+      "section": {
+        "eyebrow": "Öffentliche Einrichtungen",
+        "title": "Lösungen für die öffentliche Hand",
+        "intro": "Von Behörden über Feuerwachen bis zu Freizeiteinrichtungen – TCS-Systeme für besondere Anforderungen.",
+        "cta": "Details"
+      },
+      "cards": {
+        "behoerde": {
+          "title": "Behörden / Sonderbauten",
+          "description": "Erhöhte Sicherheitsanforderungen, Dokumentation und besondere Zugangsregelungen für öffentliche Gebäude.",
+          "tags": [
+            "Sicherheit",
+            "Orientierung",
+            "Zutritt"
+          ]
+        },
+        "feuerwehr": {
+          "title": "Feuerwehr / Sonderbau",
+          "description": "Speziallösungen für Feuerwachen, Polizei und andere spezialisierte Dienstgebäude.",
+          "tags": [
+            "Sonderlösungen",
+            "Robustheit"
+          ]
+        },
+        "schwimmbad": {
+          "title": "Schwimmbad / Freizeit",
+          "description": "Schließfächer, Wegeleitsysteme und Zutrittskontrolle für Bäder und Freizeitanlagen.",
+          "tags": [
+            "Schließfächer",
+            "Orientierung",
+            "Zutritt"
+          ]
+        }
+      }
+    },
+    "objektloesungen": {
+      "hero": {
+        "label": "Objektlösungen",
+        "headline": "Maßgeschneiderte Ausstattung für besondere Anforderungen",
+        "intro": "Als Entscheider in der kommunalen Bauplanung, Bauträger oder Elektrofachplaner bietet TCS Ihnen gewerkeübergreifende, digitale und zukunftssichere Kommunikations- und Sicherheitslösungen aus einer Hand."
+      },
+      "lead": "Ob barrierefreie Türkommunikation nach DIN 18040-1, skalierbare Zutrittskontrollen oder digitale Wegeleitsysteme – unsere Anlagen passen sich flexibel an den jeweiligen Nutzungszeitraum und das spezifische Umfeld an. Profitieren Sie von unserer Spezialisierung auf öffentliche und besondere Gebäude und erleben Sie höchste Effizienz in Planung, Installation und Wartung.",
+      "section": {
+        "label": "Anwendungen",
+        "title": "Unsere Lösungen für Ihre spezifischen Bauprojekte"
+      },
+      "items": {
+        "kita": {
+          "title": "TCS in Kindertagesstätten",
+          "subtitle": "Sicherer Freiraum für kleine Entdecker",
+          "text": "In Kitas hat der Schutz der Kinder höchste Priorität, während gleichzeitig der pädagogische Alltag reibungslos funktionieren muss. Unsere Video-Türsprechanlagen ermöglichen eine effektive Sichtkontrolle am Eingang. Durch vernetzte Innenstationen und die Weiterleitung von Türrufen auf mobile DECT-Telefone oder Smartphones sind Erzieherinnen und Erzieher jederzeit erreichbar. Digitale Infoboards informieren Eltern zeitgemäß über aktuelle Termine."
+        },
+        "schulen": {
+          "title": "TCS in Schulen",
+          "subtitle": "Vernetzte Sicherheit im Schulalltag",
+          "text": "Schulen erfordern ein Höchstmaß an Übersicht und schnellen Reaktionsmöglichkeiten. TCS bietet vereinfachte Zugangskontrolle für Lehrkräfte und Hausmeister sowie direkte Raum-zu-Raum-Kommunikation. Ein besonderes Augenmerk liegt auf unseren Notfall-Rufsystemen, die bei Gefahrensituationen einen gezielten Ruf nach internen und externen Rettungskräften ermöglichen."
+        },
+        "wohnheime": {
+          "title": "TCS in Wohnheimen",
+          "subtitle": "Flexibel wie ihre Bewohner",
+          "text": "Studenten- und Personalwohnheime sind durch häufigen Mieterwechsel geprägt. TCS minimiert den Verwaltungsaufwand drastisch: Durch digitale Namensschilder an den Außenstationen, die über ein Webinterface aktualisiert werden, entfällt der manuelle Austausch. Intelligente Zutrittskontrollen per Transponder oder Zahlencode ersetzen große Schlüsselbünde."
+        },
+        "pflege": {
+          "title": "TCS in Pflege und Betreutem Wohnen",
+          "subtitle": "Barrierefreie Unterstützung im Alltag",
+          "text": "Unsere Lösungen sind konsequent barrierefrei nach DIN 18040-1 gestaltet und bieten optische sowie akustische Unterstützung. Bewohner können das Personal über große Tasten oder mobile Rufknöpfe am Armband direkt erreichen. Die Weiterleitung auf mobile Geräte stellt sicher, dass Pflegekräfte jederzeit ansprechbar sind und Wegezeiten minimiert werden."
+        },
+        "medizin": {
+          "title": "TCS in medizinischen Einrichtungen",
+          "subtitle": "Gut kommuniziert, besser orientiert",
+          "text": "In Praxen, Ärztehäusern und Kliniken müssen Patientenströme effizient gelenkt werden. Digitale Infoboards informieren über Raumbelegungen und Öffnungszeiten, während klare Beschilderungen die Orientierung erleichtern. Automatische Türöffner und Zutrittskontrollen für sensible Bereiche bringen spürbare Entlastung."
+        },
+        "behoerden": {
+          "title": "TCS in Behörden und Ämtern",
+          "subtitle": "Effizient arbeiten, sicher leiten",
+          "text": "Öffentliche Verwaltungen verlangen nach geregelten Zugängen und reibungsloser Besucherführung. Mit TCS integrieren Sie Zutrittskontrollen, die sich dank Cloud-Anbindung schnell und flexibel administrieren lassen. Neben Bürotüren lassen sich auch Schrankenanlagen und Parkautomaten nahtlos einbinden."
+        },
+        "feuerwehren": {
+          "title": "TCS in Feuerwehren",
+          "subtitle": "Effizienter und schneller im Einsatz",
+          "text": "Wenn jede Sekunde zählt, muss die Gebäudetechnik perfekt mitspielen. TCS stattet Rettungswachen mit robusten Systemen aus, bei denen von einer Kommunikationszentrale sämtliche Funktionen des Geländes ausgelöst und überwacht werden können. Ein schlüsselloser Personalzugang sorgt dafür, dass Einsatzkräfte ohne Verzögerung zu ihren Fahrzeugen gelangen."
+        },
+        "baeder": {
+          "title": "TCS in Schwimm- und Freibädern",
+          "subtitle": "Besucherfreundlich und sicher verwahrt",
+          "text": "Neben einer klaren Wegeführung für Badegäste steht die Sicherung von Funktionsbereichen im Fokus. Mit TCS-Transponderlösungen oder Codeschlössern lassen sich Personalbereiche und Schließfächer in Umkleiden einfach und effektiv absichern. Externe Zufahrten wie Schrankenanlagen können in das Gesamtsystem integriert werden."
+        }
+      }
+    },
+    "bildung": {
+      "hero": {
+        "label": "Anwendungslösung",
+        "headline": "TCS in Bildungseinrichtungen",
+        "intro": "Intelligente Kommunikation und Sicherheit für Kindertagesstätten, Schulen und Wohnheime – barrierefreie, vernetzte und flexible Lösungen aus einem System."
+      },
+      "sections": {
+        "anforderungen": "Typische Anforderungen",
+        "leistungen": "Systemleistungen",
+        "broschure": "Broschüre herunterladen (PDF)"
+      },
+      "einrichtungen": {
+        "kita": {
+          "label": "Kindertagesstätte",
+          "title": "Kindertagesstätte",
+          "intro": "Sicherheit, Barrierefreiheit und flexible Nutzungskonzepte sind in Kindertagesstätten entscheidend. TCS bietet intelligente Kommunikations- und Sicherheitslösungen, die speziell auf die Anforderungen moderner Kitas zugeschnitten sind.",
+          "imageAlt": "Kindertagesstätte",
+          "anforderungen": {
+            "sicherheit": {
+              "label": "Sicherer Zugang",
+              "text": "Kontrollierter Zutritt zu allen Bereichen – nur autorisierte Personen gelangen hinein."
+            },
+            "barrierefrei": {
+              "label": "Barrierefreiheit",
+              "text": "Türkommunikation gemäß DIN 18040-1 für alle Nutzergruppen."
+            },
+            "video": {
+              "label": "Video-Türsprechanlage",
+              "text": "Klare Sicht auf den Eingangsbereich – wer klingelt, wird gesehen."
+            },
+            "intern": {
+              "label": "Interne Vernetzung",
+              "text": "Raum-zu-Raum-Kommunikation und mobile Erreichbarkeit."
+            },
+            "info": {
+              "label": "Digitale Infotafeln",
+              "text": "Elterninformationen und Tagesaktuelles auf Displays."
+            }
+          },
+          "leistungen": {
+            "sicherheit": {
+              "bereich": "Sicherheit & Zutritt",
+              "punkte": [
+                "(Video-)Türsprechanlagen für klare Sicht und sicheren Zugang",
+                "Zutrittskontrolle ohne Schlüssel – per Code, Transponder, Chip oder Fingerprint",
+                "Kontrollierter Zugang zu allen Gebäudebereichen"
+              ]
+            },
+            "kommunikation": {
+              "bereich": "Kommunikation",
+              "punkte": [
+                "Vernetzte Innenstationen für Raum-zu-Raum-Kommunikation",
+                "Mobile Erreichbarkeit via DECT oder Smartphone",
+                "Durchsagefunktionen für interne Kommunikation"
+              ]
+            },
+            "orientierung": {
+              "bereich": "Orientierung & Information",
+              "punkte": [
+                "Digitale Infotafeln für Elterninformationen",
+                "Kindgerechte Leit- und Orientierungssysteme",
+                "Klare Beschilderung und Piktogramme"
+              ]
+            }
+          }
+        },
+        "schule": {
+          "label": "Schule",
+          "title": "Schule",
+          "intro": "TCS bietet ganzheitliche Systeme für moderne Schulen – gewerkeübergreifend geplant, flexibel integriert und individuell anpassbar.",
+          "imageAlt": "Schule",
+          "anforderungen": {
+            "zutritt": {
+              "label": "Zutrittskontrolle",
+              "text": "Sichere Zugangssysteme per Code, Transponder, Chip oder Fingerprint."
+            },
+            "notruf": {
+              "label": "Notruf-System",
+              "text": "Schnelle Hilfe in Bedrohungslagen – direkt über das System."
+            },
+            "video": {
+              "label": "Video-Türsprechanlage",
+              "text": "Klare Sicht und sichere Zugangskontrolle an allen Eingängen."
+            },
+            "intern": {
+              "label": "Interne Kommunikation",
+              "text": "Raum-zu-Raum-Kommunikation und Smartphone-Integration."
+            },
+            "info": {
+              "label": "Digitale Infotafeln",
+              "text": "Aktuelle Nachrichten für Schüler, Eltern und Lehrkräfte."
+            },
+            "wege": {
+              "label": "Wegeleitung",
+              "text": "Orientierungssysteme mit Beschilderung und Piktogrammen."
+            }
+          },
+          "leistungen": {
+            "sicherheit": {
+              "bereich": "Sicherheit & Zutritt",
+              "punkte": [
+                "(Video-)Türsprechanlagen für sichere Zugangskontrolle",
+                "Schlüssellose Zugangssysteme per Code, Transponder oder Fingerprint",
+                "Notruf-System für Bedrohungslagen",
+                "Intelligente Eingangssysteme mit Beleuchtung und Brandschutz"
+              ]
+            },
+            "kommunikation": {
+              "bereich": "Kommunikation",
+              "punkte": [
+                "Raum-zu-Raum-Kommunikation via DECT oder Smartphone",
+                "Durchsagefunktionen für schnelle interne Kommunikation",
+                "Vernetzte Innenstationen in Sekretariat und Verwaltung"
+              ]
+            },
+            "orientierung": {
+              "bereich": "Orientierung & Information",
+              "punkte": [
+                "Digitale Infotafeln für aktuelle Nachrichten",
+                "Wegeleit-Systeme mit Piktogrammen",
+                "Barrierefreie Türkommunikation gemäß DIN 18040-1"
+              ]
+            }
+          }
+        },
+        "wohnheim": {
+          "label": "Wohnheim",
+          "title": "Wohnheim",
+          "intro": "Wohnheime haben besondere Anforderungen: häufige Bewohnerwechsel, unterschiedliche Nutzergruppen und ein hoher Sicherheitsbedarf. TCS bietet flexible, maßgeschneiderte Lösungen.",
+          "imageAlt": "Wohnheim",
+          "anforderungen": {
+            "wechsel": {
+              "label": "Häufiger Bewohnerwechsel",
+              "text": "Digitale Namens- und Rechteverwaltung für schnelles Umschalten."
+            },
+            "zutritt": {
+              "label": "Zutrittskontrolle",
+              "text": "Schlüssellos per Code, Transponder, Chip oder Fingerprint."
+            },
+            "video": {
+              "label": "Video-Türkommunikation",
+              "text": "Klare Sicht auf den Eingangsbereich."
+            },
+            "durchsage": {
+              "label": "Durchsagefunktion",
+              "text": "Für Hauswarte oder Feuerwehr – direkt über Innenstationen."
+            },
+            "info": {
+              "label": "Digitale Infotafeln",
+              "text": "Aktuelle Informationen und Aushänge für Bewohner."
+            }
+          },
+          "leistungen": {
+            "sicherheit": {
+              "bereich": "Sicherheit & Zutritt",
+              "punkte": [
+                "(Video-)Türsprechanlagen mit klarer Sicht auf den Eingang",
+                "Schlüssellose Zutrittskontrolle per Code, Transponder oder Fingerprint",
+                "Digitale Namens- und Rechteverwaltung bei Bewohnerwechsel",
+                "Integrierte Eingangssysteme mit Beleuchtung und Brandschutz"
+              ]
+            },
+            "kommunikation": {
+              "bereich": "Kommunikation",
+              "punkte": [
+                "Vernetzte Innenstationen mit Durchsagefunktionen",
+                "Interne Kommunikation zwischen Verwaltung, Technik und Bewohnern",
+                "Mobile Erreichbarkeit via Smartphone-Integration"
+              ]
+            },
+            "orientierung": {
+              "bereich": "Orientierung & Information",
+              "punkte": [
+                "Digitale Infotafeln für Bewohner und Besucher",
+                "Wegeleit-Systeme mit Beschilderung und Piktogrammen",
+                "Barrierefreie Türkommunikation gemäß DIN 18040-1"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "referenzen": {
+    "list": {
+      "label": "Anwendungen",
+      "headline": "Referenzprojekte",
+      "intro": "Realisierte Projekte mit TCS-Systemen – von Stadthäusern bis zu Großanlagen. Lassen Sie sich von unseren Referenzen inspirieren.",
+      "kicker": "Referenzen",
+      "title": "Ausgewählte Projekte",
+      "subtitle": "Eine Auswahl realisierter TCS-Installationen in unterschiedlichen Gebäudetypen.",
+      "detailsCta": "Details ansehen →"
+    },
+    "detail": {
+      "notFound": {
+        "label": "Referenzprojekte",
+        "headline": "Projekt nicht gefunden",
+        "intro": "Das gewünschte Referenzprojekt konnte nicht gefunden werden.",
+        "back": "Zurück zu den Referenzprojekten"
+      },
+      "label": "Referenzprojekte",
+      "back": "Alle Referenzprojekte",
+      "imageAlt": "{{title}} – Bild {{index}}",
+      "sections": {
+        "beschreibung": "Projektbeschreibung",
+        "highlights": "Projekt-Highlights",
+        "projektdaten": "Projektdaten",
+        "systeme": "Eingesetzte TCS-Systeme"
+      },
+      "meta": {
+        "gebaeudetyp": "Gebäudetyp",
+        "standort": "Standort",
+        "fertigstellung": "Fertigstellung",
+        "umfang": "Umfang"
+      },
+      "cta": {
+        "title": "Ähnliches Projekt?",
+        "text": "Kontaktieren Sie uns für eine individuelle Beratung zu Ihrem Bauvorhaben.",
+        "link": "Kontakt aufnehmen →"
+      }
+    },
+    "projekte": {
+      "pulse-berlin": {
+        "title": "PULSE, Berlin",
+        "type": "Gewerbeneubau",
+        "location": "Berlin-Friedrichshain",
+        "units": "200+ Wohneinheiten",
+        "description": "Moderner Gewerbeneubau mit über 200 Wohneinheiten und volldigitaler TCS-Türkommunikation inkl. Video und App-Anbindung.",
+        "longDescription": [
+          "Das PULSE in Berlin-Friedrichshain ist eines der ambitioniertesten Neubauprojekte der Hauptstadt. Auf mehreren Etagen vereint es Wohn-, Gewerbe- und Gemeinschaftsflächen zu einem lebendigen Stadtquartier.",
+          "TCS wurde als Systempartner für die gesamte Türkommunikation und Zutrittskontrolle ausgewählt. Über 200 Wohneinheiten wurden mit modernster Video-Sprechanlage ausgestattet, die eine nahtlose Kommunikation zwischen Bewohnern und Besuchern ermöglicht.",
+          "Besonderes Highlight ist die vollständige App-Integration: Bewohner können Türrufe direkt auf dem Smartphone entgegennehmen und die Tür von überall aus öffnen. Das System wurde in die bestehende Smart-Home-Infrastruktur eingebunden."
+        ],
+        "highlights": [
+          "Volldigitale Türkommunikation",
+          "App-Anbindung für alle Bewohner",
+          "Smart-Home-Integration",
+          "Zentrale Zutrittsverwaltung"
+        ],
+        "systems": [
+          "TCS Video-Innenstationen",
+          "TCS:BUS-System",
+          "TCS App-Gateway",
+          "BCM-Zutrittskontrolle"
+        ]
+      },
+      "weidt-park-corner": {
+        "title": "Weidt Park Corner, Berlin Mitte",
+        "type": "Wohnanlage",
+        "location": "Berlin-Mitte",
+        "units": "85 Wohneinheiten",
+        "description": "Exklusive Wohnanlage mit integrierter Zutrittskontrolle und moderner Videosprechanlage für höchsten Komfort.",
+        "longDescription": [
+          "Weidt Park Corner in Berlin-Mitte definiert urbanes Wohnen auf höchstem Niveau. Die exklusive Wohnanlage verbindet architektonische Eleganz mit modernster Gebäudetechnik.",
+          "TCS hat für dieses Projekt eine maßgeschneiderte Lösung aus Videosprechanlage und Zutrittskontrolle entwickelt. Jede der 85 Wohneinheiten verfügt über eine hochauflösende Video-Innenstation mit Touchscreen-Bedienung.",
+          "Das Zutrittskontrollsystem ermöglicht eine komfortable und sichere Zugangsverwaltung – von der Tiefgarage bis zur Wohnungstür. Bewohner nutzen RFID-Transponder oder die TCS-App für den schlüssellosen Zugang."
+        ],
+        "highlights": [
+          "Hochauflösende Video-Innenstationen",
+          "RFID-Zutrittskontrolle",
+          "Schlüsselloser Zugang via App",
+          "Design-Außenstationen"
+        ],
+        "systems": [
+          "TCS Video-Innenstationen",
+          "BCM-Zutrittskontrolle",
+          "TCS:BUS-System",
+          "Design-Außenstationen"
+        ]
+      },
+      "fritztower": {
+        "title": "Fritztower, Berlin",
+        "type": "Hochhaus",
+        "location": "Berlin-Tiergarten",
+        "units": "35 Etagen, 375 Apartments",
+        "description": "Hochhaus-Projekt mit 35 Etagen – TCS-Systeme für Türkommunikation und Gebäudemanagement auf allen Ebenen.",
+        "longDescription": [
+          "Der Fritztower ist mit 35 Etagen eines der höchsten Wohngebäude Berlins. Das markante Hochhaus am Tiergarten setzt Maßstäbe für modernes urbanes Wohnen.",
+          "Die besondere Herausforderung bestand darin, ein einheitliches Kommunikations- und Zutrittssystem über alle 35 Etagen und 375 Apartments zu implementieren. TCS hat hierfür eine skalierbare BUS-Lösung konzipiert.",
+          "Das Gebäudemanagement-System von TCS vernetzt alle Zugangspunkte zentral und ermöglicht eine effiziente Verwaltung. Die Concierge-Funktion im Eingangsbereich ergänzt die technische Infrastruktur."
+        ],
+        "highlights": [
+          "35-Etagen-Hochhaus-Lösung",
+          "375 vernetzte Apartments",
+          "Concierge-Integration",
+          "Zentrales Gebäudemanagement"
+        ],
+        "systems": [
+          "TCS:BUS-System",
+          "Video-Sprechanlagen",
+          "Concierge-System",
+          "Gebäudemanagement-Software"
+        ]
+      },
+      "haupttelegraphenamt": {
+        "title": "Haupttelegraphenamt, Berlin",
+        "type": "Denkmal / Sanierung",
+        "location": "Berlin-Mitte",
+        "units": "120 Einheiten",
+        "description": "Denkmalgerechte Sanierung mit Integration moderner TCS-Sprechanlagen in historische Fassaden und Eingangsbereiche.",
+        "longDescription": [
+          "Das historische Haupttelegraphenamt in Berlin-Mitte ist ein architektonisches Juwel aus der Gründerzeit. Die denkmalgerechte Sanierung stellte höchste Anforderungen an die Integration moderner Technik.",
+          "TCS hat für dieses Projekt spezielle Lösungen entwickelt, die sich harmonisch in die historischen Fassaden und Eingangsbereiche einfügen. Die Außenstationen wurden individuell an das Erscheinungsbild des Gebäudes angepasst.",
+          "Trotz der denkmalschutzrechtlichen Auflagen konnte ein vollwertiges Video-Türkommunikationssystem installiert werden, das den Bewohnern modernsten Komfort bietet."
+        ],
+        "highlights": [
+          "Denkmalgerechte Integration",
+          "Individuell angepasste Außenstationen",
+          "Historische Fassadenintegration",
+          "Moderne Technik im Altbau"
+        ],
+        "systems": [
+          "Maßgefertigte Außenstationen",
+          "TCS:BUS-System",
+          "Video-Innenstationen",
+          "Unterputz-Montage"
+        ]
+      },
+      "spichern-2": {
+        "title": "Spichern 2, Berlin",
+        "type": "Wohn- und Geschäftshaus",
+        "location": "Berlin-Wilmersdorf",
+        "units": "60 Einheiten",
+        "description": "Gemischte Nutzung mit getrennten Zutrittszonen für Gewerbe und Wohnen – realisiert über TCS-Systemtechnik.",
+        "longDescription": [
+          "Spichern 2 ist ein modernes Wohn- und Geschäftshaus in Berlin-Wilmersdorf, das unterschiedliche Nutzungsarten unter einem Dach vereint.",
+          "Die besondere Herausforderung lag in der strikten Trennung der Zutrittszonen: Gewerbemieter und Bewohner benötigen separate Zugänge mit individuellen Berechtigungsprofilen. TCS hat ein mehrstufiges Zutrittssystem implementiert.",
+          "Die Sprechanlage wurde so konfiguriert, dass Gewerbe- und Wohnbereiche über getrennte Ruflisten erreichbar sind. Die zentrale Verwaltung ermöglicht eine flexible Anpassung der Berechtigungen."
+        ],
+        "highlights": [
+          "Getrennte Zutrittszonen",
+          "Mehrstufiges Berechtigungssystem",
+          "Separate Ruflisten",
+          "Flexible Verwaltung"
+        ],
+        "systems": [
+          "BCM-Zutrittskontrolle",
+          "TCS:BUS-System",
+          "Multi-Zone-Konfiguration",
+          "Video-Außenstationen"
+        ]
+      },
+      "thulestrasse": {
+        "title": "Thulestraße, Berlin",
+        "type": "Mehrfamilienhaus",
+        "location": "Berlin-Prenzlauer Berg",
+        "units": "48 Parteien",
+        "description": "Mehrfamilienhaus mit 48 Parteien, ausgestattet mit Audio- und Video-Innenstationen sowie mobilem Türöffner.",
+        "longDescription": [
+          "Das Mehrfamilienhaus in der Thulestraße im beliebten Prenzlauer Berg vereint zeitgemäßes Wohnen mit komfortabler Haustechnik.",
+          "Alle 48 Wohneinheiten wurden mit einer Kombination aus Audio- und Video-Innenstationen ausgestattet. Die Bewohner haben die Wahl zwischen klassischer Gegensprechanlage und Videoübertragung.",
+          "Besonders geschätzt wird die mobile Türöffnungsfunktion: Über die TCS-App können Bewohner auch unterwegs sehen, wer klingelt, und bei Bedarf die Tür öffnen – ideal für Paketannahme und Besucher."
+        ],
+        "highlights": [
+          "Audio- und Video-Kombination",
+          "Mobile Türöffnung via App",
+          "48 vernetzte Parteien",
+          "Paketannahme-Funktion"
+        ],
+        "systems": [
+          "TCS Audio-Innenstationen",
+          "TCS Video-Innenstationen",
+          "TCS App-Gateway",
+          "TCS:BUS-System"
+        ]
+      },
+      "quartier-heidestrasse": {
+        "title": "Quartier Heidestrasse, Berlin",
+        "type": "Stadtquartier",
+        "location": "Berlin-Moabit",
+        "units": "500+ Einheiten",
+        "description": "Großflächiges Stadtquartier mit mehreren Gebäuden – zentrale TCS-Zutrittsverwaltung und Concierge-Lösung.",
+        "longDescription": [
+          "Das Quartier Heidestrasse ist eines der größten urbanen Entwicklungsprojekte Berlins. Auf dem ehemaligen Güterbahnhof-Gelände entsteht ein neues Stadtquartier mit Wohnen, Arbeiten und Freizeit.",
+          "TCS lieferte die Kommunikations- und Zutrittslösung für das gesamte Quartier mit über 500 Einheiten. Die zentrale Zutrittsverwaltung ermöglicht eine gebäudeübergreifende Steuerung aller Zugangspunkte.",
+          "Eine besondere Anforderung war die Concierge-Lösung: Über einen zentralen Empfang können Besucher an alle Gebäude im Quartier vermittelt werden. Das System ist skalierbar für zukünftige Erweiterungen konzipiert."
+        ],
+        "highlights": [
+          "Quartier-weite Vernetzung",
+          "Zentrale Zutrittsverwaltung",
+          "Concierge-Lösung",
+          "Skalierbare Architektur"
+        ],
+        "systems": [
+          "TCS Gebäudemanagement",
+          "Concierge-System",
+          "BCM-Zutrittskontrolle",
+          "TCS:BUS über IP"
+        ]
+      },
+      "luisenpark-residenz": {
+        "title": "Luisenpark Residenz, München",
+        "type": "Wohnanlage",
+        "location": "München-Schwabing",
+        "units": "45 Wohneinheiten",
+        "description": "Gehobene Wohnanlage mit biometrischer Zutrittskontrolle und individueller Klingelanlage je Einheit.",
+        "longDescription": [
+          "Die Luisenpark Residenz in München-Schwabing setzt neue Maßstäbe für gehobenes Wohnen. Die exklusive Anlage verbindet klassische Architektur mit zukunftsweisender Haustechnik.",
+          "Für dieses Premiumobjekt hat TCS eine biometrische Zutrittskontrolle implementiert. Bewohner können per Fingerprint, RFID oder App Zugang zu Tiefgarage, Haupteingang und Wohnung erhalten.",
+          "Jede der 45 Wohneinheiten verfügt über eine individuell konfigurierte Klingelanlage mit personalisierter Namensanzeige und hochauflösender Videoübertragung."
+        ],
+        "highlights": [
+          "Biometrische Zutrittskontrolle",
+          "Fingerprint-Zugang",
+          "Individuelle Klingelkonfiguration",
+          "Premium-Designlinie"
+        ],
+        "systems": [
+          "Biometrische Leser",
+          "BCM-Zutrittskontrolle",
+          "TCS Design-Außenstationen",
+          "Video-Innenstationen"
+        ]
+      },
+      "klinikum-sued": {
+        "title": "Klinikum Süd, Stuttgart",
+        "type": "Gesundheitseinrichtung",
+        "location": "Stuttgart",
+        "units": "12 Stationen, 180 Zugangspunkte",
+        "description": "Klinikneubau mit TCS-Türkommunikation für Stationen, Notaufnahme und Verwaltungsbereiche.",
+        "longDescription": [
+          "Das Klinikum Süd in Stuttgart ist ein moderner Klinikneubau mit höchsten Anforderungen an Sicherheit, Hygiene und Kommunikation.",
+          "TCS hat ein umfassendes Türkommunikations- und Zutrittssystem für alle 12 Stationen, die Notaufnahme und sämtliche Verwaltungsbereiche implementiert. Besondere Hygieneanforderungen wurden durch berührungslose Zugangslösungen erfüllt.",
+          "Das System ist in die Klinik-IT integriert und ermöglicht eine zentrale Verwaltung aller Zugangspunkte. Im Notfall können Bereiche sofort gesperrt oder freigegeben werden."
+        ],
+        "highlights": [
+          "Berührungslose Zugangslösungen",
+          "Klinik-IT-Integration",
+          "Notfall-Management",
+          "Hygienekonforme Technik"
+        ],
+        "systems": [
+          "Berührungslose Leser",
+          "BCM-Zutrittskontrolle",
+          "TCS Gebäudemanagement",
+          "Notfall-Steuerung"
+        ]
+      },
+      "rathaus-neustadt": {
+        "title": "Rathaus Neustadt, Dresden",
+        "type": "Öffentliche Hand",
+        "location": "Dresden",
+        "units": "25 Zugangspunkte",
+        "description": "Modernisierung des Rathauses mit barrierefrei bedienbaren TCS-Sprechanlagen und digitalem Namensverzeichnis.",
+        "longDescription": [
+          "Das Rathaus Neustadt in Dresden wurde im Rahmen einer umfassenden Modernisierung mit zeitgemäßer Kommunikationstechnik ausgestattet.",
+          "Im Fokus stand die barrierefreie Gestaltung: Alle Sprechanlagen sind rollstuhlgerecht montiert und verfügen über große, kontraststarke Displays sowie induktive Hörunterstützung.",
+          "Das digitale Namensverzeichnis am Haupteingang ermöglicht Bürgern eine intuitive Orientierung und direkte Kontaktaufnahme mit den gewünschten Ämtern und Sachbearbeitern."
+        ],
+        "highlights": [
+          "Barrierefreie Bedienung",
+          "Induktive Hörunterstützung",
+          "Digitales Namensverzeichnis",
+          "Rollstuhlgerechte Montage"
+        ],
+        "systems": [
+          "TCS Barrierefreie Außenstationen",
+          "Digitales Namensverzeichnis",
+          "Induktionsschleifen",
+          "TCS:BUS-System"
+        ]
+      },
+      "campus-westend": {
+        "title": "Campus Westend, Frankfurt",
+        "type": "Bildungseinrichtung",
+        "location": "Frankfurt am Main",
+        "units": "30+ Gebäudezugänge",
+        "description": "Universitätscampus mit über 30 Gebäudezugängen – zentrale Zutrittskontrolle und Sprechanlage über TCS.",
+        "longDescription": [
+          "Der Campus Westend der Goethe-Universität Frankfurt ist einer der modernsten Universitätscampus Deutschlands. Die weitläufige Anlage umfasst über 30 Gebäude mit unterschiedlichen Nutzungsanforderungen.",
+          "TCS hat eine zentrale Zutrittskontrolllösung implementiert, die alle Gebäudezugänge vernetzt. Studierende, Mitarbeiter und Besucher erhalten individuelle Zugangsberechtigungen über Chipkarten.",
+          "Die Sprechanlagen an den Haupteingängen ermöglichen eine sichere Kommunikation mit dem Empfang und der Campus-Security. Das System ist in die bestehende Universitäts-IT integriert."
+        ],
+        "highlights": [
+          "30+ vernetzte Gebäude",
+          "Chipkarten-Zutrittssystem",
+          "Campus-Security-Integration",
+          "Zentrale Verwaltungsplattform"
+        ],
+        "systems": [
+          "BCM-Zutrittskontrolle",
+          "Chipkarten-Leser",
+          "TCS Gebäudemanagement",
+          "Video-Außenstationen"
+        ]
+      },
+      "seniorenresidenz-am-park": {
+        "title": "Seniorenresidenz Am Park, Hamburg",
+        "type": "Pflegeeinrichtung",
+        "location": "Hamburg-Blankenese",
+        "units": "80 Bewohnereinheiten",
+        "description": "Barrierefreie Sprechanlage mit großen Displays, Hörunterstützung und Anbindung an das Pflegesystem.",
+        "longDescription": [
+          "Die Seniorenresidenz Am Park in Hamburg-Blankenese bietet 80 Bewohnern ein komfortables und sicheres Zuhause. Barrierefreiheit und einfache Bedienung standen bei der Planung im Vordergrund.",
+          "TCS hat eine speziell auf die Bedürfnisse älterer Menschen zugeschnittene Sprechanlage installiert. Große 7-Zoll-Displays, extra laute Lautsprecher und induktive Hörunterstützung sorgen für beste Verständigung.",
+          "Das System ist an das Pflege-Rufsystem angebunden: Im Notfall können Bewohner über die Sprechanlage direkt das Pflegepersonal erreichen. Die zentrale Verwaltung ermöglicht eine einfache Anpassung bei Bewohnerwechsel."
+        ],
+        "highlights": [
+          "Große 7-Zoll-Displays",
+          "Pflege-Rufsystem-Anbindung",
+          "Induktive Hörunterstützung",
+          "Einfache Bedienung"
+        ],
+        "systems": [
+          "TCS Barrierefreie Stationen",
+          "7-Zoll Video-Innenstationen",
+          "Pflege-Rufsystem-Kopplung",
+          "TCS:BUS-System"
+        ]
+      }
+    }
+  },
+  "root": {
+    "hero": {
+      "label": "TCS-Installationen in Anwendungsumfeldern",
+      "headline": "Anwendungen",
+      "intro": "TCS bietet die passende Lösung für jedes Gebäude, jede Anwendung und jede Branche – von Einzelsystemen bis zu großflächig vernetzten Projekten."
+    },
+    "card": {
+      "details": "Details"
+    },
+    "categories": {
+      "wohnen": {
+        "label": "Wohngebäude",
+        "subtitle": "Maßgeschneiderte Lösungen – vom Einfamilienhaus bis zur Großanlage",
+        "cards": {
+          "einfamilienhaus": {
+            "title": "Einfamilienhaus",
+            "description": "Komplettsysteme für Ein- und Zweifamilienhäuser – Audio, Video, App-Anbindung und Türöffnung.",
+            "tags": ["Audio/Video", "App", "Einzelsystem"]
+          },
+          "mehrfamilienhaus": {
+            "title": "Mehrfamilienhaus",
+            "description": "Skalierbare Sprechanlagen mit digitaler Zutrittsverwaltung für Wohnanlagen bis 50 Einheiten.",
+            "tags": ["Verwaltung", "BCM", "Video"]
+          },
+          "grossanlage": {
+            "title": "Großanlage",
+            "description": "IP-basierte Vernetzung, zentrale Zutrittskontrolle und snipdoo-Integration für große Wohnanlagen.",
+            "tags": ["IP", "Planung", "Zutritt"]
+          },
+          "sanierung": {
+            "title": "Sanierung / Bestand",
+            "description": "Vorhandene Verkabelung nutzen, snipdoo nachrüsten und bestehende Anlagen modernisieren.",
+            "tags": ["Bestandsanbindung", "snipdoo", "Austausch"]
+          }
+        }
+      },
+      "bildung": {
+        "label": "Bildungseinrichtungen",
+        "subtitle": "Sicherheit und Kommunikation für Schulen, Kitas und Wohnheime",
+        "cards": {
+          "schule": {
+            "title": "Schule",
+            "description": "Kontrollierter Zugang, Sprechanlage am Eingang und Sicherheitslösungen für Bildungseinrichtungen.",
+            "tags": ["Sicherheit", "Zutrittskontrolle", "Video"]
+          },
+          "kita": {
+            "title": "Kindertagesstätte",
+            "description": "Sicherheit, Barrierefreiheit und Digital Signage für Kindertagesstätten und Kindergärten.",
+            "tags": ["Sicherheit", "Barrierefreiheit", "Infoboards"]
+          },
+          "wohnheim": {
+            "title": "Wohnheim",
+            "description": "Bewohnerwechsel digital verwalten, Zutrittskontrolle und SIGNAGE für Studenten- und Personalwohnheime.",
+            "tags": ["Bewohnerwechsel", "Zutritt", "SIGNAGE"]
+          }
+        }
+      },
+      "gesundheit": {
+        "label": "Gesundheitseinrichtungen",
+        "subtitle": "Barrierefreie Lösungen für Pflegeheime, Kliniken und Betreutes Wohnen",
+        "cards": {
+          "pflege": {
+            "title": "Pflege / Betreutes Wohnen",
+            "description": "Barrierefreie Türkommunikation, Notruf-Integration und einfache Bedienung für Pflegeeinrichtungen.",
+            "tags": ["Barrierefreiheit", "Notruf", "BCM"]
+          },
+          "klinik": {
+            "title": "Klinik / Ärztehaus",
+            "description": "Rund-um-die-Uhr-Zutrittskontrolle, hygieneoptimierte Bedienung und Notfallzugang.",
+            "tags": ["Hygiene", "Zutritt", "Video"]
+          }
+        }
+      },
+      "oeffentlich": {
+        "label": "Öffentliche Einrichtungen",
+        "subtitle": "Sicherheit, Wegeleitung und Zutritt für Behörden und besondere Gebäude",
+        "cards": {
+          "behoerde": {
+            "title": "Behörden / Sonderbauten",
+            "description": "Erhöhte Sicherheitsanforderungen, Dokumentation und besondere Zugangsregelungen für öffentliche Gebäude.",
+            "tags": ["Sicherheit", "Orientierung", "Zutritt"]
+          },
+          "feuerwehr": {
+            "title": "Feuerwehr / Sonderbau",
+            "description": "Speziallösungen für Feuerwachen, Polizei und andere spezialisierte Dienstgebäude.",
+            "tags": ["Sonderlösungen", "Robustheit"]
+          },
+          "schwimmbad": {
+            "title": "Schwimmbad / Freizeit",
+            "description": "Schließfächer, Wegeleitsysteme und Zutrittskontrolle für Bäder und Freizeitanlagen.",
+            "tags": ["Schließfächer", "Orientierung", "Zutritt"]
+          }
+        }
+      },
+      "uebergreifend": {
+        "label": "Übergreifende Lösungen",
+        "subtitle": "Systemübergreifende Lösungen für alle Gebäudetypen",
+        "cards": {
+          "mobile": {
+            "title": "Mobile Türkommunikation",
+            "description": "Türrufe auf dem Smartphone, Cloud-Anbindung und snipdoo-Integration für mobile Erreichbarkeit.",
+            "tags": ["TCS:APP", "Cloud", "snipdoo"]
+          },
+          "bcm": {
+            "title": "Zutrittskontrolle / BCM",
+            "description": "Digitale Zutrittsverwaltung mit RFID, PIN, Fingerprint und zentraler Cloud-Steuerung.",
+            "tags": ["RFID", "PIN", "Verwaltung"]
+          },
+          "signage": {
+            "title": "SIGNAGE",
+            "description": "Piktogramme, Hausnummern, Türschilder und Digital Signage in Edelstahl und Aluminium.",
+            "tags": ["Piktogramme", "Hausnummern", "Türschilder"]
+          },
+          "entry": {
+            "title": "ENTRY",
+            "description": "Integrierte Eingangssysteme mit Briefkasten, Sprechanlage und architektonischem Design.",
+            "tags": ["Design", "Material", "Integration"]
+          },
+          "snipdoo": {
+            "title": "snipdoo® IP",
+            "description": "IP-Türkommunikation mit Cloud, Fernverwaltung und weltweitem mobilem Einsatz.",
+            "tags": ["Cloud", "IP", "Home App"]
+          }
+        }
+      }
+    },
+    "systemfunktionen": {
+      "label": "Systemfunktionen",
+      "headline": "Systemfunktionen",
+      "subtitle": "Gewerkeübergreifende Lösungsmodule, die in jedem Projekt eingesetzt werden können.",
+      "cards": {
+        "concierge": {
+          "title": "Concierge & Schrankensteuerung",
+          "description": "Zentrale Empfangs- und Pförtnerlösungen mit Tor- und Schrankensteuerung – für Großprojekte, Wohnanlagen und Gewerbebauten.",
+          "tags": ["Pförtnerplatz", "Schrankensteuerung", "Videoüberwachung"]
+        },
+        "interneKommunikation": {
+          "title": "Interne Kommunikation & Türautomation",
+          "description": "Raum-zu-Raum-Kommunikation, Durchsagefunktionen und automatisierte Türöffnung – direkt im TCS-System integriert.",
+          "tags": ["Raum-zu-Raum", "Durchsagen", "Türautomation"]
+        },
+        "namensverwaltung": {
+          "title": "Digitale Namensverwaltung",
+          "description": "Mieterwechsel ohne Techniker – digitale Namensschilder und zentrale Verwaltung für Außenstationen.",
+          "tags": ["Digitales Namensschild", "Cloud", "Mieterwechsel"]
+        },
+        "feuerwehrdurchsage": {
+          "title": "Feuerwehrdurchsage",
+          "description": "Normgerechte Feuerwehrdurchsagen über das TCS-System – direkte Kommunikation mit allen Wohnungen im Brandfall.",
+          "tags": ["Normkonform", "Alle Einheiten", "Schlüsselschalter"]
+        },
+        "bidirektionalesVideo": {
+          "title": "Bidirektionale Video-Gegensprechanlage",
+          "description": "Zwei-Wege-Videokommunikation an der Tür – barrierefreie Verständigung per Gebärdensprache und Lippenlesen.",
+          "tags": ["Barrierefreiheit", "Gebärdensprache", "Zwei-Wege-Video"]
+        }
+      }
+    },
+    "referenzen": {
+      "label": "Referenzprojekte",
+      "headline": "Referenzprojekte",
+      "subtitle": "Realisierte Projekte mit TCS-Systemen – von Stadthäusern bis Großanlagen.",
+      "projekte": {
+        "pulse-berlin": {
+          "title": "PULSE, Berlin",
+          "type": "Gewerbeneubau"
+        },
+        "weidt-park-corner": {
+          "title": "Weidt Park Corner, Berlin Mitte",
+          "type": "Wohnanlage"
+        },
+        "fritztower": {
+          "title": "Fritztower, Berlin",
+          "type": "Hochhaus"
+        },
+        "haupttelegraphenamt": {
+          "title": "Haupttelegraphenamt, Berlin",
+          "type": "Denkmal / Sanierung"
+        },
+        "spichern-2": {
+          "title": "Spichern 2, Berlin",
+          "type": "Wohn- und Geschäftshaus"
+        },
+        "thulestrasse": {
+          "title": "Thulestraße, Berlin",
+          "type": "Mehrfamilienhaus"
+        }
+      }
+    }
+  }
+}

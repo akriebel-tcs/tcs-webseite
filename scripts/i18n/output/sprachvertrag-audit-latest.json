@@ -1,0 +1,832 @@
+{
+  "sourceLocale": "de",
+  "targetLocales": [
+    "en",
+    "pl"
+  ],
+  "missingKeys": [
+    {
+      "locale": "pl",
+      "namespace": "home",
+      "key": "contentBlocks.cta",
+      "file": "src/components/ContentBlockItem.tsx",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "home",
+      "key": "contentBlocks.headline",
+      "file": "src/components/ContentBlocks.tsx",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "home",
+      "key": "contentBlocks.intro",
+      "file": "src/components/ContentBlocks.tsx",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "home",
+      "key": "contentBlocks.cta",
+      "file": "src/components/ContentBlocks.tsx",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "home",
+      "key": "contentBlocks.headline",
+      "file": "src/components/ContentBlocksIntro.tsx",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "home",
+      "key": "contentBlocks.intro",
+      "file": "src/components/ContentBlocksIntro.tsx",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "home",
+      "key": "hero.eyebrow",
+      "file": "src/components/HeroSection.tsx",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "home",
+      "key": "hero.headline",
+      "file": "src/components/HeroSection.tsx",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "home",
+      "key": "hero.intro",
+      "file": "src/components/HeroSection.tsx",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "home",
+      "key": "hero.imageAlt",
+      "file": "src/components/HeroSection.tsx",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "home",
+      "key": "personas.headline",
+      "file": "src/components/PersonaSection.tsx",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "home",
+      "key": "personas.intro",
+      "file": "src/components/PersonaSection.tsx",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "home",
+      "key": "personas.cta",
+      "file": "src/components/PersonaSection.tsx",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "anwendungen",
+      "key": "shared.sections.anforderungen",
+      "file": "src/features/anwendungen/components/AnwendungDetailPage.tsx",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "anwendungen",
+      "key": "shared.subtitles.anforderungenForHeadline",
+      "file": "src/features/anwendungen/components/AnwendungDetailPage.tsx",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "anwendungen",
+      "key": "shared.labels.leistungen",
+      "file": "src/features/anwendungen/components/AnwendungDetailPage.tsx",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "anwendungen",
+      "key": "shared.sections.systemleistungen",
+      "file": "src/features/anwendungen/components/AnwendungDetailPage.tsx",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "anwendungen",
+      "key": "shared.sections.systembausteine",
+      "file": "src/features/anwendungen/components/AnwendungDetailPage.tsx",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "anwendungen",
+      "key": "shared.subtitles.systembausteine",
+      "file": "src/features/anwendungen/components/AnwendungDetailPage.tsx",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "gebaeudekommunikation",
+      "key": "tuersprechanlagen.ueberblick.label",
+      "file": "src/features/gebaeudekommunikation/pages/TuersprechanlagenPage.tsx",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "gebaeudekommunikation",
+      "key": "tuersprechanlagen.ueberblick.title",
+      "file": "src/features/gebaeudekommunikation/pages/TuersprechanlagenPage.tsx",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "gebaeudekommunikation",
+      "key": "tuersprechanlagen.ueberblick.p1",
+      "file": "src/features/gebaeudekommunikation/pages/TuersprechanlagenPage.tsx",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "gebaeudekommunikation",
+      "key": "tuersprechanlagen.ueberblick.p2",
+      "file": "src/features/gebaeudekommunikation/pages/TuersprechanlagenPage.tsx",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "gebaeudekommunikation",
+      "key": "tuersprechanlagen.aussenstationen.label",
+      "file": "src/features/gebaeudekommunikation/pages/TuersprechanlagenPage.tsx",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "gebaeudekommunikation",
+      "key": "tuersprechanlagen.aussenstationen.title",
+      "file": "src/features/gebaeudekommunikation/pages/TuersprechanlagenPage.tsx",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "gebaeudekommunikation",
+      "key": "tuersprechanlagen.aussenstationen.description",
+      "file": "src/features/gebaeudekommunikation/pages/TuersprechanlagenPage.tsx",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "gebaeudekommunikation",
+      "key": "tuersprechanlagen.innenstationen.label",
+      "file": "src/features/gebaeudekommunikation/pages/TuersprechanlagenPage.tsx",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "gebaeudekommunikation",
+      "key": "tuersprechanlagen.innenstationen.title",
+      "file": "src/features/gebaeudekommunikation/pages/TuersprechanlagenPage.tsx",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "gebaeudekommunikation",
+      "key": "tuersprechanlagen.innenstationen.description",
+      "file": "src/features/gebaeudekommunikation/pages/TuersprechanlagenPage.tsx",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "gebaeudekommunikation",
+      "key": "tuersprechanlagen.vorteile.label",
+      "file": "src/features/gebaeudekommunikation/pages/TuersprechanlagenPage.tsx",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "gebaeudekommunikation",
+      "key": "tuersprechanlagen.vorteile.title",
+      "file": "src/features/gebaeudekommunikation/pages/TuersprechanlagenPage.tsx",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "gebaeudekommunikation",
+      "key": "tuersprechanlagen.anwendungsumfelder.label",
+      "file": "src/features/gebaeudekommunikation/pages/TuersprechanlagenPage.tsx",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "gebaeudekommunikation",
+      "key": "tuersprechanlagen.anwendungsumfelder.title",
+      "file": "src/features/gebaeudekommunikation/pages/TuersprechanlagenPage.tsx",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "gebaeudekommunikation",
+      "key": "tuersprechanlagen.anwendungsumfelder.learnMore",
+      "file": "src/features/gebaeudekommunikation/pages/TuersprechanlagenPage.tsx",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "gebaeudekommunikation",
+      "key": "tuersprechanlagen.hero.label",
+      "file": "src/features/gebaeudekommunikation/pages/TuersprechanlagenPage.tsx",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "gebaeudekommunikation",
+      "key": "tuersprechanlagen.hero.headline",
+      "file": "src/features/gebaeudekommunikation/pages/TuersprechanlagenPage.tsx",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "gebaeudekommunikation",
+      "key": "tuersprechanlagen.hero.intro",
+      "file": "src/features/gebaeudekommunikation/pages/TuersprechanlagenPage.tsx",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.produkte",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.eingangsloesungen",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.installation-wartung",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.beratung-schulung",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.garantie-sicherheit",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.konfiguratoren",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.planungshilfen",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.datenblaetter-software",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.tuerkommunikation",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.tuersprechanlagen",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.briefkastenanlagen",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.beschilderung",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.grossanlagen",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.systemloesungen",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.zutrittskontrolle",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.elektronische-drueckergarnitur",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.elektronischer-knaufzylinder",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.funkvernetzte-offline-leser",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.bcm-online-leser",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.bcm-handsender",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.vorhaengeschloss",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.mobiler-zutritt",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.fahrstuhlsteuerung",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.zufahrten-parkplaetze",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.gebaeudemanagement",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.digitale-namensanzeige",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.digital-signage",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.reservieren-buchen",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.schraenke-behaelter",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.alarmanlagenkopplung",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.entry-system",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.design",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.funktionalitaet",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.material",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.integrationsformen",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.referenzen",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.standards",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.beratung",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.signage",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.anwendungen",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.objektloesungen",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.bildungseinrichtungen",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.einfamilienhaus",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.mehrfamilienhaus",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.grossanlage",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.sanierung",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.pflege",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.klinik",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.behoerde",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.feuerwehr",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.schwimmbad",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.concierge",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.interne-kommunikation",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.digitale-namensverwaltung",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.feuerwehrdurchsage",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.bewohnerinformation-im-sonderfall",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.bidirektionale-video",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.mobile-tuerkommunikation",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.zutrittskontrolle-bcm",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.wohnbau",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.gesundheitseinrichtungen",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.oeffentliche-hand",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.referenzprojekte",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.systemtechnik",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.gebaeudekommunikation",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.snipdoo-ip",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.kontakt",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.karriere",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.presse",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.ueber-tcs",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.online-produktkatalog",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.planen-konfigurieren",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.downloads",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.technischer-support",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.akademie",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.ersatzteile",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.serviceportal",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.passwort-vergessen",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    },
+    {
+      "locale": "pl",
+      "namespace": "navigation",
+      "key": "breadcrumb.segments.registrieren",
+      "file": "src/i18n/locales/<locale>/navigation.json",
+      "binding": "cms"
+    }
+  ],
+  "literals": [],
+  "allowlisted": [],
+  "filesScanned": 173,
+  "bundledLocales": [
+    "de",
+    "en",
+    "pl"
+  ],
+  "configDrift": [],
+  "hardMissing": 0,
+  "softMissing": 116
+}

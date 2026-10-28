@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 8%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 8%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 8%;
+
+    --primary: 0 0% 8%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 0 0% 96%;
+    --secondary-foreground: 0 0% 8%;
+
+    --muted: 0 0% 96%;
+    --muted-foreground: 0 0% 45%;
+
+    --accent: 0 0% 8%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 0 0% 90%;
+    --input: 0 0% 90%;
+    --ring: 0 0% 8%;
+
+    --radius: 0rem;
+
+    /* Custom TCS tokens */
+    --warm: 30 8% 97%;
+    --warm-dark: 30 6% 93%;
+    --highlight: 38 65% 50%;
+
+    --shadow-card: 0 1px 3px hsl(0 0% 0% / 0.04), 0 4px 12px hsl(0 0% 0% / 0.03);
+    --shadow-elevated: 0 4px 20px hsl(0 0% 0% / 0.08), 0 12px 40px hsl(0 0% 0% / 0.05);
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading;
+  }
+}
+
+@layer utilities {
+  .bg-warm {
+    background-color: hsl(var(--warm));
+  }
+
+  .bg-warm-dark {
+    background-color: hsl(var(--warm-dark));
+  }
+
+  .text-highlight {
+    color: hsl(var(--highlight));
+  }
+
+  .shadow-card {
+    box-shadow: var(--shadow-card);
+  }
+
+  .shadow-elevated {
+    box-shadow: var(--shadow-elevated);
+  }
+
+  /* Einheitlicher Grauwert für alle Hintergrund-Einstellungen "muted".
+     Entspricht dem Grauwert der Wechselteaser (10 % Schwarz, bg-black/10). */
+  .bg-section-muted {
+    background-color: rgb(0 0 0 / 0.1);
+  }
+}
+/* Wohneinheiten-Filter: Spin-Buttons dauerhaft sichtbar (statt nur bei Hover/Focus) */
+.catalog-we-input {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+.catalog-we-input::-webkit-outer-spin-button,
+.catalog-we-input::-webkit-inner-spin-button {
+  -webkit-appearance: inner-spin-button;
+  appearance: auto;
+  opacity: 1;
+  margin: 0;
+}
+.catalog-we-input {
+  -moz-appearance: number-input;
+  appearance: auto;
+}
+
+/* N-025 / P-049 Gebäudemanagement-Startseite (A-1039):
+   Hero-Bild auf Desktop rechts-mittig fixieren; Tablet/Mobil unverändert. */
+@media (min-width: 1024px) {
+  [data-cms-page="gebaeudemanagement.root"] section picture img,
+  [data-cms-page="gebaeudemanagement.root"] section > img {
+    object-position: right center;
+  }
+}
+
+/* N-003 / P-010 Zutrittskontrolle-Startseite (A-1058):
+   Hero-Bild auf Desktop rechts-mittig fixieren; Tablet/Mobil unverändert. */
+@media (min-width: 1024px) {
+  [data-cms-page="zutrittskontrolle.root"] section picture img,
+  [data-cms-page="zutrittskontrolle.root"] section > img {
+    object-position: right center;
+  }
+}
+
+/* N-001 / P-055 Anwendungen-Startseite (A-1024):
+   Hero-Bild auf Desktop links-mittig fixieren; Tablet/Mobil unverändert. */
+@media (min-width: 1024px) {
+  [data-cms-page="anwendungen.root"] section picture img,
+  [data-cms-page="anwendungen.root"] section > img {
+    object-position: left center;
+  }
+}
+
+/* N-041 / P-004 Türsprechanlagen (A-1070):
+   Hero-Bild auf Desktop links-mittig fixieren; Tablet/Mobil unverändert.
+   Die Desktop-Höhe erzwingt bei diesem sehr breiten Asset einen horizontalen
+   Cover-Crop, damit der linke Fixierungspunkt sichtbar wirksam wird. */
+@media (min-width: 1024px) {
+  [data-cms-page="gebaeudekommunikation.tuersprechanlagen"] [data-cms-section="hero"] picture img,
+  [data-cms-page="gebaeudekommunikation.tuersprechanlagen"] [data-cms-section="hero"] > img {
+    height: clamp(460px, 64vh, 720px);
+    object-position: left center !important;
+  }
+}
+
+
+
